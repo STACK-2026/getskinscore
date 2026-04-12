@@ -8,117 +8,307 @@ const otherLabel = locale === "en" ? "FR" : "EN";
 const otherPath = locale === "en"
   ? `/fr${Astro.url.pathname === "/" ? "/" : Astro.url.pathname}`
   : Astro.url.pathname.replace(/^\/fr/, "") || "/";
+
+const navLinks = [
+  { href: "/rankings", label: t(tr.nav.rankings, locale) },
+  { href: "/compare", label: t(tr.nav.compare, locale) },
+  { href: "/encyclopedia", label: t(tr.nav.ingredients, locale) },
+  { href: "/methodology", label: t(tr.nav.methodology, locale) },
+  { href: "/blog", label: t(tr.blog.title, locale) },
+];
 ---
 
-<header
-  id="site-header"
-  class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
->
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 py-3">
-    <div class="flex items-center justify-between rounded-2xl bg-white/80 backdrop-blur-xl border border-slate-200/60 shadow-sm px-5 py-2.5">
+<!-- Glass header -->
+<header id="site-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out">
+  <nav class="si-header">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
       <!-- Logo -->
-      <a href={localizedPath("/", locale)} class="flex items-center gap-2.5 group">
-        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-violet-600 to-indigo-600 flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow">
+      <a href={localizedPath("/", locale)} class="flex items-center gap-2.5 group shrink-0">
+        <div class="si-logo-icon">
           <svg viewBox="0 0 24 24" class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2">
             <circle cx="12" cy="12" r="3" />
             <path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
           </svg>
         </div>
         <span class="text-lg font-extrabold tracking-tight">
-          <span class="text-gradient">Skin</span><span class="text-slate-800">Score</span>
+          <span class="text-violet-600">Skin</span><span class="text-slate-800">Score</span>
         </span>
       </a>
 
       <!-- Desktop nav -->
-      <nav class="hidden md:flex items-center gap-1">
-        {siteConfig.navLinks.map((link) => (
-          <a
-            href={localizedPath(link.href, locale)}
-            class="px-3 py-1.5 text-sm font-medium text-slate-600 hover:text-violet-700 rounded-lg hover:bg-violet-50 transition-colors"
-          >
-            {t({ en: link.label, fr: link.label === "Home" ? "Accueil" : link.label === "Rankings" ? "Classement" : link.label === "Compare" ? "Comparer" : link.label === "Ingredients" ? "Ingredients" : link.label === "Methodology" ? "Methodologie" : link.label }, locale)}
+      <div class="hidden lg:flex items-center gap-1">
+        {navLinks.map((link) => (
+          <a href={localizedPath(link.href, locale)} class="si-nav-link">
+            {link.label}
           </a>
         ))}
-      </nav>
+      </div>
 
       <!-- Right side -->
       <div class="flex items-center gap-3">
-        <!-- Lang switcher -->
-        <a
-          href={otherPath}
-          class="text-xs font-bold px-2.5 py-1 rounded-full border border-slate-200 text-slate-500 hover:border-violet-300 hover:text-violet-600 transition-colors"
-        >
-          {otherLabel}
-        </a>
+        <a href={otherPath} class="si-lang-switch">{otherLabel}</a>
 
-        <!-- CTA -->
-        <a
-          href={localizedPath("/rankings", locale)}
-          class="hidden sm:inline-flex btn-primary text-sm !px-4 !py-2"
-        >
-          {t(tr.nav.getScore, locale)}
+        <a href={localizedPath("/rankings", locale)} class="hidden sm:inline-flex si-cta-btn">
+          {t(tr.hero.cta, locale)}
         </a>
 
         <!-- Mobile menu button -->
-        <button
-          id="mobile-menu-btn"
-          class="md:hidden p-2 rounded-lg hover:bg-slate-100 transition-colors"
-          aria-label="Menu"
-        >
-          <svg class="w-5 h-5 text-slate-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <button id="mobile-menu-btn" class="lg:hidden si-mobile-btn" aria-label="Menu">
+          <svg id="menu-icon-open" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" />
+          </svg>
+          <svg id="menu-icon-close" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M18 6L6 18M6 6l12 12" stroke-linecap="round" />
           </svg>
         </button>
       </div>
     </div>
-  </div>
+  </nav>
 
-  <!-- Mobile nav -->
-  <div id="mobile-menu" class="hidden md:hidden mx-4 mt-1">
-    <div class="rounded-2xl bg-white/95 backdrop-blur-xl border border-slate-200/60 shadow-lg p-4 space-y-1">
-      {siteConfig.navLinks.map((link) => (
-        <a
-          href={localizedPath(link.href, locale)}
-          class="block px-4 py-2.5 text-sm font-medium text-slate-700 hover:text-violet-700 hover:bg-violet-50 rounded-xl transition-colors"
-        >
-          {t({ en: link.label, fr: link.label === "Home" ? "Accueil" : link.label === "Rankings" ? "Classement" : link.label === "Compare" ? "Comparer" : link.label === "Ingredients" ? "Ingredients" : link.label === "Methodology" ? "Methodologie" : link.label }, locale)}
+  <!-- Mobile drawer (slide from right, glass effect) -->
+  <div id="mobile-overlay" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-40 hidden opacity-0 transition-opacity duration-300 lg:hidden"></div>
+  <div id="mobile-drawer" class="fixed top-0 right-0 bottom-0 w-80 max-w-[85vw] z-50 translate-x-full transition-transform duration-300 ease-out lg:hidden">
+    <div class="si-drawer h-full flex flex-col">
+      <!-- Drawer header -->
+      <div class="flex items-center justify-between p-5 border-b border-white/10">
+        <span class="text-lg font-extrabold">
+          <span class="text-violet-400">Skin</span><span class="text-white">Score</span>
+        </span>
+        <button id="drawer-close" class="p-2 rounded-xl hover:bg-white/10 transition-colors">
+          <svg class="w-5 h-5 text-white/70" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M18 6L6 18M6 6l12 12" stroke-linecap="round" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Drawer nav -->
+      <div class="flex-1 overflow-y-auto p-5 space-y-1">
+        <a href={localizedPath("/", locale)} class="si-drawer-link">
+          {t(tr.nav.home, locale)}
         </a>
-      ))}
-      <a
-        href={localizedPath("/rankings", locale)}
-        class="block text-center btn-primary text-sm mt-2"
-      >
-        {t(tr.nav.getScore, locale)}
-      </a>
+        {navLinks.map((link) => (
+          <a href={localizedPath(link.href, locale)} class="si-drawer-link">
+            {link.label}
+          </a>
+        ))}
+      </div>
+
+      <!-- Drawer footer -->
+      <div class="p-5 border-t border-white/10 space-y-3">
+        <a href={localizedPath("/rankings", locale)} class="si-cta-btn w-full justify-center">
+          {t(tr.hero.cta, locale)}
+        </a>
+        <a href={otherPath} class="block text-center text-sm text-white/50 hover:text-white/80 transition-colors">
+          {locale === "fr" ? "Switch to English" : "Passer en francais"}
+        </a>
+      </div>
     </div>
   </div>
 </header>
 
-<!-- Spacer for fixed header -->
+<!-- Spacer -->
 <div class="h-16"></div>
 
-<script is:inline>
-  // Mobile menu toggle
-  (function () {
-    var btn = document.getElementById("mobile-menu-btn");
-    var menu = document.getElementById("mobile-menu");
-    if (!btn || !menu) return;
-    btn.addEventListener("click", function () {
-      menu.classList.toggle("hidden");
-    });
-  })();
+<style>
+  /* Glass header */
+  .si-header {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+  }
 
-  // Header scroll effect
+  /* Logo icon */
+  .si-logo-icon {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.625rem;
+    background: linear-gradient(135deg, #7C3AED, #4F46E5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px -2px rgba(124, 58, 237, 0.4);
+    transition: box-shadow 0.3s ease;
+  }
+
+  .group:hover .si-logo-icon {
+    box-shadow: 0 4px 16px -4px rgba(124, 58, 237, 0.6);
+  }
+
+  /* Nav links with underline animation */
+  .si-nav-link {
+    position: relative;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #475569;
+    transition: color 0.2s ease;
+    text-decoration: none;
+  }
+
+  .si-nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0.75rem;
+    right: 0.75rem;
+    height: 2px;
+    background: linear-gradient(90deg, #7C3AED, #4F46E5);
+    border-radius: 2px;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .si-nav-link:hover {
+    color: #7C3AED;
+  }
+
+  .si-nav-link:hover::after {
+    transform: scaleX(1);
+  }
+
+  /* Lang switch */
+  .si-lang-switch {
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.25rem 0.625rem;
+    border-radius: 9999px;
+    border: 1.5px solid #e2e8f0;
+    color: #64748b;
+    transition: all 0.2s ease;
+    text-decoration: none;
+  }
+
+  .si-lang-switch:hover {
+    border-color: #7C3AED;
+    color: #7C3AED;
+    background: rgba(124, 58, 237, 0.04);
+  }
+
+  /* CTA button */
+  .si-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    padding: 0.5rem 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(135deg, #7C3AED, #4F46E5);
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px -2px rgba(124, 58, 237, 0.4);
+    transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    text-decoration: none;
+  }
+
+  .si-cta-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px -4px rgba(124, 58, 237, 0.5);
+  }
+
+  /* Mobile button */
+  .si-mobile-btn {
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    color: #475569;
+    transition: all 0.2s ease;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .si-mobile-btn:hover {
+    background: rgba(124, 58, 237, 0.06);
+    color: #7C3AED;
+  }
+
+  /* Mobile drawer (glass, dark) */
+  .si-drawer {
+    background: rgba(15, 23, 42, 0.92);
+    backdrop-filter: blur(24px) saturate(180%);
+    -webkit-backdrop-filter: blur(24px) saturate(180%);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1.5rem 0 0 1.5rem;
+  }
+
+  .si-drawer-link {
+    display: block;
+    padding: 0.875rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 0.75rem;
+    transition: all 0.2s ease;
+    text-decoration: none;
+  }
+
+  .si-drawer-link:hover {
+    color: white;
+    background: rgba(124, 58, 237, 0.15);
+  }
+
+  /* Scroll behavior */
+  .header-hidden {
+    transform: translateY(-100%);
+  }
+
+  .header-scrolled .si-header {
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06), 0 8px 24px -8px rgba(124, 58, 237, 0.06);
+  }
+</style>
+
+<script is:inline>
   (function () {
     var header = document.getElementById("site-header");
-    if (!header) return;
+    var btn = document.getElementById("mobile-menu-btn");
+    var overlay = document.getElementById("mobile-overlay");
+    var drawer = document.getElementById("mobile-drawer");
+    var closeBtn = document.getElementById("drawer-close");
+    var iconOpen = document.getElementById("menu-icon-open");
+    var iconClose = document.getElementById("menu-icon-close");
+
+    var isOpen = false;
+
+    function openDrawer() {
+      isOpen = true;
+      overlay.classList.remove("hidden");
+      requestAnimationFrame(function () {
+        overlay.classList.remove("opacity-0");
+        drawer.classList.remove("translate-x-full");
+      });
+      iconOpen.classList.add("hidden");
+      iconClose.classList.remove("hidden");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeDrawer() {
+      isOpen = false;
+      overlay.classList.add("opacity-0");
+      drawer.classList.add("translate-x-full");
+      setTimeout(function () { overlay.classList.add("hidden"); }, 300);
+      iconOpen.classList.remove("hidden");
+      iconClose.classList.add("hidden");
+      document.body.style.overflow = "";
+    }
+
+    btn.addEventListener("click", function () { isOpen ? closeDrawer() : openDrawer(); });
+    overlay.addEventListener("click", closeDrawer);
+    closeBtn.addEventListener("click", closeDrawer);
+
+    // Header scroll hide/show
     var lastY = 0;
     window.addEventListener("scroll", function () {
       var y = window.scrollY;
-      if (y > 80 && y > lastY) {
-        header.style.transform = "translateY(-100%)";
+      if (y > 80 && y > lastY && !isOpen) {
+        header.classList.add("header-hidden");
       } else {
-        header.style.transform = "translateY(0)";
+        header.classList.remove("header-hidden");
+      }
+      if (y > 20) {
+        header.classList.add("header-scrolled");
+      } else {
+        header.classList.remove("header-scrolled");
       }
       lastY = y;
     }, { passive: true });
