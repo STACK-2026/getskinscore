@@ -1,26 +1,11 @@
-/* === SkinScore Animations === */
+/* === SkinScore Animations (Stripe/Linear-inspired: subtle, purposeful) === */
 
-/* Score counter reveal */
-@keyframes countUp {
-  from { opacity: 0; transform: scale(0.8); }
-  to { opacity: 1; transform: scale(1); }
-}
-
-.animate-count-up {
-  animation: countUp 600ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
-}
-
-/* Fade in up (scroll reveal) */
-@keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(24px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
+/* Scroll reveal - gentle, not dramatic */
 .reveal {
   opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 600ms cubic-bezier(0.2, 0.8, 0.2, 1),
-    transform 600ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  transform: translateY(16px);
+  transition: opacity 500ms cubic-bezier(0.25, 0.1, 0.25, 1),
+    transform 500ms cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .reveal.visible {
@@ -28,61 +13,49 @@
   transform: translateY(0);
 }
 
-/* Staggered children */
+/* Staggered children - tighter delays */
 .reveal-children > * {
   opacity: 0;
-  transform: translateY(16px);
-  transition: opacity 400ms ease, transform 400ms ease;
+  transform: translateY(12px);
+  transition: opacity 400ms cubic-bezier(0.25, 0.1, 0.25, 1),
+    transform 400ms cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .reveal-children.visible > *:nth-child(1) { transition-delay: 0ms; opacity: 1; transform: translateY(0); }
-.reveal-children.visible > *:nth-child(2) { transition-delay: 80ms; opacity: 1; transform: translateY(0); }
-.reveal-children.visible > *:nth-child(3) { transition-delay: 160ms; opacity: 1; transform: translateY(0); }
-.reveal-children.visible > *:nth-child(4) { transition-delay: 240ms; opacity: 1; transform: translateY(0); }
-.reveal-children.visible > *:nth-child(5) { transition-delay: 320ms; opacity: 1; transform: translateY(0); }
-.reveal-children.visible > *:nth-child(6) { transition-delay: 400ms; opacity: 1; transform: translateY(0); }
+.reveal-children.visible > *:nth-child(2) { transition-delay: 60ms; opacity: 1; transform: translateY(0); }
+.reveal-children.visible > *:nth-child(3) { transition-delay: 120ms; opacity: 1; transform: translateY(0); }
+.reveal-children.visible > *:nth-child(4) { transition-delay: 180ms; opacity: 1; transform: translateY(0); }
+.reveal-children.visible > *:nth-child(5) { transition-delay: 240ms; opacity: 1; transform: translateY(0); }
+.reveal-children.visible > *:nth-child(6) { transition-delay: 300ms; opacity: 1; transform: translateY(0); }
 
-/* Grade pulse */
+/* Grade pulse - subtle, not aggressive */
 @keyframes gradePulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgb(124 58 237 / 0.4); }
-  50% { box-shadow: 0 0 0 12px rgb(124 58 237 / 0); }
+  0%, 100% { box-shadow: 0 0 0 0 rgb(124 58 237 / 0.2); }
+  50% { box-shadow: 0 0 0 6px rgb(124 58 237 / 0); }
 }
 
 .grade-pulse {
-  animation: gradePulse 2s ease-in-out infinite;
+  animation: gradePulse 3s ease-in-out infinite;
 }
 
-/* Ingredient glow on hover */
-@keyframes ingredientGlow {
-  0% { box-shadow: 0 0 0 0 rgb(124 58 237 / 0); }
-  100% { box-shadow: 0 0 16px -2px rgb(124 58 237 / 0.15); }
-}
-
-.ingredient-glow:hover {
-  animation: ingredientGlow 300ms ease forwards;
-}
-
-/* Molecule float (hero background) */
+/* Molecule float (hero background) - slower, calmer */
 @keyframes moleculeFloat {
-  0%, 100% { transform: translateY(0) rotate(0deg); }
-  25% { transform: translateY(-8px) rotate(2deg); }
-  75% { transform: translateY(4px) rotate(-1deg); }
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
 }
 
 .molecule-float {
-  animation: moleculeFloat 6s ease-in-out infinite;
+  animation: moleculeFloat 8s ease-in-out infinite;
 }
 
-/* Shimmer loading */
-@keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+/* Score counter reveal */
+.animate-count-up {
+  animation: countUp 500ms cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
 }
 
-.shimmer {
-  background: linear-gradient(90deg, var(--color-bg-soft) 25%, #e2e8f0 50%, var(--color-bg-soft) 75%);
-  background-size: 200% 100%;
-  animation: shimmer 1.5s ease-in-out infinite;
+@keyframes countUp {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
 }
 
 /* Reduced motion */
