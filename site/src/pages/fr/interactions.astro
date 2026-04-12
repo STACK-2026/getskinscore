@@ -1,0 +1,102 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { siteConfig } from "../../../site.config";
+import { fullUrl } from "../../utils/config";
+import { jsonLdBreadcrumbs } from "../../utils/seo";
+import { getLocale, t, localizedPath } from "../../i18n/t";
+
+const locale = getLocale(Astro.url);
+const breadcrumbs = [
+  { name: locale === "fr" ? "Accueil" : "Home", url: fullUrl(localizedPath("/", locale)) },
+  { name: locale === "fr" ? "Interactions" : "Interactions", url: fullUrl(localizedPath("/interactions", locale)) },
+];
+
+// Interaction matrix
+const interactions = [
+  { a: "Retinol", b: "Vitamin C", status: "ok", en: "Safe together. The myth that they cancel each other out was debunked. A 1960s study used extreme conditions impossible in modern skincare. You can use both in the same routine.", fr: "Surs ensemble. Le mythe qu'ils s'annulent est dementi. Une etude des annees 60 utilisait des conditions extremes impossibles en skincare moderne. Tu peux utiliser les deux dans la meme routine." },
+  { a: "Retinol", b: "AHA/Glycolic Acid", status: "caution", en: "Avoid same night for beginners. Both exfoliate and can cause irritation when combined. Advanced users: alternate nights. Beginners: choose one per evening.", fr: "Eviter le meme soir pour les debutants. Les deux exfolient et peuvent irriter en combinaison. Utilisateurs avances : alterner les soirs. Debutants : en choisir un seul par soir." },
+  { a: "Retinol", b: "BHA/Salicylic Acid", status: "caution", en: "Use on different nights or different times of day. BHA in AM, retinol in PM works well. Using both at the same time can over-exfoliate and damage the barrier.", fr: "Utiliser des soirs differents ou a des moments differents. BHA le matin, retinol le soir fonctionne bien. Les deux en meme temps peut sur-exfolier et abimer la barriere." },
+  { a: "Retinol", b: "Niacinamide", status: "ok", en: "Excellent combination. Niacinamide actually helps buffer retinol irritation and supports barrier function. Many dermatologists recommend using them together.", fr: "Excellente combinaison. Le niacinamide aide a tamponner l'irritation du retinol et soutient la barriere. Beaucoup de dermatologues recommandent de les utiliser ensemble." },
+  { a: "Retinol", b: "Benzoyl Peroxide", status: "avoid", en: "Avoid together. Benzoyl peroxide can degrade retinol on contact, making it ineffective. Use BP in the morning and retinol at night if you need both.", fr: "Eviter ensemble. Le peroxyde de benzoyle peut degrader le retinol au contact, le rendant inefficace. Utilise le PB le matin et le retinol le soir si tu as besoin des deux." },
+  { a: "Retinol", b: "Hyaluronic Acid", status: "ok", en: "Perfect pairing. HA hydrates while retinol treats. Apply HA on damp skin first, then retinol. The hydration helps buffer potential dryness from retinol.", fr: "Duo parfait. Le HA hydrate pendant que le retinol traite. Applique le HA sur peau humide d'abord, puis le retinol. L'hydratation tamponner la secheresse potentielle." },
+  { a: "Vitamin C", b: "Niacinamide", status: "ok", en: "Safe and beneficial together. The myth they cancel out is completely debunked. Many products contain both. They complement each other for brightening and barrier support.", fr: "Surs et benefiques ensemble. Le mythe qu'ils s'annulent est completement dementi. Beaucoup de produits contiennent les deux. Ils se complementent pour l'eclat et la barriere." },
+  { a: "Vitamin C", b: "AHA/Glycolic Acid", status: "caution", en: "Can be used together but both are at low pH - potential for irritation. If your skin tolerates acids well, fine. For sensitive skin, use vitamin C in AM and AHA in PM.", fr: "Peuvent etre utilises ensemble mais les deux sont a pH bas - risque d'irritation. Si ta peau tolere bien les acides, OK. Pour peau sensible, vitamine C le matin et AHA le soir." },
+  { a: "Vitamin C", b: "SPF", status: "synergy", en: "SYNERGY! Vitamin C enhances SPF photoprotection by up to 8x (with vitamin E and ferulic acid). Always use vitamin C under SPF in the morning for maximum protection.", fr: "SYNERGIE ! La vitamine C ameliore la photoprotection du SPF jusqu'a 8x (avec vitamine E et acide ferulique). Toujours utiliser la vitamine C sous le SPF le matin pour une protection maximale." },
+  { a: "Niacinamide", b: "AHA/BHA", status: "ok", en: "Safe together. Niacinamide actually helps calm irritation from acids. Apply acid first, wait a few minutes, then niacinamide. Some people experience flushing at very high niacinamide concentrations.", fr: "Surs ensemble. Le niacinamide aide a calmer l'irritation des acides. Applique l'acide d'abord, attends quelques minutes, puis niacinamide. Certaines personnes ressentent des rougeurs a tres haute concentration." },
+  { a: "AHA", b: "BHA", status: "caution", en: "Can be used together at moderate concentrations (like in The Ordinary Peeling Solution). But don't stack multiple strong acid products. If using both, start with BHA (oil-soluble, penetrates pores) then AHA (water-soluble, surface).", fr: "Peuvent etre utilises ensemble a concentrations moderees (comme dans le Peeling TO). Mais ne pas empiler plusieurs produits acides forts. Si les deux, commencer par le BHA (liposoluble, penetre les pores) puis AHA (hydrosoluble, surface)." },
+  { a: "Benzoyl Peroxide", b: "Vitamin C", status: "avoid", en: "Avoid together. BP oxidizes vitamin C, making it ineffective. Use BP in PM and vitamin C in AM, or on different days.", fr: "Eviter ensemble. Le PB oxyde la vitamine C, la rendant inefficace. Utilise le PB le soir et la vitamine C le matin, ou des jours differents." },
+  { a: "Copper Peptides", b: "Vitamin C", status: "avoid", en: "Avoid together. Copper ions can oxidize L-ascorbic acid, reducing its efficacy. Use copper peptides in PM and vitamin C in AM.", fr: "Eviter ensemble. Les ions cuivre peuvent oxyder l'acide L-ascorbique, reduisant son efficacite. Utilise les peptides de cuivre le soir et la vitamine C le matin." },
+  { a: "Copper Peptides", b: "AHA/BHA", status: "caution", en: "The low pH of acids can destabilize copper peptides. Use on different nights or at different times (acids PM, peptides AM).", fr: "Le pH bas des acides peut destabiliser les peptides de cuivre. Utiliser des soirs differents ou a des moments differents." },
+  { a: "Hyaluronic Acid", b: "Everything", status: "ok", en: "HA is compatible with everything. It's a hydrator, not an active. Layer it under any serum, acid, retinol, or moisturiser. Always apply to damp skin.", fr: "Le HA est compatible avec tout. C'est un hydratant, pas un actif. Superpose-le sous n'importe quel serum, acide, retinol ou hydratant. Toujours appliquer sur peau humide." },
+];
+---
+
+<BaseLayout
+  title={`${locale === "fr" ? "Checker d'interactions skincare" : "Skincare Interaction Checker"} | ${siteConfig.name}`}
+  description={locale === "fr" ? "Puis-je utiliser du retinol avec de la vitamine C ? Verifie si tes actifs skincare sont compatibles. Base sur la science." : "Can I use retinol with vitamin C? Check if your skincare actives are compatible. Science-backed."}
+  jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+    <div class="text-center mb-10">
+      <h1 class="mb-3">{locale === "fr" ? "Checker d'interactions skincare" : "Skincare Interaction Checker"}</h1>
+      <p class="text-slate-500 max-w-2xl mx-auto">
+        {locale === "fr"
+          ? "\"Puis-je utiliser du retinol avec de la vitamine C ?\" Verifie la compatibilite de tes actifs. Base sur la recherche dermatologique, pas les mythes TikTok."
+          : "\"Can I use retinol with vitamin C?\" Check your actives compatibility. Based on dermatology research, not TikTok myths."}
+      </p>
+    </div>
+
+    <!-- Search/filter -->
+    <div class="mb-8">
+      <input
+        type="text"
+        id="interaction-search"
+        placeholder={locale === "fr" ? "Cherche un ingredient (ex: retinol, niacinamide)..." : "Search an ingredient (e.g., retinol, niacinamide)..."}
+        class="search-input !pl-4"
+      />
+    </div>
+
+    <!-- Interaction cards -->
+    <div id="interaction-list" class="space-y-4">
+      {interactions.map((int) => (
+        <div class={`interaction-card card !p-5 !border-l-4 ${int.status === "ok" ? "!border-l-green-500" : int.status === "synergy" ? "!border-l-violet-500" : int.status === "caution" ? "!border-l-amber-500" : "!border-l-red-500"}`} data-ingredients={`${int.a.toLowerCase()} ${int.b.toLowerCase()}`}>
+          <div class="flex items-center gap-3 mb-3">
+            <span class="text-sm font-bold text-slate-800">{int.a}</span>
+            <span class="text-violet-300 font-extrabold">+</span>
+            <span class="text-sm font-bold text-slate-800">{int.b}</span>
+            <span class={`ml-auto text-xs font-bold px-3 py-1 rounded-full ${int.status === "ok" ? "bg-green-100 text-green-700" : int.status === "synergy" ? "bg-violet-100 text-violet-700" : int.status === "caution" ? "bg-amber-100 text-amber-700" : "bg-red-100 text-red-700"}`}>
+              {int.status === "ok" ? (locale === "fr" ? "Compatible" : "Safe") : int.status === "synergy" ? (locale === "fr" ? "Synergie !" : "Synergy!") : int.status === "caution" ? (locale === "fr" ? "Attention" : "Caution") : (locale === "fr" ? "Eviter" : "Avoid")}
+            </span>
+          </div>
+          <p class="text-sm text-slate-600 leading-relaxed">{locale === "fr" ? int.fr : int.en}</p>
+        </div>
+      ))}
+    </div>
+
+    <div class="mt-10 pt-8 border-t border-slate-200 text-center">
+      <p class="text-sm text-slate-400">
+        {locale === "fr"
+          ? "Base sur la recherche dermatologique et les donnees EU CosIng. En cas de doute, consulte un dermatologue."
+          : "Based on dermatological research and EU CosIng data. When in doubt, consult a dermatologist."}
+      </p>
+      <a href={localizedPath("/methodology", locale)} class="text-sm text-violet-600 hover:text-violet-700 font-medium">
+        {locale === "fr" ? "Voir notre methodologie" : "See our methodology"} &rarr;
+      </a>
+    </div>
+  </div>
+
+  <script is:inline>
+    (function () {
+      var search = document.getElementById("interaction-search");
+      var cards = document.querySelectorAll(".interaction-card");
+
+      search.addEventListener("input", function () {
+        var q = this.value.toLowerCase().trim();
+        cards.forEach(function (card) {
+          var ingredients = card.getAttribute("data-ingredients");
+          card.style.display = !q || ingredients.includes(q) ? "" : "none";
+        });
+      });
+    })();
+  </script>
+</BaseLayout>

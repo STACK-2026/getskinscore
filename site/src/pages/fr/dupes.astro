@@ -1,0 +1,167 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { products } from "../../data/products";
+import { siteConfig } from "../../../site.config";
+import { fullUrl, gradeClass } from "../../utils/config";
+import { jsonLdBreadcrumbs } from "../../utils/seo";
+import { getLocale, t, localizedPath } from "../../i18n/t";
+
+const locale = getLocale(Astro.url);
+const breadcrumbs = [
+  { name: locale === "fr" ? "Accueil" : "Home", url: fullUrl(localizedPath("/", locale)) },
+  { name: locale === "fr" ? "Trouveur de dupes" : "Dupe Finder", url: fullUrl(localizedPath("/dupes", locale)) },
+];
+
+// Curated dupe pairs (expensive -> affordable alternatives)
+const dupePairs = [
+  {
+    expensive: "skinceuticals-ce-ferulic",
+    dupes: ["geek-gorgeous-liquid-gold-c-glow", "the-ordinary-retinol-0-5-squalane"],
+    reason: { en: "Both use L-ascorbic acid + vitamin E. SkinCeuticals adds the patented ferulic acid synergy. G&G replicates most of the formula at 1/10th the price.", fr: "Les deux utilisent acide L-ascorbique + vitamine E. SkinCeuticals ajoute la synergie brevetee acide ferulique. G&G replique la majorite de la formule a 1/10e du prix." },
+  },
+  {
+    expensive: "la-mer-creme-de-la-mer",
+    dupes: ["cerave-moisturizing-cream", "nivea-creme"],
+    reason: { en: "La Mer uses mineral oil + petrolatum as its base, same as Nivea. CeraVe adds ceramides + niacinamide + HA that La Mer doesn't have. Science says CeraVe is the better formula.", fr: "La Mer utilise huile minerale + vaseline comme base, comme Nivea. CeraVe ajoute ceramides + niacinamide + HA que La Mer n'a pas. La science dit que CeraVe est la meilleure formule." },
+  },
+  {
+    expensive: "drunk-elephant-t-l-c-framboos-glycolic-night-serum",
+    dupes: ["the-ordinary-aha-30-bha-2-peeling", "the-ordinary-glycolic-acid-7-toning-solution"],
+    reason: { en: "DE Framboos uses a multi-acid blend as a leave-on serum (87 EUR). TO AHA 30% is a weekly treatment (8 EUR). TO Glycolic Toner 7% is a daily toner (9 EUR). Different formats but same acid families.", fr: "DE Framboos utilise un melange multi-acides en serum sans rincage (87 EUR). TO AHA 30% est un traitement hebdomadaire (8 EUR). TO Glycolic Toner 7% est un tonique quotidien (9 EUR). Formats differents mais memes familles d'acides." },
+  },
+  {
+    expensive: "tatcha-the-dewy-skin-cream",
+    dupes: ["cerave-moisturizing-cream", "the-ordinary-hyaluronic-acid-2-b5"],
+    reason: { en: "Tatcha's main hydrating actives are squalane, HA, and glycerin, same as CeraVe. Add TO HA serum for the extra glow layer. Total: ~22 EUR vs Tatcha's 68 EUR.", fr: "Les principaux actifs hydratants de Tatcha sont squalane, HA et glycerine, comme CeraVe. Ajoute le serum HA de TO pour la couche eclat. Total : ~22 EUR vs 68 EUR pour Tatcha." },
+  },
+  {
+    expensive: "drunk-elephant-protini-polypeptide-cream",
+    dupes: ["the-ordinary-hyaluronic-acid-2-b5", "cerave-pm-facial-moisturizing-lotion"],
+    reason: { en: "DE Protini's key actives are peptides, squalane, and HA. CeraVe PM provides ceramides + niacinamide at 14 EUR. Add TO HA for hydration. Similar barrier support at 1/3 the price.", fr: "Les actifs cles de DE Protini sont peptides, squalane et HA. CeraVe PM apporte ceramides + niacinamide a 14 EUR. Ajoute TO HA pour l'hydratation. Soutien de barriere similaire a 1/3 du prix." },
+  },
+  {
+    expensive: "sunday-riley-good-genes-all-in-one-lactic-acid-treatment",
+    dupes: ["the-ordinary-aha-30-bha-2-peeling"],
+    reason: { en: "Both are lactic acid-based exfoliants. Good Genes adds licorice root and arnica for a more elegant formula. TO delivers the core active (lactic acid) at 1/10th the price.", fr: "Les deux sont des exfoliants a base d'acide lactique. Good Genes ajoute reglisse et arnica pour une formule plus elegante. TO delivre l'actif principal (acide lactique) a 1/10e du prix." },
+  },
+  {
+    expensive: "estee-lauder-advanced-night-repair-synchronized-multi-recovery-complex",
+    dupes: ["the-ordinary-niacinamide-10-zinc-1", "the-ordinary-hyaluronic-acid-2-b5"],
+    reason: { en: "ANR's key actives are bifida ferment, HA, and peptide-32. TO Niacinamide gives you oil control + barrier support. TO HA gives hydration. Combined: ~13 EUR vs ANR's 80 EUR. Not identical but covers the main bases.", fr: "Les actifs cles d'ANR sont le ferment bifida, HA et peptide-32. TO Niacinamide donne controle du sebum + soutien barriere. TO HA donne l'hydratation. Combines : ~13 EUR vs 80 EUR pour ANR. Pas identique mais couvre les bases principales." },
+  },
+  {
+    expensive: "charlotte-tilbury-magic-cream",
+    dupes: ["cerave-moisturizing-cream", "first-aid-beauty-ultra-repair-cream"],
+    reason: { en: "Magic Cream uses glycerin + shea butter + HA + rosehip oil as its active core. CeraVe delivers ceramides + niacinamide + HA. FAB adds colloidal oatmeal + squalane. Both score higher than CT at lower prices.", fr: "Magic Cream utilise glycerine + karite + HA + huile de rose musquee. CeraVe delivre ceramides + niacinamide + HA. FAB ajoute avoine colloidale + squalane. Les deux ont de meilleurs scores que CT a prix inferieurs." },
+  },
+  {
+    expensive: "clinique-moisture-surge-100h-auto-replenishing-hydrator",
+    dupes: ["neutrogena-hydro-boost-water-gel"],
+    reason: { en: "Both are gel-cream hydrators with hyaluronic acid. Clinique is fragrance-free (better for sensitive skin). Neutrogena has fragrance but costs 60% less. For non-sensitive skin on a budget, Neutrogena delivers 80% of the experience.", fr: "Les deux sont des gel-cremes hydratants avec acide hyaluronique. Clinique est sans parfum (meilleur pour peau sensible). Neutrogena a du parfum mais coute 60% moins cher. Pour peau non sensible avec budget, Neutrogena delivre 80% de l'experience." },
+  },
+];
+
+// Resolve product data
+const resolvedPairs = dupePairs.map((pair) => {
+  const expensive = products.find((p) => p.id === pair.expensive);
+  const dupes = pair.dupes.map((id) => products.find((p) => p.id === id)).filter(Boolean);
+  return { expensive, dupes, reason: pair.reason };
+}).filter((p) => p.expensive && p.dupes.length > 0);
+
+function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
+---
+
+<BaseLayout
+  title={`${locale === "fr" ? "Trouveur de dupes skincare" : "Skincare Dupe Finder"} | ${siteConfig.name}`}
+  description={locale === "fr" ? "Ce serum a 80 EUR a les memes actifs que celui a 12 EUR. On compare les formules, pas les prix. Trouve l'alternative moins chere." : "This 80 EUR serum has the same actives as this 12 EUR one. We compare formulas, not prices. Find the cheaper alternative."}
+  jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+    <div class="text-center mb-10">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-100 text-amber-700 text-sm font-semibold mb-4">
+        {locale === "fr" ? "Memes actifs, prix divise" : "Same actives, fraction of the price"}
+      </div>
+      <h1 class="mb-3">{locale === "fr" ? "Trouveur de dupes" : "Dupe Finder"}</h1>
+      <p class="text-slate-500 max-w-2xl mx-auto">
+        {locale === "fr"
+          ? "L'acide L-ascorbique est l'acide L-ascorbique, qu'il coute 160 EUR ou 15 EUR. On compare les formules ingredient par ingredient et on te montre l'alternative intelligente."
+          : "L-ascorbic acid is L-ascorbic acid whether it costs 160 EUR or 15 EUR. We compare formulas ingredient by ingredient and show you the smart alternative."}
+      </p>
+    </div>
+
+    <div class="space-y-8">
+      {resolvedPairs.map((pair) => (
+        <div class="card !p-0 overflow-hidden">
+          <!-- Expensive product header -->
+          <div class="p-5 bg-slate-50 border-b border-slate-200">
+            <div class="flex items-center gap-4">
+              <div class={`grade grade-md ${gc(pair.expensive.score)} shrink-0`}>{pair.expensive.score}</div>
+              <div class="flex-1 min-w-0">
+                <a href={localizedPath(`/product/${pair.expensive.id}`, locale)} class="text-sm font-bold text-slate-800 hover:text-violet-700 transition-colors">
+                  {pair.expensive.brand} {pair.expensive.name}
+                </a>
+                <div class="flex items-center gap-2 mt-0.5">
+                  <span class="text-xs text-slate-500">{pair.expensive.scoreNumeric}/100</span>
+                  {pair.expensive.price && <span class="text-xs font-bold text-red-600">{pair.expensive.price} EUR</span>}
+                </div>
+              </div>
+              <span class="text-xs font-bold px-3 py-1 rounded-full bg-red-50 text-red-600 shrink-0">
+                {locale === "fr" ? "Cher" : "Expensive"}
+              </span>
+            </div>
+          </div>
+
+          <!-- Arrow -->
+          <div class="flex items-center justify-center py-2 bg-white">
+            <svg class="w-5 h-5 text-amber-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M12 5v14M5 12l7 7 7-7" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <span class="ml-2 text-xs font-bold text-amber-600 uppercase">{locale === "fr" ? "Dupes moins chers" : "Cheaper dupes"}</span>
+          </div>
+
+          <!-- Dupes -->
+          <div class="p-5 space-y-3">
+            {pair.dupes.map((dupe: any) => (
+              <a href={localizedPath(`/product/${dupe.id}`, locale)} class="flex items-center gap-4 p-3 rounded-xl border border-green-200 bg-green-50/30 hover:bg-green-50 transition-colors">
+                <div class={`grade grade-md ${gc(dupe.score)} shrink-0`}>{dupe.score}</div>
+                <div class="flex-1 min-w-0">
+                  <span class="text-sm font-bold text-slate-800">{dupe.brand} {dupe.name}</span>
+                  <div class="flex items-center gap-2 mt-0.5">
+                    <span class="text-xs text-slate-500">{dupe.scoreNumeric}/100</span>
+                    {dupe.price && <span class="text-xs font-bold text-green-600">{dupe.price} EUR</span>}
+                  </div>
+                </div>
+                {pair.expensive.price && dupe.price && (
+                  <span class="text-xs font-bold px-2 py-1 rounded-full bg-green-100 text-green-700 shrink-0">
+                    -{Math.round((1 - dupe.price / pair.expensive.price) * 100)}%
+                  </span>
+                )}
+              </a>
+            ))}
+          </div>
+
+          <!-- Explanation -->
+          <div class="px-5 pb-5">
+            <p class="text-sm text-slate-500 leading-relaxed border-t border-slate-100 pt-3">
+              {locale === "fr" ? pair.reason.fr : pair.reason.en}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <div class="mt-12 text-center">
+      <div class="card !bg-violet-50/50 !border-violet-200/50 !p-8">
+        <h2 class="text-lg font-bold mb-3">{locale === "fr" ? "Le prix ne fait pas la formule" : "Price doesn't make the formula"}</h2>
+        <p class="text-sm text-slate-600 leading-relaxed mb-4">
+          {locale === "fr"
+            ? "L'industrie cosmetique depense 20-30% de ses revenus en marketing et 2-5% en R&D. Quand une marque met 6x plus d'argent pour te convaincre d'acheter que pour ameliorer le produit, le systeme est casse. SkinScore regarde les molecules, pas les prix."
+            : "The beauty industry spends 20-30% of revenue on marketing and 2-5% on R&D. When a brand spends 6x more convincing you to buy than improving the product, the system is broken. SkinScore looks at molecules, not price tags."}
+        </p>
+        <a href={localizedPath("/rankings", locale)} class="si-cta-btn">
+          {locale === "fr" ? "Voir le classement complet" : "See full rankings"}
+        </a>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
