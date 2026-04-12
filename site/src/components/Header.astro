@@ -11,9 +11,10 @@ const otherPath = locale === "en"
 
 const navLinks = [
   { href: "/rankings", label: t(tr.nav.rankings, locale) },
-  { href: "/compare", label: t(tr.nav.compare, locale) },
+  { href: "/quiz", label: locale === "fr" ? "Quiz" : "Quiz" },
+  { href: "/dupes", label: locale === "fr" ? "Dupes" : "Dupes" },
+  { href: "/interactions", label: locale === "fr" ? "Interactions" : "Interactions" },
   { href: "/encyclopedia", label: t(tr.nav.ingredients, locale) },
-  { href: "/methodology", label: t(tr.nav.methodology, locale) },
   { href: "/blog", label: t(tr.blog.title, locale) },
 ];
 ---

@@ -69,9 +69,10 @@ export const siteConfig = {
   navLinks: [
     { label: "Home", href: "/" },
     { label: "Rankings", href: "/rankings" },
-    { label: "Compare", href: "/compare" },
+    { label: "Quiz", href: "/quiz" },
+    { label: "Dupes", href: "/dupes" },
+    { label: "Interactions", href: "/interactions" },
     { label: "Ingredients", href: "/encyclopedia" },
-    { label: "Methodology", href: "/methodology" },
     { label: "Blog", href: "/blog" },
   ],
 
