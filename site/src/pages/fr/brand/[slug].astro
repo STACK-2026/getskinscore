@@ -1,0 +1,169 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { products, getUniqueBrands, brandSlug } from "../../../data/products";
+import { siteConfig } from "../../../../site.config";
+import { fullUrl, gradeClass } from "../../../utils/config";
+import { jsonLdBreadcrumbs } from "../../../utils/seo";
+import { getLocale, t, tr, localizedPath } from "../../../i18n/t";
+
+export function getStaticPaths() {
+  const brands = getUniqueBrands();
+  return brands
+    .filter((brand) => {
+      const slug = brandSlug(brand);
+      return slug && slug.length >= 2;
+    })
+    .map((brand) => {
+      const slug = brandSlug(brand);
+      const brandProducts = products.filter((p) => brandSlug(p.brand) === slug);
+      return {
+        params: { slug },
+        props: { brand, brandProducts },
+      };
+    });
+}
+
+const { brand, brandProducts } = Astro.props as { brand: string; brandProducts: typeof products };
+const locale = getLocale(Astro.url);
+const slug = brandSlug(brand);
+const sorted = [...brandProducts].sort((a, b) => b.scoreNumeric - a.scoreNumeric);
+
+// Calculate brand stats
+const avgScore = Math.round(sorted.reduce((sum, p) => sum + p.scoreNumeric, 0) / sorted.length);
+const bestProduct = sorted[0];
+const worstProduct = sorted[sorted.length - 1];
+const gradeDistribution: Record<string, number> = {};
+sorted.forEach((p) => { gradeDistribution[p.score] = (gradeDistribution[p.score] || 0) + 1; });
+
+// Determine avg grade
+const avgGrade = avgScore >= 85 ? "A" : avgScore >= 70 ? "B" : avgScore >= 55 ? "C" : avgScore >= 40 ? "D" : "E";
+
+// Product types this brand offers
+const types = [...new Set(sorted.map((p) => p.type))];
+
+const title = `${brand} Skincare Review - ${sorted.length} Products Rated A to E | ${siteConfig.name}`;
+const description = `Independent ${brand} skincare review. ${sorted.length} products analysed and rated from A to E. Average score: ${avgGrade} (${avgScore}/100). Best product: ${bestProduct.name} (${bestProduct.score}).`;
+
+const breadcrumbs = [
+  { name: t(tr.common.home, locale), url: fullUrl(localizedPath("/", locale)) },
+  { name: t(tr.nav.rankings, locale), url: fullUrl(localizedPath("/rankings", locale)) },
+  { name: brand, url: fullUrl(localizedPath(`/brand/${slug}`, locale)) },
+];
+
+const jsonLd = [
+  jsonLdBreadcrumbs(breadcrumbs),
+  {
+    "@context": "https://schema.org",
+    "@type": "Brand",
+    name: brand,
+    url: fullUrl(`/brand/${slug}`),
+    description: `${brand} skincare products rated by SkinScore. ${sorted.length} products, average score ${avgGrade} (${avgScore}/100).`,
+  },
+];
+---
+
+<BaseLayout title={title} description={description} jsonLd={jsonLd}>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+    <!-- Breadcrumbs -->
+    <nav class="text-xs text-slate-400 mb-8 flex items-center gap-1.5 flex-wrap">
+      {breadcrumbs.map((item, i) => (
+        <>{i > 0 && <span>/</span>}{i < breadcrumbs.length - 1 ? <a href={item.url} class="hover:text-violet-600">{item.name}</a> : <span class="text-slate-600">{item.name}</span>}</>
+      ))}
+    </nav>
+
+    <!-- Brand hero -->
+    <header class="flex flex-col sm:flex-row items-start gap-6 mb-10">
+      <div class={`grade grade-xl ${gradeClass(avgGrade)} shrink-0`}>
+        {avgGrade}
+      </div>
+      <div>
+        <h1 class="text-2xl md:text-3xl mb-2">{brand}</h1>
+        <p class="text-slate-600 text-lg mb-3">
+          {locale === "fr"
+            ? `${sorted.length} produits analyses, score moyen ${avgScore}/100`
+            : `${sorted.length} products analysed, average score ${avgScore}/100`}
+        </p>
+        <div class="flex flex-wrap gap-2">
+          {types.map((type) => (
+            <span class="text-[10px] font-medium px-2.5 py-1 rounded-full bg-violet-50 text-violet-600 capitalize">{type}</span>
+          ))}
+        </div>
+      </div>
+    </header>
+
+    <!-- Brand stats -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
+      <div class="card !p-4 text-center">
+        <p class="text-2xl font-extrabold text-gradient">{sorted.length}</p>
+        <p class="text-xs text-slate-500">{locale === "fr" ? "Produits" : "Products"}</p>
+      </div>
+      <div class="card !p-4 text-center">
+        <p class="text-2xl font-extrabold text-gradient">{avgScore}/100</p>
+        <p class="text-xs text-slate-500">{locale === "fr" ? "Score moyen" : "Avg score"}</p>
+      </div>
+      <div class="card !p-4 text-center">
+        <div class={`grade grade-md ${gradeClass(bestProduct.score)} mx-auto mb-1`}>{bestProduct.score}</div>
+        <p class="text-xs text-slate-500">{locale === "fr" ? "Meilleur" : "Best"}</p>
+      </div>
+      <div class="card !p-4 text-center">
+        <div class={`grade grade-md ${gradeClass(worstProduct.score)} mx-auto mb-1`}>{worstProduct.score}</div>
+        <p class="text-xs text-slate-500">{locale === "fr" ? "A ameliorer" : "Lowest"}</p>
+      </div>
+    </div>
+
+    <!-- Grade distribution -->
+    <div class="card mb-10">
+      <h2 class="text-base font-bold mb-4">{locale === "fr" ? "Distribution des notes" : "Grade distribution"}</h2>
+      <div class="flex items-end gap-3 h-24">
+        {["A", "B", "C", "D", "E"].map((grade) => {
+          const count = gradeDistribution[grade] || 0;
+          const max = Math.max(...Object.values(gradeDistribution), 1);
+          const pct = (count / max) * 100;
+          return (
+            <div class="flex-1 flex flex-col items-center">
+              <span class="text-xs font-bold text-slate-500 mb-1">{count}</span>
+              <div class={`w-full rounded-t ${gradeClass(grade)}`} style={`height: ${Math.max(pct, 4)}%; min-height: 4px;`}></div>
+              <span class="text-xs font-bold mt-1">{grade}</span>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+
+    <!-- All products sorted by score -->
+    <h2 class="text-xl font-bold mb-4">
+      {locale === "fr" ? `Tous les produits ${brand}` : `All ${brand} products`}
+    </h2>
+    <div class="space-y-3">
+      {sorted.map((p, i) => (
+        <a href={localizedPath(`/product/${p.id}`, locale)} class="card card-glow flex items-center gap-4 !p-4">
+          <span class="text-sm text-slate-400 w-6 text-right font-bold shrink-0">{i + 1}</span>
+          <div class={`grade grade-md ${gradeClass(p.score)} shrink-0`}>{p.score}</div>
+          <div class="min-w-0 flex-1">
+            <p class="text-sm font-bold text-slate-800 truncate">{p.name}</p>
+            <div class="flex items-center gap-2 mt-0.5">
+              <span class="text-[10px] px-2 py-0.5 rounded-full bg-slate-100 text-slate-500 capitalize">{p.type}</span>
+              {p.concerns?.slice(0, 2).map((c) => (
+                <span class="text-[9px] px-1.5 py-0.5 rounded-full bg-violet-50 text-violet-600">{c}</span>
+              ))}
+            </div>
+          </div>
+          <div class="text-right shrink-0 hidden sm:block">
+            <p class="text-sm font-bold text-slate-700">{p.scoreNumeric}/100</p>
+            {p.price && <p class="text-xs text-slate-400">{p.price}EUR</p>}
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <!-- SEO text -->
+    <div class="mt-12 pt-8 border-t border-slate-200">
+      <h2 class="text-lg font-bold mb-3">{locale === "fr" ? `Notre avis sur ${brand}` : `Our verdict on ${brand}`}</h2>
+      <p class="text-slate-600 leading-relaxed">
+        {locale === "fr"
+          ? `${brand} obtient un score moyen de ${avgGrade} (${avgScore}/100) sur ${sorted.length} produits analyses par SkinScore. ${bestProduct.name} est leur meilleur produit avec un score de ${bestProduct.score} (${bestProduct.scoreNumeric}/100). Chaque produit est note selon cinq dimensions : efficacite, securite, comedogenicite, transparence et compatibilite avec le type de peau. Les notes sont independantes et basees sur l'analyse INCI, pas sur les affirmations marketing.`
+          : `${brand} scores an average of ${avgGrade} (${avgScore}/100) across ${sorted.length} products analysed by SkinScore. ${bestProduct.name} is their top-rated product with a score of ${bestProduct.score} (${bestProduct.scoreNumeric}/100). Each product is rated across five dimensions: efficacy, safety, comedogenicity, transparency, and skin-type fit. Ratings are independent and based on INCI analysis, not marketing claims.`}
+      </p>
+    </div>
+  </div>
+</BaseLayout>
