@@ -32,13 +32,13 @@ export const tr = {
 
   // Hero
   hero: {
-    title: { en: "Know what's in your skincare", fr: "Sache ce que contient ta skincare" },
+    title: { en: "Know what's in your skincare", fr: "Tes produits de peau, decryptes" },
     subtitle: {
       en: "SkinScore rates every skincare product from A to E. Decode ingredients, compare products, build your perfect routine.",
-      fr: "SkinScore note chaque produit skincare de A a E. Decode les ingredients, compare les produits, construis ta routine ideale.",
+      fr: "SkinScore analyse chaque produit de soin de A a E. Decode les ingredients, compare les formules, construis ta routine sur mesure.",
     },
-    searchPlaceholder: { en: "Search a product or ingredient...", fr: "Cherche un produit ou ingredient..." },
-    cta: { en: "Score my product", fr: "Scorer mon produit" },
+    searchPlaceholder: { en: "Search a product or ingredient...", fr: "Cherche un produit ou un ingredient..." },
+    cta: { en: "Score my product", fr: "Analyser mon produit" },
   },
 
   // Social proof
@@ -86,12 +86,12 @@ export const tr = {
 
   // CTA
   cta: {
-    title: { en: "Your skin deserves better than marketing claims", fr: "Ta peau merite mieux que des arguments marketing" },
+    title: { en: "Your skin deserves better than marketing claims", fr: "Ta peau merite mieux que des promesses marketing" },
     subtitle: {
       en: "Join thousands who check before they buy. Free, independent, science-backed.",
-      fr: "Rejoins des milliers de personnes qui verifient avant d'acheter. Gratuit, independant, base sur la science.",
+      fr: "Rejoins ceux qui verifient avant d'acheter. Gratuit, independant, base sur la science.",
     },
-    button: { en: "Score my skincare", fr: "Scorer ma skincare" },
+    button: { en: "Score my skincare", fr: "Analyser mes produits" },
   },
 
   // FAQ

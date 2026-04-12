@@ -505,6 +505,494 @@ export const products: Product[] = [
     claims: { dermatologistTested: true },
     tags: ["hyaluronic-acid", "gel-moisturizer", "lightweight", "oily-skin"],
   },
+
+  // ===========================
+  // CETAPHIL
+  // ===========================
+  {
+    id: "cetaphil-gentle-skin-cleanser",
+    name: "Gentle Skin Cleanser",
+    brand: "Cetaphil",
+    type: "cleanser",
+    score: "B",
+    scoreNumeric: 73,
+    subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "A" },
+    price: 10,
+    size: "500ml",
+    country: "US",
+    concerns: ["sensitivity", "dryness"],
+    bestFor: ["sensitive", "dry", "normal"],
+    ingredients: [
+      { name: "Aqua", ingredientId: "aqua", position: 1 },
+      { name: "Cetyl Alcohol", position: 2 },
+      { name: "Propylene Glycol", position: 3 },
+      { name: "Sodium Lauryl Sulfate", ingredientId: "sodium-lauryl-sulfate", position: 4 },
+      { name: "Stearyl Alcohol", position: 5 },
+      { name: "Methylparaben", position: 6 },
+      { name: "Propylparaben", position: 7 },
+      { name: "Butylparaben", position: 8 },
+    ],
+    summary: {
+      en: "A classic gentle cleanser recommended by dermatologists for decades. However, the formula contains SLS and three parabens (methyl, propyl, butyl), which lower its safety score. Effective but dated formula compared to modern alternatives.",
+      fr: "Un classique recommande par les dermatologues depuis des decennies. Cependant, la formule contient du SLS et trois parabenes (methyl, propyl, butyl), ce qui baisse son score de securite. Efficace mais formule datee par rapport aux alternatives modernes.",
+    },
+    strengths: {
+      en: ["Very gentle cleansing action", "Long dermatologist track record", "Affordable, large format", "No fragrance"],
+      fr: ["Action nettoyante tres douce", "Long historique dermatologique", "Abordable, grand format", "Sans parfum"],
+    },
+    weaknesses: {
+      en: ["Contains SLS (irritant for some)", "Three parabens (endocrine disruptor concern)", "No active beneficial ingredients", "Outdated formula"],
+      fr: ["Contient du SLS (irritant pour certains)", "Trois parabenes (perturbateur endocrinien)", "Aucun actif benefique", "Formule datee"],
+    },
+    claims: { fragranceFree: true, dermatologistTested: true },
+    tags: ["gentle-cleanser", "classic", "sensitive-skin"],
+  },
+
+  // ===========================
+  // SKINCEUTICALS
+  // ===========================
+  {
+    id: "skinceuticals-ce-ferulic",
+    name: "C E Ferulic",
+    brand: "SkinCeuticals",
+    type: "serum",
+    score: "A",
+    scoreNumeric: 93,
+    subScores: { efficacy: "A", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
+    price: 160,
+    size: "30ml",
+    country: "US",
+    concerns: ["anti-aging", "hyperpigmentation"],
+    bestFor: ["normal", "oily", "combination"],
+    ingredients: [
+      { name: "Aqua", ingredientId: "aqua", position: 1 },
+      { name: "Ethoxydiglycol", position: 2 },
+      { name: "Ascorbic Acid", ingredientId: "ascorbic-acid", position: 3, percentage: 15 },
+      { name: "Glycerin", ingredientId: "glycerin", position: 4 },
+      { name: "Propylene Glycol", position: 5 },
+      { name: "Laureth-23", position: 6 },
+      { name: "Tocopherol", ingredientId: "tocopherol", position: 7, percentage: 1 },
+      { name: "Ferulic Acid", position: 8 },
+      { name: "Panthenol", ingredientId: "panthenol", position: 9 },
+      { name: "Triethanolamine", position: 10 },
+      { name: "Sodium Hyaluronate", position: 11 },
+      { name: "Phenoxyethanol", ingredientId: "phenoxyethanol", position: 12 },
+    ],
+    summary: {
+      en: "The gold standard vitamin C serum backed by a Duke University patent. 15% L-ascorbic acid + 1% vitamin E + 0.5% ferulic acid create a synergistic antioxidant trio that provides 8x photoprotection. The most researched vitamin C formula on the market.",
+      fr: "Le serum vitamine C de reference, brevete par Duke University. 15% d'acide L-ascorbique + 1% vitamine E + 0,5% acide ferulique creent un trio antioxydant synergique offrant 8x la photoprotection. La formule vitamine C la plus etudiee du marche.",
+    },
+    strengths: {
+      en: ["15% L-ascorbic acid at optimal pH", "Patented C+E+Ferulic synergy (8x photoprotection)", "Panthenol + hyaluronic acid support", "Most clinically studied vitamin C serum"],
+      fr: ["15% d'acide L-ascorbique a pH optimal", "Synergie brevetee C+E+Ferulique (8x photoprotection)", "Support panthenol + acide hyaluronique", "Serum vitamine C le plus etudie cliniquement"],
+    },
+    weaknesses: {
+      en: ["Extremely expensive (160EUR/30ml)", "Oxidizes quickly (amber color = expired)", "Can sting on sensitive skin", "Concentrations not all disclosed"],
+      fr: ["Extremement cher (160EUR/30ml)", "S'oxyde rapidement (couleur ambre = expire)", "Peut picoter sur peau sensible", "Concentrations pas toutes divulguees"],
+    },
+    claims: { dermatologistTested: true, fragranceFree: true },
+    tags: ["vitamin-c", "antioxidant", "anti-aging", "premium", "patented"],
+  },
+
+  // ===========================
+  // DRUNK ELEPHANT
+  // ===========================
+  {
+    id: "drunk-elephant-protini-polypeptide-cream",
+    name: "Protini Polypeptide Cream",
+    brand: "Drunk Elephant",
+    type: "moisturizer",
+    score: "A",
+    scoreNumeric: 86,
+    subScores: { efficacy: "A", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
+    price: 68,
+    size: "50ml",
+    country: "US",
+    concerns: ["anti-aging", "dryness"],
+    bestFor: ["normal", "combination", "dry"],
+    ingredients: [
+      { name: "Aqua", ingredientId: "aqua", position: 1 },
+      { name: "Dicaprylyl Carbonate", position: 2 },
+      { name: "Glycerin", ingredientId: "glycerin", position: 3 },
+      { name: "Cetearyl Alcohol", position: 4 },
+      { name: "Squalane", ingredientId: "squalane", position: 5 },
+      { name: "Acetyl Hexapeptide-8", position: 6 },
+      { name: "Copper Tripeptide-1", ingredientId: "copper-tripeptide-1", position: 7 },
+      { name: "Palmitoyl Tetrapeptide-7", position: 8 },
+      { name: "Palmitoyl Tripeptide-1", position: 9 },
+      { name: "Acetyl Glutamyl Heptapeptide-1", position: 10 },
+      { name: "Sh-Oligopeptide-1", position: 11 },
+      { name: "Sh-Oligopeptide-2", position: 12 },
+      { name: "Sh-Polypeptide-1", position: 13 },
+      { name: "Sodium Hyaluronate", position: 14 },
+      { name: "Pygmy Waterlily Stem Cell Extract", position: 15 },
+      { name: "Phenoxyethanol", ingredientId: "phenoxyethanol", position: 16 },
+    ],
+    summary: {
+      en: "A peptide-packed protein moisturizer with 9 signal peptides including copper tripeptide-1. Squalane and glycerin provide hydration while the peptide complex targets fine lines, firmness, and skin elasticity. Clean formula, no fragrance.",
+      fr: "Un hydratant proteique charge en peptides avec 9 peptides de signalisation dont le tripeptide de cuivre-1. Squalane et glycerine hydratent pendant que le complexe peptidique cible rides, fermete et elasticite. Formule clean, sans parfum.",
+    },
+    strengths: {
+      en: ["9 peptides including copper tripeptide-1", "Squalane + glycerin hydration", "No fragrance, no essential oils", "Clean formula philosophy"],
+      fr: ["9 peptides dont le tripeptide de cuivre-1", "Hydratation squalane + glycerine", "Sans parfum, sans huiles essentielles", "Philosophie formule clean"],
+    },
+    weaknesses: {
+      en: ["Expensive (68EUR/50ml)", "Peptide concentrations not disclosed", "Some peptides lack robust clinical evidence"],
+      fr: ["Cher (68EUR/50ml)", "Concentrations peptides non divulguees", "Certains peptides manquent de preuves cliniques solides"],
+    },
+    claims: { vegan: true, crueltyFree: true, fragranceFree: true },
+    tags: ["peptides", "anti-aging", "clean-beauty", "premium"],
+  },
+
+  // ===========================
+  // AVENE
+  // ===========================
+  {
+    id: "avene-cicalfate-plus-restorative-cream",
+    name: "Cicalfate+ Restorative Protective Cream",
+    brand: "Avene",
+    type: "moisturizer",
+    score: "A",
+    scoreNumeric: 85,
+    subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "A", skinTypeFit: "A" },
+    price: 14,
+    size: "40ml",
+    country: "FR",
+    concerns: ["sensitivity", "dryness", "rosacea"],
+    bestFor: ["sensitive", "dry", "normal"],
+    ingredients: [
+      { name: "Aqua", ingredientId: "aqua", position: 1 },
+      { name: "Avene Thermal Spring Water", position: 2 },
+      { name: "Mineral Oil", position: 3 },
+      { name: "Glycerin", ingredientId: "glycerin", position: 4 },
+      { name: "Zinc Oxide", ingredientId: "zinc-oxide", position: 5 },
+      { name: "Sucralfate", position: 6 },
+      { name: "Copper Sulfate", position: 7 },
+      { name: "Zinc Sulfate", position: 8 },
+      { name: "Beeswax", position: 9 },
+      { name: "Microcrystalline Wax", position: 10 },
+    ],
+    summary: {
+      en: "A protective repair cream formulated with sucralfate (the ingredient in stomach ulcer medication, repurposed for skin repair), zinc oxide, and copper/zinc minerals. Designed for irritated, damaged skin including post-procedure.",
+      fr: "Une creme reparatrice protectrice formulee avec du sucralfate (l'ingredient des medicaments anti-ulcere gastrique, reconverti pour la reparation cutanee), de l'oxyde de zinc et des mineraux cuivre/zinc. Concue pour les peaux irritees et abimees.",
+    },
+    strengths: {
+      en: ["Sucralfate for wound healing", "Zinc oxide anti-inflammatory", "Copper + zinc mineral complex", "Excellent post-procedure cream"],
+      fr: ["Sucralfate pour la cicatrisation", "Oxyde de zinc anti-inflammatoire", "Complexe mineral cuivre + zinc", "Excellente creme post-acte"],
+    },
+    weaknesses: {
+      en: ["Contains mineral oil (occlusive, some prefer plant oils)", "Thick texture, can feel heavy", "Beeswax not vegan"],
+      fr: ["Contient de l'huile minerale (occlusif)", "Texture epaisse, peut etre lourde", "Cire d'abeille non vegan"],
+    },
+    claims: { fragranceFree: true, dermatologistTested: true },
+    tags: ["sucralfate", "repair", "post-procedure", "sensitive-skin", "zinc"],
+  },
+
+  // ===========================
+  // EUCERIN
+  // ===========================
+  {
+    id: "eucerin-urearepair-plus-5-cream",
+    name: "UreaRepair Plus 5% Urea Body Cream",
+    brand: "Eucerin",
+    type: "body-care",
+    score: "A",
+    scoreNumeric: 84,
+    subScores: { efficacy: "A", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "A" },
+    price: 12,
+    size: "450ml",
+    country: "DE",
+    concerns: ["dryness"],
+    bestFor: ["dry", "normal"],
+    ingredients: [
+      { name: "Aqua", ingredientId: "aqua", position: 1 },
+      { name: "Glycerin", ingredientId: "glycerin", position: 2 },
+      { name: "Urea", ingredientId: "urea", position: 3, percentage: 5 },
+      { name: "Cetearyl Alcohol", position: 4 },
+      { name: "Caprylic/Capric Triglyceride", position: 5 },
+      { name: "Ceramide NP", ingredientId: "ceramide-np", position: 6 },
+      { name: "Sodium Lactate", position: 7 },
+      { name: "Glyceryl Glucoside", position: 8 },
+      { name: "Lactic Acid", ingredientId: "lactic-acid", position: 9 },
+      { name: "Arginine HCl", position: 10 },
+      { name: "Cholesterol", position: 11 },
+      { name: "Phenoxyethanol", ingredientId: "phenoxyethanol", position: 12 },
+    ],
+    summary: {
+      en: "A clinical-grade body cream with 5% urea (NMF component) + ceramide NP + lactic acid. The urea-ceramide combination restores the skin's natural moisturising factor while repairing the lipid barrier. German dermatology at its best.",
+      fr: "Une creme corporelle de grade clinique avec 5% d'uree (composant NMF) + ceramide NP + acide lactique. La combinaison uree-ceramide restaure le facteur naturel d'hydratation tout en reparant la barriere lipidique. La dermatologie allemande a son meilleur.",
+    },
+    strengths: {
+      en: ["5% urea (proven NMF replenisher)", "Ceramide NP for barrier repair", "Lactic acid gentle exfoliation", "Large format, excellent value"],
+      fr: ["5% uree (reconstitution NMF prouvee)", "Ceramide NP pour la barriere", "Acide lactique exfoliation douce", "Grand format, excellent rapport qualite-prix"],
+    },
+    weaknesses: {
+      en: ["Can sting on cracked/open skin", "Not for face (body cream)", "Urea smell can be noticeable"],
+      fr: ["Peut piquer sur peau fissuree/ouverte", "Pas pour le visage (creme corps)", "L'odeur d'uree peut etre perceptible"],
+    },
+    claims: { fragranceFree: true, dermatologistTested: true },
+    tags: ["urea", "ceramides", "body-care", "dry-skin", "german-derm"],
+  },
+
+  // ===========================
+  // SVR
+  // ===========================
+  {
+    id: "svr-sebiaclear-serum",
+    name: "Sebiaclear Serum",
+    brand: "SVR",
+    type: "serum",
+    score: "A",
+    scoreNumeric: 86,
+    subScores: { efficacy: "A", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "A" },
+    price: 18,
+    size: "30ml",
+    country: "FR",
+    concerns: ["acne", "pores", "oiliness"],
+    bestFor: ["oily", "combination"],
+    ingredients: [
+      { name: "Aqua", ingredientId: "aqua", position: 1 },
+      { name: "Niacinamide", ingredientId: "niacinamide", position: 2, percentage: 4 },
+      { name: "Gluconolactone", position: 3, percentage: 14 },
+      { name: "Glycerin", ingredientId: "glycerin", position: 4 },
+      { name: "Salicylic Acid", ingredientId: "salicylic-acid", position: 5 },
+      { name: "Panthenol", ingredientId: "panthenol", position: 6 },
+      { name: "Zinc PCA", position: 7 },
+      { name: "Sodium Hydroxide", position: 8 },
+      { name: "Phenoxyethanol", ingredientId: "phenoxyethanol", position: 9 },
+    ],
+    summary: {
+      en: "A French pharmacy powerhouse. 14% gluconolactone (PHA - gentler than AHA) + 4% niacinamide + salicylic acid + zinc PCA. Triple-action on pores, oil, and blemishes without irritation. PHA provides exfoliation without sun sensitivity.",
+      fr: "Un concentre de pharmacie francaise. 14% gluconolactone (PHA - plus doux que l'AHA) + 4% niacinamide + acide salicylique + zinc PCA. Triple action sur les pores, le sebum et les imperfections sans irritation.",
+    },
+    strengths: {
+      en: ["14% PHA (gentle exfoliation, no sun sensitivity)", "Niacinamide + salicylic acid + zinc triple action", "Panthenol to soothe", "Excellent French pharmacy value"],
+      fr: ["14% PHA (exfoliation douce, pas de photosensibilite)", "Triple action niacinamide + salicylique + zinc", "Panthenol apaisant", "Excellent rapport qualite-prix pharmacie"],
+    },
+    weaknesses: {
+      en: ["14% gluconolactone may tingle initially", "Limited availability outside France/EU"],
+      fr: ["14% gluconolactone peut picoter au debut", "Disponibilite limitee hors France/UE"],
+    },
+    claims: { fragranceFree: true, dermatologistTested: true },
+    tags: ["pha", "niacinamide", "salicylic-acid", "french-pharmacy", "anti-acne"],
+  },
+
+  // ===========================
+  // VICHY
+  // ===========================
+  {
+    id: "vichy-mineral-89",
+    name: "Mineral 89 Hyaluronic Acid Serum",
+    brand: "Vichy",
+    type: "serum",
+    score: "B",
+    scoreNumeric: 77,
+    subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "A" },
+    price: 22,
+    size: "50ml",
+    country: "FR",
+    concerns: ["dryness", "sensitivity"],
+    bestFor: ["dry", "sensitive", "normal", "combination"],
+    ingredients: [
+      { name: "Aqua", ingredientId: "aqua", position: 1 },
+      { name: "Vichy Mineralizing Thermal Water", position: 2 },
+      { name: "Glycerin", ingredientId: "glycerin", position: 3 },
+      { name: "Sodium Hyaluronate", position: 4 },
+      { name: "Caprylyl Glycol", position: 5 },
+      { name: "Carbomer", position: 6 },
+      { name: "Citric Acid", position: 7 },
+      { name: "Sodium Hydroxide", position: 8 },
+      { name: "Phenoxyethanol", ingredientId: "phenoxyethanol", position: 9 },
+      { name: "Parfum", ingredientId: "fragrance", position: 10 },
+    ],
+    summary: {
+      en: "A lightweight hydrating serum with Vichy mineralizing thermal water and sodium hyaluronate. Simple formula, good hydration, but loses points for containing fragrance. A solid basic hydrator but not as clean as competitors.",
+      fr: "Un serum hydratant leger avec eau thermale mineralisante Vichy et hyaluronate de sodium. Formule simple, bonne hydratation, mais perd des points pour le parfum. Un bon hydratant basique mais pas aussi clean que les concurrents.",
+    },
+    strengths: {
+      en: ["Vichy thermal water minerals", "Sodium hyaluronate hydration", "Lightweight gel texture", "Simple short ingredient list"],
+      fr: ["Mineraux eau thermale Vichy", "Hydratation hyaluronate de sodium", "Texture gel legere", "Liste d'ingredients courte et simple"],
+    },
+    weaknesses: {
+      en: ["Contains fragrance/parfum (allergen)", "No proven active ingredients beyond HA", "Premium price for basic formula"],
+      fr: ["Contient du parfum (allergene)", "Pas d'actifs prouves au-dela de l'HA", "Prix premium pour une formule basique"],
+    },
+    claims: { dermatologistTested: true },
+    tags: ["hyaluronic-acid", "thermal-water", "french-pharmacy", "hydration"],
+  },
+
+  // ===========================
+  // NIVEA
+  // ===========================
+  {
+    id: "nivea-creme",
+    name: "Creme (Original)",
+    brand: "Nivea",
+    type: "moisturizer",
+    score: "C",
+    scoreNumeric: 58,
+    subScores: { efficacy: "D", safety: "C", comedogenicity: "C", transparency: "B", skinTypeFit: "C" },
+    price: 5,
+    size: "150ml",
+    country: "DE",
+    concerns: ["dryness"],
+    bestFor: ["dry", "normal"],
+    ingredients: [
+      { name: "Aqua", ingredientId: "aqua", position: 1 },
+      { name: "Paraffinum Liquidum", position: 2 },
+      { name: "Cera Microcristallina", position: 3 },
+      { name: "Glycerin", ingredientId: "glycerin", position: 4 },
+      { name: "Lanolin Alcohol", position: 5 },
+      { name: "Paraffin", position: 6 },
+      { name: "Panthenol", ingredientId: "panthenol", position: 7 },
+      { name: "Decyl Oleate", position: 8 },
+      { name: "Octyldodecanol", position: 9 },
+      { name: "Aluminum Stearate", position: 10 },
+      { name: "Citric Acid", position: 11 },
+      { name: "Magnesium Sulfate", position: 12 },
+      { name: "Parfum", ingredientId: "fragrance", position: 13 },
+    ],
+    summary: {
+      en: "The iconic blue tin, unchanged for over 100 years. Heavy mineral oil and paraffin base with panthenol. Effective occlusive moisture barrier but contains fragrance and mineral oil derivatives that modern dermatology is moving away from.",
+      fr: "L'iconique boite bleue, inchangee depuis plus de 100 ans. Base lourde d'huile minerale et paraffine avec panthenol. Barriere hydratante occlusive efficace mais contient du parfum et des derives d'huile minerale dont la dermatologie moderne s'eloigne.",
+    },
+    strengths: {
+      en: ["Extremely affordable", "Effective moisture barrier", "Panthenol included", "Iconic, proven formula"],
+      fr: ["Extremement abordable", "Barriere hydratante efficace", "Panthenol inclus", "Formule iconique et eprouvee"],
+    },
+    weaknesses: {
+      en: ["Mineral oil and paraffin base", "Contains fragrance", "No active ingredients", "Heavy, occlusive (may clog pores)", "Lanolin can sensitize"],
+      fr: ["Base huile minerale et paraffine", "Contient du parfum", "Aucun actif", "Lourd, occlusif (peut obstruer les pores)", "La lanoline peut sensibiliser"],
+    },
+    claims: {},
+    tags: ["classic", "affordable", "occlusive", "mineral-oil"],
+  },
+
+  // ===========================
+  // GARNIER
+  // ===========================
+  {
+    id: "garnier-micellar-water-all-in-one",
+    name: "Micellar Cleansing Water All-in-1",
+    brand: "Garnier",
+    type: "cleanser",
+    score: "C",
+    scoreNumeric: 62,
+    subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
+    price: 6,
+    size: "400ml",
+    country: "FR",
+    concerns: ["sensitivity"],
+    bestFor: ["normal", "combination"],
+    ingredients: [
+      { name: "Aqua", ingredientId: "aqua", position: 1 },
+      { name: "Hexylene Glycol", position: 2 },
+      { name: "Glycerin", ingredientId: "glycerin", position: 3 },
+      { name: "Disodium Cocoamphodiacetate", position: 4 },
+      { name: "Disodium EDTA", position: 5 },
+      { name: "Poloxamer 184", position: 6 },
+      { name: "Polyaminopropyl Biguanide", position: 7 },
+      { name: "Parfum", ingredientId: "fragrance", position: 8 },
+    ],
+    summary: {
+      en: "The bestselling micellar water globally. Basic cleansing formula at an unbeatable price. However, contains polyaminopropyl biguanide (PHMB, a preservative with EU restrictions on concentration) and fragrance, both of which lower its score.",
+      fr: "L'eau micellaire la plus vendue au monde. Formule nettoyante basique a un prix imbattable. Cependant, contient du polyaminopropyl biguanide (PHMB, conservateur avec restrictions UE) et du parfum, ce qui baisse son score.",
+    },
+    strengths: {
+      en: ["Extremely affordable", "Effective basic cleansing", "Widely available everywhere", "No-rinse formula"],
+      fr: ["Extremement abordable", "Nettoyage basique efficace", "Disponible partout", "Formule sans rincage"],
+    },
+    weaknesses: {
+      en: ["Contains PHMB (EU-restricted preservative)", "Contains fragrance", "No beneficial actives", "Inferior to Bioderma Sensibio for sensitive skin"],
+      fr: ["Contient du PHMB (conservateur reglemente UE)", "Contient du parfum", "Aucun actif benefique", "Inferieur au Bioderma Sensibio pour peaux sensibles"],
+    },
+    claims: {},
+    tags: ["micellar-water", "affordable", "mass-market"],
+  },
+
+  // ===========================
+  // THE ORDINARY (more)
+  // ===========================
+  {
+    id: "the-ordinary-hyaluronic-acid-2-b5",
+    name: "Hyaluronic Acid 2% + B5",
+    brand: "The Ordinary",
+    type: "serum",
+    score: "A",
+    scoreNumeric: 85,
+    subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "A", skinTypeFit: "A" },
+    price: 7,
+    size: "30ml",
+    country: "CA",
+    concerns: ["dryness", "anti-aging"],
+    bestFor: ["dry", "oily", "combination", "sensitive", "normal"],
+    ingredients: [
+      { name: "Aqua", ingredientId: "aqua", position: 1 },
+      { name: "Sodium Hyaluronate", position: 2 },
+      { name: "Sodium Hyaluronate Crosspolymer", position: 3 },
+      { name: "Panthenol", ingredientId: "panthenol", position: 4 },
+      { name: "Ahnfeltia Concinna Extract", position: 5 },
+      { name: "Glycerin", ingredientId: "glycerin", position: 6 },
+      { name: "Pentylene Glycol", position: 7 },
+      { name: "Propanediol", position: 8 },
+      { name: "Sodium Phosphate", position: 9 },
+      { name: "Phenoxyethanol", ingredientId: "phenoxyethanol", position: 10 },
+      { name: "Chlorphenesin", position: 11 },
+    ],
+    summary: {
+      en: "Multi-molecular weight hyaluronic acid (surface + deep hydration) combined with pro-vitamin B5 (panthenol). Lightweight, non-sticky, works for every skin type. A universal hydrating serum at an unreal price point.",
+      fr: "Acide hyaluronique multi-poids moleculaire (hydratation surface + profondeur) combine a la provitamine B5 (panthenol). Leger, non collant, convient a tous les types de peau. Un serum hydratant universel a un prix irreal.",
+    },
+    strengths: {
+      en: ["Multi-weight HA for surface + deep hydration", "Panthenol (B5) for barrier support", "Suitable for ALL skin types", "Incredible value (7EUR)"],
+      fr: ["HA multi-poids pour hydratation surface + profondeur", "Panthenol (B5) pour la barriere", "Convient a TOUS les types de peau", "Rapport qualite-prix incroyable (7EUR)"],
+    },
+    weaknesses: {
+      en: ["Can feel sticky if over-applied", "Needs moisturizer on top to seal", "In dry climates, may draw moisture from skin"],
+      fr: ["Peut etre collant en cas de surdosage", "Necessite un hydratant par-dessus pour sceller", "En climat sec, peut puiser l'eau de la peau"],
+    },
+    claims: { vegan: true, crueltyFree: true, fragranceFree: true },
+    tags: ["hyaluronic-acid", "panthenol", "hydration", "affordable", "universal"],
+  },
+  {
+    id: "the-ordinary-azelaic-acid-suspension-10",
+    name: "Azelaic Acid Suspension 10%",
+    brand: "The Ordinary",
+    type: "serum",
+    score: "A",
+    scoreNumeric: 88,
+    subScores: { efficacy: "A", safety: "A", comedogenicity: "A", transparency: "A", skinTypeFit: "A" },
+    price: 8,
+    size: "30ml",
+    country: "CA",
+    concerns: ["acne", "rosacea", "hyperpigmentation"],
+    bestFor: ["oily", "combination", "sensitive", "normal"],
+    ingredients: [
+      { name: "Aqua", ingredientId: "aqua", position: 1 },
+      { name: "Azelaic Acid", ingredientId: "azelaic-acid", position: 2, percentage: 10 },
+      { name: "Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer", position: 3 },
+      { name: "Isoceteth-20", position: 4 },
+      { name: "Dimethicone", ingredientId: "dimethicone", position: 5 },
+      { name: "Isohexadecane", position: 6 },
+      { name: "Polysorbate 60", position: 7 },
+      { name: "Phenoxyethanol", ingredientId: "phenoxyethanol", position: 8 },
+      { name: "Chlorphenesin", position: 9 },
+    ],
+    summary: {
+      en: "10% azelaic acid in a cream suspension. One of the few actives that treats acne, rosacea, AND hyperpigmentation simultaneously. Safe in pregnancy. Silicone-based texture glides on smoothly. An underrated multi-tasker.",
+      fr: "10% d'acide azelaique en suspension creme. L'un des rares actifs qui traite l'acne, la rosacee ET l'hyperpigmentation simultanement. Sur pendant la grossesse. Texture a base de silicone qui glisse en douceur.",
+    },
+    strengths: {
+      en: ["10% azelaic acid (effective for acne + rosacea + dark spots)", "Pregnancy-safe", "Anti-inflammatory", "Transparent 10% concentration"],
+      fr: ["10% acide azelaique (efficace acne + rosacee + taches)", "Sur pendant la grossesse", "Anti-inflammatoire", "Concentration 10% transparente"],
+    },
+    weaknesses: {
+      en: ["Gritty texture (suspension, not solution)", "Can pill under makeup", "Mild tingling in first uses"],
+      fr: ["Texture granuleuse (suspension, pas solution)", "Peut boulocher sous le maquillage", "Leger picotement aux premiers usages"],
+    },
+    claims: { vegan: true, crueltyFree: true, fragranceFree: true },
+    tags: ["azelaic-acid", "rosacea", "acne", "pregnancy-safe", "affordable"],
+  },
 ];
 
 // Helpers
