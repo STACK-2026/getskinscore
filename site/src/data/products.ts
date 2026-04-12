@@ -73,6 +73,7 @@ export const products: Product[] = [
     price: 15,
     size: "340g",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/360/600/053/7422/front_en.5.400.jpg",
     concerns: ["dryness", "sensitivity"],
     bestFor: ["dry", "normal", "sensitive"],
     ingredients: [
@@ -520,6 +521,7 @@ export const products: Product[] = [
     price: 10,
     size: "500ml",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/890/600/527/4106/front_en.6.400.jpg",
     concerns: ["sensitivity", "dryness"],
     bestFor: ["sensitive", "dry", "normal"],
     ingredients: [
@@ -1859,6 +1861,7 @@ export const products: Product[] = [
     price: 21,
     size: "50ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/326/468/000/5343/front_en.3.400.jpg",
     concerns: ["dryness", "sensitivity"],
     bestFor: ["normal", "dry", "sensitive"],
     ingredients: [
@@ -1957,6 +1960,7 @@ export const products: Product[] = [
     price: 12,
     size: "236ml",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/333/787/579/5456/front_en.14.400.jpg",
     concerns: ["acne", "dryness"],
     bestFor: ["dry", "sensitive", "combination", "normal", "oily"],
     ingredients: [
@@ -2627,6 +2631,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "125ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/848/000/046/7713/front_es.17.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -2667,6 +2672,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "400 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/333/787/569/6548/front_de.18.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -2707,6 +2713,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/036/9581/front_ar.21.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -2747,6 +2754,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/611/103/300/4522/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -2787,6 +2795,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/611/125/561/5759/front_en.16.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -2821,6 +2830,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "250 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/405/648/936/8366/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -2861,6 +2871,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/405/648/952/6735/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -2901,6 +2912,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "200ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/350/410/503/6751/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -2940,6 +2952,7 @@ export const products: Product[] = [
     scoreNumeric: 58,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/041/8135/front_en.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -2974,6 +2987,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/848/000/079/6790/front_es.13.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3014,6 +3028,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "20g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/811/464/2871/front_en.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3040,6 +3055,7 @@ export const products: Product[] = [
     scoreNumeric: 61,
     subScores: { efficacy: "C", safety: "C", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "UK",
+    image: "https://images.openbeautyfacts.org/images/products/871/256/148/4398/front_en.13.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3080,6 +3096,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "150ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/346/808/000/9028/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3120,6 +3137,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "90 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/800/070/000/0012/front_ar.36.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3160,6 +3178,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/000/004/242/0118/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3200,6 +3219,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/136/5305/front_fr.21.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3234,6 +3254,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "150 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/252/0263/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3274,6 +3295,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/822/1851/front_en.22.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3308,6 +3330,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "150 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/055/112/5275/front_en.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3348,6 +3371,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "25o ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/848/000/046/7652/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3385,6 +3409,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "237ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/600/053/7743/front_en.37.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3425,6 +3450,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "100 ml, 98 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/333/787/576/6326/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3460,6 +3486,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "4g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/328/277/014/2112/front_nl.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3489,6 +3516,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/406/644/737/9174/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3524,6 +3552,7 @@ export const products: Product[] = [
     scoreNumeric: 80,
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/007/214/002/4611/front_en.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3563,6 +3592,7 @@ export const products: Product[] = [
     scoreNumeric: 79,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/007/214/063/3820/front_en.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3602,6 +3632,7 @@ export const products: Product[] = [
     scoreNumeric: 76,
     subScores: { efficacy: "B", safety: "A", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/333/787/585/2302/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3642,6 +3673,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "40ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/333/787/558/8348/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3678,6 +3710,7 @@ export const products: Product[] = [
     scoreNumeric: 59,
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/030/521/013/4423/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3718,6 +3751,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/401/240/080/0711/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3757,6 +3791,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/317/804/055/4931/front_fr.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3797,6 +3832,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "150 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/343/342/240/4533/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3833,6 +3869,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/059/7243/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3873,6 +3910,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "400ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/890/103/097/1839/front_en.25.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3912,6 +3950,7 @@ export const products: Product[] = [
     scoreNumeric: 71,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/848/000/067/7969/front_es.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3951,6 +3990,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/079/285/011/0991/front_en.14.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -3983,6 +4023,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/057/2254/front_en.16.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4019,6 +4060,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "D", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "150 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/011/5775/front_en.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4059,6 +4101,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/366/236/100/4058/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4097,6 +4140,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "400ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/136/2830/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4136,6 +4180,7 @@ export const products: Product[] = [
     scoreNumeric: 80,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/333/787/559/7470/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4176,6 +4221,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/345/097/011/7739/front_en.22.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4215,6 +4261,7 @@ export const products: Product[] = [
     scoreNumeric: 70,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/763/002/860/3117/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4254,6 +4301,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/167/2373/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4284,6 +4332,7 @@ export const products: Product[] = [
     scoreNumeric: 77,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/840/200/101/0002/front_es.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4355,6 +4404,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/470/056/0860/front_fr.16.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4386,6 +4436,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "400ml",
     country: "UK",
+    image: "https://images.openbeautyfacts.org/images/products/871/090/877/8230/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4426,6 +4477,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "500ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/304/520/639/2976/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4452,6 +4504,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/366/000/555/1241/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4487,6 +4540,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/328/277/020/6524/front_fr.13.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4527,6 +4581,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/020/954/1809/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4567,6 +4622,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150 g",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/406/146/493/2685/front_en.21.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4606,6 +4662,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/406/644/724/1310/front_de.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4685,6 +4742,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "125 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/305/832/005/2015/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4725,6 +4783,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "2 × 4 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/007/088/1253/front_fr.19.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4756,6 +4815,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/597/036/0757/front_en.23.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4796,6 +4856,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "125g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/007/507/0878/front_fr.14.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4836,6 +4897,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/899/9675/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4876,6 +4938,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/410/304/030/6012/front_de.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4916,6 +4979,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/325/039/034/0683/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4955,6 +5019,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/841/470/408/0237/front_es.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -4995,6 +5060,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/333/787/569/8696/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5035,6 +5101,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     size: "1 L",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/077/261/807/8008/front_en.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5071,6 +5138,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/097/7953/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5100,6 +5168,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "150 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/346/808/000/8571/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5179,6 +5248,7 @@ export const products: Product[] = [
     scoreNumeric: 60,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/038/137/115/1035/front_en.23.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5207,6 +5277,7 @@ export const products: Product[] = [
     scoreNumeric: 83,
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/600/053/4797/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5247,6 +5318,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "75ml",
     country: "UK",
+    image: "https://images.openbeautyfacts.org/images/products/408/860/030/3376/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5274,6 +5346,7 @@ export const products: Product[] = [
     scoreNumeric: 70,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/848/000/022/6310/front_es.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5314,6 +5387,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/007/116/2115/front_fr.33.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5351,6 +5425,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/890/113/851/2187/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5378,6 +5453,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/168/5977/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5410,6 +5486,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/168/5960/front_de.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5481,6 +5558,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/328/277/905/1514/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5516,6 +5594,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/359/589/485/2813/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5543,6 +5622,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/055/021/6585/front_en.22.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5583,6 +5663,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/000/004/220/4084/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5621,6 +5702,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/841/041/202/0299/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5660,6 +5742,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "100ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/021/148/1421/front_fr.14.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5697,6 +5780,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/340/134/450/2200/front_fr.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5737,6 +5821,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "30g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/000/002/079/6716/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5777,6 +5862,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "400ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/841/104/714/3186/front_en.13.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5817,6 +5903,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/851/5592/front_es.14.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5857,6 +5944,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/405/817/267/5379/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5896,6 +5984,7 @@ export const products: Product[] = [
     scoreNumeric: 64,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/052/7452/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5927,6 +6016,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/405/648/936/8427/front_fr.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -5967,6 +6057,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "125ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/351/736/002/1127/front_fr.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6007,6 +6098,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "30 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/337/887/221/7763/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6031,6 +6123,7 @@ export const products: Product[] = [
     scoreNumeric: 77,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/871/090/871/0773/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6069,6 +6162,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/020/954/2530/front_fr.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6109,6 +6203,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200ml",
     country: "UK",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/069/5826/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6149,6 +6244,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/848/000/046/8659/front_en.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6189,6 +6285,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "18 fl oz, 532 mL",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/409/910/024/4809/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6219,6 +6316,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/037/0525/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6258,6 +6356,7 @@ export const products: Product[] = [
     scoreNumeric: 80,
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/848/000/046/8703/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6298,6 +6397,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/052/371/8269/front_es.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6338,6 +6438,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.5 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/359/671/052/4426/front_fr.47.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6378,6 +6479,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "20g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/923/802/4109/front_fr.14.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6411,6 +6513,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "D", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "180 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/509/982/100/1414/front_en.28.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6451,6 +6554,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "1",
     country: "UK",
+    image: "https://images.openbeautyfacts.org/images/products/001/018/104/3352/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6490,6 +6594,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/208/1214/front_nb.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6516,6 +6621,7 @@ export const products: Product[] = [
     scoreNumeric: 85,
     subScores: { efficacy: "A", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/333/787/554/5778/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6555,6 +6661,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "237 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/071/833/433/7432/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6593,6 +6700,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/000/002/602/3717/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6633,6 +6741,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "7 capsules",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/317/804/043/3809/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6702,6 +6811,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "15 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/400/357/302/0068/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6736,6 +6846,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "30 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/359/620/006/4425/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6776,6 +6887,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "562",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/600/055/2593/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6815,6 +6927,7 @@ export const products: Product[] = [
     scoreNumeric: 81,
     subScores: { efficacy: "A", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/333/787/554/5846/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6855,6 +6968,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "240 mL",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/007/548/608/5025/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6895,6 +7009,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "100ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/430/561/591/1052/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6935,6 +7050,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "0.25 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/809/0480/front_en.14.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -6975,6 +7091,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/406/644/710/6251/front_en.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7015,6 +7132,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "141 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/006/260/038/0579/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7050,6 +7168,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/036/3602/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7090,6 +7209,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.004 kg",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/359/671/051/0269/front_fr.44.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7121,6 +7241,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.3 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/815/2614/front_fr.40.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7161,6 +7282,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/401/240/080/0612/front_es.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7201,6 +7323,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "125 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/353/709/002/0320/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7241,6 +7364,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "700ml",
     country: "UK",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/193/8489/front_en.25.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7268,6 +7392,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "3 FL OZ (87ml)",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/600/053/7576/front_en.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7307,6 +7432,7 @@ export const products: Product[] = [
     scoreNumeric: 64,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/007/214/001/9433/front_en.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7345,6 +7471,7 @@ export const products: Product[] = [
     scoreNumeric: 57,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/038/137/001/5314/front_en.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7376,6 +7503,7 @@ export const products: Product[] = [
     scoreNumeric: 64,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/871/044/736/2938/front_en.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7414,6 +7542,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/000/002/017/9069/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7446,6 +7575,7 @@ export const products: Product[] = [
     scoreNumeric: 60,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "D", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/163/850/1989/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7479,6 +7609,7 @@ export const products: Product[] = [
     scoreNumeric: 75,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/002/071/459/8907/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7548,6 +7679,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "1000 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/431/150/106/6379/front_en.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7586,6 +7718,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     size: "50ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/000/004/241/9976/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7624,6 +7757,7 @@ export const products: Product[] = [
     scoreNumeric: 57,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/246/9586/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7659,6 +7793,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/089/340/000/2084/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7685,6 +7820,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "946 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/001/878/777/4328/front_en.21.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7715,6 +7851,7 @@ export const products: Product[] = [
     scoreNumeric: 78,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/506/056/510/6567/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7755,6 +7892,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/406/644/738/3768/front_de.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7794,6 +7932,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/890/108/806/4576/front_en.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7831,6 +7970,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     size: "250 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/824/7202/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7870,6 +8010,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "3 oz",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/004/116/705/5106/front_en.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7947,6 +8088,7 @@ export const products: Product[] = [
     scoreNumeric: 67,
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/066/788/830/6824/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -7981,6 +8123,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/406/644/787/6031/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8021,6 +8164,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "300 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/325/039/190/6642/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8055,6 +8199,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/328/277/904/2673/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8095,6 +8240,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "8 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/333/130/009/6460/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8135,6 +8281,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/333/787/241/4527/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8175,6 +8322,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/333/787/553/3317/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8214,6 +8362,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/340/139/716/3496/front_fr.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8254,6 +8403,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/346/808/000/1718/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8326,6 +8476,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "30 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/352/293/000/3786/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8366,6 +8517,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "125 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/359/589/024/3462/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8406,6 +8558,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/055/028/4294/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8446,6 +8599,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/055/081/2572/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8486,6 +8640,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "390 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/366/000/525/1530/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8565,6 +8720,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "750ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/009/959/4367/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8644,6 +8800,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/809/3014/front_de.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8684,6 +8841,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "300 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/810/9586/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8724,6 +8882,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "D", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/839/5330/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8761,6 +8920,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/865/3713/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8801,6 +8961,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "40 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/010/7589/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8881,6 +9042,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "30 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/430/561/548/1593/front_de.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8921,6 +9083,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/506/014/464/4985/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -8961,6 +9124,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/576/522/883/7894/front_de.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9001,6 +9165,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "140 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/128/7898/front_de.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9041,6 +9206,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "2 x 5 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/400/357/302/0051/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9081,6 +9247,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "200ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/370/115/472/0093/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9116,6 +9283,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "10 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/370/027/634/6280/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9153,6 +9321,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/351/545/001/6527/front_fr.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9193,6 +9362,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "4.5 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/426/016/718/2445/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9227,6 +9397,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/328/395/091/0903/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9258,6 +9429,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "15 mL",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/346/466/000/3318/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9292,6 +9464,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "1",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/892/4417/front_pl.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9332,6 +9505,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "100ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/761/326/934/3820/front_en.16.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9371,6 +9545,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/817/216/3715/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9409,6 +9584,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/410/304/090/9763/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9446,6 +9622,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "400ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/410/304/010/4762/front_de.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9486,6 +9663,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "10 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/359/620/006/4432/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9522,6 +9700,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/843/187/627/3472/front_es.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9562,6 +9741,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/843/187/626/6382/front_es.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9602,6 +9782,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "4,8 g",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/817/226/6782/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9636,6 +9817,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "300 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/000/004/013/3218/front_fr.19.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9676,6 +9858,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/013/2444/front_it.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9716,6 +9899,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "5 kg",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/000/001/726/4745/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9745,6 +9929,7 @@ export const products: Product[] = [
     scoreNumeric: 70,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/841/470/408/0466/front_en.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9785,6 +9970,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.09 kg",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/867/1252/front_fr.43.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9824,6 +10010,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "100g",
     country: "UK",
+    image: "https://images.openbeautyfacts.org/images/products/931/625/401/7109/front_en.21.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9867,6 +10054,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/041/2277/front_pl.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9907,6 +10095,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "400 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/038/3297/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9945,6 +10134,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "500ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/869/198/801/0383/front_xx.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -9980,6 +10170,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/731/986/101/8509/front_sv.14.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10020,6 +10211,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/817/243/2675/front_en.18.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10059,6 +10251,7 @@ export const products: Product[] = [
     scoreNumeric: 72,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/338/081/042/7332/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10098,6 +10291,7 @@ export const products: Product[] = [
     scoreNumeric: 82,
     subScores: { efficacy: "A", safety: "C", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/600/053/7712/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10137,6 +10331,7 @@ export const products: Product[] = [
     scoreNumeric: 68,
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/070/0933/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10177,6 +10372,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150 ml",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/085/462/000/8010/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10217,6 +10413,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/026/0038/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10248,6 +10445,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/035/550/7280/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10288,6 +10486,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "210 ml, 7 fl oz",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/065/543/900/7962/front_en.17.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10328,6 +10527,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/328/277/010/4592/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10368,6 +10568,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "2x 4,8 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/470/055/9505/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10406,6 +10607,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "200 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/750/105/632/6166/front_es.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10446,6 +10648,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "100 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/817/292/5856/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10485,6 +10688,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "65 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/613/226/240/0046/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10514,6 +10718,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "100ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/571/386/800/0024/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10545,6 +10750,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/000/004/242/0125/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10584,6 +10790,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "400ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/370/057/140/0298/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10623,6 +10830,7 @@ export const products: Product[] = [
     scoreNumeric: 71,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/209/7123/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10663,6 +10871,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/400/357/311/5030/front_de.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10702,6 +10911,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "D", transparency: "C", skinTypeFit: "B" },
     size: "150 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/800/234/001/3230/front_it.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10742,6 +10952,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/406/644/710/5650/front_de.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10782,6 +10993,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/406/644/710/6275/front_de.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10821,6 +11033,7 @@ export const products: Product[] = [
     scoreNumeric: 55,
     subScores: { efficacy: "E", safety: "C", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "UK",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/044/4554/front_fr.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10858,6 +11071,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.075 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/804/1284/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10896,6 +11110,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.3 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/815/2584/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10936,6 +11151,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.3 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/815/2607/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -10976,6 +11192,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "1 pièce",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/809/1586/front_en.17.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11016,6 +11233,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "D", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.1 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/861/2545/front_fr.27.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11055,6 +11273,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.05 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/804/2229/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11095,6 +11314,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.25 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/804/2236/front_fr.27.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11125,6 +11345,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "64 pièces",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/869/1489/front_fr.22.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11153,6 +11374,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "1",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/370/091/470/1181/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11190,6 +11412,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml, 6.7 fl oz",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/000/000/855/7239/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11230,6 +11453,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "100ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/370/034/304/6242/front_fr.14.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11265,6 +11489,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "300 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/322/247/563/0064/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11304,6 +11529,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "A", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     size: "3 fl oz",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/030/299/411/3002/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11343,6 +11569,7 @@ export const products: Product[] = [
     scoreNumeric: 62,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/350/410/502/8183/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11375,6 +11602,7 @@ export const products: Product[] = [
     scoreNumeric: 69,
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/038/137/003/9211/front_en.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11415,6 +11643,7 @@ export const products: Product[] = [
     subScores: { efficacy: "D", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "300ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/890/610/549/0024/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11453,6 +11682,7 @@ export const products: Product[] = [
     scoreNumeric: 69,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/000/000/392/0038/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11493,6 +11723,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/503/715/625/4860/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11523,6 +11754,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/697/148/002/2070/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11663,6 +11895,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "600ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/007/704/323/6406/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11701,6 +11934,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/001/878/793/0014/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11728,6 +11962,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/081/106/801/9312/front_en.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11767,6 +12002,7 @@ export const products: Product[] = [
     scoreNumeric: 62,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/066/755/116/9091/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11792,6 +12028,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "250ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/005/659/400/2791/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11825,6 +12062,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "30 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/376/019/465/7707/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11863,6 +12101,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "450 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/800/654/001/7166/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11899,6 +12138,7 @@ export const products: Product[] = [
     scoreNumeric: 77,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/764/999/077/1588/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11939,6 +12179,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "8 pièces",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/359/671/052/4105/front_fr.41.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -11979,6 +12220,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "8 pièces (0.031 kg)",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/359/671/052/4150/front_fr.46.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12019,6 +12261,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "390 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/366/000/578/7756/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12059,6 +12302,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/213/3425/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12086,6 +12330,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/347/463/710/3545/front_de.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12126,6 +12371,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/430/561/582/6097/front_de.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12165,6 +12411,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "4.25 g   (Net Wt. 0.15 oz)",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/087/176/000/7550/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12230,6 +12477,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "240ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/006/260/096/2225/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12265,6 +12513,7 @@ export const products: Product[] = [
     scoreNumeric: 80,
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/848/000/074/2988/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12305,6 +12554,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "C", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/520/110/062/9626/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12345,6 +12595,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.15 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/859/9662/front_fr.45.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12385,6 +12636,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/029/4778/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12425,6 +12677,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/010/018/3375/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12465,6 +12718,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "14g",
     country: "UK",
+    image: "https://images.openbeautyfacts.org/images/products/000/093/325/7014/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12504,6 +12758,7 @@ export const products: Product[] = [
     scoreNumeric: 71,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/007/050/111/2625/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12542,6 +12797,7 @@ export const products: Product[] = [
     scoreNumeric: 61,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/038/137/119/2915/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12573,6 +12829,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/731/986/101/5034/front_sv.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12613,6 +12870,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/358/378/713/1541/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12645,6 +12903,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/056/7932/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12684,6 +12943,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "100 ML",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/734/001/147/0465/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12718,6 +12978,7 @@ export const products: Product[] = [
     scoreNumeric: 58,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/038/137/117/4614/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12754,6 +13015,7 @@ export const products: Product[] = [
     scoreNumeric: 71,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/194/5029/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12794,6 +13056,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/502/132/015/4353/front_en.13.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12834,6 +13097,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/890/425/600/0109/front_en.25.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12874,6 +13138,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "30 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/890/441/730/6521/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12914,6 +13179,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/890/613/609/0859/front_en.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12947,6 +13213,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "500 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/871/890/690/9274/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -12987,6 +13254,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "16ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/406/644/707/2068/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13026,6 +13294,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "1",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/590/607/100/2705/front_pl.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13058,6 +13327,7 @@ export const products: Product[] = [
     scoreNumeric: 79,
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/871/090/868/9222/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13119,6 +13389,7 @@ export const products: Product[] = [
     scoreNumeric: 74,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/841/041/210/0076/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13158,6 +13429,7 @@ export const products: Product[] = [
     scoreNumeric: 72,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/842/942/019/2232/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13188,6 +13460,7 @@ export const products: Product[] = [
     scoreNumeric: 72,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/079/285/013/6991/front_en.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13217,6 +13490,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/858/800/603/6961/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13244,6 +13518,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "1.0 fl oz (30 mL)",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/007/124/937/7512/front_en.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13278,6 +13553,7 @@ export const products: Product[] = [
     scoreNumeric: 74,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/880/947/916/6444/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13314,6 +13590,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "100ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/739/168/103/8455/front_nl.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13353,6 +13630,7 @@ export const products: Product[] = [
     scoreNumeric: 59,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "UK",
+    image: "https://images.openbeautyfacts.org/images/products/871/716/356/1096/front_en.20.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13381,6 +13659,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/848/000/050/0984/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13409,6 +13688,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "170ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/955/566/920/4142/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13449,6 +13729,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "190",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/006/565/600/0088/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13487,6 +13768,7 @@ export const products: Product[] = [
     scoreNumeric: 62,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/474/331/810/0319/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13519,6 +13801,7 @@ export const products: Product[] = [
     scoreNumeric: 66,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/890/152/600/5208/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13559,6 +13842,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "300 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/151/6318/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13595,6 +13879,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "200ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/890/114/823/0668/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13632,6 +13917,7 @@ export const products: Product[] = [
     scoreNumeric: 74,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/001/910/011/0656/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13671,6 +13957,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "1",
     country: "UK",
+    image: "https://images.openbeautyfacts.org/images/products/079/285/016/4000/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13750,6 +14037,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.34 oz /  9.63 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/079/285/066/0779/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13790,6 +14078,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "0.1oz 3g",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/000/000/081/3745/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13818,6 +14107,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.15 oz",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/063/485/800/4035/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13849,6 +14139,7 @@ export const products: Product[] = [
     scoreNumeric: 71,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/081/215/403/5162/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13885,6 +14176,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "227 mL",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/006/260/050/0496/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13915,6 +14207,7 @@ export const products: Product[] = [
     scoreNumeric: 67,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/590/643/904/0066/front_sr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13952,6 +14245,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/149/9666/front_en.16.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -13992,6 +14286,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "0.15oz",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/072/251/007/1034/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14027,6 +14322,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "E", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "500 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/000/000/480/4505/front_de.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14061,6 +14357,7 @@ export const products: Product[] = [
     scoreNumeric: 75,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/030/316/204/6450/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14100,6 +14397,7 @@ export const products: Product[] = [
     scoreNumeric: 67,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/038/137/004/2297/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14130,6 +14428,7 @@ export const products: Product[] = [
     scoreNumeric: 62,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/038/137/116/4509/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14170,6 +14469,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/859/417/510/0723/front_cs.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14222,6 +14522,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "2.7oz, 76g",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/072/251/002/6003/front_en.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14253,6 +14554,7 @@ export const products: Product[] = [
     scoreNumeric: 57,
     subScores: { efficacy: "C", safety: "D", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/057/466/008/5563/front_ro.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14293,6 +14595,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "50 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/899/383/808/2756/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14331,6 +14634,7 @@ export const products: Product[] = [
     scoreNumeric: 81,
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/351/736/001/3863/front_fr.17.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14368,6 +14672,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "100 gm",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/890/608/777/0671/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14408,6 +14713,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "3oz 85g",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/072/251/002/8007/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14480,6 +14786,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "10oz 283g",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/005/100/900/9662/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14514,6 +14821,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/790/813/225/8012/front_pt.16.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14553,6 +14861,7 @@ export const products: Product[] = [
     scoreNumeric: 62,
     subScores: { efficacy: "C", safety: "C", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/931/005/138/8011/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14593,6 +14902,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     size: "15 cl",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/055/112/5206/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14628,6 +14938,7 @@ export const products: Product[] = [
     scoreNumeric: 62,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/692/800/183/6180/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14656,6 +14967,7 @@ export const products: Product[] = [
     scoreNumeric: 74,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/063/687/404/0837/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14696,6 +15008,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "C", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/890/617/151/0039/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14736,6 +15049,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "1 pièce",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/812/6394/front_en.13.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14766,6 +15080,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/000/002/028/3131/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14838,6 +15153,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "240 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/001/878/783/0338/front_de.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14874,6 +15190,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "3.4 oz",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/004/138/800/2712/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14914,6 +15231,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "4g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/005/005/127/5131/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14954,6 +15272,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "120 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/006/260/006/1065/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -14994,6 +15313,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "177 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/006/260/006/1515/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15066,6 +15386,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "D", comedogenicity: "A", transparency: "D", skinTypeFit: "B" },
     size: "2 x 6 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/008/380/003/4284/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15106,6 +15427,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "500 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/062/173/253/2197/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15146,6 +15468,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "100 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/069/704/515/3053/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15179,6 +15502,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "150ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/072/923/810/2057/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15259,6 +15583,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "40ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/073/085/216/7094/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15339,6 +15664,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "D", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/076/861/413/9584/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15379,6 +15705,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "4.4 fl oz",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/085/338/200/4049/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15419,6 +15746,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "4,8 g / 5,5 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/000/000/871/6491/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15459,6 +15787,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/000/001/519/1010/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15497,6 +15826,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "150 ml.",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/201/631/609/9995/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15537,6 +15867,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml e",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/000/002/053/2734/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15577,6 +15908,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "300 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/000/002/602/3038/front_fr.19.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15617,6 +15949,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/000/002/902/4353/front_de.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15657,6 +15990,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/000/003/009/6189/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15684,6 +16018,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "125 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/301/756/312/0998/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15722,6 +16057,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "10 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/304/069/066/1546/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15755,6 +16091,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     size: "10 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/304/069/066/6022/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15795,6 +16132,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "2 X 4,8 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/304/069/066/6206/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15829,6 +16167,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     size: "4,8 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/304/069/066/6213/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15869,6 +16208,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "4,8 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/304/069/066/6220/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15907,6 +16247,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "4,8 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/304/069/066/6237/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15946,6 +16287,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "4,8 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/304/069/066/6244/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -15982,6 +16324,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "350 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/305/250/550/5105/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16022,6 +16365,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/305/994/415/0002/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16061,6 +16405,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "15 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/317/804/069/5160/front_fr.16.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16101,6 +16446,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/317/804/130/2111/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16141,6 +16487,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/317/804/130/8410/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16181,6 +16528,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/317/804/131/5494/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16221,6 +16569,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/318/173/012/5007/front_fr.45.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16261,6 +16610,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "4,7 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/321/566/076/0127/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16301,6 +16651,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/321/566/176/0010/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16341,6 +16692,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/541/190/3114/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16380,6 +16732,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "4,2 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/862/2582/front_fr.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16420,6 +16773,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "4,9 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/325/124/103/4775/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16533,6 +16887,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/325/622/167/4293/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16565,6 +16920,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/325/622/337/9677/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16605,6 +16961,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/325/622/435/9241/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16641,6 +16998,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/325/622/435/9418/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16679,6 +17037,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "4,3 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/326/385/572/3228/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16710,6 +17069,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/326/385/572/8919/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16790,6 +17150,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/328/277/001/4112/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16863,6 +17224,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "500 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/328/277/003/8798/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -16943,6 +17305,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "D", transparency: "B", skinTypeFit: "B" },
     size: "2 x 4g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/328/277/007/3478/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17013,6 +17376,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/328/277/916/8519/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17053,6 +17417,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/328/277/931/6392/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17166,6 +17531,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/328/277/937/4620/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17206,6 +17572,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/328/277/941/1189/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17246,6 +17613,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/328/395/091/0910/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17276,6 +17644,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "Sachet unidose 12,5 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/328/395/091/4819/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17307,6 +17676,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "Sachet unidose 12,5 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/328/395/091/4826/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17340,6 +17710,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/332/931/000/2113/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17643,6 +18014,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/334/647/061/0347/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17683,6 +18055,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/334/647/061/1733/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17723,6 +18096,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "30ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/334/647/061/3584/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17763,6 +18137,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/334/890/128/8415/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17803,6 +18178,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "750 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/335/003/336/2123/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17833,6 +18209,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/338/081/004/0463/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17872,6 +18249,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/338/081/010/8996/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17912,6 +18290,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/338/081/145/4108/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17952,6 +18331,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/338/081/303/3103/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -17992,6 +18372,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "8 comprimés",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/340/094/163/1245/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -18218,6 +18599,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/340/136/000/3750/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -18258,6 +18640,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/340/136/019/3208/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -18447,6 +18830,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "100 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/340/156/257/6519/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -18486,6 +18870,7 @@ export const products: Product[] = [
     scoreNumeric: 71,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/340/159/948/7697/front_fr.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -18627,6 +19012,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/346/676/210/6225/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -18667,6 +19053,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/347/882/030/3453/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -18746,6 +19133,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "150 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/350/410/502/4567/front_fr.17.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -18785,6 +19173,7 @@ export const products: Product[] = [
     scoreNumeric: 76,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/350/410/502/5854/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -18905,6 +19294,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "10,1 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/350/410/502/8312/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -18945,6 +19335,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "40 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/350/410/502/8671/front_fr.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19088,6 +19479,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "200ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/350/410/502/9951/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19124,6 +19516,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "40 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/350/410/502/9982/front_fr.13.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19164,6 +19557,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "40 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/350/410/801/2950/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19204,6 +19598,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "125 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/350/677/030/2001/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19241,6 +19636,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/350/677/030/3015/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19281,6 +19677,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/350/677/050/1008/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19435,6 +19832,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/351/736/000/3673/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19470,6 +19868,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "4 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/351/830/102/3132/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19508,6 +19907,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "D", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/007/023/1614/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19548,6 +19948,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/007/033/7651/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19582,6 +19983,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "4 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/007/062/3693/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19622,6 +20024,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "2*100g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/007/062/5284/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19661,6 +20064,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/007/084/8621/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19701,6 +20105,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/007/084/8898/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19741,6 +20146,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "4g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/007/087/8888/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19781,6 +20187,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "D", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/007/089/0330/front_fr.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19821,6 +20228,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/007/093/7493/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19857,6 +20265,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/007/107/3633/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19893,6 +20302,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/470/038/9232/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19930,6 +20340,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/356/470/051/4542/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -19959,6 +20370,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/357/413/471/1332/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20028,6 +20440,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/050/2527/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20063,6 +20476,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "500 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/061/8440/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20173,6 +20587,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/065/3533/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20213,6 +20628,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/115/4022/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20250,6 +20666,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/125/0335/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20290,6 +20707,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/136/9426/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20345,6 +20763,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "D", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/359/589/964/6028/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20384,6 +20803,7 @@ export const products: Product[] = [
     scoreNumeric: 75,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/359/671/019/0980/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20421,6 +20841,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "D", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/359/671/036/9928/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20461,6 +20882,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "100 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/359/671/040/3899/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20501,6 +20923,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/359/671/040/3936/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20571,6 +20994,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/052/129/3850/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20609,6 +21033,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 mL",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/052/142/5053/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20644,6 +21069,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/052/234/6173/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20686,6 +21112,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "4,7 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/195/8418/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20725,6 +21152,7 @@ export const products: Product[] = [
     scoreNumeric: 68,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/206/7720/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20760,6 +21188,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/206/7942/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20792,6 +21221,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/209/8175/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20832,6 +21262,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/055/021/6424/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20912,6 +21343,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/055/036/2541/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20952,6 +21384,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/055/036/2558/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -20992,6 +21425,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "200ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/055/084/8359/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21027,6 +21461,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/055/092/0765/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21067,6 +21502,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "3,8 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/734/372/2278/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21107,6 +21543,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/366/000/535/1827/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21353,6 +21790,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "30 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/366/146/700/2128/front_fr.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21393,6 +21831,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/366/150/052/1975/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21463,6 +21902,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "400 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/370/028/170/2040/front_fr.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21502,6 +21942,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 mL",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/370/044/641/1596/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21532,6 +21973,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/370/045/422/2894/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21572,6 +22014,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "40ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/370/045/422/9541/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21612,6 +22055,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "750 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/370/066/870/0225/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21643,6 +22087,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "150 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/370/112/980/0218/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21683,6 +22128,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "30 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/002/073/3100/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21738,6 +22184,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "50 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/007/507/0939/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21818,6 +22265,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/010/068/2526/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21896,6 +22344,7 @@ export const products: Product[] = [
     scoreNumeric: 71,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/015/313/0722/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21932,6 +22381,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/017/112/1023/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -21972,6 +22422,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "2 * 25 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/020/711/2094/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22052,6 +22503,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/021/463/0178/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22092,6 +22544,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "20 g (1 x 2 patchs)",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/377/000/223/9063/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22132,6 +22585,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "30 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/377/000/230/6062/front_fr.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22172,6 +22626,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 mL",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/006/6351/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22212,6 +22667,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "400 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/010/2363/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22252,6 +22708,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/819/2083/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22292,6 +22749,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/828/3804/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22332,6 +22790,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "4,8 g (5,5 ml)",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/836/8341/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22372,6 +22831,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "2 * 4,8 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/837/3734/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22412,6 +22872,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "D", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/842/7635/front_en.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22452,6 +22913,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/858/3546/front_fr.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22485,6 +22947,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "6 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/861/3380/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22525,6 +22988,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "2 * 4,8 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/863/8512/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22595,6 +23059,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/000/1191/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22635,6 +23100,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/000/6790/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22673,6 +23139,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/012/7365/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22713,6 +23180,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/012/7525/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22753,6 +23221,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/023/2113/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22793,6 +23262,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/024/2020/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22823,6 +23293,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/024/6592/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22863,6 +23334,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/026/1038/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -22975,6 +23447,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "250 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/035/538/7806/front_de.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -23011,6 +23484,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "30 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/035/540/7580/front_de.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -23090,6 +23564,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "4,5 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/402/145/761/4134/front_fr.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -23128,6 +23603,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/402/145/761/4189/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -23168,6 +23644,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/402/145/761/5278/front_fr.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -23525,6 +24002,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "D", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "4,5 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/501/200/841/1103/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -23561,6 +24039,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "4 * 7 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/501/763/423/7080/front_nl.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -23596,6 +24075,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "60 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/502/819/741/7871/front_fr.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -23630,6 +24110,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/502/819/757/8770/front_fr.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -23670,6 +24151,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "300 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/502/819/789/0278/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -23709,6 +24191,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "58.2 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/503/310/285/0858/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -23749,6 +24232,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "E", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "120 mL",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/505/219/700/8692/front_fr.13.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -23789,6 +24273,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "60 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/505/219/702/8409/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -23829,6 +24314,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "20 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/506/008/225/1344/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -23858,6 +24344,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "4 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/506/012/898/3963/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24049,6 +24536,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/044/421/5138/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24088,6 +24576,7 @@ export const products: Product[] = [
     scoreNumeric: 67,
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/044/783/2035/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24128,6 +24617,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "2 * 100 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/090/847/2312/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24168,6 +24658,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "35 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/090/881/8875/front_fr.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24208,6 +24699,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "300 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/821/572/1246/front_fr.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24248,6 +24740,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "4,5 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/892/487/9818/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24314,6 +24807,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "100 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/880/915/310/0634/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24351,6 +24845,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "120g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/885/897/180/0035/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24383,6 +24878,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/951/817/487/7218/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24423,6 +24919,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "40 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/370/028/170/3238/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24463,6 +24960,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.404 kg",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/861/2668/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24499,6 +24997,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/195/7428/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24539,6 +25038,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "200g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/376/001/978/4755/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24619,6 +25119,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/540/011/358/3257/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24650,6 +25151,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "500 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/401/035/540/9935/front_de.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24690,6 +25192,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/346/808/040/8173/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24873,6 +25376,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/402/145/761/5438/front_de.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24913,6 +25417,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/102/2543/front_de.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24953,6 +25458,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "7 x 1.3 ml ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/052/373/2548/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -24986,6 +25492,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/500/091/1269/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25026,6 +25533,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/035/534/3345/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25060,6 +25568,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/425/003/529/0839/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25100,6 +25609,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/035/596/6100/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25136,6 +25646,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/035/513/5377/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25169,6 +25680,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/425/058/776/6011/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25209,6 +25721,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/213/607/0217/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25249,6 +25762,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/035/589/3079/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25289,6 +25803,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "15ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/762/150/013/0917/front_de.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25329,6 +25844,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "40 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/361/405/146/8664/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25369,6 +25885,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/859/003/110/8841/front_fr.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25409,6 +25926,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "3 X 7g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/949/783/4952/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25446,6 +25964,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "5 X 8 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/987/419/0008/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25486,6 +26005,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/402/135/403/3571/front_de.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25523,6 +26043,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/035/525/4207/front_de.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25563,6 +26084,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/000/004/062/3405/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25603,6 +26125,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "4,7g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/823/315/0420/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25643,6 +26166,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/370/106/380/2873/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25683,6 +26207,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "390ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/366/000/508/6637/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25711,6 +26236,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "19ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/000/004/224/6404/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25742,6 +26268,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/430/561/557/2901/front_de.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25782,6 +26309,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/430/561/546/0857/front_de.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25822,6 +26350,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/430/561/557/2888/front_de.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25861,6 +26390,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "1 sheet",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/456/232/364/0104/front_en.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25894,6 +26424,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/333/787/548/9867/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25934,6 +26465,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "25 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/020/113/2623/front_fr.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -25968,6 +26500,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "75ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/900/580/026/1041/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26008,6 +26541,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/410/304/091/6938/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26047,6 +26581,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "30 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/000/004/223/2216/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26086,6 +26621,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "75ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/520/041/070/0001/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26126,6 +26662,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/361/427/042/9835/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26166,6 +26703,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "250ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/895/118/9287/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26198,6 +26736,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "2 x 8 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/160/984/7466/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26238,6 +26777,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/343/075/004/8415/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26278,6 +26818,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/406/145/812/1422/front_de.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26315,6 +26856,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "30g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/000/002/144/5804/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26342,6 +26884,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/401/035/555/9036/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26379,6 +26922,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "200ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/000/001/223/7623/front_en.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26419,6 +26963,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/401/764/503/8813/front_fr.13.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26459,6 +27004,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/370/056/230/0156/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26499,6 +27045,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "400 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/340/138/138/1691/front_fr.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26539,6 +27086,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "40 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/340/156/119/7715/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26579,6 +27127,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "75 g / 75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/764/011/411/0887/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26619,6 +27168,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "10 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/006/1691/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26659,6 +27209,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/597/113/2988/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26686,6 +27237,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "30ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/076/991/519/0045/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26726,6 +27278,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/035/556/8717/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26766,6 +27319,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/400/826/801/6821/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26804,6 +27358,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "30ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/400/163/808/1870/front_de.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26844,6 +27399,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/035/521/8995/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26884,6 +27440,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "200ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/400/163/808/8565/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26924,6 +27481,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 mL",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/023/924/2035/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26964,6 +27522,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/201/703/779/9997/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -26991,6 +27550,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "30 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/347/331/150/3008/front_fr.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27031,6 +27591,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "125 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/076/861/413/8129/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27071,6 +27632,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "300 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/671/606/3308/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27111,6 +27673,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/403/622/160/4792/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27151,6 +27714,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "500 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/127/0524/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27184,6 +27748,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "D", comedogenicity: "C", transparency: "D", skinTypeFit: "B" },
     size: "60ml,40ml,60ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/213/1148/front_fi.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27224,6 +27789,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "75 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/430/561/530/7596/front_de.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27264,6 +27830,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "10",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/885/712/333/1137/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27298,6 +27865,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "150ml ℮",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/641/450/430/4931/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27336,6 +27904,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/108/981/5166/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27370,6 +27939,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "250 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/871/716/367/3072/front_de.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27406,6 +27976,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/871/256/197/7074/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27446,6 +28017,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "4,8g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/426/019/809/3833/front_pt.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27477,6 +28049,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "3.4 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/802/527/264/6727/front_it.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27514,6 +28087,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "2x 8ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/000/002/051/6536/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27552,6 +28126,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/401/510/021/4260/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27592,6 +28167,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/426/036/585/1228/front_de.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27631,6 +28207,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "3 fl oz (88 ml)",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/007/965/604/4966/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27671,6 +28248,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/328/277/905/1491/front_es.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27699,6 +28277,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "E", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "236ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/066/754/802/2934/front_fr.14.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27739,6 +28318,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "300 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/000/004/013/3249/front_fr.23.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27779,6 +28359,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "0.1 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/325/039/189/6493/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27819,6 +28400,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "100 mL",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/540/060/600/8694/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27859,6 +28441,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/358/317/5727/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27899,6 +28482,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/220/021/527/9682/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27939,6 +28523,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "D", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/073/705/247/1051/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -27979,6 +28564,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/502/819/755/5122/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28019,6 +28605,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "500 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/220/020/265/9770/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28055,6 +28642,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/800/439/513/0207/front_it.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28095,6 +28683,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "85ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/592/101/6630/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28135,6 +28724,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/882/4830/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28175,6 +28765,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/333/787/547/4900/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28215,6 +28806,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "D", transparency: "C", skinTypeFit: "B" },
     size: "200ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/871/256/185/6447/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28255,6 +28847,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "D", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "1l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/800/561/059/2589/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28295,6 +28888,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/817/206/1516/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28329,6 +28923,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/000/000/466/3441/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28369,6 +28964,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/020/528/4823/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28409,6 +29005,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/871/019/834/6157/front_en.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28448,6 +29045,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/871/733/359/6309/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28488,6 +29086,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/402/145/763/5436/front_de.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28528,6 +29127,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/402/145/762/4874/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28568,6 +29168,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/789/984/602/3693/front_es.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28608,6 +29209,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "500ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/074/511/495/8297/front_en.30.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28635,6 +29237,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/074/511/495/8075/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28675,6 +29278,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "125mL",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/074/511/495/8129/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28715,6 +29319,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/848/000/042/4464/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28744,6 +29349,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "250 ml / 260 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/889/7087/front_es.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28784,6 +29390,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 mL",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/370/017/270/0179/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28824,6 +29431,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150ml",
     country: "UK",
+    image: "https://images.openbeautyfacts.org/images/products/007/215/118/7909/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28864,6 +29472,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/340/135/368/8513/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28904,6 +29513,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/430/561/557/2536/front_de.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28944,6 +29554,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/400/358/320/0863/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -28984,6 +29595,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "150ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/590/052/505/9710/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29024,6 +29636,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "240ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/001/878/783/0314/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29059,6 +29672,7 @@ export const products: Product[] = [
     scoreNumeric: 69,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/843/654/095/9553/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29099,6 +29713,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "4,8 g",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/817/226/6768/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29138,6 +29753,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "4,8 g",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/035/530/4865/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29176,6 +29792,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/871/170/096/3503/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29216,6 +29833,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/040/1523/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29248,6 +29866,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "150ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/430/561/534/6168/front_en.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29288,6 +29907,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/802/232/811/1116/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29328,6 +29948,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "30 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/843/187/628/2092/front_es.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29368,6 +29989,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/843/187/627/3465/front_es.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29408,6 +30030,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/843/187/627/3458/front_es.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29448,6 +30071,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "500 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/843/187/627/1621/front_es.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29488,6 +30112,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "125 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/843/187/623/8983/front_es.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29527,6 +30152,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/789/984/602/3723/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29567,6 +30193,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "2 pièces (0.2 kg)",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/160/053/6661/front_fr.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29607,6 +30234,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/318/173/011/7804/front_fr.22.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29647,6 +30275,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/761/207/645/0431/front_de.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29684,6 +30313,7 @@ export const products: Product[] = [
     scoreNumeric: 77,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/436/296/331/3044/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29724,6 +30354,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/009/840/9389/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29759,6 +30390,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "500 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/000/002/713/4221/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29799,6 +30431,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "227 g",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/081/751/301/6783/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29839,6 +30472,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "150 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/800/439/500/1231/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29879,6 +30513,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/800/439/500/0036/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29917,6 +30552,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/035/550/5347/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29957,6 +30593,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/871/895/124/2722/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -29997,6 +30634,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "8,5 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/817/248/8573/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30030,6 +30668,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "300 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/817/262/5794/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30068,6 +30707,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "4.7 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/823/315/1854/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30103,6 +30743,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "120 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/044/724/5484/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30128,6 +30769,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "450 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/534/202/6442/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30167,6 +30809,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/502/819/752/1097/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30195,6 +30838,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "236 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/735/007/087/0502/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30270,6 +30914,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "0.2 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/868/9509/front_fr.21.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30309,6 +30954,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/366/546/700/0733/front_fr.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30337,6 +30983,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "45g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/346/676/210/5907/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30377,6 +31024,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/739/168/103/8653/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30413,6 +31061,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/358/774/165/1403/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30437,6 +31086,7 @@ export const products: Product[] = [
     scoreNumeric: 64,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/841/132/223/6527/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30471,6 +31121,7 @@ export const products: Product[] = [
     scoreNumeric: 61,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/842/839/082/3825/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30503,6 +31154,7 @@ export const products: Product[] = [
     scoreNumeric: 74,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/370/006/737/1927/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30536,6 +31188,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/326/385/439/5013/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30576,6 +31229,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "40 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/012/626/3358/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30616,6 +31270,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "500 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/431/626/861/2340/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30651,6 +31306,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/032/8946/front_fr.13.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30691,6 +31347,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "1 pièce",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/044/744/2487/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30731,6 +31388,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "500 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/020/711/7341/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30763,6 +31421,7 @@ export const products: Product[] = [
     scoreNumeric: 79,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/430/561/557/3519/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30803,6 +31462,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "4g",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/403/398/144/0066/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30841,6 +31501,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/763/002/861/2683/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30881,6 +31542,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/590/188/703/2120/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30907,6 +31569,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/403/398/174/2054/front_cs.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30947,6 +31610,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/127/1494/front_en.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -30974,6 +31638,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "2 * 5 ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/818/3234/front_fr.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31013,6 +31678,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "20ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/469/030/243/1754/front_xx.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31044,6 +31710,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "50g",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/871/932/497/7432/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31080,6 +31747,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/035/532/5761/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31120,6 +31788,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "250 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/648/942/5236/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31160,6 +31829,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "10 pièces (0.036 kg)",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/872/018/108/3037/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31189,6 +31859,7 @@ export const products: Product[] = [
     scoreNumeric: 83,
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/085/655/600/4111/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31229,6 +31900,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "1",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/404/561/200/3526/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31265,6 +31937,7 @@ export const products: Product[] = [
     scoreNumeric: 71,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/370/019/471/4413/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31304,6 +31977,7 @@ export const products: Product[] = [
     scoreNumeric: 60,
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/068/222/302/0197/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31341,6 +32015,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "20 g",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/007/214/011/0475/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31368,6 +32043,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "16 oz",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/030/299/391/7465/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31406,6 +32082,7 @@ export const products: Product[] = [
     scoreNumeric: 84,
     subScores: { efficacy: "A", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/088/549/285/7437/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31445,6 +32122,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/690/912/226/3956/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31484,6 +32162,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/085/000/331/0312/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31523,6 +32202,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/078/773/479/3087/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31562,6 +32242,7 @@ export const products: Product[] = [
     scoreNumeric: 86,
     subScores: { efficacy: "A", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/068/809/877/2469/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31596,6 +32277,7 @@ export const products: Product[] = [
     scoreNumeric: 70,
     subScores: { efficacy: "B", safety: "D", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/070/712/922/1810/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31635,6 +32317,7 @@ export const products: Product[] = [
     scoreNumeric: 62,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/020/714/674/4762/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31674,6 +32357,7 @@ export const products: Product[] = [
     scoreNumeric: 74,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/073/603/263/1508/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31713,6 +32397,7 @@ export const products: Product[] = [
     scoreNumeric: 79,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/076/733/260/1243/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31752,6 +32437,7 @@ export const products: Product[] = [
     scoreNumeric: 79,
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/076/733/210/8902/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31791,6 +32477,7 @@ export const products: Product[] = [
     scoreNumeric: 78,
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/551/702/6746/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31830,6 +32517,7 @@ export const products: Product[] = [
     scoreNumeric: 74,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/068/773/530/5046/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31869,6 +32557,7 @@ export const products: Product[] = [
     scoreNumeric: 67,
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/088/091/793/8852/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31908,6 +32597,7 @@ export const products: Product[] = [
     scoreNumeric: 76,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/080/928/014/9078/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31947,6 +32637,7 @@ export const products: Product[] = [
     scoreNumeric: 72,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/338/081/042/7325/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -31986,6 +32677,7 @@ export const products: Product[] = [
     scoreNumeric: 68,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/068/773/530/2366/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32025,6 +32717,7 @@ export const products: Product[] = [
     scoreNumeric: 64,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/060/308/451/2843/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32061,6 +32754,7 @@ export const products: Product[] = [
     scoreNumeric: 66,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/085/001/628/0015/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32100,6 +32794,7 @@ export const products: Product[] = [
     scoreNumeric: 69,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/068/773/530/2793/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32139,6 +32834,7 @@ export const products: Product[] = [
     scoreNumeric: 74,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/068/773/530/1727/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32177,6 +32873,7 @@ export const products: Product[] = [
     scoreNumeric: 74,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/597/163/4321/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32216,6 +32913,7 @@ export const products: Product[] = [
     scoreNumeric: 62,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/068/773/530/3905/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32255,6 +32953,7 @@ export const products: Product[] = [
     scoreNumeric: 67,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/070/268/596/4737/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32294,6 +32993,7 @@ export const products: Product[] = [
     scoreNumeric: 57,
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/065/147/371/0028/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32331,6 +33031,7 @@ export const products: Product[] = [
     scoreNumeric: 60,
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/071/733/413/6052/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32370,6 +33071,7 @@ export const products: Product[] = [
     scoreNumeric: 67,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/664/502/9012/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32409,6 +33111,7 @@ export const products: Product[] = [
     scoreNumeric: 74,
     subScores: { efficacy: "B", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/504/509/647/5795/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32448,6 +33151,7 @@ export const products: Product[] = [
     scoreNumeric: 74,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/067/628/004/1783/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32487,6 +33191,7 @@ export const products: Product[] = [
     scoreNumeric: 70,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/088/826/560/2258/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32526,6 +33231,7 @@ export const products: Product[] = [
     scoreNumeric: 69,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/880/105/192/5814/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32565,6 +33271,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "C", safety: "C", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/018/228/900/0046/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32604,6 +33311,7 @@ export const products: Product[] = [
     scoreNumeric: 62,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/084/673/303/1467/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32643,6 +33351,7 @@ export const products: Product[] = [
     scoreNumeric: 57,
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/065/147/370/5673/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32679,6 +33388,7 @@ export const products: Product[] = [
     scoreNumeric: 58,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/070/185/304/6145/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32718,6 +33428,7 @@ export const products: Product[] = [
     scoreNumeric: 67,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/079/462/831/7960/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32757,6 +33468,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/760/200/548/0745/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32796,6 +33508,7 @@ export const products: Product[] = [
     scoreNumeric: 78,
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/065/147/370/7714/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32827,6 +33540,7 @@ export const products: Product[] = [
     scoreNumeric: 74,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/597/148/2144/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32866,6 +33580,7 @@ export const products: Product[] = [
     scoreNumeric: 83,
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/060/933/259/9901/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32905,6 +33620,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "D", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/880/937/069/6286/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32944,6 +33660,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "C", safety: "C", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/018/228/900/0985/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -32983,6 +33700,7 @@ export const products: Product[] = [
     scoreNumeric: 66,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/342/402/3070/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33022,6 +33740,7 @@ export const products: Product[] = [
     scoreNumeric: 62,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/084/673/303/4703/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33061,6 +33780,7 @@ export const products: Product[] = [
     scoreNumeric: 71,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/080/928/013/8300/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33100,6 +33820,7 @@ export const products: Product[] = [
     scoreNumeric: 71,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "D", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/880/959/845/1926/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33139,6 +33860,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/002/291/2010/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33178,6 +33900,7 @@ export const products: Product[] = [
     scoreNumeric: 75,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/060/933/282/2177/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33214,6 +33937,7 @@ export const products: Product[] = [
     scoreNumeric: 84,
     subScores: { efficacy: "A", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/080/814/429/5005/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33253,6 +33977,7 @@ export const products: Product[] = [
     scoreNumeric: 71,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/068/955/134/0072/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33289,6 +34014,7 @@ export const products: Product[] = [
     scoreNumeric: 67,
     subScores: { efficacy: "B", safety: "C", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/065/198/670/4897/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33328,6 +34054,7 @@ export const products: Product[] = [
     scoreNumeric: 74,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/068/773/530/4469/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33367,6 +34094,7 @@ export const products: Product[] = [
     scoreNumeric: 76,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/028/984/136/1833/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33406,6 +34134,7 @@ export const products: Product[] = [
     scoreNumeric: 77,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/462/702/5007/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33446,6 +34175,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "1",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/750/224/518/1474/front_xx.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33479,6 +34209,7 @@ export const products: Product[] = [
     scoreNumeric: 70,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/361/422/937/6777/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33518,6 +34249,7 @@ export const products: Product[] = [
     scoreNumeric: 70,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/018/051/040/0122/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33548,6 +34280,7 @@ export const products: Product[] = [
     scoreNumeric: 60,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/597/508/0865/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33586,6 +34319,7 @@ export const products: Product[] = [
     scoreNumeric: 75,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/520/306/909/1056/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33625,6 +34359,7 @@ export const products: Product[] = [
     scoreNumeric: 79,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/066/615/101/0734/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33664,6 +34399,7 @@ export const products: Product[] = [
     scoreNumeric: 78,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/592/101/6876/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33703,6 +34439,7 @@ export const products: Product[] = [
     scoreNumeric: 75,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/065/104/330/0482/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33742,6 +34479,7 @@ export const products: Product[] = [
     scoreNumeric: 84,
     subScores: { efficacy: "A", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/392/001/9126/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33781,6 +34519,7 @@ export const products: Product[] = [
     scoreNumeric: 74,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/451/141/351/9479/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33815,6 +34554,7 @@ export const products: Product[] = [
     scoreNumeric: 69,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/073/537/934/0012/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33848,6 +34588,7 @@ export const products: Product[] = [
     scoreNumeric: 67,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/030/299/022/0506/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33881,6 +34622,7 @@ export const products: Product[] = [
     scoreNumeric: 75,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/071/789/706/0771/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33920,6 +34662,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/072/230/163/9207/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33959,6 +34702,7 @@ export const products: Product[] = [
     scoreNumeric: 77,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/392/001/6217/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -33998,6 +34742,7 @@ export const products: Product[] = [
     scoreNumeric: 70,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/085/256/900/3561/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34028,6 +34773,7 @@ export const products: Product[] = [
     scoreNumeric: 67,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/065/147/371/0691/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34064,6 +34810,7 @@ export const products: Product[] = [
     scoreNumeric: 72,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/087/431/600/0630/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34103,6 +34850,7 @@ export const products: Product[] = [
     scoreNumeric: 68,
     subScores: { efficacy: "B", safety: "D", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/078/536/401/0352/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34139,6 +34887,7 @@ export const products: Product[] = [
     scoreNumeric: 63,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/001/629/2548/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34178,6 +34927,7 @@ export const products: Product[] = [
     scoreNumeric: 74,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/088/530/203/2887/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34217,6 +34967,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/042/503/5873/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34248,6 +34999,7 @@ export const products: Product[] = [
     scoreNumeric: 64,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/085/527/500/7106/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34280,6 +35032,7 @@ export const products: Product[] = [
     scoreNumeric: 63,
     subScores: { efficacy: "D", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/880/619/071/8730/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34319,6 +35072,7 @@ export const products: Product[] = [
     scoreNumeric: 71,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/333/787/567/4942/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34348,6 +35102,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/068/894/176/3491/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34387,6 +35142,7 @@ export const products: Product[] = [
     scoreNumeric: 71,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/174/803/5014/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34422,6 +35178,7 @@ export const products: Product[] = [
     scoreNumeric: 55,
     subScores: { efficacy: "E", safety: "D", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/030/299/392/1288/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34449,6 +35206,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/361/422/983/9456/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34488,6 +35246,7 @@ export const products: Product[] = [
     scoreNumeric: 75,
     subScores: { efficacy: "B", safety: "A", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/071/617/022/5418/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34527,6 +35286,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/085/733/400/5788/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34560,6 +35320,7 @@ export const products: Product[] = [
     scoreNumeric: 75,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/597/207/6168/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34599,6 +35360,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/085/000/372/1378/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34631,6 +35393,7 @@ export const products: Product[] = [
     scoreNumeric: 83,
     subScores: { efficacy: "A", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/791/901/5175/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34670,6 +35433,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/085/001/469/8355/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34709,6 +35473,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "B", safety: "D", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/060/784/502/3180/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34748,6 +35513,7 @@ export const products: Product[] = [
     scoreNumeric: 83,
     subScores: { efficacy: "A", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/030/187/248/4029/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34787,6 +35553,7 @@ export const products: Product[] = [
     scoreNumeric: 79,
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/597/229/6009/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34826,6 +35593,7 @@ export const products: Product[] = [
     scoreNumeric: 82,
     subScores: { efficacy: "A", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/597/229/8522/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34865,6 +35633,7 @@ export const products: Product[] = [
     scoreNumeric: 79,
     subScores: { efficacy: "A", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/777/700/7152/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34904,6 +35673,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "A", safety: "D", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/079/337/924/5584/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34944,6 +35714,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/871/917/913/2437/front_nl.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -34983,6 +35754,7 @@ export const products: Product[] = [
     scoreNumeric: 78,
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/621/802/2969/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35023,6 +35795,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "100 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/817/245/2734/front_en.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35062,6 +35835,7 @@ export const products: Product[] = [
     scoreNumeric: 73,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/621/802/6530/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35102,6 +35876,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/403/622/143/2302/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35141,6 +35916,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/869/013/111/1427/front_xx.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35174,6 +35950,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "1 pièce (0.021 kg)",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/044/744/2463/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35214,6 +35991,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "1 pièce",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/044/744/2470/front_fr.13.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35254,6 +36032,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "4,8 g",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/817/262/1420/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35293,6 +36072,7 @@ export const products: Product[] = [
     scoreNumeric: 65,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/600/345/900/1516/front_xx.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35368,6 +36148,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/426/055/667/5671/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35408,6 +36189,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/817/249/3133/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35448,6 +36230,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "750 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/570/804/804/7029/front_de.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35477,6 +36260,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "1.01 FL oz",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/506/076/254/1673/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35517,6 +36301,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/366/000/553/3902/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35555,6 +36340,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "75 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/626/049/421/0635/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35591,6 +36377,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "150 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/694/179/450/4449/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35628,6 +36415,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "4 g",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/101/878/783/0245/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35654,6 +36442,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100 ml, 3.38 FL OZ",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/085/220/000/5008/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35694,6 +36483,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     size: "100 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/479/208/101/9762/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35733,6 +36523,7 @@ export const products: Product[] = [
     scoreNumeric: 77,
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/871/795/313/5704/front_nl.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35773,6 +36564,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "50ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/603/600/001/0231/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35813,6 +36605,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "30 mL",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/006/240/011/0383/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35853,6 +36646,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "50 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/779/813/037/3882/front_en.23.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35889,6 +36683,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/000/000/010/1627/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35920,6 +36715,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/779/037/526/8954/front_en.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35960,6 +36756,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "532ml",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/038/137/004/2679/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -35994,6 +36791,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "5 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/771/304/219/7951/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36027,6 +36825,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150gr",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/750/102/601/1511/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36053,6 +36852,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/013/7662/front_es.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36093,6 +36893,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "100 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/859/111/303/8551/front_cs.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36133,6 +36934,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "E", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/779/374/200/7903/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36173,6 +36975,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "75 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/871/853/774/6453/front_es.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36213,6 +37016,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "125 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/843/654/293/2493/front_es.13.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36251,6 +37055,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/843/654/293/1908/front_en.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36291,6 +37096,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/406/336/718/0408/front_de.13.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36331,6 +37137,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "240 mL",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/007/548/608/5018/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36371,6 +37178,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "30 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/400/163/850/0029/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36407,6 +37215,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/069/1996/front_en.16.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36445,6 +37254,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/817/270/2013/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36485,6 +37295,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/779/037/526/9326/front_en.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36520,6 +37331,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "50 g, 1.7 oz",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/779/817/722/0088/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36560,6 +37372,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/779/817/862/3604/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36600,6 +37413,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "35 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/779/813/037/5404/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36632,6 +37446,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "40 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/779/817/862/3352/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36669,6 +37484,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "1 L",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/077/261/806/1000/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36700,6 +37516,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/401/389/180/4462/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36740,6 +37557,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/400/889/001/2086/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36780,6 +37598,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "12 g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/021/148/2343/front_fr.13.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36820,6 +37639,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 mL",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/000/000/054/1190/front_fr.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36860,6 +37680,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "15ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/426/055/806/1601/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36900,6 +37721,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/847/000/196/0924/front_es.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36931,6 +37753,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "500ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/580/892/0518/front_nl.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -36968,6 +37791,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "125ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/000/002/592/8129/front_nl.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37001,6 +37825,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/405/817/221/8897/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37036,6 +37861,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "60 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/590/386/474/9137/front_pl.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37064,6 +37890,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/400/019/603/1976/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37104,6 +37931,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "75 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/220/027/597/2790/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37144,6 +37972,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/750/630/622/3202/front_es.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37183,6 +38012,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "62 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/697/285/836/0022/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37223,6 +38053,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "250 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/520/266/317/0396/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37260,6 +38091,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/594/304/800/2788/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37300,6 +38132,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "227g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/360/600/055/2555/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37340,6 +38173,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/406/146/222/7479/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37380,6 +38214,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "175ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/731/986/601/0157/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37420,6 +38255,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "300ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/357/466/151/6332/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37455,6 +38291,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "375 g (3 x 125 g)",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/779/129/302/8835/front_es.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37495,6 +38332,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "E", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "200 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/750/105/633/0347/front_es.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37535,6 +38373,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "50ml",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/871/776/302/1662/front_en.15.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37575,6 +38414,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/590/281/178/6904/front_pl.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37615,6 +38455,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "100g",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/376/035/468/0347/front_fr.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37645,6 +38486,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "30ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/405/972/933/8907/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37685,6 +38527,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "400 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/750/630/621/1285/front_es.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37725,6 +38568,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 mL",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/506/032/295/2376/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37765,6 +38609,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150 mL",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/087/7444/front_fr.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37805,6 +38650,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "C", transparency: "B", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/872/067/413/0347/front_en.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37845,6 +38691,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "E", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/790/824/050/6937/front_pt.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37885,6 +38732,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/894/110/050/0316/front_bn.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37917,6 +38765,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "5oz",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/038/137/119/6944/front_en.5.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37953,6 +38802,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/847/000/154/9990/front_es.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -37993,6 +38843,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "150 ml",
     country: "DE",
+    image: "https://images.openbeautyfacts.org/images/products/406/644/710/5957/front_de.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38033,6 +38884,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "D", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/890/129/604/9464/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38066,6 +38918,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "200 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/400/590/046/2060/front_en.16.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38106,6 +38959,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/081/002/017/3413/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38146,6 +39000,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.5 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/772/5369/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38176,6 +39031,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.3 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/808/9644/front_en.12.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38213,6 +39069,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.3 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/808/9651/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38253,6 +39110,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.3 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/815/2591/front_fr.36.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38289,6 +39147,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "0.2 l",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/859/9952/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38321,6 +39180,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "64 pièces",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/869/1496/front_en.11.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38355,6 +39215,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "40 pièces",
     country: "FR",
+    image: "https://images.openbeautyfacts.org/images/products/324/567/870/9085/front_fr.16.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38380,6 +39241,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "250ml",
     country: "UK",
+    image: "https://images.openbeautyfacts.org/images/products/505/762/144/2356/front_en.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38452,6 +39314,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "D", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "231 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/007/124/931/7488/front_fr.6.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38492,6 +39355,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "D", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "177 mL",
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/005/280/048/2319/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38532,6 +39396,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "D", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "88 mL",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/006/260/095/3674/front_en.7.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38572,6 +39437,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "C", transparency: "C", skinTypeFit: "B" },
     size: "125 mL",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/343/342/240/4366/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38604,6 +39470,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "141 g",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/006/260/006/3731/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38634,6 +39501,7 @@ export const products: Product[] = [
     scoreNumeric: 63,
     subScores: { efficacy: "E", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "US",
+    image: "https://images.openbeautyfacts.org/images/products/060/308/407/1470/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38674,6 +39542,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "250ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/220/028/232/0188/front_de.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38709,6 +39578,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     size: "250 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/935/544/900/0021/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38749,6 +39619,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "A", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "150 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/871/019/836/9453/front_nl.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38778,6 +39649,7 @@ export const products: Product[] = [
     subScores: { efficacy: "A", safety: "A", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "100 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/406/336/740/0872/front_en.10.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38818,6 +39690,7 @@ export const products: Product[] = [
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "50 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/410/517/065/0829/front_en.3.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38858,6 +39731,7 @@ export const products: Product[] = [
     subScores: { efficacy: "E", safety: "C", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     size: "10 ml",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/008/380/004/9004/front_cs.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38897,6 +39771,7 @@ export const products: Product[] = [
     scoreNumeric: 66,
     subScores: { efficacy: "E", safety: "A", comedogenicity: "B", transparency: "B", skinTypeFit: "B" },
     country: "UK",
+    image: "https://images.openbeautyfacts.org/images/products/360/054/112/6046/front_en.9.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38936,6 +39811,7 @@ export const products: Product[] = [
     scoreNumeric: 72,
     subScores: { efficacy: "C", safety: "A", comedogenicity: "B", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/002/458/964/1843/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -38964,6 +39840,7 @@ export const products: Product[] = [
     scoreNumeric: 70,
     subScores: { efficacy: "C", safety: "B", comedogenicity: "A", transparency: "C", skinTypeFit: "B" },
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/075/283/077/9389/front_en.8.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
@@ -39004,6 +39881,7 @@ export const products: Product[] = [
     subScores: { efficacy: "B", safety: "B", comedogenicity: "A", transparency: "B", skinTypeFit: "B" },
     size: "1.5 g, 0.05 us oz",
     country: "INTL",
+    image: "https://images.openbeautyfacts.org/images/products/077/360/231/7684/front_en.4.400.jpg",
     concerns: ["dryness"],
     bestFor: ["normal"],
     ingredients: [
