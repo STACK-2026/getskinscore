@@ -343,7 +343,70 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
   </div>
 </section>
 
-<!-- ========== 11. BRAND WALL ========== -->
+<!-- ========== 11. COMING SOON: Interaction Checker + Dupe Finder ========== -->
+<section class="section bg-slate-900 text-white relative overflow-hidden">
+  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(124,58,237,0.2),transparent_70%)]"></div>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 relative">
+    <div class="text-center mb-12">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-500/20 text-violet-300 text-sm font-semibold mb-4 border border-violet-500/20">
+        <span class="w-2 h-2 rounded-full bg-violet-400 animate-pulse"></span>
+        {locale === "fr" ? "Bientot disponible" : "Coming soon"}
+      </div>
+      <h2 class="reveal text-2xl md:text-3xl font-extrabold mb-4">
+        {locale === "fr" ? "Les features que personne d'autre n'a" : "Features nobody else has"}
+      </h2>
+    </div>
+
+    <div class="reveal-children grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Interaction Checker -->
+      <div class="p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-violet-500/30 transition-colors">
+        <div class="w-14 h-14 rounded-2xl bg-violet-500/20 flex items-center justify-center mb-5">
+          <svg class="w-7 h-7 text-violet-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" stroke-linecap="round" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-3">
+          {locale === "fr" ? "Interaction Checker" : "Interaction Checker"}
+        </h3>
+        <p class="text-white/50 leading-relaxed mb-4">
+          {locale === "fr"
+            ? "\"Puis-je utiliser du retinol avec de la vitamine C ?\" La question n1 en skincare. On y repond enfin, avec la science, pas les mythes."
+            : "\"Can I use retinol with vitamin C?\" The #1 question in skincare. We finally answer it, with science, not myths."}
+        </p>
+        <div class="flex flex-wrap gap-2">
+          <span class="text-xs px-3 py-1 rounded-full bg-white/10 text-white/60">Retinol + Vitamin C</span>
+          <span class="text-xs px-3 py-1 rounded-full bg-white/10 text-white/60">AHA + BHA</span>
+          <span class="text-xs px-3 py-1 rounded-full bg-white/10 text-white/60">Niacinamide + Acids</span>
+        </div>
+      </div>
+
+      <!-- Dupe Finder -->
+      <div class="p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-500/30 transition-colors">
+        <div class="w-14 h-14 rounded-2xl bg-amber-500/20 flex items-center justify-center mb-5">
+          <svg class="w-7 h-7 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" stroke-linecap="round" />
+            <path d="M8 11h6M11 8v6" stroke-linecap="round" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-3">
+          {locale === "fr" ? "Trouveur de dupes" : "Dupe Finder"}
+        </h3>
+        <p class="text-white/50 leading-relaxed mb-4">
+          {locale === "fr"
+            ? "\"Ce serum a 80EUR a les memes actifs que celui a 12EUR.\" On compare les formules, pas les prix. Et on te montre l'alternative."
+            : "\"This 80EUR serum has the same actives as this 12EUR one.\" We compare formulas, not prices. And show you the alternative."}
+        </p>
+        <div class="flex flex-wrap gap-2">
+          <span class="text-xs px-3 py-1 rounded-full bg-white/10 text-white/60">SkinCeuticals vs G&G</span>
+          <span class="text-xs px-3 py-1 rounded-full bg-white/10 text-white/60">La Mer vs CeraVe</span>
+          <span class="text-xs px-3 py-1 rounded-full bg-white/10 text-white/60">Drunk Elephant vs TO</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 12. BRAND WALL ========== -->
 <section class="section">
   <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center">
     <h2 class="reveal mb-3">{locale === "fr" ? "250+ marques analysees" : "250+ brands analysed"}</h2>
