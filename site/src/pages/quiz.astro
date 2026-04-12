@@ -1,0 +1,359 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { products } from "../data/products";
+import { siteConfig } from "../../site.config";
+import { fullUrl, gradeClass } from "../utils/config";
+import { jsonLdBreadcrumbs } from "../utils/seo";
+import { getLocale, t, tr, localizedPath } from "../i18n/t";
+
+const locale = getLocale(Astro.url);
+
+const breadcrumbs = [
+  { name: t(tr.common.home, locale), url: fullUrl(localizedPath("/", locale)) },
+  { name: locale === "fr" ? "Quiz routine" : "Routine quiz", url: fullUrl(localizedPath("/quiz", locale)) },
+];
+
+// Pre-compute product recommendations for each combo
+// Structure: { skinType: { concern: [product ids sorted by score] } }
+const recommendations: Record<string, Record<string, any[]>> = {};
+
+const skinTypes = ["dry", "oily", "combination", "sensitive", "normal"];
+const concerns = ["acne", "anti-aging", "hyperpigmentation", "rosacea", "dryness", "oiliness", "sensitivity", "pores"];
+const productTypes = ["cleanser", "serum", "moisturizer", "sunscreen", "exfoliant"];
+
+for (const st of skinTypes) {
+  recommendations[st] = {};
+  for (const concern of concerns) {
+    const matching = products
+      .filter((p) =>
+        p.bestFor?.includes(st) &&
+        p.concerns?.includes(concern) &&
+        productTypes.includes(p.type)
+      )
+      .sort((a, b) => b.scoreNumeric - a.scoreNumeric)
+      .slice(0, 3)
+      .map((p) => ({
+        id: p.id,
+        name: p.name,
+        brand: p.brand,
+        type: p.type,
+        score: p.score,
+        scoreNumeric: p.scoreNumeric,
+        price: p.price,
+        image: p.image,
+      }));
+    recommendations[st][concern] = matching;
+  }
+}
+
+// Fallback top products by type
+const topByType: Record<string, any[]> = {};
+for (const ptype of productTypes) {
+  topByType[ptype] = products
+    .filter((p) => p.type === ptype && p.scoreNumeric >= 80)
+    .sort((a, b) => b.scoreNumeric - a.scoreNumeric)
+    .slice(0, 2)
+    .map((p) => ({ id: p.id, name: p.name, brand: p.brand, type: p.type, score: p.score, scoreNumeric: p.scoreNumeric, price: p.price, image: p.image }));
+}
+---
+
+<BaseLayout
+  title={`${locale === "fr" ? "Quiz routine skincare" : "Skincare Routine Quiz"} | ${siteConfig.name}`}
+  description={locale === "fr" ? "Trouve ta routine skincare ideale en 4 questions. Recommandations personnalisees basees sur ton type de peau et tes preoccupations." : "Find your ideal skincare routine in 4 questions. Personalised recommendations based on your skin type and concerns."}
+  jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
+    <!-- Progress bar -->
+    <div class="mb-8">
+      <div class="flex items-center justify-between text-xs text-slate-400 mb-2">
+        <span id="step-label">{locale === "fr" ? "Question 1 sur 4" : "Question 1 of 4"}</span>
+        <span id="step-percent">25%</span>
+      </div>
+      <div class="h-1.5 bg-slate-100 rounded-full overflow-hidden">
+        <div id="progress-bar" class="h-full bg-gradient-to-r from-violet-500 to-indigo-500 rounded-full transition-all duration-500" style="width: 25%"></div>
+      </div>
+    </div>
+
+    <!-- Quiz container -->
+    <div id="quiz-container">
+
+      <!-- Step 1: Skin Type -->
+      <div id="step-1" class="quiz-step">
+        <h1 class="text-2xl md:text-3xl font-extrabold mb-3">
+          {locale === "fr" ? "Quel est ton type de peau ?" : "What's your skin type?"}
+        </h1>
+        <p class="text-slate-500 mb-8">
+          {locale === "fr" ? "Pas sure ? Choisis ce qui te correspond le plus." : "Not sure? Pick what fits you best."}
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3" id="skin-type-options">
+          {[
+            { id: "dry", en: "Dry", fr: "Seche", desc_en: "Tight, flaky, rough patches", desc_fr: "Tiraillements, desquamation, zones rugueuses" },
+            { id: "oily", en: "Oily", fr: "Grasse", desc_en: "Shiny T-zone, enlarged pores, prone to breakouts", desc_fr: "Zone T brillante, pores dilates, sujette aux eruptions" },
+            { id: "combination", en: "Combination", fr: "Mixte", desc_en: "Oily T-zone but dry cheeks", desc_fr: "Zone T grasse mais joues seches" },
+            { id: "sensitive", en: "Sensitive", fr: "Sensible", desc_en: "Reacts easily, redness, stinging", desc_fr: "Reagit facilement, rougeurs, picotements" },
+            { id: "normal", en: "Normal", fr: "Normale", desc_en: "Balanced, few issues", desc_fr: "Equilibree, peu de problemes" },
+          ].map((opt) => (
+            <button
+              class="quiz-option text-left p-5 rounded-xl border-2 border-slate-200 hover:border-violet-400 hover:bg-violet-50 transition-all duration-200"
+              data-step="1"
+              data-value={opt.id}
+            >
+              <span class="text-base font-bold text-slate-800">{locale === "fr" ? opt.fr : opt.en}</span>
+              <span class="block text-sm text-slate-500 mt-1">{locale === "fr" ? opt.desc_fr : opt.desc_en}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <!-- Step 2: Primary Concern -->
+      <div id="step-2" class="quiz-step hidden">
+        <h2 class="text-2xl md:text-3xl font-extrabold mb-3">
+          {locale === "fr" ? "Ta preoccupation principale ?" : "Your primary concern?"}
+        </h2>
+        <p class="text-slate-500 mb-8">
+          {locale === "fr" ? "Choisis celle qui te gene le plus." : "Pick the one that bothers you most."}
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3" id="concern-options">
+          {[
+            { id: "acne", en: "Acne & breakouts", fr: "Acne et eruptions", icon: "💧" },
+            { id: "anti-aging", en: "Fine lines & wrinkles", fr: "Rides et ridules", icon: "⏳" },
+            { id: "hyperpigmentation", en: "Dark spots & uneven tone", fr: "Taches brunes et teint irregulier", icon: "☀️" },
+            { id: "rosacea", en: "Redness & rosacea", fr: "Rougeurs et rosacee", icon: "🔥" },
+            { id: "dryness", en: "Dryness & dehydration", fr: "Secheresse et deshydratation", icon: "💨" },
+            { id: "pores", en: "Large pores & texture", fr: "Pores dilates et texture", icon: "⭕" },
+          ].map((opt) => (
+            <button
+              class="quiz-option text-left p-5 rounded-xl border-2 border-slate-200 hover:border-violet-400 hover:bg-violet-50 transition-all duration-200"
+              data-step="2"
+              data-value={opt.id}
+            >
+              <span class="text-xl mr-2">{opt.icon}</span>
+              <span class="text-base font-bold text-slate-800">{locale === "fr" ? opt.fr : opt.en}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <!-- Step 3: Budget -->
+      <div id="step-3" class="quiz-step hidden">
+        <h2 class="text-2xl md:text-3xl font-extrabold mb-3">
+          {locale === "fr" ? "Ton budget ?" : "Your budget?"}
+        </h2>
+        <p class="text-slate-500 mb-8">
+          {locale === "fr" ? "On a des options a tous les prix." : "We have options at every price point."}
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3" id="budget-options">
+          {[
+            { id: "drugstore", en: "Drugstore", fr: "Pharmacie", desc_en: "Under 20EUR per product", desc_fr: "Moins de 20EUR par produit" },
+            { id: "mid", en: "Mid-range", fr: "Moyen", desc_en: "20-50EUR per product", desc_fr: "20-50EUR par produit" },
+            { id: "luxury", en: "No limit", fr: "Sans limite", desc_en: "Best formula, any price", desc_fr: "Meilleure formule, tous prix" },
+          ].map((opt) => (
+            <button
+              class="quiz-option text-left p-5 rounded-xl border-2 border-slate-200 hover:border-violet-400 hover:bg-violet-50 transition-all duration-200"
+              data-step="3"
+              data-value={opt.id}
+            >
+              <span class="text-base font-bold text-slate-800">{locale === "fr" ? opt.fr : opt.en}</span>
+              <span class="block text-sm text-slate-500 mt-1">{locale === "fr" ? opt.desc_fr : opt.desc_en}</span>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <!-- Step 4: Preferences -->
+      <div id="step-4" class="quiz-step hidden">
+        <h2 class="text-2xl md:text-3xl font-extrabold mb-3">
+          {locale === "fr" ? "Des preferences particulieres ?" : "Any preferences?"}
+        </h2>
+        <p class="text-slate-500 mb-8">
+          {locale === "fr" ? "Optionnel. Coche ce qui est important pour toi." : "Optional. Check what matters to you."}
+        </p>
+        <div class="space-y-3 mb-8" id="pref-options">
+          {[
+            { id: "fragrance-free", en: "Fragrance-free", fr: "Sans parfum" },
+            { id: "vegan", en: "Vegan", fr: "Vegan" },
+            { id: "cruelty-free", en: "Cruelty-free", fr: "Non teste sur les animaux" },
+          ].map((opt) => (
+            <label class="flex items-center gap-3 p-4 rounded-xl border-2 border-slate-200 hover:border-violet-300 cursor-pointer transition-colors">
+              <input type="checkbox" class="w-5 h-5 rounded-md border-slate-300 text-violet-600 focus:ring-violet-500" data-pref={opt.id} />
+              <span class="text-base font-medium text-slate-800">{locale === "fr" ? opt.fr : opt.en}</span>
+            </label>
+          ))}
+        </div>
+        <button id="get-results" class="si-cta-btn w-full justify-center text-lg !py-4">
+          {locale === "fr" ? "Voir ma routine" : "See my routine"}
+        </button>
+      </div>
+
+      <!-- Results -->
+      <div id="results" class="quiz-step hidden">
+        <div class="text-center mb-8">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-100 text-violet-700 text-sm font-semibold mb-4">
+            {locale === "fr" ? "Ta routine personnalisee" : "Your personalised routine"}
+          </div>
+          <h2 class="text-2xl md:text-3xl font-extrabold mb-2" id="result-title"></h2>
+          <p class="text-slate-500" id="result-subtitle"></p>
+        </div>
+
+        <div id="routine-am" class="mb-8">
+          <h3 class="text-lg font-bold mb-4 flex items-center gap-2">
+            <span class="w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center text-sm">☀️</span>
+            {locale === "fr" ? "Routine matin (AM)" : "Morning routine (AM)"}
+          </h3>
+          <div id="am-products" class="space-y-3"></div>
+        </div>
+
+        <div id="routine-pm" class="mb-8">
+          <h3 class="text-lg font-bold mb-4 flex items-center gap-2">
+            <span class="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center text-sm">🌙</span>
+            {locale === "fr" ? "Routine soir (PM)" : "Evening routine (PM)"}
+          </h3>
+          <div id="pm-products" class="space-y-3"></div>
+        </div>
+
+        <div class="text-center mt-10">
+          <button id="retake-quiz" class="btn-secondary">
+            {locale === "fr" ? "Refaire le quiz" : "Retake quiz"}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script is:inline define:vars={{ recommendations: JSON.stringify(recommendations), topByType: JSON.stringify(topByType), locale }}>
+    (function () {
+      var recs = JSON.parse(recommendations);
+      var tops = JSON.parse(topByType);
+      var answers = {};
+      var steps = [1, 2, 3, 4];
+      var currentStep = 1;
+
+      function showStep(n) {
+        document.querySelectorAll(".quiz-step").forEach(function (el) { el.classList.add("hidden"); });
+        var el = document.getElementById("step-" + n) || document.getElementById("results");
+        if (el) el.classList.remove("hidden");
+
+        var pct = n <= 4 ? (n * 25) : 100;
+        var bar = document.getElementById("progress-bar");
+        var label = document.getElementById("step-label");
+        var percent = document.getElementById("step-percent");
+        if (bar) bar.style.width = pct + "%";
+        if (label) label.textContent = locale === "fr" ? "Question " + n + " sur 4" : "Question " + n + " of 4";
+        if (percent) percent.textContent = pct + "%";
+
+        currentStep = n;
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+
+      // Option click handlers
+      document.querySelectorAll(".quiz-option").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var step = parseInt(this.getAttribute("data-step"));
+          var value = this.getAttribute("data-value");
+
+          // Highlight selected
+          this.parentElement.querySelectorAll(".quiz-option").forEach(function (b) {
+            b.classList.remove("!border-violet-500", "!bg-violet-50");
+          });
+          this.classList.add("!border-violet-500", "!bg-violet-50");
+
+          // Store answer
+          if (step === 1) answers.skinType = value;
+          if (step === 2) answers.concern = value;
+          if (step === 3) answers.budget = value;
+
+          // Auto advance after 300ms
+          setTimeout(function () {
+            if (step < 4) showStep(step + 1);
+          }, 300);
+        });
+      });
+
+      // Get results
+      document.getElementById("get-results").addEventListener("click", function () {
+        if (!answers.skinType || !answers.concern) {
+          alert(locale === "fr" ? "Reponds aux questions d'abord !" : "Answer the questions first!");
+          return;
+        }
+
+        generateRoutine();
+        showStep(5);
+      });
+
+      // Retake
+      document.getElementById("retake-quiz").addEventListener("click", function () {
+        answers = {};
+        document.querySelectorAll(".quiz-option").forEach(function (b) {
+          b.classList.remove("!border-violet-500", "!bg-violet-50");
+        });
+        showStep(1);
+      });
+
+      function gradeClass(g) {
+        return "grade grade-sm grade-" + g.toLowerCase();
+      }
+
+      function productCard(p, step) {
+        var img = p.image ? '<img src="' + p.image + '" alt="' + p.brand + ' ' + p.name + '" class="w-12 h-12 object-contain rounded-lg bg-slate-50 shrink-0" />' : '';
+        var price = p.price ? '<span class="text-xs text-slate-400">' + p.price + 'EUR</span>' : '';
+        return '<a href="' + (locale === "fr" ? "/fr" : "") + '/product/' + p.id + '/" class="flex items-center gap-4 p-4 rounded-xl border border-slate-200 hover:border-violet-300 hover:bg-violet-50/50 transition-all">' +
+          img +
+          '<div class="flex-1 min-w-0">' +
+            '<span class="text-[10px] font-medium text-slate-400 uppercase">' + step + '</span>' +
+            '<p class="text-sm font-bold text-slate-800 truncate">' + p.brand + ' ' + p.name + '</p>' +
+            '<div class="flex items-center gap-2 mt-0.5">' +
+              '<span class="' + gradeClass(p.score) + '">' + p.score + '</span>' +
+              '<span class="text-xs text-slate-500">' + p.scoreNumeric + '/100</span>' +
+              price +
+            '</div>' +
+          '</div>' +
+        '</a>';
+      }
+
+      function generateRoutine() {
+        var st = answers.skinType || "normal";
+        var concern = answers.concern || "dryness";
+
+        var title = document.getElementById("result-title");
+        var subtitle = document.getElementById("result-subtitle");
+        var amDiv = document.getElementById("am-products");
+        var pmDiv = document.getElementById("pm-products");
+
+        if (locale === "fr") {
+          title.textContent = "Routine pour peau " + st + " - " + concern;
+          subtitle.textContent = "Produits selectionnes et notes par SkinScore pour ta peau.";
+        } else {
+          title.textContent = st.charAt(0).toUpperCase() + st.slice(1) + " skin - " + concern + " routine";
+          subtitle.textContent = "Products selected and scored by SkinScore for your skin.";
+        }
+
+        // Get matching products
+        var matched = (recs[st] && recs[st][concern]) || [];
+
+        // Build routine
+        var cleanser = matched.find(function (p) { return p.type === "cleanser"; }) || (tops.cleanser && tops.cleanser[0]);
+        var serum = matched.find(function (p) { return p.type === "serum"; }) || (tops.serum && tops.serum[0]);
+        var moisturizer = matched.find(function (p) { return p.type === "moisturizer"; }) || (tops.moisturizer && tops.moisturizer[0]);
+        var sunscreen = tops.sunscreen && tops.sunscreen[0];
+        var exfoliant = matched.find(function (p) { return p.type === "exfoliant"; }) || (tops.exfoliant && tops.exfoliant[0]);
+
+        // AM routine
+        var amHtml = "";
+        if (cleanser) amHtml += productCard(cleanser, locale === "fr" ? "1. Nettoyant" : "1. Cleanser");
+        if (serum) amHtml += productCard(serum, locale === "fr" ? "2. Serum" : "2. Serum");
+        if (moisturizer) amHtml += productCard(moisturizer, locale === "fr" ? "3. Hydratant" : "3. Moisturiser");
+        if (sunscreen) amHtml += productCard(sunscreen, locale === "fr" ? "4. SPF" : "4. SPF");
+
+        // PM routine
+        var pmHtml = "";
+        if (cleanser) pmHtml += productCard(cleanser, locale === "fr" ? "1. Nettoyant" : "1. Cleanser");
+        if (exfoliant) pmHtml += productCard(exfoliant, locale === "fr" ? "2. Exfoliant (2-3x/sem)" : "2. Exfoliant (2-3x/week)");
+        if (serum) pmHtml += productCard(serum, locale === "fr" ? "3. Serum" : "3. Serum");
+        if (moisturizer) pmHtml += productCard(moisturizer, locale === "fr" ? "4. Hydratant" : "4. Moisturiser");
+
+        amDiv.innerHTML = amHtml || '<p class="text-slate-400">' + (locale === "fr" ? "Pas assez de produits correspondants" : "Not enough matching products") + '</p>';
+        pmDiv.innerHTML = pmHtml || '<p class="text-slate-400">' + (locale === "fr" ? "Pas assez de produits correspondants" : "Not enough matching products") + '</p>';
+      }
+    })();
+  </script>
+</BaseLayout>
