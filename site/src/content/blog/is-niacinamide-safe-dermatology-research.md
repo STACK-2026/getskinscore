@@ -99,8 +99,10 @@ The only real consideration is the mild flushing at 10%+ concentrations, which i
 
 ## Sources
 
-- Cosmetic Ingredient Review (CIR) Expert Panel. "Safety Assessment of Niacinamide as Used in Cosmetics." *International Journal of Toxicology*, 2005.
-- Gehring W. "Nicotinic acid/niacinamide and the skin." *Journal of Cosmetic Dermatology*, 2004.
-- Rolfe HM. "A review of nicotinamide: treatment of skin diseases and potential side effects." *Journal of Cosmetic Dermatology*, 2014.
-- Walocko FM, et al. "The role of nicotinamide in acne treatment." *Dermatologic Therapy*, 2017.
-- Boo YC. "Mechanistic basis and clinical evidence for the applications of nicotinamide in dermatology." *Antioxidants*, 2021.
+- [Cosmetic Ingredient Review (CIR) Expert Panel. "Safety Assessment of Niacinamide as Used in Cosmetics."](https://journals.sagepub.com/doi/10.1177/109158180502400502) *International Journal of Toxicology*, 2005.
+- [EU CosIng Database - Niacinamide entry](https://ec.europa.eu/growth/tools-databases/cosing/details/35024) - European Commission official cosmetic ingredient database.
+- [Gehring W. "Nicotinic acid/niacinamide and the skin."](https://onlinelibrary.wiley.com/doi/10.1111/j.1473-2165.2004.00115.x) *Journal of Cosmetic Dermatology*, 2004.
+- [Rolfe HM. "A review of nicotinamide: treatment of skin diseases and potential side effects."](https://onlinelibrary.wiley.com/doi/10.1111/jocd.12119) *Journal of Cosmetic Dermatology*, 2014.
+- [Walocko FM, et al. "The role of nicotinamide in acne treatment."](https://onlinelibrary.wiley.com/doi/10.1111/dth.12481) *Dermatologic Therapy*, 2017.
+- [Boo YC. "Mechanistic basis and clinical evidence for the applications of nicotinamide in dermatology."](https://www.mdpi.com/2076-3921/10/8/1228) *Antioxidants*, 2021.
+- [SCCS - Scientific Committee on Consumer Safety](https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en) - EU safety assessments for cosmetic ingredients.
