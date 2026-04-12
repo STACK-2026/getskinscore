@@ -513,17 +513,14 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
 
 <!-- Carousel + counter + rotating text styles -->
 <style>
-  /* Rotating text */
+  /* Rotating text - width auto-calculated by JS */
   .si-rotating-container {
     display: inline-block;
     position: relative;
-    min-width: 8ch;
     height: 1.2em;
     vertical-align: bottom;
     overflow: hidden;
-  }
-  @media (min-width: 640px) {
-    .si-rotating-container { min-width: 12ch; }
+    transition: width 0.3s ease;
   }
   .si-rotating-word {
     position: absolute;
@@ -633,15 +630,29 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
     counters.forEach(function (c) { observer.observe(c); });
   })();
 
-  // Rotating hero text
+  // Rotating hero text with auto-width
   (function () {
     var words = document.querySelectorAll(".si-rotating-word");
-    if (words.length < 2) return;
+    var container = document.querySelector(".si-rotating-container");
+    if (words.length < 2 || !container) return;
     var current = 0;
+
+    function updateWidth() {
+      var active = words[current];
+      // Temporarily make visible to measure
+      active.style.position = "relative";
+      container.style.width = active.offsetWidth + "px";
+      active.style.position = "";
+    }
+
+    // Set initial width
+    updateWidth();
+
     setInterval(function () {
       words[current].classList.remove("si-rotating-active");
       current = (current + 1) % words.length;
       words[current].classList.add("si-rotating-active");
+      updateWidth();
     }, 2000);
   })();
 
