@@ -5,9 +5,9 @@
 export const siteConfig = {
   // Identity
   name: "SkinScore",
-  tagline: "Know what's in your skincare",
+  tagline: "Your skincare is lying to you",
   description:
-    "SkinScore rates every skincare product from A to E based on ingredient safety, efficacy, and skin-type fit. Compare products, decode INCI lists, and build your perfect routine with science-backed data.",
+    "67% of skincare products contain a concerning ingredient. SkinScore decodes every INCI list, scores products A to E across safety, efficacy, and skin-type fit. No brand pays us. La Mer gets a C. We don't care.",
   url: "https://getskinscore.com",
   appUrl: "https://app.getskinscore.com",
   locale: "en-US",
@@ -121,21 +121,21 @@ export const siteConfig = {
   // Features
   features: [
     {
-      title: "Score in seconds",
+      title: "Instant truth",
       description:
-        "Search a product, paste an INCI list, or scan a barcode. Get an instant A-to-E rating with a full ingredient breakdown.",
+        "Paste your INCI list or search any product. In 2 seconds, you know if it's worth your money or if you're paying for marketing.",
       icon: "zap",
     },
     {
-      title: "Science, not marketing",
+      title: "Zero brand deals",
       description:
-        "Ratings based on EU CosIng data, SCCS safety assessments, and peer-reviewed research. No brand influence, ever.",
+        "We don't accept money from brands. Our ratings come from EU CosIng data, SCCS safety opinions, and dermatology research. La Mer gets a C. We don't care.",
       icon: "shield",
     },
     {
-      title: "Built for your skin",
+      title: "Your skin, your rules",
       description:
-        "Personalised scoring that adapts to your skin type and concerns. What works for oily skin might not work for sensitive skin.",
+        "Every score adapts to YOUR skin type. What's A-rated for oily skin might be C-rated for sensitive skin. Because one size doesn't fit all.",
       icon: "user",
     },
   ],

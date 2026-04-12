@@ -32,20 +32,20 @@ export const tr = {
 
   // Hero
   hero: {
-    title: { en: "Know what's in your skincare", fr: "Tes produits de peau, décryptés" },
+    title: { en: "Your skincare is lying to you", fr: "Tes soins te mentent" },
     subtitle: {
-      en: "SkinScore rates every skincare product from A to E. Decode ingredients, compare products, build your perfect routine.",
-      fr: "SkinScore analyse chaque produit de soin de A à E. Décode les ingrédients, compare les formules, construis ta routine sur mesure.",
+      en: "Fragrance, endocrine disruptors, comedogenic oils hidden behind scientific names you can\'t read. We decode every ingredient, score every product A to E, and tell you the truth. No brand pays us. Ever.",
+      fr: "Parfum, perturbateurs endocriniens, huiles comedogenes planques derriere des noms scientifiques illisibles. On decode chaque ingredient, on note chaque soin de A a E, et on te dit la verite. Aucune marque ne nous paie. Jamais.",
     },
-    searchPlaceholder: { en: "Search a product or ingredient...", fr: "Cherche un produit ou un ingredient..." },
-    cta: { en: "Score my product", fr: "Analyser mon produit" },
+    searchPlaceholder: { en: "Paste an INCI list or search a product...", fr: "Colle ta liste INCI ou cherche un soin..." },
+    cta: { en: "Check my product", fr: "Verifier mon soin" },
   },
 
   // Social proof
   stats: {
-    products: { en: "Products rated", fr: "Produits notes" },
-    ingredients: { en: "Ingrédients decoded", fr: "Ingrédients decodes" },
-    brands: { en: "Brands analysed", fr: "Marques analysees" },
+    products: { en: "Products exposed", fr: "Soins passes au crible" },
+    ingredients: { en: "Ingredients dissected", fr: "Ingredients disseques" },
+    brands: { en: "Brands held accountable", fr: "Marques passees au scanner" },
   },
 
   // Problem
@@ -53,13 +53,13 @@ export const tr = {
     title: { en: "What's really in your skincare?", fr: "Qu'y a-t-il vraiment dans ta skincare ?" },
     text: {
       en: "67% of skincare products contain at least one concerning ingredient. Fragrance, endocrine disruptors, harsh surfactants... hiding behind scientific names most people can't read.",
-      fr: "67% des produits skincare contiennent au moins un ingredient preoccupant. Parfum, perturbateurs endocriniens, tensioactifs agressifs... caches derriere des noms scientifiques illisibles.",
+      fr: "67% des soins contiennent au moins un ingredient preoccupant. Les memes marques qui te promettent une peau eclatante utilisent du parfum (allergene n1), des perturbateurs endocriniens et des ingredients interdits dans d\'autres pays. Elles se cachent derriere des noms INCI que personne ne peut lire. Nous, on les lit pour toi.",
     },
   },
 
   // Features
   features: {
-    title: { en: "Skincare, decoded", fr: "La skincare, decodee" },
+    title: { en: "The antidote to marketing BS", fr: "L\'antidote au bullshit marketing" },
   },
 
   // How it works
@@ -86,12 +86,12 @@ export const tr = {
 
   // CTA
   cta: {
-    title: { en: "Your skin deserves better than marketing claims", fr: "Ta peau merite mieux que des promesses marketing" },
+    title: { en: "Stop buying blind", fr: "Arrete d\'acheter a l\'aveugle" },
     subtitle: {
-      en: "Join thousands who check before they buy. Free, independent, science-backed.",
+      en: "2,600+ products scored. 100+ ingredients dissected. Zero brand partnerships. Check before you buy.",
       fr: "Rejoins ceux qui vérifient avant d'acheter. Gratuit, indépendant, base sur la science.",
     },
-    button: { en: "Score my skincare", fr: "Analyser mes produits" },
+    button: { en: "Check my skincare now", fr: "Verifier mes soins maintenant" },
   },
 
   // FAQ
@@ -122,7 +122,7 @@ export const tr = {
   // Blog
   blog: {
     title: { en: "The Lab", fr: "Le Labo" },
-    subtitle: { en: "Science-backed skincare insights", fr: "Décryptages skincare basés sur la science" },
+    subtitle: { en: "No BS skincare science", fr: "La science skincare sans langue de bois" },
     readMore: { en: "Read more", fr: "Lire la suite" },
   },
 
