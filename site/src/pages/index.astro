@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HomePage from "../components/sections/HomePage.astro";
+import { siteConfig } from "../../site.config";
+import { jsonLdHomepage, jsonLdFaq } from "../utils/seo";
+
+const faq = siteConfig.faq.map((f) => ({ question: f.question, answer: f.answer }));
+const jsonLd = [jsonLdHomepage(), jsonLdFaq(faq)];
+---
+
+<BaseLayout
+  title={`${siteConfig.name} - ${siteConfig.tagline}`}
+  description={siteConfig.description}
+  jsonLd={jsonLd}
+>
+  <HomePage />
+</BaseLayout>

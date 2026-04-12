@@ -1,0 +1,258 @@
+---
+import { siteConfig } from "../../../site.config";
+import { getLocale, t, tr, localizedPath } from "../../i18n/t";
+import { ingredients } from "../../data/ingredients";
+
+const locale = getLocale(Astro.url);
+
+// Top ingredients to showcase
+const spotlightIngredients = ingredients.filter((i) =>
+  ["niacinamide", "retinol", "hyaluronic-acid", "ascorbic-acid", "salicylic-acid", "centella-asiatica"].includes(i.id)
+);
+---
+
+<!-- ========== HERO ========== -->
+<section class="relative overflow-hidden pt-16 pb-20 md:pt-24 md:pb-28">
+  <!-- Background gradient -->
+  <div class="absolute inset-0 bg-gradient-to-br from-violet-50 via-white to-indigo-50/50 -z-10"></div>
+  <!-- Floating molecules -->
+  <div class="absolute top-20 left-10 w-32 h-32 bg-violet-200/20 rounded-full blur-3xl molecule-float"></div>
+  <div class="absolute bottom-10 right-10 w-40 h-40 bg-indigo-200/20 rounded-full blur-3xl molecule-float" style="animation-delay: 2s"></div>
+  <div class="absolute top-40 right-1/4 w-24 h-24 bg-amber-200/15 rounded-full blur-2xl molecule-float" style="animation-delay: 4s"></div>
+
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center relative">
+    <div class="reveal">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-100 text-violet-700 text-sm font-medium mb-6">
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round" />
+          <circle cx="12" cy="12" r="10" />
+        </svg>
+        {locale === "fr" ? "Independant, base sur la science" : "Independent, science-backed"}
+      </div>
+    </div>
+
+    <h1 class="reveal mb-6">
+      <span class="text-gradient">{t(tr.hero.title, locale)}</span>
+    </h1>
+
+    <p class="reveal text-lg md:text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed">
+      {t(tr.hero.subtitle, locale)}
+    </p>
+
+    <!-- Search bar -->
+    <div class="reveal max-w-xl mx-auto relative mb-10">
+      <div class="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400">
+        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.35-4.35" stroke-linecap="round" />
+        </svg>
+      </div>
+      <input
+        type="text"
+        placeholder={t(tr.hero.searchPlaceholder, locale)}
+        class="search-input"
+        disabled
+      />
+      <a
+        href={localizedPath("/rankings", locale)}
+        class="absolute right-2 top-1/2 -translate-y-1/2 btn-primary text-sm !px-5 !py-2.5 !rounded-lg"
+      >
+        {t(tr.hero.cta, locale)}
+      </a>
+    </div>
+
+    <!-- Demo score badge -->
+    <div class="reveal flex items-center justify-center gap-6">
+      <div class="flex flex-col items-center">
+        <div class="grade grade-xl grade-a grade-pulse">A</div>
+        <span class="text-xs text-slate-500 mt-2 font-medium">CeraVe</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <div class="grade grade-xl grade-b">B</div>
+        <span class="text-xs text-slate-500 mt-2 font-medium">Neutrogena</span>
+      </div>
+      <div class="flex flex-col items-center opacity-60">
+        <div class="grade grade-xl grade-d">D</div>
+        <span class="text-xs text-slate-500 mt-2 font-medium">???</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STATS ========== -->
+<section class="section-alt section">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6">
+    <div class="reveal-children grid grid-cols-3 gap-6 text-center">
+      <div>
+        <p class="text-3xl md:text-4xl font-extrabold text-gradient">1,000+</p>
+        <p class="text-sm text-slate-500 mt-1">{t(tr.stats.products, locale)}</p>
+      </div>
+      <div>
+        <p class="text-3xl md:text-4xl font-extrabold text-gradient">500+</p>
+        <p class="text-sm text-slate-500 mt-1">{t(tr.stats.ingredients, locale)}</p>
+      </div>
+      <div>
+        <p class="text-3xl md:text-4xl font-extrabold text-gradient">100+</p>
+        <p class="text-sm text-slate-500 mt-1">{t(tr.stats.brands, locale)}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROBLEM ========== -->
+<section class="section">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+    <h2 class="reveal mb-4">{t(tr.problem.title, locale)}</h2>
+    <p class="reveal text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">
+      {t(tr.problem.text, locale)}
+    </p>
+  </div>
+</section>
+
+<!-- ========== FEATURES ========== -->
+<section class="section section-alt">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <h2 class="reveal text-center mb-12">{t(tr.features.title, locale)}</h2>
+    <div class="reveal-children grid grid-cols-1 md:grid-cols-3 gap-6">
+      {siteConfig.features.map((feature) => (
+        <div class="card card-glow text-center p-8">
+          <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-violet-100 flex items-center justify-center">
+            {feature.icon === "zap" && (
+              <svg class="w-7 h-7 text-violet-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+              </svg>
+            )}
+            {feature.icon === "shield" && (
+              <svg class="w-7 h-7 text-violet-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                <path d="m9 12 2 2 4-4" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            )}
+            {feature.icon === "user" && (
+              <svg class="w-7 h-7 text-violet-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                <circle cx="12" cy="7" r="4" />
+              </svg>
+            )}
+          </div>
+          <h3 class="text-lg font-bold mb-2">{feature.title}</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">{feature.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- ========== HOW IT WORKS ========== -->
+<section class="section">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6">
+    <h2 class="reveal text-center mb-12">{t(tr.howItWorks.title, locale)}</h2>
+    <div class="reveal-children grid grid-cols-1 md:grid-cols-3 gap-8">
+      {[
+        { num: "1", title: t(tr.howItWorks.step1, locale), desc: t(tr.howItWorks.step1desc, locale) },
+        { num: "2", title: t(tr.howItWorks.step2, locale), desc: t(tr.howItWorks.step2desc, locale) },
+        { num: "3", title: t(tr.howItWorks.step3, locale), desc: t(tr.howItWorks.step3desc, locale) },
+      ].map((step) => (
+        <div class="text-center">
+          <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-gradient-to-br from-violet-600 to-indigo-600 text-white font-extrabold text-xl flex items-center justify-center shadow-lg">
+            {step.num}
+          </div>
+          <h3 class="text-base font-bold mb-2">{step.title}</h3>
+          <p class="text-sm text-slate-600">{step.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- ========== SKIN CONCERNS ========== -->
+<section class="section section-alt">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <h2 class="reveal text-center mb-10">{t(tr.concerns.title, locale)}</h2>
+    <div class="reveal-children grid grid-cols-2 sm:grid-cols-4 gap-4">
+      {siteConfig.concerns.map((concern) => (
+        <a
+          href={localizedPath(`/best/${concern.id}`, locale)}
+          class="card card-glow text-center p-5 group"
+        >
+          <div class="w-10 h-10 mx-auto mb-3 rounded-xl bg-violet-100 group-hover:bg-violet-200 flex items-center justify-center transition-colors">
+            <span class="text-lg">{concern.icon === "droplets" ? "💧" : concern.icon === "clock" ? "⏳" : concern.icon === "sun" ? "☀️" : concern.icon === "flame" ? "🔥" : concern.icon === "wind" ? "💨" : concern.icon === "heart" ? "💜" : concern.icon === "droplet" ? "💦" : "⭕"}</span>
+          </div>
+          <span class="text-sm font-bold text-slate-800">{t(concern.label, locale)}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- ========== INGREDIENTS SPOTLIGHT ========== -->
+<section class="section">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="flex items-center justify-between mb-10">
+      <h2 class="reveal">{t(tr.ingredientsSection.title, locale)}</h2>
+      <a href={localizedPath("/encyclopedia", locale)} class="text-sm font-medium text-violet-600 hover:text-violet-700">
+        {t(tr.ingredientsSection.viewAll, locale)} &rarr;
+      </a>
+    </div>
+    <div class="reveal-children grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {spotlightIngredients.map((ing) => (
+        <a
+          href={localizedPath(`/ingredient/${ing.id}`, locale)}
+          class="card card-glow ingredient-glow flex items-start gap-4 p-5"
+        >
+          <div class={`grade grade-md ${`grade-${ing.score.toLowerCase()}`} shrink-0 mt-0.5`}>
+            {ing.score}
+          </div>
+          <div class="min-w-0">
+            <h3 class="text-sm font-bold text-slate-800 mb-1">{t(ing.name, locale)}</h3>
+            <p class="text-xs text-slate-500 leading-relaxed line-clamp-2">
+              {t(ing.description, locale).slice(0, 120)}...
+            </p>
+            <div class="flex flex-wrap gap-1 mt-2">
+              {ing.concerns.slice(0, 3).map((c) => (
+                <span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-violet-50 text-violet-600">
+                  {c}
+                </span>
+              ))}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- ========== FAQ ========== -->
+<section class="section section-alt">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6">
+    <h2 class="reveal text-center mb-10">{t(tr.faq.title, locale)}</h2>
+    <div class="reveal-children space-y-4">
+      {siteConfig.faq.map((item, i) => (
+        <details class="group card !p-0 overflow-hidden" open={i === 0}>
+          <summary class="flex items-center justify-between p-5 cursor-pointer font-bold text-sm text-slate-800 hover:text-violet-700 transition-colors">
+            <span class="pr-4">{item.question}</span>
+            <svg class="w-5 h-5 shrink-0 text-slate-400 group-open:rotate-180 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </summary>
+          <div class="px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+            {item.answer}
+          </div>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA ========== -->
+<section class="section">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
+    <div class="reveal card !p-10 bg-gradient-to-br from-violet-50 to-indigo-50 !border-violet-200/50">
+      <h2 class="mb-4">{t(tr.cta.title, locale)}</h2>
+      <p class="text-slate-600 mb-8 max-w-lg mx-auto">{t(tr.cta.subtitle, locale)}</p>
+      <a href={localizedPath("/rankings", locale)} class="btn-primary text-lg">
+        {t(tr.cta.button, locale)}
+      </a>
+    </div>
+  </div>
+</section>

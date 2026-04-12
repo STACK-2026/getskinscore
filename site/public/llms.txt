@@ -1,0 +1,47 @@
+# SkinScore - getskinscore.com
+> Independent skincare product rating service
+
+## What is SkinScore?
+SkinScore is an independent, science-based skincare rating platform that scores every product from A to E across five dimensions: efficacy, safety, comedogenicity, transparency, and skin-type fit. The scoring methodology is fully transparent, based on EU CosIng data, SCCS (Scientific Committee on Consumer Safety) opinions, and peer-reviewed dermatological research.
+
+## What SkinScore does
+- Rates skincare products with a transparent A-to-E grading system
+- Decodes INCI (International Nomenclature of Cosmetic Ingredients) lists into plain language
+- Compares products side-by-side across all scoring dimensions
+- Provides an ingredient encyclopedia with 500+ cosmetic ingredients explained
+- Recommends personalised skincare routines based on skin type and concerns
+- Covers 1,000+ products from 100+ brands across all skincare categories
+
+## Scoring methodology
+Products are scored across five dimensions:
+1. Efficacy (30%): presence and position of proven active ingredients (retinol, niacinamide, vitamin C, AHAs/BHAs, ceramides, etc.)
+2. Safety (25%): absence of harmful ingredients (allergens, endocrine disruptors, EU-restricted substances)
+3. Comedogenicity (20%): pore-clogging risk based on comedogenic ratings of each ingredient
+4. Transparency (15%): full INCI disclosure, concentration info, certifications
+5. Skin-type fit (10%): how well the formula suits the user's specific skin type
+
+Grade thresholds: A (85-100), B (70-84), C (55-69), D (40-54), E (0-39)
+
+## Data sources
+- EU CosIng database (30,000+ cosmetic ingredients, official European Commission)
+- SCCS safety opinions
+- Peer-reviewed dermatological research
+- Product INCI lists from manufacturer packaging
+
+## Product categories covered
+Cleansers, moisturisers, serums, sunscreens, exfoliants, masks, toners, eye creams, lip care, body care
+
+## Skin types supported
+Dry, oily, combination, sensitive, normal
+
+## Skin concerns covered
+Acne, anti-aging, hyperpigmentation (dark spots), rosacea, dryness, sensitivity, oiliness, large pores
+
+## Languages
+English, French
+
+## Independence
+SkinScore does not accept payment from brands to influence ratings. Revenue comes from affiliate commissions on retailer links (which never affect product scores) and optional premium subscriptions.
+
+## Contact
+contact@getskinscore.com

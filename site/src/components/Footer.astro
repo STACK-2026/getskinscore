@@ -1,0 +1,66 @@
+---
+import { siteConfig } from "../../site.config";
+import { getLocale, t, tr, localizedPath } from "../i18n/t";
+
+const locale = getLocale(Astro.url);
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-slate-50 border-t border-slate-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <!-- Brand -->
+      <div class="md:col-span-1">
+        <a href={localizedPath("/", locale)} class="flex items-center gap-2 mb-3">
+          <div class="w-7 h-7 rounded-lg bg-gradient-to-br from-violet-600 to-indigo-600 flex items-center justify-center">
+            <svg viewBox="0 0 24 24" class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="3" />
+              <path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
+            </svg>
+          </div>
+          <span class="text-base font-extrabold tracking-tight">
+            <span class="text-violet-600">Skin</span><span class="text-slate-800">Score</span>
+          </span>
+        </a>
+        <p class="text-sm text-slate-500 leading-relaxed">
+          {t(tr.footer.tagline, locale)}
+        </p>
+      </div>
+
+      <!-- Product -->
+      <div>
+        <h4 class="text-sm font-bold text-slate-800 mb-3">Product</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href={localizedPath("/rankings", locale)} class="text-slate-500 hover:text-violet-600 transition-colors">{t(tr.nav.rankings, locale)}</a></li>
+          <li><a href={localizedPath("/compare", locale)} class="text-slate-500 hover:text-violet-600 transition-colors">{t(tr.nav.compare, locale)}</a></li>
+          <li><a href={localizedPath("/encyclopedia", locale)} class="text-slate-500 hover:text-violet-600 transition-colors">{t(tr.nav.ingredients, locale)}</a></li>
+          <li><a href={localizedPath("/methodology", locale)} class="text-slate-500 hover:text-violet-600 transition-colors">{t(tr.nav.methodology, locale)}</a></li>
+        </ul>
+      </div>
+
+      <!-- Resources -->
+      <div>
+        <h4 class="text-sm font-bold text-slate-800 mb-3">{locale === "fr" ? "Ressources" : "Resources"}</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href={localizedPath("/blog", locale)} class="text-slate-500 hover:text-violet-600 transition-colors">{t(tr.blog.title, locale)}</a></li>
+          <li><a href={localizedPath("/about", locale)} class="text-slate-500 hover:text-violet-600 transition-colors">{t(tr.footer.about, locale)}</a></li>
+        </ul>
+      </div>
+
+      <!-- Legal -->
+      <div>
+        <h4 class="text-sm font-bold text-slate-800 mb-3">{locale === "fr" ? "Legal" : "Legal"}</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href={localizedPath("/privacy-policy", locale)} class="text-slate-500 hover:text-violet-600 transition-colors">{t(tr.footer.privacy, locale)}</a></li>
+          <li><a href={localizedPath("/terms", locale)} class="text-slate-500 hover:text-violet-600 transition-colors">{t(tr.footer.terms, locale)}</a></li>
+          <li><a href={localizedPath("/cookie-policy", locale)} class="text-slate-500 hover:text-violet-600 transition-colors">{t(tr.footer.cookie, locale)}</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-10 pt-6 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+      <p>&copy; {year} {siteConfig.name}. {locale === "fr" ? "Tous droits reserves." : "All rights reserved."}</p>
+      <p>{locale === "fr" ? "Donnees basees sur EU CosIng, SCCS et recherche dermatologique." : "Data based on EU CosIng, SCCS, and peer-reviewed dermatology research."}</p>
+    </div>
+  </div>
+</footer>
