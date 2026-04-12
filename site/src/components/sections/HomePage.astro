@@ -204,7 +204,11 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
   <div class="max-w-5xl mx-auto px-4 sm:px-6">
     <h2 class="reveal text-center mb-10">{t(tr.features.title, locale)}</h2>
     <div class="reveal-children grid grid-cols-1 md:grid-cols-3 gap-6">
-      {siteConfig.features.map((feature) => (
+      {(locale === "fr" ? [
+        { title: "La verite en 2 secondes", description: "Colle ta liste INCI ou cherche un produit. En 2 secondes, tu sais si ca vaut ton argent ou si tu paies du marketing.", icon: "zap" },
+        { title: "Zero deal avec les marques", description: "On n'accepte pas d'argent des marques. Nos notes viennent des donnees UE CosIng, des avis SCCS et de la recherche dermatologique. La Mer obtient un C. On s'en fiche.", icon: "shield" },
+        { title: "Ta peau, tes regles", description: "Chaque score s'adapte a TON type de peau. Ce qui est note A pour peau grasse peut etre C pour peau sensible. Parce qu'une taille unique, ca n'existe pas.", icon: "user" },
+      ] : siteConfig.features).map((feature) => (
         <div class="card card-glow text-center p-8">
           <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-violet-100 flex items-center justify-center">
             {feature.icon === "zap" && <svg class="w-7 h-7 text-violet-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" /></svg>}
@@ -450,7 +454,13 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
   <div class="max-w-3xl mx-auto px-4 sm:px-6">
     <h2 class="reveal text-center mb-10">{t(tr.faq.title, locale)}</h2>
     <div class="reveal-children space-y-3">
-      {siteConfig.faq.map((item, i) => (
+      {(locale === "fr" ? [
+        { question: "Comment SkinScore note les produits ?", answer: "SkinScore analyse chaque ingredient de la liste INCI selon cinq dimensions : efficacite (actifs prouves), securite (allergenes, irritants, substances reglementees UE), comedogenicite (risque d'obstruction des pores), transparence (divulgation complete, certifications) et compatibilite avec le type de peau. Chaque dimension est notee puis combinee en une note finale de A a E." },
+        { question: "SkinScore est-il independant ?", answer: "Oui. SkinScore n'accepte aucun paiement des marques pour influencer les notes. Notre methodologie est entierement transparente, basee sur les donnees UE CosIng, les avis SCCS et la recherche dermatologique. Nos revenus viennent de liens affilies (qui n'affectent jamais les scores)." },
+        { question: "C'est quoi une liste INCI ?", answer: "INCI (International Nomenclature of Cosmetic Ingredients) est le systeme de nomenclature standardise des ingredients cosmetiques. Tout produit vendu en UE doit afficher sa liste INCI. SkinScore decode ces noms scientifiques en langage clair." },
+        { question: "SkinScore peut recommander une routine ?", answer: "Oui. Fais notre quiz peau de 2 minutes pour obtenir une routine AM/PM personnalisee selon ton type de peau, tes preoccupations et ton budget. Chaque produit recommande est soutenu par sa note SkinScore." },
+        { question: "Combien de produits couvre SkinScore ?", answer: "SkinScore note actuellement plus de 2 600 produits de 250+ marques. Nettoyants, hydratants, serums, solaires, exfoliants, masques. On ajoute de nouveaux produits chaque jour." },
+      ] : siteConfig.faq).map((item, i) => (
         <details class="group card !p-0 overflow-hidden" open={i === 0}>
           <summary class="flex items-center justify-between p-5 cursor-pointer font-bold text-sm text-slate-800 hover:text-violet-700 transition-colors">
             <span class="pr-4">{item.question}</span>
