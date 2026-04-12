@@ -1,0 +1,227 @@
+[
+  {
+    "brand": "COSRX",
+    "name": "BHA Blackhead Power Liquid",
+    "type": "exfoliant",
+    "price": 22,
+    "size": "100ml",
+    "country": "KR",
+    "inci": "Salix Alba (Willow) Bark Water, Butylene Glycol, Betaine Salicylate, Niacinamide, 1,2-Hexanediol, Arginine, Panthenol, Sodium Hyaluronate, Xanthan Gum, Ethyl Hexanediol"
+  },
+  {
+    "brand": "COSRX",
+    "name": "Full Fit Propolis Light Ampoule",
+    "type": "serum",
+    "price": 23,
+    "size": "30ml",
+    "country": "KR",
+    "inci": "Propolis Extract, Glycerin, Butylene Glycol, 1,2-Hexanediol, Betaine, Panthenol, Cassia Obtusifolia Seed Extract, Sodium Hyaluronate, Polyglutamic Acid, Ethylhexylglycerin, Carbomer, Arginine"
+  },
+  {
+    "brand": "COSRX",
+    "name": "Low pH Good Morning Gel Cleanser",
+    "type": "cleanser",
+    "price": 12,
+    "size": "150ml",
+    "country": "KR",
+    "inci": "Aqua, Cocamidopropyl Betaine, Sodium Lauroyl Methyl Isethionate, Polysorbate 20, Styrax Japonicus Branch/Fruit/Leaf Extract, Butylene Glycol, Saccharomyces Ferment, Cryptomeria Japonica Leaf Extract, Nelumbo Nucifera Leaf Extract, Pinus Palustris Leaf Extract, Ulmus Davidiana Root Extract, Oenothera Biennis Root Extract, Pueraria Lobata Root Extract, Melaleuca Alternifolia Leaf Oil, Allantoin, Caprylyl Glycol, Ethylhexylglycerin, Betaine Salicylate, Citric Acid, Ethyl Hexanediol"
+  },
+  {
+    "brand": "Missha",
+    "name": "Time Revolution The First Treatment Essence RX",
+    "type": "essence",
+    "price": 29,
+    "size": "150ml",
+    "country": "KR",
+    "inci": "Saccharomyces Ferment Filtrate, Bifida Ferment Lysate, Niacinamide, Aqua, Glycerin, 1,2-Hexanediol, Panthenol, Adenosine, Sodium Hyaluronate, Polyglutamic Acid, Camellia Sinensis Leaf Extract, Artemisia Annua Extract, Diethoxyethyl Succinate, Pentylene Glycol, Ethylhexylglycerin"
+  },
+  {
+    "brand": "Purito",
+    "name": "Centella Green Level Buffet Serum",
+    "type": "serum",
+    "price": 17,
+    "size": "60ml",
+    "country": "KR",
+    "inci": "Aqua, Dipropylene Glycol, Glycerin, Niacinamide, Centella Asiatica Extract, 1,2-Hexanediol, Butylene Glycol, Cetearyl Olivate, Sorbitan Olivate, Ammonium Acryloyldimethyltaurate/VP Copolymer, Asiaticoside, Madecassic Acid, Asiatic Acid, Madecassoside, Sodium Hyaluronate, Ceramide NP, Panthenol, Adenosine, Allantoin, Arginine, Caprylyl Glycol, Ethylhexylglycerin, Xanthan Gum"
+  },
+  {
+    "brand": "Klairs",
+    "name": "Supple Preparation Facial Toner",
+    "type": "toner",
+    "price": 20,
+    "size": "180ml",
+    "country": "KR",
+    "inci": "Aqua, Butylene Glycol, Dimethyl Sulfone, Betaine, Caprylic/Capric Triglyceride, Natto Gum, Sodium Hyaluronate, Disodium EDTA, Centella Asiatica Extract, Glycyrrhiza Glabra Root Extract, Polyquaternium-51, Chlorphenesin, Tocopheryl Acetate, Carbomer, Panthenol, Arginine, Luffa Cylindrica Fruit/Leaf/Stem Extract, Lysine HCl, Proline, Sodium Ascorbyl Phosphate, Acetyl Methionine, Theanine, Hydroxyproline"
+  },
+  {
+    "brand": "Benton",
+    "name": "Snail Bee High Content Essence",
+    "type": "essence",
+    "price": 18,
+    "size": "60ml",
+    "country": "KR",
+    "inci": "Snail Secretion Filtrate, Aloe Barbadensis Leaf Juice, Glycerin, Arbutin, Human Oligopeptide-1, Bee Venom, Plantago Asiatica Extract, Laminaria Digitata Extract, Salix Alba Bark Extract, Camellia Sinensis Leaf Extract, Butylene Glycol, 1,2-Hexanediol, Sodium Hyaluronate, Betaine, Panthenol, Allantoin, Adenosine, Xanthan Gum, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Ethylhexylglycerin"
+  },
+  {
+    "brand": "Some By Mi",
+    "name": "AHA BHA PHA 30 Days Miracle Toner",
+    "type": "toner",
+    "price": 14,
+    "size": "150ml",
+    "country": "KR",
+    "inci": "Aqua, Butylene Glycol, Dipropylene Glycol, Glycolic Acid, Betaine Salicylate, Gluconolactone, Glycerin, Niacinamide, 1,2-Hexanediol, Melaleuca Alternifolia Leaf Oil, Centella Asiatica Extract, Houttuynia Cordata Extract, Camellia Sinensis Leaf Extract, Hamamelis Virginiana Leaf Extract, Cryptomeria Japonica Leaf Extract, Taxus Cuspidata Leaf Extract, Citrus Junos Fruit Extract, Allantoin, Adenosine, Panthenol, Sodium Hyaluronate, Xanthan Gum, Ethylhexylglycerin, Carbomer"
+  },
+  {
+    "brand": "Etude House",
+    "name": "SoonJung pH 6.5 Whip Cleanser",
+    "type": "cleanser",
+    "price": 10,
+    "size": "150ml",
+    "country": "KR",
+    "inci": "Aqua, Potassium Cocoyl Glycinate, Glycerin, Acrylates Copolymer, Potassium Hydroxide, Panthenol, Madecassoside, Camellia Sinensis Leaf Extract, Butylene Glycol, 1,2-Hexanediol, Citric Acid, Ethylhexylglycerin, Disodium EDTA"
+  },
+  {
+    "brand": "Isntree",
+    "name": "Hyaluronic Acid Toner",
+    "type": "toner",
+    "price": 15,
+    "size": "200ml",
+    "country": "KR",
+    "inci": "Aqua, Glycerin, Butylene Glycol, 1,2-Hexanediol, Panthenol, Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Sodium Hyaluronate Crosspolymer, Sodium Acetylated Hyaluronate, Hydrolyzed Sodium Hyaluronate, Potassium Hyaluronate, Allantoin, Betaine, Ethylhexylglycerin, Carbomer, Arginine, Pentylene Glycol"
+  },
+  {
+    "brand": "Rovectin",
+    "name": "Clean Lotus Water Cream",
+    "type": "moisturizer",
+    "price": 22,
+    "size": "60ml",
+    "country": "KR",
+    "inci": "Aqua, Glycerin, Nelumbo Nucifera Flower Extract, Butylene Glycol, Niacinamide, 1,2-Hexanediol, Pentylene Glycol, Betaine, Sodium Hyaluronate, Ceramide NP, Squalane, Allantoin, Panthenol, Tocopheryl Acetate, Caprylic/Capric Triglyceride, Cetearyl Olivate, Sorbitan Olivate, Carbomer, Arginine, Ethylhexylglycerin, Xanthan Gum"
+  },
+  {
+    "brand": "Anua",
+    "name": "Heartleaf 77% Soothing Toner",
+    "type": "toner",
+    "price": 18,
+    "size": "250ml",
+    "country": "KR",
+    "inci": "Houttuynia Cordata Extract, Propanediol, Glycerin, Aqua, 1,2-Hexanediol, Butylene Glycol, Panthenol, Allantoin, Madecassoside, Asiaticoside, Asiatic Acid, Madecassic Acid, Sodium Hyaluronate, Fructan, Xylitol, Betaine, Caprylyl Glycol, Ethylhexylglycerin, Carbomer, Arginine"
+  },
+  {
+    "brand": "Torriden",
+    "name": "Dive-In Low Molecular Hyaluronic Acid Serum",
+    "type": "serum",
+    "price": 16,
+    "size": "50ml",
+    "country": "KR",
+    "inci": "Aqua, Glycerin, Panthenol, Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Sodium Acetylated Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hydrolyzed Sodium Hyaluronate, 1,2-Hexanediol, Allantoin, Betaine, Butylene Glycol, Caprylyl Glycol, Carbomer, Arginine, Ethylhexylglycerin, Pentylene Glycol"
+  },
+  {
+    "brand": "Skin1004",
+    "name": "Madagascar Centella Ampoule",
+    "type": "serum",
+    "price": 19,
+    "size": "55ml",
+    "country": "KR",
+    "inci": "Centella Asiatica Extract, Butylene Glycol, 1,2-Hexanediol, Asiaticoside, Asiatic Acid, Madecassic Acid, Madecassoside, Disodium EDTA"
+  },
+  {
+    "brand": "Beauty of Joseon",
+    "name": "Glow Serum: Propolis + Niacinamide",
+    "type": "serum",
+    "price": 15,
+    "size": "30ml",
+    "country": "KR",
+    "inci": "Propolis Extract, Glycerin, Butylene Glycol, Aqua, Niacinamide, 1,2-Hexanediol, Sodium Hyaluronate, Pentylene Glycol, Caprylyl Glycol, Adenosine, Camellia Sinensis Leaf Extract, Panthenol, Allantoin, Carbomer, Arginine, Ethylhexylglycerin"
+  },
+  {
+    "brand": "Differin",
+    "name": "Adapalene Gel 0.1%",
+    "type": "treatment",
+    "price": 14,
+    "size": "45g",
+    "country": "US",
+    "inci": "Adapalene, Carbomer 940, Edetate Disodium, Methylparaben, Poloxamer 182, Propylene Glycol, Purified Water, Sodium Hydroxide"
+  },
+  {
+    "brand": "Vanicream",
+    "name": "Daily Facial Moisturizer",
+    "type": "moisturizer",
+    "price": 14,
+    "size": "89ml",
+    "country": "US",
+    "inci": "Purified Water, Glycerin, Pentylene Glycol, Cetearyl Alcohol, Ceramide NP, Ceramide AP, Ceramide EOP, Hyaluronic Acid, Squalane, Niacinamide, Cholesterol, Phytosphingosine, Sodium Lauroyl Lactylate, Carbomer, Xanthan Gum, Disodium EDTA, Ethylhexylglycerin"
+  },
+  {
+    "brand": "Aquaphor",
+    "name": "Healing Ointment",
+    "type": "balm",
+    "price": 12,
+    "size": "396g",
+    "country": "US",
+    "inci": "Petrolatum, Mineral Oil, Ceresin, Lanolin Alcohol, Panthenol, Glycerin, Bisabolol"
+  },
+  {
+    "brand": "La Roche-Posay",
+    "name": "Effaclar Adapalene Gel 0.1%",
+    "type": "treatment",
+    "price": 30,
+    "size": "45g",
+    "country": "FR",
+    "inci": "Adapalene, Carbomer, Edetate Disodium, Methylparaben, Poloxamer 182, Propylene Glycol, Purified Water, Sodium Hydroxide, Sorbitan Oleate"
+  },
+  {
+    "brand": "Geek & Gorgeous",
+    "name": "Liquid Gold (C Glow)",
+    "type": "serum",
+    "price": 12,
+    "size": "30ml",
+    "country": "HU",
+    "inci": "Aqua, Ascorbic Acid, Propanediol, Ethoxydiglycol, Triethanolamine, Panthenol, Sodium Hyaluronate, Tocopherol, Ferulic Acid, Glycerin, Camellia Sinensis Leaf Extract, 1,2-Hexanediol, Caprylyl Glycol, Xanthan Gum"
+  },
+  {
+    "brand": "By Wishtrend",
+    "name": "Pure Vitamin C21.5% Advanced Serum",
+    "type": "serum",
+    "price": 19,
+    "size": "30ml",
+    "country": "KR",
+    "inci": "Ascorbic Acid, Aqua, Sodium Lactate, Hippophae Rhamnoides Fruit Extract, Broussonetia Kazinoki Root Extract, 1,2-Hexanediol, Sodium Hyaluronate, Panthenol, Cassia Obtusifolia Seed Extract, Allantoin, Xanthan Gum, Tocopherol"
+  },
+  {
+    "brand": "Purito",
+    "name": "Daily Go-To Sunscreen SPF50+ PA++++",
+    "type": "sunscreen",
+    "price": 16,
+    "size": "60ml",
+    "country": "KR",
+    "inci": "Aqua, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Polyglyceryl-3 Methylglucose Distearate, Butylene Glycol, Methylpropanediol, Cetearyl Alcohol, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Dibutyl Adipate, Niacinamide, Glycerin, Ethylhexyl Triazone, Centella Asiatica Extract, 1,2-Hexanediol, Caprylyl Glycol, Panthenol, Asiaticoside, Madecassic Acid, Asiatic Acid, Sodium Hyaluronate, Xanthan Gum, Tocopherol, Ethylhexylglycerin"
+  },
+  {
+    "brand": "Round Lab",
+    "name": "1025 Dokdo Cleanser",
+    "type": "cleanser",
+    "price": 15,
+    "size": "200ml",
+    "country": "KR",
+    "inci": "Aqua, Sodium Cocoyl Isethionate, Glycerin, Lauryl Betaine, Cocamidopropyl Betaine, Deep Sea Water, Butylene Glycol, 1,2-Hexanediol, Panthenol, Sodium Chloride, Allantoin, Sodium Hyaluronate, Disodium EDTA, Citric Acid, Ethylhexylglycerin, Caprylyl Glycol"
+  },
+  {
+    "brand": "Bondi Sands",
+    "name": "SPF 50+ Fragrance Free Face Sunscreen Lotion",
+    "type": "sunscreen",
+    "price": 14,
+    "size": "75ml",
+    "country": "AU",
+    "inci": "Aqua, Homosalate, Octocrylene, Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Glycerin, Cetyl PEG/PPG-10/1 Dimethicone, VP/Hexadecene Copolymer, Dimethicone, Phenoxyethanol, Caprylyl Methicone, Tocopheryl Acetate, Sodium Chloride, Panthenol, Disodium EDTA, BHT, Ethylhexylglycerin, Sodium Hyaluronate"
+  },
+  {
+    "brand": "Biore",
+    "name": "UV Aqua Rich Watery Essence SPF50+ PA++++",
+    "type": "sunscreen",
+    "price": 13,
+    "size": "50g",
+    "country": "JP",
+    "inci": "Aqua, Ethylhexyl Methoxycinnamate, Lauryl Methacrylate/Sodium Methacrylate Crosspolymer, Isopropyl Palmitate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Alcohol, Glycerin, Dextrin Palmitate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Butylene Glycol, Dimethicone, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Sodium Hyaluronate, Royal Jelly Extract, BHT, Citric Acid, Disodium EDTA, Isopropyl Myristate, Agar, Potassium Hydroxide, Methylparaben, Propylparaben"
+  }
+]

@@ -1,0 +1,875 @@
+[
+  {
+    "brand": "Clinique",
+    "name": "Super Primer Universal Clinique",
+    "type": "primer",
+    "price": 35,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water, Dimethicone, Cyclopentasiloxane, Polysilicone-11, Silica, Dimethicone Silylate, Sucrose, Isopentyldiol, Algae Extract, Saccharide Isomerate, Hypnea Musciformis (Algae) Extract, Gelidiella Acerosa (Algae) Extract, Caffeine, Poria Cocos Sclerotium Extract, Camellia Sinensis (Green Tea) Leaf Extract, Vitis Vinifera (Grape) Fruit Extract, Sodium Hyaluronate, Scutellaria Baicalensis Root Extract, Laminaria Saccharina Extract, Morus Bombycis (Mulberry) Root Extract, Amorphophallus Konjac Root Powder, PEG-10 Dimethicone, Polysorbate 20, Ammonium Acryloyldimethyltaurate/VP Copolymer, Hdi/Trimethylol Hexyllactone Crosspolymer, PEG/PPG-18/18 Dimethicone, Laureth-7, Stearyl Dimethicone, Butylene Glycol, Polyethylene, Isododecane"
+  },
+  {
+    "brand": "Clinique",
+    "name": "Dramatically Different Moisturizing Lotion",
+    "type": "moisturizer",
+    "price": 35,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water, Mineral Oil/Paraffinum Liquidum/Huile Minerale, Glycerin, Petrolatum, Stearic Acid, Glyceryl Stearate, Sesamum Indicum (Sesame) Oil, Urea, Lanolin Alcohol, Triethanolamine, Hordeum Vulgare (Barley) Extract/Extrait D'Orge, Cucumis Sativus (Cucumber) Fruit Extract, Helianthus Annuus (Sunflower) Seedcake, Propylene Glycol Dicaprate, Sodium Hyaluronate, Butylene Glycol, Pentylene Glycol, Trisodium Edta, Phenoxyethanol, Yellow 6 (Ci 15985), Yellow 5 (Ci 19140), Red 33 (Ci 17200)"
+  },
+  {
+    "brand": "Clinique",
+    "name": "Superprimer",
+    "type": "primer",
+    "price": 35,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water\\Aqua\\Eau, Dimethicone, Cyclopentasiloxane, Polysilicone-11, Silica, Dimethicone Silylate, Sucrose, Isopentyldiol, Algae Extract, Saccharide Isomerate, Hypnea Musciformis (Algae) Extract, Gelidiella Acerosa (Algae) Extract, Caffeine, Poria Cocos Sclerotium Extract, Camellia Sinensis (Green Tea) Leaf Extract, Vitis Vinifera (Grape) Fruit Extract, Sodium Hyaluronate, Scutellaria Baicalensis Root Extract, Laminaria Saccharina Extract, Morus Bombycis (Mulberry) Root Extract, Amorphophallus Konjac Root Powder, PEG-10 Dimethicone, Polysorbate 20, Ammonium Acryloyldimethyltaurate/VP Copolymer, Hdi/Trimethylol Hexyllactone Crosspolymer, PEG/PPG-18/18 Dimethicone, Laureth-7, Stearyl Dimethicone, Butylene Glycol, Polyethylene, Isododecane, Acrylates/Ethylhexyl Acrylate Copolymer, Laureth-21, Caprylyl Glycol, Tocopheryl Acetate, Magnesium Myristate, Magnesium Ascorbyl Phosphate, Triethoxycaprylylsilane, Hexylene Glycol, Phenoxyethanol, Titanium Dioxide (Ci 77891), Mica, Bismuth Oxychloride (Ci 77163), Iron Oxides (Ci 77491, Ci 77492, Ci 77499)"
+  },
+  {
+    "brand": "Clinique",
+    "name": "Quickliner",
+    "type": "skincare",
+    "price": 35,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Cyclopentasiloxane, Synthetic Beeswax, Disteardimonium Hectorite, Arachidyl Behenate, Microcrystalline Wax\\Cera Microcristallina\\Cire Microcristalline, BHT, Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891), Mica, Blue 1 Lake (Ci 42090), Bismuth Oxychloride (Ci 77163), Chromium Hydroxide Green (Ci 77289), Yellow 5 Lake (Ci 19140), Manganese Violet (Ci 77742), Chromium Oxide Greens (Ci 77288), Carmine (Ci 75470), Aluminum Powder (Ci 77000), Ultramarines (Ci 77007), Ferric Ferrocyanide (Ci 77510)"
+  },
+  {
+    "brand": "Clinique",
+    "name": "Take The Day Off Cleansing Oil",
+    "type": "cleanser",
+    "price": 35,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Cetyl Ethylhexanoate, Triethylhexanoin, PEG-20 Glyceryl Triisostearate, Polybutene, PEG-8 Diisostearate, PEG-12 Diisostearate, PPG-15 Stearyl Ether, Water/Aqua/Eau, Tocopheryl Acetate, Glycerin, Caprylyl Glycol, Glyceryl Laurate, BHT"
+  },
+  {
+    "brand": "Estee Lauder",
+    "name": "Fruition",
+    "type": "skincare",
+    "price": 65,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water, Cyclomethicone, Dimethicone, Steareth-20, Decyl Oleate, Butylene Glycol, Polyacrylamide, Camellia Sinensis (Green Tea) Leaf Extract, Hydroxycaprylic Acid, Salicylic Acid, Arginine, Saccharum Officinarum (Sugar Cane) Extract, Phospholipids, Glycyrrhiza Glabra (Licorice) Root Extract, Coleus Barbatus Root Extract, Squalane, Retinyl Palmitate, Tocopheryl Acetate, Tocopheryl Linoleate, Magnesium Ascorbyl Phosphate, Pantethine, Hordeum Vulgare Extract, Sodium Hyaluronate, Xanthan Gum, C13-14 Isoparaffin, Carbomer, Laureth-7, Sodium Chondroitin Sulfate, Triticum Vulgare (Wheat) Germ Extract, Methylcellulose, Glycerin, Citric Acid, Tetrahydroxypropyl Ethylenediamine, Fragrance, Imidazolidinyl Urea, Methylparaben, Sodium Dehydroacetate, Phenoxyethanol, Guanine"
+  },
+  {
+    "brand": "Estee Lauder",
+    "name": "Perfectly Clean",
+    "type": "skincare",
+    "price": 65,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water\\Aqua\\Eau, Dimethicone, Isododecane, Hamamelis Virginiana (Witch Hazel) Water, Disodium Cocoamphodiacetate, Sucrose, PEG-32, Gentiana Lutea (Gentian) Root Extract, Silybum Marianum (Lady'S Thistle) Extract, Algae Extract, Zinc Pca, Sorbitol, Glycerin, Caffeine, PPG-26-Buteth-26, PEG-4 Dilaurate, Caprylyl Glycol, PEG-40 Hydrogenated Castor Oil, Hexylene Glycol, 1,2-Hexanediol, PEG-6, Citric Acid, Lauramidopropyl Betaine, Fragrance (Parfum), Phenoxyethanol"
+  },
+  {
+    "brand": "Estee Lauder",
+    "name": "Perfectionist  Youth-Infusing Serum Makeup SPF 25",
+    "type": "serum",
+    "price": 65,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Dimethicone, Water\\\\Aqua\\\\Eau, Polysilicone-11, Hdi/Trimethylol Hexyllactone Crosspolymer, Silica, Butylene Glycol, Caprylyl Methicone, Sigesbeckia Orientalis (St. Paul'S Wort) Extract, Salvia Sclarea (Clary) Extract, Coleus Forskohlii Root Extract, Chamomilla Recutita (Matricaria) Flower Extract, PEG-10 Dimethicone, Hydrolyzed Fish (Pisces) Collagen, Palmaria Palmata Extract, Glycyrrhiza Glabra (Licorice) Root Extract, Silybum Marianum (Lady'S Thistle) Extract, Hordeum Vulgare (Barley) Extract\\\\Extrait D'Orge, Padina Pavonica Thallus Extract, Artemia Extract, Pantethine, Algae Extract, Chlorella Vulgaris Extract, Cholesterol, Squalane, Boswellia Serrata Extract, Zea Mays (Corn) Kernel Extract, Glycine Soja (Soybean) Protein, Caffeine, Whey Protein\\\\Lactis Protein\\\\Proteine Du Petit-Lait, Linoleic Acid, Lecithin, Fish (Pisces) Collagen, Acetyl Hexapeptide-8, Palmitoyl Oligopeptide, Glycerin, Yeast Extract\\\\Faex\\\\Extrait De Levure, Polyquaternium-51, Phytosphingosine, Triticum Vulgare (Wheat) Germ Oil, Decarboxy Carnosine Hcl, Polysorbate 40, Pentylene Glycol, Propanediol, Lauryl PEG-9 Polydimethylsiloxyethyl Dimethicone, Ethylhexylglycerin, Ammonium Acryloyldimethyltaurate/VP Copolymer, Sodium PCA, Polymethylsilsesquioxane, Glyceryl Polymethacrylate, Zinc Pca, Propylene Glycol Dicaprate, Sodium Chondroitin Sulfate, Sodium Hyaluronate, Isohexadecane, PEG-8, Tocopheryl Acetate, Polysorbate 80, Disodium Distyrylbiphenyl Disulfonate, Laureth-12, Acrylamide/Sodium Acryloyldimethyltaurate Copolymer, Caprylyl Glycol, Aminopropyl Ascorbyl Phosphate, Xanthan Gum, Sodium Beta-Sitosteryl Sulfate, Sodium Chloride, Sodium Hydroxide, Fragrance (Parfum), Disodium EDTA, BHT, Phenoxyethanol, Mica, Titanium Dioxide (Ci 77891)"
+  },
+  {
+    "brand": "Estee Lauder",
+    "name": "Powder Foundation",
+    "type": "foundation",
+    "price": 65,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Boron Nitride, Polymethylsilsesquioxane, Octyldodecyl Stearoyl Stearate, Silica, Calcium Silicate, Isostearyl Neopentanoate, Tocopheryl Acetate, Dimethicone, Methicone, Phenyl Trimethicone, Talc, Triethoxycaprylylsilane, Trimethylsiloxysilicate, Methyl Methacrylate Crosspolymer, Sodium Lauroyl Aspartate, Caprylyl Glycol, Hexylene Glycol, Zinc Stearate, Isopropyl Titanium Triisostearate, Phenoxyethanol, Mica, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491), Iron Oxides (Ci 77492), Iron Oxides (Ci 77499), Bismuth Oxychloride (Ci 77163), Carmine (Ci 75470), Chromium Hydroxide Green (Ci 77289), Chromium"
+  },
+  {
+    "brand": "Estee Lauder",
+    "name": "The Illuminator",
+    "type": "skincare",
+    "price": 65,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water\\Aqua\\Eau, PEG-8 Dimethicone, Butylene Glycol, Silica, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Butyrospermum Parkii (Shea Butter), Cetearyl Alcohol, Imperata Cylindrica Root Extract, Glycerin, Pullulan, Isohexadecane, Coco-Glucoside, Dimethicone, Carbomer, Polysorbate 80, Caprylyl Glycol, Tocopheryl Acetate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Sodium Hydroxide, Hexylene Glycol, Sodium Hyaluronate, Disodium EDTA, Phenoxyethanol, Mica, Titanium Dioxide (Ci 77891), Manganese Violet (Ci 77742), Yellow 5 Lake (Ci 19140), Carmine (Ci 75470), Bismuth Oxychloride (Ci 77163), Blue 1 Lake (Ci 42090), Iron Oxides (Ci 77491, Ci 77492, Ci 77499)"
+  },
+  {
+    "brand": "Lancome",
+    "name": "Visionnaire Advanced Skin Corrector",
+    "type": "skincare",
+    "price": 70,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua, Cyclohexasiloxane, Glycerin, Alcohol Denat, C12-15 Alkyl Benzoate, Dipropylene Glycol, Pentaerythrityl Tetraethylhexanoate, Polysilicone-11, Dimethicone, Bis-Peg/Ppg-16/16 Peg/Ppg-16/16 Dimethicone, Polymethyl Methacrylate, Ci 77891, Mica, Sodium Hyaluronate, Phenoxyethanol, Adenosine, Dimethiconol, Caprylic/Capric Triglyceride, Disodium Edta, Citronellol, Inulin Lauryl Carbamate, Parfum, Sodium Tetrahydrojasmonate, Ammonium Polyacryldimethyltauramide/Ammonium Polyacryloyldimethyl Taurate, Hydroxyethylcellulose, Argilla/Magnesium Aluminium Silicate, Tetrahydrojasmonic Acid, Parfum/Fragrance"
+  },
+  {
+    "brand": "Lancome",
+    "name": "Nutrix",
+    "type": "skincare",
+    "price": 70,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Water, Mineral Oil, Petrolatum, Lanolin, Ozokerite, Beeswax, Lecithin, Hydrogenated Lecithin, Sodium Sulfate, Sodium Hydroxide, Hydroxyisohexyl 3-Cyclohexene Carboxaldehyde, Hydroxycitronellal, Stearic Acid, Eugenol, Limonene, Linalool, Cinnamyl Alcohol, Benzyl Benzoate, Benzyl Alcohol, Benzyl Salicylate, Cholesterol, Isoeugenol, Alpha-Isomethyl Ionone, Fragrance, Geraniol, Methylparaben, Citronellol, Citral, Aluminum Stearate, Coumarin, Soybean Protein, Amyl Cinnamal"
+  },
+  {
+    "brand": "Lancome",
+    "name": "Progres Eye cream",
+    "type": "moisturizer",
+    "price": 70,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Petrolatum, Glycerin, Butyrospermum Parkii Butter/Shea Butter, Glyceryl Isostearate, Ozokerite, Hydrogenated Castor Oil, Polyglyceryl-3 Oleate, Sodium Chloride, Hydrolyzed Soy Protein, Hydroxycitronellal, Magnesium Sulfate, Magnesium Nitrate, Magnesium Chloride, Imidazolidinyl Urea, Cinnamyl Alcohol, Linalool, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Alpha-Isomethyl Ionone, Geraniol, Farnesol, Methylparaben, Potassium Chloride, Citronellol, Methylchloroisothiazolinone, Methylisothiazolinone, Citric Acid, Hexyl Cinnamal, Parfum/Fragrance"
+  },
+  {
+    "brand": "Lancome",
+    "name": "Tresor",
+    "type": "skincare",
+    "price": 70,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Alcohol, Parfum/Fragrance, Aqua/Water, Alpha-Isomethyl Ionone, Hydroxycitronellal, Ethylhexyl Methoxycinnamate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Benzyl Salicylate, Benzyl Alcohol, Cinnamyl Alcohol, Benzyl Benzoate, Citronellol, BHT, Geraniol, Linalool, Eugenol, Limonene, Coumarin, Isoeugenol, Citral, Cinnamal, Anise Alcohol, Ci 14700/Red 4, Ci 19140/Yellow 5, Ci 61570 / Green 5"
+  },
+  {
+    "brand": "Lancome",
+    "name": "Maquicomplet Concealer",
+    "type": "concealer",
+    "price": 70,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water, Cyclopentasiloxane, Hydrogenated Polyisobutene, Sorbitan Isostearate, Propanediol, Propylene Glycol, Ozokerite, Mel/Honey, Isobutane, Sodium Hyaluronate, Chamomilla Recutita Extract/Matricaria Flower Extract, Magnesium Sulfate, Disodium EDTA, Isopropyl Titanium Triisostearate, Maltodextrin, Centaurea Cyanus Flower Extract, Synthetic Fluorphlogopite, Disteardimonium Hectorite, Acrylonitrile/Methyl Methacrylate/Vinylidene Chloride Copolymer, Tocopherol, Phenoxyethanol, Ci 77491, Ci 77492, Ci 77499/Iron Oxides, Ci 77891/Titanium Dioxide"
+  },
+  {
+    "brand": "Clarins",
+    "name": "My Clarins Re-Charge",
+    "type": "skincare",
+    "price": 55,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Caprylic/Capric Triglyceride, Glycerin, Betaine, Pentylene Glycol, Pentaerythrityl Tetraethylhexanoate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cocos Nucifera (Coconut) Fruit Juice, Phenoxyethanol, Cellulose, Propylene Glycol, Butylene Glycol, Dimethicone/Vinyl Dimethicone Crosspolymer, Xylitylglucoside, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Anhydroxylitol, Parfum/Fragrance, Ethylhexylglycerin, Xylitol, Bisabolol, Disodium EDTA, PPG-5-Ceteth-20, Sodium Hydroxide, Silica, Glucose, Marrubium Vulgare Extract, Citric Acid, Ficus Carica (Fig) Fruit Extract, Malpighia Emarginata (Acerola) Seed Extract, Furcellaria Lumbricalis Extract, Sodium Benzoate, Rhododendron Ferrugineum Extract, Potassium Sorbate, Engelhardtia Chrysolepis Leaf Extract, Lapsana Communis Flower/Leaf/Stem Extract, Maris Sal/Sea Salt/Sel Marin"
+  },
+  {
+    "brand": "Clarins",
+    "name": "My Clarins Re-Fresh",
+    "type": "skincare",
+    "price": 55,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Butylene Glycol, Glycereth-26, Propanediol, Glycerin, Cocos Nucifera (Coconut) Fruit Juice, PPG-26-Buteth-26, Propylene Glycol, Phenoxyethanol, PEG-40 Hydrogenated Castor Oil, Sodium Benzoate, Ethylhexylglycerin, Parfum/Fragrance, Citric Acid, Disodium EDTA, Sodium Citrate, Ficus Carica (Fig) Fruit Extract, Malpighia Emarginata (Acerola) Seed Extract, Robinia Pseudoacacia Flower Extract, Rhododendron Ferrugineum Extract, Potassium Sorbate"
+  },
+  {
+    "brand": "Clarins",
+    "name": "La Creme Precious",
+    "type": "skincare",
+    "price": 55,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Glycerin, Caprylic/Capric Triglyceride, Squalane, Cetearyl Alcohol, Hydrogenated Coco-Glycerides, Butyrospermum Parkii (Shea) Butter, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, 1,2-Hexanediol, Glyceryl Stearate, PEG-100 Stearate, Dimethicone, Butylene Glycol, Camellia Oleifera Seed Oil, Cetearyl Glucoside, Albizia Julibrissin Bark Extract, Ascorbyl Glucoside, Xylitylglucoside, Parfum/Fragrance, Hydroxyacetophenone, Sodium Citrate, Anhydroxylitol, Avena Sativa (Oat) Kernel Extract, Ethylhexylglycerin, Tocopheryl Acetate, Xanthan Gum, Dimethiconol, Xylitol, Disodium EDTA, Sodium Hydroxide, Sodium Lactate, Citric Acid, Glucose, Carbomer, Sodium Benzoate, Marrubium Vulgare Extract, Kalanchoe Pinnata Leaf Extract, Coco-Glucoside, Cereus Grandiflorus (Cactus) Flower Extract, Malpighia Emarginata (Acerola) Seed Extract, Phenethyl Alcohol, Furcellaria Lumbricalis Extract, Potassium Sorbate, Palmitoyl Tripeptide-1, Lapsana Communis Flower/Leaf/Stem Extract, Maris Sal/Sea Salt/Sel Marin, Palmitoyl Tetrapeptide-7, Acetyl Tetrapeptide-2, Dextran, Ci 14700/Red 4"
+  },
+  {
+    "brand": "Clarins",
+    "name": "Extra-Firming Body Lotion",
+    "type": "moisturizer",
+    "price": 55,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Caprylic/Capric Triglyceride, Alcohol, Cetearyl Ethylhexanoate, Glycerin, Cetearyl Isononanoate, Butyrospermum Parkii (Shea) Butter, C14-22 Alcohols, Pentylene Glycol, Corylus Avellana (Hazel) Seed Oil, Dimethicone, Trehalose, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, C12-20 Alkyl Glucoside, Parfum/Fragrance, Butylene Glycol, Ammonium Acryloyldimethyltaurate/VP Copolymer, Menthyl Pca, Asiaticoside, Disodium EDTA, Potassium Cetyl Phosphate, Maltodextrin, Chrysophyllum Cainito Fruit Extract, Thymus Citriodorus Flower/Leaf Extract, Avena Sativa (Oat) Kernel Extract, Bocoa Prouacensis Extract, Potassium Sorbate, Sodium Benzoate, Ci 15985/Yellow 6"
+  },
+  {
+    "brand": "Clarins",
+    "name": "My Clarins Clear-out Toner",
+    "type": "toner",
+    "price": 55,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Alcohol, Propanediol, Glycerin, Cocos Nucifera (Coconut) Fruit Juice, Butylene Glycol, Propylene Glycol, Sodium Benzoate, PPG-26-Buteth-26, Tartaric Acid, Disodium EDTA, PEG-40 Hydrogenated Castor Oil, Parfum/Fragrance, Citric Acid, Tamarindus Indica Extract, Spiraea Ulmaria Extract, Ficus Carica (Fig) Fruit Extract, Gentiana Lutea Extract, Rhododendron Ferrugineum Extract, Sorbic Acid, Potassium Sorbate"
+  },
+  {
+    "brand": "Shiseido",
+    "name": "Men Moisturizing Emulsion",
+    "type": "moisturizer",
+    "price": 60,
+    "size": "50ml",
+    "country": "JP",
+    "inci": "Water (Aqua), Alcohol Denat, Glycerin, Butylene Glycol, Dipropylene Glycol, Diphenylsiloxy Phenyl Trimethicone, Xylitol, Diethylhexyl Succinate, Dimethicone, Erythritol, PEG/PPG-14/7 Dimethyl Ether, Silica, Behenyl Alcohol, Carbomer, Batyl Alcohol, Methylparaben, Aminomethyl Propanol, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Trisodium EDTA, Dipotassium Glycyrrhizate, Polyquaternium-51, Fragrance (Parfum), Thiotaurine, Phenoxyethanol, Alcohol, Linalool, Benzyl Benzoate, Limonene, Betula Platyphylla Japonica Bark Extract"
+  },
+  {
+    "brand": "Shiseido",
+    "name": "Men Shaving Cream",
+    "type": "moisturizer",
+    "price": 60,
+    "size": "50ml",
+    "country": "JP",
+    "inci": "Water(Aqua/Eau), Glycerin, Butylene Glycol, Hydrogenated Polyisobutene, PEG-6, PEG-32, Stearyl Alcohol, Dimethicone, Glyceryl Diisostearate, Petrolatum, Glyceryl Stearate, Behenyl Alcohol, PEG-60 Glyceryl Isostearate, Pentaerythrityl Tetraethylhexanoate, Erythritol, PEG/PPG-14/7 Dimethyl Ether, Urea, Titanium Dioxide (Ci 77891), Triethanolamine, Phenoxyethanol, Ethylparaben, Menthol, Fragrance (Parfum), Dipotassium Glycyrrhizate, Polyquaternium-51, Sodium Metaphosphate, Aluminum Hydroxide, Tocopherol"
+  },
+  {
+    "brand": "Shiseido",
+    "name": "Archliner",
+    "type": "skincare",
+    "price": 60,
+    "size": "50ml",
+    "country": "JP",
+    "inci": "Water(Aqua/Eau), Iron Oxides (Ci 77499), Glyceryl Stearate, Copernicia Cerifera (Carnauba) Wax(Copernicia Cerifera Cera/Cire De Carnauba), Acrylates Copolymer, Synthetic Beeswax, Cetearyl Alcohol, Ricinus Communis (Castor) Seed Oil, VP/Hexadecene Copolymer, Polyvinyl Alcohol, Polybutene, Pentylene Glycol, Glycerin, Phenoxyethanol, Benzyl Alcohol, Ceteth-10 Phosphate, Dicetyl Phosphate, Black 2 (Ci 77266) (Nano), Ethylhexylglycerin, Sodium Dehydroacetate, Potassium Sorbate, Laureth-21, Sodium Hydroxide, PEG-40 Hydrogenated Castor Oil, Sodium Citrate, Dehydroacetic Acid, Lecithin, Tocopherol, Ascorbyl Palmitate, BHT, Citric Acid"
+  },
+  {
+    "brand": "Shiseido",
+    "name": "Essence",
+    "type": "skincare",
+    "price": 60,
+    "size": "50ml",
+    "country": "JP",
+    "inci": "Water(Aqua/Eau), Alcohol, Dipropylene Glycol, Butylene Glycol, Glycerin, Diglycerin, PEG/PPG-14/7 Dimethyl Ether, Potassium Methoxysalicylate, Lactobacillus/Rice Ferment, PEG-60 Hydrogenated Castor Oil, Diphenylsiloxy Phenyl Trimethicone, 2-O-Ethyl Ascorbic Acid, Erythritol, Dipotassium Glycyrrhizate, Xanthan Gum, Sodium Polyacrylate, Citrus Junos Fruit Extract, Sodium Acetylated Hyaluronate, Sodium Hyaluronate, Hamamelis Virginiana (Witch Hazel) Leaf Extract, Carbomer, Polyglyceryl-2 Diisostearate, Potassium Hydroxide, Disodium EDTA, Isostearyl Alcohol, Isostearic Acid, Sodium Citrate, Citric Acid, Linalool, Geraniol, Hexyl Cinnamal, Citronellol, Sodium Metabisulfite, Alpha-Isomethyl Ionone, Limonene, Phenoxyethanol, Fragrance (Parfum), Red 33 (Ci 17200), Yellow 5 (Ci 19140)"
+  },
+  {
+    "brand": "Shiseido",
+    "name": "Total Revitalizing Cream",
+    "type": "moisturizer",
+    "price": 60,
+    "size": "50ml",
+    "country": "JP",
+    "inci": "Water(Aqua/Eau), Dimethicone, Glycerin, Alcohol Denat, Dipropylene Glycol, Ammonium Acryloyldimethyltaurate/VP Copolymer, Erythritol, PEG/PPG-14/7 Dimethyl Ether, Phenoxyethanol, Cetyl Ethylhexanoate, Tocopheryl Acetate, Acrylamide/Sodium Acryloyldimethyltaurate Copolymer, Methyl Methacrylate Crosspolymer, Isohexadecane, Polysorbate 60, PEG-20 Glyceryl Isostearate, Aminopropyl Dimethicone, Butylene Glycol, Fragrance (Parfum), Polysorbate 80, Sodium Citrate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Dipotassium Glycyrrhizate, Polyquaternium-51, Sorbitan Oleate, Potassium Hydroxide, Silica, Citric Acid, Sodium Metabisulfite, Sodium Metaphosphate, Linalool, Benzyl Benzoate, Limonene, Butylphenyl Methylpropional, Sanguisorba Officinalis Root Extract, Rubus Suavissimus (Raspberry) Leaf Extract, Iron Oxides (Ci 77492), Sodium Carboxymethyl Beta-Glucan, Hydrolyzed Conchiolin Protein"
+  },
+  {
+    "brand": "Origins",
+    "name": "Dr. Andrew Weil For Mega-Mushroom Micellar Cleanser",
+    "type": "cleanser",
+    "price": 35,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water\\Aqua\\Eau, Butylene Glycol, Glycerin, Citrus Aurantium Dulcis (Orange) Oil, Lavandula Angustifolia (Lavender) Oil, Pogostemon Cablin Oil, Citrus Nobilis (Mandarin Orange) Peel Oil, Pelargonium Graveolens Flower Oil, Boswellia Carterii (Olibanum) Oil, Limonene, Vaccinium Macrocarpon (Cranberry) Fruit Extract, Vaccinium Angustifolium (Blueberry) Fruit Extract, Lycium Chinense (Wolfberry) Fruit Extract, Fuscoporia Obliqua Extract, Curcuma Longa (Turmeric) Root Extract, Silybum Marianum Fruit Extract, Ocimum Sanctum Leaf Extract, Cordyceps Sinensis Extract, Ganoderma Lucidum (Mushroom) Extract, Trehalose, Zingiber Officinale (Ginger) Root Extract, Helianthus Annuus (Sunflower) Seed Oil, Hypnea Musciformis (Algae) Extract, Cucumis Sativus (Cucumber) Fruit Extract, Polysorbate 20, Gelidiella Acerosa Extract, Sodium Methyl Cocoyl Taurate, Sodium Hyaluronate, Yeast Extract\\Faex\\Extrait De Levure, Cetrimonium Chloride, Citric Acid, Cellulose, Sodium Citrate, Sodium Phytate, Phenoxyethanol"
+  },
+  {
+    "brand": "Origins",
+    "name": "Ginger Body Scrub",
+    "type": "exfoliator",
+    "price": 35,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Dead Sea Salts\\Maris Sal\\Sel De La Mer Mort, Glycine Soja (Soybean) Oil, Zingiber Officinale (Ginger) Root Oil*, Elettaria Cardamomum Seed Oil*, Coriandrum Sativum (Coriander) Fruit Oil*, Eucalyptus Citriodora Oil*, Citrus Aurantifolia (Lime) Oil*, Citrus Aurantium Dulcis (Orange) Peel Oil*, Citrus Aurantium Bergamia (Bergamot) Fruit Oil*, Citrus Grandis (Grapefruit) Peel Oil*, Citrus Limon (Lemon) Peel Oil*, Eugenia Caryophyllus (Clove) Bud Oil*, Citral, Linalool, Eugenol, Limonene, Macadamia Integrifolia (Macadamia) Seed Oil, Zingiber Officinale (Ginger) Root Powder, Aleurites Moluccana (Kukui) Seed Oil, Persea Gratissima (Avocado) Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Tocopherol, Tocopheryl Acetate * Essential Oil"
+  },
+  {
+    "brand": "Origins",
+    "name": "Hair Shampoo",
+    "type": "shampoo",
+    "price": 35,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Aqua (Water), Ammonium Laureth Sulfate (Naturally Derived), Ammonium Lauryl Sulfate (Naturally Derived), Cocamidopropyl Betaine (Naturally Derived), Decyl Glucoside (Naturally Derived), Coco-Glucoside (Naturally Derived), Glyceryl Oleate (Naturally Derived), Glyceryl Cocoate (Naturally Derived), Cocamide MEA (Naturally Derived), Dicaprylyl Ether, Hydrogenated Castor Oil (Non-Ionic Compound), Triethanolamine (Ph Adjuster), Aesculus Hippocastanum (Horse Chestnut) Seed Extract, Salvia Officinalis (Sage) Leaf Extract, Equisetum Arvense Extract, Tussilago Farfara (Coltsfoot) Leaf Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Urtica Dioica (Nettle) Extract, Chamomilla Recutita (Matricaria) Flower Extract, Melissa Officinalis Leaf Extract, Guar Hydroxypropyltrimonium Chloride, Polyquaternium-10, Lavandula Angustifolia (Lavender) Flower Oil, Rosmarinus Officinalis (Rosemary) Leaf Oil, Mentha Piperita (Peppermint) Oil, Carbomer (Organic Compound), Tetrasodium EDTA (Chelating Agent), Panthenol (Vitamin B5), L-Menthol (Organic Compound), Zinc Pca (Salt), Propylene Glycol (Organic Compound), Ethoxydiglycol (Naturally Derived), Glucose (Naturally Derived), Sodium Benzoate (Food Grade Preservative)"
+  },
+  {
+    "brand": "Origins",
+    "name": "Plantscription Overnight Mask",
+    "type": "mask",
+    "price": 35,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water\\Aqua\\Eau, Dimethicone, Isododecane, Glycerin, Bis-PEG-18 Methyl Ether Dimethyl Silane, PEG-10 Dimethicone, Butylene Glycol, Pentylene Glycol, Disteardimonium Hectorite, Rosa Damascena Flower Oil*, Lavandula Angustifolia (Lavender) Oil*, Pelargonium Graveolens Flower Oil*, Illicium Verum (Anise) Fruit/Seed Oil*, Citrus Aurantium Bergamia (Bergamot) Fruit Oil*, Carthamus Tinctorius (Safflower) Seed Oil*, Myristica Fragrans (Nutmeg) Kernel Oil*, Citrus Aurantium Dulcis (Orange) Peel Oil*, Citrus Nobilis (Mandarin Orange) Peel Oil*, Citrus Limon (Lemon) Peel Oil*, Litsea Cubeba Fruit Oil*, Hibiscus Abelmoschus Extract, Geraniol, Linalool, Citronellol, Limonene, Citral, Commiphora Mukul Resin Extract, Peucedanum Graveolens (Dill) Extract, Bambusa Vulgaris (Bamboo) Extract, Sucrose**, Rubus Idaeus (Raspberry) Leaf Extract, Helianthus Annuus (Sunflower) Seed Extract, Triticum Vulgare (Wheat) Germ Extract, Prunus Amygdalus Dulcis (Sweet Almond) Seed Extract, Pisum Sativum (Pea) Extract, Algae Extract, Hordeum Vulgare (Barley) Extract\\Extrait D'Orge, Anogeissus Leiocarpus Bark Extract, Porphyridium Cruentum Extract, Sigesbeckia Orientalis (St. Paul'S Wort) Extract, Caffeine, Acetyl Hexapeptide-8, Sorbitol, Laminaria Digitata Extract, Sodium Hyaluronate, Pullulan, Tocopheryl Acetate, Glucosamine Hcl, Squalane, Caprylic/Capric Triglyceride, Hydroxypropyl Methylcellulose, Polysilicone-11, Propylene Carbonate, Polyethylene, PEG-6, PEG-32, Citric Acid, Sodium Citrate, Sodium Dehydroacetate, Disodium EDTA, BHT, Phenoxyethanol"
+  },
+  {
+    "brand": "Origins",
+    "name": "Ginzing Spf 40",
+    "type": "sunscreen",
+    "price": 35,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water, Butylene Glycol, Cetyl Alcohol, Neopentyl Glycol Diheptanoate, C12,15 Alkyl Benzoate, Dimethicone, Laureth-4, Polyethylene, PEG-100 Stearate, Hydrogenated Lecithin, Citrus Limon (Lemon) Peel Oil(1), Citrus Grandis (Grapefruit) Peel Oil(1), Mentha Viridis (Spearmint) Leaf Oil(1), Citrus Aurantium Dulcis (Orange) Peel Oil(1), Limonene, Linalool, Citral, Garcinia Mangostana Peel Extract, Panax Ginseng (Ginseng) Root Extract, Citrus Aurantium Amara (Bitter Orange) Flower Wax, Castanea Sativa (Chestnut) Seed Extract, Psidium Guajava (Guava) Fruit Extract, Citrus Aurantium Amara (Bitter Orange) Flower Water, Laminaria Saccharina Extract, Triticum Vulgare (Wheat) Germ Extract, Adenosine Phosphate, Pantethine, Creatine, Hordeum Vulgare (Barley) Extract\\Extrait D'Orge, Folic Acid, Tourmaline, Cordyceps Sinensis Extract, Ethylhexylglycerin, Acetyl Carnitine Hcl, Caffeine, Rhodochrosite, Sodium Hyaluronate, Isopropyl Myristate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Trehalose, Polyglyceryl-3 Beeswax, Vp/Hexadecene Copolymer, Squalane, Caprylyl Glycol, Tocopheryl Acetate, Yeast Extract\\Faex\\Extrait De Levure, Isostearic Acid, Polymethyl Methacrylate, Dimethicone Silylate, Polyhydroxystearic Acid, Magnesium Ascorbyl Phosphate, Nylon-12, Xanthan Gum, Hexylene Glycol, Polysorbate 60, Silica, BHT, Phenoxyethanol, Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Titanium Dioxide (Ci 77891)"
+  },
+  {
+    "brand": "Belif",
+    "name": "Super Drops Peptide Firming Serum",
+    "type": "serum",
+    "price": 38,
+    "size": "50ml",
+    "country": "KR",
+    "inci": "Water, Glycerin, Dipropylene Glycol, Niacinamide, Triethylhexanoin, Pentaerythrityl Tetraethylhexanoate, 1,2-Hexanediol, Panthenol, Caprylic/Capric Triglyceride, Polymethylsilsesquioxane, Betaine, Methyl Glucose Sesquistearate, Serine, Arginine, Tromethamine, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Citric Acid, Carbomer, Dipotassium Glycyrrhizate, Trehalose, Adenosine, Myristica Fragrans (Nutmeg) Extract, Sclerotium Gum, Sodium Gluconate, Succinoglycan, Beta-Glucan, Hydrolyzed Hyaluronic Acid, Sodium Hyaluronate, Glycine Soja (Soybean) Oil, Melissa Officinalis Flower/Leaf/Stem Water*, Rosmarinus Officinalis (Rosemary) Leaf Water*, Thymus Vulgaris (Thyme) Leaf Extract*, Eucalyptus Globulus Leaf Extract*, Mentha Rotundifolia Leaf Extract*, Rosa Canina Fruit Extract*, Dextrin, Theobroma Cacao (Cocoa) Seed Extract, Retinol, Butylene Glycol, Macadamia Ternifolia Seed Oil, Hydrogenated Lecithin, Cholesterol, Polyglyceryl-10 Laurate, Brassica Campestris (Rapeseed) Sterols, Caprylyl Glycol, Phytosteryl/Behenyl/Octyldodecyl Lauroyl Glutamate, Retinal, Silica, Potassium Cetyl Phosphate, Ceramide NP, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Acetyl Hexapeptide-8 (0.05Ppm), Disodium EDTA, Citrus Aurantium Dulcis (Orange) Peel Oil+, Citrus Aurantifolia (Lime) Oil+, Pelargonium Graveolens Flower Oil+, Rosmarinus Officinalis (Rosemary) Leaf Oil+, Limonene, Citronellol, Geraniol, Citral, Linalool"
+  },
+  {
+    "brand": "Belif",
+    "name": "Super Knights Purifying Clay Mask",
+    "type": "mask",
+    "price": 38,
+    "size": "50ml",
+    "country": "KR",
+    "inci": "Water, Glycerin, Kaolin (120,000 Ppm), Propanediol, Bentonite, Cetearyl Alcohol, Polyglyceryl-4 Caprate, 1,2-Hexanediol, Titanium Dioxide(Ci 77891), Montmorillonite (10,000 Ppm), Panthenol, Salvia Officinalis (Sage) Leaf Extract†, Silybum Marianum Fruit Extract†, Avena Sativa (Oat) Kernel Extract, Calendula Officinalis Flower Extract, Nepeta Cataria Extract, Rubus Idaeus (Raspberry) Leaf Extract, Baptisia Tinctoria Root Extract, Stellaria Media (Chickweed) Extract, Sodium PCA, Allantoin, Sodium Hyaluronate, Cetearyl Olivate, Glyceryl Stearate, Sorbitan Olivate, Xanthan Gum, Magnesium Aluminum Silicate, Propylene Glycol, Synthetic Fluorphlogopite, Butylene Glycol, Magnesium Sulfate, Ferric Ferrocyanide(Ci 77510), Sorbitol, Tin Oxide, Caprylic/Capric Glycerides, Citrus Aurantium Dulcis (Orange) Peel Oil, Citrus Aurantifolia (Lime) Oil, Pelargonium Graveolens Flower Oil, Rosmarinus Officinalis (Rosemary) Leaf Oil, Limonene, Citronellol"
+  },
+  {
+    "brand": "Belif",
+    "name": "The True Tincture Cleansing Stick",
+    "type": "cleanser",
+    "price": 38,
+    "size": "50ml",
+    "country": "KR",
+    "inci": "Glycerin, Cocos Nucifera (Coconut) Oil, Water, Stearic Acid, Myristic Acid, Lauryl Betaine, Potassium Hydroxide, Betaine, Camellia Japonica Seed Oil, Camellia Sinensis (Green Tea) Seed Oil, Olea Europaea (Olive) Fruit Oil, Tocopheryl Acetate, 1,2-Hexanediol, Chamomilla Recutita (Matricaria) Flower Extract, Avena Sativa (Oat) Kernel Extract+, Calendula Officinalis Flower Extract+, Nepeta Cataria Extract+, Rubus Idaeus (Raspberry) Leaf Extract+, Baptisia Tinctoria Root Extract+, Stellaria Media (Chickweed) Extract+, Chamomilla Recutita (Matricaria) Flower(0.06%), Ocimum Basilicum (Basil) Oil, Citrus Limon (Lemon) Peel Oil, Citrus Aurantifolia (Lime) Oil, Origanum Heracleoticum (Marjoram) Flower Oil, Citrus Aurantium Dulcis (Orange) Peel Oil, Cananga Odorata Flower (Ylang Ylang) Oil, Fragrance*, Citral, Citronellol, Limonene, Geraniol, Linalool."
+  },
+  {
+    "brand": "Belif",
+    "name": "Youth Creator Age Knockdown Eye Serum",
+    "type": "serum",
+    "price": 38,
+    "size": "50ml",
+    "country": "KR",
+    "inci": "Water/Aqua/Eau, Caprylic/Capric Triglyceride, Propanediol, Glycerin, Elaeis Guineensis (Palm) Oil, Butyrospermum Parkii (Shea) Butter, Macadamia Ternifolia Seed Oil, 1,2-Hexanediol, Betaine, Elaeis Guineensis (Palm) Kernel Oil, Behenyl Alcohol, Tri-C14-15 Alkyl Citrate, Avena Sativa (Oat) Kernel Extract*, Calendula Officinalis Flower Extract*, Nepeta Cataria Extract*, Rubus Idaeus (Raspberry) Leaf Extract*, Baptisia Tinctoria Root Extract*, Stellaria Media (Chickweed) Extract*, Achillea Millefolium Flower Extract+, Euphrasia Officinalis Extract+, Glycyrrhiza Glabra (Licorice) Root Extract+, Aesculus Hippocastanum (Horse Chestnut) Leaf Extract+, Equisetum Arvense Leaf Extract+, Rhodiola Rosea Root Extract+, Vaccinium Myrtillus Fruit Extract+, Lupinus Albus Seed Extract, Caprylic/Capric Glycerides, Carbomer, Butylene Glycol, Tromethamine, Disodium EDTA, Polyglycerin-3, Glycine Soja (Soybean) Seed Extract, Adenosine, Lactobacillus/Soybean Ferment Extract, Saccharomyces/Potato Extract Ferment Filtrate, Sodium Polyacrylate, Saccharomyces/Barley Seed Ferment Filtrate, Serine, Arginine, Helianthus Annuus (Sunflower) Seed Oil, Citric Acid, Sodium Hyaluronate, Centella Asiatica Leaf Extract, Chrysanthemum Indicum Flower Extract, Salicornia Herbacea Extract, Cedrol, Tocopherol, Palmitic Acid, Stearic Acid, Titanium Dioxide(Ci 77891), Mica, Iron Oxides(Ci 77491), Citrus Aurantium Dulcis (Orange) Peel Oil**, Citrus Aurantifolia (Lime) Oil**, Pelargonium Graveolens Flower Oil**, Rosmarinus Officinalis (Rosemary) Leaf Oil**, Limonene, Citronellol, Geraniol, Citral, Linalool"
+  },
+  {
+    "brand": "Belif",
+    "name": "Aqua Bomb Cica Cream - Stress Shooter",
+    "type": "moisturizer",
+    "price": 38,
+    "size": "50ml",
+    "country": "KR",
+    "inci": "Aqua, Glycerin, Cyclohexasiloxane, Propanediol, Polyglyceryl-4 Caprate, 1,2-Hexanediol, Hydrogenated Olive Oil Stearyl Esters, Hydrogenated Poly(C6-14 Olefin), Cetyl Palmitate, Panthenol, Madecassoside (1000 Ppm), Centella Asiatica Leaf Extract, Beta-Glucan, Rubus Idaeus (Raspberry) Leaf Extract, Nepeta Cataria Extract, Calendula Officinalis Flower Extract, Avena Sativa (Oat) Kernel Extract, Baptisia Tinctoria Root Extract, Stellaria Media (Chickweed) Extract, Urtica Dioica (Nettle) Leaf Extract, Equisetum Arvense Leaf Extract, Alchemilla Vulgaris Leaf Extract, Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Sorbitan Stearate, Sorbitan Isostearate, Caprylic/Capric Triglyceride, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Squalane, Butylene Glycol, Tridecyl Stearate, Tridecyl Trimellitate, Isohexadecane, Hydrogenated Vegetable Oil, Jojoba Esters, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Tromethamine, Polyglyceryl-10 Stearate, Dipentaerythrityl Hexacaprylate/Hexacaprate, Lecithin, Trisodium EDTA, Polysorbate 60, Tocopherol, Citrus Aurantifolia Oil, Rosmarinus Officinalis Leaf Oil, Citrus Aurantium Dulcis Peel Oil, Pelargonium Graveolens Flower Oil, Limonene, Citronellol, Geraniol, Citral, Linalool"
+  },
+  {
+    "brand": "Korres",
+    "name": "Sweet Almond Oil Lip Balm",
+    "type": "lip care",
+    "price": 30,
+    "size": "50ml",
+    "country": "GR",
+    "inci": "Ricinus Communis Seed Oil (Ricinus Communis (Castor) Seed Oil), Candelilla Cera (Euphorbia Cerifera\n(Candelilla) Wax), Simmondsia Chinensis Seed Oil (Simmondsia Chinensis (Jojoba) Seed Oil), Cera Alba (Beeswax), Helianthus Annuus Seed Oil (Helianthus Annuus (Sunflower) Seed Oil), Prunus Amygdalus Dulcis Oil (Prunus Amygdalus Dulcis (Sweet Almond) Oil), Sesamum Indicum Seed Oil (Sesamum Indicum\n(Sesame) Seed Oil), Copernicia Cerifera Cera (Copernicia Cerifera (Carnauba) Wax), Parfum (Fragrance), Tocopheryl Acetate"
+  },
+  {
+    "brand": "Korres",
+    "name": "Facial Clareadora Wild Rose",
+    "type": "skincare",
+    "price": 30,
+    "size": "50ml",
+    "country": "GR",
+    "inci": "Aqua/Water, Glycerin, Titanium Dioxide/Ci 77891, Behenyl Alcohol, Butyrospermum Parkii Butter, C12-13 Alkyl Lactate, Dicaprylyl Carbonate, Dicaprylyl Ether, Rosa Canina Fruit Oil, Mannitol, Cetearyl Alcohol, Cera Alba, Ceteth-20 Phosphate, Argania Spinosa Kernel Oil, Phenoxyethanol, Panthenol, Persea Gratissima Oil, Sodium Ascorbyl Phosphate, Dicetyl Phosphate, Caprylyl Glycol, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Parfum/Fragrance, Phytosterols, Allantoin, Isohexadecane, Sodium Gluconate, Arginine, Olea Europaea Fruit Oil, Citric Acid, Polysorbate 80, Sodium Citrate, Lactic Acid, Lonicera Caprifolium Flower Extract, PEG-8, Sodium Phytate, Tocopherol, Lonicera Japonica Flower Extract, Dextrin, Ferulic Acid, Waltheria Indica Leaf Extract, Ascorbyl Palmitate, Ascorbic Acid, Alpha-Isomethyl Ionone, Benzyl Benzoate, Benzyl Salicylate, Butylphenyl Methylpropional, Citronellol, Eugenol, Hexyl Cinnamal, Hydroxyisohexyl 3-Cyclohexene Carboxaldehyde"
+  },
+  {
+    "brand": "Korres",
+    "name": "Greek Yoghurt Moisture Face Cream",
+    "type": "moisturizer",
+    "price": 30,
+    "size": "50ml",
+    "country": "GR",
+    "inci": "Aqua/Water/Eau, Yogurt, Butylene Glycol, Steareth-2, Isononyl Isononanoate, Macadamia Ternifolia Seed Oil, Olea Europaea (Olive) Oil Unsaponifiables, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Steareth-21, Triticum Vulgare (Wheat) Starch, Hydrogenated Polyisobutene, Triethylhexanoin, Xylitylglucoside, Anhydroxylitol, Butyrospermum Parkii (Shea Butter), Amorphophallus Konjac Root Extract, Amyl Cinnamal, Benzyl Alcohol, Benzyl Salicylate, Cetearyl Alcohol, Dehydroacetic Acid, Fragrance (Parfum), Geraniol, Hydroxycitronellal, Hydroxyisohexyl 3-Cyclohexene Carboxaldehyde, Imidazolidinyl Urea, Linalool, Magnesium Pca, Manganese Pca, Panthenol, Phenoxyethanol, Sodium Dehydroacetate, Sodium Pca, Tocopheryl Acetate, Xanthan Gum, Xylitol, Zinc Pca"
+  },
+  {
+    "brand": "Korres",
+    "name": "Black Pine 4d Bounce Firming Moisture-tint SPF 20",
+    "type": "sunscreen",
+    "price": 30,
+    "size": "50ml",
+    "country": "GR",
+    "inci": "Aqua/Water/Eau, Dibutyl Adipate, Glycerin, Butylene Glycol Dicaprylate/Dicaprate, Ethylhexyl Salicylate, Bisethylhexyloxyphenol Methoxyphenyl Triazine, Propanediol, Tris-Biphenyl Triazine (Nano), Caprylic/Capric Triglyceride, Saccharomyces/Xylinum/Black Tea Ferment, Polymethyl Methacrylate, Avena Strigosa Seed Extract, Bacillus Ferment, Behenyl Alcohol, Bisabolol, Butylene Glycol, Cetearyl Alcohol, Citric Acid, Decyl Glucoside, Dextran, Dicaprylyl Carbonate, Dioscorea Villosa (Wild Yam) Root Extract, Disodium Cetearyl Sulfosuccinate, Disodium Phosphate, Epigallocatechin Gallate, Epigallocatechin Gallatyl Glucoside, Ethylhexyl Triazone, Ethylhexylglycerin, Glycine Soja (Soybean) Sterols, Hexyldecanol, Hydroxyethylcellulose, Lactic Acid, Lecithin, Lonicera Caprifolium (Honeysuckle) Flower Extract, Lonicera Japonica (Honeysuckle) Flower Extract, Oleyl Alcohol, Pinus Nigra Bark Extract*, Pinus Nigra Bud/Needle Extract*, Polyglyceryl-3 Caprate, Silica, Sodium Carboxymethyl Beta-Glucan, Sodium Citrate, Sodium Polyacrylate, Spilanthes Acmella Flower Extract, Tetrasodium Glutamate Diacetate, Tocopherol, Tocopheryl Acetate, Trifluoroacetyl Tripeptide-2, Xanthan Gum, Zingiber Officinale (Ginger) Root Extract, Ci 77491/Iron Oxides, Ci 77492/Iron Oxides, Ci 77499/Iron Oxides, Ci 77891/Titanium Dioxide, Phenoxyethanol, Potassium Sorbate, Sodium Benzoate, Parfum/Fragrance"
+  },
+  {
+    "brand": "Korres",
+    "name": "Black Pine Lifting, Firming And Brightening Foundation",
+    "type": "foundation",
+    "price": 30,
+    "size": "50ml",
+    "country": "GR",
+    "inci": "Aqua/Water/Eau, Dimethicone, Phenyl Trimethicone, Isododecane, Ci 77891/Titanium Dioxide, Myristyl Trisiloxane, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, PEG-10 Dimethicone, Talc, Trimethylsiloxysilicate, Ci 77492/Iron Oxides, Cetyl PEG/PPG-10/1 Dimethicone, Glycerin, Butylene Glycol, Disteardimonium Hectorite, Phenoxyethanol, Sodium Chloride, Ci 77491/Iron Oxides, Alcohol, Ci 77499/Iron Oxides, Caprylic/Capric Triglyceride, Potassium Sorbate, Mica, Parfum/Fragrance, Tocopherol, Argania Spinosa Kernel Oil, Epigallocatechin Gallatyl Glucoside, Vitis Vinifera (Grape) Fruit Extract, Pinus Nigra Bud/Needle Extract, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate"
+  },
+  {
+    "brand": "Weleda",
+    "name": "Pflegecreme",
+    "type": "moisturizer",
+    "price": 15,
+    "size": "50ml",
+    "country": "CH",
+    "inci": "Sesamum Indicum (Sesame) Seed Oil, Water (Aqua), Lanolin, Glycerin, Alcohol, Hydrolyzed Beeswax, Glyceryl Oleate, Kaolin, Silica, Calendula Officinalis Flower Extract, Fragrance (Parfum)*, Limonene*, Linalool*, Geraniol*, Citral*"
+  },
+  {
+    "brand": "Weleda",
+    "name": "Skin Food Light",
+    "type": "skincare",
+    "price": 15,
+    "size": "50ml",
+    "country": "CH",
+    "inci": "Water(Aqua), Helianthus Annuus(Sunflower) Seed Oil, Glycerin, Alcohol, Glyceryl Stearate Citrate, Beeswax(Cera Alba), Theobroma Cacao(Cocoa) Seed Butter, Cetearyl Alcohol, Butyrospermum Parkii(Shea) Butter, Limonene*, Viola Tricolor Extract, Rosmarinus Officinalis(Rosemary) Leaf Extract, Chamomilla Recutita (Matricaria) Flower Extract, Calendula Officinalis Flower Extract, Lanolin, Carrageenan, Xanthan Gum, Lactic Acid, Glyceryl Caprylate, Fragrance(Parfum)*, Linalool*, Geraniol*, Citral*"
+  },
+  {
+    "brand": "Weleda",
+    "name": "Refresh Citrus Creamy Body Wash",
+    "type": "moisturizer",
+    "price": 15,
+    "size": "50ml",
+    "country": "CH",
+    "inci": "Water (Aqua), Sesamum Indicum (Sesame) Seed Oil, Coco- Glucoside, Alcohol, Disodium Cocoyl Glutamate, Glycerin, Carrageenan, Sodium Cocoyl Glutamate, Citrus Limon (Lemon) Peel Oil, Xanthan Gum, Lactic Acid, Fragrance (Parfum)*, Limonene*, Linalool*, Citral*"
+  },
+  {
+    "brand": "Weleda",
+    "name": "Wilde Rozen Body Lotion",
+    "type": "moisturizer",
+    "price": 15,
+    "size": "50ml",
+    "country": "CH",
+    "inci": "Water (Aqua), Prunus Armeniaca (Apricot) Kernel Oil, Glycerin, Simmondsia Chinensis (Jojoba) Seed Oil, Butyrospermum Parkii (Shea) Butter, Helianthus Annuus (Sunflower) Seed Oil, Alcohol, Glyceryl Stearate Citrate, Betaine, Rosa Moschata Seed Oil, Prunus Spinosa Wood Extract, Carrageenan, Xanthan Gum, Sea Salt (Maris Sal), Tocopherol, Lactic Acid, Cetearyl Alcohol, Glyceryl Caprylate, Fragrance (Parfum)*, Limonene*, Linalool*, Citronellol*, Geraniol*, Citral*, Farnesol*"
+  },
+  {
+    "brand": "Weleda",
+    "name": "Cremebad / Cream Bath",
+    "type": "moisturizer",
+    "price": 15,
+    "size": "50ml",
+    "country": "CH",
+    "inci": "Water (Aqua), Prunus Amygdalus Dulcis (Sweet Almond) Oil, Sesamum Indicum (Sesame) Seed Oil+, Alcohol+, Glycerin, Calendula Officinalis+ Extract, Glyceryl Stearate SE, Fragrance (Parfum)*, Xanthan Gum, Glyceryl Stearate Citrate, Limonene*, Linalool*"
+  },
+  {
+    "brand": "Avene",
+    "name": "Emulsion For Blackheads",
+    "type": "moisturizer",
+    "price": 18,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Avene Thermal Spring Water (Avene Aqua), Isohexadecane, Propylene Glycol Dicaprylate/Dicaprate, Cetearyl Alcohol, Butylene Glycol, Dimethicone, Polymethyl Methacrylate, Glycerin, Water (Aqua), 1,2-Hexanediol, Algin, Butyrospermum Parkii (Shea) Butter(Butyrospermum Parkii Butter), Caprylyl Glycol, Caprylyl Glycol Linseedate, Carbomer, Cetearyl Glucoside, Disodium EDTA, Disodium Phosphate, Fragrance (Parfum), Glyceryl Laurate, Papain, Polyacrylate-13, Polyisobutene, Polysorbate 20, Potassium Phosphate, Potassium Sorbate, Sodium Cetearyl Sulfate, Sodium Hydroxide, Sorbitan Isostearate"
+  },
+  {
+    "brand": "Avene",
+    "name": "Sun Cleanance Tinted Sunscreen",
+    "type": "sunscreen",
+    "price": 18,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Avene Thermal Spring Water (Avene Aqua), C12-15 Alkyl Benzoate, Methylene Bis-Benzotriazolyl Tetramethylbutylphenol, Water, Diisopropyl Adipate, Isodecyl Neopentanoate, Silica, Dicaprylyl Carbonate, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Diethylhexyl Butamido Triazone, Aluminum Starch Octenylsuccinate, Butyl Methoxydibenzoylmethane, Decyl Glucoside, 1,2-Hexanediol, C10-18 Triglycerides, Glyceryl Laurate, Vp/Eicosene Copolymer, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Benzoic Acid, Butylene Glycol, Caprylic/Capric Triglyceride, Disodium EDTA, Fragrance, Glyceryl Behenate, Glyceryl Dibehenate, Glyceryl Stearate, Oxothiazolidinecarboxylic Acid, PEG-100 Stearate, Propylene Glycol, Sodium Benzoate, Tocopherol (Vitamin E), Tocopheryl Glucoside, Tribehenin, Xanthan Gum, Zinc Gluconate"
+  },
+  {
+    "brand": "Avene",
+    "name": "Mineral Fluid Spf 50",
+    "type": "sunscreen",
+    "price": 18,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Zinc Oxide [Nano], Avene Thermal Spring Water (Avene Aqua), Titanium Dioxide [Nano], Coco-Caprylate/Caprate, Isocetyl Stearoyl Stearate, Isopropyl Palmitate, Isodecyl Neopentanoate, Isododecane, Isohexadecane, Ptfe, Triethylhexanoin, Dicaprylyl Ether, PEG-30 Dipolyhydroxystearate, Alumina, Stearic Acid, Caprylyl Glycol, Peg-45/Dodecyl Glycol Copolymer, Silica, Benzoic Acid, Caprylic/Capric Triglyceride, Disodium EDTA, Disteardimonium Hectorite, Glyceryl Behenate, Glyceryl Dibehenate, Helianthus Annuus (Sunflower) Seed Oil (Helianthus Annus Seed Oil), Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Polyamide-3, Sodium Chloride, Tocopherol, Tocopheryl Glucoside, Tribehenin, Triethoxycaprylylsilane, Water (Aqua)"
+  },
+  {
+    "brand": "Avene",
+    "name": "Sunsimed",
+    "type": "skincare",
+    "price": 18,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Avène Aqua, Methylene Bis-Benzotriazolyl Tetramethylbutylphenol (Nano), Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Diethylhexyl Butamido Triazone, Butyl Methoxydibenzoylmethane, Benzoic Acid, Caprylyl Glycol, Tocopheryl Glucoside, Excipients"
+  },
+  {
+    "brand": "SVR",
+    "name": "Physiopure Huile Demaquillante",
+    "type": "skincare",
+    "price": 16,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Helianthus Annuus (Sunflower) Seed Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Coco-Caprylate/Caprate, Vitis Vinifera (Grape) Seed Oil, Polyglyceryl-4 Oleate, Isoamyl Laurate, Bixa Orellana Seed Extract, Glycine Soja (Soybean) Oil, Prunus Domestica Seed Oil, Pyrus Malus (Apple) Seed Oil, Tocopherol, Caprylic/Capric Triglyceride, Parfum/Fragrance"
+  },
+  {
+    "brand": "SVR",
+    "name": "Cicavit +",
+    "type": "skincare",
+    "price": 16,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Purified Water), Hydrogenated Polyisobutene, Butyrospermum Parkii (Shea) Butter, Glycerin, Dimethiconol Behenate, Orbignya Oleifera Seed Oil, Propanediol, Ethylhexyl Stearate, Dimethicone, PEG-30 Dipolyhydroxystearate, Alpha-Glucan Oligosaccharide, Caffeyl Glucoside, Disodium Acetyl Glucosamine Phosphate, Glucose, Rhamnose, Tocopherol, 1,2-Hexanediol, Caprylyl Glycol, Citric Acid, Glucuronic Acid, Magnesium Sulfate, Pentylene Glycol, Sodium Hydroxide, Xanthan Gum"
+  },
+  {
+    "brand": "SVR",
+    "name": "Sensifine",
+    "type": "skincare",
+    "price": 16,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Purified Water), Caprylic/Capric Glycerides, Butyrospermum Parkii Butter, Glycerin, Behenyl Alcohol, Silica, Squalane, Arachidyl Alcohol, Glyceryl Stearate, Caffeyl Glucoside, Carbomer, Ci 10020, Ci 42090, Dipotassium Glycyrrhizate, Gallyl Glucoside, Methyl Diisopropyl Propionamide, Rosmarinyl Glucoside, Sodium Sulfate, Saccharide Isomerate, 1-2 Hexanediol, Arachidyl Glucoside, Caprylyl Glycol, Citric Acid, Methyl Methacrylate Crosspolymer, Pentylene Glycol, Sodium Citrate, Sodium Hydroxide"
+  },
+  {
+    "brand": "SVR",
+    "name": "Xerial Fissures Et Crevasses",
+    "type": "skincare",
+    "price": 16,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Glycerin, Urea, Cocos Nucifera Coconut‑ Oil, Simmondsia Chinensis ­Jojoba‑ Seed Oil, C12-16 Alcohols, Panthenol, Glyceryl Stearate Citrate, Glycol Palmitate, Helianthus Annuus, ­Sunflower‑ Seed Wax, Silica, Pentylene Glycol, Microcrystalline Cellulose, 1,2-Hexanediol, Sodium Polyacrylate, Glyceryl Glucoside, Sodium Citrate, Hydrogenated Lecithin, Palmitic Acid, Triacetin, Alpha-Glucan Oligosaccharide, Cetyl Palmitate, Serine, Citric Acid, Caprylyl Glycol, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Sodium Lactate, Cellulose Gum, Asiaticoside, Madecassic Acid, Histidine, Asiatic Acid, Propylene Glycol, Bacillus Ferment, Potassium Sorbate"
+  },
+  {
+    "brand": "SVR",
+    "name": "Sun Secure Blur Tinted SPF50+",
+    "type": "sunscreen",
+    "price": 16,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Silica, Isododecane, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Dicaprylyl Carbonate, Isopropyl Lauroyl Sarcosinate, Ethylhexyl Triazone, Beheneth-25, Diethylhexyl Butamido Triazone, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Coco-Caprylate/Caprate, Ci 77891 (Titanium Dioxide), Dimethicone/Bis-Isobutyl PPG-20 Crosspolymer, Pentylene Glycol, Cetearyl Alcohol, 1,2-Hexanediol, Niacinamide, Coco-Glucoside, Sodium Polyacrylate Starch, Ethylhexylglycerin, Ci 77492 (Iron Oxides), Caprylyl Glycol, Glycerin, Parfum (Fragrance), Ci 77491 (Iron Oxides), Tocopherol, Triethoxycaprylylsilane, Ci 77499 (Iron Oxides), Glycine Soja (Soybean) Oil, Lecithin, Lepidium Sativum Sprout Extract"
+  },
+  {
+    "brand": "Uriage",
+    "name": "Ds Cleansing Gel",
+    "type": "cleanser",
+    "price": 15,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Water, Eau), Sodium Laureth Sulfate, Sodium Cocoamphoacetate, Butylene Glycol, Decyl Glucoside, Sodium Chloride, Sodium Laureth-8 Sulfate, Zinc Coceth Sulfate, Sodium Lauroyl Glutamate, Sodium Methyl Cocoyl Taurate, Sodium Myristoyl Sarcosinate, Coco-Glucoside, Glyceryl Oleate, Lactic Acid, PEG-120 Methyl Glucose Dioleate, Piroctone Olamine, Magnesium Laureth Sulfate, Sodium Oleth Sulfate, Magnesium Laureth-8 Sulfate, Benzoic Acid, Copper Gluconate, Manganese Gluconate, Magnesium Oleth Sulfate, Coceth-3, Phytosphingosine, Asiaticoside, Ci 42090 (Blue 1)"
+  },
+  {
+    "brand": "Uriage",
+    "name": "Pruriced",
+    "type": "skincare",
+    "price": 15,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Water, Eau), Paraffinum Liquidum (Mineral Oil), Ethylhexyl Palmitate, Calamine, Glycerin, Butylene Glycol, Octyldodecanol, Sodium Chloride, Cera Alba (Beeswax), Magnesium Stearate, Myristyl Myristate, PEG-40 Sorbitan Peroleate, Pentaerythrityl Stearate/Caprate/Caprylate/Adipate, Hydrogenated Castor Oil, Ozokerite, PEG-2 Hydrogenated Castor Oil, Sorbitan Isostearate, Hydrogenated Starch Hydrolysate, Magnesium Sulfate, Rubus Idaeus (Raspberry) Seed Oil, Citric Acid, BHA"
+  },
+  {
+    "brand": "Uriage",
+    "name": "Xemose Emollient Milk",
+    "type": "skincare",
+    "price": 15,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Water, Eau), Butyrospermum Parkii (Shea) Butter, Cetearyl Isononanoate, Isodecyl Neopentanoate, Butylene Glycol, Glycerin, Hydrogenated Polydecene, Steareth-21, Dimethicone, Squalane, Steareth-2, Cetyl Alcohol, Pentaerythrityl Distearate, Polyacrylate-13, Brassica Campestris (Rapeseed) Sterols, Chlorphenesin, Polyisobutene, Piroctone Olamine, O-Cymen-5-Ol, Tocopheryl Acetate, Xanthan Gum, Citric Acid, Raspberry Seed Oil/Palm Oil Aminopropanediol Esters, Polysorbate 20, Sorbitan Isostearate, Asiaticoside, Phytosphingosine, Borage Seed Oil Aminopropanediol Amides"
+  },
+  {
+    "brand": "Uriage",
+    "name": "Bariesun Xp Cream Spf 50+",
+    "type": "moisturizer",
+    "price": 15,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Dicaprylyl Carbonate, Aqua (Water), Titanium Dioxide, Zinc Oxide, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Ethylhexyl Triazone, Methylene Bis-Benzotriazolyl Tetramethylbutylphenol, Peg-30 Dipolyhydroxystearate, Dimethicone, Hydrogenated Polydecene, Polyglyceryl-3-Diisostearate, Glycerin, Alumina, Stearic Acid, Decyl Glucoside, Magnesium Sulfate, Triethoxycaprylylsilane, Phenoxyethanol, Glucose, Octyldodecanol, Hydrogenated Vegetable Oil, Benzoic Acid, Cera Alba (Beeswax), Tetrasodium Edta, Tocopheryl Acetate, Ci 77492 (Iron Oxides), Ci 77491 (Iron Oxides), Disteardimonium Hectorite, Trehalose, Propylene Glycol, Xanthan Gum, Citric Acid, Propylene Carbonate, Ascorbyl Tetraisopalmitate"
+  },
+  {
+    "brand": "Noreva",
+    "name": "Xerodiane AP+ Balsam",
+    "type": "skincare",
+    "price": 14,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Water), Paraffinum Liquidum (Mineral Oil), Glycerin, Pentaerythrityl Distearate, Propanediol, Glyceryl Stearate, PEG-100 Stearate, Niacinamide, Oleic/Linoleic/Linolenic Polyglycerides, Butyrospermum Parkii (Shea) Butter, Cera Microcristallina, Glyceryl Caprylate, Paraffin, Butylene Glycol, Plukenetia Volubilis Seed Oil, Chlorphenesin, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Tocopherol, Pca, Sodium Hydroxide, Ci 77820 (Silver), Phytosphingosine Hcl, Helianthus Annuus (Sunflower) Seed Oil, Citric Acid, Hydrolyzed Hyaluronic Acid, Acetyl Hexapeptide-49"
+  },
+  {
+    "brand": "Noreva",
+    "name": "Exfoliac",
+    "type": "exfoliator",
+    "price": 14,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Water), Squalane, Glycerin, Butyrospermum Parkii (Shea) Butter, Isononyl Isononanoate, Isohexadecane, Cetyl Alcohol, Aluminum Starch Octenylsuccinate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cera Alba (Beeswax), Glyceryl Stearate, PEG-100 Stearate, Butylene Glycol, Bisabolol, Benzyl Alcohol, Polysorbate 60, Parfum/Fragrance, Cholesterol, Chlorphenesin, Tocopheryl Linoleate, Ceramide 2, Disodium EDTA, Salicylic Acid, Sorbitan Isostearate, Sodium Hyaluronate, Hexyl Cinnamal, Linalool, Sodium Hydroxide, Butylphenyl Methylpropional, Sorbic Acid, Benzyl Salicylate, Citronellol, Alteromonas Ferment Extract, Alpha-Isomethyl Ionone"
+  },
+  {
+    "brand": "Noreva",
+    "name": "Anti-Dark Spot Serum",
+    "type": "serum",
+    "price": 14,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Water), Glycerin, Propanediol, Acetyl Glycyl Beta-Alanine, Cellulose Gum, 1,2-Hexanediol, Caprylyl Glycol, Disodium Edta, Sodium Hydroxide, Chlorphenesin, Polydatin Glucoside, Sodium Chloride, Sodium Glycolate, Tetrapeptide-30, Lactic Acid/Glycolic Acid Copolymer, Palmitoyl Sh-Octapeptide-24 Amide, Polyvinyl Alcohol, Palmitoyl Sh-Tripeptide-5 Norisoleucyl Sh-Nonapeptide-1"
+  },
+  {
+    "brand": "Noreva",
+    "name": "Sensidiane Soothing Micellar Water",
+    "type": "micellar water",
+    "price": 14,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Water), PEG-6 Caprylic/Capric Glycerides, Glycerin, Ficus Carica (Fig) Fruit Extract, Butylene Glycol, Dextran, Palmitoyl Tripeptide-8, PEG-40 Hydrogenated Castor Oil, Xanthan Gum, Citric Acid, Phenoxyethanol, Sodium Benzoate, Potassium Sorbate"
+  },
+  {
+    "brand": "Noreva",
+    "name": "Xerodiane AP+",
+    "type": "skincare",
+    "price": 14,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Water, Paraffinum Liquidum (Mineral Oil), Glycerin, Pentaerythrityl Distearate, Propanediol, Glyceryl Stearate, PEG-100 Stearate, Niacinamide, Dimethicone, Cera Microcristallina, Paraffin, 1,2-Hexanediol, Caprylyl Glycol, Plukenetia Volubilis Seed Oil, Ethylhexylglycerin, Tapioca Starch, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Pca, Sodium Hydroxide, Phytosphingosine Hcl, Polysorbate 60, Sorbitan Isostearate, Tocopherol"
+  },
+  {
+    "brand": "Bioderma",
+    "name": "Matricium",
+    "type": "skincare",
+    "price": 14,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Sodium Chloride, Glucose, Sodium Hyaluronate, Alanyl Glutamine, Disodium Phosphate, Arginine Hcl, Sodium Acetate, Lactis Proteinum/Whey Protein/Proteine Du Petit Lait, Serine, Leucine, Magnesium Chloride, Potassium Chloride, Mannitol, Fructooligosaccharides, Rhamnose, Xylitol, Valine, Sodium Pyruvate, Lysine Hcl, Histidine Hcl, Proline, Cysteine Hcl, Hydroxyproline, Glutamic Acid, Asparagine, Threonine, Inositol, Adenine, Alanine, Aspartic Acid, Glycine, Methionine, Tyrosine, Phenylalanine, Tryptophan, Lactic Acid, Isoleucine, Sodium Sulfate, Folic Acid, Ferrous Sulfate, Calcium Pantothenate, Thiamine Hcl, Pyridoxine Hcl, Niacinamide, Ascorbic Acid, Thymidine, Cyanocobalamin, Thioctic Acid, Riboflavin, Sodium Metasilicate, Zinc Sulfate, Adenosine, Guanine, Deoxyribose, Ribose, Biotin, Ammonium Molybdate, Ammonium Vanadate, Copper Sulfate, Manganese Chloride"
+  },
+  {
+    "brand": "Bioderma",
+    "name": "Abcderm H2O Water Biodegradable Wipes",
+    "type": "micellar water",
+    "price": 14,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Polysorbate 20, Pentylene Glycol, Allantoin, Disodium Edta, Cetrimonium Bromide, Citric Acid, Sodium Hydroxide, Fragrance (Parfum)"
+  },
+  {
+    "brand": "Bioderma",
+    "name": "Sebum Hydra Ultra-moisturising Compensating Care",
+    "type": "skincare",
+    "price": 14,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Glycerin, Paraffinum Liquidum/Mineral Oil/Huile Minerale, Ethylhexyl Palmitate, Dipropylene Glycol, Xylitol, Bis-PEG/PPG-16/16 Dimethicone, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Isohexadecane, Caprylic/Capric Triglyceride, Glycyrrhetinic Acid, Tocopheryl Acetate, Polysorbate 80, Disodium EDTA, Allantoin, Fructooligosaccharides, Mannitol, Propylene Glycol, Cetrimonium Bromide, Ceramide 3, Rhamnose, Ginkgo Biloba Leaf Extract, Dodecyl Gallate, Laminaria Ochroleuca Extract, Fragrance (Parfum)"
+  },
+  {
+    "brand": "Bioderma",
+    "name": "Photoderm Nude Touch Spf50+ Light Tint",
+    "type": "sunscreen",
+    "price": 14,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Zinc Oxide [Nano], Dimethicone, Isododecane, Isostearyl Isostearate, Butyrospermum Parkii (Shea) Butter Extract, Titanium Dioxide [Nano], Propylheptyl Caprylate, Dipropylene Glycol, Methyl Methacrylate Crosspolymer, Silica, Polymethylsilsesquioxane, Polyhydroxystearic Acid, Aqua/Water/Eau, Hdi/Trimethylol Hexyllactone Crosspolymer, PEG-10 Dimethicone, Iron Oxides (Ci 77492), Polysilicone-11, Triethoxycaprylylsilane, Salicylic Acid, Butylene Glycol, Capryloyl Glycine, Propyl Gallate, Iron Oxides (Ci 77491), Hydrogenated Lecithin, Caprylyl Glycol, Decyl Glucoside, Tocopherol, Ectoin, Mannitol, Xylitol"
+  },
+  {
+    "brand": "Bioderma",
+    "name": "Fluid Tinted Sunscreen",
+    "type": "sunscreen",
+    "price": 14,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua, C12-15 Alkyl Benzoate, Silica, Glycerin, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Butyl Methoxydibenzoylmethane, Ethylhexyl Methoxycrylene, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Diisopropyl Sebacate, Lauroyl Lysine, Propanediol, Dicaprylyl Carbonate, 1,2-Hexanediol, Polysorbate 60, Cetyl Phosphate, Arginine, Bentonite, Hydroxyacetophenone, Parfum, Citric Acid, Ectoin, Mannitol, Sodium Phytate, Xanthan Gum, Xylitol, Rhamnose, O-Cymen-5-Ol, Biosaccharide Gum-4, Trimethoxybenzyl Acetylsinapate, Sodium Hyaluronate, Tocopherol"
+  },
+  {
+    "brand": "Fresh",
+    "name": "Soy Face Cleanser",
+    "type": "cleanser",
+    "price": 45,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Aqua (Water), Coco-Glucoside, Butylene Glycol, Glycerin, Propanediol, Xanthan Gum, 1,2-Hexanediol, Polyglyceryl-10 Laurate, Centaurea Cyanus Flower Water, Cucumis Sativus (Cucumber) Fruit Extract, Helianthus Annuus (Sunflower) Seed Oil, Borago Officinalis Seed Oil, Hydrolyzed Soy Protein, Rosa Damascena Extract, Rosa Damascena Flower Water Extract, Malva Sylvestris (Mallow) Flower Extract, Aloe Barbadensis Leaf Juice, Panax Ginseng Root, Rosa Damascena Flower Oil, Tocopherol, Caprylic Capric Triglyceride, Caprylyl Glycol, Hydrolyzed Jojoba Esters, Silica, Citric Acid, Pentylene Glycol, Caramel, Sodium Hydroxide, Sodium Benzoate, Potassium Sorbate"
+  },
+  {
+    "brand": "Fresh",
+    "name": "Black Tea Firming Corset Cream",
+    "type": "moisturizer",
+    "price": 45,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Aqua (Water), Isononyl Isononanoate, Cetearyl Isononanoate, Hydrogenated Polyisobutene, Butylene Glycol, Glycerin, Pentylene Glycol, Steareth-21, Jojoba Esters, Alpinia Galanga Leaf Extract, Algin, Saccharomyces Ferment Filtrate, Camellia Sinensis Leaf Extract, Lycium Chinense Fruit Extract, Rubus Fruticosus (Blackberry) Leaf Extract, Litchi Chinensis Seed Extract, Sorbitan Laurate, Sodium Hyaluronate, Hydroxyethylcellulose, Adenosine, Acetyl Dipeptide-1 Cetyl Ester, Tocopheryl Acetate, Tocopherol, Myristyl Myristate, Behenyl Alcohol, Cetyl Alcohol, Stearyl Alcohol, Glyceryl Stearate, Decyloxazolidinone, Dimethicone, Diphenylsiloxy Phenyl Trimethicone, Perfume (Fragrance), Polyacrylamide, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, C13-14 Isoparaffin, Xanthan Gum, Sorbitol, Tromethamine, Maltodextrin, Dimethicone/Phenyl Vinyl Dimethicone Crosspolymer, Laureth-7, Polyvinyl Alcohol, BHT, Cellulose Gum, Caprylic/Capric Triglyceride, Citric Acid, Sodium Benzoate, Sodium Citrate, Potassium Sorbate, Biotin, Phenoxyethanol, Linalool, Citronellol, Geraniol"
+  },
+  {
+    "brand": "Fresh",
+    "name": "Lotus Youth Preserve Moisturizer",
+    "type": "moisturizer",
+    "price": 45,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Aqua (Water), Glycerin, Propylene Glycol Dicaprylate/Dicaprate, Pentylene Glycol, Cetearyl Alcohol, Caprylic/Capric Triglyceride, Cetearyl Isononanoate, Betaine, Steareth-21, Nelumbo Nucifera Extract, Citrus Limon (Lemon) Peel Oil, Cucumis Sativus (Cucumber) Fruit Extract, Averrhoa Carambola Leaf Extract, Tocopherol, Silica, Behenyl Alcohol, Cetearyl Glucoside, Sorbitol, Dimethicone, Sodium PCA, Carbomer, Caprylyl Glycol, Butylene Glycol, Tromethamine, Cetyl Alcohol, Stearyl Alcohol, Sodium Hyaluronate, Xanthan Gum, Lauroyl Lysine, Adenosine, Glucose, Tetrasodium EDTA, Sodium Metabisulfite, Potassium Sorbate, Sodium Benzoate, Phenoxyethanol, Limonene, Citral"
+  },
+  {
+    "brand": "Clinique",
+    "name": "Dramatically Different Hydrating Jelly",
+    "type": "moisturizer",
+    "price": 35,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water, Bis-Peg-18 Methyl Ether Dimethyl Silane, Butylene Glycol, Glycerin, Cucumis Sativus (Cucumber) Fruit Extract, Hypnea Musciformis (Algae) Extract, Gelidiella Acerosa Extract, Hordeum Vulgare (Barley) Extract\\Extrait D'Orge, Padina Pavonica Thallus Extract, Helianthus Annuus (Sunflower) Seedcake, Sucrose, Caffeine, Sodium Hyaluronate, Hydroxyethyl Urea, Hydrolyzed Rice Extract, Sorbitol, Sodium Polyaspartate, Ppg-6-Decyltetradeceth-30, Ethylhexylglycerin, Propylene Glycol Dicaprate, Caprylyl Glycol, Trehalose, Polysorbate 80, Carbomer, Sodium Hydroxide, Hexylene Glycol, Citric Acid, Sodium Citrate, Disodium Edta, Phenoxyethanol"
+  },
+  {
+    "brand": "Clarins",
+    "name": "Double Serum",
+    "type": "serum",
+    "price": 55,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Cetearyl Isononanoate, Glycerin, Isononyl Isononanoate, Caprylic/Capric Triglyceride, Pentylene Glycol, PPG-3 Myristyl Ether, Ethylene/Propylene/Styrene Copolymer, Dipsacus Sylvestris Extract, Butylene Glycol, Parfum/Fragrance, Phenoxyethanol, Propanediol, Tromethamine, Silybum Marianum Seed Oil, Carbomer, Tocopheryl Acetate, Escin, Chenopodium Quinoa Seed Extract, Ethylhexylglycerin, Squalane, Avena Sativa (Oat) Kernel Extract, Theobroma Cacao (Cocoa) Extract, Butylene/Ethylene/Styrene Copolymer, Leontopodium Alpinum Extract, Xanthan Gum, Persea Gratissima (Avocado) Oil Unsaponifiables, Caramel, Curcuma Longa (Turmeric) Root Extract, Salicyloyl Phytosphingosine, Musa Sapientum (Banana) Fruit Extract, Salicornia Herbacea Extract, Actinidia Chinensis (Kiwi) Fruit Extract, Kalanchoe Pinnata Leaf Extract, Sodium Benzoate, Citric Acid, Myrothamnus Flabellifolia Leaf/Stem Extract, Disodium EDTA, Tocopherol, Lycium Barbarum Fruit Extract, Maltodextrin, Orthosiphon Stamineus Extract, Hedychium Coronarium Root Extract, Mangifera Indica (Mango) Leaf Extract, Potassium Sorbate, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Jania Rubens Extract, Ascorbic Acid, Sodium Citrate, Engelhardtia Chrysolepis Leaf Extract, Ci 14700/Red 4, Callicarpa Japonica Fruit Extract"
+  },
+  {
+    "brand": "Clarins",
+    "name": "Extra-Firming Jour",
+    "type": "skincare",
+    "price": 55,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Isononyl Isononanoate, Dicaprylyl Carbonate, Dimethicone, Cetearyl Alcohol, Glycerin, Tapioca Starch, Glyceryl Stearate, PEG-100 Stearate, Butyrospermum Parkii (Shea) Butter, Cetearyl Glucoside, Carbomer, Parfum/Fragrance, Phenoxyethanol, Butylene Glycol, Caprylyl Glycol, Avena Sativa (Oat) Kernel Extract, Ethylhexylglycerin, Tocopheryl Acetate, Disodium EDTA, Sodium Hyaluronate, Sodium Hydroxide, Tocopherol, Anigozanthos Flavidus Extract, Caprylic/Capric Triglyceride, Betaine, Sorbitol, Diospyros Mespiliformis Leaf Extract, Maltodextrin, Sanicula Europaea Extract, Sodium Benzoate, Kalanchoe Pinnata Leaf Extract, Balanites Roxburghii Seed Oil, Mitracarpus Scaber Extract, Helianthus Annuus (Sunflower) Seed Oil, Citric Acid, Malpighia Emarginata (Acerola) Seed Extract, Lapsana Communis Flower/Leaf/Stem Extract, Furcellaria Lumbricalis Extract, Potassium Sorbate, Ci 15985/Yellow 6, Maris Sal/Sea Salt/Sel Marin"
+  },
+  {
+    "brand": "Shiseido",
+    "name": "Benefiance Wrinkle Smoothing Cream",
+    "type": "moisturizer",
+    "price": 60,
+    "size": "50ml",
+    "country": "JP",
+    "inci": "Water(Aqua/Eau), Sd Alcohol 40-B (Alcohol Denat.), Glycerin, Dipropylene Glycol, Niacinamide, Cyclohexasiloxane, Cetyl Ethylhexanoate, Hydrogenated Polydecene, Phytosteryl/Octyldodecyl Lauroyl Glutamate, Dimethicone, PPG-3 Dipivalate, Myristyl Myristate, Methyl Methacrylate Crosspolymer, Hydrogenated Palm Oil, Ammonium Acryloyldimethyltaurate/VP Copolymer, Behenyl Alcohol, Polysorbate 60, PEG-30 Phytosterol, Phenoxyethanol, Dimethicone/Vinyl Dimethicone Crosspolymer, Batyl Alcohol, Alcohol, Tocopheryl Acetate, Erythritol, PEG/PPG-14/7 Dimethyl Ether, PEG/PPG-17/4 Dimethyl Ether, Butylene Glycol, Fragrance (Parfum), Carbomer, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Potassium Hydroxide, Caffeine, Disodium EDTA, Sodium Metaphosphate, Tocopherol, Sapindus Mukorossi Peel Extract, Iron Oxides (Ci 77492), Linalool, Sodium Metabisulfite, Limonene, Citronellol, Angelica Keiskei Leaf/Stem Extract, Geraniol, Camellia Sinensis Leaf Extract, Citrus Junos Seed Extract, Hdi/Trimethylol Hexyllactone Crosspolymer, Ziziphus Jujuba Fruit Extract, Iron Oxides (Ci 77491), Eucheuma Serra/Grateloupia Sparsa/Saccharina Angustata/Ulva Linza/Undaria Pinnatifida Extract, Curcuma Longa (Turmeric) Rhizome Extract, Saccharina Angustata/Undaria Pinnatifida Extract, Chlorella Vulgaris Extract, Silica"
+  },
+  {
+    "brand": "Bioderma",
+    "name": "Sensibio H2O Micellar Water",
+    "type": "micellar water",
+    "price": 14,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Peg-6 Caprylic/Capric Glycerides, Fructooligosaccharides, Mannitol, Xylitol, Rhamnose, Cucumis Sativus (Cucumber) Fruit Extract, Propylene Glycol, Cetrimonium Bromide, Disodium Edta"
+  },
+  {
+    "brand": "Bioderma",
+    "name": "Atoderm Creme",
+    "type": "skincare",
+    "price": 14,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Paraffinum Liquidum/Mineral Oil/Huile Minerale, Glycerin, Cetearyl Isononanoate, Glyceryl Stearate, PEG-100 Stearate, Myreth-3 Myristate, Steareth-21, Cyclopentasiloxane, Pentylene Glycol, Cyclohexasiloxane, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Caprylyl Glycol, Cetyl Alcohol, Disodium EDTA, Palmitic Acid, Stearic Acid, Xylitol, Mannitol, Rhamnose, Sodium Hydroxide, Sodium Dehydroacetate, Xylitylglucoside, Anhydroxylitol, Niacinamide, Glucose, Fructooligosaccharides, Caprylic/Capric Triglyceride, Laminaria Ochroleuca Extract"
+  },
+  {
+    "brand": "Bioderma",
+    "name": "Sebium Global Intensive Purifying Care",
+    "type": "skincare",
+    "price": 14,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, C12-13 Alkyl Lactate, Dipropylene Glycol, Citric Acid, Cyclopentasiloxane, Sodium Hydroxide, Glycerin, Zinc Gluconate, Methyl Methacrylate Crosspolymer, Salicylic Acid, Arachidyl Alcohol, Dimethicone, Mannitol, Xylitol, Rhamnose, Fructooligosaccharides, Laminaria Ochroleuca Extract, Ginkgo Biloba Leaf Extract, Behenyl Alcohol, Glyceryl Stearate, PEG-100 Stearate, Silica, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Xanthan Gum, Arachidyl Glucoside, C30-45 Alkyl Cetearyl Dimethicone Crosspolymer, Glycyrrhetinic Acid, Propylene Glycol, Polysorbate 60, Caprylic/Capric Triglyceride, Bakuchiol, Squalane, Fragrance (Parfum) (Bi 673)"
+  },
+  {
+    "brand": "Bioderma",
+    "name": "Cicabio Creme",
+    "type": "skincare",
+    "price": 14,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Glycerin, Ethylhexyl Palmitate, Fructooligosaccharides, Zinc Oxide, Octyldodecanol, Butylene Glycol, Polyacrylamide, Mannitol, Xylitol, Rhamnose, Laminaria Ochroleuca Extract, Copper Sulfate, Zinc Sulfate, Sodium Hyaluronate, Vitis Vinifera (Grape) Vine Extract, Asiaticoside, Asiatic Acid, Madecassic Acid, C13-14 Isoparaffin, Octyldodecyl Xyloside, Peg-30 Dipolyhydroxystearate, Caprylic/Capric Triglyceride, Laureth-7, Laureth-3, Hydroxyethylcellulose, Acetyl Dipeptide-1 Cetyl Ester, Potassium Sorbate"
+  },
+  {
+    "brand": "Avene",
+    "name": "Tolerance Extreme Cream",
+    "type": "moisturizer",
+    "price": 18,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Avene Thermal Spring Water (Avene Aqua), Caprylic/Capric Triglyceride, Glycerin, Butyrospermum Parkii (Shea) Butter (Butyrospermum Parkii Butter), Carthamus Tinctorius (Safflower) Seed Oil (Carthamus Tinctorius Seed Oil), Behenyl Alcohol, Sodium Acrylates/C10-30 Alkyl Acrylate Crosspolymer"
+  },
+  {
+    "brand": "Avene",
+    "name": "Cicalfate",
+    "type": "skincare",
+    "price": 18,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Avene Thermal Spring Water (Avene Aqua), Caprylic/Capric Triglyceride, Mineral Oil (Paraffinum Liquidum), Hydrogenated Vegetable Oil, Glycerin, Zinc Oxide, Propylene Glycol, Polyglyceryl-2 Sesquiisostearate, PEG-22/Dodecyl Glycol Copolymer, Aluminum Sucrose Octasulfate, Aluminum Stearate, Beeswax (Cera Alba), Copper Sulfate, Magnesium Stearate, Magnesium Sulfate, Microcrystalline Wax (Cera Microcristallina), Water Aqua), Zinc Sulfate"
+  },
+  {
+    "brand": "Avene",
+    "name": "Hydrance Aqua-Gel",
+    "type": "gel",
+    "price": 18,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua, Glycerin, Pentylene Glycol, 1,2-Hexanediol, Dimethicone, Isocetyl Stearoyl Stearate, Triethylhexanoin, Caprylic/Capric Triglyceride, Betaine, Methyl Gluceth-20, Polyglyceryl-10 Myristate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, BHT, Bis-PEG-18 Methyl Ether Dimethyl Silane, C12-20 Alkyl Glucoside, C14-22 Alcohols, Carbomer, Citric Acid, Cucurbita Pepo (Pumpkin) Seed Oil, Parfum, Phytosterols, Potassium Hydroxide, Sodium Citrate, Sodium Dextran Sulfate, Sodium Hyaluronate, Squalane, Tocopheryl Glucoside"
+  },
+  {
+    "brand": "Avene",
+    "name": "Cleanance Comedomed",
+    "type": "skincare",
+    "price": 18,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Avene Thermal Spring Water (Avene Aqua), Isopropyl Alcohol, PEG-6, Glycerin, Silybum Marianum Fruit Extract, Silica, Polyacrylate-13, Polyisobutene, Polysorbate 20, Sorbitan Isostearate, Water (Aqua)"
+  },
+  {
+    "brand": "Clinique",
+    "name": "Moisture Surge Serum",
+    "type": "serum",
+    "price": 35,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water\\Aqua\\Eau, Glycerin, Lactic Acid, Octyldodecyl Myristate, Butylene Glycol, Bis-PEG-18 Methyl Ether Dimethyl Silane, Dimethicone, PPG-24-Glycereth-24, Sodium Hydroxide, Hydrogenated Lecithin, Glycereth-26, Polysorbate 80, Sodium Hyaluronate, Caffeine, Aloe Barbadensis Leaf Water, C13-14 Isoparaffin, Sodium Polyaspartate, Trehalose, Sodium Stearoyl Glutamate, Glycyrrhetinic Acid, Sucrose, Laureth-7, Xanthan Gum, Dimethicone/PEG-10/15 Crosspolymer, Polyacrylamide, Tocopheryl Acetate, Magnesium Ascorbyl Phosphate, BHT, Disodium EDTA, Phenoxyethanol, Potassium Sorbate, Mica, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491)"
+  },
+  {
+    "brand": "Clinique",
+    "name": "Even Better Concealer + Eraser",
+    "type": "concealer",
+    "price": 35,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water\\Aqua\\Eau, Methyl Trimethicone, Trimethylsiloxysilicate, Dimethicone, Butylene Glycol, Phenyl Trimethicone, Neopentyl Glycol Diheptanoate, Niacinamide, Hydroxyethyl Urea, Lauryl PEG-9 Polydimethylsiloxyethyl Dimethicone, Glycerin, Sodium Polyaspartate, Ascorbyl Glucoside, Caffeine, Phytosphingosine, Magnesium Ascorbyl Phosphate, Resveratrol, Sodium Hyaluronate, Polygonum Cuspidatum Root Extract, Acetyl Hexapeptide-8, Palmitoyl Hexapeptide-12, Tocopheryl Acetate, Tetrahexyldecyl Ascorbate, Salicylic Acid, Sigesbeckia Orientalis (St. Paul'S Wort) Extract, Caprylyl Glycol, Trihydroxystearin, Triethyl Citrate, PPG-15 Stearyl Ether, PEG-10 Dimethicone, Sorbitol, Trehalose, Micrococcus Lysate, Isopropyl Isostearate, Lecithin, Zinc Stearate, Dimethicone/PEG-10/15 Crosspolymer, Alumina, Triethoxycaprylylsilane, Silica, Glyceryl Polymethacrylate, Laureth-7, Magnesium Aluminum Silicate, Hexylene Glycol, PEG-8, Disteardimonium Hectorite, Propylene Glycol Caprylate, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, Polysilicone-11, Sodium Hydroxide, Xanthan Gum, Sodium Chloride, Citric Acid, Ammonium Acryloyldimethyltaurate/VP Copolymer, Dipropylene Glycol, BHT, Disodium EDTA, Sodium Citrate, Potassium Sorbate, Phenoxyethanol, Mica, Titanium Dioxide (Ci 77891), Iron Oxides (Ci 77491),Iron Oxides (Ci 77492),Iron Oxides (Ci 77499), Bismuth Oxychloride (Ci 77163)"
+  },
+  {
+    "brand": "Lancome",
+    "name": "Genifique Ultimate Serum",
+    "type": "serum",
+    "price": 70,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua, Bifida Ferment Lysate, Glycerin, Pentylene Glycol, Polymnia Sonchifolia Root Juice, Dimethicone, Alpha-Glucan Oligosaccharide, Sodium Carboxymethyl Beta-Glucan, Sodium Hyaluronate, Salicyloyl Phytosphingosine, Adenosine, Mannose, Ammonium Polyacryloyldimethyl Taurate, Dipotassium Glycyrrhizate, Hydroxyacetophenone, Caprylyl Glycol, Tetrasodium Glutamate Diacetate, Citric Acid, Lactic Acid, Lactobacillus, Acetic Acid, Maltodextrin, Xanthan Gum, Faex Extract/Yeast Extract/Extrait De Levure, Octyldodecanol, Butylene Glycol, Sodium Benzoate, Parfum/Fragrance"
+  },
+  {
+    "brand": "Lancome",
+    "name": "Absolue The Serum",
+    "type": "serum",
+    "price": 70,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Glycerin, Butylene Glycol, Bifida Ferment Lysate, Bis-PEG-18 Methyl Ether Dimethyl Silane, Alcohol Denat, PEG/PPG/Polybutylene Glycol-8/5/3 Glycerin, Hydroxyethylpiperazine Ethane Sulfonic Acid, Ci 77891/Titanium Dioxide, Tocopherol, Mica, Coco-Glucoside, Lactic Acid, Hydroxypropyl Tetrahydropyrantriol, Sodium Hyaluronate, Sodium Hydroxide, Sodium Benzoate, Adenosine, Acetic Acid, Chlorphenesin, Ammonium Polyacryloyldimethyl Taurate, Limonene, Tin Oxide, Linalool, Benzoic Acid, Propylene Glycol, Caprylyl Glycol, Carbomer, Perlite, Geraniol, Rosa Centifolia Stem Extract, Rosa Damascena Flower Oil, Rosa Centifolia Flower Extract, Rosa Hybrid Flower Extract, Citric Acid, Citronellol, Coumarin, Glycol Distearate, Glyceryl Oleate, Glyceryl Stearate, Parfum/Fragrance"
+  },
+  {
+    "brand": "Lancome",
+    "name": "Renergie Day Cream",
+    "type": "moisturizer",
+    "price": 70,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Hydrogenated Polyisobutene, Dimethicone, Cetyl Alcohol, Glycerin, Glyceryl Stearate SE, Paraffinum Liquidum/Mineral Oil/Huile Minerale, PEG-40 Stearate, Myristyl Myristate, Hydroxyproline, Ci 19140/Yellow 5, Ci 14700 / Red 4, Ci 42090/Blue 1, Zea Mays Kernel Extract, Tocopheryl Acetate, Sodium Hydroxide, Hydroxyisohexyl 3-Cyclohexene Carboxaldehyde, Stearic Acid, Adenosine, Caffeine, Ethylhexyl Methoxycinnamate, Ethylparaben, Chlorhexidine Digluconate, Limonene, Linalool, Benzyl Alcohol, Benzyl Benzoate, Benzyl Salicylate, Alpha-Isomethyl Ionone, Sorbitan Tristearate, Cera Microcristallina/Microcrystalline Wax/Cire Microcristalline, Paraffin, Geraniol, Disodium EDTA, Ruscus Aculeatus Extract / Ruscus Aculeatus Root Extract, Methylparaben, Methylsilanol Mannuronate, Butylphenyl Methylpropional, Citronellol, Coumarin, Hexyl Cinnamal, Glycine Soja Protein/Soybean Protein, Parfum/Fragrance"
+  },
+  {
+    "brand": "Shiseido",
+    "name": "Ultimune Power Infusing Concentrate",
+    "type": "skincare",
+    "price": 60,
+    "size": "50ml",
+    "country": "JP",
+    "inci": "Water, Alcohol Denat, Glycerin, Dimethicone, Butylene Glycol, PEG/PPG-17/4 Dimethyl Ether, Triethylhexanoin, Ammonium Acryloyldimethyltaurate/Beheneth-25 Methacrylate Crosspolymer, Phenoxyethanol, PEG-14M, Methylparaben, Tocopheryl Acetate, PEG/PPG-14/7 Dimethyl Ether, Rosa Damascena Flower Water, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Fragrance, Disodium EDTA, Potassium Hydroxide, Silica, Isoceteth-10, Linalool, Ginkgo Biloba Leaf Extract (Ginkgo Biloba), Geraniol, Citronellol, Sodium Carboxymethyl Beta-Glucan, BHT, Thymus Serpillum Extract, Perilla Ocymoides Leaf Extract, Sodium Bicarbonate"
+  },
+  {
+    "brand": "Shiseido",
+    "name": "Future Solution LX - Total Regenerating Cream",
+    "type": "moisturizer",
+    "price": 60,
+    "size": "50ml",
+    "country": "JP",
+    "inci": "Water(Aqua/Eau), Dipropylene Glycol, Glycerin, Dimethicone, Butylene Glycol, Xylitol, Piperidinepropionic Acid, Petrolatum, Mineral Oil(Paraffinum Liquidum/Huile Minerale), Diisostearyl Malate, Myristyl Myristate, Pentaerythrityl Tetrabehenate/Benzoate/Ethylhexanoate, Behenyl Alcohol, Glyceryl Stearate SE, Stearyl Alcohol, Pentaerythrityl Tetraethylhexanoate, Batyl Alcohol, Dimethicone Crosspolymer, Beheneth-20, Phenoxyethanol, Dimethylacrylamide/Sodium Acryloyldimethyltaurate Crosspolymer, Fragrance (Parfum), Sorbitan Tristearate, Sodium Methyl Stearoyl Taurate, PEG/PPG-17/4 Dimethyl Ether, Tocopheryl Acetate, Sodium Citrate, BHT, Xanthan Gum, Trisodium EDTA, Sodium Metabisulfite, Linalool, Citric Acid, Sodium Metaphosphate, Iron Oxides (Ci 77492), Phytosteryl/Octyldodecyl Lauroyl Glutamate, Butylphenyl Methylpropional, Alcohol, Limonene, 2-O-Ethyl Ascorbic Acid, Alpha-Isomethyl Ionone, Citronellol, Geraniol, Benzyl Benzoate, Prunus Speciosa Leaf Extract, Angelica Acutiloba Root Extract, Iron Oxides (Ci 77491), Sanguisorba Officinalis Root Extract, Isodonis Japonicus Leaf/Stalk Extract, Camellia Sinensis Leaf Extract, Tocopherol"
+  },
+  {
+    "brand": "Fresh",
+    "name": "Deep Rose Hydration Face Cream",
+    "type": "moisturizer",
+    "price": 45,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Aqua (Water), Glycerin, Ethylhexyl Isononanoate, Butylene Glycol, Pentylene Glycol, Propanediol, Caprylyl Methicone, Isostearyl Isostearate, Dimethicone, Behenyl Alcohol, Nylon-6/12, Steareth-2, Xanthan Gum, Prunus Domestica Seed Oil, Rosa Damascena Flower Water, Algin, Angelica Keiskei Extract, Acacia Senegal Gum, Cucumis Sativus (Cucumber) Fruit Extract, Rosa Damascena Flower Oil, Sodium Hyaluronate, Tocopheryl Acetate, Ammonium Acryloyldimethyltaurate/Vp Copolymer, Steareth-21, Polyacrylamide, C13-14 Isoparaffin, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Tromethamine, Dimethiconol, Laureth-7, Tetrasodium EDTA, Caprylic/Capric Triglyceride, BHT, Caramel, Serine, Fragrance, Phenoxyethanol, Lemonellol, Geraniol"
+  },
+  {
+    "brand": "Fresh",
+    "name": "Sugar Lip Polish",
+    "type": "lip care",
+    "price": 45,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Sucrose, Simmondsia Chinensis (Jojoba) Seed Oil, Isononyl Isononanoate, Hydrogenated Castor Oil, Molasses, Ethylene/Propylene/Styrene Copolymer, Parfum (Fragrance), Silica, Butyrospermum Parkii (Shea Butter), Limnanthes Alba (Meadowfoam) Seed Oil, Vitis Vinifera (Grape) Seed Oil, Tocopheryl Acetate, Butylene/Ethylene/Styrene Copolymer, BHT, Citric Acid, Phenoxyethanol, Limonene, Citral, Benzyl Alcohol"
+  },
+  {
+    "brand": "Fresh",
+    "name": "Rose Hydrating Eye Gel Cream",
+    "type": "moisturizer",
+    "price": 45,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Aqua (Water), Methyl Trimethicone, Glycerin, Propanediol, Polyglycerin-3, Squalane, Butylene Glycol, Dimethicone/Vinyl Dimethicone Crosspolymer, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Glyceryl Oleate Citrate, Dimethicone, Sodium Hyaluronate, Chlorella Vulgaris Extract, Rosa Damascena Flower Water, Cucumis Sativus (Cucumber) Fruit Extract, Voandzeia Subterranea Seed Extract, Rhodiola Crenulata Root Extract, Rosa Damascena Flower Oil, Tocopheryl Acetate, Diphenylsiloxy Phenyl Trimethicone, Caprylic/Capric Triglyceride, Poloxamer 407, Dimethicone/Phenyl Vinyl Dimethicone Crosspolymer, PEG-6, Polysorbate 60, Sorbitan Isostearate, Xanthan Gum, Sodium Citrate, Citric Acid, Disodium Phosphate, Biosaccharide Gum-2, C12-14 Pareth-12, Caramel, Parfum (Fragrance), BHT, Phenoxyethanol, Citronellol, Geraniol"
+  },
+  {
+    "brand": "Clarins",
+    "name": "Hydra-Essentiel Emulsion",
+    "type": "moisturizer",
+    "price": 55,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water/Eau, Butylene Glycol, Hydrogenated Polyisobutene, Glycerin, Caprylic/Capric Triglyceride, Butyrospermum Parkii (Shea) Butter, Cetyl Ethylhexanoate, Dimethicone, C14-22 Alcohols, Phenoxyethanol, Carbomer, Xylitylglucoside, Cetyl Alcohol, Ethylhexylglycerin, Glyceryl Stearate, PEG-100 Stearate, Anhydroxylitol, Tromethamine, C12-20 Alkyl Glucoside, Escin, Parfum/Fragrance, Sodium Acrylates Copolymer, Xylitol, Potassium Cetyl Phosphate, Dimethiconol, Disodium EDTA, Phospholipids, Polyglyceryl-10 Stearate, Helianthus Annuus (Sunflower) Seed Oil, Diospyros Mespiliformis Leaf Extract, Glucose, Maltodextrin, Kalanchoe Pinnata Leaf Extract, Sanicula Europaea Extract, Citric Acid, Lapsana Communis Flower/Leaf/Stem Extract, Furcellaria Lumbricalis Extract, Sodium Benzoate, Potassium Sorbate, Maris Sal/Sea Salt/Sel Marin, Callicarpa Japonica Fruit Extract, Tocopherol"
+  },
+  {
+    "brand": "Estee Lauder",
+    "name": "Advanced Night Repair Rescue Solution",
+    "type": "skincare",
+    "price": 65,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water\\Aqua\\Eau, Bifida Ferment Lysate, PEG-8, Butylene Glycol, Glycerin, Polysorbate 80, Bis-PEG-18 Methyl Ether Dimethyl Silane, Tripeptide-32, Hydrolyzed Yeast Protein, Lactobacillus Ferment, Sodium Hyaluronate, Caffeine, Hypnea Musciformis Extract, Citrullus Lanatus (Watermelon) Fruit Extract, Lens Esculenta (Lentil) Fruit Extract, Pyrus Malus (Apple) Fruit Extract, Magnolia Grandiflora Bark Extract, Polygonum Cuspidatum Root Extract, Poria Cocos Sclerotium Extract, Silybum Marianum (Lady'S Thistle) Extract, Sapindus Mukorossi Fruit Extract, Anthemis Nobilis (Chamomile) Flower Extract, Sodium Lactate, Ethylhexylglycerin, Potassium Gluconate, Sodium PCA, Caesalpinia Spinosa Gum, Sucrose, Caprylyl Glycol, Hexylene Glycol, Carbomer, Xanthan Gum, PPG-6-Decyltetradeceth-30, PPG-5-Ceteth-20, BHT, Disodium EDTA, Sodium Hydroxide, Potassium Sorbate, Phenoxyethanol, Sodium Benzoate, Red 4 (Ci 14700), Yellow 5 (Ci 19140)"
+  },
+  {
+    "brand": "Estee Lauder",
+    "name": "Double Wear Foundation",
+    "type": "foundation",
+    "price": 65,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water, Cyclopentasiloxane, Trimethylsiloxysilicate, Peg/Ppg-18/18 Dimethicone, Butylene Glycol, Tribehenin, Polyglyceryl-3 Diisostearate, Magnesium Sulfate, Tocopheryl Acetate, Polymethylsilsesquioxane, Methicone, Laureth-7, Xanthan Gum, Alumina, Sodium Dehydroacetate, Disteardimonium Hectorite, Cellulose Gum, Propylene Carbonate, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Phenoxyethanol, Iron Oxides (Ci 77491, Ci 77492, Ci 77499), Mica, Titanium Dioxide (Ci 77891)"
+  },
+  {
+    "brand": "Estee Lauder",
+    "name": "Revitalizing Supreme+ Youth Power Creme",
+    "type": "moisturizer",
+    "price": 65,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water\\Aqua\\Eau, Dimethicone, Glycerin, Isohexadecane, Butylene Glycol, Bis-PEG-18 Methyl Ether Dimethyl Silane, PEG-10 Dimethicone, Disteardimonium Hectorite, Moringa Oleifera Seed Extract, Hibiscus Flower Extract, Sodium Hyaluronate, Acetyl Hexapeptide-8, Laminaria Digitata Extract, Whey Protein\\Lactis Protein\\Proteine Du Petit-Lait, Opuntia Tuna Extract, Acetyl Glucosamine, Tocopheryl Acetate, Narcissus Tazetta Bulb Extract, Squalane, Algae Extract, Hypnea Musciformis (Algae) Extract, Pyrus Malus (Apple) Fruit Extract, Cucumis Sativus (Cucumber) Fruit Extract, Lens Esculenta (Lentil) Fruit Extract, Citrullus Lanatus (Watermelon) Fruit Extract, Silybum Marianum (Lady'S Thistle) Extract, Gelidiella Acerosa Extract, Helianthus Annuus (Sunflower) Seed Extract, Sigesbeckia Orientalis (St. Paul'S Wort) Extract, Caffeine, Hordeum Vulgare (Barley) Extract\\Extrait D'Orge, Sodium Lactate, Triticum Vulgare (Wheat) Germ Extract, Sorbitol, Propylene Glycol Dicaprate, Sucrose, Sodium PCA, Aminopropyl Ascorbyl Phosphate, Pentylene Glycol, Caprylyl Glycol, Propylene Carbonate, Polyethylene, Polysilicone-11, PEG-32, PEG-6, Disodium EDTA, Isoceteth-20, Isododecane, Citric Acid, Fragrance (Parfum), BHT, Sodium Citrate, Potassium Sorbate, Sodium Dehydroacetate, Sodium Benzoate, Phenoxyethanol, Iron Oxides"
+  }
+]
