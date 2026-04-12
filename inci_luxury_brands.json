@@ -1,0 +1,290 @@
+[
+  {
+    "brand": "La Mer",
+    "name": "Creme de la Mer",
+    "type": "moisturizer",
+    "price": 350,
+    "size": "60ml",
+    "country": "US",
+    "inci": "Algae (Seaweed) Extract, Mineral Oil/Paraffinum Liquidum/Huile Minerale, Petrolatum, Glycerin, Isohexadecane, Microcrystalline Wax/Cera Microcristallina/Cire Microcristalline, Lanolin Alcohol, Citrus Aurantifolia (Lime) Extract, Sesamum Indicum (Sesame) Seed Oil, Eucalyptus Globulus (Eucalyptus) Leaf Oil, Sesamum Indicum (Sesame) Seed Powder, Medicago Sativa (Alfalfa) Seed Powder, Helianthus Annuus (Sunflower) Seedcake, Prunus Amygdalus Dulcis (Sweet Almond) Seed Meal, Sodium Gluconate, Copper Gluconate, Calcium Gluconate, Magnesium Gluconate, Zinc Gluconate, Magnesium Sulfate, Paraffin, Tocopheryl Succinate, Niacin, Water/Aqua/Eau, Beta-Carotene, Decyl Oleate, Aluminum Distearate, Octyldodecanol, Citric Acid, Cyanocobalamin, Magnesium Stearate, Panthenol, Limonene, Geraniol, Linalool, Hydroxycitronellal, Citronellol, Benzyl Salicylate, Citral, Sodium Benzoate, Alcohol Denat, Fragrance (Parfum)"
+  },
+  {
+    "brand": "La Mer",
+    "name": "The Concentrate",
+    "type": "serum",
+    "price": 475,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Cyclopentasiloxane, Algae Extract, Glycerin, Dimethicone, Polysilicone-11, Isononyl Isononanoate, Dimethicone/PEG-10/15 Crosspolymer, Cyclohexasiloxane, Sesamum Indicum (Sesame) Seed Oil, Medicago Sativa (Alfalfa) Seed Powder, Helianthus Annuus (Sunflower) Seedcake, Prunus Amygdalus Dulcis (Sweet Almond) Seed Meal, Eucalyptus Globulus (Eucalyptus) Leaf Oil, Sodium Gluconate, Copper Gluconate, Calcium Gluconate, Magnesium Gluconate, Zinc Gluconate, Tocopheryl Succinate, Niacin, Sesamum Indicum (Sesame) Seed Powder, Water/Aqua/Eau, Dimethicone Crosspolymer, Helichrysum Arenarium (Everlasting) Extract, Laminaria Ochroleuca Extract, Triticum Vulgare (Wheat) Flour Lipids, Citrus Aurantifolia (Lime) Peel Extract, Crithmum Maritimum Extract, Alteromonas Ferment Extract, Chlorella Vulgaris Extract, Yeast Extract/Faex/Extrait De Levure, Cholesterol, Linoleic Acid, Tocopherol, Tetraacetylphytosphingosine, Caprylic/Capric Triglyceride, Rosmarinus Officinalis (Rosemary) Leaf Oil, Ocimum Basilicum (Basil) Oil, Lavandula Angustifolia (Lavender) Oil, Lavandula Hybrida (Lavandin) Oil, Dipropylene Glycol, Alcohol Denat, Sodium Citrate, Eugenol, Limonene, Linalool, BHT, Phenoxyethanol, Potassium Sorbate"
+  },
+  {
+    "brand": "La Mer",
+    "name": "The Treatment Lotion",
+    "type": "toner",
+    "price": 135,
+    "size": "150ml",
+    "country": "US",
+    "inci": "Water/Aqua/Eau, Algae Extract, Glycerin, Methyl Gluceth-20, Bis-PEG-18 Methyl Ether Dimethyl Silane, Sucrose, Yeast Extract/Faex/Extrait De Levure, Sesamum Indicum (Sesame) Seed Oil, Medicago Sativa (Alfalfa) Seed Powder, Prunus Amygdalus Dulcis (Sweet Almond) Seed Meal, Helianthus Annuus (Sunflower) Seedcake, Eucalyptus Globulus (Eucalyptus) Leaf Oil, Sodium Gluconate, Copper Gluconate, Calcium Gluconate, Magnesium Gluconate, Zinc Gluconate, Tocopheryl Succinate, Niacin, Sesamum Indicum (Sesame) Seed Powder, Citrus Aurantifolia (Lime) Peel Extract, Laminaria Digitata Extract, Laminaria Saccharina Extract, Plankton Extract, Palmaria Palmata Extract, Sodium Hyaluronate, Butylene Glycol, Caffeine, Dipotassium Glycyrrhizate, Acetyl Hexapeptide-8, Glycereth-26, Alcaligenes Polysaccharides, Trehalose, Lactobacillus Ferment, Sea Salt/Maris Sal/Sel Marin, Tourmaline, Urea, Sodium PCA, Glycine Soja (Soybean) Protein, Glycosaminoglycans, Glycine Soja (Soybean) Seed Extract, Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroacetate, Caprylyl Glycol, PEG-8, Magnesium Chloride, Calcium Chloride, Sodium Sulfate, Potassium Phosphate, Potassium Nitrate, Pentylene Glycol, Triacetin, Lecithin, PPG-5-Ceteth-20, Jojoba Wax PEG-120 Esters, Polysorbate 20, Polyquaternium-51, Hydroxypropyl Cyclodextrin, Alcohol Denat, Fragrance (Parfum), Limonene, Linalool, Hydroxycitronellal, Citronellol, Geraniol, BHT, Disodium EDTA, Potassium Sorbate, Chlorphenesin, Sorbic Acid, Phenoxyethanol"
+  },
+  {
+    "brand": "La Mer",
+    "name": "The Renewal Oil",
+    "type": "face oil",
+    "price": 290,
+    "size": "30ml",
+    "country": "US",
+    "inci": "Limnanthes Alba (Meadowfoam) Seed Oil, Dimethicone, Caprylic/Capric Triglyceride, Water/Aqua/Eau, Trisiloxane, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Polydecene, Hydrogenated Polydecene, Butylene Glycol, Propanediol, Glycerin, Brassica Campestris (Rapeseed) Seed Oil, Algae Extract, Helianthus Annuus (Sunflower) Seed Oil, Sesamum Indicum (Sesame) Seed Oil, Eucalyptus Globulus (Eucalyptus) Leaf Oil, Camelina Sativa Seed Oil, Oxycoccus Palustris (Cranberry) Seed Oil, Olea Europaea (Olive) Fruit Oil, Hippophae Rhamnoides Oil, Medicago Sativa (Alfalfa) Seed Powder, Helianthus Annuus (Sunflower) Seedcake, Prunus Amygdalus Dulcis (Sweet Almond) Seed Meal, Sodium Gluconate, Copper Gluconate, Calcium Gluconate, Magnesium Gluconate, Zinc Gluconate, Tocopheryl Succinate, Niacin, Sesamum Indicum (Sesame) Seed Powder, Laminaria Ochroleuca Extract, Laminaria Saccharina Extract, Hydrolyzed Algin, Sea Salt/Maris Sal/Sel Marin, Chlorella Vulgaris Extract, Salicornia Herbacea Extract, Sigesbeckia Orientalis (St. Paul's Wort) Extract, Laminaria Digitata Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Magnolia Officinalis Bark Extract, Yeast Extract/Faex/Extrait De Levure, Crithmum Maritimum Extract, Commiphora Mukul Resin Extract, Citrus Aurantifolia (Lime) Peel Extract, Molasses Extract/Saccharum Officinarum/Extrait De Melasse, Sucrose, Acetyl Hexapeptide-8, Acetyl Glucosamine, Caffeine, Tocopheryl Acetate, Phenyl Trimethicone, Sodium Chloride, Tetrahexyldecyl Ascorbate, Alcohol Denat, Fragrance (Parfum), Linalool, Geraniol, Limonene, Benzyl Benzoate, Coumarin, BHT, Phenoxyethanol, Potassium Sorbate"
+  },
+  {
+    "brand": "Chanel",
+    "name": "Le Lift Creme",
+    "type": "moisturizer",
+    "price": 170,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Water), Alcohol, Glycerin, Propanediol, Dimethicone, Triethylhexanoin, Camellia Kissi Seed Oil, Butylene Glycol, Cetearyl Alcohol, Methyl Methacrylate Crosspolymer, Ipomoea Batatas Root Extract, Butyrospermum Parkii (Shea) Butter, Ammonium Acryloyldimethyltaurate/VP Copolymer, Dipropylene Glycol, Phenoxyethanol, Boron Nitride, Glyceryl Stearate, PEG-100 Stearate, Tocopheryl Acetate, Parfum (Fragrance), Cetearyl Glucoside, Dimethicone Crosspolymer, Caprylyl Glycol, Sorbitan Laurate, Xanthan Gum, Propylene Glycol, Hydrolyzed Silk, Sodium Hyaluronate, Hydroxyethylcellulose, Acetyl Dipeptide-1 Cetyl Ester, Phytic Acid, Sodium Benzoate, Sodium Citrate, Hydrochloric Acid, Citric Acid, Tocopherol, Palmitoyl Oligopeptide, CI 14700 (Red 4), CI 19140 (Yellow 5)"
+  },
+  {
+    "brand": "Chanel",
+    "name": "Hydra Beauty Micro Serum",
+    "type": "serum",
+    "price": 130,
+    "size": "30ml",
+    "country": "FR",
+    "inci": "Aqua (Water), Glycerin, Butylene Glycol, Propanediol, Dipentaerythrityl Hexacaprylate/Hexacaprate, Isononyl Isononanoate, Pentylene Glycol, Camellia Japonica Flower Extract, Zingiber Officinale (Ginger) Root Extract, Phenoxyethanol, Parfum (Fragrance), Acrylates/C10-30 Alkyl Acrylate Crosspolymer, PVP, Carbomer, Camellia Oleifera Seed Oil, Dipropylene Glycol, Amodimethicone, Sodium Hydroxide, Disodium EDTA, Sodium Hyaluronate, Tocopherol"
+  },
+  {
+    "brand": "Chanel",
+    "name": "N1 de Chanel Revitalizing Serum",
+    "type": "serum",
+    "price": 105,
+    "size": "30ml",
+    "country": "FR",
+    "inci": "Camellia Japonica Flower Water, Propanediol, Glycerin, Aqua (Water), Pentylene Glycol, Sodium Citrate, Sodium Polyacrylate, Faex (Yeast Extract), Coffea Arabica (Coffee) Seed Oil, Camellia Japonica Flower Extract, Parfum (Fragrance), Chlorphenesin, Citric Acid, Ethylhexyl Palmitate, Caprylyl Glycol, Xanthan Gum, Sodium Hyaluronate, Chondrus Crispus Powder, Adenosine, Lactic Acid, Saccharide Isomerate, 1,2-Hexanediol, Palmitoyl Tetrapeptide-7"
+  },
+  {
+    "brand": "Chanel",
+    "name": "Sublimage La Creme",
+    "type": "moisturizer",
+    "price": 450,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Water), Glycerin, Isostearyl Neopentanoate, Butylene Glycol, Cetearyl Alcohol, Dimethicone, Secale Cereale (Rye) Seed Extract, Vanilla Planifolia Fruit Oil, Faex (Yeast Extract), Vanilla Planifolia Fruit Extract, Vanilla Planifolia Flower Extract, Glycyrrhiza Glabra (Licorice) Root Extract, Pentylene Glycol, Cetearyl Glucoside, Ammonium Acryloyldimethyltaurate/VP Copolymer, Phenoxyethanol, Glyceryl Stearate, Limnanthes Alba (Meadowfoam) Seed Oil, PEG-100 Stearate, Phenyl Trimethicone, Tocopheryl Acetate, Butyrospermum Parkii (Shea) Butter, Canola Oil, Camellia Kissi Seed Oil, Parfum (Fragrance), Propanediol, Caprylyl Glycol, Xanthan Gum, Dipropylene Glycol, Propylene Glycol, Sodium Hyaluronate, Adenosine, Sodium Carbomer, Arginine, Phytic Acid, Polysorbate 20, Ethylhexylglycerin, Sodium Citrate, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Tocopherol, Sodium Benzoate, Citric Acid, CI 14700 (Red 4), CI 15985 (Yellow 6), CI 19140 (Yellow 5)"
+  },
+  {
+    "brand": "Dior",
+    "name": "Capture Totale Super Potent Serum",
+    "type": "serum",
+    "price": 155,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Water), Glycerin, Niacinamide, Butylene Glycol, Squalane, Limnanthes Alba (Meadowfoam) Seed Oil, Pentylene Glycol, Alcohol, Propanediol, Betaine, Diglycerin, Lauroyl Lysine, PEG-8, Aframomum Angustifolium Seed Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Jasminum Officinale (Jasmine) Flower Extract, Sodium Surfactin, Sodium Acetylated Hyaluronate, Hydrolyzed Soy Protein, Ascorbyl Glucoside, Sodium Tocopheryl Phosphate, Adenosine, Xylitol, Trehalose, Palmaria Palmata Extract, Sodium Hyaluronate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Boron Nitride, Caprylyl Glycol, Hydrogenated Lecithin, Parfum (Fragrance), Chlorphenesin, Alcaligenes Polysaccharides, Polysorbate 60, Sorbitan Isostearate, CI 14700 (Red 4), CI 60730 (Ext. Violet 2), Sodium Benzoate, Potassium Sorbate, Tocopherol"
+  },
+  {
+    "brand": "Dior",
+    "name": "Prestige La Creme",
+    "type": "moisturizer",
+    "price": 480,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Water), Glycerin, Dicaprylyl Ether, Squalane, Cetearyl Alcohol, Urea, Caprylic/Capric Triglyceride, Pentylene Glycol, Hydrogenated Coco-Glycerides, Glyceryl Stearate, Silica, Glycine, Rose Extract, Malva Sylvestris (Mallow) Extract, Avena Sativa (Oat) Kernel Extract, Tocopheryl Acetate, Sodium Hyaluronate, Adenosine, Lactic Acid, Butyrospermum Parkii (Shea) Butter, Cetearyl Glucoside, Polyglycerin-6, Parfum (Fragrance), Sodium Stearoyl Glutamate, Behenyl Alcohol, Chlorphenesin, Polyglycerin-10, Cocoglycerides, Xanthan Gum, Helianthus Annuus (Sunflower) Seed Oil, CI 77891 (Titanium Dioxide), Sodium Hydroxide, Sodium Benzoate, Glucose, Potassium Sorbate, Citric Acid, CI 77491 (Iron Oxides), Tocopherol, Acetyl Hexapeptide-8, Tin Oxide, Glycine Soja (Soybean) Oil, Carbomer, Dimethicone, Caprylyl Glycol, Cetyl Palmitate, Palmitoyl Tetrapeptide-7"
+  },
+  {
+    "brand": "Dior",
+    "name": "Hydra Life Sorbet Creme",
+    "type": "moisturizer",
+    "price": 72,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Water), Butylene Glycol, Caprylic/Capric Triglyceride, Mangifera Indica (Mango) Seed Butter, Glycerin, Propanediol, Theobroma Grandiflorum Seed Butter, Sodium Acrylates Copolymer, Glyceryl Stearate, Phenoxyethanol, C12-16 Alcohols, Lecithin, Chlorphenesin, Parfum (Fragrance), Hydrogenated Lecithin, Palmitic Acid, Cetearyl Alcohol, Cetyl Palmitate, Cocoglycerides, Tocopheryl Acetate, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Malva Sylvestris (Mallow) Extract, Ormenis Multicaulis Flower Wax, Haberlea Rhodopensis Leaf Extract, Benzyl Alcohol, Paeonia Suffruticosa Root Extract, Dehydroacetic Acid, BHT, CI 42090 (Blue 1), Tocopherol"
+  },
+  {
+    "brand": "Dior",
+    "name": "One Essential Skin Boosting Super Serum",
+    "type": "serum",
+    "price": 115,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Water), Butylene Glycol, Glycerin, Caprylic/Capric/Succinic Triglyceride, Alcohol, Polymethylsilsesquioxane, Maltitol, PEG-60 Hydrogenated Castor Oil, Phenoxyethanol, PEG-32, PEG-8, Decyloxazolidinone, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, PEG-7 Glyceryl Cocoate, Tetrasodium EDTA, Parfum (Fragrance), Malva Sylvestris (Mallow) Extract, Hibiscus Sabdariffa Flower Extract, Faex (Yeast Extract), Sodium Hydroxide, Lecithin, Squalane, Pyrus Cydonia Seed Extract, Alcaligenes Polysaccharides, Dimethylmethoxy Chromanol, Adenosine, Xanthan Gum, Sorbitol, Biosaccharide Gum-1, Sodium Metabisulfite, Sodium Tocopheryl Phosphate, Algin, Aframomum Angustifolium Seed Extract, Butylphenyl Methylpropional, Polyvinyl Alcohol, Limonene, Haberlea Rhodopensis Leaf Extract, Benzyl Alcohol, Citric Acid, Cellulose Gum, Ethylhexylglycerin, Alpha-Isomethyl Ionone, Geraniol, Lilium Candidum Bulb Extract, Phaeodactylum Tricornutum Extract, Dehydroacetic Acid, BHT, Tocopherol"
+  },
+  {
+    "brand": "Guerlain",
+    "name": "Abeille Royale Advanced Youth Watery Oil",
+    "type": "serum",
+    "price": 100,
+    "size": "30ml",
+    "country": "FR",
+    "inci": "Aqua (Water), Glycerin, Polyglycerin-3, 1,2-Hexanediol, Alcohol, Polysorbate 20, Pentylene Glycol, Mel (Honey), Royal Jelly, Mannitol, Cellulose, Chlorphenesin, Parfum (Fragrance), Polyacrylate Crosspolymer-6, Propanediol, Trisodium Ethylenediamine Disuccinate, Sodium Citrate, Citric Acid, Biosaccharide Gum-2, Tocopheryl Acetate, Maltodextrin, Adenosine, Caprylic/Capric Triglyceride, Acrylates/Ammonium Methacrylate Copolymer, Synthetic Fluorphlogopite, Commiphora Mukul Resin Extract, Triethyl Citrate, CI 77891 (Titanium Dioxide), Sodium Benzoate, Biosaccharide Gum-1, Sodium Metabisulfite, CI 77492 (Iron Oxides), Potassium Sorbate, CI 77491 (Iron Oxides), Hydroxypropyl Methylcellulose, Tin Oxide"
+  },
+  {
+    "brand": "Guerlain",
+    "name": "Orchidee Imperiale The Cream",
+    "type": "moisturizer",
+    "price": 470,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Water), Triethylhexanoin, Isotridecyl Isononanoate, Caprylic/Capric Triglyceride, Glycerin, Cetearyl Alcohol, Pentylene Glycol, Hydrogenated Coco-Glycerides, Jojoba Esters, Glyceryl Stearate, Butylene Glycol, Decyloxazolidinone, Polyglycerin-3, Polymethyl Methacrylate, Steareth-21, Orchid Extract, Diglycerin, Phenoxyethanol, Cetearyl Glucoside, Dimethicone, Polymethylsilsesquioxane, Glyceryl Polymethacrylate, Cetyl Palmitate, Avena Sativa (Oat) Kernel Extract, Parfum (Fragrance), Cocoglycerides, Carbomer, Cera Alba (Beeswax), Tetrasodium EDTA, Tocopheryl Acetate, PEG-8, Sodium Hyaluronate, Xanthan Gum, Xylose, Tromethamine, Dipalmitoyl Hydroxyproline, Sorbitol, Ammonium Acryloyldimethyltaurate/Beheneth-25 Methacrylate Crosspolymer, Hydrolyzed Soy Flour, Adenosine, Algin, Synthetic Fluorphlogopite, Palmitic Acid, Polyvinyl Alcohol, CI 77891 (Titanium Dioxide), Linalool, BHT, Centella Asiatica Leaf Extract, Magnesium Aspartate, Sanguisorba Officinalis Root Extract, Sodium Lactate, Tropaeolum Majus Extract, Cellulose Gum, Citronellol, Geraniol, T-Butyl Alcohol, Alpha-Isomethyl Ionone, Limonene, Diamond Powder, CI 77491 (Iron Oxides), Potentilla Erecta Root Extract, Tocopherol, Ethylhexylglycerin, Palmitoyl Hexapeptide-12"
+  },
+  {
+    "brand": "Guerlain",
+    "name": "Super Aqua-Creme Day Cream",
+    "type": "moisturizer",
+    "price": 120,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua (Water), Caprylic/Capric Triglyceride, Glycerin, Hydrogenated Polyisobutene, Isostearyl Hydroxystearate, Pentylene Glycol, Steareth-2, Steareth-21, Polyglycerin-3, Ammonium Acryloyldimethyltaurate/VP Copolymer, Cetyl Alcohol, Cetyl Palmitate, Stearyl Alcohol, Phenoxyethanol, Dimethicone, Butyrospermum Parkii (Shea Butter) Extract, Tocopheryl Acetate, Parfum (Fragrance), Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Sodium Hyaluronate, Tetrasodium EDTA, Butylene Glycol, Hydrolyzed Millet, Phospholipids, Xylose, Tromethamine, Malva Sylvestris (Mallow) Extract, Centella Asiatica Leaf Extract, Adenosine, Viola Tricolor Extract, Citronellol, Geraniol, BHT, Butylphenyl Methylpropional, Hexyl Cinnamal, Butyrospermum Parkii (Shea) Seedcake Extract, Benzyl Salicylate, Linalool, Ethylhexylglycerin, Tocopherol"
+  },
+  {
+    "brand": "Sisley",
+    "name": "Black Rose Cream Mask",
+    "type": "mask",
+    "price": 166,
+    "size": "60ml",
+    "country": "FR",
+    "inci": "Water/Eau (Aqua), Butyrospermum Parkii (Shea) Butter, Glycerin, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Squalane, Butylene Glycol, Tocopheryl Acetate, Panthenol, Physalis Alkekengi Calyx Extract, Verbascum Thapsus Extract, Algae Extract, Rose Extract, Vitis Vinifera (Grape) Leaf Extract, Padina Pavonica Thallus Extract, Michelia Alba Leaf Oil, Pelargonium Graveolens Oil, Rosa Damascena Flower Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Glyceryl Stearate, PEG-100 Stearate, Ethylhexylglycerin, Pentylene Glycol, Polysorbate 60, Sorbitan Isostearate, Disodium EDTA, Citric Acid, Sodium Hydroxide, PEG-12 Dimethicone, Phenoxyethanol, Sodium Benzoate, Potassium Sorbate, BHT, Iron Oxides (CI 77491), Linalool, Citronellol, Limonene"
+  },
+  {
+    "brand": "Sisley",
+    "name": "Ecological Compound",
+    "type": "moisturizer",
+    "price": 230,
+    "size": "125ml",
+    "country": "FR",
+    "inci": "Water, Mineral Oil (Paraffinum Liquidum), Centella Asiatica Extract, Stearic Acid, Triethanolamine, Propylene Glycol, Glyceryl Stearate, Fragrance (Parfum), Stearyl Alcohol, Benzoic Acid, Phenoxyethanol, Carbomer, Methylparaben, Butylparaben, Ethylparaben, Equisetum Arvense Extract, Humulus Lupulus (Hops) Extract, Rosmarinus Officinalis (Rosemary) Extract, Panax Ginseng Root Extract, Propylparaben, Linalool, Coumarin, Limonene, Benzyl Benzoate"
+  },
+  {
+    "brand": "Sisley",
+    "name": "All Day All Year SPF",
+    "type": "moisturizer",
+    "price": 360,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Water/Eau (Aqua), Ethylhexyl Methoxycinnamate, Squalane, Cetearyl Alcohol, Corylus Avellana (Hazel) Seed Oil, Isopropyl Palmitate, Butyrospermum Parkii (Shea) Butter, Butyl Methoxydibenzoylmethane, Butylene Glycol, Potassium Cetyl Phosphate, Pyrus Malus (Apple) Fruit Extract, Tocopherol, Hydrolyzed Sesame Extract, Oryza Sativa (Rice) Bran Extract, Adenosine, Salix Alba (Willow) Leaf Extract, Juniperus Communis Fruit Oil, Salvia Officinalis (Sage) Oil, Thymus Mastichina Flower Oil, Polysilicone-14, Cetearyl Glucoside, Dimethicone, Hydrogenated Soybean Oil, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Ceteareth-33, Disodium EDTA, Xanthan Gum, Sodium Hydroxide, Pentylene Glycol, Citric Acid, Polysorbate 60, Sorbitan Isostearate, Ethylhexylglycerin, Phenoxyethanol, Sorbic Acid"
+  },
+  {
+    "brand": "SK-II",
+    "name": "Facial Treatment Essence",
+    "type": "essence",
+    "price": 185,
+    "size": "230ml",
+    "country": "JP",
+    "inci": "Galactomyces Ferment Filtrate, Butylene Glycol, Pentylene Glycol, Water, Sodium Benzoate, Methylparaben, Sorbic Acid"
+  },
+  {
+    "brand": "SK-II",
+    "name": "GenOptics Aura Essence",
+    "type": "serum",
+    "price": 240,
+    "size": "50ml",
+    "country": "JP",
+    "inci": "Galactomyces Ferment Filtrate (Pitera), Niacinamide, Butylene Glycol, Triethylhexanoin, Glycerin, Pentylene Glycol, Nylon-12, Phytosteryl/Octyldodecyl Lauroyl Glutamate, Polymethylsilsesquioxane, Boron Nitride, Caprylic/Capric Triglyceride, Inositol, Panthenol, PEG-20 Sorbitan Cocoate, Mica, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Phenoxyethanol, PEG-11 Methyl Ether Dimethicone, Polyacrylamide, Aminomethyl Propanol, Benzyl Alcohol, Undecylenoyl Phenylalanine, C13-14 Isoparaffin, Disodium EDTA, Hydrolyzed Prunus Domestica, Hexyldecanol, Sodium Benzoate, Xanthan Gum, Fragrance, Laureth-7, Citrus Reticulata (Tangerine) Peel Extract, Ascorbyl Glucoside, Methylparaben, Prunus Mume Fruit Extract, Titanium Dioxide, Water"
+  },
+  {
+    "brand": "SK-II",
+    "name": "Skinpower Cream",
+    "type": "moisturizer",
+    "price": 235,
+    "size": "80ml",
+    "country": "JP",
+    "inci": "Water, Glycerin, Galactomyces Ferment Filtrate, Isohexadecane, Niacinamide, Isopropyl Isostearate, Butylene Glycol, Butyrospermum Parkii (Shea) Butter, Caprylic/Capric Triglyceride, Pentylene Glycol, Dimethicone, Phytosteryl/Behenyl/Octyldodecyl Lauroyl Glutamate, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, Stearyl Alcohol, Cetyl Alcohol, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Behenyl Alcohol, Panthenol, Tocopheryl Acetate, Benzyl Alcohol, Dimethiconol, PEG-100 Stearate, Cetearyl Alcohol, Cetearyl Glucoside, Polysorbate 80, Polymethylsilsesquioxane, Methylparaben, Disodium EDTA, Fragrance, Paeonia Albiflora Root Extract, Palmitic Acid, Stearic Acid, Propylparaben, Ethylparaben, Sorbitan Oleate, PEG-7 Glyceryl Cocoate, Sodium Hydroxide, Houttuynia Cordata Extract, Palmitoyl Pentapeptide-4, Methylsilanol Tri-PEG-8 Glyceryl Cocoate, Zantedeschia Aethiopica Flower/Stem Extract, Polyquaternium-7, Methicone, CI 77891, CI 77492"
+  },
+  {
+    "brand": "La Prairie",
+    "name": "Skin Caviar Luxe Cream",
+    "type": "moisturizer",
+    "price": 560,
+    "size": "50ml",
+    "country": "CH",
+    "inci": "Water, Glycerin, Ethyl Oleate, Cetearyl Alcohol, Caprylic/Capric Triglyceride, Butyrospermum Parkii (Shea) Butter, Glyceryl Stearate Citrate, Propanediol, Myristyl Myristate, Coco-Caprylate/Caprate, 1,2-Hexanediol, Mangifera Indica (Mango) Seed Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Lauroyl Lysine, Glycoproteins, Panax Ginseng Root Extract, Equisetum Arvense Extract, Saccharomyces Cerevisiae Extract, Lactobacillus Ferment, Caviar Extract, Sodium Hyaluronate, Ganoderma Lucidum (Mushroom) Stem Extract, Hydrolyzed Opuntia Ficus-Indica Flower Extract, Laminaria Japonica Extract, Lithospermum Officinale Extract, Tetrapeptide-3, Sodium DNA, RNA, Tocopherol, Tocopheryl Acetate, Ascorbyl Palmitate, Ceramide NP, Mannose, Sodium Mannose Phosphate, Squalane, Helianthus Annuus (Sunflower) Seed Wax, Helianthus Annuus (Sunflower) Seed Oil, Hydrogenated Rapeseed Oil, Hydrogenated Phosphatidylcholine, C9-12 Alkane, Sodium Oleate, Ethylhexyl Salicylate, Propylene Glycol, Triheptanoin, Hydrogenated Lecithin, Polyglyceryl-10 Stearate, Sucrose Stearate, Alcaligenes Polysaccharides, Hydrolyzed Sclerotium Gum, Xanthan Gum, Dilinoleic Acid/Butanediol Copolymer, Castor Oil/IPDI Copolymer, Mica, Sodium Citrate, Dimethicone, Caprylyl Glycol, Raspberry Ketone, Ethylhexylglycerin, Sodium Hydroxide, Citric Acid, Fragrance (Parfum), Alpha-Isomethyl Ionone, Limonene, Geraniol, Linalool, Benzyl Salicylate, Citronellol, Potassium Sorbate, Sodium Dehydroacetate, Phenoxyethanol, Iron Oxides (CI 77491), Ext. Violet 2 (CI 60730), Yellow 6 (CI 15985), Yellow 5 (CI 19140)"
+  },
+  {
+    "brand": "La Prairie",
+    "name": "Platinum Rare Haute-Rejuvenation Cream",
+    "type": "moisturizer",
+    "price": 1075,
+    "size": "50ml",
+    "country": "CH",
+    "inci": "Water (Aqua), Butylene Glycol, C12-20 Acid PEG-8 Ester, Squalane, Glycerin, Coco-Caprylate/Caprate, Isononyl Isononanoate, Myristyl Myristate, Caprylic/Capric Triglyceride, Hydrolyzed Yeast Extract, C12-15 Alkyl Benzoate, Glycoproteins, Panax Ginseng Root Extract, Equisetum Arvense Extract, Colloidal Platinum, Sodium Hyaluronate, Lactobacillus Ferment, Lens Esculenta (Lentil) Seed Extract, Paeonia Albiflora Root Extract, Rosa Damascena Flower Extract, Paeonia Lactiflora Root Extract, Coffea Arabica (Coffee) Seed Extract, Saccharomyces Cerevisiae Extract, Rubus Idaeus (Raspberry) Leaf Extract, Palmitoyl Hexapeptide-12, Decapeptide-4, Oligopeptide-6, Palmitoyl Pentapeptide-4, Ceramide NG, Tocopherol, Biosaccharide Gum-1, Soluble Collagen, Lecithin, Sodium Chondroitin Sulfate, Glucose, Lysine HCl, Threonine, Arginine, Glycine, Serine, Histidine, Tryptophan, Folic Acid, Calcium Pantothenate, Pentylene Glycol, 1,2-Hexanediol, Caprylyl Glycol, Dimethicone Crosspolymer, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Potassium Cetyl Phosphate, Tribehenin, Carbomer, Ethylhexylglycerin, Carrageenan, Polysorbate 60, Tetrasodium Glutamate Diacetate, Cetyl Hydroxyethylcellulose, Hydrogen Dimethicone, Polyhydroxystearic Acid, Polyglucuronic Acid, Trehalose, Chitosan, Xanthan Gum, Mica, Alumina, Sodium Hydroxide, Lactic Acid, Sodium Chloride, Magnesium Sulfate, Calcium Chloride, Potassium Chloride, Sodium Phosphate, Fragrance (Parfum), Benzyl Alcohol, Linalool, Potassium Sorbate, Phenoxyethanol, Sodium Benzoate, Sodium Dehydroacetate, Titanium Dioxide (Nano), Titanium Dioxide (CI 77891), Iron Oxides (CI 77499)"
+  },
+  {
+    "brand": "Tom Ford",
+    "name": "Soleil Blanc Shimmering Body Oil",
+    "type": "body oil",
+    "price": 120,
+    "size": "100ml",
+    "country": "US",
+    "inci": "Ethylhexyl Palmitate, Caprylic/Capric Triglyceride, Isohexadecane, Simmondsia Chinensis (Jojoba) Seed Oil, Fragrance (Parfum), Silica, Olea Europaea (Olive) Fruit Oil, Calcium Sodium Borosilicate, Carthamus Tinctorius (Safflower) Seed Oil, Tin Oxide, Tocopherol, Tocopheryl Acetate, BHT, Phenoxyethanol, Butylphenyl Methylpropional, Limonene, Benzyl Alcohol, Linalool, Benzyl Salicylate, Benzyl Benzoate, Coumarin, Alpha-Isomethyl Ionone, Isoeugenol, Citral, Geraniol, Anise Alcohol, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491)"
+  },
+  {
+    "brand": "Tom Ford",
+    "name": "Research Serum Concentrate",
+    "type": "serum",
+    "price": 350,
+    "size": "20ml",
+    "country": "US",
+    "inci": "Water/Aqua/Eau, Dimethicone, Butylene Glycol, Trisiloxane, Glycerin, Ammonium Acryloyldimethyltaurate/VP Copolymer, Polysilicone-11, Tromethamine, Caffeine, Acetyl Glucosamine, Theobroma Cacao (Cocoa) Seed Extract, Coffea Arabica (Coffee) Seed Oil, Triticum Vulgare (Wheat) Germ Extract, Molasses Extract/Saccharum Officinarum/Extrait De Melasse, Glycolic Acid, Lactic Acid, Hypnea Musciformis (Algae) Extract, Whey Protein/Lactis Protein/Proteine Du Petit-Lait, Centaurium Erythraea (Centaury) Extract, Palmitoyl Hexapeptide-12, Sigesbeckia Orientalis (St. Paul's Wort) Extract, Hordeum Vulgare (Barley) Extract/Extrait D'Orge, Camellia Sinensis Leaf Extract, Acetyl Hexapeptide-8, Lactobacillus Ferment, Algae Extract, Squalane, Gelidiella Acerosa Extract, Phytosphingosine, Glucose, Sodium Hyaluronate, Dimethoxytolyl Propylresorcinol, Glycyrrhetinic Acid, Tocopheryl Acetate, Sorbitol, Laminaria Digitata Extract, Caprylyl Glycol, Artemia Extract, Oleth-10, Sucrose, Trehalose, Pentylene Glycol, Glyceryl Polymethacrylate, Lauryl PEG/PPG-18/18 Methicone, Polysorbate 40, PEG-8, Tetrahexyldecyl Ascorbate, Potassium Sorbate, Disodium EDTA, Phenoxyethanol, Red 4 (CI 14700), Titanium Dioxide (CI 77891)"
+  },
+  {
+    "brand": "Augustinus Bader",
+    "name": "The Rich Cream",
+    "type": "moisturizer",
+    "price": 280,
+    "size": "50ml",
+    "country": "DE",
+    "inci": "Aqua (Water), Coco-Caprylate/Caprate, Helianthus Annuus (Sunflower) Seed Oil, Squalane, Glycerin, Argania Spinosa Kernel Oil, Ethyl Oleate, Persea Gratissima (Avocado) Oil, Polyglyceryl-4 Oleate, Magnesium Sulfate, Oenothera Biennis (Evening Primrose) Oil, Panthenol, Polyglyceryl-6 Oleate, Zinc PCA, Polyhydroxystearic Acid, Butylene Glycol, Butyrospermum Parkii (Shea) Butter, Potassium Sorbate, Sodium Benzoate, Tocopherol, Sodium Hyaluronate, Hydrolyzed Rice Protein, Maltodextrin, Citric Acid, Camellia Sinensis Leaf Extract, Hydrogenated Lecithin, Tocopheryl Acetate, Xanthan Gum, Alanyl Glutamine, Arginine, Oligopeptide-177, Phenylalanine, Sisymbrium Irio Seed Oil, Sodium Chloride, Dextran, Palmitoyl Tripeptide-8"
+  },
+  {
+    "brand": "Augustinus Bader",
+    "name": "The Cream",
+    "type": "moisturizer",
+    "price": 265,
+    "size": "50ml",
+    "country": "DE",
+    "inci": "Aqua (Water), Caprylic/Capric Triglyceride, Pentylene Glycol, Propylene Glycol, Glycerin, Hydrogenated Phosphatidylcholine, Sorbitol, Tocopheryl Acetate, Butylene Glycol, Butyrospermum Parkii (Shea) Butter, Xanthan Gum, Panthenol, Sodium Carbomer, Alcohol, Aloe Barbadensis Leaf Juice, Hydrolyzed Rice Protein, Retinyl Palmitate, Helianthus Annuus (Sunflower) Seed Oil, Squalane, Phenoxyethanol, Cholesterol, Hydrogenated Lecithin, Ascorbyl Palmitate, Carbomer, Ceramide NP, Lecithin, Glycine Soja (Soybean) Protein, Superoxide Dismutase, Sodium Hydroxide, Alanyl Glutamine, Arginine, Ceramide NG, Citric Acid, Dextran, Glycine, Lysine, Oleic Acid, Palmitic Acid, Palmitoyl Tripeptide-8, Phenylalanine, Proline, Scenedesmus Rubescens Extract, Ascorbic Acid, Ethylhexylglycerin, Sodium Benzoate, Tocopherol, Brassica Alba Seed Extract, Disodium EDTA, Oligopeptide-177, Sodium Ascorbate, Sodium Dextran Sulfate, Potassium Sorbate"
+  },
+  {
+    "brand": "Helena Rubinstein",
+    "name": "Prodigy Cellglow The Deep Renewing Concentrate",
+    "type": "serum",
+    "price": 310,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Aqua/Water, Glycerin, Helianthus Annuus Seed Oil/Sunflower Seed Oil, Alcohol Denat, Dicaprylyl Carbonate, Cetyl Alcohol, Butyrospermum Parkii Butter/Shea Butter, PEG/PPG/Polybutylene Glycol-8/5/3 Glycerin, Stearyl Alcohol, Leontopodium Alpinum Callus Culture Extract, Carbomer, Dimethicone, Methylsilanol/Silicate Crosspolymer, Sodium Hydroxide, Sodium Methyl Stearoyl Taurate, Haematococcus Pluvialis Extract, Leontopodium Alpinum Flower/Leaf Extract, Disodium EDTA, Caprylic/Capric Triglyceride, Citric Acid, Xanthan Gum, Tocopherol, Potassium Sorbate, Sodium Benzoate, Phenoxyethanol, Chlorphenesin, CI 77163/Bismuth Oxychloride, CI 77491/Iron Oxides, CI 77891/Titanium Dioxide, Mica, Geraniol, Parfum/Fragrance"
+  },
+  {
+    "brand": "Sulwhasoo",
+    "name": "First Care Activating Serum",
+    "type": "serum",
+    "price": 92,
+    "size": "90ml",
+    "country": "KR",
+    "inci": "Water/Aqua/Eau, Alcohol Denat, Butylene Glycol, Betaine, 1,2-Hexanediol, Bis-PEG-18 Methyl Ether Dimethyl Silane, Glyceryl Polymethacrylate, Carbomer, PEG-60 Hydrogenated Castor Oil, Tromethamine, Propanediol, Glyceryl Caprylate, Juglans Regia (Walnut) Seed Extract, Dextrin, Theobroma Cacao (Cocoa) Extract, Scutellaria Baicalensis Root Extract, Fragrance/Parfum, Ethylhexylglycerin, Adenosine, Limonene, Methyl Trimethicone, Disodium EDTA, Xanthan Gum, Cellulose Gum, Carrageenan, Honey/Mel/Miel, Madecassoside, Rehmannia Glutinosa Root Extract, Pentylene Glycol, Ophiopogon Japonicus Root Extract, Paeonia Lactiflora Root Extract, Lilium Candidum Bulb Extract, Linalool, Lycium Chinense Fruit Extract, Polygonatum Odoratum Rhizome Extract, Biosaccharide Gum-1, Propylene Glycol, Ziziphus Jujuba Fruit Extract, Nelumbo Nucifera Flower Extract, Pueraria Lobata Root Extract, Natto Gum, Glycyrrhiza Uralensis (Licorice) Root Extract, Prunus Mume Fruit Extract, Citronellol, Citral, Geraniol, Hydrogenated Lecithin, BHT, Citric Acid, Lentinus Edodes Extract, Tocopherol, Hydrolyzed Soybean Extract, Paeonia Albiflora Root Extract, Zingiber Officinale (Ginger) Root Extract"
+  },
+  {
+    "brand": "Sulwhasoo",
+    "name": "Concentrated Ginseng Renewing Cream EX",
+    "type": "moisturizer",
+    "price": 300,
+    "size": "60ml",
+    "country": "KR",
+    "inci": "Panax Ginseng Root Extract, Water, Glycerin, Squalane, Butylene Glycol, Cyclopentasiloxane, Limnanthes Alba (Meadowfoam) Seed Oil, Trehalose, Glyceryl Stearate, Octyldodecyl Myristate, Phytosteryl Isostearyl Dimer Dilinoleate, Cyclohexasiloxane, PEG-40 Stearate, Phytosteryl/Behenyl/Octyldodecyl Lauroyl Glutamate, Glycyrrhiza Uralensis (Licorice) Root Extract, Paeonia Albiflora Root Extract, Nelumbo Nucifera Flower Extract, Polygonatum Officinale Rhizome/Root Extract, Lilium Candidum Bulb Extract, Rehmannia Glutinosa Root Extract, Honey, Hydrolyzed Ginseng Saponins, Panax Ginseng Flower Extract, Perilla Ocymoides Seed Extract, Retinol, Beta-Glucan, Caffeic Acid, Vitis Vinifera (Grape) Leaf Extract, Polyquaternium-51, 1,2-Hexanediol, Glyceryl Linolenate, Glyceryl Linoleate, Glyceryl Arachidonate, Dextrin, Dimethicone, Dimethiconol, Lauryl PEG/PPG-18/18 Methicone, Mangifera Indica (Mango) Seed Butter, Methoxy PEG-114/Polyepsilon Caprolactone, Cyclodextrin, Salicylic Acid, Cetearyl Alcohol, Cetyl PEG/PPG-10/1 Dimethicone, Sodium Methyl Stearoyl Taurate, Sodium Polyaspartate, Sodium Hyaluronate, Stearic Acid, Persea Gratissima (Avocado) Oil, Acetyl Glucosamine, Ethylhexylglycerin, Alcohol, Gardenia Florida Fruit Extract, Copernicia Cerifera (Carnauba) Wax, Glycine Soja (Soybean) Sterols, Glycine Soja (Soybean) Oil, Tocopherol, Tocopheryl Linoleate, Pantethine, Palmitic Acid, Polysorbate 20, Polyacrylate-13, Polyisobutene, Propanediol, Propylene Glycol, PEG-100 Stearate, PEG-30 Dipolyhydroxystearate, Phytosphingosine, Hydrogenated Lecithin, Hydrogenated Vegetable Oil, Hydrogenated Palm Glycerides Citrate, Helianthus Annuus (Sunflower) Seed Oil, Hexyl Laurate, Jojoba Esters, Disodium EDTA, Phenoxyethanol, Fragrance"
+  },
+  {
+    "brand": "Valmont",
+    "name": "Prime Renewing Pack",
+    "type": "mask",
+    "price": 275,
+    "size": "50ml",
+    "country": "CH",
+    "inci": "Water (Aqua), Mineral Oil (Paraffinum Liquidum), Propylene Glycol, Calcium DNA, Gynostemma Pentaphyllum Extract, Lecithin, Magnesium DNA, Palmitoyl Tetrapeptide-7, Palmitoyl Tripeptide-1, Panax Ginseng Root Extract, RNA, Sodium DNA, Urea, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Butylene Glycol, C12-20 Acid PEG-8 Ester, C13-14 Isoparaffin, Caprylyl Glycol, Carbomer, Coco-Glucoside, Disodium EDTA, Glycerin, Hexylene Glycol, Laureth-7, Menthyl Lactate, Polyacrylamide, Potassium Cetyl Phosphate, Sodium Carboxymethyl Beta-Glucan, Sodium Hydroxide, Sodium Lactate, Titanium Dioxide (CI 77891), Ethylhexylglycerin, Phenoxyethanol, Fragrance (Parfum), Benzyl Benzoate, Cinnamyl Alcohol, Citronellol, Eugenol, Geraniol, Hexyl Cinnamal, Hydroxycitronellal, Limonene, Linalool"
+  },
+  {
+    "brand": "Nivea",
+    "name": "Nivea Creme",
+    "type": "moisturizer",
+    "price": 5,
+    "size": "150ml",
+    "country": "DE",
+    "inci": "Water, Mineral Oil, Petrolatum, Glycerin, Microcrystalline Wax, Lanolin Alcohol, Paraffin, Panthenol, Magnesium Sulfate, Decyl Oleate, Octyldodecanol, Aluminum Stearates, Fragrance, Citric Acid, Magnesium Stearate, Methylchloroisothiazolinone, Methylisothiazolinone"
+  }
+]

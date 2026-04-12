@@ -871,5 +871,257 @@
     "size": "50ml",
     "country": "US",
     "inci": "Water\\Aqua\\Eau, Dimethicone, Glycerin, Isohexadecane, Butylene Glycol, Bis-PEG-18 Methyl Ether Dimethyl Silane, PEG-10 Dimethicone, Disteardimonium Hectorite, Moringa Oleifera Seed Extract, Hibiscus Flower Extract, Sodium Hyaluronate, Acetyl Hexapeptide-8, Laminaria Digitata Extract, Whey Protein\\Lactis Protein\\Proteine Du Petit-Lait, Opuntia Tuna Extract, Acetyl Glucosamine, Tocopheryl Acetate, Narcissus Tazetta Bulb Extract, Squalane, Algae Extract, Hypnea Musciformis (Algae) Extract, Pyrus Malus (Apple) Fruit Extract, Cucumis Sativus (Cucumber) Fruit Extract, Lens Esculenta (Lentil) Fruit Extract, Citrullus Lanatus (Watermelon) Fruit Extract, Silybum Marianum (Lady'S Thistle) Extract, Gelidiella Acerosa Extract, Helianthus Annuus (Sunflower) Seed Extract, Sigesbeckia Orientalis (St. Paul'S Wort) Extract, Caffeine, Hordeum Vulgare (Barley) Extract\\Extrait D'Orge, Sodium Lactate, Triticum Vulgare (Wheat) Germ Extract, Sorbitol, Propylene Glycol Dicaprate, Sucrose, Sodium PCA, Aminopropyl Ascorbyl Phosphate, Pentylene Glycol, Caprylyl Glycol, Propylene Carbonate, Polyethylene, Polysilicone-11, PEG-32, PEG-6, Disodium EDTA, Isoceteth-20, Isododecane, Citric Acid, Fragrance (Parfum), BHT, Sodium Citrate, Potassium Sorbate, Sodium Dehydroacetate, Sodium Benzoate, Phenoxyethanol, Iron Oxides"
+  },
+  {
+    "brand": "L'Oreal Paris",
+    "name": "Revitalift Derm Intensives Hyaluronic Acid Serum",
+    "type": "serum",
+    "price": 24,
+    "size": "30ml",
+    "country": "US",
+    "inci": "Water, Dimethicone, Glycerin, Alcohol Denat., Sodium Hyaluronate, Hydroxyethylpiperazine Ethane Sulfonic Acid, Ammonium Polyacryloyldimethyl Taurate, Caprylyl Glycol, Citric Acid, Dimethicone/Vinyl Dimethicone Crosspolymer, Disodium EDTA, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Isohexadecane, Polysorbate 60, Sodium Citrate, Phenoxyethanol"
+  },
+  {
+    "brand": "L'Oreal Paris",
+    "name": "Revitalift Laser X3 Day Cream",
+    "type": "moisturizer",
+    "price": 30,
+    "size": "50ml",
+    "country": "FR",
+    "inci": "Water, Glycerin, Dimethicone, Isopropyl Isostearate, Aluminum Starch Octenylsuccinate, Alcohol Denat., Synthetic Wax, PEG-100 Stearate, Glyceryl Stearate, Stearic Acid, Nylon-12, Batyl Alcohol, Palmitic Acid, Triethanolamine, Sodium Hyaluronate, Adenosine, Hydroxypropyl Tetrahydropyrantriol, Caffeine, Capryloyl Salicylic Acid, Ammonium Polyacryloyldimethyl Taurate, Caprylyl Glycol, Carbomer, Citric Acid, Disodium EDTA, Isohexadecane, Polysorbate 60, Sodium Citrate, Tocopherol, Fragrance (Parfum), Phenoxyethanol, CI 15985, CI 19140"
+  },
+  {
+    "brand": "L'Oreal Paris",
+    "name": "Revitalift 1.5% Pure Hyaluronic Acid Serum",
+    "type": "serum",
+    "price": 24,
+    "size": "30ml",
+    "country": "US",
+    "inci": "Water, Dimethicone, Glycerin, Alcohol Denat., Hydroxyethylpiperazine Ethane Sulfonic Acid, Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Sodium Acetylated Hyaluronate, Ammonium Polyacryloyldimethyl Taurate, Caprylyl Glycol, Citric Acid, Dimethicone/Vinyl Dimethicone Crosspolymer, Disodium EDTA, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Isohexadecane, Polysorbate 60, Sodium Citrate, Phenoxyethanol"
+  },
+  {
+    "brand": "L'Oreal Paris",
+    "name": "Age Perfect Cell Renewal Golden Serum",
+    "type": "serum",
+    "price": 25,
+    "size": "30ml",
+    "country": "US",
+    "inci": "Water, Bifida Ferment Lysate, Dimethicone, Glycerin, Alcohol Denat., Hydroxyethylpiperazine Ethane Sulfonic Acid, Ascorbyl Glucoside, Linalool, Limonene, Niacinamide, Tocopherol, Ammonium Polyacryloyldimethyl Taurate, Caprylyl Glycol, Citric Acid, Dimethicone/Vinyl Dimethicone Crosspolymer, Disodium EDTA, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Isohexadecane, Polysorbate 60, Sodium Citrate, Fragrance (Parfum), Phenoxyethanol, CI 15985, CI 19140, CI 17200"
+  },
+  {
+    "brand": "RoC",
+    "name": "Retinol Correxion Deep Wrinkle Night Cream",
+    "type": "moisturizer",
+    "price": 25,
+    "size": "33ml",
+    "country": "US",
+    "inci": "Water, Dimethicone, Glycerin, Ethylhexyl Hydroxystearate, Isodecyl Neopentanoate, Tetrahydroxypropyl Ethylenediamine, Stearyl Alcohol, Cetearyl Alcohol, Glyceryl Stearate, PEG-100 Stearate, Ceteareth-20, Steareth-10, Phenoxyethanol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Methyl Methacrylate Crosspolymer, Caprylyl Glycol, Aluminum Starch Octenylsuccinate, Squalane, Glycolic Acid, Fragrance, Butyrospermum Parkii (Shea) Butter, Methylparaben, Citric Acid, Xanthan Gum, Propylparaben, Retinol, Polysorbate 20, BHT, Disodium EDTA, Polysorbate 60, Ascorbic Acid, Magnesium Aspartate, Zinc Gluconate, Copper Gluconate"
+  },
+  {
+    "brand": "RoC",
+    "name": "Retinol Correxion Line Smoothing Eye Cream",
+    "type": "eye cream",
+    "price": 23,
+    "size": "15ml",
+    "country": "US",
+    "inci": "Water, Glycerin, Dimethicone, Isodecyl Neopentanoate, Butylene Glycol, Cetearyl Alcohol, PEG-100 Stearate, Glyceryl Stearate, Stearyl Alcohol, Steareth-10, Ceteareth-20, Aluminum Starch Octenylsuccinate, Phenoxyethanol, Squalane, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Methyl Methacrylate Crosspolymer, Caprylyl Glycol, Methylparaben, Propylparaben, Retinol, Sodium Hyaluronate, BHT, Disodium EDTA, Xanthan Gum, Polysorbate 60, Polysorbate 20, Ascorbic Acid, Magnesium Aspartate, Zinc Gluconate, Copper Gluconate"
+  },
+  {
+    "brand": "RoC",
+    "name": "Multi Correxion Revive + Glow Gel Cleanser",
+    "type": "cleanser",
+    "price": 14,
+    "size": "177ml",
+    "country": "US",
+    "inci": "Water, Glycerin, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Acrylates Copolymer, Sodium Chloride, PEG-120 Methyl Glucose Dioleate, Citric Acid, Sodium Hydroxide, Vitamin E Acetate, Glycolic Acid, Sodium Hyaluronate, Hexylene Glycol, Caprylyl Glycol, Disodium EDTA, Phenoxyethanol, Fragrance"
+  },
+  {
+    "brand": "Aveeno",
+    "name": "Calm + Restore Oat Gel Moisturizer",
+    "type": "moisturizer",
+    "price": 18,
+    "size": "48g",
+    "country": "US",
+    "inci": "Water, Glycerin, Dimethicone, Isononyl Isononanoate, Pentylene Glycol, Avena Sativa (Oat) Kernel Extract, Avena Sativa (Oat) Kernel Oil, Camellia Sinensis Leaf Extract, Feverfew (Tanacetum Parthenium) Extract, Sodium Hyaluronate, Turmeric (Curcuma Longa) Root Extract, Aloe Barbadensis Leaf Juice, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Carbomer, Cetearyl Alcohol, Cetearyl Glucoside, Dimethicone Crosspolymer, Dimethiconol, Disodium EDTA, Glyceryl Stearate, PEG-100 Stearate, Polyacrylamide, C13-14 Isoparaffin, Laureth-7, Sodium Hydroxide, Phenoxyethanol"
+  },
+  {
+    "brand": "Aveeno",
+    "name": "Daily Moisturizing Lotion",
+    "type": "body lotion",
+    "price": 12,
+    "size": "354ml",
+    "country": "US",
+    "inci": "Water, Glycerin, Distearyldimonium Chloride, Petrolatum, Isopropyl Palmitate, Cetyl Alcohol, Dimethicone, Avena Sativa (Oat) Kernel Flour, Benzyl Alcohol, Sodium Chloride"
+  },
+  {
+    "brand": "Aveeno",
+    "name": "Skin Relief Moisturizing Lotion",
+    "type": "body lotion",
+    "price": 13,
+    "size": "354ml",
+    "country": "US",
+    "inci": "Water, Glycerin, Distearyldimonium Chloride, Petrolatum, Isopropyl Palmitate, Cetyl Alcohol, Dimethicone, Avena Sativa (Oat) Kernel Flour, Steareth-2, Sodium Chloride, Benzyl Alcohol"
+  },
+  {
+    "brand": "Pixi",
+    "name": "Glow Tonic",
+    "type": "toner",
+    "price": 29,
+    "size": "250ml",
+    "country": "US",
+    "inci": "Water, Aloe Barbadensis Leaf Juice, Glycolic Acid, Butylene Glycol, Glycerin, Hamamelis Virginiana (Witch Hazel) Water, Aesculus Hippocastanum (Horse Chestnut) Seed Extract, Panax Ginseng Root Extract, Flos Lonicerae (Honeysuckle) Flower Extract, Biotin, Hexylene Glycol, Sodium Hydroxide, Phenoxyethanol, Potassium Sorbate, Sodium Benzoate, Parfum (Fragrance), Red 40 (CI 16035)"
+  },
+  {
+    "brand": "Pixi",
+    "name": "Retinol Tonic",
+    "type": "toner",
+    "price": 29,
+    "size": "250ml",
+    "country": "US",
+    "inci": "Water, Glycerin, Aloe Barbadensis Leaf Juice, Retinol, Sodium Hyaluronate, Jasmine Officinale (Jasmine) Flower Extract, Calendula Officinalis Flower Extract, Chamomilla Recutita (Matricaria) Flower Extract, Lavandula Angustifolia (Lavender) Flower Water, Panthenol, Allantoin, Glyceryl Polyacrylate, Propanediol, Polysorbate 20, Sodium Hydroxide, Hexylene Glycol, Caprylyl Glycol, Ethylhexylglycerin, Phenoxyethanol, Potassium Sorbate, Sodium Benzoate, Parfum (Fragrance)"
+  },
+  {
+    "brand": "Pixi",
+    "name": "Vitamin-C Tonic",
+    "type": "toner",
+    "price": 29,
+    "size": "250ml",
+    "country": "US",
+    "inci": "Water, Ascorbic Acid, Glycerin, Aloe Barbadensis Leaf Juice, Citrus Limon (Lemon) Fruit Extract, Citrus Aurantium Dulcis (Orange) Peel Extract, Ferulic Acid, Camellia Sinensis Leaf Extract, Probiotics Filtrate, Panthenol, Propanediol, Sodium Citrate, Polysorbate 20, Hexylene Glycol, Caprylyl Glycol, Ethylhexylglycerin, Phenoxyethanol, Potassium Sorbate, Sodium Benzoate, Parfum (Fragrance), Yellow 5 (CI 19140)"
+  },
+  {
+    "brand": "Mario Badescu",
+    "name": "Drying Lotion",
+    "type": "treatment",
+    "price": 17,
+    "size": "29ml",
+    "country": "US",
+    "inci": "Isopropyl Alcohol, Water, Calamine, Camphor, Sulfur, Zinc Oxide, Talc, Glycerin, Salicylic Acid, CI 77491 (Iron Oxides)"
+  },
+  {
+    "brand": "Mario Badescu",
+    "name": "Facial Spray with Aloe, Herbs and Rosewater",
+    "type": "mist",
+    "price": 12,
+    "size": "236ml",
+    "country": "US",
+    "inci": "Water (Aqua, Eau), Propylene Glycol, Aloe Barbadensis (Aloe Vera) Leaf Juice, Sodium PCA, Fragrance (Parfum), Allantoin, Rosa Canina Fruit Extract, Gardenia Tahitensis Flower Extract, Thyme (Thymus Vulgaris) Extract, Bladderwrack (Fucus Vesiculosus) Extract, DMDM Hydantoin, Iodopropynyl Butylcarbamate"
+  },
+  {
+    "brand": "Mario Badescu",
+    "name": "Glycolic Foaming Cleanser",
+    "type": "cleanser",
+    "price": 16,
+    "size": "177ml",
+    "country": "US",
+    "inci": "Water (Aqua, Eau), Sodium Laureth Sulfate, Cocamidopropyl Betaine, Acrylates Copolymer, Glycolic Acid, Chamomilla Recutita (Matricaria) Flower/Leaf Extract, Achillea Millefolium (Yarrow) Extract, Sambucus Nigra Fruit Extract, Sage (Salvia Officinalis) Leaf Extract, Grapefruit (Citrus Grandis) Peel Extract, Glycerin, DMDM Hydantoin, Sodium Hydroxide, Tetrasodium EDTA, Fragrance (Parfum)"
+  },
+  {
+    "brand": "Dr. Jart+",
+    "name": "Cicapair Tiger Grass Color Correcting Treatment",
+    "type": "treatment",
+    "price": 52,
+    "size": "50ml",
+    "country": "KR",
+    "inci": "Water, Cyclohexasiloxane, Glycerin, Butylene Glycol, Centella Asiatica Extract, Niacinamide, Titanium Dioxide (CI 77891), Cetyl PEG/PPG-10/1 Dimethicone, Disteardimonium Hectorite, Magnesium Sulfate, Iron Oxides (CI 77492), Iron Oxides (CI 77491), Dimethicone/Vinyl Dimethicone Crosspolymer, Dimethicone, Sodium Chloride, Asiaticoside, Asiatic Acid, Madecassic Acid, Madecassoside, Centella Asiatica Leaf Extract, Acetyl Glucosamine, Allantoin, Panthenol, Sodium Hyaluronate, Tocopheryl Acetate, Camellia Sinensis Leaf Extract, Chamomilla Recutita (Matricaria) Flower Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Artemisia Absinthium Extract, Achillea Millefolium Extract, Gentiana Lutea Root Extract, Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone, Vinyl Dimethicone/Methicone Silsesquioxane Crosspolymer, Methyl Methacrylate Crosspolymer, HDI/Trimethylol Hexyllactone Crosspolymer, Iron Oxides (CI 77499), Chromium Oxide Greens (CI 77288), Triethoxycaprylylsilane, Aluminum Hydroxide, Stearic Acid, Caprylyl Glycol, Ethylhexylglycerin, Fragrance, 1,2-Hexanediol, Phenoxyethanol"
+  },
+  {
+    "brand": "Dr. Jart+",
+    "name": "Ceramidin Cream",
+    "type": "moisturizer",
+    "price": 48,
+    "size": "50ml",
+    "country": "KR",
+    "inci": "Water, Glycerin, Butylene Glycol, Caprylic/Capric Triglyceride, Cetearyl Alcohol, Propanediol, Glyceryl Stearate, Stearic Acid, Ceramide NP, Ceramide AP, Ceramide EOP, Phytosphingosine, Cholesterol, Sodium Lauroyl Lactylate, Hydrogenated Lecithin, Cetearyl Olivate, Sorbitan Olivate, Sodium Hyaluronate, Panthenol, Allantoin, Squalane, Hydrogenated Poly(C6-14 Olefin), Hydrogenated Polyisobutene, Dimethicone, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Carbomer, Tromethamine, Xanthan Gum, Ethylhexylglycerin, Disodium EDTA, Phenoxyethanol"
+  },
+  {
+    "brand": "Dr. Jart+",
+    "name": "Vital Hydra Solution Biome Essence",
+    "type": "essence",
+    "price": 38,
+    "size": "150ml",
+    "country": "KR",
+    "inci": "Water, Methylpropanediol, Glycerin, Betaine, 1,2-Hexanediol, Bifida Ferment Lysate, Lactobacillus Ferment, Sodium Hyaluronate, Ceramide NP, Beta-Glucan, Panthenol, Allantoin, Madecassoside, Trehalose, Ethylhexylglycerin, Carbomer, Tromethamine, Butylene Glycol, Disodium EDTA, Pentylene Glycol, Phenoxyethanol"
+  },
+  {
+    "brand": "Peter Thomas Roth",
+    "name": "Water Drench Hyaluronic Cloud Cream",
+    "type": "moisturizer",
+    "price": 52,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water, Dimethicone, Cetearyl Alcohol, Glycerin, Cetyl Alcohol, Pentylene Glycol, Sodium Hyaluronate, Ceramide NP, Silk Amino Acids, Hydrolyzed Silk, Cetearyl Olivate, Sorbitan Olivate, Glyceryl Stearate, PEG-100 Stearate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Carbomer, Sodium Hydroxide, Dimethicone Crosspolymer, Dimethiconol, Polysorbate 20, Allantoin, Caprylyl Glycol, Ethylhexylglycerin, Hexylene Glycol, Disodium EDTA, Phenoxyethanol"
+  },
+  {
+    "brand": "Peter Thomas Roth",
+    "name": "Retinol Fusion PM",
+    "type": "treatment",
+    "price": 65,
+    "size": "30ml",
+    "country": "US",
+    "inci": "Water, C12-15 Alkyl Benzoate, Glycerin, Cetearyl Alcohol, Microcrystalline Cellulose, Retinol, Retinyl Palmitate, Squalane, Sodium Hyaluronate, Tocopheryl Acetate, Palmitoyl Tripeptide-5, Ceramide NP, Phospholipids, Ubiquinone, Ascorbyl Palmitate, Camellia Sinensis Leaf Extract, Aloe Barbadensis Leaf Juice, Allantoin, Bisabolol, Panthenol, Niacinamide, Glyceryl Stearate, PEG-100 Stearate, Cetearyl Olivate, Sorbitan Olivate, Dimethicone, Caprylic/Capric Triglyceride, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Carbomer, Aminomethyl Propanol, Xanthan Gum, Polysorbate 20, BHT, Caprylyl Glycol, Ethylhexylglycerin, Hexylene Glycol, Disodium EDTA, Phenoxyethanol"
+  },
+  {
+    "brand": "Ole Henriksen",
+    "name": "Banana Bright Eye Creme",
+    "type": "eye cream",
+    "price": 42,
+    "size": "15ml",
+    "country": "US",
+    "inci": "Water, Glycerin, C12-15 Alkyl Benzoate, Dimethicone, Squalane, Cetearyl Alcohol, Ascorbic Acid, Colloidal Gold, Sodium Hyaluronate, Mica, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491), Cetearyl Olivate, Sorbitan Olivate, Glyceryl Stearate, PEG-100 Stearate, Stearic Acid, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Carbomer, Aminomethyl Propanol, Dimethicone Crosspolymer, Caprylyl Glycol, Ethylhexylglycerin, Pentylene Glycol, Disodium EDTA, Phenoxyethanol, Fragrance"
+  },
+  {
+    "brand": "Ole Henriksen",
+    "name": "Truth Serum",
+    "type": "serum",
+    "price": 49,
+    "size": "30ml",
+    "country": "US",
+    "inci": "Water, Ascorbic Acid, Propanediol, Glycerin, Aloe Barbadensis Leaf Juice, Collagen, Sodium Hyaluronate, Rosa Canina Fruit Oil, Citrus Aurantium Dulcis (Orange) Peel Oil, Tocopheryl Acetate, Allantoin, Pentylene Glycol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polysorbate 60, Caprylyl Glycol, Ethylhexylglycerin, Disodium EDTA, Citric Acid, Phenoxyethanol, Fragrance"
+  },
+  {
+    "brand": "Kate Somerville",
+    "name": "ExfoliKate Intensive Exfoliating Treatment",
+    "type": "exfoliant",
+    "price": 85,
+    "size": "60ml",
+    "country": "US",
+    "inci": "Water, Glycolic Acid, Lactic Acid, Kaolin, Silica, Glycerin, Aloe Barbadensis Leaf Juice, Carica Papaya (Papaya) Fruit Extract, Ananas Sativus (Pineapple) Fruit Extract, Salicylic Acid, Pumpkin (Cucurbita Pepo) Fruit Extract, Honey (Mel), Niacinamide, Tocopheryl Acetate, Sodium Hyaluronate, Vitamin A Palmitate, Vitamin E, Cetearyl Alcohol, Glyceryl Stearate, PEG-100 Stearate, Stearic Acid, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Aminomethyl Propanol, Caprylyl Glycol, Pentylene Glycol, Phenoxyethanol, Fragrance"
+  },
+  {
+    "brand": "Glossier",
+    "name": "Milky Jelly Cleanser",
+    "type": "cleanser",
+    "price": 18,
+    "size": "177ml",
+    "country": "US",
+    "inci": "Water, Poloxamer 184, Glycerin, Rosa Damascena Flower Water, Allantoin, Sodium Hyaluronate, Comfrey (Symphytum Officinale) Root Extract, Pro-Vitamin B5, Poloxamer 188, Aminomethyl Propanol, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Disodium EDTA, Phenoxyethanol, Ethylhexylglycerin"
+  },
+  {
+    "brand": "Glossier",
+    "name": "Futuredew Oil Serum Hybrid",
+    "type": "serum",
+    "price": 26,
+    "size": "30ml",
+    "country": "US",
+    "inci": "Water, Squalane, Jojoba Esters, Glycerin, Dimethicone, Mica, Niacinamide, Rosmarinus Officinalis (Rosemary) Leaf Extract, Rosa Canina Fruit Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Muscadine Grape (Vitis Rotundifolia) Seed Oil, Tocopheryl Acetate, Cetearyl Olivate, Sorbitan Olivate, Cetearyl Alcohol, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Carbomer, Aminomethyl Propanol, Caprylyl Glycol, Ethylhexylglycerin, Pentylene Glycol, Disodium EDTA, Phenoxyethanol, Iron Oxides (CI 77491)"
+  },
+  {
+    "brand": "Glossier",
+    "name": "Priming Moisturizer Rich",
+    "type": "moisturizer",
+    "price": 35,
+    "size": "50ml",
+    "country": "US",
+    "inci": "Water, Glycerin, Cetearyl Alcohol, Caprylic/Capric Triglyceride, Squalane, Ceramide NP, Ceramide AP, Ceramide EOP, Phytosphingosine, Cholesterol, Sodium Lauroyl Lactylate, Shea Butter (Butyrospermum Parkii), Sodium Hyaluronate, Tocopheryl Acetate, Allantoin, Beeswax, Dimethicone, Glyceryl Stearate, PEG-100 Stearate, Cetearyl Olivate, Sorbitan Olivate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Carbomer, Aminomethyl Propanol, Xanthan Gum, Caprylyl Glycol, Ethylhexylglycerin, Hexylene Glycol, Disodium EDTA, Phenoxyethanol"
+  },
+  {
+    "brand": "St. Ives",
+    "name": "Fresh Skin Apricot Scrub",
+    "type": "exfoliant",
+    "price": 5,
+    "size": "170g",
+    "country": "US",
+    "inci": "Water, Juglans Regia (Walnut) Shell Powder, Glycerin, Cetearyl Alcohol, Prunus Armeniaca (Apricot) Kernel Oil, Zea Mays (Corn) Kernel Meal, PEG-100 Stearate, Glyceryl Stearate, Cetyl Alcohol, Dimethicone, Stearic Acid, Triethanolamine, Carbomer, Parfum (Fragrance), Ceteareth-20, Salicylic Acid, Sodium Hydroxide, BHT, Methylchloroisothiazolinone, Methylisothiazolinone, CI 15985, CI 19140"
   }
 ]
