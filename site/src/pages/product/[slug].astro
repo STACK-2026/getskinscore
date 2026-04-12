@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { products, type Product } from "../../data/products";
 import { getIngredient } from "../../data/ingredients";
+import { getStarContent } from "../../data/star-product-content";
 import { siteConfig } from "../../../site.config";
 import { fullUrl, gradeClass } from "../../utils/config";
 import { jsonLdProduct, jsonLdBreadcrumbs } from "../../utils/seo";
@@ -16,6 +17,7 @@ export function getStaticPaths() {
 
 const { product } = Astro.props as { product: Product };
 const locale = getLocale(Astro.url);
+const star = getStarContent(product.id);
 const title = `${product.brand} ${product.name} - Score ${product.score} (${product.scoreNumeric}/100) | ${siteConfig.name}`;
 const description = t(product.summary, locale).slice(0, 155) + "...";
 const url = fullUrl(`/product/${product.id}`);
@@ -226,6 +228,100 @@ const subScoreLabels = [
         ))}
       </div>
     </section>
+
+    <!-- Star product deep content -->
+    {star && (
+      <div class="space-y-8 mb-10">
+        <!-- Editorial review -->
+        <section class="card !bg-violet-50/30 !border-violet-200/50">
+          <h2 class="text-lg font-bold text-violet-900 mb-3">
+            {locale === "fr" ? "Notre avis complet" : "Our full review"}
+          </h2>
+          <p class="text-slate-700 leading-relaxed">{t(star.editorialReview, locale)}</p>
+        </section>
+
+        <!-- How to use -->
+        <section>
+          <h2 class="text-lg font-bold mb-3">
+            {locale === "fr" ? "Comment l'utiliser" : "How to use"}
+          </h2>
+          <div class="card !bg-blue-50/30 !border-blue-200/50">
+            <p class="text-slate-700 leading-relaxed">{t(star.howToUse, locale)}</p>
+          </div>
+        </section>
+
+        <!-- Who is it for -->
+        <section>
+          <h2 class="text-lg font-bold mb-3">
+            {locale === "fr" ? "Pour qui ?" : "Who is it for?"}
+          </h2>
+          <p class="text-slate-600 leading-relaxed">{t(star.whoIsItFor, locale)}</p>
+        </section>
+
+        <!-- What to expect -->
+        <section>
+          <h2 class="text-lg font-bold mb-3">
+            {locale === "fr" ? "A quoi s'attendre" : "What to expect"}
+          </h2>
+          <div class="card !bg-amber-50/30 !border-amber-200/50">
+            <p class="text-slate-700 leading-relaxed">{t(star.whatToExpect, locale)}</p>
+          </div>
+        </section>
+
+        <!-- Common mistakes -->
+        <section>
+          <h2 class="text-lg font-bold mb-3">
+            {locale === "fr" ? "Erreurs a eviter" : "Common mistakes"}
+          </h2>
+          <div class="card !bg-red-50/30 !border-red-200/50">
+            <p class="text-slate-700 leading-relaxed whitespace-pre-line">{t(star.commonMistakes, locale)}</p>
+          </div>
+        </section>
+
+        <!-- FAQ -->
+        {star.faq.length > 0 && (
+          <section>
+            <h2 class="text-lg font-bold mb-4">FAQ</h2>
+            <div class="space-y-3">
+              {star.faq.map((item, i) => (
+                <details class="card !p-0 overflow-hidden" open={i === 0}>
+                  <summary class="flex items-center justify-between p-4 cursor-pointer font-bold text-sm text-slate-800 hover:text-violet-700">
+                    <span class="pr-4">{t(item.question, locale)}</span>
+                    <svg class="w-5 h-5 shrink-0 text-slate-400 group-open:rotate-180 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9" /></svg>
+                  </summary>
+                  <div class="px-4 pb-4 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+                    {t(item.answer, locale)}
+                  </div>
+                </details>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <!-- Vs Competitors -->
+        {star.vsCompetitors.length > 0 && (
+          <section>
+            <h2 class="text-lg font-bold mb-4">
+              {locale === "fr" ? "Comparaisons" : "How it compares"}
+            </h2>
+            <div class="space-y-4">
+              {star.vsCompetitors.map((comp) => (
+                <div class="card">
+                  <div class="flex items-center gap-2 mb-3">
+                    <span class="text-sm font-bold text-slate-800">{product.brand} {product.name}</span>
+                    <span class="text-violet-300 font-extrabold">vs</span>
+                    <a href={localizedPath(`/product/${comp.competitorId}`, locale)} class="text-sm font-bold text-violet-600 hover:text-violet-700">
+                      {comp.competitorName}
+                    </a>
+                  </div>
+                  <p class="text-sm text-slate-600 leading-relaxed">{t(comp.verdict, locale)}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+      </div>
+    )}
 
     <!-- Alternatives -->
     {alternatives.length > 0 && (
