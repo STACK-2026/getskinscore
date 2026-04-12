@@ -35,7 +35,7 @@ export const tr = {
     title: { en: "Your skincare is lying to you", fr: "Tes soins te mentent" },
     subtitle: {
       en: "Fragrance, endocrine disruptors, comedogenic oils hidden behind scientific names you can\'t read. We decode every ingredient, score every product A to E, and tell you the truth. No brand pays us. Ever.",
-      fr: "Parfum, perturbateurs endocriniens, huiles comedogenes planques derriere des noms scientifiques illisibles. On decode chaque ingredient, on note chaque soin de A a E, et on te dit la verite. Aucune marque ne nous paie. Jamais.",
+      fr: "Parfum, perturbateurs endocriniens, huiles comédogènes planquées derrière des noms scientifiques illisibles. On décode chaque ingrédient, on note chaque soin de A à E, et on te dit la vérité. Aucune marque ne nous paie. Jamais.",
     },
     searchPlaceholder: { en: "Paste an INCI list or search a product...", fr: "Colle ta liste INCI ou cherche un soin..." },
     cta: { en: "Check my product", fr: "Verifier mon soin" },

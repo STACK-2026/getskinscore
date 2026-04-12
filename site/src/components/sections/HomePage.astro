@@ -70,8 +70,8 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
     </div>
 
     <!-- H1 with rotating word -->
-    <h1 class="reveal mb-6 leading-[1.15] text-center">
-      <span class="block text-slate-800 text-2xl sm:text-3xl md:text-5xl">
+    <h1 class="reveal mb-6 leading-[1.2] text-center">
+      <span class="text-slate-800 text-3xl sm:text-4xl md:text-5xl">
         {locale === "fr" ? "Est-ce que " : "Is "}
         <span class="si-rotating-container">
           {rotatingWords.map((word, i) => (
@@ -80,9 +80,7 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
             </span>
           ))}
         </span>
-      </span>
-      <span class="block text-slate-800 text-2xl sm:text-3xl md:text-5xl mt-1">
-        {locale === "fr" ? "te ment ?" : "lying to you?"}
+        {locale === "fr" ? " te ment ?" : " lying to you?"}
       </span>
     </h1>
 
