@@ -6,7 +6,7 @@ export async function getStaticPaths() {
   const now = new Date();
   const posts = await getCollection("blog", ({ data }) => !data.draft && data.lang === "en" && data.date.valueOf() <= now.valueOf());
   return posts.map((post) => ({
-    params: { slug: post.id },
+    params: { slug: post.id.replace(/\.md$/, "") },
     props: { post },
   }));
 }
@@ -24,7 +24,7 @@ const { Content } = await render(post);
   tags={post.data.tags}
   image={post.data.image}
   imageAlt={post.data.imageAlt}
-  slug={post.id}
+  slug={post.id.replace(/\.md$/, "")}
   keywords={post.data.keywords}
   lastReviewed={post.data.lastReviewed}
   reviewedBy={post.data.reviewedBy}
