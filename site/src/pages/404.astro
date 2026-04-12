@@ -1,16 +1,52 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { siteConfig } from "../../site.config";
+import { ingredients } from "../data/ingredients";
+
+// Random ingredient to suggest
+const randomIngredients = ingredients.filter((i) => i.score === "A").slice(0, 3);
 ---
 
 <BaseLayout title={`Page not found | ${siteConfig.name}`} description="This page doesn't exist." noIndex={true}>
-  <div class="max-w-2xl mx-auto px-4 py-24 text-center">
-    <div class="grade grade-xl grade-e mx-auto mb-6">?</div>
-    <h1 class="text-4xl mb-4">404</h1>
-    <p class="text-slate-600 mb-8 text-lg">This ingredient wasn't found in our database. Maybe it doesn't exist yet, or you've got a typo in the URL.</p>
-    <div class="flex gap-4 justify-center">
+  <div class="max-w-3xl mx-auto px-4 py-16 text-center">
+    <!-- Animated molecule background -->
+    <div class="relative mb-8">
+      <div class="absolute inset-0 flex items-center justify-center opacity-10">
+        <div class="w-64 h-64 rounded-full bg-gradient-to-br from-violet-400 to-indigo-400 blur-3xl molecule-float"></div>
+      </div>
+      <div class="relative">
+        <div class="grade grade-xl grade-e mx-auto mb-4 !w-24 !h-24 !text-5xl">?</div>
+        <h1 class="text-5xl font-extrabold mb-2">
+          <span class="text-gradient">404</span>
+        </h1>
+      </div>
+    </div>
+
+    <h2 class="text-xl font-bold text-slate-800 mb-3">This formula doesn't exist</h2>
+    <p class="text-slate-500 mb-10 max-w-md mx-auto leading-relaxed">
+      The ingredient you're looking for isn't in our database yet, or the URL has a typo. But don't worry, your skin journey doesn't end here.
+    </p>
+
+    <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
       <a href="/" class="btn-primary">Back to homepage</a>
       <a href="/rankings" class="btn-secondary">Browse rankings</a>
+      <a href="/encyclopedia" class="btn-secondary">Explore ingredients</a>
+    </div>
+
+    <!-- Suggest some ingredients -->
+    <div class="border-t border-slate-200 pt-10">
+      <p class="text-sm text-slate-400 mb-6 uppercase tracking-wider font-medium">While you're here, discover these A-rated ingredients</p>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl mx-auto">
+        {randomIngredients.map((ing) => (
+          <a href={`/ingredient/${ing.id}`} class="card card-glow ingredient-glow flex items-center gap-3 !p-4 text-left">
+            <div class="grade grade-md grade-a shrink-0">{ing.score}</div>
+            <div class="min-w-0">
+              <p class="text-sm font-bold text-slate-800">{ing.name.en}</p>
+              <p class="text-[10px] text-violet-500 capitalize">{ing.category}</p>
+            </div>
+          </a>
+        ))}
+      </div>
     </div>
   </div>
 </BaseLayout>

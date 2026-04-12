@@ -1,0 +1,147 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { products } from "../data/products";
+import { getIngredient } from "../data/ingredients";
+import { siteConfig } from "../../site.config";
+import { fullUrl, gradeClass } from "../utils/config";
+import { jsonLdBreadcrumbs } from "../utils/seo";
+import { getLocale, t, tr, localizedPath } from "../i18n/t";
+
+const locale = getLocale(Astro.url);
+const sorted = [...products].sort((a, b) => b.scoreNumeric - a.scoreNumeric);
+
+const breadcrumbs = [
+  { name: t(tr.common.home, locale), url: fullUrl(localizedPath("/", locale)) },
+  { name: t(tr.nav.compare, locale), url: fullUrl(localizedPath("/compare", locale)) },
+];
+---
+
+<BaseLayout
+  title={`Compare Skincare Products Side by Side | ${siteConfig.name}`}
+  description="Compare skincare products side by side. See ingredient scores, safety ratings, and skin-type fit across every dimension. Science-backed, independent comparisons."
+  jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
+>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+    <div class="text-center mb-10">
+      <h1 class="mb-3">{locale === "fr" ? "Compare tes produits" : "Compare products"}</h1>
+      <p class="text-slate-600 max-w-2xl mx-auto">
+        {locale === "fr"
+          ? "Selectionne deux produits pour les comparer cote a cote. Scores, ingredients, forces et faiblesses."
+          : "Select two products to compare side by side. Scores, ingredients, strengths and weaknesses."}
+      </p>
+    </div>
+
+    <!-- Product selector -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12" id="compare-selectors">
+      <div>
+        <label class="block text-sm font-bold text-slate-700 mb-2">{locale === "fr" ? "Produit 1" : "Product 1"}</label>
+        <select id="product-a" class="search-input !pl-4 !pr-4">
+          <option value="">{locale === "fr" ? "Choisis un produit..." : "Choose a product..."}</option>
+          {sorted.map((p) => <option value={p.id}>{p.brand} - {p.name} ({p.score})</option>)}
+        </select>
+      </div>
+      <div>
+        <label class="block text-sm font-bold text-slate-700 mb-2">{locale === "fr" ? "Produit 2" : "Product 2"}</label>
+        <select id="product-b" class="search-input !pl-4 !pr-4">
+          <option value="">{locale === "fr" ? "Choisis un produit..." : "Choose a product..."}</option>
+          {sorted.map((p) => <option value={p.id}>{p.brand} - {p.name} ({p.score})</option>)}
+        </select>
+      </div>
+    </div>
+
+    <!-- Comparison table (pre-rendered for all products, shown via JS) -->
+    <div id="compare-result" class="hidden">
+      <div id="compare-content"></div>
+    </div>
+
+    <!-- Static comparison cards for SEO (popular matchups) -->
+    <div class="border-t border-slate-200 pt-10">
+      <h2 class="text-xl font-bold mb-6">{locale === "fr" ? "Comparaisons populaires" : "Popular comparisons"}</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {[
+          ["cerave-moisturizing-cream", "neutrogena-hydro-boost-water-gel"],
+          ["the-ordinary-niacinamide-10-zinc-1", "svr-sebiaclear-serum"],
+          ["la-roche-posay-cicaplast-baume-b5", "avene-cicalfate-plus-restorative-cream"],
+          ["paulas-choice-2-bha-liquid-exfoliant", "the-ordinary-aha-30-bha-2-peeling"],
+          ["skinceuticals-ce-ferulic", "the-ordinary-retinol-0-5-squalane"],
+          ["cetaphil-gentle-skin-cleanser", "cerave-foaming-cleanser"],
+        ].map(([idA, idB]) => {
+          const a = products.find((p) => p.id === idA);
+          const b = products.find((p) => p.id === idB);
+          if (!a || !b) return null;
+          return (
+            <div class="card card-glow !p-5">
+              <div class="flex items-center justify-between mb-4">
+                <div class="text-center flex-1">
+                  <div class={`grade grade-md ${gradeClass(a.score)} mx-auto mb-1`}>{a.score}</div>
+                  <p class="text-xs font-bold text-slate-800">{a.brand}</p>
+                  <p class="text-[10px] text-slate-500 truncate">{a.name}</p>
+                </div>
+                <span class="text-lg font-extrabold text-violet-300 mx-3">vs</span>
+                <div class="text-center flex-1">
+                  <div class={`grade grade-md ${gradeClass(b.score)} mx-auto mb-1`}>{b.score}</div>
+                  <p class="text-xs font-bold text-slate-800">{b.brand}</p>
+                  <p class="text-[10px] text-slate-500 truncate">{b.name}</p>
+                </div>
+              </div>
+              <div class="flex gap-2">
+                <a href={localizedPath(`/product/${a.id}`, locale)} class="flex-1 text-center text-[10px] font-medium py-1.5 rounded-lg bg-violet-50 text-violet-600 hover:bg-violet-100 transition-colors">
+                  {locale === "fr" ? "Voir" : "View"} {a.brand}
+                </a>
+                <a href={localizedPath(`/product/${b.id}`, locale)} class="flex-1 text-center text-[10px] font-medium py-1.5 rounded-lg bg-violet-50 text-violet-600 hover:bg-violet-100 transition-colors">
+                  {locale === "fr" ? "Voir" : "View"} {b.brand}
+                </a>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </div>
+
+  <!-- Product data for JS comparison -->
+  <script is:inline define:vars={{ productsJson: JSON.stringify(sorted.map((p) => ({ id: p.id, brand: p.brand, name: p.name, score: p.score, scoreNumeric: p.scoreNumeric, subScores: p.subScores, type: p.type, concerns: p.concerns }))) }}>
+    (function () {
+      var products = JSON.parse(productsJson);
+      var selA = document.getElementById("product-a");
+      var selB = document.getElementById("product-b");
+      var result = document.getElementById("compare-result");
+      var content = document.getElementById("compare-content");
+
+      function gradeClass(g) { return "grade-" + g.toLowerCase(); }
+
+      function render() {
+        var a = products.find(function (p) { return p.id === selA.value; });
+        var b = products.find(function (p) { return p.id === selB.value; });
+        if (!a || !b) { result.classList.add("hidden"); return; }
+
+        result.classList.remove("hidden");
+        var dims = ["efficacy", "safety", "comedogenicity", "transparency", "skinTypeFit"];
+        var labels = { efficacy: "Efficacy", safety: "Safety", comedogenicity: "Comedogenicity", transparency: "Transparency", skinTypeFit: "Skin-type fit" };
+
+        var html = '<div class="grid grid-cols-3 gap-4 items-center text-center mb-8">';
+        html += '<div><div class="grade grade-xl ' + gradeClass(a.score) + ' mx-auto mb-2">' + a.score + '</div><p class="text-sm font-bold">' + a.brand + '</p><p class="text-xs text-slate-500">' + a.name + '</p><p class="text-lg font-extrabold text-violet-600">' + a.scoreNumeric + '/100</p></div>';
+        html += '<div class="text-3xl font-extrabold text-violet-200">vs</div>';
+        html += '<div><div class="grade grade-xl ' + gradeClass(b.score) + ' mx-auto mb-2">' + b.score + '</div><p class="text-sm font-bold">' + b.brand + '</p><p class="text-xs text-slate-500">' + b.name + '</p><p class="text-lg font-extrabold text-violet-600">' + b.scoreNumeric + '/100</p></div>';
+        html += '</div>';
+
+        html += '<div class="space-y-3">';
+        dims.forEach(function (d) {
+          var ga = a.subScores[d];
+          var gb = b.subScores[d];
+          html += '<div class="flex items-center gap-4 p-3 rounded-lg bg-slate-50">';
+          html += '<span class="grade grade-sm ' + gradeClass(ga) + '">' + ga + '</span>';
+          html += '<span class="flex-1 text-sm font-medium text-slate-700 text-center">' + labels[d] + '</span>';
+          html += '<span class="grade grade-sm ' + gradeClass(gb) + '">' + gb + '</span>';
+          html += '</div>';
+        });
+        html += '</div>';
+
+        content.innerHTML = html;
+      }
+
+      selA.addEventListener("change", render);
+      selB.addEventListener("change", render);
+    })();
+  </script>
+</BaseLayout>
