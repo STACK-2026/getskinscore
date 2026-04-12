@@ -1,0 +1,53 @@
+name: Import Products — Monthly OBF refresh
+
+on:
+  schedule:
+    # 1st of every month at 3:00 UTC
+    - cron: '0 3 1 * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max new products to import'
+        type: string
+        default: '200'
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git
+        run: |
+          git config user.name "SkinScore Import Bot"
+          git config user.email "import@getskinscore.com"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run OBF import
+        run: |
+          LIMIT="${{ github.event.inputs.limit || '200' }}"
+          python3 scripts/import_obf.py --limit "$LIMIT" --output scripts/obf_monthly.json
+
+      - name: Score and inject
+        run: |
+          echo "Monthly import complete. Manual review needed before injecting into products.ts"
+          echo "Products saved to scripts/obf_monthly.json"
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: monthly-import
+          path: scripts/obf_monthly.json
+          retention-days: 30
