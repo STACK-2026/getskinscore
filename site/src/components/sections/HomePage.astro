@@ -69,10 +69,12 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
       </div>
     </div>
 
-    <!-- H1 with rotating word -->
-    <h1 class="reveal mb-6 leading-[1.2] text-center">
-      <span class="text-slate-800 text-3xl sm:text-4xl md:text-5xl">
-        {locale === "fr" ? "Est-ce que " : "Is "}
+    <!-- H1 with rotating word (3 lines) -->
+    <h1 class="reveal mb-6 leading-[1.25] text-center">
+      <span class="block text-slate-800 text-2xl sm:text-3xl md:text-5xl">
+        {locale === "fr" ? "Est-ce que" : "Is"}
+      </span>
+      <span class="block text-2xl sm:text-3xl md:text-5xl my-1 sm:my-2">
         <span class="si-rotating-container">
           {rotatingWords.map((word, i) => (
             <span class={`si-rotating-word ${i === 0 ? "si-rotating-active" : ""}`} data-index={i}>
@@ -80,7 +82,9 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
             </span>
           ))}
         </span>
-        {locale === "fr" ? " te ment ?" : " lying to you?"}
+      </span>
+      <span class="block text-slate-800 text-2xl sm:text-3xl md:text-5xl">
+        {locale === "fr" ? "te ment ?" : "lying to you?"}
       </span>
     </h1>
 
@@ -146,7 +150,7 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
 <section class="section bg-slate-900 text-white relative overflow-hidden">
   <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(124,58,237,0.15),transparent_70%)]"></div>
   <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center relative">
-    <h2 class="reveal text-2xl md:text-3xl font-extrabold mb-6 leading-tight">
+    <h2 class="reveal text-2xl md:text-3xl font-extrabold mb-6 leading-tight text-white">
       {locale === "fr"
         ? "On ne te vend rien. On te montre ce qu'on te vend."
         : "We don't sell you anything. We show you what they're selling you."}
@@ -226,9 +230,9 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
     <h2 class="reveal text-center mb-10">{t(tr.features.title, locale)}</h2>
     <div class="reveal-children grid grid-cols-1 md:grid-cols-3 gap-6">
       {(locale === "fr" ? [
-        { title: "La verite en 2 secondes", description: "Colle ta liste INCI ou cherche un produit. En 2 secondes, tu sais si ca vaut ton argent ou si tu paies du marketing.", icon: "zap" },
-        { title: "Zero deal avec les marques", description: "On n'accepte pas d'argent des marques. Nos notes viennent des donnees UE CosIng, des avis SCCS et de la recherche dermatologique. La Mer obtient un C. On s'en fiche.", icon: "shield" },
-        { title: "Ta peau, tes regles", description: "Chaque score s'adapte a TON type de peau. Ce qui est note A pour peau grasse peut etre C pour peau sensible. Parce qu'une taille unique, ca n'existe pas.", icon: "user" },
+        { title: "La vérité en 2 secondes", description: "Colle ta liste INCI ou cherche un produit. En 2 secondes, tu sais si ça vaut ton argent ou si tu paies du marketing.", icon: "zap" },
+        { title: "Zéro deal avec les marques", description: "On n'accepte pas d'argent des marques. Nos notes viennent des données UE CosIng, des avis SCCS et de la recherche dermatologique. La Mer obtient un C. On s'en fiche.", icon: "shield" },
+        { title: "Ta peau, tes règles", description: "Chaque score s'adapte à TON type de peau. Ce qui est noté A pour peau grasse peut être C pour peau sensible. Parce qu'une taille unique, ça n'existe pas.", icon: "user" },
       ] : siteConfig.features).map((feature) => (
         <div class="card card-glow text-center p-8">
           <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-violet-100 flex items-center justify-center">
@@ -476,10 +480,10 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
     <h2 class="reveal text-center mb-10">{t(tr.faq.title, locale)}</h2>
     <div class="reveal-children space-y-3">
       {(locale === "fr" ? [
-        { question: "Comment SkinScore note les produits ?", answer: "SkinScore analyse chaque ingredient de la liste INCI selon cinq dimensions : efficacite (actifs prouves), securite (allergenes, irritants, substances reglementees UE), comedogenicite (risque d'obstruction des pores), transparence (divulgation complete, certifications) et compatibilite avec le type de peau. Chaque dimension est notee puis combinee en une note finale de A a E." },
-        { question: "SkinScore est-il independant ?", answer: "Oui. SkinScore n'accepte aucun paiement des marques pour influencer les notes. Notre methodologie est entierement transparente, basee sur les donnees UE CosIng, les avis SCCS et la recherche dermatologique. Nos revenus viennent de liens affilies (qui n'affectent jamais les scores)." },
-        { question: "C'est quoi une liste INCI ?", answer: "INCI (International Nomenclature of Cosmetic Ingredients) est le systeme de nomenclature standardise des ingredients cosmetiques. Tout produit vendu en UE doit afficher sa liste INCI. SkinScore decode ces noms scientifiques en langage clair." },
-        { question: "SkinScore peut recommander une routine ?", answer: "Oui. Fais notre quiz peau de 2 minutes pour obtenir une routine AM/PM personnalisee selon ton type de peau, tes preoccupations et ton budget. Chaque produit recommande est soutenu par sa note SkinScore." },
+        { question: "Comment SkinScore note-t-il les produits ?", answer: "SkinScore analyse chaque ingrédient de la liste INCI selon cinq dimensions : efficacité (actifs prouves), securite (allergenes, irritants, substances reglementees UE), comédogénicité (risque d'obstruction des pores), transparence (divulgation complète, certifications) et compatibilité avec le type de peau. Chaque dimension est notée puis combinée en une note finale de A à E." },
+        { question: "SkinScore est-il indépendant ?", answer: "Oui. SkinScore n'accepte aucun paiement des marques pour influencer les notes. Notre méthodologie est entièrement transparente, basée sur les données UE CosIng, les avis SCCS et la recherche dermatologique. Nos revenus viennent de liens affilies (qui n'affectent jamais les scores)." },
+        { question: "C'est quoi une liste INCI ?", answer: "INCI (International Nomenclature of Cosmetic Ingredients) est le systeme de nomenclature standardise des ingredients cosmetiques. Tout produit vendu en UE doit afficher sa liste INCI. SkinScore décode ces noms scientifiques en langage clair." },
+        { question: "SkinScore peut recommander une routine ?", answer: "Oui. Fais notre quiz peau de 2 minutes pour obtenir une routine AM/PM personnalisée selon ton type de peau, tes préoccupations et ton budget. Chaque produit recommandé est soutenu par sa note SkinScore." },
         { question: "Combien de produits couvre SkinScore ?", answer: "SkinScore note actuellement plus de 2 600 produits de 250+ marques. Nettoyants, hydratants, serums, solaires, exfoliants, masques. On ajoute de nouveaux produits chaque jour." },
       ] : siteConfig.faq).map((item, i) => (
         <details class="group card !p-0 overflow-hidden" open={i === 0}>

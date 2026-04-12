@@ -43,9 +43,9 @@ export const tr = {
 
   // Social proof
   stats: {
-    products: { en: "Products exposed", fr: "Soins passes au crible" },
-    ingredients: { en: "Ingredients dissected", fr: "Ingredients disseques" },
-    brands: { en: "Brands held accountable", fr: "Marques passees au scanner" },
+    products: { en: "Products exposed", fr: "Soins passés au crible" },
+    ingredients: { en: "Ingredients dissected", fr: "Ingrédients disséqués" },
+    brands: { en: "Brands held accountable", fr: "Marques passées au scanner" },
   },
 
   // Problem
@@ -64,11 +64,11 @@ export const tr = {
 
   // How it works
   howItWorks: {
-    title: { en: "How it works", fr: "Comment ca marche" },
+    title: { en: "How it works", fr: "Comment ça marche" },
     step1: { en: "Search or paste your INCI list", fr: "Cherche ou colle ta liste INCI" },
     step1desc: { en: "Type a product name, paste an ingredient list, or scan a barcode.", fr: "Tape un nom de produit, colle une liste d'ingredients ou scanne un code-barres." },
     step2: { en: "Get your A-to-E score", fr: "Obtiens ton score de A a E" },
-    step2desc: { en: "Instant breakdown: efficacy, safety, comedogenicity, transparency, skin-type fit.", fr: "Analyse instantanee : efficacité, sécurité, comédogénicité, transparence, compatibilité peau." },
+    step2desc: { en: "Instant breakdown: efficacy, safety, comedogenicity, transparency, skin-type fit.", fr: "Analyse instantanée : efficacité, sécurité, comédogénicité, transparence, compatibilité peau." },
     step3: { en: "Build your routine", fr: "Construis ta routine" },
     step3desc: { en: "Personalised AM/PM routine based on your skin type, concerns, and budget.", fr: "Routine AM/PM personnalisée selon ton type de peau, tes préoccupations et ton budget." },
   },
