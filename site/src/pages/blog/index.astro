@@ -1,0 +1,45 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { siteConfig } from "../../../site.config";
+import { fullUrl } from "../../utils/config";
+import { jsonLdBreadcrumbs } from "../../utils/seo";
+import { getLocale, t, tr, localizedPath } from "../../i18n/t";
+
+const locale = getLocale(Astro.url);
+const now = new Date();
+const posts = (await getCollection("blog", ({ data }) => !data.draft && data.lang === "en" && data.date.valueOf() <= now.valueOf()))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const breadcrumbs = [
+  { name: t(tr.common.home, locale), url: fullUrl("/") },
+  { name: t(tr.blog.title, locale), url: fullUrl("/blog") },
+];
+---
+
+<BaseLayout
+  title={`${t(tr.blog.title, locale)} - ${siteConfig.name}`}
+  description={t(tr.blog.subtitle, locale)}
+  jsonLd={[{ "@context": "https://schema.org", "@type": "CollectionPage", name: t(tr.blog.title, locale), url: fullUrl("/blog") }, jsonLdBreadcrumbs(breadcrumbs)]}
+>
+  <div class="max-w-6xl mx-auto px-4 py-12">
+    <h1 class="mb-2">{t(tr.blog.title, locale)}</h1>
+    <p class="text-slate-500 mb-10 text-lg">{t(tr.blog.subtitle, locale)}</p>
+
+    {posts.length === 0 ? (
+      <p class="text-slate-500 text-lg">First articles coming soon. Check back shortly.</p>
+    ) : (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {posts.map((post) => (
+          <a href={`/blog/${post.id}`} class="card card-glow group">
+            {post.data.image && <img src={post.data.image} alt={post.data.imageAlt || post.data.title} class="w-full h-48 object-cover rounded-lg mb-4" loading="lazy" />}
+            {post.data.category && <span class="text-xs font-medium text-violet-600 uppercase tracking-wider">{post.data.category}</span>}
+            <h2 class="text-lg font-bold mt-1 mb-2 group-hover:text-violet-700 transition-colors">{post.data.title}</h2>
+            <p class="text-sm text-slate-500 line-clamp-3">{post.data.description}</p>
+            <p class="text-xs text-slate-400 mt-3">{post.data.date.toLocaleDateString("en-US", { day: "numeric", month: "long", year: "numeric" })}</p>
+          </a>
+        ))}
+      </div>
+    )}
+  </div>
+</BaseLayout>

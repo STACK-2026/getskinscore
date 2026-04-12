@@ -1,0 +1,16 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { siteConfig } from "../../site.config";
+---
+
+<BaseLayout title={`Page not found | ${siteConfig.name}`} description="This page doesn't exist." noIndex={true}>
+  <div class="max-w-2xl mx-auto px-4 py-24 text-center">
+    <div class="grade grade-xl grade-e mx-auto mb-6">?</div>
+    <h1 class="text-4xl mb-4">404</h1>
+    <p class="text-slate-600 mb-8 text-lg">This ingredient wasn't found in our database. Maybe it doesn't exist yet, or you've got a typo in the URL.</p>
+    <div class="flex gap-4 justify-center">
+      <a href="/" class="btn-primary">Back to homepage</a>
+      <a href="/rankings" class="btn-secondary">Browse rankings</a>
+    </div>
+  </div>
+</BaseLayout>

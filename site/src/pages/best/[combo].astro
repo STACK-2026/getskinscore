@@ -1,0 +1,77 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { products } from "../../data/products";
+import { siteConfig } from "../../../site.config";
+import { fullUrl, gradeClass } from "../../utils/config";
+import { jsonLdBreadcrumbs } from "../../utils/seo";
+import { getLocale, t, tr, localizedPath } from "../../i18n/t";
+
+export function getStaticPaths() {
+  const paths: any[] = [];
+  const concerns = siteConfig.concerns.map((c) => c.id);
+  const types = siteConfig.productTypes.map((pt) => pt.id);
+
+  // Best for [concern]
+  for (const concern of concerns) {
+    const matching = products.filter((p) => p.concerns.includes(concern));
+    if (matching.length > 0) {
+      paths.push({ params: { combo: concern }, props: { filterType: "concern", value: concern, products: matching } });
+    }
+  }
+
+  // Best [type] for [concern]
+  for (const type of types) {
+    for (const concern of concerns) {
+      const matching = products.filter((p) => p.type === type && p.concerns.includes(concern));
+      if (matching.length > 0) {
+        paths.push({ params: { combo: `${type}-${concern}` }, props: { filterType: "type-concern", value: `${type}-${concern}`, products: matching, productType: type, concern } });
+      }
+    }
+  }
+
+  return paths;
+}
+
+const { filterType, value, products: matchingProducts, productType, concern } = Astro.props;
+const locale = getLocale(Astro.url);
+const sorted = [...matchingProducts].sort((a: any, b: any) => b.scoreNumeric - a.scoreNumeric);
+
+const label = value.replace(/-/g, " ");
+const title = `Best ${label} skincare products ${new Date().getFullYear()} | ${siteConfig.name}`;
+const description = `Top-rated ${label} products ranked by SkinScore. Independent ratings based on ingredient safety, efficacy, and skin-type fit.`;
+
+const breadcrumbs = [
+  { name: t(tr.common.home, locale), url: fullUrl("/") },
+  { name: t(tr.nav.rankings, locale), url: fullUrl("/rankings") },
+  { name: `Best ${label}`, url: fullUrl(`/best/${value}`) },
+];
+---
+
+<BaseLayout title={title} description={description} jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+    <nav class="text-xs text-slate-400 mb-8 flex items-center gap-1.5 flex-wrap">
+      {breadcrumbs.map((item, i) => (
+        <>{i > 0 && <span>/</span>}{i < breadcrumbs.length - 1 ? <a href={item.url} class="hover:text-violet-600">{item.name}</a> : <span class="text-slate-600">{item.name}</span>}</>
+      ))}
+    </nav>
+
+    <h1 class="mb-3 capitalize">Best {label} products</h1>
+    <p class="text-slate-600 mb-10 max-w-2xl">
+      {sorted.length} products ranked by SkinScore for {label}. Every rating is independent, based on INCI analysis and peer-reviewed research.
+    </p>
+
+    <div class="space-y-3">
+      {sorted.map((p: any, i: number) => (
+        <a href={localizedPath(`/product/${p.id}`, locale)} class="card card-glow flex items-center gap-4 !p-4">
+          <span class="text-sm text-slate-400 w-6 text-right font-bold shrink-0">{i + 1}</span>
+          <div class={`grade grade-md ${gradeClass(p.score)} shrink-0`}>{p.score}</div>
+          <div class="min-w-0 flex-1">
+            <span class="text-xs text-violet-600 font-semibold">{p.brand}</span>
+            <p class="text-sm font-bold text-slate-800 truncate">{p.name}</p>
+          </div>
+          <span class="text-sm font-bold text-slate-600 shrink-0">{p.scoreNumeric}/100</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

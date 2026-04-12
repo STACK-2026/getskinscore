@@ -1,0 +1,87 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import { siteConfig } from "../../site.config";
+import { fullUrl } from "../utils/config";
+import { jsonLdArticle, jsonLdBreadcrumbs } from "../utils/seo";
+import { getLocale, t, tr, localizedPath } from "../i18n/t";
+
+interface Props {
+  title: string;
+  description: string;
+  date: Date;
+  author?: string;
+  category?: string;
+  tags?: string[];
+  image?: string;
+  imageAlt?: string;
+  slug: string;
+  keywords?: string;
+  lang?: string;
+  lastReviewed?: Date;
+  reviewedBy?: string;
+}
+
+const {
+  title, description, date,
+  author = siteConfig.blog.defaultAuthor,
+  category, tags = [], image, imageAlt, slug, keywords,
+  lang = "en", lastReviewed, reviewedBy,
+} = Astro.props;
+
+const isDefault = lang === "en";
+const blogPath = isDefault ? `/blog/${slug}` : `/fr/blog/${slug}`;
+const blogIndexPath = isDefault ? `/blog` : `/fr/blog`;
+const homePath = isDefault ? "/" : "/fr/";
+const locale = isDefault ? "en" : "fr";
+
+const articleUrl = fullUrl(blogPath);
+const dateStr = date.toISOString().split("T")[0];
+const reviewedDateStr = lastReviewed ? lastReviewed.toISOString().split("T")[0] : undefined;
+const labels = {
+  en: { home: "Home", blog: "The Lab", share: "Enjoyed this? Share it", reviewed: "Reviewed on", reviewedBy: "Reviewed by", locale: "en-US" },
+  fr: { home: "Accueil", blog: "Le Labo", share: "Tu as aime ? Partage", reviewed: "Relu le", reviewedBy: "Relu par", locale: "fr-FR" },
+};
+const l = labels[locale] || labels.en;
+
+const breadcrumbs = [
+  { name: l.home, url: fullUrl(homePath) },
+  { name: l.blog, url: fullUrl(blogIndexPath) },
+  { name: title, url: articleUrl },
+];
+
+const jsonLd = [
+  jsonLdArticle({ title, description, url: articleUrl, datePublished: dateStr, dateModified: reviewedDateStr, image, author, keywords: keywords?.split(",").map((k) => k.trim()), reviewedBy, inLanguage: l.locale }),
+  jsonLdBreadcrumbs(breadcrumbs),
+];
+---
+
+<BaseLayout title={`${title} | ${siteConfig.name}`} description={description} canonicalUrl={articleUrl} ogImage={image} ogType="article" publishedTime={dateStr} jsonLd={jsonLd}>
+  <article class="max-w-3xl mx-auto px-4 py-12">
+    <nav class="text-xs text-slate-400 mb-8 flex items-center gap-1.5 flex-wrap">
+      {breadcrumbs.map((item, i) => (
+        <>{i > 0 && <span>/</span>}{i < breadcrumbs.length - 1 ? <a href={item.url} class="hover:text-violet-600">{item.name}</a> : <span class="text-slate-600">{item.name}</span>}</>
+      ))}
+    </nav>
+
+    <header class="mb-10">
+      {category && <span class="inline-block bg-violet-100 text-violet-700 text-sm font-medium px-3 py-1 rounded-full mb-4">{category}</span>}
+      <h1 class="mb-4">{title}</h1>
+      <div class="flex items-center gap-4 text-slate-500 text-sm flex-wrap">
+        <span>{author}</span>
+        <span>|</span>
+        <time datetime={dateStr}>{date.toLocaleDateString(l.locale, { day: "numeric", month: "long", year: "numeric" })}</time>
+        {reviewedDateStr && (<><span>|</span><span>{l.reviewed} <time datetime={reviewedDateStr}>{lastReviewed?.toLocaleDateString(l.locale, { day: "numeric", month: "long", year: "numeric" })}</time></span></>)}
+        {reviewedBy && (<><span>|</span><span>{l.reviewedBy} {reviewedBy}</span></>)}
+      </div>
+      {tags.length > 0 && <div class="flex flex-wrap gap-2 mt-4">{tags.map((tag) => <span class="text-xs bg-slate-100 text-slate-600 px-2 py-1 rounded">{tag}</span>)}</div>}
+    </header>
+
+    {image && <figure class="mb-10"><img src={image} alt={imageAlt || title} class="w-full rounded-xl" loading="eager" width="800" height="450" /></figure>}
+
+    <div class="prose max-w-none"><slot /></div>
+
+    <div class="mt-12 pt-8 border-t border-slate-200 text-center">
+      <p class="text-sm text-slate-500 mb-3">{l.share}</p>
+    </div>
+  </article>
+</BaseLayout>
