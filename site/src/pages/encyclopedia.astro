@@ -1,0 +1,69 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { ingredients } from "../data/ingredients";
+import { siteConfig } from "../../site.config";
+import { fullUrl, gradeClass } from "../utils/config";
+import { jsonLdBreadcrumbs } from "../utils/seo";
+import { getLocale, t, tr, localizedPath } from "../i18n/t";
+
+const locale = getLocale(Astro.url);
+const sorted = [...ingredients].sort((a, b) => {
+  const order = { A: 0, B: 1, C: 2, D: 3, E: 4 };
+  return (order[a.score] || 5) - (order[b.score] || 5) || t(a.name, locale).localeCompare(t(b.name, locale));
+});
+
+const categories = [...new Set(ingredients.map((i) => i.category))].sort();
+
+const breadcrumbs = [
+  { name: t(tr.common.home, locale), url: fullUrl(localizedPath("/", locale)) },
+  { name: t(tr.nav.ingredients, locale), url: fullUrl(localizedPath("/encyclopedia", locale)) },
+];
+---
+
+<BaseLayout
+  title={`Ingredient Encyclopedia - ${ingredients.length}+ INCI Ingredients Decoded | ${siteConfig.name}`}
+  description={`Decode ${ingredients.length}+ skincare ingredients. Every INCI name explained in plain language with safety scores, comedogenic ratings, and skin-type compatibility.`}
+  jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+    <div class="text-center mb-10">
+      <h1 class="mb-3">{locale === "fr" ? "Encyclopedie des ingredients" : "Ingredient encyclopedia"}</h1>
+      <p class="text-slate-600 max-w-2xl mx-auto">
+        {locale === "fr"
+          ? `${ingredients.length} ingredients INCI decodes. Chaque nom scientifique explique en langage clair avec score de securite, comedogenicite et compatibilite peau.`
+          : `${ingredients.length} INCI ingredients decoded. Every scientific name explained in plain language with safety scores, comedogenic ratings, and skin-type fit.`}
+      </p>
+    </div>
+
+    <!-- Category filters -->
+    <div class="flex flex-wrap gap-2 mb-8 justify-center">
+      {categories.map((cat) => (
+        <span class="text-xs font-medium px-3 py-1.5 rounded-full bg-violet-50 text-violet-600 capitalize">
+          {cat.replace("_", " ")} ({ingredients.filter((i) => i.category === cat).length})
+        </span>
+      ))}
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {sorted.map((ing) => (
+        <a
+          href={localizedPath(`/ingredient/${ing.id}`, locale)}
+          class="card card-glow ingredient-glow flex items-start gap-3 !p-4"
+        >
+          <div class={`grade grade-md ${gradeClass(ing.score)} shrink-0 mt-0.5`}>{ing.score}</div>
+          <div class="min-w-0">
+            <p class="text-xs text-slate-400 font-mono">{ing.inciName}</p>
+            <h3 class="text-sm font-bold text-slate-800 mb-1">{t(ing.name, locale)}</h3>
+            <p class="text-xs text-slate-500 line-clamp-2 leading-relaxed">{t(ing.description, locale).slice(0, 100)}...</p>
+            <div class="flex flex-wrap gap-1 mt-2">
+              <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-slate-100 text-slate-500 capitalize">{ing.category.replace("_", " ")}</span>
+              {ing.concerns.slice(0, 2).map((c) => (
+                <span class="text-[10px] px-1.5 py-0.5 rounded-full bg-violet-50 text-violet-600">{c}</span>
+              ))}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

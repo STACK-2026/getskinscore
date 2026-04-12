@@ -1,0 +1,60 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { products } from "../data/products";
+import { siteConfig } from "../../site.config";
+import { fullUrl, gradeClass } from "../utils/config";
+import { jsonLdBreadcrumbs } from "../utils/seo";
+import { getLocale, t, tr, localizedPath } from "../i18n/t";
+
+const locale = getLocale(Astro.url);
+const sorted = [...products].sort((a, b) => b.scoreNumeric - a.scoreNumeric);
+
+const breadcrumbs = [
+  { name: t(tr.common.home, locale), url: fullUrl(localizedPath("/", locale)) },
+  { name: t(tr.nav.rankings, locale), url: fullUrl(localizedPath("/rankings", locale)) },
+];
+---
+
+<BaseLayout
+  title={`Skincare Rankings - Best Products Rated A to E | ${siteConfig.name}`}
+  description="Independent skincare product rankings. Every product scored from A to E across efficacy, safety, comedogenicity, transparency, and skin-type fit. Science-backed, brand-independent."
+  jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+    <div class="text-center mb-10">
+      <h1 class="mb-3">{locale === "fr" ? "Classement skincare" : "Skincare rankings"}</h1>
+      <p class="text-slate-600 max-w-2xl mx-auto">
+        {locale === "fr"
+          ? `${sorted.length} produits notes de A a E. Independant, base sur la science, jamais influence par les marques.`
+          : `${sorted.length} products rated from A to E. Independent, science-backed, never influenced by brands.`}
+      </p>
+    </div>
+
+    <div class="space-y-3">
+      {sorted.map((p, i) => (
+        <a
+          href={localizedPath(`/product/${p.id}`, locale)}
+          class="card card-glow flex items-center gap-4 !p-4"
+        >
+          <span class="text-sm text-slate-400 w-6 text-right font-bold shrink-0">{i + 1}</span>
+          <div class={`grade grade-md ${gradeClass(p.score)} shrink-0`}>{p.score}</div>
+          <div class="min-w-0 flex-1">
+            <div class="flex items-center gap-2">
+              <span class="text-xs text-violet-600 font-semibold">{p.brand}</span>
+              <span class="text-[10px] px-2 py-0.5 rounded-full bg-slate-100 text-slate-500 capitalize">{p.type}</span>
+            </div>
+            <p class="text-sm font-bold text-slate-800 truncate">{p.name}</p>
+          </div>
+          <div class="text-right shrink-0 hidden sm:block">
+            <p class="text-sm font-bold text-slate-800">{p.scoreNumeric}/100</p>
+            <div class="flex gap-1 mt-1">
+              {p.concerns.slice(0, 2).map((c) => (
+                <span class="text-[9px] px-1.5 py-0.5 rounded-full bg-violet-50 text-violet-600">{c}</span>
+              ))}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

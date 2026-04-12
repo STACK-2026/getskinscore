@@ -1,0 +1,192 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { ingredients, type Ingredient } from "../../data/ingredients";
+import { products } from "../../data/products";
+import { siteConfig } from "../../../site.config";
+import { fullUrl, gradeClass } from "../../utils/config";
+import { jsonLdBreadcrumbs } from "../../utils/seo";
+import { getLocale, t, tr, localizedPath } from "../../i18n/t";
+
+export function getStaticPaths() {
+  return ingredients.map((i) => ({
+    params: { slug: i.id },
+    props: { ingredient: i },
+  }));
+}
+
+const { ingredient } = Astro.props as { ingredient: Ingredient };
+const locale = getLocale(Astro.url);
+const title = `${t(ingredient.name, locale)} - Score ${ingredient.score} | ${siteConfig.name}`;
+const description = t(ingredient.description, locale).slice(0, 155) + "...";
+const url = fullUrl(`/ingredient/${ingredient.id}`);
+
+const breadcrumbs = [
+  { name: t(tr.common.home, locale), url: fullUrl(localizedPath("/", locale)) },
+  { name: t(tr.nav.ingredients, locale), url: fullUrl(localizedPath("/encyclopedia", locale)) },
+  { name: t(ingredient.name, locale), url },
+];
+
+// Products containing this ingredient
+const containingProducts = products
+  .filter((p) => p.ingredients.some((i) => i.ingredientId === ingredient.id))
+  .sort((a, b) => b.scoreNumeric - a.scoreNumeric);
+
+const skinTypeLabels: Record<string, { en: string; fr: string }> = {
+  dry: { en: "Dry skin", fr: "Peau seche" },
+  oily: { en: "Oily skin", fr: "Peau grasse" },
+  combination: { en: "Combination skin", fr: "Peau mixte" },
+  sensitive: { en: "Sensitive skin", fr: "Peau sensible" },
+  normal: { en: "Normal skin", fr: "Peau normale" },
+};
+---
+
+<BaseLayout title={title} description={description} jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+    <!-- Breadcrumbs -->
+    <nav class="text-xs text-slate-400 mb-8 flex items-center gap-1.5 flex-wrap">
+      {breadcrumbs.map((item, i) => (
+        <>
+          {i > 0 && <span>/</span>}
+          {i < breadcrumbs.length - 1 ? (
+            <a href={item.url} class="hover:text-violet-600 transition-colors">{item.name}</a>
+          ) : (
+            <span class="text-slate-600">{item.name}</span>
+          )}
+        </>
+      ))}
+    </nav>
+
+    <!-- Hero -->
+    <header class="flex items-start gap-6 mb-10">
+      <div class={`grade grade-xl ${gradeClass(ingredient.score)} shrink-0`}>
+        {ingredient.score}
+      </div>
+      <div>
+        <p class="text-sm text-slate-400 font-mono mb-1">{ingredient.inciName}</p>
+        <h1 class="text-2xl md:text-3xl mb-2">{t(ingredient.name, locale)}</h1>
+        <div class="flex items-center gap-3 text-sm text-slate-500">
+          <span class="px-2.5 py-0.5 rounded-full bg-violet-50 text-violet-600 font-medium capitalize">{ingredient.category.replace("_", " ")}</span>
+          {ingredient.comedogenic > 0 && (
+            <span class="px-2.5 py-0.5 rounded-full bg-amber-50 text-amber-600 font-medium">
+              Comedogenic: {ingredient.comedogenic}/5
+            </span>
+          )}
+          {ingredient.euRestricted && (
+            <span class="px-2.5 py-0.5 rounded-full bg-red-50 text-red-600 font-medium">EU restricted</span>
+          )}
+        </div>
+      </div>
+    </header>
+
+    <!-- Description -->
+    <div class="card mb-8">
+      <p class="text-slate-600 leading-relaxed">{t(ingredient.description, locale)}</p>
+    </div>
+
+    <!-- Benefits & Risks -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+      <div class="card !border-green-200 !bg-green-50/30">
+        <h2 class="text-base font-bold text-green-800 mb-3">{t(tr.ingredient.benefits, locale)}</h2>
+        <p class="text-sm text-green-900 leading-relaxed">{t(ingredient.benefits, locale)}</p>
+      </div>
+      <div class="card !border-orange-200 !bg-orange-50/30">
+        <h2 class="text-base font-bold text-orange-800 mb-3">{t(tr.ingredient.risks, locale)}</h2>
+        <p class="text-sm text-orange-900 leading-relaxed">{t(ingredient.risks, locale)}</p>
+      </div>
+    </div>
+
+    <!-- Skin type fit -->
+    <section class="mb-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {ingredient.goodFor.length > 0 && (
+          <div>
+            <h3 class="text-base font-bold mb-3">{t(tr.ingredient.goodFor, locale)}</h3>
+            <div class="flex flex-wrap gap-2">
+              {ingredient.goodFor.map((st) => (
+                <span class="text-sm font-medium px-3 py-1.5 rounded-full bg-green-50 text-green-700">
+                  {t(skinTypeLabels[st], locale)}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+        {ingredient.badFor.length > 0 && (
+          <div>
+            <h3 class="text-base font-bold mb-3">{t(tr.ingredient.badFor, locale)}</h3>
+            <div class="flex flex-wrap gap-2">
+              {ingredient.badFor.map((st) => (
+                <span class="text-sm font-medium px-3 py-1.5 rounded-full bg-red-50 text-red-700">
+                  {t(skinTypeLabels[st], locale)}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </section>
+
+    <!-- Concerns addressed -->
+    {ingredient.concerns.length > 0 && (
+      <section class="mb-10">
+        <h3 class="text-base font-bold mb-3">{locale === "fr" ? "Preoccupations ciblees" : "Targets these concerns"}</h3>
+        <div class="flex flex-wrap gap-2">
+          {ingredient.concerns.map((c) => (
+            <a href={localizedPath(`/best/${c}`, locale)} class="text-sm font-medium px-3 py-1.5 rounded-full bg-violet-50 text-violet-700 hover:bg-violet-100 transition-colors capitalize">
+              {c.replace("-", " ")}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Products containing this ingredient -->
+    {containingProducts.length > 0 && (
+      <section>
+        <h2 class="text-xl font-bold mb-4">{t(tr.ingredient.foundIn, locale)} ({containingProducts.length})</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {containingProducts.map((p) => (
+            <a href={localizedPath(`/product/${p.id}`, locale)} class="card card-glow flex items-center gap-4">
+              <div class={`grade grade-md ${gradeClass(p.score)} shrink-0`}>{p.score}</div>
+              <div class="min-w-0">
+                <p class="text-xs text-violet-600 font-semibold">{p.brand}</p>
+                <p class="text-sm font-bold text-slate-800 truncate">{p.name}</p>
+                <p class="text-xs text-slate-500">{p.scoreNumeric}/100</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Technical details -->
+    <section class="mt-10 pt-8 border-t border-slate-200">
+      <h3 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-4">{locale === "fr" ? "Fiche technique" : "Technical details"}</h3>
+      <dl class="grid grid-cols-2 gap-4 text-sm">
+        <div>
+          <dt class="text-slate-400">INCI name</dt>
+          <dd class="font-mono text-slate-700">{ingredient.inciName}</dd>
+        </div>
+        {ingredient.casNumber && (
+          <div>
+            <dt class="text-slate-400">CAS Number</dt>
+            <dd class="font-mono text-slate-700">{ingredient.casNumber}</dd>
+          </div>
+        )}
+        <div>
+          <dt class="text-slate-400">Category</dt>
+          <dd class="text-slate-700 capitalize">{ingredient.category.replace("_", " ")}</dd>
+        </div>
+        <div>
+          <dt class="text-slate-400">Comedogenic rating</dt>
+          <dd class="text-slate-700">{ingredient.comedogenic}/5</dd>
+        </div>
+        {ingredient.aliases && ingredient.aliases.length > 0 && (
+          <div class="col-span-2">
+            <dt class="text-slate-400">{locale === "fr" ? "Aussi connu sous" : "Also known as"}</dt>
+            <dd class="text-slate-700">{ingredient.aliases.join(", ")}</dd>
+          </div>
+        )}
+      </dl>
+    </section>
+  </div>
+</BaseLayout>
