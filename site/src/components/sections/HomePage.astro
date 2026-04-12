@@ -45,17 +45,33 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
   </div>
 
   <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center relative">
-    <!-- Badge -->
+    <!-- Rotating badge -->
     <div class="reveal mb-6">
-      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-red-50 text-red-700 text-sm font-semibold border border-red-200/50">
-        <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
-        {locale === "fr" ? "67% des soins contiennent un ingredient douteux" : "67% of skincare products contain a concerning ingredient"}
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-red-50 text-red-700 text-sm font-semibold border border-red-200/50 overflow-hidden">
+        <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse shrink-0"></span>
+        <span class="si-badge-rotating">
+          {(locale === "fr" ? [
+            "67% des soins contiennent un ingredient douteux",
+            "La Mer a 350 EUR obtient un C. Nivea a 5 EUR aussi.",
+            "Le parfum est l'allergene n1 en cosmetique",
+            "2 700+ soins notes de A a E. Aucune marque ne nous paie.",
+            "Ton serum a 80 EUR a les memes actifs que celui a 12 EUR",
+          ] : [
+            "67% of skincare products contain a concerning ingredient",
+            "La Mer at 350 EUR scores a C. Nivea at 5 EUR also scores C.",
+            "Fragrance is the #1 allergen in cosmetics",
+            "2,700+ products scored A to E. No brand pays us.",
+            "Your 80 EUR serum has the same actives as this 12 EUR one",
+          ]).map((text, i) => (
+            <span class={`si-badge-text ${i === 0 ? "si-badge-active" : ""}`} data-badge-index={i}>{text}</span>
+          ))}
+        </span>
       </div>
     </div>
 
     <!-- H1 with rotating word -->
-    <h1 class="reveal mb-6 leading-[1.1]">
-      <span class="block text-slate-800">
+    <h1 class="reveal mb-6 leading-[1.15] text-center">
+      <span class="block text-slate-800 text-2xl sm:text-3xl md:text-5xl">
         {locale === "fr" ? "Est-ce que " : "Is "}
         <span class="si-rotating-container">
           {rotatingWords.map((word, i) => (
@@ -65,7 +81,7 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
           ))}
         </span>
       </span>
-      <span class="block text-slate-800">
+      <span class="block text-slate-800 text-2xl sm:text-3xl md:text-5xl mt-1">
         {locale === "fr" ? "te ment ?" : "lying to you?"}
       </span>
     </h1>
@@ -75,24 +91,31 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
       {t(tr.hero.subtitle, locale)}
     </p>
 
-    <!-- Search bar (prominent) -->
+    <!-- Search bar (prominent, mobile-first) -->
     <div class="reveal max-w-2xl mx-auto mb-12">
       <div class="relative group">
         <div class="absolute -inset-1 bg-gradient-to-r from-violet-400 to-indigo-400 rounded-2xl blur-lg opacity-0 group-hover:opacity-20 transition-opacity duration-500"></div>
-        <div class="relative flex items-center bg-white rounded-xl border-2 border-slate-200 hover:border-violet-300 focus-within:border-violet-500 focus-within:ring-4 focus-within:ring-violet-100 transition-all duration-300 shadow-lg shadow-slate-200/50">
-          <div class="pl-5 text-slate-400">
-            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" stroke-linecap="round" /></svg>
+        <div class="relative bg-white rounded-xl border-2 border-slate-200 hover:border-violet-300 focus-within:border-violet-500 focus-within:ring-4 focus-within:ring-violet-100 transition-all duration-300 shadow-lg shadow-slate-200/50">
+          <div class="flex items-center">
+            <div class="pl-4 text-slate-400 shrink-0">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" stroke-linecap="round" /></svg>
+            </div>
+            <input type="text" placeholder={t(tr.hero.searchPlaceholder, locale)} class="flex-1 py-4 px-3 text-sm sm:text-base bg-transparent outline-none placeholder:text-slate-400 min-w-0" disabled />
           </div>
-          <input type="text" placeholder={t(tr.hero.searchPlaceholder, locale)} class="flex-1 py-4 px-4 text-base bg-transparent outline-none placeholder:text-slate-400" disabled />
-          <a href={localizedPath("/rankings", locale)} class="si-cta-btn mr-2 !rounded-lg !px-6 !py-3">
+          <div class="px-2 pb-2 sm:hidden">
+            <a href={localizedPath("/rankings", locale)} class="si-cta-btn w-full justify-center !rounded-lg !py-3 text-sm">
+              {t(tr.hero.cta, locale)}
+            </a>
+          </div>
+          <a href={localizedPath("/rankings", locale)} class="si-cta-btn absolute right-2 top-1/2 -translate-y-1/2 !rounded-lg !px-5 !py-2.5 text-sm hidden sm:inline-flex">
             {t(tr.hero.cta, locale)}
           </a>
         </div>
       </div>
     </div>
 
-    <!-- Live score demo (3 products) -->
-    <div class="reveal flex items-center justify-center gap-8 md:gap-12">
+    <!-- Live score demo -->
+    <div class="reveal grid grid-cols-2 sm:flex items-center justify-center gap-6 sm:gap-8 md:gap-12">
       <a href={localizedPath("/product/cerave-moisturizing-cream", locale)} class="group flex flex-col items-center">
         <div class="grade grade-xl grade-a grade-pulse shadow-lg group-hover:scale-110 transition-transform">A</div>
         <span class="text-xs text-slate-500 mt-2 font-semibold group-hover:text-violet-600 transition-colors">CeraVe</span>
@@ -496,10 +519,13 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
   .si-rotating-container {
     display: inline-block;
     position: relative;
-    min-width: 12ch;
+    min-width: 8ch;
     height: 1.2em;
     vertical-align: bottom;
     overflow: hidden;
+  }
+  @media (min-width: 640px) {
+    .si-rotating-container { min-width: 12ch; }
   }
   .si-rotating-word {
     position: absolute;
@@ -512,6 +538,32 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
   .si-rotating-active {
     opacity: 1;
     transform: translateY(0);
+  }
+
+  /* Rotating badge */
+  .si-badge-rotating {
+    position: relative;
+    display: inline-block;
+    height: 1.3em;
+    overflow: hidden;
+    vertical-align: middle;
+  }
+  .si-badge-text {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    white-space: nowrap;
+  }
+  .si-badge-active {
+    position: relative;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  @media (max-width: 640px) {
+    .si-badge-text { white-space: normal; font-size: 0.75rem; }
+    .si-badge-rotating { height: auto; min-height: 1.3em; }
   }
 
   /* Step circle with pulse */
@@ -593,5 +645,19 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
       current = (current + 1) % words.length;
       words[current].classList.add("si-rotating-active");
     }, 2000);
+  })();
+
+  // Rotating badge
+  (function () {
+    var badges = document.querySelectorAll(".si-badge-text");
+    if (badges.length < 2) return;
+    var current = 0;
+    setInterval(function () {
+      badges[current].classList.remove("si-badge-active");
+      badges[current].style.position = "absolute";
+      current = (current + 1) % badges.length;
+      badges[current].classList.add("si-badge-active");
+      badges[current].style.position = "relative";
+    }, 4000);
   })();
 </script>
