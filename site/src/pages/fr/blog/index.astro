@@ -1,0 +1,42 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { siteConfig } from "../../../../site.config";
+import { fullUrl } from "../../../utils/config";
+import { jsonLdBreadcrumbs } from "../../../utils/seo";
+
+const now = new Date();
+const posts = (await getCollection("blog", ({ data }) => !data.draft && data.lang === "fr" && data.date.valueOf() <= now.valueOf()))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const breadcrumbs = [
+  { name: "Accueil", url: fullUrl("/fr/") },
+  { name: "Le Labo", url: fullUrl("/fr/blog") },
+];
+---
+
+<BaseLayout
+  title={`Le Labo - Blog ${siteConfig.name}`}
+  description="Decryptages skincare bases sur la science. Ingredients, routines, comparatifs et guides."
+  jsonLd={[{ "@context": "https://schema.org", "@type": "CollectionPage", name: "Le Labo", url: fullUrl("/fr/blog") }, jsonLdBreadcrumbs(breadcrumbs)]}
+>
+  <div class="max-w-6xl mx-auto px-4 py-12">
+    <h1 class="mb-2">Le Labo</h1>
+    <p class="text-slate-500 mb-10 text-lg">Decryptages skincare bases sur la science</p>
+
+    {posts.length === 0 ? (
+      <p class="text-slate-500 text-lg">Les premiers articles arrivent bientot. Reviens vite !</p>
+    ) : (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {posts.map((post) => (
+          <a href={`/fr/blog/${post.id}`} class="card card-glow group">
+            {post.data.image && <img src={post.data.image} alt={post.data.imageAlt || post.data.title} class="w-full h-48 object-cover rounded-lg mb-4" loading="lazy" />}
+            {post.data.category && <span class="text-xs font-medium text-violet-600 uppercase tracking-wider">{post.data.category}</span>}
+            <h2 class="text-lg font-bold mt-1 mb-2 group-hover:text-violet-700 transition-colors">{post.data.title}</h2>
+            <p class="text-sm text-slate-500 line-clamp-3">{post.data.description}</p>
+          </a>
+        ))}
+      </div>
+    )}
+  </div>
+</BaseLayout>

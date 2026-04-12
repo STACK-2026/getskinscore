@@ -1,0 +1,45 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { products } from "../../data/products";
+import { siteConfig } from "../../../site.config";
+import { fullUrl, gradeClass } from "../../utils/config";
+import { jsonLdBreadcrumbs } from "../../utils/seo";
+
+const sorted = [...products].sort((a, b) => b.scoreNumeric - a.scoreNumeric);
+const breadcrumbs = [
+  { name: "Accueil", url: fullUrl("/fr/") },
+  { name: "Classement", url: fullUrl("/fr/rankings") },
+];
+---
+
+<BaseLayout
+  title={`Classement skincare - Meilleurs produits notes de A a E | ${siteConfig.name}`}
+  description={`${sorted.length} produits skincare notes de A a E. Independant, base sur la science, jamais influence par les marques.`}
+  jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+    <div class="text-center mb-10">
+      <h1 class="mb-3">Classement skincare</h1>
+      <p class="text-slate-600 max-w-2xl mx-auto">
+        {sorted.length} produits notes de A a E. Independant, base sur la science, jamais influence par les marques.
+      </p>
+    </div>
+
+    <div class="space-y-3">
+      {sorted.map((p, i) => (
+        <a href={`/fr/product/${p.id}`} class="card card-glow flex items-center gap-4 !p-4">
+          <span class="text-sm text-slate-400 w-6 text-right font-bold shrink-0">{i + 1}</span>
+          <div class={`grade grade-md ${gradeClass(p.score)} shrink-0`}>{p.score}</div>
+          <div class="min-w-0 flex-1">
+            <div class="flex items-center gap-2">
+              <span class="text-xs text-violet-600 font-semibold">{p.brand}</span>
+              <span class="text-[10px] px-2 py-0.5 rounded-full bg-slate-100 text-slate-500 capitalize">{p.type}</span>
+            </div>
+            <p class="text-sm font-bold text-slate-800 truncate">{p.name}</p>
+          </div>
+          <span class="text-sm font-bold text-slate-600 shrink-0 hidden sm:block">{p.scoreNumeric}/100</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

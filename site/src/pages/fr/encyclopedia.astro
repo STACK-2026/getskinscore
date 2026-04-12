@@ -1,0 +1,54 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { ingredients } from "../../data/ingredients";
+import { siteConfig } from "../../../site.config";
+import { fullUrl, gradeClass } from "../../utils/config";
+import { jsonLdBreadcrumbs } from "../../utils/seo";
+import { t } from "../../i18n/t";
+
+const sorted = [...ingredients].sort((a, b) => {
+  const order = { A: 0, B: 1, C: 2, D: 3, E: 4 };
+  return (order[a.score] || 5) - (order[b.score] || 5);
+});
+const categories = [...new Set(ingredients.map((i) => i.category))].sort();
+const breadcrumbs = [
+  { name: "Accueil", url: fullUrl("/fr/") },
+  { name: "Ingredients", url: fullUrl("/fr/encyclopedia") },
+];
+---
+
+<BaseLayout
+  title={`Encyclopedie des ingredients - ${ingredients.length}+ ingredients INCI decodes | ${siteConfig.name}`}
+  description={`${ingredients.length} ingredients INCI decodes. Chaque nom scientifique explique en langage clair avec score de securite et compatibilite peau.`}
+  jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+    <div class="text-center mb-10">
+      <h1 class="mb-3">Encyclopedie des ingredients</h1>
+      <p class="text-slate-600 max-w-2xl mx-auto">
+        {ingredients.length} ingredients INCI decodes. Chaque nom scientifique explique en langage clair.
+      </p>
+    </div>
+
+    <div class="flex flex-wrap gap-2 mb-8 justify-center">
+      {categories.map((cat) => (
+        <span class="text-xs font-medium px-3 py-1.5 rounded-full bg-violet-50 text-violet-600 capitalize">
+          {cat.replace("_", " ")} ({ingredients.filter((i) => i.category === cat).length})
+        </span>
+      ))}
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {sorted.map((ing) => (
+        <a href={`/fr/ingredient/${ing.id}`} class="card card-glow ingredient-glow flex items-start gap-3 !p-4">
+          <div class={`grade grade-md ${gradeClass(ing.score)} shrink-0 mt-0.5`}>{ing.score}</div>
+          <div class="min-w-0">
+            <p class="text-xs text-slate-400 font-mono">{ing.inciName}</p>
+            <h3 class="text-sm font-bold text-slate-800 mb-1">{t(ing.name, "fr")}</h3>
+            <p class="text-xs text-slate-500 line-clamp-2">{t(ing.description, "fr").slice(0, 100)}...</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

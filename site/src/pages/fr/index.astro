@@ -1,0 +1,24 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HomePage from "../../components/sections/HomePage.astro";
+import { siteConfig } from "../../../site.config";
+import { jsonLdHomepage, jsonLdFaq } from "../../utils/seo";
+import { tr, t } from "../../i18n/t";
+
+const faq = [
+  { question: t(tr.faq.q1, "fr"), answer: t(tr.faq.a1, "fr") },
+  { question: t(tr.faq.q2, "fr"), answer: t(tr.faq.a2, "fr") },
+  { question: t(tr.faq.q3, "fr"), answer: t(tr.faq.a3, "fr") },
+  { question: t(tr.faq.q4, "fr"), answer: t(tr.faq.a4, "fr") },
+];
+
+const jsonLd = [jsonLdHomepage(), jsonLdFaq(faq)];
+---
+
+<BaseLayout
+  title={`${siteConfig.name} - Sache ce que contient ta skincare`}
+  description="SkinScore note chaque produit skincare de A a E. Decode les ingredients, compare les produits, construis ta routine ideale. Independant, gratuit, base sur la science."
+  jsonLd={jsonLd}
+>
+  <HomePage />
+</BaseLayout>

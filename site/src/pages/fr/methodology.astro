@@ -1,0 +1,63 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { siteConfig } from "../../../site.config";
+import { fullUrl } from "../../utils/config";
+import { jsonLdBreadcrumbs } from "../../utils/seo";
+
+const breadcrumbs = [
+  { name: "Accueil", url: fullUrl("/fr/") },
+  { name: "Methodologie", url: fullUrl("/fr/methodology") },
+];
+---
+
+<BaseLayout
+  title={`Methodologie de notation - Comment SkinScore note les produits | ${siteConfig.name}`}
+  description="Transparence totale sur la facon dont SkinScore note les produits skincare. Cinq dimensions, ponderation, sources de donnees et seuils de notes."
+  jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
+>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
+    <h1 class="text-center mb-4">Methodologie de notation</h1>
+    <p class="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
+      Transparence totale sur la facon dont SkinScore note chaque produit. Cinq dimensions, ponderation, sources et seuils.
+    </p>
+
+    <div class="prose max-w-none">
+      <h2>Cinq dimensions, un score</h2>
+      <p>Chaque produit est analyse selon cinq dimensions independantes. Chaque dimension produit un score de 0 a 100, puis un score final pondere est calcule.</p>
+
+      <table>
+        <thead><tr><th>Dimension</th><th>Poids</th><th>Ce qu'on mesure</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Efficacite</strong></td><td>30%</td><td>Presence et position d'actifs prouves (retinol, niacinamide, vitamine C, AHA/BHA, ceramides...)</td></tr>
+          <tr><td><strong>Securite</strong></td><td>25%</td><td>Absence d'ingredients nocifs (allergenes, perturbateurs endocriniens, substances reglementees UE)</td></tr>
+          <tr><td><strong>Comedogenicite</strong></td><td>20%</td><td>Risque d'obstruction des pores base sur l'echelle comedogene 0-5 de chaque ingredient</td></tr>
+          <tr><td><strong>Transparence</strong></td><td>15%</td><td>INCI complet, concentrations divulguees, certifications (vegan, cruelty-free, bio)</td></tr>
+          <tr><td><strong>Compatibilite peau</strong></td><td>10%</td><td>Adaptation de la formule au type de peau (seche, grasse, mixte, sensible, normale)</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Echelle de notation</h2>
+      <div class="not-prose flex items-center gap-4 justify-center my-8">
+        <div class="text-center"><div class="grade grade-lg grade-a mx-auto mb-2">A</div><p class="text-xs text-slate-500">85-100</p></div>
+        <div class="text-center"><div class="grade grade-lg grade-b mx-auto mb-2">B</div><p class="text-xs text-slate-500">70-84</p></div>
+        <div class="text-center"><div class="grade grade-lg grade-c mx-auto mb-2">C</div><p class="text-xs text-slate-500">55-69</p></div>
+        <div class="text-center"><div class="grade grade-lg grade-d mx-auto mb-2">D</div><p class="text-xs text-slate-500">40-54</p></div>
+        <div class="text-center"><div class="grade grade-lg grade-e mx-auto mb-2">E</div><p class="text-xs text-slate-500">0-39</p></div>
+      </div>
+
+      <h2>Sources de donnees</h2>
+      <ul>
+        <li><strong>EU CosIng</strong> - Base officielle de la Commission europeenne (30 000+ ingredients cosmetiques)</li>
+        <li><strong>SCCS</strong> - Comite scientifique pour la securite des consommateurs</li>
+        <li><strong>Recherche dermatologique</strong> - Publications et essais cliniques dans les journaux de reference</li>
+        <li><strong>Listes INCI fabricants</strong> - Compositions completes des emballages</li>
+      </ul>
+
+      <h2>Independance</h2>
+      <p>SkinScore n'accepte aucun paiement des marques pour influencer les notes. Nos revenus proviennent de liens affilies vers des detaillants (qui n'affectent jamais les scores) et d'abonnements premium optionnels.</p>
+
+      <h2>Limites</h2>
+      <p>Notre notation est basee sur les ingredients declares, pas sur les concentrations exactes (rarement divulguees). L'ordre INCI donne une indication relative. Nous mettons a jour les scores quand les marques reformulent.</p>
+    </div>
+  </div>
+</BaseLayout>
