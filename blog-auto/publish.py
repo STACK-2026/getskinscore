@@ -43,7 +43,7 @@ def get_published_slugs():
     return slugs
 
 
-def find_next_article(articles, published):
+def find_next_article(articles, published, force=False):
     """Find the next article to publish based on date."""
     now = datetime.now(timezone.utc)
     today = now.strftime("%Y-%m-%d")
@@ -55,6 +55,10 @@ def find_next_article(articles, published):
         # Skip already published
         if slug in published:
             continue
+
+        # Force mode: publish next regardless of date
+        if force:
+            return article
 
         # Only publish if date is today or past
         if date <= today:
@@ -169,7 +173,7 @@ def main():
     print(f"  Articles planned: {len(articles)}")
     print(f"  Already published: {len(published)}")
 
-    article = find_next_article(articles, published)
+    article = find_next_article(articles, published, force=force)
 
     if not article:
         print("  No article to publish today.")
