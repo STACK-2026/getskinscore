@@ -246,99 +246,76 @@ const subScoreLabels = [
 
 <!-- ========== 5. SCORE PREVIEW (the "aha moment") ========== -->
 <section class="section section-alt">
-  <div class="max-w-4xl mx-auto px-4 sm:px-6">
-    <div class="text-center mb-10">
-      <div class="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-100 text-violet-700 text-sm font-semibold mb-4">
-        {locale === "fr" ? "Exemple en direct" : "Live example"}
+  <div class="max-w-3xl mx-auto px-4 sm:px-6">
+    <h2 class="reveal text-center mb-10">{locale === "fr" ? "Le prix ne garantit rien. La formule, si." : "Price guarantees nothing. The formula does."}</h2>
+
+    <!-- Compact VS table -->
+    <div class="reveal rounded-2xl border border-slate-200 bg-white overflow-hidden shadow-sm">
+      <!-- Header row -->
+      <div class="grid grid-cols-3 text-center border-b border-slate-100">
+        <a href={localizedPath(`/product/${previewProduct.id}`, locale)} class="p-5 hover:bg-emerald-50/30 transition-colors group">
+          <div class={`grade grade-lg ${gc(previewProduct.score)} grade-pulse mx-auto mb-2`}>{previewProduct.score}</div>
+          <p class="text-xs font-bold text-slate-800 group-hover:text-emerald-600 transition-colors">{previewProduct.brand}</p>
+          <p class="text-[10px] text-slate-400">{previewProduct.name}</p>
+        </a>
+        <div class="flex items-center justify-center border-x border-slate-100">
+          <span class="text-xs font-extrabold text-slate-300 uppercase tracking-widest">VS</span>
+        </div>
+        <a href={localizedPath(`/product/${comparisonProduct.id}`, locale)} class="p-5 hover:bg-red-50/30 transition-colors group">
+          <div class={`grade grade-lg ${gc(comparisonProduct.score)} mx-auto mb-2`}>{comparisonProduct.score}</div>
+          <p class="text-xs font-bold text-slate-800 group-hover:text-red-600 transition-colors">{comparisonProduct.brand}</p>
+          <p class="text-[10px] text-slate-400">{comparisonProduct.name}</p>
+        </a>
       </div>
-      <h2 class="reveal mb-3">{locale === "fr" ? "Le prix ne garantit rien. La formule, si." : "Price guarantees nothing. The formula does."}</h2>
-    </div>
 
-    <!-- VS comparison block -->
-    <div class="reveal relative">
-      <!-- VS badge (center) -->
-      <div class="hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 w-12 h-12 rounded-full bg-slate-900 text-white items-center justify-center text-xs font-extrabold shadow-lg">VS</div>
+      <!-- Price row -->
+      <div class="grid grid-cols-3 text-center border-b border-slate-100">
+        <div class="p-4">
+          <p class="text-2xl sm:text-3xl font-extrabold text-emerald-600">{previewProduct.price} EUR</p>
+        </div>
+        <div class="flex items-center justify-center border-x border-slate-100">
+          <p class="text-[10px] text-slate-400 font-medium">{locale === "fr" ? "Prix" : "Price"}</p>
+        </div>
+        <div class="p-4">
+          <p class="text-2xl sm:text-3xl font-extrabold text-red-500">{comparisonProduct.price} EUR</p>
+        </div>
+      </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-0">
-        <!-- CeraVe - winner -->
-        <a href={localizedPath(`/product/${previewProduct.id}`, locale)} class="group block p-6 md:p-8 rounded-2xl md:rounded-r-none bg-emerald-50/50 border-2 border-emerald-200/60 md:border-r-0 hover:bg-emerald-50 transition-all duration-300">
-          <div class="flex items-center justify-between mb-5">
-            <div>
-              <p class="text-xs text-emerald-600 font-semibold mb-0.5">{previewProduct.brand}</p>
-              <p class="text-base font-bold text-slate-800">{previewProduct.name}</p>
-            </div>
-            <div class={`grade grade-xl ${gc(previewProduct.score)} grade-pulse`}>{previewProduct.score}</div>
-          </div>
+      <!-- Score row -->
+      <div class="grid grid-cols-3 text-center border-b border-slate-100">
+        <div class="p-4">
+          <p class="text-2xl font-extrabold text-emerald-600">{previewProduct.scoreNumeric}<span class="text-sm text-slate-400">/100</span></p>
+        </div>
+        <div class="flex items-center justify-center border-x border-slate-100">
+          <p class="text-[10px] text-slate-400 font-medium">Score</p>
+        </div>
+        <div class="p-4">
+          <p class="text-2xl font-extrabold text-red-500">{comparisonProduct.scoreNumeric}<span class="text-sm text-slate-400">/100</span></p>
+        </div>
+      </div>
 
-          <div class="flex items-baseline gap-2 mb-5">
-            <span class="text-3xl font-extrabold text-emerald-600">{previewProduct.price} EUR</span>
-            <span class="text-sm text-slate-400">· {previewProduct.size}</span>
-          </div>
-
-          <!-- Sub-scores as compact row -->
-          <div class="grid grid-cols-5 gap-2 mb-5">
-            {subScoreLabels.map((s) => {
-              const grade = (previewProduct.subScores as any)[s.key] as string;
-              return (
-                <div class="text-center">
-                  <div class={`grade grade-sm ${gc(grade)} mx-auto`}>{grade}</div>
-                  <p class="text-[9px] text-slate-400 mt-1 leading-tight">{s.label}</p>
-                </div>
-              );
-            })}
-          </div>
-
-          <div class="flex items-center justify-between pt-4 border-t border-emerald-200/50">
-            <span class="text-xl font-extrabold text-emerald-600">{previewProduct.scoreNumeric}/100</span>
-            <span class="text-xs text-slate-400 group-hover:text-emerald-600 transition-colors">{locale === "fr" ? "Voir la fiche" : "View details"} &rarr;</span>
-          </div>
-        </a>
-
-        <!-- La Mer - exposed -->
-        <a href={localizedPath(`/product/${comparisonProduct.id}`, locale)} class="group block p-6 md:p-8 rounded-2xl md:rounded-l-none bg-red-50/50 border-2 border-red-200/60 md:border-l-0 hover:bg-red-50 transition-all duration-300">
-          <div class="flex items-center justify-between mb-5">
-            <div>
-              <p class="text-xs text-red-600 font-semibold mb-0.5">{comparisonProduct.brand}</p>
-              <p class="text-base font-bold text-slate-800">{comparisonProduct.name}</p>
-            </div>
-            <div class={`grade grade-xl ${gc(comparisonProduct.score)}`}>{comparisonProduct.score}</div>
-          </div>
-
-          <div class="flex items-baseline gap-2 mb-5">
-            <span class="text-3xl font-extrabold text-red-500">{comparisonProduct.price} EUR</span>
-            <span class="text-sm text-slate-400">· {comparisonProduct.size}</span>
-          </div>
-
-          <!-- Sub-scores as compact row -->
-          <div class="grid grid-cols-5 gap-2 mb-5">
-            {subScoreLabels.map((s) => {
-              const grade = (comparisonProduct.subScores as any)[s.key] as string;
-              return (
-                <div class="text-center">
-                  <div class={`grade grade-sm ${gc(grade)} mx-auto`}>{grade}</div>
-                  <p class="text-[9px] text-slate-400 mt-1 leading-tight">{s.label}</p>
-                </div>
-              );
-            })}
-          </div>
-
-          <div class="flex items-center justify-between pt-4 border-t border-red-200/50">
-            <span class="text-xl font-extrabold text-red-500">{comparisonProduct.scoreNumeric}/100</span>
-            <span class="text-xs text-slate-400 group-hover:text-red-600 transition-colors">{locale === "fr" ? "Voir la fiche" : "View details"} &rarr;</span>
-          </div>
-        </a>
+      <!-- Sub-scores row (compact) -->
+      <div class="grid grid-cols-3 text-center">
+        <div class="p-4 flex items-center justify-center gap-1.5">
+          {Object.values(previewProduct.subScores).map((grade: string) => (
+            <div class={`grade grade-sm ${gc(grade)}`} style="width:1.25rem;height:1.25rem;font-size:0.65rem">{grade}</div>
+          ))}
+        </div>
+        <div class="flex items-center justify-center border-x border-slate-100">
+          <p class="text-[10px] text-slate-400 font-medium">{locale === "fr" ? "Detail" : "Detail"}</p>
+        </div>
+        <div class="p-4 flex items-center justify-center gap-1.5">
+          {Object.values(comparisonProduct.subScores).map((grade: string) => (
+            <div class={`grade grade-sm ${gc(grade)}`} style="width:1.25rem;height:1.25rem;font-size:0.65rem">{grade}</div>
+          ))}
+        </div>
       </div>
     </div>
 
-    <!-- Mobile VS -->
-    <div class="md:hidden flex justify-center -mt-2 mb-2">
-      <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">VS</span>
-    </div>
-
-    <p class="reveal text-center text-sm text-slate-500 mt-8 max-w-lg mx-auto font-medium">
+    <p class="reveal text-center text-sm text-slate-500 mt-6 max-w-md mx-auto font-medium">
       {locale === "fr"
-        ? "Meme categorie. Meme promesse. 23x le prix. Score inferieur. Les molecules ne mentent pas."
-        : "Same category. Same promise. 23x the price. Lower score. Molecules don't lie."}
+        ? "Meme categorie. Meme promesse. 23x le prix. Score inferieur."
+        : "Same category. Same promise. 23x the price. Lower score."}
     </p>
   </div>
 </section>
