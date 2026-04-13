@@ -1,8 +1,9 @@
 name: Blog Auto — The Lab
 
 on:
-  schedule:
-    - cron: '30 5-6 * * 1-5'
+  # DISABLED: content written manually for quality (STACK-2026 rule)
+  # schedule:
+  #   - cron: '30 5-6 * * 1-5'
   workflow_dispatch:
     inputs:
       force:
