@@ -160,14 +160,14 @@ export const siteConfig = {
 
   // Skin concerns (used for programmatic pages)
   concerns: [
-    { id: "acne", label: { en: "Acne", fr: "Acne" }, icon: "droplets" },
-    { id: "anti-aging", label: { en: "Anti-aging", fr: "Anti-age" }, icon: "clock" },
+    { id: "acne", label: { en: "Acne", fr: "Acn\u00e9" }, icon: "droplets" },
+    { id: "anti-aging", label: { en: "Anti-aging", fr: "Anti-\u00e2ge" }, icon: "clock" },
     { id: "hyperpigmentation", label: { en: "Dark spots", fr: "Taches brunes" }, icon: "sun" },
-    { id: "rosacea", label: { en: "Rosacea", fr: "Rosacee" }, icon: "flame" },
-    { id: "dryness", label: { en: "Dryness", fr: "Secheresse" }, icon: "wind" },
-    { id: "sensitivity", label: { en: "Sensitivity", fr: "Sensibilite" }, icon: "heart" },
-    { id: "oiliness", label: { en: "Oiliness", fr: "Exces de sebum" }, icon: "droplet" },
-    { id: "pores", label: { en: "Large pores", fr: "Pores dilates" }, icon: "circle" },
+    { id: "rosacea", label: { en: "Rosacea", fr: "Rosac\u00e9e" }, icon: "flame" },
+    { id: "dryness", label: { en: "Dryness", fr: "S\u00e9cheresse" }, icon: "wind" },
+    { id: "sensitivity", label: { en: "Sensitivity", fr: "Sensibilit\u00e9" }, icon: "heart" },
+    { id: "oiliness", label: { en: "Oiliness", fr: "Exc\u00e8s de s\u00e9bum" }, icon: "droplet" },
+    { id: "pores", label: { en: "Large pores", fr: "Pores dilat\u00e9s" }, icon: "circle" },
   ],
 
   // Product types
