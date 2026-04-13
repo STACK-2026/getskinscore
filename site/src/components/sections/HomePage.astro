@@ -157,7 +157,7 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
     </h2>
     <p class="reveal text-lg text-white/60 leading-relaxed mb-8">
       {locale === "fr"
-        ? "SkinScore est ne d'une frustration simple : pourquoi est-ce si difficile de savoir ce qu'il y a dans un soin ? Pourquoi faut-il un diplome en chimie pour lire une etiquette ? Pourquoi les marques depensent plus en marketing qu'en formulation ? On a decide de changer ca. Chaque ingredient, passe au crible. Chaque produit, note sans concession. Aucune marque ne nous paie. Aucune ne peut acheter un meilleur score."
+        ? "SkinScore est né d'une frustration simple : pourquoi est-ce si difficile de savoir ce qu'il y a dans un soin ? Pourquoi faut-il un diplome en chimie pour lire une etiquette ? Pourquoi les marques depensent plus en marketing qu'en formulation ? On a décidé de changer ça. Chaque ingrédient, passé au crible. Chaque produit, noté sans concession. Aucune marque ne nous paie. Aucune ne peut acheter un meilleur score."
         : "SkinScore was born from a simple frustration: why is it so hard to know what's in your skincare? Why do you need a chemistry degree to read a label? Why do brands spend more on marketing than formulation? We decided to change that. Every ingredient, dissected. Every product, scored without compromise. No brand pays us. None can buy a better score."}
     </p>
     <div class="reveal flex flex-wrap justify-center gap-4 text-sm">
@@ -366,12 +366,12 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
     <div class="si-carousel reveal">
       <div class="si-carousel-track">
         {spotlightIngredients.map((ing) => (
-          <a href={localizedPath(`/ingredient/${ing.id}`, locale)} class="si-carousel-item card card-glow ingredient-glow flex items-start gap-3 !p-5 shrink-0 w-72">
-            <div class={`grade grade-md ${gc(ing.score)} shrink-0 mt-0.5`}>{ing.score}</div>
+          <a href={localizedPath(`/ingredient/${ing.id}`, locale)} class="si-carousel-item flex items-center gap-3 p-4 shrink-0 w-64 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-sm transition-all duration-200">
+            <div class={`grade grade-sm ${gc(ing.score)} shrink-0`}>{ing.score}</div>
             <div class="min-w-0">
-              <h3 class="text-sm font-bold text-slate-800 mb-1">{t(ing.name, locale)}</h3>
-              <p class="text-xs text-slate-500 leading-relaxed line-clamp-3">{t(ing.description, locale).slice(0, 120)}...</p>
-              <div class="flex flex-wrap gap-1 mt-2">
+              <h3 class="text-xs font-bold text-slate-800 mb-0.5">{t(ing.name, locale)}</h3>
+              <p class="text-[10px] text-slate-500 line-clamp-2">{t(ing.description, locale).slice(0, 80)}...</p>
+              <div class="flex flex-wrap gap-1 mt-1.5">
                 {ing.concerns.slice(0, 3).map((c) => (
                   <span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-violet-50 text-violet-600">{c}</span>
                 ))}
@@ -391,10 +391,10 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
     <div class="text-center mb-12">
       <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-500/20 text-violet-300 text-sm font-semibold mb-4 border border-violet-500/20">
         <span class="w-2 h-2 rounded-full bg-violet-400 animate-pulse"></span>
-        {locale === "fr" ? "Bientot disponible" : "Coming soon"}
+        {locale === "fr" ? "Bient\u00f4t disponible" : "Coming soon"}
       </div>
-      <h2 class="reveal text-2xl md:text-3xl font-extrabold mb-4">
-        {locale === "fr" ? "Les features que personne d'autre n'a" : "Features nobody else has"}
+      <h2 class="reveal text-2xl md:text-3xl font-extrabold mb-4 text-white">
+        {locale === "fr" ? "Ce que personne d'autre ne propose" : "Features nobody else has"}
       </h2>
     </div>
 
