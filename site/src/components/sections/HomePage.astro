@@ -3,19 +3,25 @@ import { siteConfig } from "../../../site.config";
 import { getLocale, t, tr, localizedPath } from "../../i18n/t";
 import { ingredients } from "../../data/ingredients";
 import { products, getUniqueBrands, brandSlug } from "../../data/products";
+import { getCollection } from "astro:content";
 
 const locale = getLocale(Astro.url);
+const now = new Date();
 
-// Top products for showcase
+// Top products for showcase (with images preferred)
 const topProducts = [...products]
   .filter((p) => p.scoreNumeric >= 85)
-  .sort((a, b) => b.scoreNumeric - a.scoreNumeric)
-  .slice(0, 8);
+  .sort((a, b) => (b.image ? 1 : 0) - (a.image ? 1 : 0) || b.scoreNumeric - a.scoreNumeric)
+  .slice(0, 12);
 
 // Worst famous products (editorial power)
 const exposedProducts = products.filter((p) =>
   ["la-mer-creme-de-la-mer", "nivea-creme", "sol-de-janeiro-brazilian-bum-bum-cream", "garnier-skinactive-micellar-cleansing-water-all-in-1"].includes(p.id)
 ).sort((a, b) => a.scoreNumeric - b.scoreNumeric);
+
+// Score preview product
+const previewProduct = products.find((p) => p.id === "cerave-moisturizing-cream")!;
+const comparisonProduct = products.find((p) => p.id === "la-mer-creme-de-la-mer")!;
 
 // Spotlight ingredients
 const spotlightIngredients = ingredients.filter((i) =>
@@ -30,18 +36,41 @@ const rotatingWords = locale === "fr"
   ? ["ton serum", "ta creme", "ton SPF", "ton nettoyant", "ton fond de teint", "ton contour des yeux"]
   : ["your serum", "your cream", "your SPF", "your cleanser", "your moisturiser", "your eye cream"];
 
+// Blog posts
+const blogLang = locale;
+const blogPosts = (await getCollection("blog", ({ data }) =>
+  !data.draft && data.lang === blogLang && data.date.valueOf() <= now.valueOf()
+)).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, 3);
+
 // Grade helper
 function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
+
+// Sub-score numeric values (A=90, B=75, C=60, D=40, E=20)
+function gradeToNum(g: string): number {
+  return { A: 92, B: 75, C: 60, D: 40, E: 20 }[g] ?? 50;
+}
+
+const subScoreLabels = [
+  { key: "efficacy", label: t(tr.product.efficacy, locale), icon: "⚡" },
+  { key: "safety", label: t(tr.product.safety, locale), icon: "🛡" },
+  { key: "comedogenicity", label: t(tr.product.comedogenicity, locale), icon: "🔬" },
+  { key: "transparency", label: t(tr.product.transparency, locale), icon: "👁" },
+  { key: "skinTypeFit", label: t(tr.product.skinTypeFit, locale), icon: "🎯" },
+];
 ---
 
 <!-- ========== 1. HERO ========== -->
 <section class="relative overflow-hidden pt-12 pb-20 md:pt-20 md:pb-28">
-  <!-- Animated background -->
+  <!-- Animated parallax background -->
   <div class="absolute inset-0 -z-10">
     <div class="absolute inset-0 bg-gradient-to-br from-violet-50 via-white to-indigo-50/40"></div>
-    <div class="absolute top-20 left-[10%] w-72 h-72 bg-violet-200/15 rounded-full blur-[80px] molecule-float"></div>
-    <div class="absolute bottom-10 right-[10%] w-80 h-80 bg-indigo-200/15 rounded-full blur-[80px] molecule-float" style="animation-delay:2s"></div>
-    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-amber-100/10 rounded-full blur-[100px] molecule-float" style="animation-delay:4s"></div>
+    <div class="hero-orb absolute top-20 left-[10%] w-72 h-72 bg-violet-200/20 rounded-full blur-[80px]" data-speed="0.02"></div>
+    <div class="hero-orb absolute bottom-10 right-[10%] w-80 h-80 bg-indigo-200/20 rounded-full blur-[80px]" data-speed="-0.015" style="animation-delay:2s"></div>
+    <div class="hero-orb absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-amber-100/15 rounded-full blur-[100px]" data-speed="0.01" style="animation-delay:4s"></div>
+    <!-- Floating grade badges (decorative) -->
+    <div class="hidden md:block absolute top-[20%] left-[5%] grade grade-sm grade-a opacity-20 molecule-float" style="animation-delay:1s">A</div>
+    <div class="hidden md:block absolute top-[60%] right-[8%] grade grade-sm grade-c opacity-20 molecule-float" style="animation-delay:3s">C</div>
+    <div class="hidden md:block absolute bottom-[25%] left-[15%] grade grade-sm grade-b opacity-15 molecule-float" style="animation-delay:5s">B</div>
   </div>
 
   <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center relative">
@@ -93,7 +122,7 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
       {t(tr.hero.subtitle, locale)}
     </p>
 
-    <!-- Search bar (prominent, mobile-first) -->
+    <!-- Search bar -->
     <div class="reveal max-w-2xl mx-auto mb-12">
       <div class="relative group">
         <div class="absolute -inset-1 bg-gradient-to-r from-violet-400 to-indigo-400 rounded-2xl blur-lg opacity-0 group-hover:opacity-20 transition-opacity duration-500"></div>
@@ -116,105 +145,102 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
       </div>
     </div>
 
-    <!-- Live score demo -->
+    <!-- Live score demo - floating grade badges -->
     <div class="reveal grid grid-cols-2 sm:flex items-center justify-center gap-6 sm:gap-8 md:gap-12">
-      <a href={localizedPath("/product/cerave-moisturizing-cream", locale)} class="group flex flex-col items-center">
-        <div class="grade grade-xl grade-a grade-pulse shadow-lg group-hover:scale-110 transition-transform">A</div>
-        <span class="text-xs text-slate-500 mt-2 font-semibold group-hover:text-violet-600 transition-colors">CeraVe</span>
-        <span class="text-[10px] text-slate-400">88/100</span>
-      </a>
-      <a href={localizedPath("/product/rhode-peptide-glazing-fluid", locale)} class="group flex flex-col items-center">
-        <div class="grade grade-xl grade-a shadow-lg group-hover:scale-110 transition-transform">A</div>
-        <span class="text-xs text-slate-500 mt-2 font-semibold group-hover:text-violet-600 transition-colors">Rhode</span>
-        <span class="text-[10px] text-slate-400">86/100</span>
-      </a>
-      <a href={localizedPath("/product/la-mer-creme-de-la-mer", locale)} class="group flex flex-col items-center">
-        <div class="grade grade-xl grade-c shadow-lg group-hover:scale-110 transition-transform">C</div>
-        <span class="text-xs text-slate-500 mt-2 font-semibold group-hover:text-violet-600 transition-colors">La Mer</span>
-        <span class="text-[10px] text-slate-400">67/100</span>
-      </a>
-      <a href={localizedPath("/product/nivea-creme", locale)} class="group flex flex-col items-center opacity-60 hover:opacity-100 transition-opacity">
-        <div class="grade grade-xl grade-c shadow-lg group-hover:scale-110 transition-transform">C</div>
-        <span class="text-xs text-slate-500 mt-2 font-semibold group-hover:text-violet-600 transition-colors">Nivea</span>
-        <span class="text-[10px] text-slate-400">58/100</span>
-      </a>
+      {[
+        { id: "cerave-moisturizing-cream", brand: "CeraVe", score: "A", num: 88, price: "15 EUR" },
+        { id: "rhode-peptide-glazing-fluid", brand: "Rhode", score: "A", num: 86, price: "29 EUR" },
+        { id: "la-mer-creme-de-la-mer", brand: "La Mer", score: "C", num: 67, price: "350 EUR" },
+        { id: "nivea-creme", brand: "Nivea", score: "C", num: 58, price: "5 EUR" },
+      ].map((p, i) => (
+        <a href={localizedPath(`/product/${p.id}`, locale)} class={`group flex flex-col items-center hero-product-badge ${i >= 2 ? "opacity-60 hover:opacity-100" : ""} transition-all duration-300`} style={`animation-delay: ${i * 100}ms`}>
+          <div class={`grade grade-xl ${gc(p.score)} ${i === 0 ? "grade-pulse" : ""} shadow-lg group-hover:scale-110 transition-transform duration-300`}>{p.score}</div>
+          <span class="text-xs text-slate-500 mt-2 font-semibold group-hover:text-violet-600 transition-colors">{p.brand}</span>
+          <span class="text-[10px] text-slate-400">{p.num}/100 · {p.price}</span>
+        </a>
+      ))}
     </div>
 
     <p class="text-[11px] text-slate-400 mt-4">
-      {locale === "fr" ? "La Mer a 350EUR obtient le meme score que Nivea a 5EUR. La science ne ment pas." : "La Mer at 350EUR scores the same as Nivea at 5EUR. Science doesn't lie."}
+      {locale === "fr" ? "La Mer a 350 EUR obtient le meme score que Nivea a 5 EUR. La science ne ment pas." : "La Mer at 350 EUR scores the same as Nivea at 5 EUR. Science doesn't lie."}
     </p>
   </div>
 </section>
 
-<!-- ========== 2. MANIFESTE ========== -->
+<!-- ========== 2. STATS (animated counters) ========== -->
+<section class="py-8 md:py-10 border-y border-slate-100 bg-white/60 backdrop-blur-sm">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6">
+    <div class="reveal-children grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="text-center">
+        <p class="text-3xl md:text-4xl font-extrabold text-gradient si-counter" data-target="2680">0</p>
+        <p class="text-xs text-slate-500 mt-1 font-medium">{t(tr.stats.products, locale)}</p>
+      </div>
+      <div class="text-center">
+        <p class="text-3xl md:text-4xl font-extrabold text-gradient si-counter" data-target="101">0</p>
+        <p class="text-xs text-slate-500 mt-1 font-medium">{t(tr.stats.ingredients, locale)}</p>
+      </div>
+      <div class="text-center">
+        <p class="text-3xl md:text-4xl font-extrabold text-gradient si-counter" data-target="250">0</p>
+        <p class="text-xs text-slate-500 mt-1 font-medium">{t(tr.stats.brands, locale)}</p>
+      </div>
+      <div class="text-center">
+        <p class="text-3xl md:text-4xl font-extrabold text-gradient si-counter" data-target="5">0</p>
+        <p class="text-xs text-slate-500 mt-1 font-medium">{locale === "fr" ? "Dimensions d'analyse" : "Scoring dimensions"}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 3. MANIFESTE ========== -->
 <section class="section bg-slate-900 text-white relative overflow-hidden">
-  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(124,58,237,0.15),transparent_70%)]"></div>
+  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(124,58,237,0.2),transparent_70%)]"></div>
+  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_rgba(79,70,229,0.1),transparent_60%)]"></div>
   <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center relative">
-    <h2 class="reveal text-2xl md:text-3xl font-extrabold mb-6 leading-tight text-white">
+    <div class="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-violet-300 text-sm font-semibold mb-6">
+      <span class="w-2 h-2 rounded-full bg-violet-400 animate-pulse"></span>
+      {locale === "fr" ? "Notre mission" : "Our mission"}
+    </div>
+    <h2 class="reveal text-2xl md:text-4xl font-extrabold mb-6 leading-tight text-white">
       {locale === "fr"
         ? "On ne te vend rien. On te montre ce qu'on te vend."
         : "We don't sell you anything. We show you what they're selling you."}
     </h2>
-    <p class="reveal text-lg text-white/60 leading-relaxed mb-8">
+    <p class="reveal text-base md:text-lg text-white/50 leading-relaxed mb-8">
       {locale === "fr"
-        ? "SkinScore est né d'une frustration simple : pourquoi est-ce si difficile de savoir ce qu'il y a dans un soin ? Pourquoi faut-il un diplome en chimie pour lire une etiquette ? Pourquoi les marques depensent plus en marketing qu'en formulation ? On a décidé de changer ça. Chaque ingrédient, passé au crible. Chaque produit, noté sans concession. Aucune marque ne nous paie. Aucune ne peut acheter un meilleur score."
+        ? "SkinScore est ne d'une frustration simple : pourquoi est-ce si difficile de savoir ce qu'il y a dans un soin ? Pourquoi faut-il un diplome en chimie pour lire une etiquette ? Pourquoi les marques depensent plus en marketing qu'en formulation ? On a decide de changer ca. Chaque ingredient, passe au crible. Chaque produit, note sans concession. Aucune marque ne nous paie. Aucune ne peut acheter un meilleur score."
         : "SkinScore was born from a simple frustration: why is it so hard to know what's in your skincare? Why do you need a chemistry degree to read a label? Why do brands spend more on marketing than formulation? We decided to change that. Every ingredient, dissected. Every product, scored without compromise. No brand pays us. None can buy a better score."}
     </p>
-    <div class="reveal flex flex-wrap justify-center gap-4 text-sm">
-      <span class="px-4 py-2 rounded-full bg-white/10 border border-white/10">{locale === "fr" ? "Zero partenariat marque" : "Zero brand deals"}</span>
-      <span class="px-4 py-2 rounded-full bg-white/10 border border-white/10">{locale === "fr" ? "Donne UE CosIng + SCCS" : "EU CosIng + SCCS data"}</span>
-      <span class="px-4 py-2 rounded-full bg-white/10 border border-white/10">{locale === "fr" ? "Methodologie 100% transparente" : "100% transparent methodology"}</span>
-    </div>
-  </div>
-</section>
-
-<!-- ========== 3. STATS (animated counters) ========== -->
-<section class="section">
-  <div class="max-w-5xl mx-auto px-4 sm:px-6">
-    <div class="reveal-children grid grid-cols-2 md:grid-cols-4 gap-6">
-      <div class="text-center p-6 rounded-2xl bg-gradient-to-br from-violet-50 to-white border border-violet-100/50">
-        <p class="text-4xl md:text-5xl font-extrabold text-gradient si-counter" data-target="2680">0</p>
-        <p class="text-sm text-slate-500 mt-2 font-medium">{t(tr.stats.products, locale)}</p>
-      </div>
-      <div class="text-center p-6 rounded-2xl bg-gradient-to-br from-indigo-50 to-white border border-indigo-100/50">
-        <p class="text-4xl md:text-5xl font-extrabold text-gradient si-counter" data-target="101">0</p>
-        <p class="text-sm text-slate-500 mt-2 font-medium">{t(tr.stats.ingredients, locale)}</p>
-      </div>
-      <div class="text-center p-6 rounded-2xl bg-gradient-to-br from-amber-50 to-white border border-amber-100/50">
-        <p class="text-4xl md:text-5xl font-extrabold text-gradient si-counter" data-target="250">0</p>
-        <p class="text-sm text-slate-500 mt-2 font-medium">{t(tr.stats.brands, locale)}</p>
-      </div>
-      <div class="text-center p-6 rounded-2xl bg-gradient-to-br from-emerald-50 to-white border border-emerald-100/50">
-        <p class="text-4xl md:text-5xl font-extrabold text-gradient si-counter" data-target="5">0</p>
-        <p class="text-sm text-slate-500 mt-2 font-medium">{locale === "fr" ? "Dimensions d'analyse" : "Scoring dimensions"}</p>
-      </div>
+    <div class="reveal flex flex-wrap justify-center gap-3 text-sm">
+      <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/70 hover:bg-white/10 transition-colors">{locale === "fr" ? "Zero partenariat marque" : "Zero brand deals"}</span>
+      <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/70 hover:bg-white/10 transition-colors">{locale === "fr" ? "Donnees UE CosIng + SCCS" : "EU CosIng + SCCS data"}</span>
+      <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/70 hover:bg-white/10 transition-colors">{locale === "fr" ? "Methodologie 100% transparente" : "100% transparent methodology"}</span>
     </div>
   </div>
 </section>
 
 <!-- ========== 4. PROBLEM (3 threat cards) ========== -->
-<section class="section section-alt">
+<section class="section">
   <div class="max-w-5xl mx-auto px-4 sm:px-6">
     <h2 class="reveal text-center mb-4">{t(tr.problem.title, locale)}</h2>
     <p class="reveal text-center text-slate-500 max-w-2xl mx-auto mb-10">{t(tr.problem.text, locale)}</p>
 
     <div class="reveal-children grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="card card-glow !border-red-200/50 !bg-red-50/20 p-6">
-        <div class="w-12 h-12 rounded-2xl bg-red-100 flex items-center justify-center mb-4">
+      <div class="card card-glow !border-red-200/50 !bg-red-50/20 p-6 group hover:!border-red-300 transition-all duration-300">
+        <div class="w-12 h-12 rounded-2xl bg-red-100 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
           <svg class="w-6 h-6 text-red-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
         </div>
         <h3 class="text-base font-bold mb-2 text-red-900">{locale === "fr" ? "Parfum = allergene n1" : "Fragrance = #1 allergen"}</h3>
         <p class="text-sm text-red-800/70 leading-relaxed">{locale === "fr" ? "L'UE liste 26 allergenes du parfum. Pourtant, 'Parfum' cache des centaines de molecules non divulguees. Le top allergene en dermatologie." : "The EU lists 26 fragrance allergens. Yet 'Parfum' hides hundreds of undisclosed chemicals. The top allergen in dermatology."}</p>
       </div>
-      <div class="card card-glow !border-amber-200/50 !bg-amber-50/20 p-6">
-        <div class="w-12 h-12 rounded-2xl bg-amber-100 flex items-center justify-center mb-4">
+      <div class="card card-glow !border-amber-200/50 !bg-amber-50/20 p-6 group hover:!border-amber-300 transition-all duration-300">
+        <div class="w-12 h-12 rounded-2xl bg-amber-100 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
           <svg class="w-6 h-6 text-amber-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
         </div>
         <h3 class="text-base font-bold mb-2 text-amber-900">{locale === "fr" ? "Perturbateurs endocriniens" : "Endocrine disruptors"}</h3>
         <p class="text-sm text-amber-800/70 leading-relaxed">{locale === "fr" ? "Oxybenzone, octinoxate, certains parabenes. Des molecules qui miment tes hormones. Interdites a Hawaii pour les recifs, mais legales dans ton soin." : "Oxybenzone, octinoxate, certain parabens. Molecules that mimic your hormones. Banned in Hawaii for coral reefs, but legal in your skincare."}</p>
       </div>
-      <div class="card card-glow !border-violet-200/50 !bg-violet-50/20 p-6 !border-2">
-        <div class="w-12 h-12 rounded-2xl bg-violet-100 flex items-center justify-center mb-4">
+      <div class="card card-glow !border-violet-200/50 !bg-violet-50/20 p-6 !border-2 group hover:!border-violet-300 transition-all duration-300">
+        <div class="w-12 h-12 rounded-2xl bg-violet-100 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
           <svg class="w-6 h-6 text-violet-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
         </div>
         <h3 class="text-base font-bold mb-2 text-violet-900">{locale === "fr" ? "SkinScore lit pour toi" : "SkinScore reads for you"}</h3>
@@ -224,7 +250,99 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
   </div>
 </section>
 
-<!-- ========== 5. FEATURES ========== -->
+<!-- ========== 5. SCORE PREVIEW (the "aha moment") ========== -->
+<section class="section section-alt">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-10">
+      <div class="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-100 text-violet-700 text-sm font-semibold mb-4">
+        {locale === "fr" ? "Exemple en direct" : "Live example"}
+      </div>
+      <h2 class="reveal mb-3">{locale === "fr" ? "Ce que tu vois quand tu analyses un soin" : "What you see when you analyse a product"}</h2>
+      <p class="reveal text-slate-500 max-w-xl mx-auto text-sm">
+        {locale === "fr" ? "5 dimensions, un score final, zero bullshit." : "5 dimensions, one final score, zero BS."}
+      </p>
+    </div>
+
+    <!-- Side-by-side comparison: CeraVe A vs La Mer C -->
+    <div class="reveal-children grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <!-- CeraVe - the winner -->
+      <a href={localizedPath(`/product/${previewProduct.id}`, locale)} class="si-score-card group block p-6 rounded-2xl bg-white border-2 border-emerald-200/50 hover:border-emerald-300 shadow-sm hover:shadow-lg transition-all duration-300">
+        <div class="flex items-center gap-4 mb-6">
+          {previewProduct.image && <img src={previewProduct.image} alt={previewProduct.name} class="w-14 h-14 rounded-xl object-cover bg-slate-100" loading="lazy" />}
+          <div class="flex-1 min-w-0">
+            <p class="text-xs text-violet-600 font-semibold">{previewProduct.brand}</p>
+            <p class="text-sm font-bold text-slate-800 truncate">{previewProduct.name}</p>
+            <p class="text-xs text-slate-400">{previewProduct.price} EUR · {previewProduct.size}</p>
+          </div>
+          <div class={`grade grade-lg ${gc(previewProduct.score)} grade-pulse`}>{previewProduct.score}</div>
+        </div>
+        <div class="space-y-3">
+          {subScoreLabels.map((s) => {
+            const grade = (previewProduct.subScores as any)[s.key] as string;
+            const num = gradeToNum(grade);
+            return (
+              <div>
+                <div class="flex items-center justify-between mb-1">
+                  <span class="text-xs text-slate-600 font-medium">{s.icon} {s.label}</span>
+                  <span class={`text-xs font-bold ${gc(grade)}-text`}>{grade}</span>
+                </div>
+                <div class="h-2 bg-slate-100 rounded-full overflow-hidden">
+                  <div class="si-score-bar h-full rounded-full transition-all duration-1000" data-width={num} style={`width: 0%; background: ${grade === "A" ? "#10b981" : grade === "B" ? "#3b82f6" : "#f59e0b"}`}></div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+          <span class="text-2xl font-extrabold text-gradient">{previewProduct.scoreNumeric}/100</span>
+          <span class="text-xs text-slate-400 group-hover:text-violet-600 transition-colors">{locale === "fr" ? "Voir la fiche" : "View details"} &rarr;</span>
+        </div>
+      </a>
+
+      <!-- La Mer - the exposed -->
+      <a href={localizedPath(`/product/${comparisonProduct.id}`, locale)} class="si-score-card group block p-6 rounded-2xl bg-white border-2 border-red-200/50 hover:border-red-300 shadow-sm hover:shadow-lg transition-all duration-300">
+        <div class="flex items-center gap-4 mb-6">
+          <div class="w-14 h-14 rounded-xl bg-slate-100 flex items-center justify-center text-2xl">💸</div>
+          <div class="flex-1 min-w-0">
+            <p class="text-xs text-red-600 font-semibold">{comparisonProduct.brand}</p>
+            <p class="text-sm font-bold text-slate-800 truncate">{comparisonProduct.name}</p>
+            <p class="text-xs text-slate-400">{comparisonProduct.price} EUR · {comparisonProduct.size}</p>
+          </div>
+          <div class={`grade grade-lg ${gc(comparisonProduct.score)}`}>{comparisonProduct.score}</div>
+        </div>
+        <div class="space-y-3">
+          {subScoreLabels.map((s) => {
+            const grade = (comparisonProduct.subScores as any)[s.key] as string;
+            const num = gradeToNum(grade);
+            return (
+              <div>
+                <div class="flex items-center justify-between mb-1">
+                  <span class="text-xs text-slate-600 font-medium">{s.icon} {s.label}</span>
+                  <span class={`text-xs font-bold ${gc(grade)}-text`}>{grade}</span>
+                </div>
+                <div class="h-2 bg-slate-100 rounded-full overflow-hidden">
+                  <div class="si-score-bar h-full rounded-full transition-all duration-1000" data-width={num} style={`width: 0%; background: ${grade === "A" ? "#10b981" : grade === "B" ? "#3b82f6" : grade === "C" ? "#f59e0b" : "#ef4444"}`}></div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+          <span class="text-2xl font-extrabold text-red-500">{comparisonProduct.scoreNumeric}/100</span>
+          <span class="text-xs text-slate-400 group-hover:text-red-600 transition-colors">{locale === "fr" ? "Voir la fiche" : "View details"} &rarr;</span>
+        </div>
+      </a>
+    </div>
+
+    <p class="reveal text-center text-xs text-slate-400 mt-6 max-w-lg mx-auto">
+      {locale === "fr"
+        ? "CeraVe a 15 EUR obtient un A (88/100). La Mer a 350 EUR obtient un C (67/100). Le prix ne garantit rien. La formule, si."
+        : "CeraVe at 15 EUR scores A (88/100). La Mer at 350 EUR scores C (67/100). Price guarantees nothing. The formula does."}
+    </p>
+  </div>
+</section>
+
+<!-- ========== 6. FEATURES ========== -->
 <section class="section">
   <div class="max-w-5xl mx-auto px-4 sm:px-6">
     <h2 class="reveal text-center mb-10">{t(tr.features.title, locale)}</h2>
@@ -234,8 +352,8 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
         { title: "Z\u00e9ro deal avec les marques", description: "On n'accepte pas d'argent des marques. Nos notes viennent des donn\u00e9es UE CosIng, des avis SCCS et de la recherche dermatologique. La Mer obtient un C. On s'en fiche.", icon: "shield" },
         { title: "Ta peau, tes r\u00e8gles", description: "Chaque score s'adapte \u00e0 TON type de peau. Ce qui est not\u00e9 A pour peau grasse peut \u00eatre C pour peau sensible. Parce qu'une taille unique, \u00e7a n'existe pas.", icon: "user" },
       ] : siteConfig.features).map((feature) => (
-        <div class="card text-center p-8 flex flex-col">
-          <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-violet-100 flex items-center justify-center">
+        <div class="card text-center p-8 flex flex-col group hover:border-violet-200 transition-all duration-300">
+          <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-violet-100 flex items-center justify-center group-hover:scale-110 group-hover:bg-violet-200 transition-all duration-300">
             {feature.icon === "zap" && <svg class="w-7 h-7 text-violet-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" /></svg>}
             {feature.icon === "shield" && <svg class="w-7 h-7 text-violet-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /><path d="m9 12 2 2 4-4" stroke-linecap="round" stroke-linejoin="round" /></svg>}
             {feature.icon === "user" && <svg class="w-7 h-7 text-violet-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>}
@@ -248,41 +366,113 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
   </div>
 </section>
 
-<!-- ========== 6. HOW IT WORKS ========== -->
+<!-- ========== 7. HOW IT WORKS ========== -->
 <section class="section section-alt">
   <div class="max-w-5xl mx-auto px-4 sm:px-6">
     <h2 class="reveal text-center mb-12">{t(tr.howItWorks.title, locale)}</h2>
-    <div class="reveal-children grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
-      {[
-        { num: "1", title: t(tr.howItWorks.step1, locale), desc: t(tr.howItWorks.step1desc, locale) },
-        { num: "2", title: t(tr.howItWorks.step2, locale), desc: t(tr.howItWorks.step2desc, locale) },
-        { num: "3", title: t(tr.howItWorks.step3, locale), desc: t(tr.howItWorks.step3desc, locale) },
-      ].map((step) => (
-        <div class="text-center flex flex-col items-center">
-          <div class="si-step-circle mx-auto mb-4">
-            <span class="text-xl font-extrabold text-white">{step.num}</span>
+    <div class="reveal-children relative">
+      <!-- Connecting line (desktop only) -->
+      <div class="hidden md:block absolute top-7 left-[20%] right-[20%] h-0.5 bg-gradient-to-r from-violet-200 via-indigo-200 to-violet-200"></div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start relative">
+        {[
+          { num: "1", title: t(tr.howItWorks.step1, locale), desc: t(tr.howItWorks.step1desc, locale) },
+          { num: "2", title: t(tr.howItWorks.step2, locale), desc: t(tr.howItWorks.step2desc, locale) },
+          { num: "3", title: t(tr.howItWorks.step3, locale), desc: t(tr.howItWorks.step3desc, locale) },
+        ].map((step) => (
+          <div class="text-center flex flex-col items-center">
+            <div class="si-step-circle mx-auto mb-4 relative z-10 bg-white">
+              <span class="text-xl font-extrabold text-white">{step.num}</span>
+            </div>
+            <h3 class="text-base font-bold mb-2">{step.title}</h3>
+            <p class="text-sm text-slate-600 max-w-xs">{step.desc}</p>
           </div>
-          <h3 class="text-base font-bold mb-2">{step.title}</h3>
-          <p class="text-sm text-slate-600">{step.desc}</p>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ========== 7. TOP RATED CAROUSEL ========== -->
-<section class="section">
+<!-- ========== 8. EXPOSED ("soins qui mentent") - SECTION PHARE ========== -->
+{exposedProducts.length > 0 && (
+  <section class="section relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-red-50/60 via-red-50/30 to-transparent -z-10"></div>
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <div class="text-center mb-10">
+        <div class="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-red-100 text-red-700 text-sm font-semibold mb-4 border border-red-200/50">
+          <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
+          {locale === "fr" ? "La preuve par les scores" : "Proof by scores"}
+        </div>
+        <h2 class="reveal mb-3">{locale === "fr" ? "Les soins qui te mentent" : "Products that lie to you"}</h2>
+        <p class="reveal text-slate-600 max-w-2xl mx-auto">
+          {locale === "fr"
+            ? "Des prix premium, des ingredients mediocres. On ne dit pas que ces produits sont mauvais. On dit que leur prix ne reflete pas leur formule."
+            : "Premium prices, mediocre ingredients. We're not saying these products are bad. We're saying their price doesn't reflect their formula."}
+        </p>
+      </div>
+      <div class="reveal-children grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
+        {exposedProducts.map((p) => (
+          <a href={localizedPath(`/product/${p.id}`, locale)} class="flex items-center gap-4 p-5 rounded-xl border-2 border-red-200/60 bg-white hover:border-red-300 hover:shadow-lg transition-all duration-300 group">
+            <div class={`grade grade-lg ${gc(p.score)} shrink-0`}>{p.score}</div>
+            <div class="flex-1 min-w-0">
+              <p class="text-xs text-red-600 font-semibold">{p.brand}</p>
+              <p class="text-sm font-bold text-slate-800 group-hover:text-red-700 transition-colors">{p.name}</p>
+              <div class="flex items-center gap-3 mt-1">
+                <span class="text-xs font-semibold text-slate-600">{p.scoreNumeric}/100</span>
+                {p.price && <span class="text-xs font-bold text-red-500">{p.price} EUR</span>}
+              </div>
+            </div>
+            <svg class="w-4 h-4 text-slate-400 group-hover:text-red-500 group-hover:translate-x-1 shrink-0 transition-all duration-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        ))}
+      </div>
+      <p class="reveal text-center text-xs text-slate-400 mt-6">
+        {locale === "fr"
+          ? "La Mer a 350 EUR utilise huile minerale + vaseline, comme Nivea a 5 EUR. Les molecules ne mentent pas."
+          : "La Mer at 350 EUR uses mineral oil + petrolatum, same as Nivea at 5 EUR. Molecules don't lie."}
+      </p>
+    </div>
+  </section>
+)}
+
+<!-- ========== 9. TOP RATED (product grid with images) ========== -->
+<section class="section section-alt">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
-    <div class="flex items-center justify-between mb-6">
-      <h2 class="reveal">{locale === "fr" ? "Les mieux not\u00e9s" : "Top rated"}</h2>
-      <a href={localizedPath("/rankings", locale)} class="text-sm font-medium text-violet-600 hover:text-violet-700">
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <h2 class="reveal mb-1">{locale === "fr" ? "Les mieux notes" : "Top rated"}</h2>
+        <p class="reveal text-sm text-slate-500">{locale === "fr" ? "Les soins qui tiennent leurs promesses." : "Products that live up to their promises."}</p>
+      </div>
+      <a href={localizedPath("/rankings", locale)} class="text-sm font-medium text-violet-600 hover:text-violet-700 transition-colors whitespace-nowrap">
         {t(tr.common.viewAll, locale)} &rarr;
       </a>
     </div>
-    <div class="si-carousel reveal">
+    <div class="reveal-children grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+      {topProducts.slice(0, 8).map((p) => (
+        <a href={localizedPath(`/product/${p.id}`, locale)} class="group p-4 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-md transition-all duration-300">
+          <div class="flex items-center gap-2 mb-3">
+            <div class={`grade grade-sm ${gc(p.score)} shrink-0`}>{p.score}</div>
+            <span class="text-[10px] font-bold text-slate-400">{p.scoreNumeric}/100</span>
+          </div>
+          {p.image ? (
+            <div class="w-full aspect-square rounded-lg bg-slate-50 mb-3 overflow-hidden">
+              <img src={p.image} alt={`${p.brand} ${p.name}`} class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+            </div>
+          ) : (
+            <div class="w-full aspect-square rounded-lg bg-gradient-to-br from-violet-50 to-indigo-50 mb-3 flex items-center justify-center">
+              <div class={`grade grade-xl ${gc(p.score)} opacity-30`}>{p.score}</div>
+            </div>
+          )}
+          <p class="text-[10px] text-violet-600 font-semibold">{p.brand}</p>
+          <p class="text-xs font-bold text-slate-800 truncate group-hover:text-violet-700 transition-colors">{p.name}</p>
+          {p.price && <p class="text-[10px] text-slate-400 mt-0.5">{p.price} EUR</p>}
+        </a>
+      ))}
+    </div>
+    <!-- Second row - carousel for the rest -->
+    <div class="si-carousel reveal mt-4">
       <div class="si-carousel-track">
-        {topProducts.map((p) => (
-          <a href={localizedPath(`/product/${p.id}`, locale)} class="si-carousel-item shrink-0 w-48 flex items-center gap-3 p-3 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-sm transition-all duration-200">
+        {topProducts.slice(8).map((p) => (
+          <a href={localizedPath(`/product/${p.id}`, locale)} class="si-carousel-item shrink-0 w-44 flex items-center gap-3 p-3 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-sm transition-all duration-200">
             <div class={`grade grade-sm ${gc(p.score)} shrink-0`}>{p.score}</div>
             <div class="min-w-0">
               <p class="text-[10px] text-violet-600 font-semibold">{p.brand}</p>
@@ -296,57 +486,61 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
   </div>
 </section>
 
-<!-- ========== 8. EXPOSED ("soins qui mentent") - SECTION PHARE ========== -->
-{exposedProducts.length > 0 && (
-  <section class="section bg-red-50/40">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6">
-      <div class="text-center mb-10">
-        <div class="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-red-100 text-red-700 text-sm font-semibold mb-4">
-          {locale === "fr" ? "La preuve par les scores" : "Proof by scores"}
-        </div>
-        <h2 class="reveal mb-3">{locale === "fr" ? "Les soins qui vous mentent" : "Products that lie to you"}</h2>
-        <p class="reveal text-slate-600 max-w-2xl mx-auto">
-          {locale === "fr"
-            ? "Des prix premium, des ingr\u00e9dients m\u00e9diocres. On ne dit pas que ces produits sont mauvais. On dit que leur prix ne refl\u00e8te pas leur formule."
-            : "Premium prices, mediocre ingredients. We're not saying these products are bad. We're saying their price doesn't reflect their formula."}
-        </p>
-      </div>
-      <div class="reveal-children grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
-        {exposedProducts.map((p) => (
-          <a href={localizedPath(`/product/${p.id}`, locale)} class="flex items-center gap-4 p-5 rounded-xl border border-red-200 bg-white hover:border-red-300 hover:shadow-md transition-all duration-200 group">
-            <div class={`grade grade-lg ${gc(p.score)} shrink-0`}>{p.score}</div>
-            <div class="flex-1 min-w-0">
-              <p class="text-xs text-red-600 font-semibold">{p.brand}</p>
-              <p class="text-sm font-bold text-slate-800 group-hover:text-red-700 transition-colors">{p.name}</p>
-              <div class="flex items-center gap-3 mt-1">
-                <span class="text-xs font-semibold text-slate-600">{p.scoreNumeric}/100</span>
-                {p.price && <span class="text-xs font-bold text-red-500">{p.price} EUR</span>}
-              </div>
-            </div>
-            <svg class="w-4 h-4 text-slate-400 group-hover:text-red-500 shrink-0 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<!-- ========== 10. QUIZ CTA ========== -->
+<section class="section relative overflow-hidden">
+  <div class="absolute inset-0 bg-gradient-to-br from-violet-50 via-white to-indigo-50/40 -z-10"></div>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6">
+    <div class="reveal relative p-8 md:p-12 rounded-3xl bg-white border-2 border-violet-200/50 shadow-lg overflow-hidden">
+      <div class="absolute top-0 right-0 w-64 h-64 bg-gradient-to-bl from-violet-100/40 to-transparent rounded-bl-full"></div>
+      <div class="relative grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-violet-100 text-violet-700 text-xs font-semibold mb-4">
+            <span class="w-1.5 h-1.5 rounded-full bg-violet-500 animate-pulse"></span>
+            {locale === "fr" ? "Quiz gratuit" : "Free quiz"}
+          </div>
+          <h2 class="text-2xl md:text-3xl font-extrabold mb-3 leading-tight">
+            {locale === "fr" ? "Ta routine parfaite en 2 minutes" : "Your perfect routine in 2 minutes"}
+          </h2>
+          <p class="text-sm text-slate-600 mb-6 leading-relaxed">
+            {locale === "fr"
+              ? "Type de peau, preoccupations, budget. On te recommande une routine AM/PM personnalisee avec des produits notes A ou B."
+              : "Skin type, concerns, budget. We recommend a personalised AM/PM routine with A or B rated products only."}
+          </p>
+          <a href={localizedPath("/quiz", locale)} class="si-cta-btn !px-8 !py-3.5 text-base">
+            {locale === "fr" ? "Faire le quiz" : "Take the quiz"} &rarr;
           </a>
-        ))}
+        </div>
+        <div class="hidden md:grid grid-cols-3 gap-3">
+          {[
+            { emoji: "💧", label: locale === "fr" ? "Seche" : "Dry" },
+            { emoji: "✨", label: locale === "fr" ? "Grasse" : "Oily" },
+            { emoji: "🔄", label: locale === "fr" ? "Mixte" : "Combination" },
+            { emoji: "🌸", label: locale === "fr" ? "Sensible" : "Sensitive" },
+            { emoji: "⭐", label: locale === "fr" ? "Normale" : "Normal" },
+            { emoji: "🎯", label: locale === "fr" ? "Routine" : "Routine" },
+          ].map((st) => (
+            <div class="p-3 rounded-xl bg-violet-50/50 border border-violet-100 text-center quiz-skin-card">
+              <span class="text-2xl block mb-1">{st.emoji}</span>
+              <span class="text-[10px] font-semibold text-violet-700">{st.label}</span>
+            </div>
+          ))}
+        </div>
       </div>
-      <p class="reveal text-center text-xs text-slate-400 mt-6">
-        {locale === "fr"
-          ? "La Mer \u00e0 350 EUR utilise huile min\u00e9rale + vaseline, comme Nivea \u00e0 5 EUR. Les mol\u00e9cules ne mentent pas."
-          : "La Mer at 350 EUR uses mineral oil + petrolatum, same as Nivea at 5 EUR. Molecules don't lie."}
-      </p>
     </div>
-  </section>
-)}
+  </div>
+</section>
 
-<!-- ========== 9. SKIN CONCERNS ========== -->
-<section class="section">
+<!-- ========== 11. SKIN CONCERNS ========== -->
+<section class="section section-alt">
   <div class="max-w-5xl mx-auto px-4 sm:px-6">
     <h2 class="reveal text-center mb-4">{t(tr.concerns.title, locale)}</h2>
     <p class="reveal text-center text-slate-500 mb-10 max-w-xl mx-auto text-sm">
-      {locale === "fr" ? "Clique sur ta pr\u00e9occupation pour voir les produits les mieux not\u00e9s." : "Click your concern to see the top-rated products."}
+      {locale === "fr" ? "Clique sur ta preoccupation pour voir les produits les mieux notes." : "Click your concern to see the top-rated products."}
     </p>
     <div class="reveal-children grid grid-cols-2 sm:grid-cols-4 gap-3">
       {siteConfig.concerns.map((concern) => (
-        <a href={localizedPath(`/best/${concern.id}`, locale)} class="flex flex-col items-center justify-center p-6 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:bg-violet-50/50 transition-all duration-200 group min-h-[100px]">
-          <span class="text-2xl mb-2">{concern.icon === "droplets" ? "💧" : concern.icon === "clock" ? "⏳" : concern.icon === "sun" ? "☀️" : concern.icon === "flame" ? "🔥" : concern.icon === "wind" ? "💨" : concern.icon === "heart" ? "💜" : concern.icon === "droplet" ? "💦" : "⭕"}</span>
+        <a href={localizedPath(`/best/${concern.id}`, locale)} class="flex flex-col items-center justify-center p-6 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:bg-violet-50/50 hover:shadow-sm transition-all duration-300 group min-h-[100px]">
+          <span class="text-2xl mb-2 group-hover:scale-125 transition-transform duration-300">{concern.icon === "droplets" ? "💧" : concern.icon === "clock" ? "⏳" : concern.icon === "sun" ? "☀️" : concern.icon === "flame" ? "🔥" : concern.icon === "wind" ? "💨" : concern.icon === "heart" ? "💜" : concern.icon === "droplet" ? "💦" : "⭕"}</span>
           <span class="text-sm font-semibold text-slate-700 group-hover:text-violet-700 transition-colors text-center">{t(concern.label, locale)}</span>
         </a>
       ))}
@@ -354,22 +548,22 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
   </div>
 </section>
 
-<!-- ========== 10. INGREDIENTS SPOTLIGHT ========== -->
-<section class="section section-alt">
+<!-- ========== 12. INGREDIENTS SPOTLIGHT ========== -->
+<section class="section">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
     <div class="flex items-center justify-between mb-8">
       <h2 class="reveal">{t(tr.ingredientsSection.title, locale)}</h2>
-      <a href={localizedPath("/encyclopedia", locale)} class="text-sm font-medium text-violet-600 hover:text-violet-700">
+      <a href={localizedPath("/encyclopedia", locale)} class="text-sm font-medium text-violet-600 hover:text-violet-700 transition-colors">
         {t(tr.ingredientsSection.viewAll, locale)} &rarr;
       </a>
     </div>
     <div class="si-carousel reveal">
-      <div class="si-carousel-track">
+      <div class="si-carousel-track" id="ingredientTrack">
         {spotlightIngredients.map((ing) => (
-          <a href={localizedPath(`/ingredient/${ing.id}`, locale)} class="si-carousel-item flex items-center gap-3 p-4 shrink-0 w-64 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-sm transition-all duration-200">
-            <div class={`grade grade-sm ${gc(ing.score)} shrink-0`}>{ing.score}</div>
+          <a href={localizedPath(`/ingredient/${ing.id}`, locale)} class="si-carousel-item flex items-center gap-3 p-4 shrink-0 w-64 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-sm transition-all duration-200 group">
+            <div class={`grade grade-sm ${gc(ing.score)} shrink-0 group-hover:scale-110 transition-transform`}>{ing.score}</div>
             <div class="min-w-0">
-              <h3 class="text-xs font-bold text-slate-800 mb-0.5">{t(ing.name, locale)}</h3>
+              <h3 class="text-xs font-bold text-slate-800 mb-0.5 group-hover:text-violet-700 transition-colors">{t(ing.name, locale)}</h3>
               <p class="text-[10px] text-slate-500 line-clamp-2">{t(ing.description, locale).slice(0, 80)}...</p>
               <div class="flex flex-wrap gap-1 mt-1.5">
                 {ing.concerns.slice(0, 3).map((c) => (
@@ -384,14 +578,15 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
   </div>
 </section>
 
-<!-- ========== 11. COMING SOON: Interaction Checker + Dupe Finder ========== -->
+<!-- ========== 13. COMING SOON: Interaction Checker + Dupe Finder ========== -->
 <section class="section bg-slate-900 text-white relative overflow-hidden">
   <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(124,58,237,0.2),transparent_70%)]"></div>
+  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(79,70,229,0.1),transparent_60%)]"></div>
   <div class="max-w-5xl mx-auto px-4 sm:px-6 relative">
     <div class="text-center mb-12">
       <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-500/20 text-violet-300 text-sm font-semibold mb-4 border border-violet-500/20">
         <span class="w-2 h-2 rounded-full bg-violet-400 animate-pulse"></span>
-        {locale === "fr" ? "Bient\u00f4t disponible" : "Coming soon"}
+        {locale === "fr" ? "Bientot disponible" : "Coming soon"}
       </div>
       <h2 class="reveal text-2xl md:text-3xl font-extrabold mb-4 text-white">
         {locale === "fr" ? "Ce que personne d'autre ne propose" : "Features nobody else has"}
@@ -400,15 +595,13 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
 
     <div class="reveal-children grid grid-cols-1 md:grid-cols-2 gap-8">
       <!-- Interaction Checker -->
-      <div class="p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-violet-500/30 transition-colors">
-        <div class="w-14 h-14 rounded-2xl bg-violet-500/20 flex items-center justify-center mb-5">
+      <a href={localizedPath("/interactions", locale)} class="block p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-violet-500/40 hover:bg-white/10 transition-all duration-300 group">
+        <div class="w-14 h-14 rounded-2xl bg-violet-500/20 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
           <svg class="w-7 h-7 text-violet-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" stroke-linecap="round" />
           </svg>
         </div>
-        <h3 class="text-xl font-bold text-white mb-3">
-          {locale === "fr" ? "Interaction Checker" : "Interaction Checker"}
-        </h3>
+        <h3 class="text-xl font-bold text-white mb-3">Interaction Checker</h3>
         <p class="text-white/50 leading-relaxed mb-4">
           {locale === "fr"
             ? "\"Puis-je utiliser du retinol avec de la vitamine C ?\" La question n1 en skincare. On y repond enfin, avec la science, pas les mythes."
@@ -419,11 +612,11 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
           <span class="text-xs px-3 py-1 rounded-full bg-white/10 text-white/60">AHA + BHA</span>
           <span class="text-xs px-3 py-1 rounded-full bg-white/10 text-white/60">Niacinamide + Acids</span>
         </div>
-      </div>
+      </a>
 
       <!-- Dupe Finder -->
-      <div class="p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-500/30 transition-colors">
-        <div class="w-14 h-14 rounded-2xl bg-amber-500/20 flex items-center justify-center mb-5">
+      <a href={localizedPath("/dupes", locale)} class="block p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-500/40 hover:bg-white/10 transition-all duration-300 group">
+        <div class="w-14 h-14 rounded-2xl bg-amber-500/20 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
           <svg class="w-7 h-7 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" stroke-linecap="round" />
             <path d="M8 11h6M11 8v6" stroke-linecap="round" />
@@ -434,130 +627,164 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
         </h3>
         <p class="text-white/50 leading-relaxed mb-4">
           {locale === "fr"
-            ? "\"Ce serum a 80EUR a les memes actifs que celui a 12EUR.\" On compare les formules, pas les prix. Et on te montre l'alternative."
-            : "\"This 80EUR serum has the same actives as this 12EUR one.\" We compare formulas, not prices. And show you the alternative."}
+            ? "\"Ce serum a 80 EUR a les memes actifs que celui a 12 EUR.\" On compare les formules, pas les prix. Et on te montre l'alternative."
+            : "\"This 80 EUR serum has the same actives as this 12 EUR one.\" We compare formulas, not prices. And show you the alternative."}
         </p>
         <div class="flex flex-wrap gap-2">
           <span class="text-xs px-3 py-1 rounded-full bg-white/10 text-white/60">SkinCeuticals vs G&G</span>
           <span class="text-xs px-3 py-1 rounded-full bg-white/10 text-white/60">La Mer vs CeraVe</span>
           <span class="text-xs px-3 py-1 rounded-full bg-white/10 text-white/60">Drunk Elephant vs TO</span>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 </section>
 
-<!-- ========== 12. BRAND WALL ========== -->
+<!-- ========== 14. BLOG PREVIEW ========== -->
+<section class="section">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6">
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <div class="reveal inline-flex items-center gap-2 px-3 py-1 rounded-full bg-violet-100 text-violet-700 text-xs font-semibold mb-2">
+          {t(tr.blog.title, locale)}
+        </div>
+        <h2 class="reveal">{t(tr.blog.subtitle, locale)}</h2>
+      </div>
+      <a href={localizedPath("/blog", locale)} class="text-sm font-medium text-violet-600 hover:text-violet-700 transition-colors whitespace-nowrap">
+        {t(tr.common.viewAll, locale)} &rarr;
+      </a>
+    </div>
+
+    {blogPosts.length > 0 ? (
+      <div class="reveal-children grid grid-cols-1 md:grid-cols-3 gap-6">
+        {blogPosts.map((post, i) => (
+          <a href={localizedPath(`/blog/${post.id}`, locale)} class={`group block rounded-xl border border-slate-200 bg-white overflow-hidden hover:border-violet-300 hover:shadow-lg transition-all duration-300 ${i === 0 && blogPosts.length === 1 ? "md:col-span-3" : ""}`}>
+            {post.data.image && (
+              <div class="aspect-video overflow-hidden bg-slate-100">
+                <img src={post.data.image} alt={post.data.imageAlt || post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+              </div>
+            )}
+            <div class="p-5">
+              {post.data.category && (
+                <span class="text-[10px] font-semibold text-violet-600 uppercase tracking-wider">{post.data.category}</span>
+              )}
+              <h3 class="text-sm font-bold text-slate-800 mt-1 mb-2 group-hover:text-violet-700 transition-colors line-clamp-2">{post.data.title}</h3>
+              <p class="text-xs text-slate-500 line-clamp-2 mb-3">{post.data.description}</p>
+              <div class="flex items-center gap-2 text-[10px] text-slate-400">
+                {post.data.author && <span>{post.data.author}</span>}
+                <span>·</span>
+                <time>{post.data.date.toLocaleDateString(locale === "fr" ? "fr-FR" : "en-GB", { day: "numeric", month: "short", year: "numeric" })}</time>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <div class="reveal text-center py-12 rounded-2xl border border-dashed border-slate-200 bg-slate-50/50">
+        <p class="text-lg mb-2">🔬</p>
+        <p class="text-sm text-slate-500 font-medium">
+          {locale === "fr" ? "Les premiers articles arrivent bientot." : "First articles coming soon."}
+        </p>
+        <p class="text-xs text-slate-400 mt-1">
+          {locale === "fr" ? "Science skincare, sans langue de bois." : "Skincare science, no BS."}
+        </p>
+      </div>
+    )}
+  </div>
+</section>
+
+<!-- ========== 15. BRAND WALL ========== -->
 <section class="section section-alt">
   <div class="max-w-5xl mx-auto px-4 sm:px-6">
-    <h2 class="reveal text-center mb-3">{locale === "fr" ? "250+ marques analys\u00e9es" : "250+ brands analysed"}</h2>
-    <p class="reveal text-center text-slate-500 mb-10">{locale === "fr" ? "Du luxe \u00e0 la pharmacie, de la K-beauty au drugstore US." : "From luxury to drugstore, K-beauty to French pharmacy."}</p>
+    <h2 class="reveal text-center mb-3">{locale === "fr" ? "250+ marques analysees" : "250+ brands analysed"}</h2>
+    <p class="reveal text-center text-slate-500 mb-10">{locale === "fr" ? "Du luxe a la pharmacie, de la K-beauty au drugstore US." : "From luxury to drugstore, K-beauty to French pharmacy."}</p>
 
     <div class="reveal-children space-y-6">
-      <!-- Luxe -->
-      <div>
-        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-3">{locale === "fr" ? "Luxe" : "Luxury"}</p>
-        <div class="flex flex-wrap gap-2">
-          {["La Mer", "Chanel", "Dior", "Estee Lauder", "Lancome", "Shiseido", "SK-II", "Tatcha"].map((b) => (
-            <a href={localizedPath(`/brand/${brandSlug(b)}`, locale)} class="px-3 py-1.5 text-xs font-medium rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-violet-300 hover:text-violet-700 transition-all duration-200">{b}</a>
-          ))}
+      {[
+        { label: locale === "fr" ? "Luxe" : "Luxury", brands: ["La Mer", "Chanel", "Dior", "Estee Lauder", "Lancome", "Shiseido", "SK-II", "Tatcha"] },
+        { label: locale === "fr" ? "Pharmacie" : "Dermatologist", brands: ["CeraVe", "La Roche-Posay", "Bioderma", "Avene", "SVR", "Vichy", "Eucerin", "Nuxe"] },
+        { label: "Indie / Clean", brands: ["The Ordinary", "Drunk Elephant", "Paula's Choice", "Rhode", "Glow Recipe"] },
+        { label: "K-beauty / J-beauty", brands: ["COSRX", "Hada Labo", "Purito", "Klairs", "Missha", "Anua", "Laneige", "Torriden"] },
+      ].map((category) => (
+        <div>
+          <p class="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-3">{category.label}</p>
+          <div class="flex flex-wrap gap-2">
+            {category.brands.map((b) => (
+              <a href={localizedPath(`/brand/${brandSlug(b)}`, locale)} class="px-3 py-1.5 text-xs font-medium rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-violet-300 hover:text-violet-700 hover:shadow-sm transition-all duration-200">{b}</a>
+            ))}
+          </div>
         </div>
-      </div>
-      <!-- Derma / Pharmacie -->
-      <div>
-        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-3">{locale === "fr" ? "Pharmacie" : "Dermatologist"}</p>
-        <div class="flex flex-wrap gap-2">
-          {["CeraVe", "La Roche-Posay", "Bioderma", "Avene", "SVR", "Vichy", "Eucerin", "Nuxe"].map((b) => (
-            <a href={localizedPath(`/brand/${brandSlug(b)}`, locale)} class="px-3 py-1.5 text-xs font-medium rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-violet-300 hover:text-violet-700 transition-all duration-200">{b}</a>
-          ))}
-        </div>
-      </div>
-      <!-- Indie / Clean -->
-      <div>
-        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-3">Indie / Clean</p>
-        <div class="flex flex-wrap gap-2">
-          {["The Ordinary", "Drunk Elephant", "Paula's Choice", "Rhode", "Glow Recipe"].map((b) => (
-            <a href={localizedPath(`/brand/${brandSlug(b)}`, locale)} class="px-3 py-1.5 text-xs font-medium rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-violet-300 hover:text-violet-700 transition-all duration-200">{b}</a>
-          ))}
-        </div>
-      </div>
-      <!-- K-beauty / J-beauty -->
-      <div>
-        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-3">K-beauty / J-beauty</p>
-        <div class="flex flex-wrap gap-2">
-          {["COSRX", "Hada Labo", "Clinique", "Neutrogena"].map((b) => (
-            <a href={localizedPath(`/brand/${brandSlug(b)}`, locale)} class="px-3 py-1.5 text-xs font-medium rounded-lg bg-white border border-slate-200 text-slate-700 hover:border-violet-300 hover:text-violet-700 transition-all duration-200">{b}</a>
-          ))}
-          <a href={localizedPath("/rankings", locale)} class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-violet-50 border border-violet-200 text-violet-600 hover:bg-violet-100 transition-all duration-200">
-            +226 {locale === "fr" ? "autres" : "more"} &rarr;
-          </a>
-        </div>
+      ))}
+      <div class="text-center pt-2">
+        <a href={localizedPath("/rankings", locale)} class="inline-flex items-center gap-1 px-4 py-2 text-xs font-semibold rounded-lg bg-violet-50 border border-violet-200 text-violet-600 hover:bg-violet-100 transition-all duration-200">
+          +226 {locale === "fr" ? "autres marques" : "more brands"} &rarr;
+        </a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ========== 12. SOURCES ========== -->
+<!-- ========== 16. SOURCES ========== -->
 <section class="section">
   <div class="max-w-4xl mx-auto px-4 sm:px-6">
     <h2 class="reveal text-center mb-3">{locale === "fr" ? "Nos sources" : "Our sources"}</h2>
-    <p class="reveal text-center text-slate-500 mb-10">{locale === "fr" ? "Pas d'opinions. Des donn\u00e9es v\u00e9rifi\u00e9es." : "Not opinions. Verified data."}</p>
+    <p class="reveal text-center text-slate-500 mb-10">{locale === "fr" ? "Pas d'opinions. Des donnees verifiees." : "Not opinions. Verified data."}</p>
     <div class="reveal-children grid grid-cols-1 sm:grid-cols-2 gap-4">
       <a href="https://ec.europa.eu/growth/tools-databases/cosing/" target="_blank" rel="noopener" class="flex items-start gap-4 p-5 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-sm transition-all duration-200 group">
-        <div class="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center shrink-0">
+        <div class="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
           <span class="text-lg">🇪🇺</span>
         </div>
         <div>
           <p class="text-sm font-bold text-slate-800 group-hover:text-violet-700 transition-colors">EU CosIng</p>
-          <p class="text-xs text-slate-500 mt-0.5">{locale === "fr" ? "Base officielle Commission europ\u00e9enne. 30 000+ ingr\u00e9dients cosm\u00e9tiques avec num\u00e9ros CAS, fonctions et restrictions." : "Official European Commission database. 30,000+ cosmetic ingredients with CAS numbers, functions and restrictions."}</p>
+          <p class="text-xs text-slate-500 mt-0.5">{locale === "fr" ? "Base officielle Commission europeenne. 30 000+ ingredients cosmetiques." : "Official European Commission database. 30,000+ cosmetic ingredients."}</p>
         </div>
       </a>
       <a href="https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en" target="_blank" rel="noopener" class="flex items-start gap-4 p-5 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-sm transition-all duration-200 group">
-        <div class="w-10 h-10 rounded-lg bg-green-100 flex items-center justify-center shrink-0">
+        <div class="w-10 h-10 rounded-lg bg-green-100 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
           <span class="text-lg">🔬</span>
         </div>
         <div>
           <p class="text-sm font-bold text-slate-800 group-hover:text-violet-700 transition-colors">SCCS</p>
-          <p class="text-xs text-slate-500 mt-0.5">{locale === "fr" ? "Comit\u00e9 scientifique pour la s\u00e9curit\u00e9 des consommateurs. Avis de s\u00e9curit\u00e9 sur les ingr\u00e9dients cosm\u00e9tiques." : "Scientific Committee on Consumer Safety. Safety opinions on cosmetic ingredients."}</p>
+          <p class="text-xs text-slate-500 mt-0.5">{locale === "fr" ? "Comite scientifique pour la securite des consommateurs. Avis de securite." : "Scientific Committee on Consumer Safety. Safety opinions."}</p>
         </div>
       </a>
-      <div class="flex items-start gap-4 p-5 rounded-xl border border-slate-200 bg-white">
-        <div class="w-10 h-10 rounded-lg bg-violet-100 flex items-center justify-center shrink-0">
+      <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener" class="flex items-start gap-4 p-5 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-sm transition-all duration-200 group">
+        <div class="w-10 h-10 rounded-lg bg-violet-100 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
           <span class="text-lg">📚</span>
         </div>
         <div>
-          <p class="text-sm font-bold text-slate-800">{locale === "fr" ? "Recherche dermatologique" : "Dermatology research"}</p>
-          <p class="text-xs text-slate-500 mt-0.5">{locale === "fr" ? "Publications et essais cliniques dans les journaux dermatologiques de r\u00e9f\u00e9rence (PubMed, Wiley, MDPI)." : "Clinical trials and publications in leading dermatology journals (PubMed, Wiley, MDPI)."}</p>
+          <p class="text-sm font-bold text-slate-800 group-hover:text-violet-700 transition-colors">{locale === "fr" ? "Recherche dermatologique" : "Dermatology research"}</p>
+          <p class="text-xs text-slate-500 mt-0.5">{locale === "fr" ? "Publications et essais cliniques dans les journaux de reference (PubMed, Wiley, MDPI)." : "Clinical trials in leading dermatology journals (PubMed, Wiley, MDPI)."}</p>
         </div>
-      </div>
+      </a>
       <div class="flex items-start gap-4 p-5 rounded-xl border border-slate-200 bg-white">
         <div class="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center shrink-0">
           <span class="text-lg">🏷️</span>
         </div>
         <div>
           <p class="text-sm font-bold text-slate-800">{locale === "fr" ? "Listes INCI fabricants" : "Manufacturer INCI lists"}</p>
-          <p class="text-xs text-slate-500 mt-0.5">{locale === "fr" ? "Compositions compl\u00e8tes relev\u00e9es sur les emballages produits. Pas de donn\u00e9es marketing, les listes r\u00e9elles." : "Full compositions from actual product packaging. Not marketing data, real labels."}</p>
+          <p class="text-xs text-slate-500 mt-0.5">{locale === "fr" ? "Compositions relevees sur les emballages. Pas de donnees marketing, les listes reelles." : "Full compositions from actual product packaging. Real labels, not marketing."}</p>
         </div>
       </div>
     </div>
     <p class="reveal text-center mt-6">
-      <a href={localizedPath("/methodology", locale)} class="text-sm text-violet-600 hover:text-violet-700 font-medium">
-        {locale === "fr" ? "Voir notre m\u00e9thodologie compl\u00e8te" : "See our full methodology"} &rarr;
+      <a href={localizedPath("/methodology", locale)} class="text-sm text-violet-600 hover:text-violet-700 font-medium transition-colors">
+        {locale === "fr" ? "Voir notre methodologie complete" : "See our full methodology"} &rarr;
       </a>
     </p>
   </div>
 </section>
 
-<!-- ========== 13. FAQ ========== -->
-<section class="section">
+<!-- ========== 17. FAQ ========== -->
+<section class="section section-alt">
   <div class="max-w-3xl mx-auto px-4 sm:px-6">
     <h2 class="reveal text-center mb-10">{t(tr.faq.title, locale)}</h2>
     <div class="reveal-children space-y-3">
       {(locale === "fr" ? [
-        { question: "Comment SkinScore note-t-il les produits ?", answer: "SkinScore analyse chaque ingrédient de la liste INCI selon cinq dimensions : efficacité (actifs prouves), securite (allergenes, irritants, substances reglementees UE), comédogénicité (risque d'obstruction des pores), transparence (divulgation complète, certifications) et compatibilité avec le type de peau. Chaque dimension est notée puis combinée en une note finale de A à E." },
-        { question: "SkinScore est-il indépendant ?", answer: "Oui. SkinScore n'accepte aucun paiement des marques pour influencer les notes. Notre méthodologie est entièrement transparente, basée sur les données UE CosIng, les avis SCCS et la recherche dermatologique. Nos revenus viennent de liens affilies (qui n'affectent jamais les scores)." },
-        { question: "C'est quoi une liste INCI ?", answer: "INCI (International Nomenclature of Cosmetic Ingredients) est le systeme de nomenclature standardise des ingredients cosmetiques. Tout produit vendu en UE doit afficher sa liste INCI. SkinScore décode ces noms scientifiques en langage clair." },
-        { question: "SkinScore peut recommander une routine ?", answer: "Oui. Fais notre quiz peau de 2 minutes pour obtenir une routine AM/PM personnalisée selon ton type de peau, tes préoccupations et ton budget. Chaque produit recommandé est soutenu par sa note SkinScore." },
+        { question: "Comment SkinScore note-t-il les produits ?", answer: "SkinScore analyse chaque ingredient de la liste INCI selon cinq dimensions : efficacite (actifs prouves), securite (allergenes, irritants, substances reglementees UE), comedogenicite (risque d'obstruction des pores), transparence (divulgation complete, certifications) et compatibilite avec le type de peau. Chaque dimension est notee puis combinee en une note finale de A a E." },
+        { question: "SkinScore est-il independant ?", answer: "Oui. SkinScore n'accepte aucun paiement des marques pour influencer les notes. Notre methodologie est entierement transparente, basee sur les donnees UE CosIng, les avis SCCS et la recherche dermatologique. Nos revenus viennent de liens affilies (qui n'affectent jamais les scores)." },
+        { question: "C'est quoi une liste INCI ?", answer: "INCI (International Nomenclature of Cosmetic Ingredients) est le systeme de nomenclature standardise des ingredients cosmetiques. Tout produit vendu en UE doit afficher sa liste INCI. SkinScore decode ces noms scientifiques en langage clair." },
+        { question: "SkinScore peut recommander une routine ?", answer: "Oui. Fais notre quiz peau de 2 minutes pour obtenir une routine AM/PM personnalisee selon ton type de peau, tes preoccupations et ton budget. Chaque produit recommande est soutenu par sa note SkinScore." },
         { question: "Combien de produits couvre SkinScore ?", answer: "SkinScore note actuellement plus de 2 600 produits de 250+ marques. Nettoyants, hydratants, serums, solaires, exfoliants, masques. On ajoute de nouveaux produits chaque jour." },
       ] : siteConfig.faq).map((item, i) => (
         <details class="group card !p-0 overflow-hidden" open={i === 0}>
@@ -572,26 +799,34 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
   </div>
 </section>
 
-<!-- ========== 14. CTA FINAL ========== -->
+<!-- ========== 18. CTA FINAL ========== -->
 <section class="section">
   <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
     <div class="reveal relative p-10 md:p-14 rounded-3xl bg-gradient-to-br from-violet-600 to-indigo-700 text-white overflow-hidden">
       <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(255,255,255,0.1),transparent_60%)]"></div>
+      <!-- Floating decorative grades -->
+      <div class="absolute top-6 left-8 grade grade-sm grade-a opacity-20 molecule-float text-xs">A</div>
+      <div class="absolute bottom-8 right-10 grade grade-sm grade-c opacity-15 molecule-float text-xs" style="animation-delay:3s">C</div>
       <div class="relative">
         <h2 class="text-2xl md:text-3xl font-extrabold mb-4 leading-tight">{t(tr.cta.title, locale)}</h2>
         <p class="text-white/70 mb-8 max-w-lg mx-auto">{t(tr.cta.subtitle, locale)}</p>
-        <a href={localizedPath("/rankings", locale)} class="inline-flex items-center gap-2 px-8 py-4 bg-white text-violet-700 font-bold rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-lg">
-          {t(tr.cta.button, locale)}
-          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" /></svg>
-        </a>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href={localizedPath("/rankings", locale)} class="inline-flex items-center gap-2 px-8 py-4 bg-white text-violet-700 font-bold rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-lg">
+            {t(tr.cta.button, locale)}
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </a>
+          <a href={localizedPath("/quiz", locale)} class="inline-flex items-center gap-2 px-6 py-3 border-2 border-white/30 text-white font-semibold rounded-xl hover:bg-white/10 transition-all duration-300 text-sm">
+            {locale === "fr" ? "Ou fais le quiz" : "Or take the quiz"} &rarr;
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Carousel + counter + rotating text styles -->
+<!-- ========== STYLES ========== -->
 <style>
-  /* Rotating text - width auto-calculated by JS */
+  /* Rotating text */
   .si-rotating-container {
     display: inline-block;
     position: relative;
@@ -680,9 +915,59 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
   .si-carousel-item {
     scroll-snap-align: start;
   }
+
+  /* Score card animation */
+  .si-score-card {
+    will-change: transform;
+  }
+
+  /* Grade text colors */
+  .grade-a-text { color: #10b981; }
+  .grade-b-text { color: #3b82f6; }
+  .grade-c-text { color: #f59e0b; }
+  .grade-d-text { color: #f97316; }
+  .grade-e-text { color: #ef4444; }
+
+  /* Quiz skin type cards float */
+  .quiz-skin-card {
+    animation: quizFloat 3s ease-in-out infinite;
+  }
+  .quiz-skin-card:nth-child(2) { animation-delay: 0.5s; }
+  .quiz-skin-card:nth-child(3) { animation-delay: 1s; }
+  .quiz-skin-card:nth-child(4) { animation-delay: 1.5s; }
+  .quiz-skin-card:nth-child(5) { animation-delay: 2s; }
+  .quiz-skin-card:nth-child(6) { animation-delay: 2.5s; }
+  @keyframes quizFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+  }
+
+  /* Hero product badges staggered entry */
+  .hero-product-badge {
+    animation: heroFadeUp 0.6s ease-out both;
+  }
+  @keyframes heroFadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .si-rotating-word,
+    .si-badge-text,
+    .quiz-skin-card,
+    .hero-product-badge,
+    .si-step-circle::after,
+    .hero-orb {
+      animation: none !important;
+      transition: none !important;
+    }
+    .si-rotating-active { opacity: 1; transform: none; }
+    .si-badge-active { opacity: 1; transform: none; }
+  }
 </style>
 
-<!-- Animated counters + rotating text script -->
+<!-- ========== SCRIPTS ========== -->
 <script is:inline>
   // Animated counters
   (function () {
@@ -708,6 +993,21 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
     counters.forEach(function (c) { observer.observe(c); });
   })();
 
+  // Animated score bars
+  (function () {
+    var bars = document.querySelectorAll(".si-score-bar");
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        var el = entry.target;
+        var width = el.getAttribute("data-width");
+        setTimeout(function () { el.style.width = width + "%"; }, 100);
+        observer.unobserve(el);
+      });
+    }, { threshold: 0.2 });
+    bars.forEach(function (b) { observer.observe(b); });
+  })();
+
   // Rotating hero text with auto-width
   (function () {
     var words = document.querySelectorAll(".si-rotating-word");
@@ -717,13 +1017,11 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
 
     function updateWidth() {
       var active = words[current];
-      // Temporarily make visible to measure
       active.style.position = "relative";
       container.style.width = active.offsetWidth + "px";
       active.style.position = "";
     }
 
-    // Set initial width
     updateWidth();
 
     setInterval(function () {
@@ -746,5 +1044,25 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
       badges[current].classList.add("si-badge-active");
       badges[current].style.position = "relative";
     }, 4000);
+  })();
+
+  // Parallax hero orbs on scroll
+  (function () {
+    var orbs = document.querySelectorAll(".hero-orb");
+    if (!orbs.length) return;
+    var ticking = false;
+    window.addEventListener("scroll", function () {
+      if (!ticking) {
+        requestAnimationFrame(function () {
+          var scrollY = window.scrollY;
+          orbs.forEach(function (orb) {
+            var speed = parseFloat(orb.getAttribute("data-speed") || "0.01");
+            orb.style.transform = "translateY(" + (scrollY * speed * 100) + "px)";
+          });
+          ticking = false;
+        });
+        ticking = true;
+      }
+    });
   })();
 </script>
