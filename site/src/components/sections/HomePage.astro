@@ -424,38 +424,16 @@ const subScoreLabels = [
         {t(tr.common.viewAll, locale)} &rarr;
       </a>
     </div>
-    <div class="reveal-children grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-      {topProducts.slice(0, 8).map((p) => (
-        <a href={localizedPath(`/product/${p.id}`, locale)} class="group p-4 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-md transition-all duration-300">
-          <div class="flex items-center gap-2 mb-3">
-            <div class={`grade grade-sm ${gc(p.score)} shrink-0`}>{p.score}</div>
-            <span class="text-[10px] font-bold text-slate-400">{p.scoreNumeric}/100</span>
-          </div>
-          {p.image ? (
-            <div class="w-full aspect-square rounded-lg bg-slate-50 mb-3 overflow-hidden">
-              <img src={p.image} alt={`${p.brand} ${p.name}`} class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" loading="lazy" />
-            </div>
-          ) : (
-            <div class="w-full aspect-square rounded-lg bg-gradient-to-br from-violet-50 to-indigo-50 mb-3 flex items-center justify-center">
-              <div class={`grade grade-xl ${gc(p.score)} opacity-30`}>{p.score}</div>
-            </div>
-          )}
-          <p class="text-[10px] text-violet-600 font-semibold">{p.brand}</p>
-          <p class="text-xs font-bold text-slate-800 truncate group-hover:text-violet-700 transition-colors">{p.name}</p>
-          {p.price && <p class="text-[10px] text-slate-400 mt-0.5">{p.price} EUR</p>}
-        </a>
-      ))}
-    </div>
-    <!-- Second row - carousel for the rest -->
-    <div class="si-carousel reveal mt-4">
-      <div class="si-carousel-track">
-        {topProducts.slice(8).map((p) => (
-          <a href={localizedPath(`/product/${p.id}`, locale)} class="si-carousel-item shrink-0 w-44 flex items-center gap-3 p-3 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-sm transition-all duration-200">
-            <div class={`grade grade-sm ${gc(p.score)} shrink-0`}>{p.score}</div>
-            <div class="min-w-0">
+    <!-- Horizontal scroll on mobile, grid on desktop -->
+    <div class="si-carousel reveal md:!overflow-visible">
+      <div class="si-carousel-track md:!grid md:grid-cols-4 md:gap-4 md:!flex-none">
+        {topProducts.slice(0, 8).map((p) => (
+          <a href={localizedPath(`/product/${p.id}`, locale)} class="si-carousel-item shrink-0 w-56 md:w-auto group flex items-center gap-3 p-3 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-md transition-all duration-300">
+            <div class={`grade grade-md ${gc(p.score)} shrink-0`}>{p.score}</div>
+            <div class="min-w-0 flex-1">
               <p class="text-[10px] text-violet-600 font-semibold">{p.brand}</p>
-              <p class="text-xs font-bold text-slate-800 truncate">{p.name}</p>
-              <p class="text-[10px] text-slate-400">{p.scoreNumeric}/100</p>
+              <p class="text-xs font-bold text-slate-800 truncate group-hover:text-violet-700 transition-colors">{p.name}</p>
+              <p class="text-[10px] text-slate-400 mt-0.5">{p.scoreNumeric}/100{p.price ? ` · ${p.price} EUR` : ""}</p>
             </div>
           </a>
         ))}
@@ -582,14 +560,14 @@ const subScoreLabels = [
 
     <div class="reveal-children grid grid-cols-1 md:grid-cols-2 gap-8">
       <!-- Interaction Checker -->
-      <a href={localizedPath("/interactions", locale)} class="block p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-violet-500/40 hover:bg-white/10 transition-all duration-300 group">
-        <div class="w-14 h-14 rounded-2xl bg-violet-500/20 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+      <a href={localizedPath("/interactions", locale)} class="block p-5 sm:p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-violet-500/40 hover:bg-white/10 transition-all duration-300 group">
+        <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-violet-500/20 flex items-center justify-center mb-3 sm:mb-5 group-hover:scale-110 transition-transform">
           <svg class="w-7 h-7 text-violet-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" stroke-linecap="round" />
           </svg>
         </div>
-        <h3 class="text-xl font-bold text-white mb-3">Interaction Checker</h3>
-        <p class="text-white/50 leading-relaxed mb-4">
+        <h3 class="text-lg sm:text-xl font-bold text-white mb-2 sm:mb-3">Interaction Checker</h3>
+        <p class="text-sm sm:text-base text-white/50 leading-relaxed mb-4">
           {locale === "fr"
             ? "\"Puis-je utiliser du retinol avec de la vitamine C ?\" La question n1 en skincare. On y repond enfin, avec la science, pas les mythes."
             : "\"Can I use retinol with vitamin C?\" The #1 question in skincare. We finally answer it, with science, not myths."}
@@ -602,17 +580,17 @@ const subScoreLabels = [
       </a>
 
       <!-- Dupe Finder -->
-      <a href={localizedPath("/dupes", locale)} class="block p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-500/40 hover:bg-white/10 transition-all duration-300 group">
-        <div class="w-14 h-14 rounded-2xl bg-amber-500/20 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+      <a href={localizedPath("/dupes", locale)} class="block p-5 sm:p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-500/40 hover:bg-white/10 transition-all duration-300 group">
+        <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-amber-500/20 flex items-center justify-center mb-3 sm:mb-5 group-hover:scale-110 transition-transform">
           <svg class="w-7 h-7 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" stroke-linecap="round" />
             <path d="M8 11h6M11 8v6" stroke-linecap="round" />
           </svg>
         </div>
-        <h3 class="text-xl font-bold text-white mb-3">
+        <h3 class="text-lg sm:text-xl font-bold text-white mb-2 sm:mb-3">
           {locale === "fr" ? "Trouveur de dupes" : "Dupe Finder"}
         </h3>
-        <p class="text-white/50 leading-relaxed mb-4">
+        <p class="text-sm sm:text-base text-white/50 leading-relaxed mb-4">
           {locale === "fr"
             ? "\"Ce serum a 80 EUR a les mêmes actifs que celui a 12 EUR.\" On compare les formules, pas les prix. Et on te montre l'alternative."
             : "\"This 80 EUR serum has the same actives as this 12 EUR one.\" We compare formulas, not prices. And show you the alternative."}
@@ -645,7 +623,7 @@ const subScoreLabels = [
     {blogPosts.length > 0 ? (
       <div class="reveal-children grid grid-cols-1 md:grid-cols-3 gap-6">
         {blogPosts.map((post, i) => (
-          <a href={localizedPath(`/blog/${post.id}`, locale)} class={`group block rounded-xl border border-slate-200 bg-white overflow-hidden hover:border-violet-300 hover:shadow-lg transition-all duration-300 ${i === 0 && blogPosts.length === 1 ? "md:col-span-3" : ""}`}>
+          <a href={localizedPath(`/blog/${post.id}`, locale)} class={`group block rounded-xl border border-slate-200 bg-white overflow-hidden hover:border-violet-300 hover:shadow-lg transition-all duration-300 ${blogPosts.length === 1 ? "md:col-span-2 md:max-w-xl md:mx-auto" : ""}`}>
             {post.data.image && (
               <div class="aspect-video overflow-hidden bg-slate-100">
                 <img src={post.data.image} alt={post.data.imageAlt || post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
