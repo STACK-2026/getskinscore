@@ -112,7 +112,7 @@ const frHref = siteConfig.url + "/fr" + (cleanPath === "/" ? "/" : cleanPath);
     <!-- Scroll reveal observer -->
     <script is:inline>
       (function () {
-        var els = document.querySelectorAll(".reveal, .reveal-children");
+        var els = document.querySelectorAll(".reveal, .reveal-children, .scale-reveal");
         if (!els.length) return;
         var observer = new IntersectionObserver(
           function (entries) {
@@ -123,7 +123,7 @@ const frHref = siteConfig.url + "/fr" + (cleanPath === "/" ? "/" : cleanPath);
               }
             });
           },
-          { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
+          { threshold: 0.08, rootMargin: "0px 0px -40px 0px" }
         );
         els.forEach(function (el) { observer.observe(el); });
       })();

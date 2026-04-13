@@ -1,34 +1,59 @@
-/* === SkinScore Animations (Stripe/Linear-inspired: subtle, purposeful) === */
+/* === SkinScore Animations (adapte-toi.com standard) === */
 
-/* Scroll reveal - gentle, not dramatic */
+/* Easing tokens */
+:root {
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-spring: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+/* === Scroll reveal - blur-to-sharp (primary reveal) === */
 .reveal {
   opacity: 0;
-  transform: translateY(16px);
-  transition: opacity 500ms cubic-bezier(0.25, 0.1, 0.25, 1),
-    transform 500ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  filter: blur(8px);
+  transform: translateY(20px);
+  transition: opacity 0.8s var(--ease-out-expo),
+    filter 0.8s var(--ease-out-expo),
+    transform 0.8s var(--ease-out-expo);
 }
 
 .reveal.visible {
   opacity: 1;
+  filter: blur(0);
   transform: translateY(0);
 }
 
-/* Staggered children - tighter delays */
+/* === Staggered children (blur + translate) === */
 .reveal-children > * {
   opacity: 0;
-  transform: translateY(12px);
-  transition: opacity 400ms cubic-bezier(0.25, 0.1, 0.25, 1),
-    transform 400ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  filter: blur(6px);
+  transform: translateY(16px);
+  transition: opacity 0.7s var(--ease-out-expo),
+    filter 0.7s var(--ease-out-expo),
+    transform 0.7s var(--ease-out-expo);
 }
 
-.reveal-children.visible > *:nth-child(1) { transition-delay: 0ms; opacity: 1; transform: translateY(0); }
-.reveal-children.visible > *:nth-child(2) { transition-delay: 60ms; opacity: 1; transform: translateY(0); }
-.reveal-children.visible > *:nth-child(3) { transition-delay: 120ms; opacity: 1; transform: translateY(0); }
-.reveal-children.visible > *:nth-child(4) { transition-delay: 180ms; opacity: 1; transform: translateY(0); }
-.reveal-children.visible > *:nth-child(5) { transition-delay: 240ms; opacity: 1; transform: translateY(0); }
-.reveal-children.visible > *:nth-child(6) { transition-delay: 300ms; opacity: 1; transform: translateY(0); }
+.reveal-children.visible > *:nth-child(1) { transition-delay: 0ms; opacity: 1; filter: blur(0); transform: translateY(0); }
+.reveal-children.visible > *:nth-child(2) { transition-delay: 80ms; opacity: 1; filter: blur(0); transform: translateY(0); }
+.reveal-children.visible > *:nth-child(3) { transition-delay: 160ms; opacity: 1; filter: blur(0); transform: translateY(0); }
+.reveal-children.visible > *:nth-child(4) { transition-delay: 240ms; opacity: 1; filter: blur(0); transform: translateY(0); }
+.reveal-children.visible > *:nth-child(5) { transition-delay: 320ms; opacity: 1; filter: blur(0); transform: translateY(0); }
+.reveal-children.visible > *:nth-child(6) { transition-delay: 400ms; opacity: 1; filter: blur(0); transform: translateY(0); }
+.reveal-children.visible > *:nth-child(7) { transition-delay: 480ms; opacity: 1; filter: blur(0); transform: translateY(0); }
+.reveal-children.visible > *:nth-child(8) { transition-delay: 560ms; opacity: 1; filter: blur(0); transform: translateY(0); }
 
-/* Grade pulse - subtle, not aggressive */
+/* === Scale reveal === */
+.scale-reveal {
+  opacity: 0;
+  transform: scale(0.92);
+  transition: opacity 0.7s var(--ease-out-expo), transform 0.7s var(--ease-out-expo);
+}
+.scale-reveal.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* === Grade pulse === */
 @keyframes gradePulse {
   0%, 100% { box-shadow: 0 0 0 0 rgb(124 58 237 / 0.2); }
   50% { box-shadow: 0 0 0 6px rgb(124 58 237 / 0); }
@@ -38,27 +63,61 @@
   animation: gradePulse 3s ease-in-out infinite;
 }
 
-/* Molecule float (hero background) - slower, calmer */
+/* === Molecule float (hero background) === */
 @keyframes moleculeFloat {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
+  50% { transform: translateY(-8px); }
 }
 
 .molecule-float {
   animation: moleculeFloat 8s ease-in-out infinite;
 }
 
-/* Score counter reveal */
-.animate-count-up {
-  animation: countUp 500ms cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+/* === Hover effects === */
+
+/* Shine sweep (Stripe-style) */
+.hover-shine {
+  position: relative;
+  overflow: hidden;
+}
+.hover-shine::after {
+  content: "";
+  position: absolute;
+  top: -50%; left: -50%;
+  width: 200%; height: 200%;
+  background: linear-gradient(to bottom right, transparent 40%, rgba(255,255,255,0.06) 50%, transparent 60%);
+  transform: rotate(30deg) translateX(-100%);
+  transition: transform 0.7s ease;
+  pointer-events: none;
+}
+.hover-shine:hover::after {
+  transform: rotate(30deg) translateX(100%);
 }
 
-@keyframes countUp {
-  from { opacity: 0; transform: scale(0.9); }
-  to { opacity: 1; transform: scale(1); }
+/* Glow shadow on hover */
+.hover-glow {
+  transition: box-shadow 0.4s ease, transform 0.4s var(--ease-out-expo);
+}
+.hover-glow:hover {
+  box-shadow: 0 0 40px -5px rgba(124, 58, 237, 0.12), 0 20px 40px -15px rgba(0, 0, 0, 0.08);
 }
 
-/* Reduced motion */
+/* 3D tilt on hover (subtle perspective) */
+.hover-tilt {
+  transition: transform 0.3s ease;
+  transform-style: preserve-3d;
+}
+.hover-tilt:hover {
+  transform: perspective(800px) rotateX(-2deg) rotateY(2deg) translateY(-4px);
+}
+
+/* === Parallax helper === */
+[data-parallax] {
+  will-change: transform;
+  transition: transform 0.1s linear;
+}
+
+/* === Reduced motion === */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
@@ -66,6 +125,13 @@
     transition-duration: 0.01ms !important;
   }
 
-  .reveal { opacity: 1; transform: none; }
-  .reveal-children > * { opacity: 1; transform: none; }
+  .reveal, .scale-reveal { opacity: 1; transform: none; filter: none; }
+  .reveal-children > * { opacity: 1; transform: none; filter: none; }
+  .hover-tilt:hover { transform: none; }
+  .hover-shine::after { display: none; }
+}
+
+/* === Mobile: disable hover effects === */
+@media (max-width: 640px) {
+  .hover-shine::after { display: none; }
 }
