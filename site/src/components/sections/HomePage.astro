@@ -228,20 +228,20 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
 <section class="section">
   <div class="max-w-5xl mx-auto px-4 sm:px-6">
     <h2 class="reveal text-center mb-10">{t(tr.features.title, locale)}</h2>
-    <div class="reveal-children grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="reveal-children grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
       {(locale === "fr" ? [
-        { title: "La vérité en 2 secondes", description: "Colle ta liste INCI ou cherche un produit. En 2 secondes, tu sais si ça vaut ton argent ou si tu paies du marketing.", icon: "zap" },
-        { title: "Zéro deal avec les marques", description: "On n'accepte pas d'argent des marques. Nos notes viennent des données UE CosIng, des avis SCCS et de la recherche dermatologique. La Mer obtient un C. On s'en fiche.", icon: "shield" },
-        { title: "Ta peau, tes règles", description: "Chaque score s'adapte à TON type de peau. Ce qui est noté A pour peau grasse peut être C pour peau sensible. Parce qu'une taille unique, ça n'existe pas.", icon: "user" },
+        { title: "La v\u00e9rit\u00e9 en 2 secondes", description: "Colle ta liste INCI ou cherche un produit. En 2 secondes, tu sais si \u00e7a vaut ton argent ou si tu paies du marketing.", icon: "zap" },
+        { title: "Z\u00e9ro deal avec les marques", description: "On n'accepte pas d'argent des marques. Nos notes viennent des donn\u00e9es UE CosIng, des avis SCCS et de la recherche dermatologique. La Mer obtient un C. On s'en fiche.", icon: "shield" },
+        { title: "Ta peau, tes r\u00e8gles", description: "Chaque score s'adapte \u00e0 TON type de peau. Ce qui est not\u00e9 A pour peau grasse peut \u00eatre C pour peau sensible. Parce qu'une taille unique, \u00e7a n'existe pas.", icon: "user" },
       ] : siteConfig.features).map((feature) => (
-        <div class="card card-glow text-center p-8">
+        <div class="card text-center p-8 flex flex-col">
           <div class="w-14 h-14 mx-auto mb-4 rounded-2xl bg-violet-100 flex items-center justify-center">
             {feature.icon === "zap" && <svg class="w-7 h-7 text-violet-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" /></svg>}
             {feature.icon === "shield" && <svg class="w-7 h-7 text-violet-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /><path d="m9 12 2 2 4-4" stroke-linecap="round" stroke-linejoin="round" /></svg>}
             {feature.icon === "user" && <svg class="w-7 h-7 text-violet-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>}
           </div>
           <h3 class="text-lg font-bold mb-2">{feature.title}</h3>
-          <p class="text-sm text-slate-600 leading-relaxed">{feature.description}</p>
+          <p class="text-sm text-slate-600 leading-relaxed flex-1">{feature.description}</p>
         </div>
       ))}
     </div>
@@ -252,13 +252,13 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
 <section class="section section-alt">
   <div class="max-w-5xl mx-auto px-4 sm:px-6">
     <h2 class="reveal text-center mb-12">{t(tr.howItWorks.title, locale)}</h2>
-    <div class="reveal-children grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="reveal-children grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
       {[
         { num: "1", title: t(tr.howItWorks.step1, locale), desc: t(tr.howItWorks.step1desc, locale) },
         { num: "2", title: t(tr.howItWorks.step2, locale), desc: t(tr.howItWorks.step2desc, locale) },
         { num: "3", title: t(tr.howItWorks.step3, locale), desc: t(tr.howItWorks.step3desc, locale) },
       ].map((step) => (
-        <div class="text-center">
+        <div class="text-center flex flex-col items-center">
           <div class="si-step-circle mx-auto mb-4">
             <span class="text-xl font-extrabold text-white">{step.num}</span>
           </div>
