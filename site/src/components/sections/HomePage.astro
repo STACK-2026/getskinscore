@@ -59,11 +59,11 @@ function gradeToNum(g: string): number {
 }
 
 const subScoreLabels = [
-  { key: "efficacy", label: t(tr.product.efficacy, locale), icon: "⚡" },
-  { key: "safety", label: t(tr.product.safety, locale), icon: "🛡" },
-  { key: "comedogenicity", label: t(tr.product.comedogenicity, locale), icon: "🔬" },
-  { key: "transparency", label: t(tr.product.transparency, locale), icon: "👁" },
-  { key: "skinTypeFit", label: t(tr.product.skinTypeFit, locale), icon: "🎯" },
+  { key: "efficacy", label: t(tr.product.efficacy, locale), svg: '<svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>' },
+  { key: "safety", label: t(tr.product.safety, locale), svg: '<svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>' },
+  { key: "comedogenicity", label: t(tr.product.comedogenicity, locale), svg: '<svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>' },
+  { key: "transparency", label: t(tr.product.transparency, locale), svg: '<svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>' },
+  { key: "skinTypeFit", label: t(tr.product.skinTypeFit, locale), svg: '<svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>' },
 ];
 ---
 
@@ -246,92 +246,99 @@ const subScoreLabels = [
 
 <!-- ========== 5. SCORE PREVIEW (the "aha moment") ========== -->
 <section class="section section-alt">
-  <div class="max-w-5xl mx-auto px-4 sm:px-6">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6">
     <div class="text-center mb-10">
       <div class="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-100 text-violet-700 text-sm font-semibold mb-4">
         {locale === "fr" ? "Exemple en direct" : "Live example"}
       </div>
-      <h2 class="reveal mb-3">{locale === "fr" ? "Ce que tu vois quand tu analyses un soin" : "What you see when you analyse a product"}</h2>
-      <p class="reveal text-slate-500 max-w-xl mx-auto text-sm">
-        {locale === "fr" ? "5 dimensions, un score final, zero bullshit." : "5 dimensions, one final score, zero BS."}
-      </p>
+      <h2 class="reveal mb-3">{locale === "fr" ? "Le prix ne garantit rien. La formule, si." : "Price guarantees nothing. The formula does."}</h2>
     </div>
 
-    <!-- Side-by-side comparison: CeraVe A vs La Mer C -->
-    <div class="reveal-children grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-      <!-- CeraVe - the winner -->
-      <a href={localizedPath(`/product/${previewProduct.id}`, locale)} class="si-score-card group block p-6 rounded-2xl bg-white border-2 border-emerald-200/50 hover:border-emerald-300 shadow-sm hover:shadow-lg transition-all duration-300">
-        <div class="flex items-center gap-4 mb-6">
-          {previewProduct.image && <img src={previewProduct.image} alt={previewProduct.name} class="w-14 h-14 rounded-xl object-cover bg-slate-100" loading="lazy" />}
-          <div class="flex-1 min-w-0">
-            <p class="text-xs text-violet-600 font-semibold">{previewProduct.brand}</p>
-            <p class="text-sm font-bold text-slate-800 truncate">{previewProduct.name}</p>
-            <p class="text-xs text-slate-400">{previewProduct.price} EUR · {previewProduct.size}</p>
-          </div>
-          <div class={`grade grade-lg ${gc(previewProduct.score)} grade-pulse`}>{previewProduct.score}</div>
-        </div>
-        <div class="space-y-3">
-          {subScoreLabels.map((s) => {
-            const grade = (previewProduct.subScores as any)[s.key] as string;
-            const num = gradeToNum(grade);
-            return (
-              <div>
-                <div class="flex items-center justify-between mb-1">
-                  <span class="text-xs text-slate-600 font-medium">{s.icon} {s.label}</span>
-                  <span class={`text-xs font-bold ${gc(grade)}-text`}>{grade}</span>
-                </div>
-                <div class="h-2 bg-slate-100 rounded-full overflow-hidden">
-                  <div class="si-score-bar h-full rounded-full transition-all duration-1000" data-width={num} style={`width: 0%; background: ${grade === "A" ? "#10b981" : grade === "B" ? "#3b82f6" : "#f59e0b"}`}></div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
-          <span class="text-2xl font-extrabold text-gradient">{previewProduct.scoreNumeric}/100</span>
-          <span class="text-xs text-slate-400 group-hover:text-violet-600 transition-colors">{locale === "fr" ? "Voir la fiche" : "View details"} &rarr;</span>
-        </div>
-      </a>
+    <!-- VS comparison block -->
+    <div class="reveal relative">
+      <!-- VS badge (center) -->
+      <div class="hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 w-12 h-12 rounded-full bg-slate-900 text-white items-center justify-center text-xs font-extrabold shadow-lg">VS</div>
 
-      <!-- La Mer - the exposed -->
-      <a href={localizedPath(`/product/${comparisonProduct.id}`, locale)} class="si-score-card group block p-6 rounded-2xl bg-white border-2 border-red-200/50 hover:border-red-300 shadow-sm hover:shadow-lg transition-all duration-300">
-        <div class="flex items-center gap-4 mb-6">
-          <div class="w-14 h-14 rounded-xl bg-slate-100 flex items-center justify-center text-2xl">💸</div>
-          <div class="flex-1 min-w-0">
-            <p class="text-xs text-red-600 font-semibold">{comparisonProduct.brand}</p>
-            <p class="text-sm font-bold text-slate-800 truncate">{comparisonProduct.name}</p>
-            <p class="text-xs text-slate-400">{comparisonProduct.price} EUR · {comparisonProduct.size}</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-0">
+        <!-- CeraVe - winner -->
+        <a href={localizedPath(`/product/${previewProduct.id}`, locale)} class="group block p-6 md:p-8 rounded-2xl md:rounded-r-none bg-emerald-50/50 border-2 border-emerald-200/60 md:border-r-0 hover:bg-emerald-50 transition-all duration-300">
+          <div class="flex items-center justify-between mb-5">
+            <div>
+              <p class="text-xs text-emerald-600 font-semibold mb-0.5">{previewProduct.brand}</p>
+              <p class="text-base font-bold text-slate-800">{previewProduct.name}</p>
+            </div>
+            <div class={`grade grade-xl ${gc(previewProduct.score)} grade-pulse`}>{previewProduct.score}</div>
           </div>
-          <div class={`grade grade-lg ${gc(comparisonProduct.score)}`}>{comparisonProduct.score}</div>
-        </div>
-        <div class="space-y-3">
-          {subScoreLabels.map((s) => {
-            const grade = (comparisonProduct.subScores as any)[s.key] as string;
-            const num = gradeToNum(grade);
-            return (
-              <div>
-                <div class="flex items-center justify-between mb-1">
-                  <span class="text-xs text-slate-600 font-medium">{s.icon} {s.label}</span>
-                  <span class={`text-xs font-bold ${gc(grade)}-text`}>{grade}</span>
+
+          <div class="flex items-baseline gap-2 mb-5">
+            <span class="text-3xl font-extrabold text-emerald-600">{previewProduct.price} EUR</span>
+            <span class="text-sm text-slate-400">· {previewProduct.size}</span>
+          </div>
+
+          <!-- Sub-scores as compact row -->
+          <div class="grid grid-cols-5 gap-2 mb-5">
+            {subScoreLabels.map((s) => {
+              const grade = (previewProduct.subScores as any)[s.key] as string;
+              return (
+                <div class="text-center">
+                  <div class={`grade grade-sm ${gc(grade)} mx-auto`}>{grade}</div>
+                  <p class="text-[9px] text-slate-400 mt-1 leading-tight">{s.label}</p>
                 </div>
-                <div class="h-2 bg-slate-100 rounded-full overflow-hidden">
-                  <div class="si-score-bar h-full rounded-full transition-all duration-1000" data-width={num} style={`width: 0%; background: ${grade === "A" ? "#10b981" : grade === "B" ? "#3b82f6" : grade === "C" ? "#f59e0b" : "#ef4444"}`}></div>
+              );
+            })}
+          </div>
+
+          <div class="flex items-center justify-between pt-4 border-t border-emerald-200/50">
+            <span class="text-xl font-extrabold text-emerald-600">{previewProduct.scoreNumeric}/100</span>
+            <span class="text-xs text-slate-400 group-hover:text-emerald-600 transition-colors">{locale === "fr" ? "Voir la fiche" : "View details"} &rarr;</span>
+          </div>
+        </a>
+
+        <!-- La Mer - exposed -->
+        <a href={localizedPath(`/product/${comparisonProduct.id}`, locale)} class="group block p-6 md:p-8 rounded-2xl md:rounded-l-none bg-red-50/50 border-2 border-red-200/60 md:border-l-0 hover:bg-red-50 transition-all duration-300">
+          <div class="flex items-center justify-between mb-5">
+            <div>
+              <p class="text-xs text-red-600 font-semibold mb-0.5">{comparisonProduct.brand}</p>
+              <p class="text-base font-bold text-slate-800">{comparisonProduct.name}</p>
+            </div>
+            <div class={`grade grade-xl ${gc(comparisonProduct.score)}`}>{comparisonProduct.score}</div>
+          </div>
+
+          <div class="flex items-baseline gap-2 mb-5">
+            <span class="text-3xl font-extrabold text-red-500">{comparisonProduct.price} EUR</span>
+            <span class="text-sm text-slate-400">· {comparisonProduct.size}</span>
+          </div>
+
+          <!-- Sub-scores as compact row -->
+          <div class="grid grid-cols-5 gap-2 mb-5">
+            {subScoreLabels.map((s) => {
+              const grade = (comparisonProduct.subScores as any)[s.key] as string;
+              return (
+                <div class="text-center">
+                  <div class={`grade grade-sm ${gc(grade)} mx-auto`}>{grade}</div>
+                  <p class="text-[9px] text-slate-400 mt-1 leading-tight">{s.label}</p>
                 </div>
-              </div>
-            );
-          })}
-        </div>
-        <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
-          <span class="text-2xl font-extrabold text-red-500">{comparisonProduct.scoreNumeric}/100</span>
-          <span class="text-xs text-slate-400 group-hover:text-red-600 transition-colors">{locale === "fr" ? "Voir la fiche" : "View details"} &rarr;</span>
-        </div>
-      </a>
+              );
+            })}
+          </div>
+
+          <div class="flex items-center justify-between pt-4 border-t border-red-200/50">
+            <span class="text-xl font-extrabold text-red-500">{comparisonProduct.scoreNumeric}/100</span>
+            <span class="text-xs text-slate-400 group-hover:text-red-600 transition-colors">{locale === "fr" ? "Voir la fiche" : "View details"} &rarr;</span>
+          </div>
+        </a>
+      </div>
     </div>
 
-    <p class="reveal text-center text-xs text-slate-400 mt-6 max-w-lg mx-auto">
+    <!-- Mobile VS -->
+    <div class="md:hidden flex justify-center -mt-2 mb-2">
+      <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">VS</span>
+    </div>
+
+    <p class="reveal text-center text-sm text-slate-500 mt-8 max-w-lg mx-auto font-medium">
       {locale === "fr"
-        ? "CeraVe a 15 EUR obtient un A (88/100). La Mer a 350 EUR obtient un C (67/100). Le prix ne garantit rien. La formule, si."
-        : "CeraVe at 15 EUR scores A (88/100). La Mer at 350 EUR scores C (67/100). Price guarantees nothing. The formula does."}
+        ? "Meme categorie. Meme promesse. 23x le prix. Score inferieur. Les molecules ne mentent pas."
+        : "Same category. Same promise. 23x the price. Lower score. Molecules don't lie."}
     </p>
   </div>
 </section>
@@ -506,15 +513,15 @@ const subScoreLabels = [
         </div>
         <div class="hidden md:grid grid-cols-3 gap-3">
           {[
-            { emoji: "💧", label: locale === "fr" ? "Seche" : "Dry" },
-            { emoji: "✨", label: locale === "fr" ? "Grasse" : "Oily" },
-            { emoji: "🔄", label: locale === "fr" ? "Mixte" : "Combination" },
-            { emoji: "🌸", label: locale === "fr" ? "Sensible" : "Sensitive" },
-            { emoji: "⭐", label: locale === "fr" ? "Normale" : "Normal" },
-            { emoji: "🎯", label: locale === "fr" ? "Routine" : "Routine" },
+            { label: locale === "fr" ? "Seche" : "Dry", svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/></svg>' },
+            { label: locale === "fr" ? "Grasse" : "Oily", svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>' },
+            { label: locale === "fr" ? "Mixte" : "Combination", svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 010 20"/></svg>' },
+            { label: locale === "fr" ? "Sensible" : "Sensitive", svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>' },
+            { label: locale === "fr" ? "Normale" : "Normal", svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>' },
+            { label: locale === "fr" ? "Routine" : "Routine", svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>' },
           ].map((st) => (
             <div class="p-3 rounded-xl bg-violet-50/50 border border-violet-100 text-center quiz-skin-card">
-              <span class="text-2xl block mb-1">{st.emoji}</span>
+              <div class="w-6 h-6 mx-auto mb-1 text-violet-500" set:html={st.svg} />
               <span class="text-[10px] font-semibold text-violet-700">{st.label}</span>
             </div>
           ))}
@@ -534,7 +541,16 @@ const subScoreLabels = [
     <div class="reveal-children grid grid-cols-2 sm:grid-cols-4 gap-3">
       {siteConfig.concerns.map((concern) => (
         <a href={localizedPath(`/best/${concern.id}`, locale)} class="flex flex-col items-center justify-center p-6 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:bg-violet-50/50 hover:shadow-sm transition-all duration-300 group min-h-[100px]">
-          <span class="text-2xl mb-2 group-hover:scale-125 transition-transform duration-300">{concern.icon === "droplets" ? "💧" : concern.icon === "clock" ? "⏳" : concern.icon === "sun" ? "☀️" : concern.icon === "flame" ? "🔥" : concern.icon === "wind" ? "💨" : concern.icon === "heart" ? "💜" : concern.icon === "droplet" ? "💦" : "⭕"}</span>
+          <div class="w-8 h-8 mb-2 text-violet-500 group-hover:text-violet-600 group-hover:scale-125 transition-all duration-300" set:html={
+            concern.icon === "droplets" ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/></svg>'
+            : concern.icon === "clock" ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>'
+            : concern.icon === "sun" ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+            : concern.icon === "flame" ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8.5 14.5A2.5 2.5 0 0011 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 11-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 002.5 2.5z"/></svg>'
+            : concern.icon === "wind" ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.59 4.59A2 2 0 1111 8H2m10.59 11.41A2 2 0 1014 16H2m15.73-8.27A2.5 2.5 0 1119.5 12H2"/></svg>'
+            : concern.icon === "heart" ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>'
+            : concern.icon === "droplet" ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/><path d="M8 14a4 4 0 004 4"/></svg>'
+            : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/></svg>'
+          } />
           <span class="text-sm font-semibold text-slate-700 group-hover:text-violet-700 transition-colors text-center">{t(concern.label, locale)}</span>
         </a>
       ))}
@@ -675,7 +691,7 @@ const subScoreLabels = [
       </div>
     ) : (
       <div class="reveal text-center py-12 rounded-2xl border border-dashed border-slate-200 bg-slate-50/50">
-        <p class="text-lg mb-2">🔬</p>
+        <div class="w-8 h-8 mx-auto mb-2 text-violet-400"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 3h6v4H9zM6 7h12l-1 13H7z"/><path d="M10 11v4M14 11v4"/></svg></div>
         <p class="text-sm text-slate-500 font-medium">
           {locale === "fr" ? "Les premiers articles arrivent bientot." : "First articles coming soon."}
         </p>
@@ -725,8 +741,8 @@ const subScoreLabels = [
     <p class="reveal text-center text-slate-500 mb-10">{locale === "fr" ? "Pas d'opinions. Des donnees vérifiées." : "Not opinions. Verified data."}</p>
     <div class="reveal-children grid grid-cols-1 sm:grid-cols-2 gap-4">
       <a href="https://ec.europa.eu/growth/tools-databases/cosing/" target="_blank" rel="noopener" class="flex items-start gap-4 p-5 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-sm transition-all duration-200 group">
-        <div class="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
-          <span class="text-lg">🇪🇺</span>
+        <div class="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform text-blue-600">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
         </div>
         <div>
           <p class="text-sm font-bold text-slate-800 group-hover:text-violet-700 transition-colors">EU CosIng</p>
@@ -734,8 +750,8 @@ const subScoreLabels = [
         </div>
       </a>
       <a href="https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en" target="_blank" rel="noopener" class="flex items-start gap-4 p-5 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-sm transition-all duration-200 group">
-        <div class="w-10 h-10 rounded-lg bg-green-100 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
-          <span class="text-lg">🔬</span>
+        <div class="w-10 h-10 rounded-lg bg-green-100 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform text-green-600">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 3h6v4H9zM6 7h12l-1 13H7z"/><path d="M10 11v4M14 11v4"/></svg>
         </div>
         <div>
           <p class="text-sm font-bold text-slate-800 group-hover:text-violet-700 transition-colors">SCCS</p>
@@ -743,8 +759,8 @@ const subScoreLabels = [
         </div>
       </a>
       <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener" class="flex items-start gap-4 p-5 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-sm transition-all duration-200 group">
-        <div class="w-10 h-10 rounded-lg bg-violet-100 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
-          <span class="text-lg">📚</span>
+        <div class="w-10 h-10 rounded-lg bg-violet-100 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform text-violet-600">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
         </div>
         <div>
           <p class="text-sm font-bold text-slate-800 group-hover:text-violet-700 transition-colors">{locale === "fr" ? "Recherche dermatologique" : "Dermatology research"}</p>
@@ -752,8 +768,8 @@ const subScoreLabels = [
         </div>
       </a>
       <div class="flex items-start gap-4 p-5 rounded-xl border border-slate-200 bg-white">
-        <div class="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center shrink-0">
-          <span class="text-lg">🏷️</span>
+        <div class="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center shrink-0 text-amber-600">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
         </div>
         <div>
           <p class="text-sm font-bold text-slate-800">{locale === "fr" ? "Listes INCI fabricants" : "Manufacturer INCI lists"}</p>
