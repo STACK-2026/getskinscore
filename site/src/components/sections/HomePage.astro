@@ -31,17 +31,17 @@ const spotlightIngredients = ingredients.filter((i) =>
 
 // Hero phrases for TextMorph (shorter for mobile compatibility)
 const heroMorphPhrases = locale === "fr"
-  ? ["ton serum te ment ?", "ta creme te ment ?", "ton SPF te ment ?", "ton nettoyant te ment ?", "ton contour des yeux te ment ?"]
+  ? ["ton sérum te ment ?", "ta crème te ment ?", "ton SPF te ment ?", "ton nettoyant te ment ?", "ton contour des yeux te ment ?"]
   : ["your serum lying to you?", "your cream lying to you?", "your SPF lying to you?", "your cleanser lying to you?", "your eye cream lying to you?"];
 
 // Badge rotating phrases
 const badgePhrases = locale === "fr"
-  ? ["67% des soins contiennent un ingredient douteux", "La Mer a 350 EUR obtient un C. Nivea a 5 EUR aussi.", "Le parfum est l'allergene n1 en cosmetique", "2 700+ soins notes de A a E. Aucune marque ne nous paie.", "Ton serum a 80 EUR a les memes actifs que celui a 12 EUR"]
+  ? ["67% des soins contiennent un ingrédient douteux", "La Mer a 350 EUR obtient un C. Nivea a 5 EUR aussi.", "Le parfum est l'allergène n1 en cosmétique", "2 700+ soins notés de A a E. Aucune marque ne nous paie.", "Ton sérum a 80 EUR a les mêmes actifs que celui a 12 EUR"]
   : ["67% of skincare products contain a concerning ingredient", "La Mer at 350 EUR scores a C. Nivea at 5 EUR also scores C.", "Fragrance is the #1 allergen in cosmetics", "2,700+ products scored A to E. No brand pays us.", "Your 80 EUR serum has the same actives as this 12 EUR one"];
 
 // CTA morph phrases
 const ctaMorphPhrases = locale === "fr"
-  ? ["Verifier mon soin", "Analyser ma creme", "Decoder mes ingredients"]
+  ? ["Vérifier mon soin", "Analyser ma crème", "Décoder mes ingrédients"]
   : ["Check my product", "Analyse my cream", "Decode my ingredients"];
 
 // Blog posts
@@ -201,13 +201,13 @@ const subScoreLabels = [
     </h2>
     <p class="reveal text-base md:text-lg text-white/50 leading-relaxed mb-8">
       {locale === "fr"
-        ? "SkinScore est ne d'une frustration simple : pourquoi est-ce si difficile de savoir ce qu'il y a dans un soin ? Pourquoi faut-il un diplome en chimie pour lire une etiquette ? Pourquoi les marques depensent plus en marketing qu'en formulation ? On a decide de changer ca. Chaque ingredient, passe au crible. Chaque produit, note sans concession. Aucune marque ne nous paie. Aucune ne peut acheter un meilleur score."
-        : "SkinScore was born from a simple frustration: why is it so hard to know what's in your skincare? Why do you need a chemistry degree to read a label? Why do brands spend more on marketing than formulation? We decided to change that. Every ingredient, dissected. Every product, scored without compromise. No brand pays us. None can buy a better score."}
+        ? "SkinScore est né d'une frustration simple : pourquoi est-ce si difficile de savoir ce qu'il y a dans un soin ? Pourquoi faut-il un diplôme en chimie pour lire une étiquette ? Pourquoi les marques dépensent plus en marketing qu'en formulation ? On a décidé de changer ça. Chaque ingrédient, passé au crible. Chaque produit, noté sans concession. Aucune marque ne nous paie. Aucune ne peut acheter un meilleur score."
+        : "SkinScore was born from a simple frustration: why is it so hard to know what's in your skincare? Why do you need a chemistry degree to read a label? Why do brands spend more on marketing than formulation? We decided to change that. Every ingrédient, dissected. Every product, scored without compromise. No brand pays us. None can buy a better score."}
     </p>
     <div class="reveal flex flex-wrap justify-center gap-3 text-sm">
       <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/70 hover:bg-white/10 transition-colors">{locale === "fr" ? "Zero partenariat marque" : "Zero brand deals"}</span>
-      <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/70 hover:bg-white/10 transition-colors">{locale === "fr" ? "Donnees UE CosIng + SCCS" : "EU CosIng + SCCS data"}</span>
-      <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/70 hover:bg-white/10 transition-colors">{locale === "fr" ? "Methodologie 100% transparente" : "100% transparent methodology"}</span>
+      <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/70 hover:bg-white/10 transition-colors">{locale === "fr" ? "Données UE CosIng + SCCS" : "EU CosIng + SCCS data"}</span>
+      <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/70 hover:bg-white/10 transition-colors">{locale === "fr" ? "Méthodologie 100% transparente" : "100% transparent methodology"}</span>
     </div>
   </div>
 </section>
@@ -223,8 +223,8 @@ const subScoreLabels = [
         <div class="w-12 h-12 rounded-2xl bg-red-100 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
           <svg class="w-6 h-6 text-red-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
         </div>
-        <h3 class="text-base font-bold mb-2 text-red-900">{locale === "fr" ? "Parfum = allergene n1" : "Fragrance = #1 allergen"}</h3>
-        <p class="text-sm text-red-800/70 leading-relaxed">{locale === "fr" ? "L'UE liste 26 allergenes du parfum. Pourtant, 'Parfum' cache des centaines de molecules non divulguees. Le top allergene en dermatologie." : "The EU lists 26 fragrance allergens. Yet 'Parfum' hides hundreds of undisclosed chemicals. The top allergen in dermatology."}</p>
+        <h3 class="text-base font-bold mb-2 text-red-900">{locale === "fr" ? "Parfum = allergène n1" : "Fragrance = #1 allergen"}</h3>
+        <p class="text-sm text-red-800/70 leading-relaxed">{locale === "fr" ? "L'UE liste 26 allergènes du parfum. Pourtant, 'Parfum' cache des centaines de molecules non divulguees. Le top allergène en dermatologie." : "The EU lists 26 fragrance allergens. Yet 'Parfum' hides hundreds of undisclosed chemicals. The top allergen in dermatology."}</p>
       </div>
       <div class="card card-glow !border-amber-200/50 !bg-amber-50/20 p-6 group hover:!border-amber-300 transition-all duration-300">
         <div class="w-12 h-12 rounded-2xl bg-amber-100 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
@@ -238,7 +238,7 @@ const subScoreLabels = [
           <svg class="w-6 h-6 text-violet-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
         </div>
         <h3 class="text-base font-bold mb-2 text-violet-900">{locale === "fr" ? "SkinScore lit pour toi" : "SkinScore reads for you"}</h3>
-        <p class="text-sm text-violet-800/70 leading-relaxed">{locale === "fr" ? "On decode chaque nom INCI, on croise avec les bases UE CosIng et SCCS, et on te donne un score honnete de A a E. En 2 secondes." : "We decode every INCI name, cross-reference with EU CosIng and SCCS databases, and give you an honest A-to-E score. In 2 seconds."}</p>
+        <p class="text-sm text-violet-800/70 leading-relaxed">{locale === "fr" ? "On decode chaque nom INCI, on croise avec les bases UE CosIng et SCCS, et on te donne un score honnête de A à E. En 2 secondes." : "We decode every INCI name, cross-reference with EU CosIng and SCCS databases, and give you an honest A-to-E score. In 2 seconds."}</p>
       </div>
     </div>
   </div>
@@ -399,7 +399,7 @@ const subScoreLabels = [
         <h2 class="reveal mb-3">{locale === "fr" ? "Les soins qui te mentent" : "Products that lie to you"}</h2>
         <p class="reveal text-slate-600 max-w-2xl mx-auto">
           {locale === "fr"
-            ? "Des prix premium, des ingredients mediocres. On ne dit pas que ces produits sont mauvais. On dit que leur prix ne reflete pas leur formule."
+            ? "Des prix premium, des ingrédients médiocres. On ne dit pas que ces produits sont mauvais. On dit que leur prix ne reflète pas leur formule."
             : "Premium prices, mediocre ingredients. We're not saying these products are bad. We're saying their price doesn't reflect their formula."}
         </p>
       </div>
@@ -433,7 +433,7 @@ const subScoreLabels = [
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
     <div class="flex items-center justify-between mb-8">
       <div>
-        <h2 class="reveal mb-1">{locale === "fr" ? "Les mieux notes" : "Top rated"}</h2>
+        <h2 class="reveal mb-1">{locale === "fr" ? "Les mieux notés" : "Top rated"}</h2>
         <p class="reveal text-sm text-slate-500">{locale === "fr" ? "Les soins qui tiennent leurs promesses." : "Products that live up to their promises."}</p>
       </div>
       <a href={localizedPath("/rankings", locale)} class="text-sm font-medium text-violet-600 hover:text-violet-700 transition-colors whitespace-nowrap">
@@ -497,7 +497,7 @@ const subScoreLabels = [
           </h2>
           <p class="text-sm text-slate-600 mb-6 leading-relaxed">
             {locale === "fr"
-              ? "Type de peau, preoccupations, budget. On te recommande une routine AM/PM personnalisee avec des produits notes A ou B."
+              ? "Type de peau, préoccupations, budget. On te recommande une routine AM/PM personnalisee avec des produits notés A ou B."
               : "Skin type, concerns, budget. We recommend a personalised AM/PM routine with A or B rated products only."}
           </p>
           <a href={localizedPath("/quiz", locale)} class="si-cta-btn !px-8 !py-3.5 text-base">
@@ -529,7 +529,7 @@ const subScoreLabels = [
   <div class="max-w-5xl mx-auto px-4 sm:px-6">
     <h2 class="reveal text-center mb-4">{t(tr.concerns.title, locale)}</h2>
     <p class="reveal text-center text-slate-500 mb-10 max-w-xl mx-auto text-sm">
-      {locale === "fr" ? "Clique sur ta preoccupation pour voir les produits les mieux notes." : "Click your concern to see the top-rated products."}
+      {locale === "fr" ? "Clique sur ta préoccupation pour voir les produits les mieux notés." : "Click your concern to see the top-rated products."}
     </p>
     <div class="reveal-children grid grid-cols-2 sm:grid-cols-4 gap-3">
       {siteConfig.concerns.map((concern) => (
@@ -621,7 +621,7 @@ const subScoreLabels = [
         </h3>
         <p class="text-white/50 leading-relaxed mb-4">
           {locale === "fr"
-            ? "\"Ce serum a 80 EUR a les memes actifs que celui a 12 EUR.\" On compare les formules, pas les prix. Et on te montre l'alternative."
+            ? "\"Ce serum a 80 EUR a les mêmes actifs que celui a 12 EUR.\" On compare les formules, pas les prix. Et on te montre l'alternative."
             : "\"This 80 EUR serum has the same actives as this 12 EUR one.\" We compare formulas, not prices. And show you the alternative."}
         </p>
         <div class="flex flex-wrap gap-2">
@@ -690,7 +690,7 @@ const subScoreLabels = [
 <!-- ========== 15. BRAND WALL ========== -->
 <section class="section section-alt">
   <div class="max-w-5xl mx-auto px-4 sm:px-6">
-    <h2 class="reveal text-center mb-3">{locale === "fr" ? "250+ marques analysees" : "250+ brands analysed"}</h2>
+    <h2 class="reveal text-center mb-3">{locale === "fr" ? "250+ marques analysées" : "250+ brands analysed"}</h2>
     <p class="reveal text-center text-slate-500 mb-10">{locale === "fr" ? "Du luxe a la pharmacie, de la K-beauty au drugstore US." : "From luxury to drugstore, K-beauty to French pharmacy."}</p>
 
     <div class="reveal-children space-y-6">
@@ -722,7 +722,7 @@ const subScoreLabels = [
 <section class="section">
   <div class="max-w-4xl mx-auto px-4 sm:px-6">
     <h2 class="reveal text-center mb-3">{locale === "fr" ? "Nos sources" : "Our sources"}</h2>
-    <p class="reveal text-center text-slate-500 mb-10">{locale === "fr" ? "Pas d'opinions. Des donnees verifiees." : "Not opinions. Verified data."}</p>
+    <p class="reveal text-center text-slate-500 mb-10">{locale === "fr" ? "Pas d'opinions. Des donnees vérifiées." : "Not opinions. Verified data."}</p>
     <div class="reveal-children grid grid-cols-1 sm:grid-cols-2 gap-4">
       <a href="https://ec.europa.eu/growth/tools-databases/cosing/" target="_blank" rel="noopener" class="flex items-start gap-4 p-5 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-sm transition-all duration-200 group">
         <div class="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
@@ -730,7 +730,7 @@ const subScoreLabels = [
         </div>
         <div>
           <p class="text-sm font-bold text-slate-800 group-hover:text-violet-700 transition-colors">EU CosIng</p>
-          <p class="text-xs text-slate-500 mt-0.5">{locale === "fr" ? "Base officielle Commission europeenne. 30 000+ ingredients cosmetiques." : "Official European Commission database. 30,000+ cosmetic ingredients."}</p>
+          <p class="text-xs text-slate-500 mt-0.5">{locale === "fr" ? "Base officielle Commission europeenne. 30 000+ ingrédients cosmétiques." : "Official European Commission database. 30,000+ cosmetic ingredients."}</p>
         </div>
       </a>
       <a href="https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en" target="_blank" rel="noopener" class="flex items-start gap-4 p-5 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-sm transition-all duration-200 group">
@@ -739,7 +739,7 @@ const subScoreLabels = [
         </div>
         <div>
           <p class="text-sm font-bold text-slate-800 group-hover:text-violet-700 transition-colors">SCCS</p>
-          <p class="text-xs text-slate-500 mt-0.5">{locale === "fr" ? "Comite scientifique pour la securite des consommateurs. Avis de securite." : "Scientific Committee on Consumer Safety. Safety opinions."}</p>
+          <p class="text-xs text-slate-500 mt-0.5">{locale === "fr" ? "Comite scientifique pour la sécurité des consommateurs. Avis de sécurité." : "Scientific Committee on Consumer Safety. Safety opinions."}</p>
         </div>
       </a>
       <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener" class="flex items-start gap-4 p-5 rounded-xl border border-slate-200 bg-white hover:border-violet-300 hover:shadow-sm transition-all duration-200 group">
@@ -757,13 +757,13 @@ const subScoreLabels = [
         </div>
         <div>
           <p class="text-sm font-bold text-slate-800">{locale === "fr" ? "Listes INCI fabricants" : "Manufacturer INCI lists"}</p>
-          <p class="text-xs text-slate-500 mt-0.5">{locale === "fr" ? "Compositions relevees sur les emballages. Pas de donnees marketing, les listes reelles." : "Full compositions from actual product packaging. Real labels, not marketing."}</p>
+          <p class="text-xs text-slate-500 mt-0.5">{locale === "fr" ? "Compositions relevees sur les emballages. Pas de données marketing, les listes reelles." : "Full compositions from actual product packaging. Real labels, not marketing."}</p>
         </div>
       </div>
     </div>
     <p class="reveal text-center mt-6">
       <a href={localizedPath("/methodology", locale)} class="text-sm text-violet-600 hover:text-violet-700 font-medium transition-colors">
-        {locale === "fr" ? "Voir notre methodologie complete" : "See our full methodology"} &rarr;
+        {locale === "fr" ? "Voir notre méthodologie complete" : "See our full methodology"} &rarr;
       </a>
     </p>
   </div>
@@ -775,10 +775,10 @@ const subScoreLabels = [
     <h2 class="reveal text-center mb-10">{t(tr.faq.title, locale)}</h2>
     <div class="reveal-children space-y-3">
       {(locale === "fr" ? [
-        { question: "Comment SkinScore note-t-il les produits ?", answer: "SkinScore analyse chaque ingredient de la liste INCI selon cinq dimensions : efficacite (actifs prouves), securite (allergenes, irritants, substances reglementees UE), comedogenicite (risque d'obstruction des pores), transparence (divulgation complete, certifications) et compatibilite avec le type de peau. Chaque dimension est notee puis combinee en une note finale de A a E." },
-        { question: "SkinScore est-il independant ?", answer: "Oui. SkinScore n'accepte aucun paiement des marques pour influencer les notes. Notre methodologie est entierement transparente, basee sur les donnees UE CosIng, les avis SCCS et la recherche dermatologique. Nos revenus viennent de liens affilies (qui n'affectent jamais les scores)." },
-        { question: "C'est quoi une liste INCI ?", answer: "INCI (International Nomenclature of Cosmetic Ingredients) est le systeme de nomenclature standardise des ingredients cosmetiques. Tout produit vendu en UE doit afficher sa liste INCI. SkinScore decode ces noms scientifiques en langage clair." },
-        { question: "SkinScore peut recommander une routine ?", answer: "Oui. Fais notre quiz peau de 2 minutes pour obtenir une routine AM/PM personnalisee selon ton type de peau, tes preoccupations et ton budget. Chaque produit recommande est soutenu par sa note SkinScore." },
+        { question: "Comment SkinScore note-t-il les produits ?", answer: "SkinScore analyse chaque ingrédient de la liste INCI selon cinq dimensions : efficacité (actifs prouvés), sécurité (allergènes, irritants, substances réglementées UE), comédogénicité (risque d'obstruction des pores), transparence (divulgation complète, certifications) et compatibilité avec le type de peau. Chaque dimension est notée puis combinée en une note finale de A à E." },
+        { question: "SkinScore est-il independant ?", answer: "Oui. SkinScore n'accepte aucun paiement des marques pour influencer les notes. Notre méthodologie est entièrement transparente, basee sur les données UE CosIng, les avis SCCS et la recherche dermatologique. Nos revenus viennent de liens affilies (qui n'affectent jamais les scores)." },
+        { question: "C'est quoi une liste INCI ?", answer: "INCI (International Nomenclature of Cosmetic Ingredients) est le systeme de nomenclature standardise des ingrédients cosmétiques. Tout produit vendu en UE doit afficher sa liste INCI. SkinScore decode ces noms scientifiques en langage clair." },
+        { question: "SkinScore peut recommander une routine ?", answer: "Oui. Fais notre quiz peau de 2 minutes pour obtenir une routine AM/PM personnalisee selon ton type de peau, tes préoccupations et ton budget. Chaque produit recommande est soutenu par sa note SkinScore." },
         { question: "Combien de produits couvre SkinScore ?", answer: "SkinScore note actuellement plus de 2 600 produits de 250+ marques. Nettoyants, hydratants, serums, solaires, exfoliants, masques. On ajoute de nouveaux produits chaque jour." },
       ] : siteConfig.faq).map((item, i) => (
         <details class="group card !p-0 overflow-hidden" open={i === 0}>

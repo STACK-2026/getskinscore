@@ -38,7 +38,7 @@ export const tr = {
       fr: "Parfum, perturbateurs endocriniens, huiles comédogènes planquées derrière des noms scientifiques illisibles. On décode chaque ingrédient, on note chaque soin de A à E, et on te dit la vérité. Aucune marque ne nous paie. Jamais.",
     },
     searchPlaceholder: { en: "Paste an INCI list or search a product...", fr: "Colle ta liste INCI ou cherche un soin..." },
-    cta: { en: "Check my product", fr: "Verifier mon soin" },
+    cta: { en: "Check my product", fr: "Vérifier mon soin" },
   },
 
   // Social proof
@@ -53,7 +53,7 @@ export const tr = {
     title: { en: "What's really in your skincare?", fr: "Qu'y a-t-il vraiment dans ta skincare ?" },
     text: {
       en: "67% of skincare products contain at least one concerning ingredient. Fragrance, endocrine disruptors, harsh surfactants... hiding behind scientific names most people can't read.",
-      fr: "67% des soins contiennent au moins un ingredient preoccupant. Les memes marques qui te promettent une peau eclatante utilisent du parfum (allergene n1), des perturbateurs endocriniens et des ingredients interdits dans d\'autres pays. Elles se cachent derriere des noms INCI que personne ne peut lire. Nous, on les lit pour toi.",
+      fr: "67% des soins contiennent au moins un ingrédient préoccupant. Les mêmes marques qui te promettent une peau éclatante utilisent du parfum (allergène n1), des perturbateurs endocriniens et des ingrédients interdits dans d\'autres pays. Elles se cachent derrière des noms INCI que personne ne peut lire. Nous, on les lit pour toi.",
     },
   },
 
@@ -66,8 +66,8 @@ export const tr = {
   howItWorks: {
     title: { en: "How it works", fr: "Comment ça marche" },
     step1: { en: "Search or paste your INCI list", fr: "Cherche ou colle ta liste INCI" },
-    step1desc: { en: "Type a product name, paste an ingredient list, or scan a barcode.", fr: "Tape un nom de produit, colle une liste d'ingredients ou scanne un code-barres." },
-    step2: { en: "Get your A-to-E score", fr: "Obtiens ton score de A a E" },
+    step1desc: { en: "Type a product name, paste an ingredient list, or scan a barcode.", fr: "Tape un nom de produit, colle une liste d'ingrédients ou scanne un code-barres." },
+    step2: { en: "Get your A-to-E score", fr: "Obtiens ton score de A à E" },
     step2desc: { en: "Instant breakdown: efficacy, safety, comedogenicity, transparency, skin-type fit.", fr: "Analyse instantanée : efficacité, sécurité, comédogénicité, transparence, compatibilité peau." },
     step3: { en: "Build your routine", fr: "Construis ta routine" },
     step3desc: { en: "Personalised AM/PM routine based on your skin type, concerns, and budget.", fr: "Routine AM/PM personnalisée selon ton type de peau, tes préoccupations et ton budget." },
@@ -80,18 +80,18 @@ export const tr = {
 
   // Ingredients
   ingredientsSection: {
-    title: { en: "Popular ingredients, decoded", fr: "Ingrédients populaires, decodes" },
-    viewAll: { en: "View all ingredients", fr: "Voir tous les ingredients" },
+    title: { en: "Popular ingredients, decoded", fr: "Ingrédients populaires, décodés" },
+    viewAll: { en: "View all ingredients", fr: "Voir tous les ingrédients" },
   },
 
   // CTA
   cta: {
-    title: { en: "Stop buying blind", fr: "Arrete d\'acheter a l\'aveugle" },
+    title: { en: "Stop buying blind", fr: "Arrête d\'acheter à l\'aveugle" },
     subtitle: {
       en: "2,600+ products scored. 100+ ingredients dissected. Zero brand partnerships. Check before you buy.",
-      fr: "Rejoins ceux qui vérifient avant d'acheter. Gratuit, indépendant, base sur la science.",
+      fr: "Rejoins ceux qui vérifient avant d'acheter. Gratuit, indépendant, basé sur la science.",
     },
-    button: { en: "Check my skincare now", fr: "Verifier mes soins maintenant" },
+    button: { en: "Check my skincare now", fr: "Vérifier mes soins maintenant" },
   },
 
   // FAQ
@@ -100,17 +100,17 @@ export const tr = {
     q1: { en: "How does SkinScore rate skincare products?", fr: "Comment SkinScore note les produits skincare ?" },
     a1: {
       en: "SkinScore analyses every ingredient in a product's INCI list across five dimensions: efficacy (proven actives like retinol, niacinamide, vitamin C), safety (allergens, irritants, EU-restricted substances), comedogenicity (pore-clogging risk), transparency (full ingredient disclosure, certifications), and skin-type fit. Each dimension is scored and combined into a final A-to-E grade.",
-      fr: "SkinScore analyse chaque ingredient de la liste INCI d'un produit selon cinq dimensions : efficacité (actifs prouves comme le retinol, niacinamide, vitamine C), sécurité (allergenes, irritants, substances réglementées UE), comédogénicité (risque d'obstruction des pores), transparence (divulgation complete, certifications) et compatibilité avec le type de peau. Chaque dimension est notee puis combinee en une note finale de A a E.",
+      fr: "SkinScore analyse chaque ingrédient de la liste INCI d'un produit selon cinq dimensions : efficacité (actifs prouvés comme le retinol, niacinamide, vitamine C), sécurité (allergènes, irritants, substances réglementées UE), comédogénicité (risque d'obstruction des pores), transparence (divulgation complète, certifications) et compatibilité avec le type de peau. Chaque dimension est notée puis combinée en une note finale de A à E.",
     },
     q2: { en: "Is SkinScore independent?", fr: "SkinScore est-il indépendant ?" },
     a2: {
       en: "Yes. SkinScore does not accept payment from brands to influence ratings. Our scoring methodology is fully transparent and based on EU CosIng data, SCCS safety opinions, and peer-reviewed dermatological research.",
-      fr: "Oui. SkinScore n'accepte aucun paiement des marques pour influencer les notes. Notre methodologie est entierement transparente, basee sur les données EU CosIng, les avis SCCS et la recherche dermatologique.",
+      fr: "Oui. SkinScore n'accepte aucun paiement des marques pour influencer les notes. Notre méthodologie est entièrement transparente, basée sur les données EU CosIng, les avis SCCS et la recherche dermatologique.",
     },
     q3: { en: "What is an INCI list?", fr: "Qu'est-ce qu'une liste INCI ?" },
     a3: {
       en: "INCI (International Nomenclature of Cosmetic Ingredients) is the standardised naming system for cosmetic ingredients used worldwide. Every skincare product sold in the EU must display its full INCI list. SkinScore decodes these scientific names into plain language.",
-      fr: "INCI (International Nomenclature of Cosmetic Ingredients) est le systeme de nomenclature standardise des ingredients cosmétiques. Tout produit skincare vendu en UE doit afficher sa liste INCI. SkinScore decode ces noms scientifiques en langage clair.",
+      fr: "INCI (International Nomenclature of Cosmetic Ingredients) est le système de nomenclature standardisé des ingrédients cosmétiques. Tout produit skincare vendu en UE doit afficher sa liste INCI. SkinScore décode ces noms scientifiques en langage clair.",
     },
     q4: { en: "Can SkinScore recommend a routine?", fr: "SkinScore peut-il recommander une routine ?" },
     a4: {
@@ -159,7 +159,7 @@ export const tr = {
     cookie: { en: "Cookie policy", fr: "Politique des cookies" },
     tagline: {
       en: "Independent skincare ratings based on science, not marketing.",
-      fr: "Notes skincare independantes basees sur la science, pas le marketing.",
+      fr: "Notes skincare indépendantes basées sur la science, pas le marketing.",
     },
   },
 
@@ -167,7 +167,7 @@ export const tr = {
   cookie: {
     text: {
       en: "We use minimal analytics to improve the site. No personal data is sold or shared with advertisers.",
-      fr: "Nous utilisons des analytics minimales pour améliorer le site. Aucune donnée personnelle n'est vendue ou partagee avec des annonceurs.",
+      fr: "Nous utilisons des analytics minimales pour améliorer le site. Aucune donnée personnelle n'est vendue ou partagée avec des annonceurs.",
     },
     accept: { en: "Accept", fr: "Accepter" },
     decline: { en: "Decline", fr: "Refuser" },
