@@ -2,7 +2,7 @@ name: Blog Auto — The Lab
 
 on:
   schedule:
-    - cron: '*/15 5-8 * * 1-5'
+    - cron: '30 5-6 * * 1-5'
   workflow_dispatch:
     inputs:
       force:
