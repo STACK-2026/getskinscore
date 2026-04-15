@@ -6,7 +6,12 @@ on:
       - main
     paths:
       - 'site/**'
+      - 'site/src/content/**'
       - '.github/workflows/deploy-site.yml'
+  workflow_run:
+    workflows: ["Blog Auto — The Lab", "Rebuild Guard — Daily touch for scheduled articles"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch: {}
 
 permissions:
