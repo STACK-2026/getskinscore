@@ -126,9 +126,32 @@ Write the complete article now, starting with the frontmatter."""
     return message.content[0].text
 
 
+def clamp_frontmatter_description(content, max_len=160):
+    """Clamp frontmatter `description:` to Astro schema max. Truncate at last word boundary."""
+    lines = content.split("\n")
+    for i, line in enumerate(lines):
+        if line.startswith("description:"):
+            # extract value between quotes (or unquoted)
+            raw = line[len("description:"):].strip()
+            quote = ""
+            if raw.startswith(('"', "'")) and raw.endswith(raw[0]) and len(raw) >= 2:
+                quote = raw[0]
+                value = raw[1:-1]
+            else:
+                value = raw
+            if len(value) > max_len:
+                # truncate at last word boundary before max_len, strip trailing punctuation
+                truncated = value[:max_len].rsplit(" ", 1)[0].rstrip(",.;: ")
+                lines[i] = f'description: {quote}{truncated}{quote}'
+                print(f"  Clamped description from {len(value)} -> {len(truncated)} chars")
+            break
+    return "\n".join(lines)
+
+
 def write_article(slug, content):
     """Write article to blog directory."""
     BLOG_DIR.mkdir(parents=True, exist_ok=True)
+    content = clamp_frontmatter_description(content)
     filepath = BLOG_DIR / f"{slug}.md"
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(content)

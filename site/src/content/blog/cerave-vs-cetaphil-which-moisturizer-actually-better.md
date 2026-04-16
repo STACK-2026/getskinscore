@@ -1,6 +1,6 @@
 ---
 title: "CeraVe vs Cetaphil: which moisturizer is actually better?"
-description: "Independent analysis of CeraVe vs Cetaphil moisturizers. We break down ingredients, effectiveness, and value to reveal which brand truly delivers better results."
+description: "Independent analysis of CeraVe vs Cetaphil moisturizers. We compare ingredients, effectiveness, and value to reveal which brand delivers better results."
 date: 2026-04-16T07:45:16+02:00
 author: "Marc Severin"
 category: "product-reviews"
