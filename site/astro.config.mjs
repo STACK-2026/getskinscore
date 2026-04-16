@@ -34,7 +34,7 @@ const frFallbackPages = (() => {
 
 export default defineConfig({
   site: siteConfig.url,
-  integrations: [sitemap({ customPages: frFallbackPages })],
+  integrations: [sitemap({ customPages: frFallbackPages, lastmod: new Date() })],
   i18n: {
     defaultLocale: "en",
     locales: ["en", "fr"],
