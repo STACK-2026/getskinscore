@@ -106,3 +106,16 @@ The only real consideration is the mild flushing at 10%+ concentrations, which i
 - [Walocko FM, et al. "The role of nicotinamide in acne treatment."](https://onlinelibrary.wiley.com/doi/10.1111/dth.12481) *Dermatologic Therapy*, 2017.
 - [Boo YC. "Mechanistic basis and clinical evidence for the applications of nicotinamide in dermatology."](https://www.mdpi.com/2076-3921/10/8/1228) *Antioxidants*, 2021.
 - [SCCS - Scientific Committee on Consumer Safety](https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en) - EU safety assessments for cosmetic ingredients.
+
+<!-- maillage:auto -->
+## For further reading
+
+**Related articles:**
+- [CeraVe vs Cetaphil: which moisturizer is actually better?](/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/)
+- [Retinol: a beginner's guide](/blog/retinol-beginners-guide-how-to-start/)
+- [Retinol : le guide complet pour débutants](/blog/retinol-guide-debutant-commencer/)
+
+**Resources:**
+- [Browse products](/products)
+- [Concerns library](/concerns)
+

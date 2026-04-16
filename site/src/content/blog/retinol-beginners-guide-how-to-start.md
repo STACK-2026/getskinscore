@@ -308,3 +308,16 @@ Retinaldehyde is one conversion step closer to retinoic acid than retinol, so it
 4. EU Scientific Committee on Consumer Safety (SCCS). "Opinion on Vitamin A (Retinol, Retinyl Acetate, Retinyl Palmitate)." [SCCS](https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en)
 
 5. Chaudhuri, R.K. and Bojanowski, K. (2014). "Bakuchiol: a retinol-like functional compound." *International Journal of Cosmetic Science*, 36(3), 221-230. [PubMed](https://pubmed.ncbi.nlm.nih.gov/24471735/)
+
+<!-- maillage:auto -->
+## For further reading
+
+**Related articles:**
+- [CeraVe vs Cetaphil: which moisturizer is actually better?](/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/)
+- [Is niacinamide safe? Dermatology research](/blog/is-niacinamide-safe-dermatology-research/)
+- [Retinol : le guide complet pour débutants](/blog/retinol-guide-debutant-commencer/)
+
+**Resources:**
+- [Browse products](/products)
+- [Concerns library](/concerns)
+

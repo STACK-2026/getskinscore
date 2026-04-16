@@ -144,3 +144,16 @@ Yes, for most people. CeraVe delivers superior active ingredient concentrations,
 ---
 
 *For more independent skincare analysis and product comparisons, explore our [complete product database](https://getskinscore.com/rankings) or learn about our [scientific methodology](https://getskinscore.com/methodology) for ingredient scoring.*
+
+<!-- maillage:auto -->
+## For further reading
+
+**Related articles:**
+- [Is niacinamide safe? Dermatology research](/blog/is-niacinamide-safe-dermatology-research/)
+- [Retinol: a beginner's guide](/blog/retinol-beginners-guide-how-to-start/)
+- [Retinol : le guide complet pour débutants](/blog/retinol-guide-debutant-commencer/)
+
+**Resources:**
+- [Browse products](/products)
+- [Concerns library](/concerns)
+

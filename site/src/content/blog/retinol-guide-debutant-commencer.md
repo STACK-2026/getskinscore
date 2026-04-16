@@ -186,3 +186,16 @@ Maximum 6 mois après ouverture, conservé à l'abri de la lumière et de la cha
 ## Conclusion
 
 Le rétinol n'est pas l'ennemi redoutable qu'on te décrit. C'est un allié puissant qui demande juste du respect et de la méthode. Commence doucement, progresse graduellement, et observe ta peau. Dans 6 mois, tu te demanderas pourquoi tu as attendu si longtemps pour franchir le pas. La clé : patience et régularité valent mieux que concentration élevée et usage chaotique.
+
+<!-- maillage:auto -->
+## For further reading
+
+**Related articles:**
+- [CeraVe vs Cetaphil: which moisturizer is actually better?](/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/)
+- [Is niacinamide safe? Dermatology research](/blog/is-niacinamide-safe-dermatology-research/)
+- [Retinol: a beginner's guide](/blog/retinol-beginners-guide-how-to-start/)
+
+**Resources:**
+- [Browse products](/products)
+- [Concerns library](/concerns)
+
