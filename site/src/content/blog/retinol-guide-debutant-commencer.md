@@ -1,6 +1,6 @@
 ---
 title: "Retinol : le guide complet pour débutants"
-description: "Découvre comment utiliser le rétinol sans irritation. Guide complet avec protocoles, erreurs à éviter et recommandations produits pour débuter en toute sécurité."
+description: "Découvre comment utiliser le rétinol sans irritation. Guide complet avec protocoles, erreurs à éviter et recommandations produits pour débuter en toute"
 date: 2026-04-15T07:25:37+02:00
 author: "Dr. Elena Voss"
 category: "ingredients"
