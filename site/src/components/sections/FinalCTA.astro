@@ -1,0 +1,275 @@
+---
+import { getLocale, t, tr, localizedPath } from "../../i18n/t";
+import { products } from "../../data/products";
+import { ingredients } from "../../data/ingredients";
+
+const locale = getLocale(Astro.url);
+const totalProducts = products.length;
+const totalIngredients = ingredients.length;
+const totalBrands = new Set(products.map((p) => p.brand).filter(Boolean)).size;
+---
+
+<section class="sk-final" aria-labelledby="sk-final-title">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6">
+    <div class="sk-final-envelope">
+      <div class="sk-final-corner sk-final-corner-tl" aria-hidden="true"></div>
+      <div class="sk-final-corner sk-final-corner-br" aria-hidden="true"></div>
+
+      <div class="sk-final-head">
+        <span class="sk-final-label">
+          {locale === "fr" ? "Lecture gratuite · Sans inscription" : "Free to read · No signup"}
+        </span>
+        <span class="sk-final-route">
+          {locale === "fr" ? "Analyse INCI → verdict" : "INCI analysis → verdict"}
+        </span>
+      </div>
+
+      <h2 id="sk-final-title" class="sk-final-title">
+        {locale === "fr" ? "Ton soin te ment ?" : "Is your product lying?"}<br />
+        <span class="sk-final-title-accent">
+          {locale === "fr" ? "On te dit la verite." : "We give you the verdict."}
+        </span>
+      </h2>
+
+      <p class="sk-final-body">
+        {locale === "fr"
+          ? "Decrypte tes produits en 30 secondes. Grade A a E sur 5 dimensions. Aucune marque ne nous paie."
+          : "Decode your products in 30 seconds. A-to-E grading on 5 dimensions. No brand pays us."}
+      </p>
+
+      <div class="sk-final-actions">
+        <a href={localizedPath("/rankings", locale)} class="sk-final-btn-primary">
+          <span>{locale === "fr" ? "Voir le classement" : "See rankings"}</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a href={localizedPath("/quiz", locale)} class="sk-final-btn-ghost">
+          {locale === "fr" ? "Ou fais le quiz" : "Or take the quiz"}
+        </a>
+      </div>
+
+      <dl class="sk-final-grid">
+        <div class="sk-final-stat">
+          <dt class="sk-final-stat-num" data-count={totalProducts}>{totalProducts}</dt>
+          <dd class="sk-final-stat-label">{locale === "fr" ? "produits notes" : "products graded"}</dd>
+        </div>
+        <div class="sk-final-stat">
+          <dt class="sk-final-stat-num" data-count={totalIngredients}>{totalIngredients}</dt>
+          <dd class="sk-final-stat-label">{locale === "fr" ? "ingredients INCI" : "INCI ingredients"}</dd>
+        </div>
+        <div class="sk-final-stat">
+          <dt class="sk-final-stat-num" data-count={totalBrands}>{totalBrands}</dt>
+          <dd class="sk-final-stat-label">{locale === "fr" ? "marques couvertes" : "brands covered"}</dd>
+        </div>
+        <div class="sk-final-stat">
+          <dt class="sk-final-stat-num sk-final-stat-pct">100<span class="sk-final-stat-sign">%</span></dt>
+          <dd class="sk-final-stat-label">{locale === "fr" ? "independant" : "independent"}</dd>
+        </div>
+      </dl>
+
+      <div class="sk-final-signature">
+        <svg class="sk-final-sigline" viewBox="0 0 220 60" aria-hidden="true" preserveAspectRatio="xMinYMid meet">
+          <path
+            d="M10 45 C 22 22, 38 16, 48 32 S 62 58, 76 32 C 84 18, 98 14, 106 30 C 112 42, 124 46, 132 30 C 140 16, 158 14, 172 28 C 180 38, 196 40, 208 26"
+            fill="none"
+            stroke="#7c3aed"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            pathLength="1"
+            class="sk-final-sig-path"
+          />
+        </svg>
+        <span class="sk-final-sig-name">SkinScore &middot; notation independante</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .sk-final {
+    padding: clamp(72px, 10vw, 140px) 0;
+    background: linear-gradient(180deg, #ffffff, #faf5ff);
+  }
+
+  .sk-final-envelope {
+    position: relative;
+    background: #ffffff;
+    border: 1px solid rgba(124, 58, 237, 0.14);
+    border-radius: 4px;
+    padding: clamp(32px, 6vw, 72px);
+    box-shadow:
+      0 1px 0 rgba(15, 23, 42, 0.02),
+      0 24px 60px rgba(124, 58, 237, 0.08);
+  }
+  .sk-final-corner {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgba(124, 58, 237, 0.35);
+  }
+  .sk-final-corner-tl { top: -5px; left: -5px; border-right: 0; border-bottom: 0; }
+  .sk-final-corner-br { bottom: -5px; right: -5px; border-left: 0; border-top: 0; }
+
+  .sk-final-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding-bottom: 24px;
+    margin-bottom: 28px;
+    border-bottom: 1px dashed rgba(124, 58, 237, 0.22);
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .sk-final-label { color: #6d28d9; font-weight: 600; }
+  .sk-final-route { color: #64748b; }
+
+  .sk-final-title {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: clamp(36px, 6vw, 72px);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 0.98;
+    color: #0f172a;
+    margin: 0 0 20px;
+  }
+  .sk-final-title-accent { color: #7c3aed; }
+
+  .sk-final-body {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: clamp(16px, 1.6vw, 18px);
+    color: #334155;
+    line-height: 1.6;
+    max-width: 640px;
+    margin: 0 0 36px;
+  }
+
+  .sk-final-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+  }
+  .sk-final-btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 24px;
+    border-radius: 100px;
+    background: #7c3aed;
+    color: #ffffff;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    box-shadow: 0 10px 28px rgba(124, 58, 237, 0.26);
+    transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .sk-final-btn-primary:hover { transform: translateY(-2px); background: #6d28d9; box-shadow: 0 16px 44px rgba(124, 58, 237, 0.36); }
+  .sk-final-btn-primary svg { width: 16px; height: 16px; transition: transform 0.3s; }
+  .sk-final-btn-primary:hover svg { transform: translateX(4px); }
+  .sk-final-btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    padding: 14px 24px;
+    border-radius: 100px;
+    border: 1px solid rgba(124, 58, 237, 0.28);
+    color: #6d28d9;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    transition: border-color 0.3s, background 0.3s;
+  }
+  .sk-final-btn-ghost:hover { border-color: #7c3aed; background: rgba(124,58,237,0.05); }
+
+  .sk-final-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 20px;
+    margin: 0 0 40px;
+    padding: 0;
+  }
+  @media (min-width: 640px) {
+    .sk-final-grid { grid-template-columns: repeat(4, 1fr); gap: 20px; }
+  }
+  .sk-final-stat { display: flex; flex-direction: column; gap: 6px; }
+  .sk-final-stat-num {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: clamp(28px, 3.6vw, 48px);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    color: #0f172a;
+    font-variant-numeric: tabular-nums;
+    margin: 0;
+  }
+  .sk-final-stat-sign { color: #64748b; font-size: 0.6em; }
+  .sk-final-stat-label {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #64748b;
+    margin: 0;
+  }
+
+  .sk-final-signature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-top: 24px;
+    border-top: 1px dashed rgba(124, 58, 237, 0.22);
+  }
+  .sk-final-sigline { width: 160px; height: 40px; }
+  .sk-final-sig-path {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    transition: stroke-dashoffset 2.4s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .sk-final.is-visible .sk-final-sig-path { stroke-dashoffset: 0; }
+  .sk-final-sig-name {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #64748b;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .sk-final-sig-path { stroke-dashoffset: 0; transition: none; }
+    .sk-final-btn-primary, .sk-final-btn-primary svg { transition: none; }
+  }
+</style>
+
+<script>
+  const section = document.querySelector<HTMLElement>('.sk-final');
+  if (section && 'IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (!e.isIntersecting) return;
+        section.classList.add('is-visible');
+        section.querySelectorAll<HTMLElement>('[data-count]').forEach((el, idx) => {
+          const target = parseInt(el.dataset.count || '0', 10);
+          const duration = 1400;
+          const delay = 80 + idx * 120;
+          const start = performance.now() + delay;
+          const step = (now: number) => {
+            if (now < start) { requestAnimationFrame(step); return; }
+            const t = Math.min(1, (now - start) / duration);
+            const eased = 1 - Math.pow(1 - t, 3);
+            el.textContent = String(Math.round(target * eased));
+            if (t < 1) requestAnimationFrame(step);
+          };
+          requestAnimationFrame(step);
+        });
+        io.disconnect();
+      });
+    }, { threshold: 0.3 });
+    io.observe(section);
+  }
+</script>

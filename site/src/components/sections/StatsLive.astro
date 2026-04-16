@@ -1,0 +1,289 @@
+---
+import { getLocale } from "../../i18n/t";
+import { products } from "../../data/products";
+
+const locale = getLocale(Astro.url);
+
+// Real distribution from products dataset
+type GradeKey = "A" | "B" | "C" | "D" | "E";
+const grades: GradeKey[] = ["A", "B", "C", "D", "E"];
+const distribution: Record<GradeKey, number> = { A: 0, B: 0, C: 0, D: 0, E: 0 };
+for (const p of products) {
+  const g = (p.grade as string)?.toUpperCase()?.[0];
+  if (g && g in distribution) distribution[g as GradeKey]++;
+}
+const total = products.length;
+const brands = new Set(products.map((p) => p.brand).filter(Boolean)).size;
+const gradeC = distribution.C + distribution.D + distribution.E;
+const cdePct = total > 0 ? Math.round((gradeC / total) * 100) : 0;
+
+const rows = grades.map((g) => ({
+  grade: g,
+  count: distribution[g],
+  pct: total > 0 ? Math.round((distribution[g] / total) * 1000) / 10 : 0,
+}));
+---
+
+<section class="sk-stats" aria-labelledby="sk-stats-title">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <header class="sk-stats-head">
+      <div class="sk-stats-head-left">
+        <p class="sk-stats-eyebrow">
+          <span class="sk-stats-dot" aria-hidden="true"></span>
+          {locale === "fr" ? "Notation ouverte" : "Open grading"}
+        </p>
+        <h2 id="sk-stats-title" class="sk-stats-title">
+          {locale === "fr" ? (
+            <>{cdePct}% de l'industrie<br /><span class="sk-stats-title-soft">note C ou moins.</span></>
+          ) : (
+            <>{cdePct}% of the industry<br /><span class="sk-stats-title-soft">grades C or below.</span></>
+          )}
+        </h2>
+      </div>
+      <div class="sk-stats-metrics">
+        <div class="sk-stats-metric">
+          <span class="sk-stats-metric-num" data-count={total}>0</span>
+          <span class="sk-stats-metric-label">
+            {locale === "fr" ? "produits" : "products"}
+          </span>
+        </div>
+        <div class="sk-stats-metric">
+          <span class="sk-stats-metric-num" data-count={brands}>0</span>
+          <span class="sk-stats-metric-label">
+            {locale === "fr" ? "marques" : "brands"}
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <ol class="sk-stats-dist" role="list">
+      {rows.map((r) => (
+        <li class={`sk-dist sk-dist-${r.grade.toLowerCase()}`} style={`--pct: ${r.pct}%;`}>
+          <span class="sk-dist-grade">{r.grade}</span>
+          <div class="sk-dist-bar" aria-hidden="true">
+            <span class="sk-dist-fill"></span>
+          </div>
+          <span class="sk-dist-pct" data-pct={r.pct}>0<span class="sk-dist-pct-sign">%</span></span>
+          <span class="sk-dist-count">{r.count}</span>
+        </li>
+      ))}
+    </ol>
+
+    <p class="sk-stats-foot">
+      {locale === "fr"
+        ? "Distribution calculee live sur l'ensemble des produits notes. Aucune marque n'achete son grade."
+        : "Live distribution across every graded product. No brand buys its grade."}
+    </p>
+  </div>
+</section>
+
+<style>
+  .sk-stats {
+    padding: clamp(56px, 8vw, 112px) 0;
+    background: linear-gradient(180deg, #ffffff, #faf5ff 80%, #ffffff);
+  }
+
+  .sk-stats-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 44px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(124, 58, 237, 0.12);
+  }
+  @media (min-width: 768px) { .sk-stats-head { margin-bottom: 64px; } }
+
+  .sk-stats-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #6d28d9;
+    margin-bottom: 14px;
+  }
+  .sk-stats-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #7c3aed;
+    position: relative;
+    box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.35);
+    animation: sk-stats-pulse 2.4s ease-in-out infinite;
+  }
+  @keyframes sk-stats-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.45); }
+    50%      { box-shadow: 0 0 0 8px rgba(124, 58, 237, 0); }
+  }
+
+  .sk-stats-title {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: clamp(32px, 5vw, 60px);
+    font-weight: 800;
+    letter-spacing: -0.035em;
+    line-height: 1;
+    color: #0f172a;
+    margin: 0;
+  }
+  .sk-stats-title-soft { color: #64748b; font-weight: 700; }
+
+  .sk-stats-metrics {
+    display: flex;
+    gap: 32px;
+  }
+  .sk-stats-metric { display: flex; flex-direction: column; gap: 4px; }
+  .sk-stats-metric-num {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: clamp(30px, 3.6vw, 44px);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    color: #0f172a;
+    font-variant-numeric: tabular-nums;
+  }
+  .sk-stats-metric-label {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #64748b;
+  }
+
+  /* Distribution bars */
+  .sk-stats-dist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .sk-dist {
+    display: grid;
+    grid-template-columns: 36px 1fr 64px 52px;
+    align-items: center;
+    gap: 16px;
+  }
+  @media (min-width: 640px) {
+    .sk-dist { grid-template-columns: 48px 1fr 80px 64px; gap: 20px; }
+  }
+  .sk-dist-grade {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: clamp(22px, 2.2vw, 28px);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 2px 0;
+  }
+  .sk-dist-a .sk-dist-grade { background: #16a34a; }
+  .sk-dist-b .sk-dist-grade { background: #65a30d; }
+  .sk-dist-c .sk-dist-grade { background: #eab308; color: #1f2937; }
+  .sk-dist-d .sk-dist-grade { background: #f97316; }
+  .sk-dist-e .sk-dist-grade { background: #dc2626; }
+
+  .sk-dist-bar {
+    height: 10px;
+    border-radius: 100px;
+    background: rgba(15, 23, 42, 0.05);
+    overflow: hidden;
+    position: relative;
+  }
+  .sk-dist-fill {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 0%;
+    border-radius: 100px;
+    transition: width 1.6s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .sk-stats.is-visible .sk-dist-a .sk-dist-fill { width: var(--pct); background: linear-gradient(90deg, #16a34a, #22c55e); transition-delay: 0.1s; }
+  .sk-stats.is-visible .sk-dist-b .sk-dist-fill { width: var(--pct); background: linear-gradient(90deg, #65a30d, #84cc16); transition-delay: 0.22s; }
+  .sk-stats.is-visible .sk-dist-c .sk-dist-fill { width: var(--pct); background: linear-gradient(90deg, #ca8a04, #eab308); transition-delay: 0.34s; }
+  .sk-stats.is-visible .sk-dist-d .sk-dist-fill { width: var(--pct); background: linear-gradient(90deg, #ea580c, #f97316); transition-delay: 0.46s; }
+  .sk-stats.is-visible .sk-dist-e .sk-dist-fill { width: var(--pct); background: linear-gradient(90deg, #b91c1c, #ef4444); transition-delay: 0.58s; }
+
+  .sk-dist-pct {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    color: #0f172a;
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+  }
+  .sk-dist-pct-sign { font-size: 0.6em; color: #64748b; }
+  .sk-dist-count {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 11px;
+    color: #64748b;
+    letter-spacing: 0.08em;
+    text-align: right;
+  }
+
+  .sk-stats-foot {
+    margin-top: 32px;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #64748b;
+    max-width: 620px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .sk-stats-dot, .sk-dist-fill { animation: none; transition: none; }
+    .sk-stats.is-visible .sk-dist-fill { width: var(--pct); }
+  }
+</style>
+
+<script>
+  const section = document.querySelector<HTMLElement>('.sk-stats');
+  if (section && 'IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (!e.isIntersecting) return;
+        section.classList.add('is-visible');
+
+        // Whole-number counters (products, brands)
+        section.querySelectorAll<HTMLElement>('[data-count]').forEach((el, idx) => {
+          const target = parseInt(el.dataset.count || '0', 10);
+          const duration = 1400;
+          const delay = 80 + idx * 120;
+          const start = performance.now() + delay;
+          const step = (now: number) => {
+            if (now < start) { requestAnimationFrame(step); return; }
+            const t = Math.min(1, (now - start) / duration);
+            const eased = 1 - Math.pow(1 - t, 3);
+            el.textContent = String(Math.round(target * eased));
+            if (t < 1) requestAnimationFrame(step);
+          };
+          requestAnimationFrame(step);
+        });
+
+        // Percentage counters
+        section.querySelectorAll<HTMLElement>('[data-pct]').forEach((el, idx) => {
+          const target = parseFloat(el.dataset.pct || '0');
+          const duration = 1600;
+          const delay = 200 + idx * 120;
+          const start = performance.now() + delay;
+          const step = (now: number) => {
+            if (now < start) { requestAnimationFrame(step); return; }
+            const t = Math.min(1, (now - start) / duration);
+            const eased = 1 - Math.pow(1 - t, 3);
+            const val = (target * eased).toFixed(target < 10 ? 1 : 0);
+            el.innerHTML = `${val}<span class="sk-dist-pct-sign">%</span>`;
+            if (t < 1) requestAnimationFrame(step);
+          };
+          requestAnimationFrame(step);
+        });
+
+        io.disconnect();
+      });
+    }, { threshold: 0.3 });
+    io.observe(section);
+  }
+</script>
