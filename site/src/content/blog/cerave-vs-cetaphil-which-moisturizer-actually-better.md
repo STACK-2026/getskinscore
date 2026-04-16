@@ -154,6 +154,6 @@ Yes, for most people. CeraVe delivers superior active ingredient concentrations,
 - [Retinol : le guide complet pour débutants](/blog/retinol-guide-debutant-commencer/)
 
 **Resources:**
-- [Browse products](/products)
-- [Concerns library](/concerns)
+- [Browse products](/encyclopedia)
+- [Methodology](/methodology)
 

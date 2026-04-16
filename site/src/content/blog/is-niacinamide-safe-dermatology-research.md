@@ -116,6 +116,6 @@ The only real consideration is the mild flushing at 10%+ concentrations, which i
 - [Retinol : le guide complet pour débutants](/blog/retinol-guide-debutant-commencer/)
 
 **Resources:**
-- [Browse products](/products)
-- [Concerns library](/concerns)
+- [Browse products](/encyclopedia)
+- [Methodology](/methodology)
 

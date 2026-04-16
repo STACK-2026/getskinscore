@@ -196,6 +196,6 @@ Le rétinol n'est pas l'ennemi redoutable qu'on te décrit. C'est un allié puis
 - [Retinol: a beginner's guide](/blog/retinol-beginners-guide-how-to-start/)
 
 **Resources:**
-- [Browse products](/products)
-- [Concerns library](/concerns)
+- [Browse products](/encyclopedia)
+- [Methodology](/methodology)
 

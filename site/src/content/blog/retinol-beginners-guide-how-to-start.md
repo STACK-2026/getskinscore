@@ -53,11 +53,11 @@ This is where you should start. Pure retinol at a concentration high enough to w
 
 ### Tier 3: 0.5% (intermediate)
 
-The sweet spot for most people long-term. Clinically effective for anti-aging and hyperpigmentation. [The Ordinary's Retinol 0.5% in Squalane](/product/the-ordinary-retinol-0-5-squalane) scores an A (87/100) on SkinScore and costs 6 EUR for 30ml. Hard to argue with that.
+The sweet spot for most people long-term. Clinically effective for anti-aging and hyperpigmentation. The Ordinary's Retinol 0.5% in Squalane scores an A (87/100) on SkinScore and costs 6 EUR for 30ml. Hard to argue with that.
 
 ### Tier 4: 1% (advanced)
 
-For experienced retinol users only. [Paula's Choice Clinical 1% Retinol Treatment](/product/paula-choice-clinical-1-retinol) scores A (86/100), but its skin-type fit drops to C because of the irritation potential. Powerful, but not for beginners.
+For experienced retinol users only. Paula's Choice Clinical 1% Retinol Treatment scores A (86/100), but its skin-type fit drops to C because of the irritation potential. Powerful, but not for beginners.
 
 ### Tier 5: Prescription tretinoin (0.025% to 0.1%)
 
@@ -93,7 +93,7 @@ Order matters. So does layering. Here is the PM routine for retinol nights:
 
 4. **Wait 5 to 10 minutes.** Let the retinol absorb before layering anything on top.
 
-5. **Apply moisturiser.** A good occlusive moisturiser to seal everything in. [CeraVe Moisturising Cream](/product/cerave-moisturizing-cream) (SkinScore: A, 88/100) with ceramides is ideal. It repairs the barrier while the retinol does its work underneath.
+5. **Apply moisturiser.** A good occlusive moisturiser to seal everything in. CeraVe Moisturising Cream (SkinScore: A, 88/100) with ceramides is ideal. It repairs the barrier while the retinol does its work underneath.
 
 ### The "sandwich" method for sensitive skin
 
@@ -105,19 +105,19 @@ Retinol has enemies. Some combinations are irritating. Others are genuinely coun
 
 ### Do not combine retinol with:
 
-- **AHAs and BHAs on the same evening.** Glycolic acid, lactic acid, and [salicylic acid](/ingredient/salicylic-acid) all lower your skin's pH. Retinol works best at a slightly acidic to neutral pH, but layering exfoliating acids on the same night as retinol is a recipe for a compromised barrier. Use acids on non-retinol evenings.
+- **AHAs and BHAs on the same evening.** Glycolic acid, lactic acid, and salicylic acid all lower your skin's pH. Retinol works best at a slightly acidic to neutral pH, but layering exfoliating acids on the same night as retinol is a recipe for a compromised barrier. Use acids on non-retinol evenings.
 
 - **Benzoyl peroxide.** This one is chemical, not just irritation-based. Benzoyl peroxide oxidises retinol, rendering it inactive. If you use benzoyl peroxide for acne, apply it in the morning and retinol in the evening.
 
-- **Vitamin C at the same time.** This is more nuanced. L-ascorbic acid (pure vitamin C) is highly acidic (pH 2.5 to 3.5). Retinol is less acidic (pH 5 to 6). Mixing them can reduce the efficacy of both. The solution is simple: [vitamin C](/ingredient/ascorbic-acid) in the morning, retinol in the evening.
+- **Vitamin C at the same time.** This is more nuanced. L-ascorbic acid (pure vitamin C) is highly acidic (pH 2.5 to 3.5). Retinol is less acidic (pH 5 to 6). Mixing them can reduce the efficacy of both. The solution is simple: vitamin C in the morning, retinol in the evening.
 
 ### What you can (and should) combine with retinol:
 
-- **[Niacinamide](/ingredient/niacinamide).** The old myth that niacinamide and retinol cannot be used together has been thoroughly debunked. Niacinamide actually helps reduce retinol-induced irritation. It strengthens the skin barrier and reduces redness. Use them together freely.
+- **Niacinamide.** The old myth that niacinamide and retinol cannot be used together has been thoroughly debunked. Niacinamide actually helps reduce retinol-induced irritation. It strengthens the skin barrier and reduces redness. Use them together freely.
 
-- **[Hyaluronic acid](/ingredient/hyaluronic-acid).** A humectant that pulls water into the skin. Apply it before retinol (on damp skin) or mixed into your moisturiser. It counteracts the drying effect of retinol.
+- **Hyaluronic acid.** A humectant that pulls water into the skin. Apply it before retinol (on damp skin) or mixed into your moisturiser. It counteracts the drying effect of retinol.
 
-- **[Ceramides](/ingredient/ceramide-np).** Barrier repair ingredients. Essential during the adjustment period. Look for them in your moisturiser.
+- **Ceramides.** Barrier repair ingredients. Essential during the adjustment period. Look for them in your moisturiser.
 
 - **SPF (non-negotiable).** Retinol increases photosensitivity. If you use retinol without daily sunscreen, you are doing more harm than good. SPF 30 minimum, every single morning, even when it is cloudy. This is not optional.
 
@@ -137,11 +137,11 @@ The fix for irritation: reduce frequency immediately. If you are using retinol t
 
 Based on [SkinScore's methodology](/methodology), which evaluates efficacy, safety, comedogenicity, transparency, and skin-type fit:
 
-**Best overall starter:** [The Ordinary Retinol 0.5% in Squalane](/product/the-ordinary-retinol-0-5-squalane) - Score: A (87/100), 6 EUR. Pure retinol in squalane (a non-comedogenic emollient). No fragrance, no filler actives, no marketing fluff. The squalane base reduces irritation compared to water-based formulas.
+**Best overall starter:** The Ordinary Retinol 0.5% in Squalane - Score: A (87/100), 6 EUR. Pure retinol in squalane (a non-comedogenic emollient). No fragrance, no filler actives, no marketing fluff. The squalane base reduces irritation compared to water-based formulas.
 
 **Best for sensitive skin:** Look for encapsulated retinol products. Encapsulation slows the release of retinol into the skin, reducing the initial irritation spike. Several brands offer this at 0.1% to 0.3%.
 
-**Best for acne-prone skin:** [Paula's Choice Clinical 1% Retinol Treatment](/product/paula-choice-clinical-1-retinol) - Score: A (86/100), 58 EUR. Higher concentration for experienced users. Contains peptides and vitamin C alongside retinol. Effective but not a beginner product despite the marketing.
+**Best for acne-prone skin:** Paula's Choice Clinical 1% Retinol Treatment - Score: A (86/100), 58 EUR. Higher concentration for experienced users. Contains peptides and vitamin C alongside retinol. Effective but not a beginner product despite the marketing.
 
 **Overpriced for what it is:** Any retinol that costs more than 50 EUR per 30ml and scores below B on SkinScore. Check the [rankings](/rankings) before you buy. A high price tag does not guarantee a better formula.
 
@@ -167,7 +167,7 @@ Based on [SkinScore's methodology](/methodology), which evaluates efficacy, safe
 
 This is not a grey area. Retinoids are contraindicated during pregnancy and breastfeeding. High-dose oral retinoids (isotretinoin) are proven teratogens. While topical retinol at skincare concentrations has not been shown to cause harm in studies, the medical consensus is clear: do not use retinol if you are pregnant, planning to become pregnant, or breastfeeding.
 
-Alternatives during pregnancy include [azelaic acid](/ingredient/azelaic-acid) (safe, effective for both acne and hyperpigmentation), [niacinamide](/ingredient/niacinamide) (barrier support and brightening), and [vitamin C](/ingredient/ascorbic-acid) (antioxidant protection).
+Alternatives during pregnancy include azelaic acid (safe, effective for both acne and hyperpigmentation), niacinamide (barrier support and brightening), and vitamin C (antioxidant protection).
 
 ## The bottom line
 
@@ -181,52 +181,52 @@ Check how your current products score on [SkinScore](/rankings) before adding re
 
 The following is a composite based on dozens of reader case studies we have reviewed at [SkinScore](/). Names and exact products are edited, the timeline is real.
 
-Maya, 34, combination skin, mild hormonal jawline breakouts, first-time retinol user. She picked a 0.3 percent encapsulated retinol after reading our [methodology](/methodology) and cross-checking the score on the [rankings](/rankings) page. Her existing routine: a gentle gel cleanser, a [niacinamide](/ingredient/niacinamide) serum in the morning, a ceramide moisturiser twice a day, and SPF 50 daily. Score on the [brand](/brand) analysis for her moisturiser: B (82/100). Her [quiz](/quiz) output flagged her as "barrier-first" - meaning her compromised barrier should be treated before any active introduction. She spent two weeks repairing the barrier with the [encyclopedia](/encyclopedia) recommendations on humectants before starting retinol.
+Maya, 34, combination skin, mild hormonal jawline breakouts, first-time retinol user. She picked a 0.3 percent encapsulated retinol after reading our [methodology](/methodology) and cross-checking the score on the [rankings](/rankings) page. Her existing routine: a gentle gel cleanser, a niacinamide serum in the morning, a ceramide moisturiser twice a day, and SPF 50 daily. Score on the [brand](/) analysis for her moisturiser: B (82/100). Her [quiz](/quiz) output flagged her as "barrier-first" - meaning her compromised barrier should be treated before any active introduction. She spent two weeks repairing the barrier with the [encyclopedia](/encyclopedia) recommendations on humectants before starting retinol.
 
 Week 1: one application on a Sunday evening. No visible reaction. Week 2: the same. Week 3: two applications (Sunday and Wednesday). By Thursday morning, mild flaking around the nasolabial folds. She backed off to one application for a further week. Week 4: two applications resumed, this time with the [sandwich method](/interactions). No flaking. Week 5: three applications. Mild dryness on the forehead only; she added a hyaluronic acid layer under her moisturiser. Week 6-8: three applications per week, stable. At week 8 she noted two visible changes: the post-inflammatory marks from previous breakouts on her jawline were visibly lighter, and the texture of her forehead was noticeably smoother in raking light.
 
 Total cost of the retinol across 8 weeks: 6 EUR. Total cost of her support products (moisturiser, niacinamide, SPF): 68 EUR spread across three months. The breakdown of every product she used is on our [compare](/compare) tool and our [dupes](/dupes) page - both of which let you cross-shop the same formula at different price points.
 
-What Maya did differently from the typical failure pattern: she respected barrier repair first, started at 0.3 percent not 1 percent, used the sandwich method the moment she felt dryness, and refused to escalate frequency until the skin was fully adapted. Her French-speaking counterpart can read the same protocol in [the French version of this guide](/fr/blog/retinol-debutants-guide-demarrage).
+What Maya did differently from the typical failure pattern: she respected barrier repair first, started at 0.3 percent not 1 percent, used the sandwich method the moment she felt dryness, and refused to escalate frequency until the skin was fully adapted. Her French-speaking counterpart can read the same protocol in the French version of this guide.
 
 ## How retinol interacts with your full routine
 
 If you want an end-to-end view of what can and cannot share a bottle-top with retinol, our [ingredient interactions](/interactions) page is the reference. A few highlights that matter most for beginners:
 
-- **Retinol and [salicylic acid](/ingredient/salicylic-acid)**: alternate evenings only. A BHA on Monday, retinol on Tuesday. Never stacked.
-- **Retinol and [ascorbic acid](/ingredient/ascorbic-acid)**: vitamin C in the AM, retinol in the PM. This is the single most frequent mistake in beginner routines.
-- **Retinol and [ceramide NP](/ingredient/ceramide-np)**: ideal pairing. Ceramides reinforce the barrier that retinol initially stresses.
-- **Retinol and [hyaluronic acid](/ingredient/hyaluronic-acid)**: fine to layer, but apply HA first on slightly damp skin, wait one minute, then retinol.
-- **Retinol and [azelaic acid](/ingredient/azelaic-acid)**: compatible but taxing. Start one before adding the other.
+- **Retinol and salicylic acid**: alternate evenings only. A BHA on Monday, retinol on Tuesday. Never stacked.
+- **Retinol and ascorbic acid**: vitamin C in the AM, retinol in the PM. This is the single most frequent mistake in beginner routines.
+- **Retinol and ceramide NP**: ideal pairing. Ceramides reinforce the barrier that retinol initially stresses.
+- **Retinol and hyaluronic acid**: fine to layer, but apply HA first on slightly damp skin, wait one minute, then retinol.
+- **Retinol and azelaic acid**: compatible but taxing. Start one before adding the other.
 - **Retinol and fragrance-heavy moisturisers**: avoid. Fragrance compounds are the single largest driver of retinoid-associated irritation in our [encyclopedia](/encyclopedia) data.
 
 ## Beginner product shortlist, cross-referenced with SkinScore
 
 Every link below resolves to a scored product page with the full formulation breakdown, clinical commentary, and a skin-type fit grade.
 
-- [The Ordinary Retinol 0.5% in Squalane](/product/the-ordinary-retinol-0-5-squalane) - A (87/100), the canonical beginner product.
-- [Paula's Choice Clinical 1% Retinol Treatment](/product/paula-choice-clinical-1-retinol) - A (86/100), intermediate only.
-- [CeraVe Moisturising Cream](/product/cerave-moisturizing-cream) - A (88/100), the barrier anchor.
-- [La Roche-Posay Retinol B3 Serum](/product/la-roche-posay-retinol-b3) - check live score on [rankings](/rankings).
-- [Medik8 Crystal Retinal 3](/product/medik8-crystal-retinal-3) - for readers ready for retinaldehyde.
-- [Avene RetrinAL 0.1 Intensive Cream](/product/avene-retrinal-0-1) - another retinaldehyde option, very gentle.
+- The Ordinary Retinol 0.5% in Squalane - A (87/100), the canonical beginner product.
+- Paula's Choice Clinical 1% Retinol Treatment - A (86/100), intermediate only.
+- CeraVe Moisturising Cream - A (88/100), the barrier anchor.
+- La Roche-Posay Retinol B3 Serum - check live score on [rankings](/rankings).
+- Medik8 Crystal Retinal 3 - for readers ready for retinaldehyde.
+- Avene RetrinAL 0.1 Intensive Cream - another retinaldehyde option, very gentle.
 
-If you want to compare two of these side by side, use the [compare](/compare) tool. If you want the French equivalents, see [meilleurs retinols debutants](/fr/blog/meilleurs-retinols-debutants).
+If you want to compare two of these side by side, use the [compare](/compare) tool. If you want the French equivalents, see meilleurs retinols debutants.
 
 ## Best moisturisers to pair with retinol
 
 Barrier support is half the battle. These score A on [SkinScore](/) and are the ones our community reports using most often during retinol adaptation.
 
-- [CeraVe PM Facial Moisturising Lotion](/product/cerave-pm-lotion)
-- [La Roche-Posay Toleriane Sensitive Fluide](/product/la-roche-posay-toleriane-sensitive)
-- [Bioderma Atoderm Intensive Baume](/product/bioderma-atoderm-intensive)
-- [Vanicream Moisturising Cream](/product/vanicream-moisturizing-cream)
+- CeraVe PM Facial Moisturising Lotion
+- La Roche-Posay Toleriane Sensitive Fluide
+- Bioderma Atoderm Intensive Baume
+- Vanicream Moisturising Cream
 
-Brand-level analysis is on the [brand](/brand) directory - useful if you want to audit an entire line rather than a single product.
+Brand-level analysis is on the [brand](/) directory - useful if you want to audit an entire line rather than a single product.
 
 ## SPF: the non-negotiable step
 
-If there is one product more important than the retinol itself, it is the morning sunscreen. Our [best sunscreens](/best/sunscreen) list is updated quarterly. Minimum SPF 30, broad spectrum, two fingers' worth for face and neck. No exceptions.
+If there is one product more important than the retinol itself, it is the morning sunscreen. Our best sunscreens list is updated quarterly. Minimum SPF 30, broad spectrum, two fingers' worth for face and neck. No exceptions.
 
 ## FAQ deep dive: fifteen questions we get every week
 
@@ -284,7 +284,7 @@ SPF. Every morning. No exceptions. Without it, retinol is net harmful.
 - [Dupes](/dupes) database for affordable alternatives
 - [Quiz](/quiz) to identify your skin priorities
 - [Niacinamide safety](/blog/is-niacinamide-safe-dermatology-research)
-- [French version of this guide](/fr/blog/retinol-debutants-guide-demarrage)
+- French version of this guide
 
 ## Frequently asked questions
 
@@ -318,6 +318,6 @@ Retinaldehyde is one conversion step closer to retinoic acid than retinol, so it
 - [Retinol : le guide complet pour débutants](/blog/retinol-guide-debutant-commencer/)
 
 **Resources:**
-- [Browse products](/products)
-- [Concerns library](/concerns)
+- [Browse products](/encyclopedia)
+- [Methodology](/methodology)
 
