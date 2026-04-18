@@ -117,7 +117,7 @@ Write the complete article now, starting with the frontmatter."""
     print(f"  Generating article: {title} ({lang})...")
 
     message = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-6",
         max_tokens=8000,
         system=system_prompt,
         messages=[{"role": "user", "content": user_prompt}],
