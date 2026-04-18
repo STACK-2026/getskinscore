@@ -14,6 +14,14 @@ import random
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+import sys as _sys_mistral
+_sys_mistral.path.insert(0, str(Path(__file__).parent))
+try:
+    from mistral_pipeline import generate_with_mistral_audit as _mistral_gen
+except Exception:
+    _mistral_gen = None
+
+
 # Config
 SITE_DIR = Path(__file__).parent.parent / "site"
 BLOG_DIR = SITE_DIR / "src" / "content" / "blog"
@@ -115,6 +123,13 @@ Requirements:
 Write the complete article now, starting with the frontmatter."""
 
     print(f"  Generating article: {title} ({lang})...")
+
+    if _mistral_gen and os.environ.get("MISTRAL_API_KEY"):
+        try:
+            print(f"  [pipeline] Mistral+Claude-audit")
+            return _mistral_gen(system_prompt, user_prompt, max_tokens=14000)
+        except Exception as e:
+            print(f"  [pipeline] Mistral failed, fallback Claude: {e}")
 
     message = client.messages.create(
         model="claude-sonnet-4-6",
