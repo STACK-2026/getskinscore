@@ -227,17 +227,39 @@ def write_article(slug, content):
 
 
 def git_commit_push(filepath, title):
-    """Commit and push the article."""
+    """Commit and push the article with pull-rebase retry loop."""
     try:
         subprocess.run(["git", "add", str(filepath)], check=True)
         subprocess.run(
             ["git", "commit", "-m", f"blog: {title}"],
             check=True,
         )
-        subprocess.run(["git", "push"], check=True)
-        print("  Committed and pushed.")
     except subprocess.CalledProcessError as e:
-        print(f"  Git error: {e}")
+        print(f"  Git commit error: {e}")
+        return False
+
+    for attempt in range(1, 4):
+        try:
+            subprocess.run(["git", "push"], check=True, capture_output=True)
+            print(f"  Committed and pushed (attempt {attempt}).")
+            return True
+        except subprocess.CalledProcessError as e:
+            err = e.stderr.decode() if e.stderr else str(e)
+            if "non-fast-forward" in err or "rejected" in err or "fetch first" in err:
+                print(f"  Push rejected attempt {attempt}, pull --rebase and retry")
+                try:
+                    subprocess.run(
+                        ["git", "pull", "--rebase", "origin", "main"],
+                        check=True, capture_output=True,
+                    )
+                    continue
+                except subprocess.CalledProcessError as e2:
+                    print(f"  Pull --rebase failed: {e2}")
+                    return False
+            print(f"  Git push error: {err}")
+            return False
+    print(f"  Push failed after 3 retries")
+    return False
 
 
 def log_result(slug, success, error=None):
