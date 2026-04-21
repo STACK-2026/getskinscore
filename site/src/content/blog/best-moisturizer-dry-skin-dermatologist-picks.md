@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Best Moisturizers for Dry Skin: Dermatologist Picks Ranked"
 description: "Dermatologist-ranked best moisturizers for dry skin, scored by formulation. Ceramide creams, drugstore vs luxury picks, and what ingredients actually work."
@@ -14,7 +13,6 @@ lang: "en"
 lastReviewed: "2026-04-21"
 reviewedBy: "SkinScore Research Team"
 ---
-```
 
 # Best Moisturizers for Dry Skin: Dermatologist Picks Ranked
 

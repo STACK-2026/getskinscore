@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Ingrédients comédogènes : le top 10 à éviter"
 description: "Découvre les 10 ingrédients cosmétiques les plus comédogènes, leur score sur l'échelle de Fulton, et les alternatives sûres pour ne plus boucher tes pores."
@@ -14,7 +13,6 @@ lang: "fr"
 lastReviewed: "2026-04-18"
 reviewedBy: "SkinScore Research Team"
 ---
-```
 
 # Ingrédients comédogènes : le top 10 à éviter
 
