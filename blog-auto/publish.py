@@ -227,40 +227,42 @@ def write_article(slug, content):
 
 
 def git_commit_push(filepath, title):
-    """Commit and push the article with pull-rebase retry loop."""
-    try:
-        subprocess.run(["git", "add", str(filepath)], check=True)
-        subprocess.run(
-            ["git", "commit", "-m", f"blog: {title}"],
-            check=True,
-        )
-    except subprocess.CalledProcessError as e:
-        print(f"  Git commit error: {e}")
+    """Push via GitHub Contents API - atomic, no race conditions."""
+    import base64, requests, os
+    token = os.getenv("GITHUB_TOKEN") or os.getenv("GH_TOKEN")
+    repo  = os.getenv("GITHUB_REPOSITORY")
+    if not token or not repo:
+        print("  GITHUB_TOKEN or GITHUB_REPOSITORY missing")
         return False
 
-    for attempt in range(1, 4):
-        try:
-            subprocess.run(["git", "push"], check=True, capture_output=True)
-            print(f"  Committed and pushed (attempt {attempt}).")
-            return True
-        except subprocess.CalledProcessError as e:
-            err = e.stderr.decode() if e.stderr else str(e)
-            if "non-fast-forward" in err or "rejected" in err or "fetch first" in err:
-                print(f"  Push rejected attempt {attempt}, pull --rebase and retry")
-                try:
-                    subprocess.run(
-                        ["git", "pull", "--rebase", "origin", "main"],
-                        check=True, capture_output=True,
-                    )
-                    continue
-                except subprocess.CalledProcessError as e2:
-                    print(f"  Pull --rebase failed: {e2}")
-                    return False
-            print(f"  Git push error: {err}")
-            return False
-    print(f"  Push failed after 3 retries")
-    return False
+    rel = str(filepath).split("/site/")[-1]
+    rel = "site/" + rel if not rel.startswith("site/") else rel
+    api = f"https://api.github.com/repos/{repo}/contents/{rel}"
+    headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
+    content_b64 = base64.b64encode(open(filepath, "rb").read()).decode()
 
+    for attempt in range(1, 6):
+        sha = None
+        r = requests.get(api, headers=headers, params={"ref": "main"}, timeout=30)
+        if r.status_code == 200:
+            sha = r.json().get("sha")
+        elif r.status_code != 404:
+            print(f"  API GET error {r.status_code}")
+            return False
+        payload = {"message": f"blog: {title}", "content": content_b64, "branch": "main"}
+        if sha:
+            payload["sha"] = sha
+        r = requests.put(api, headers=headers, json=payload, timeout=30)
+        if r.status_code in (200, 201):
+            print(f"  API PUT OK (attempt {attempt}).")
+            return True
+        if r.status_code in (409, 422):
+            print(f"  API PUT conflict, retrying ({attempt}/5)")
+            continue
+        print(f"  API PUT error {r.status_code}: {r.text[:200]}")
+        return False
+    print("  API PUT failed after 5 retries")
+    return False
 
 def log_result(slug, success, error=None):
     """Log publication result."""
