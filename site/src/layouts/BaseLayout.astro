@@ -17,6 +17,8 @@ interface Props {
   publishedTime?: string;
   jsonLd?: object | object[];
   noIndex?: boolean;
+  enHref?: string | null;
+  frHref?: string | null;
 }
 
 const {
@@ -28,6 +30,8 @@ const {
   publishedTime,
   jsonLd,
   noIndex = false,
+  enHref: enHrefProp,
+  frHref: frHrefProp,
 } = Astro.props;
 
 const locale = getLocale(Astro.url);
@@ -40,8 +44,8 @@ const pageJsonLd = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 const jsonLdArray = [...baseJsonLd, ...pageJsonLd];
 
 const cleanPath = Astro.url.pathname.replace(/^\/fr/, "") || "/";
-const enHref = siteConfig.url + cleanPath;
-const frHref = siteConfig.url + "/fr" + (cleanPath === "/" ? "/" : cleanPath);
+const enHref = enHrefProp !== undefined ? enHrefProp : siteConfig.url + cleanPath;
+const frHref = frHrefProp !== undefined ? frHrefProp : siteConfig.url + "/fr" + (cleanPath === "/" ? "/" : cleanPath);
 ---
 
 <!doctype html>
@@ -63,10 +67,10 @@ const frHref = siteConfig.url + "/fr" + (cleanPath === "/" ? "/" : cleanPath);
     <meta name="keywords" content={siteConfig.keywords.join(", ")} />
     {noIndex && <meta name="robots" content="noindex, nofollow" />}
 
-    <!-- Hreflang (bilingual EN + FR) -->
-    <link rel="alternate" hreflang="en" href={enHref} />
-    <link rel="alternate" hreflang="fr" href={frHref} />
-    <link rel="alternate" hreflang="x-default" href={enHref} />
+    <!-- Hreflang (bilingual EN + FR, suppressed when no translation exists) -->
+    {enHref && <link rel="alternate" hreflang="en" href={enHref} />}
+    {frHref && <link rel="alternate" hreflang="fr" href={frHref} />}
+    {enHref && <link rel="alternate" hreflang="x-default" href={enHref} />}
 
     <!-- Open Graph -->
     <meta property="og:title" content={title} />

@@ -5,6 +5,7 @@ import { fullUrl } from "../utils/config";
 import { jsonLdArticle, jsonLdBreadcrumbs } from "../utils/seo";
 import { getLocale, t, tr, localizedPath } from "../i18n/t";
 import { authors } from "../data/authors";
+import { getBilingualPair } from "../data/blog-slug-map";
 
 interface Props {
   title: string;
@@ -40,6 +41,10 @@ const locale = isDefault ? "en" : "fr";
 const authorEntry = author ? authors.find((a) => a.name === author) : undefined;
 const authorHref = authorEntry ? `/authors/${authorEntry.id}/` : undefined;
 
+const { enSlug, frSlug } = getBilingualPair(slug, isDefault ? "en" : "fr");
+const enHref = enSlug ? `${siteConfig.url}/blog/${enSlug}/` : null;
+const frHref = frSlug ? `${siteConfig.url}/fr/blog/${frSlug}/` : null;
+
 const articleUrl = fullUrl(blogPath);
 const dateStr = date.toISOString().split("T")[0];
 const reviewedDateStr = lastReviewed ? lastReviewed.toISOString().split("T")[0] : undefined;
@@ -61,7 +66,7 @@ const jsonLd = [
 ];
 ---
 
-<BaseLayout title={`${title} | ${siteConfig.name}`} description={description} canonicalUrl={articleUrl} ogImage={image} ogType="article" publishedTime={dateStr} jsonLd={jsonLd}>
+<BaseLayout title={`${title} | ${siteConfig.name}`} description={description} canonicalUrl={articleUrl} ogImage={image} ogType="article" publishedTime={dateStr} jsonLd={jsonLd} enHref={enHref} frHref={frHref}>
   <article class="max-w-3xl mx-auto px-4 py-12">
     <nav class="text-xs text-slate-400 mb-8 flex items-center gap-1.5 flex-wrap">
       {breadcrumbs.map((item, i) => (
