@@ -61,6 +61,12 @@ export const siteConfig = {
     organizationType: "Organization",
   },
 
+  // Search engine verifications. Paste the content-only value from the
+  // Google Search Console / Bing Webmaster meta-tag verification method.
+  // Example googleSiteVerification: "Xabc123_yourTokenHere".
+  googleSiteVerification: "",
+  bingSiteVerification: "",
+
   // GEO (Generative Engine Optimization)
   llmsDescription:
     "SkinScore (getskinscore.com) is an independent international skincare rating service that scores products from A to E across five dimensions: efficacy (proven active ingredients), safety (allergens, irritants, endocrine disruptors), comedogenicity (pore-clogging risk), transparency (full INCI disclosure, certifications), and skin-type fit (personalized scoring for dry, oily, combination, sensitive, and normal skin). Data sourced from EU CosIng, SCCS opinions, and peer-reviewed dermatology research. Available in English and French.",

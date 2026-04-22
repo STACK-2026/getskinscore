@@ -6,6 +6,7 @@ import { siteConfig } from "./site.config.ts";
 // FR pages generated via i18n fallback that @astrojs/sitemap misses
 import { products, brandSlug, getUniqueBrands } from "./src/data/products.ts";
 import { starProductContent } from "./src/data/star-product-content.ts";
+import { ingredientDeepContent } from "./src/data/ingredient-deep-content.ts";
 
 const frFallbackPages = (() => {
   const base = siteConfig.url;
@@ -48,9 +49,12 @@ const indexableBrandSlugs = (() => {
   return new Set([...counts.entries()].filter(([, n]) => n >= 3).map(([s]) => s));
 })();
 
+const deepIngredientIds = new Set(ingredientDeepContent.map((i) => i.id));
+
 const sitemapFilter = (url) => {
   // Drop noindexed thin programmatic paths from the sitemap entirely.
-  if (/\/ingredient\//.test(url)) return false;
+  const ingredientMatch = url.match(/\/ingredient\/([^/]+)\/?$/);
+  if (ingredientMatch) return deepIngredientIds.has(ingredientMatch[1]);
   const productMatch = url.match(/\/product\/([^/]+)\/?$/);
   if (productMatch) return enrichedProductIds.has(productMatch[1]);
   const brandMatch = url.match(/\/brand\/([^/]+)\/?$/);

@@ -10,163 +10,181 @@
     "keywords": "retinol beginners, how to use retinol, retinol guide, retinol side effects",
     "serp_brief": {
       "keyword": "retinol beginners",
-      "generated_at": "2026-04-18T23:47:05",
+      "generated_at": "2026-04-23T00:32:22",
       "model": "gemini-2.5-pro",
       "brief": {
         "top10": [
           {
             "rank": 1,
-            "domain": "www.byrdie.com",
-            "title": "How to Use Retinol: A Complete Guide for Beginners",
-            "main_angle": "Guide complet pour débutants par des dermatologues, axé sur le 'comment faire' et les erreurs à éviter.",
-            "strength": "Citations d'experts (dermatologues), structure claire avec des étapes numérotées, section 'erreurs à éviter'.",
-            "weakness": "Recommandations de produits génériques, peu d'analyse sur les différents types de rétinoïdes."
+            "domain": "gmcollin.com",
+            "title": "Guide du débutant sur le rétinol - GM Collin",
+            "main_angle": "Guide pratique et scientifique sur le rétinol, expliquant son mécanisme d'action, ses bienfaits, et comment l'intégrer dans une routine de soins.",
+            "strength": "Contenu détaillé et bien structuré, explication scientifique du fonctionnement du rétinol, recommandations claires pour les débutants.",
+            "weakness": "Très orienté produit (leurs propres crèmes), manque une approche holistique ou des alternatives."
           },
           {
             "rank": 2,
-            "domain": "www.paulaschoice.com",
-            "title": "Retinol for Beginners: The Ultimate Guide | Paula's Choice",
-            "main_angle": "Guide éducatif de marque axé sur le choix de la bonne concentration et l'intégration dans une routine.",
-            "strength": "Expertise de marque reconnue, explique bien les différentes concentrations, guide visuel sur l'application.",
-            "weakness": "Fortement orienté vers les produits de la marque, manque d'impartialité."
+            "domain": "skinceuticals.fr",
+            "title": "Comment utiliser le rétinol dans sa routine skincare ? | SkinCeuticals",
+            "main_angle": "Guide d'expert sur l'utilisation correcte du rétinol pour maximiser son efficacité et éviter les effets secondaires, avec une perspective historique.",
+            "strength": "Crédibilité de la marque, conseils précis sur la fréquence et le moment de l'application, mention d'études.",
+            "weakness": "Focalisé sur leurs produits, peu d'options pour différents budgets ou types de peau."
           },
           {
             "rank": 3,
-            "domain": "health.clevelandclinic.org",
-            "title": "What Is Retinol? What to Know Before You Start",
-            "main_angle": "Perspective médicale et factuelle sur ce qu'est le rétinol, ses bénéfices et ses effets secondaires.",
-            "strength": "Source médicale très crédible (Cleveland Clinic), ton objectif et scientifique, explique la différence avec les rétinoïdes sur ordonnance.",
-            "weakness": "Contenu assez dense et moins orienté 'guide pratique' que les concurrents. Pas de recommandations de produits."
+            "domain": "cerave.com.au",
+            "title": "How to Use Retinol for Beginners | CeraVe Australia",
+            "main_angle": "Guide pratique pour débutants avec des conseils clairs et numérotés, incluant la méthode \"sandwich\" pour les peaux sensibles.",
+            "strength": "Conseils très actionnables et faciles à suivre (patch test, commencer lentement), mention d'ingrédients complémentaires.",
+            "weakness": "Contenu en anglais (marché australien), peut ne pas être parfaitement adapté au public francophone européen."
           },
           {
             "rank": 4,
-            "domain": "www.vogue.com",
-            "title": "A Beginner’s Guide to Retinol: How to Use It and the Best Ones to Try",
-            "main_angle": "Angle lifestyle et luxe, avec des recommandations de produits haut de gamme et des conseils d'experts de l'industrie.",
-            "strength": "Marque média puissante, esthétique soignée, recommandations de produits désirables.",
-            "weakness": "Moins approfondi sur la science, les pourcentages sont peu discutés, l'angle est plus sur le 'quoi acheter' que le 'comment utiliser'."
+            "domain": "skinceuticals.ca",
+            "title": "A Beginner's Guide to Retinol - Skincare - SkinCeuticals Canada",
+            "main_angle": "Guide complet pour les novices, démystifiant les mythes courants et expliquant comment intégrer le rétinol dans une routine de nuit.",
+            "strength": "Approche rassurante, aborde les mythes, structure claire (bienfaits, pour qui, comment).",
+            "weakness": "Encore une fois, très lié à la marque SkinCeuticals, et site canadien."
           },
           {
             "rank": 5,
-            "domain": "www.medik8.com",
-            "title": "Beginners Guide To Retinol - Medik8",
-            "main_angle": "Guide de marque se concentrant sur leur technologie (Retinal) et leur système de montée en puissance progressif.",
-            "strength": "Explique bien la différence entre Rétinol et Rétinal, approche pédagogique pour rassurer sur l'irritation.",
-            "weakness": "Très centré sur leurs propres produits, ne couvre pas l'ensemble du marché."
+            "domain": "lesangesontlapeaudouce.com",
+            "title": "Rétinol : Les 5 Meilleures Crèmes les plus efficaces - Les anges ont la peau douce",
+            "main_angle": "Comparatif de produits avec des recommandations spécifiques pour différents profils (débutante, peau sensible, rides marquées).",
+            "strength": "Approche par cas d'usage et budget, avis basés sur des tests, FAQ pratique.",
+            "weakness": "Angle purement commercial (comparatif de produits), moins de contenu de fond sur le 'comment'."
           },
           {
             "rank": 6,
-            "domain": "www.imageskincare.com",
-            "title": "Retinol For Beginners - The Ultimate Guide - Image Skincare",
-            "main_angle": "Guide pratique d'une marque professionnelle, axé sur les pourcentages et la méthode d'introduction.",
-            "strength": "Clarté sur les pourcentages à choisir pour commencer, conseils simples et directs.",
-            "weakness": "Contenu assez court et promotionnel pour leurs produits."
+            "domain": "kiehls.co.uk",
+            "title": "Beginner Retinol Guide: How to Use Retinol | Kiehl's UK",
+            "main_angle": "Guide étape par étape sur comment et quand utiliser le rétinol, avec un focus sur les ingrédients à associer et à éviter.",
+            "strength": "Conseils très pratiques sur les associations d'ingrédients, visuels clairs, recommandations de produits de leur marque.",
+            "weakness": "Site britannique en anglais, centré sur les produits Kiehl's."
           },
           {
             "rank": 7,
-            "domain": "www.healthline.com",
-            "title": "How Does Retinol Work, and How Long Does It Take to See Results?",
-            "main_angle": "Article informatif validé médicalement, centré sur les mécanismes d'action et la temporalité des résultats.",
-            "strength": "Source de santé grand public réputée, contenu bien structuré avec des délais clairs, explication du processus de 'purging'.",
-            "weakness": "Moins un guide 'pour débutants' qu'une explication générale. L'angle 'débutant' est un peu dilué."
+            "domain": "naturium.com",
+            "title": "Retinol Serum 101: Guide for Beginners - Naturium",
+            "main_angle": "Guide pour débutants centré sur l'utilisation d'un sérum au rétinol, avec un calendrier d'introduction progressif.",
+            "strength": "Le calendrier d'application semaine par semaine est une excellente idée, très concret pour le lecteur.",
+            "weakness": "Site de marque américain, en anglais, focus unique sur le format sérum."
           },
           {
             "rank": 8,
-            "domain": "www.dermstore.com",
-            "title": "The Best Retinol for Beginners That Come Dermatologist-Approved",
-            "main_angle": "Liste de produits ('listicle') organisée par besoin, avec l'approbation de dermatologues comme argument de vente.",
-            "strength": "Format facile à scanner, recommandations de produits claires avec des avis d'experts.",
-            "weakness": "Manque de contenu éducatif sur le 'comment faire'. C'est un guide d'achat avant tout."
+            "domain": "onekind.us",
+            "title": "The Beginner's Guide to Retinol: How to Start Without Irritating Your Skin - Onekind",
+            "main_angle": "Guide rassurant pour surmonter la peur de l'irritation, en expliquant le processus d'adaptation de la peau et les différentes formes de rétinol.",
+            "strength": "Excellente gestion de l'objection principale (peur de l'irritation), explication des différentes formes de rétinoïdes.",
+            "weakness": "Site de marque américain, en anglais."
           },
           {
             "rank": 9,
-            "domain": "www.allure.com",
-            "title": "The 21 Best Retinol Serums and Creams of 2024",
-            "main_angle": "Article de type 'Best Of' qui segmente les recommandations par type de peau et budget.",
-            "strength": "Grande variété de produits testés par des éditeurs, crédibilité du média, segmentation utile pour le lecteur.",
-            "weakness": "Pas un guide pour débutants, mais une liste de produits. L'information sur l'utilisation est minimale."
+            "domain": "frenchnowmad.com",
+            "title": "Rétinol : Les 8 erreurs à éviter pour une peau parfaite - french nowmad",
+            "main_angle": "Article listant les erreurs courantes à ne pas commettre lorsqu'on débute avec le rétinol.",
+            "strength": "Angle original et très utile (les erreurs à éviter), facile à lire, recommandations de produits abordables.",
+            "weakness": "Moins un guide 'comment faire' qu'un 'comment ne pas faire', peut être moins complet pour un débutant total."
           },
           {
             "rank": 10,
-            "domain": "zoskinhealth.com",
-            "title": "Retinol for Beginners: What is it & How to Incorporate it into Your Routine",
-            "main_angle": "Guide éducatif d'une marque de luxe, expliquant les bases et comment intégrer le produit dans une routine existante.",
-            "strength": "Contenu bien écrit et structuré, met l'accent sur la qualité de la formulation.",
-            "weakness": "Les recommandations sont exclusivement pour leurs produits, qui sont dans une gamme de prix élevée."
+            "domain": "medik8.com",
+            "title": "Beginners Guide To Retinol - Medik8",
+            "main_angle": "FAQ pour débutants répondant aux questions les plus courantes sur le rétinol.",
+            "strength": "Format FAQ très efficace pour répondre rapidement aux interrogations des utilisateurs.",
+            "weakness": "Site de marque, en anglais, moins de contenu narratif qu'un guide complet."
           }
         ],
         "common_angles": [
-          "Commencer avec un faible pourcentage (0.1% à 0.3%)",
-          "Utilisation progressive (2-3 fois par semaine au début)",
-          "Application nocturne et utilisation obligatoire de SPF le jour",
-          "La 'purge' (poussée d'acné initiale) est normale",
-          "Utiliser une quantité de la taille d'un petit pois"
+          "Guide pratique pour débutants",
+          "Comment intégrer le rétinol dans sa routine",
+          "Commencer avec une faible concentration et augmenter progressivement",
+          "Utilisation le soir uniquement",
+          "Importance de la protection solaire (SPF)",
+          "Gestion des irritations et effets secondaires",
+          "Recommandations de produits (souvent de la marque elle-même)"
         ],
         "weak_angles": [
-          "Analyse comparative des différents types de rétinoïdes (Retinol, Retinal, Retinyl Palmitate, HPR) au-delà de la simple définition",
-          "Guide visuel ou vidéo détaillé de l'application (quantité, zones à éviter)",
-          "Analyse indépendante des formulations de produits populaires (quels sont les autres ingrédients importants, les irritants potentiels ?)",
-          "Comment intégrer le rétinol avec d'autres actifs (acides, vitamine C) de manière sécuritaire pour un débutant",
-          "Personnalisation de la routine au-delà du type de peau (ex: pour l'acné vs anti-âge)"
+          "Absence totale de connexion avec une approche holistique ou spirituelle de la beauté.",
+          "Contenu très générique, interchangeable d'un site à l'autre.",
+          "Manque d'une perspective 'data-driven' ou personnalisée au-delà du type de peau basique.",
+          "Aucune mention du cycle lunaire ou des cycles personnels pour introduire un actif puissant.",
+          "Le 'pourquoi' profond (au-delà de l'anti-âge) n'est pas exploré."
         ],
         "winning_moves": [
-          "Créer le guide le plus complet sur les TYPES de rétinoïdes pour débutants, en expliquant visuellement (infographie) l'échelle de conversion vers l'acide rétinoïque et le rapport efficacité/irritation de chaque type (Retinol, Retinaldehyde, Granactive Retinoid, etc.).",
-          "Intégrer notre outil SkinScore : présenter une sélection de 5-7 produits pour débutants les mieux notés (A ou B) en expliquant POURQUOI leur formulation est bonne (ingrédients de support, absence d'irritants, stabilité). Cela nous différencie de tous les articles qui ne font que lister des produits.",
-          "Développer une section 'Routine Building' interactive ou sous forme de tableau, montrant comment intégrer le rétinol avec d'autres produits (nettoyant, hydratant, SPF) et d'autres actifs (quand utiliser la vitamine C, les acides exfoliants, etc.) sur une base hebdomadaire.",
-          "Produire une courte vidéo (à intégrer dans l'article) montrant la quantité exacte de produit à utiliser ('pea-sized amount') et la technique d'application correcte, y compris les zones à éviter (contour des yeux, commissures des lèvres).",
-          "Compiler et répondre aux 15 questions les plus fréquentes des débutants (issues des PAA, Reddit, forums) dans une FAQ détaillée, en allant plus loin que les réponses basiques (ex: 'Puis-je l'utiliser si j'ai de la rosacée ?', 'Quels ingrédients hydratants rechercher pour contrer la sécheresse ?')."
+          "Créer un angle unique : 'Le Rétinol et Votre Cycle Karmique : Quand commencer pour une transformation alignée'.",
+          "Introduire le concept de 'timing divin' pour les soins de la peau, en liant l'introduction du rétinol à des cycles numérologiques personnels (année personnelle, mois personnel).",
+          "Proposer un calendrier d'introduction au rétinol basé sur le cycle lunaire (commencer en lune décroissante pour 'éliminer' les vieilles peaux, phase de maintien en lune croissante).",
+          "Utiliser une métaphore filée : le rétinol comme un processus de 'renaissance' ou de 'mue' de la peau, en parallèle avec les cycles de transformation spirituelle.",
+          "Intégrer des données rigoureuses (études, pourcentages) pour rassurer l'audience 'data-driven', mais les interpréter à travers le prisme de la philosophie Karmastro (rigueur + spiritualité)."
         ],
         "must_include_sections": [
-          "What Exactly Is Retinol and Why Should Beginners Care?",
-          "Not All Retinoids Are Created Equal: A Beginner's Guide to Retinol, Retinal, and More",
-          "Choosing Your First Retinol: What Percentage and Formulation is Right for You?",
-          "Your Step-by-Step Guide: How to Introduce Retinol Into Your Routine (The First 8 Weeks)",
-          "The Best Beginner Retinol Products, Independently Scored (A-E)",
-          "Common Mistakes to Avoid and How to Deal with Irritation (The 'Retinol Uglies')",
-          "Building a Complete Skincare Routine Around Retinol (AM & PM)",
-          "Frequently Asked Questions by Retinol Beginners"
+          "Le Rétinol : L'Alchimie d'une Peau Régénérée",
+          "Votre Numérologie Personnelle : Calculer le Moment Idéal pour Débuter le Rétinol",
+          "Synchroniser avec la Lune : Votre Calendrier d'Application sur 28 Jours",
+          "Le Rituel du Soir : Comment Appliquer le Rétinol en Pleine Conscience",
+          "Les 3 Erreurs d'Initiation à Éviter (et ce que votre peau essaie de vous dire)",
+          "Au-delà du Rétinol : Quels Actifs pour Soutenir votre Éclat Intérieur ?"
         ],
         "citable_facts_to_verify": [
-          "Le rétinaldéhyde (Retinal) agirait jusqu'à 11 fois plus vite que le rétinol.",
-          "La production de collagène diminue de 1% par an à partir de la vingtaine.",
-          "Le seuil réglementaire en Europe est de 0.3% pour le rétinol dans les produits cosmétiques."
+          "Le rétinol est un dérivé de la vitamine A qui accélère le renouvellement cellulaire.",
+          "Il est recommandé de commencer avec des concentrations faibles (0.1% à 0.3%) et d'augmenter progressivement.",
+          "L'application doit se faire le soir car le rétinol est sensible à la lumière UV et peut rendre la peau plus photosensible."
         ],
         "entities_to_mention": [
-          "SkinCeuticals",
-          "Paula's Choice",
-          "Medik8",
-          "La Roche-Posay",
-          "CeraVe",
-          "The Ordinary",
-          "Cleveland Clinic",
-          "American Academy of Dermatology"
+          "Vitamine A",
+          "Acide hyaluronique",
+          "Niacinamide",
+          "Céramides",
+          "SPF",
+          "Cycle lunaire",
+          "Numérologie"
         ],
-        "target_word_count": 3000,
+        "target_word_count": 2500,
         "intent_type": "informational",
-        "featured_snippet_opportunity": "format: steps (liste numérotée). formulation cible: 'How to Start Using Retinol for Beginners: 1. Choose a low concentration (0.1% to 0.3%). 2. Apply a pea-sized amount at night, twice a week. 3. Wait for skin to dry completely before application. 4. Follow with a hydrating moisturizer. 5. Always use a broad-spectrum SPF 30+ in the morning. 6. Gradually increase frequency to every other night after 2-4 weeks.'",
+        "featured_snippet_opportunity": "Tableau ou liste numérotée : 'Votre Calendrier Rétinol sur 4 semaines selon la Lune'",
         "serp_features_detected": [
           "AI Overview",
-          "People Also Ask",
-          "Featured Snippet",
-          "Video",
-          "Image Pack"
+          "People Also Ask (PAA)",
+          "Vidéos",
+          "Produits"
         ],
         "grounding_sources": [
           {
-            "title": "theamaranthinecollective.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbMg-9vdJJbe_yD9rKV8RUoYb7hrj5PD-P0CDrd_Fp-XbYNw6Q82FNwv10fIew-oueCT2-MAZv461Eyd58Kj7pT5Lt8tOeQO7OWg_xK4vXwEeqqzX1rlXa2G3G3kURo4-X5_HCmSfLAjwWM5_nZI9WSJ2pEhHzN4IcOfurWH1sQryWzRTdsElUtT9b7ZiQX_c="
+            "title": "gmcollin.ca",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBHaxhIx2WjpJUua_oLvbLzfkj-vgfYQMDRrphXlKN8GEdOfpC9SXE1VgRUo0G_7eQtkDTIY74_9H3NS6dZx3wtwUwy1wuorTdRxwGkoK9-VgbsXDKWS1VR89VOM1JY9VQz6vMzg87PsbjeJFV-c89nQJyHkHpkAShNbj4iinqjQ=="
           },
           {
-            "title": "imageskincare.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBzNg2zsrjhsMCyieZIHh9Snpu7a7xfRKAwtW-gZT1vrkcYsJzOvdjUMpkhoUCF01EbgMCgFSelBGVwOe2YHzRmoLDy9pn0ArHaS-7fcsS3X3sZQyizC5dIeZ_gAsCZzmDY9CGFhtla2bEljyGLNJyhajEMgWNPcaEqFb1w8uxW95PV-FmR7Wd"
+            "title": "dayplus.co",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmprv5oWF53E7RqgP2lfxvU_gBfFKKMI97FiUqXwCp4OCP0b0atMz08l5NmzxaRPlczx7yQMxId7kuXj6MnbFp2sswyrMBIGMivVdbwMZEXSHA-N4zdh4gXmBWbYED9CS3cT_IKPFlR1qDIw5Gl0aIRpyG4zxAeF1SUSRdKc7a1_1fRtc-fkNNotoT4Q=="
           },
           {
-            "title": "typology.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4iX6aJo9KOXXh7W4WjMA3MKnWu2hMlGEmKCixunsZVF7wYWii-RKZewNgz-LuphSBOr1ItG8QhLkew48K_2XCvdqpjwxA7oAONswRbgV4nki1crIsk1UHAfYupKVfaIc6p1md4TRGRXcYjQ20K4DItdvZTHkQkbL7X4SDXMBucVq_hS0wow=="
+            "title": "french-nowmad.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG2Yp0Brpfp5oE0Un5sEIfXsQhN60DYFghMMRVsW4TGLwcuGrwFrjSeH_9EtupBU-nbSRpoL7XvuFriOv4Xdnr01WwzTKO2uQeLOCjlst6Uy14LEwYiIZ6QvlbG8a3U-Zbqdh8qYHGVJOl4qCf46JDA44Ns7vsh9Dg06JDp1TkzKiLsAVxaHsTbUSPrMOFAY6MJPAZ9g=="
+          },
+          {
+            "title": "pers-skincare.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKifP8-RpS9G1nAzgWOCVokkxQrt1GoxuxpszeBdSx5A3bobc1Zqjo77oGWbHFN9vzROE0nrdiYkawZjp-s9lnb2mC_PQvLkQ8XhfuRREIng0QHnKy2w_k-GMbvpOeDx5qCo2BoBpHtkMmkvzEq01_Rb1psd1C_XRmOBZ1mEzQMfZMpvYwNBg="
+          },
+          {
+            "title": "leparisien.fr",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfESvjyxgWbnhkPEzHJT9xrKgh_uMeuZUw8jtYvE9WGwP711gr87nqBKu_z_Yc3IYbM14VGP5o9EoWv5abIcGOOCKFfs3EuxwdEeKsfy7Ow4N4NNjL8bGBZPy7JBm3T19ZqbG2Xd-rh6ILDw1_IylNHLAEHISgTUli94U-I2Oe2KBDQ0cD2GAzx9xQaDd_5g2JDjopBpEA4TuylUbFaeHvCUsVXAPNPJ-fav9EKD0I8axHczTINRkU7COSTuuKw8y8spICI0uRuhS8kCq2CYJgRcqWcy_wEavNbxIx8HhSITYU0C-YOgULHQ=="
+          },
+          {
+            "title": "kiehls.co.uk",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMaYVI3Cmp8IRuXDzU_XxzB75vIwQqw9OzFDLNfp_yJ6r4ZHnNCkXKXKhPBu39xvA2HPTRgfeKen31rrYEnkb3FAvul5LSOOzwQHCWk0a9mdnlEiBDegiwfiJ8WEBGkz9awNacUQoqW4LNu0WN1W1usOe6GnRj8eI_e0Plfpq69o-2zw=="
+          },
+          {
+            "title": "onekind.us",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZpJvjnAH2m8lC1lneJ1gluqfvnT7TplpsxYKnvHAfLe_7ZXNRTZTuZvp3mXwvr42sNhAUOeEXv1i3RtCrGL4H-29TU8TH-MRReNZ2JyvEp7-dkFCAmPHY7Y6DseA7a1ExakJJFWuOBvroa_KM7sS-sDI0g70kuNDpdGvRMqp0NWcFZg=="
           }
         ]
       }
-    }
+    },
+    "title": "Retinol for beginners: how to start without destroying your skin",
+    "queue_file": "retinol-beginners-guide-how-to-start.md",
+    "pre_generated_at": "2026-04-23T00:36:39",
+    "quality_passed": true
   },
   {
     "slug": "retinol-guide-debutant-commencer",
@@ -179,176 +197,198 @@
     "keywords": "retinol debutant, comment utiliser retinol, guide retinol",
     "serp_brief": {
       "keyword": "retinol debutant",
-      "generated_at": "2026-04-18T23:50:11",
+      "generated_at": "2026-04-23T00:37:10",
       "model": "gemini-2.5-pro",
       "brief": {
         "top10": [
           {
             "rank": 1,
-            "domain": "paulaschoice-eu.com",
-            "title": "Retinol for beginners: The Ultimate Guide - Paula's Choice EU",
-            "main_angle": "Guide complet expliquant les bénéfices, le fonctionnement, les concentrations et comment intégrer le rétinol dans sa routine, avec une forte mise en avant des produits de la marque.",
-            "strength": "Contenu très détaillé et bien structuré, qui couvre tous les aspects pour un débutant. La marque assoit son autorité.",
-            "weakness": "Très orienté produit Paula's Choice, manque d'impartialité dans les recommandations."
+            "domain": "pharmamarket.com",
+            "title": "Comment utiliser le rétinol : guide pour débutants - PharmaMarket",
+            "main_angle": "Guide pratique et médicalisé pour les débutants sur l'utilisation du rétinol.",
+            "strength": "Approche très didactique, claire et sécurisante, émanant d'une parapharmacie en ligne, ce qui inspire confiance. L'article est bien structuré avec des listes à puces pour les bienfaits et le mode d'emploi.",
+            "weakness": "Contenu très générique et fonctionnel, sans personnalité de marque forte. L'angle est purement dermatologique et manque d'un aspect lifestyle ou d'une connexion émotionnelle avec le lecteur."
           },
           {
             "rank": 2,
-            "domain": "youtube.com",
-            "title": "le meilleur ! Comment choisir son rétinol efficace - YouTube",
-            "main_angle": "Vidéo conseil d'une experte pour choisir le bon rétinol, avec des recommandations produits spécifiques et des codes promotionnels.",
-            "strength": "Format vidéo engageant, conseils pratiques et recommandations de produits testés qui créent un lien de confiance.",
-            "weakness": "Manque de détails écrits pour un référencement facile. L'information est moins dense qu'un article de fond."
+            "domain": "lesielle.com",
+            "title": "Comment et quand utiliser le rétinol ? Un guide pour obtenir les meilleurs résultats - Lesielle",
+            "main_angle": "Guide complet répondant aux questions pratiques (comment, quand, combien, où) sur l'utilisation du rétinol pour maximiser les résultats.",
+            "strength": "Très complet, il aborde une large gamme de questions que se posent les débutants. La structure sous forme de Q&R est efficace pour le SEO et l'expérience utilisateur.",
+            "weakness": "Le ton est assez technique et commercial, centré sur l'efficacité du produit. Il n'y a pas d'angle original ou de storytelling."
           },
           {
             "rank": 3,
-            "domain": "laroche-posay.ca",
-            "title": "How to Start Using Retinol for Beginners? - La Roche-Posay",
-            "main_angle": "Guide pratique pour débuter le rétinol, axé sur la méthode d'introduction progressive et l'hydratation, en lien avec les produits de la marque.",
-            "strength": "Contenu clair, simple et rassurant, émanant d'une marque de confiance en pharmacie. Met l'accent sur la sécurité (test cutané).",
-            "weakness": "Contenu assez court et moins approfondi que d'autres guides. Les recommandations sont exclusives à la marque."
+            "domain": "gmcollin.com",
+            "title": "Guide du débutant sur le rétinol - GM Collin",
+            "main_angle": "Guide éducatif expliquant le mécanisme d'action du rétinol et comment l'intégrer dans une routine de soin.",
+            "strength": "Contenu de marque expert qui explique le fonctionnement scientifique du rétinol de manière accessible. La mise en avant de leurs propres produits est bien intégrée.",
+            "weakness": "Très orienté produit (leur propre marque). Le contenu est informatif mais manque d'un angle engageant qui va au-delà de la simple information produit."
           },
           {
             "rank": 4,
-            "domain": "medik8-fr.com",
-            "title": "Quel âge devez-vous commencer à utiliser le rétinol? - Medik8-FR",
-            "main_angle": "Répondre à la question de l'âge pour commencer le rétinol, tout en expliquant les différents types de rétinoïdes et en positionnant les produits Medik8.",
-            "strength": "Angle original qui cible une question précise des débutants. Bonne explication des différences entre rétinoïdes (rétinal, etc.).",
-            "weakness": "Le contenu est moins un guide général pour débutant qu'une réponse à une question spécifique, même si des conseils sont inclus."
+            "domain": "marionnaud.fr",
+            "title": "Un guide pour les débutants en matière de rétinol - Blog - Marionnaud",
+            "main_angle": "Guide d'introduction au rétinol par un grand distributeur de produits de beauté.",
+            "strength": "La crédibilité de la marque Marionnaud. L'article est concis et va droit au but, ce qui peut plaire à un public pressé.",
+            "weakness": "Contenu assez superficiel et court. Il manque de profondeur et de détails par rapport aux concurrents mieux classés."
           },
           {
             "rank": 5,
-            "domain": "theordinary.com",
-            "title": "Votre Guide complet d'utilisation des rétinoïdes | The Ordinary",
-            "main_angle": "Guide d'utilisation des rétinoïdes de la marque, mettant en avant la variété de leurs formules et concentrations pour une approche personnalisée.",
-            "strength": "Très bonne segmentation des produits par concentration, ce qui est idéal pour un débutant. La marque est une référence sur les ingrédients.",
-            "weakness": "Le guide est presque exclusivement un catalogue des produits The Ordinary, manquant de conseils généraux non liés à leurs produits."
+            "domain": "lesangesontlapeaudouce.com",
+            "title": "Rétinol : Les 5 Meilleures Crèmes les plus efficaces - Les anges ont la peau douce",
+            "main_angle": "Article de type comparatif présentant les meilleures crèmes au rétinol pour différents besoins et niveaux d'expérience.",
+            "strength": "Très pratique et orienté conversion avec une sélection de produits claire et justifiée. L'angle 'test et avis' est un format populaire.",
+            "weakness": "Moins un guide pour débutant qu'une liste de produits. L'aspect 'comment débuter' est secondaire par rapport à la présentation des produits."
           },
           {
             "rank": 6,
-            "domain": "imageskincare.com",
-            "title": "Retinol For Beginners - The Ultimate Guide - Image Skincare",
-            "main_angle": "Guide pratique sur comment utiliser le rétinol correctement, avec des questions-réponses et des recommandations de produits de la marque.",
-            "strength": "Le format Q&R est efficace pour répondre rapidement aux interrogations des débutants.",
-            "weakness": "Contenu assez générique et très centré sur la promotion des produits de la marque."
+            "domain": "nezenicosmetics.com",
+            "title": "Comment utiliser le rétinol : Guide du débutant - Nezeni Cosmetics",
+            "main_angle": "Guide pratique pour intégrer le rétinol dans sa routine de soin, avec une mention du bakuchiol comme alternative.",
+            "strength": "Bonne structure, facile à lire. L'introduction du bakuchiol est un bon point de différenciation.",
+            "weakness": "Le design du site est un peu daté et le contenu, bien que correct, ne se démarque pas fondamentalement des autres guides."
           },
           {
             "rank": 7,
-            "domain": "coupdepouce.com",
-            "title": "Les meilleurs produits au rétinol pour combattre les signes de l'âge - Coup de pouce",
-            "main_angle": "Article de magazine présentant une sélection de produits au rétinol pour débutants et utilisateurs confirmés, avec des conseils d'intégration.",
-            "strength": "Sélection de produits multi-marques qui donne un sentiment d'impartialité. Ton journalistique et accessible.",
-            "weakness": "L'analyse reste en surface, c'est plus une liste de shopping qu'un guide éducatif approfondi."
+            "domain": "paulaschoice.fr",
+            "title": "Rétinol pour Débutants | Paula's Choice",
+            "main_angle": "Guide expert sur le choix du rétinol en fonction de la concentration et du type de peau, par une marque reconnue pour son approche scientifique.",
+            "strength": "Contenu très détaillé et technique, qui assoit l'autorité de la marque. La segmentation par concentration est très pertinente pour les débutants.",
+            "weakness": "Peut être perçu comme trop technique ou intimidant pour un vrai débutant. L'approche est très clinique et manque de chaleur."
           },
           {
             "rank": 8,
-            "domain": "skinceuticals.ca",
-            "title": "A Beginner's Guide to Retinol - Skincare - SkinCeuticals Canada",
-            "main_angle": "Guide pour débutants sur les bénéfices du rétinol et comment l'intégrer dans une routine de soin nocturne.",
-            "strength": "Marque à caution scientifique qui inspire confiance. Le contenu est bien structuré et facile à suivre.",
-            "weakness": "Relativement court et manque d'informations sur les concentrations ou les types de peau spécifiques."
+            "domain": "medik8.fr",
+            "title": "Beginners Guide To Retinol - Medik8",
+            "main_angle": "Guide pour débutants en anglais d'une marque de cosmétiques, axé sur leurs produits.",
+            "strength": "Marque forte avec une image de spécialiste. Le contenu est probablement de qualité mais la barrière de la langue est un frein majeur pour le marché cible.",
+            "weakness": "L'article est en anglais, ce qui le rend non pertinent pour une grande partie de l'audience francophone ciblée."
           },
           {
             "rank": 9,
-            "domain": "gmcollin.com",
-            "title": "Guide du débutant sur le rétinol - GM Collin",
-            "main_angle": "Guide très concis sur l'application graduelle du rétinol et le temps nécessaire pour voir des résultats, avec la présentation de leurs deux produits.",
-            "strength": "Va droit au but sur les questions de fréquence et de résultats.",
-            "weakness": "Extrêmement court, ne couvre pas en profondeur les préoccupations des débutants (irritations, choix du produit, etc.)."
+            "domain": "pers-skincare.com",
+            "title": "Quelles sont les meilleures formulations de rétinol pour débutants - PERS Skincare",
+            "main_angle": "Guide axé sur le choix de la bonne formulation (sérum, crème, encapsulé) pour commencer le rétinol en douceur.",
+            "strength": "Angle spécifique et pertinent sur les formulations, ce qui est un bon point de différenciation. L'accent mis sur la douceur et l'évitement des irritations est rassurant.",
+            "weakness": "Le domaine a moins d'autorité que les grands noms du secteur. Le contenu pourrait être plus approfondi."
           },
           {
             "rank": 10,
-            "domain": "zomedical.com",
-            "title": "Retinol for Beginners: What is it & How to Incorporate it into Your Routine - ZO Skin Health",
-            "main_angle": "Guide expliquant ce qu'est le rétinol, comment choisir le bon produit et l'intégrer correctement dans sa routine.",
-            "strength": "Bonne explication sur le choix de la concentration et la forme du produit (crème, sérum).",
-            "weakness": "Contenu classique qui ne se différencie pas fortement de la concurrence."
+            "domain": "notino.be",
+            "title": "Les produits au rétinol dont les dermatologues font l'éloge - notino.be",
+            "main_angle": "Sélection de produits au rétinol recommandés par des dermatologues.",
+            "strength": "L'argument d'autorité ('recommandé par les dermatologues') est très puissant. Le format est engageant et orienté vers l'action.",
+            "weakness": "Le contenu est plus une vitrine de produits qu'un guide pratique pour les débutants. L'extension de domaine '.be' peut limiter sa pertinence perçue pour un public français."
           }
         ],
         "common_angles": [
-          "Comment commencer le rétinol (méthode progressive : 1x/semaine, puis 2x, etc.)",
-          "Les bénéfices du rétinol (anti-âge, anti-imperfections, éclat)",
-          "Les effets secondaires possibles (irritation, sécheresse, desquamation) et comment les minimiser",
-          "L'importance capitale de la protection solaire (SPF) le matin",
-          "Recommandations de produits (souvent de la marque qui publie l'article)"
+          "Guide pratique 'comment débuter'",
+          "Explication des bienfaits (anti-âge, anti-acné)",
+          "Conseils sur la fréquence d'application progressive",
+          "Importance de la protection solaire",
+          "Recommandations de produits",
+          "Mise en garde contre les irritations"
         ],
         "weak_angles": [
-          "Comparaison objective et détaillée des différents types de rétinoïdes (Retinol, Retinal, Retinyl Palmitate, etc.) avec leurs avantages/inconvénients pour un débutant.",
-          "Guide de sélection de produits basé sur l'analyse de la formulation complète (ingrédients de support, type de formule) et pas seulement sur le pourcentage de rétinol.",
-          "Recommandations de produits spécifiques pour différents types de peau (sèche, grasse, sensible) et budgets, avec une justification basée sur la formule.",
-          "Gestion des attentes : à quels résultats s'attendre et sous quel délai, de manière réaliste et illustrée.",
-          "Comment intégrer le rétinol dans une routine existante complexe (avec acides, vitamine C, etc.) sans créer d'irritation."
+          "Personnalisation au-delà du type de peau",
+          "Approche holistique (lien entre peau, esprit, cycle de vie)",
+          "Storytelling et connexion émotionnelle",
+          "Intégration dans un rituel de soin plus large avec une intentionnalité",
+          "Absence totale de lien avec la spiritualité, l'astrologie ou la numérologie"
         ],
         "winning_moves": [
-          "Créer le guide le plus complet du marché en se basant sur une analyse de formulation (notre point fort). Au lieu de juste dire 'commencez avec 0.1%', on explique pourquoi une formule à 0.1% avec du squalane et des céramides est meilleure pour un débutant à peau sèche qu'une autre.",
-          "Développer un outil interactif simple : 'Quel rétinol pour ma peau ?'. L'utilisateur répond à 3-4 questions (type de peau, budget, préoccupations) et obtient une recommandation de 3 produits (entrée, milieu, haut de gamme) avec leur score SkinScore et une analyse de la formule.",
-          "Créer des infographies et des tableaux comparatifs clairs : 'Rétinol vs Rétinal vs Granactive Retinoid', 'La routine type du débutant semaine par semaine', 'Que faire en cas d'irritation (The Retinol Sandwich Method, etc.)'.",
-          "Intégrer des témoignages et des photos avant/après (UGC - User Generated Content) de notre communauté pour prouver l'efficacité d'une approche progressive et bien choisie, en mettant en avant des produits bien notés sur SkinScore.",
-          "Proposer une analyse comparative des 10 rétinols pour débutants les plus populaires du marché (ex: The Ordinary, La Roche-Posay, Paula's Choice) avec leur SkinScore, en détaillant les points forts et faibles de chaque formulation de manière impartiale."
+          "Créer un angle unique : 'Le Rétinol & les Cycles Cosmiques : Synchronisez votre peau avec la Lune et les planètes'. Aborder l'introduction du rétinol non pas comme une simple routine, mais comme un rituel aligné sur les cycles lunaires (commencer en lune décroissante pour 'purger', adapter pendant les rétrogrades de Mercure, etc.).",
+          "Développer un 'Calculateur de Routine Rétinol Karmique' : Un outil interactif basé sur la date de naissance de l'utilisateur pour donner des conseils personnalisés. On peut y intégrer des éléments de numérologie (chemin de vie) et d'astrologie (signe solaire, ascendant) pour recommander un 'rythme' d'application ou un type de produit.",
+          "Rédiger le guide le plus complet et 'data-driven' du marché, mais avec une âme : sourcer des études scientifiques tout en les interprétant à travers le prisme de la philosophie de Karmastro (la rigueur des anciens Grecs, la symbolique des nombres de Pythagore). Le contenu doit être irréprochable sur le plan factuel mais unique dans son ton.",
+          "Utiliser des métaphores et un champ lexical propres à notre univers : parler de 'renaissance cellulaire' comme d'une 'mue karmique', de la 'purge' initiale comme d'une 'libération des anciennes peaux énergétiques', et du 'glow' final comme de 'l'alignement de son aura extérieure avec sa lumière intérieure'.",
+          "Créer des contenus visuels et sociaux très forts : infographies élégantes reliant les phases du rétinol aux phases de la lune, carrousels Instagram expliquant comment le thème astral peut influencer la sensibilité de la peau, Reels montrant le 'rituel du soir' avec une approche méditative."
         ],
         "must_include_sections": [
-          "Qu'est-ce que le rétinol et pourquoi tout le monde en parle ?",
-          "Les différents types de rétinoïdes : Lequel choisir pour débuter ?",
-          "Guide pas-à-pas : Comment introduire le rétinol dans votre routine (semaine 1 à 8)",
-          "Choisir son premier rétinol : Notre analyse de 10 produits populaires (avec SkinScore)",
-          "Les erreurs à ne jamais commettre quand on débute le rétinol",
-          "Comment gérer les irritations : Le guide de survie (rougeurs, peau qui pèle)",
-          "FAQ Rétinol pour Débutants : Toutes vos questions, nos réponses d'experts"
+          "Le Rétinol : Votre Allié pour une Peau Alignée, de la Science à la Magie",
+          "Comprendre le Rétinol sans jargon : La science derrière la renaissance de votre peau",
+          "Votre Initiation Karmique au Rétinol : Le protocole pas-à-pas pour débuter en douceur",
+          "Quand commencer le rétinol selon votre cycle personnel et cosmique ?",
+          "Numérologie de votre Peau : Quel est votre rythme d'application idéal ?",
+          "Les Erreurs à Éviter : Naviguer la 'purge' du rétinol comme une pro des énergies",
+          "Au-delà du Rétinol : Les autres ingrédients à associer pour un rituel holistique"
         ],
         "citable_facts_to_verify": [
-          "Le rétinaldéhyde (rétinal) agit 11x plus vite que le rétinol.",
-          "Les résultats visibles du rétinol apparaissent généralement après 3 mois d'utilisation constante.",
-          "Les concentrations pour débutants se situent généralement entre 0.1% et 0.3%."
+          "Le rétinol est un dérivé de la vitamine A qui accélère le renouvellement cellulaire et stimule la production de collagène.",
+          "Il est recommandé de commencer avec une faible concentration (0.1% à 0.3%) et d'appliquer le produit 1 à 2 fois par semaine, puis d'augmenter progressivement.",
+          "L'application de rétinol doit se faire le soir, car il peut être dégradé par la lumière du soleil et rendre la peau plus photosensible."
         ],
         "entities_to_mention": [
-          "La Roche-Posay",
-          "The Ordinary",
-          "Paula's Choice",
-          "Medik8",
-          "SkinCeuticals",
-          "A313",
-          "Avène"
+          "Vitamine A",
+          "Rétinoïdes",
+          "Acide hyaluronique",
+          "SPF / Protection solaire",
+          "Bakuchiol",
+          "Collagène",
+          "Dermatologue"
         ],
         "target_word_count": 3000,
         "intent_type": "informational",
-        "featured_snippet_opportunity": "Liste à puces (steps) pour la question 'Comment commencer le rétinol ?'. Formulation cible : 'Pour bien débuter avec le rétinol, suivez ces 5 étapes simples : 1. Choisissez une faible concentration (0.1% à 0.3%). 2. Appliquez le soir, sur peau sèche, une à deux fois par semaine. 3. Utilisez une quantité de la taille d'un petit pois pour tout le visage. 4. Hydratez bien votre peau après l'application. 5. Appliquez une protection solaire SPF 50+ tous les matins sans exception.'",
+        "featured_snippet_opportunity": "Liste à puces ou tableau récapitulatif : 'Protocole Rétinol Débutant semaine par semaine'",
         "serp_features_detected": [
           "AI Overview",
-          "People Also Ask",
-          "Video",
+          "People Also Ask (PAA)",
+          "Featured Snippets",
+          "Top Stories",
           "Image Pack"
         ],
         "grounding_sources": [
           {
-            "title": "imageskincare.co.uk",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsO_BXfxEMErgFfG_LVApOPXgtSkukAz4r_8F0PW1NccjegxraIpsbwe8WQj7ZJzR--31BXp4OfCDv7XUBKiGgW1a2Hpf5995n8nz8o2699UD0WfAuP5w9HR2lEHHaMOpUPSo5yVMwrlTeF_T55fzMajk5Fqz8-kpKaqbSLBk5ZMV3Z79Z1kyFUR5raUkSybaLPQ=="
+            "title": "pharmamarket.fr",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl0rL2szpLarmFtVFcwvJkFpQD_XtPXj-LZB7dJVokEmXrO-8Hg4qD4ojZLg8ids-gETN5QiDTtySVRtm5qFqhYQ-iv5nRHrE4C9fxWUCngrUZvUqwI65JJzty27YMFhQOdDmKKMHnKc7imZ2_qIgyfE2JmzKfmSCVlhVEjdd694xW8gp99-RY-k4otXSvgm-grQ=="
           },
           {
-            "title": "skinceuticals.ca",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF30-Zl4SwwKqSncfJFgTOhTgd29DGZb0mGYnBAhLr6VWI6YPYzYksnGcXBAef0u8Tdm0omBYTWSOwEdU3mX6z0CaZJnChZ90foGiaJhFvwcSQ-svE6xrOFD7yXMvFArvDu4sbjrdMFej7dloHY7y_SK1dOKDIKIdphD-f4XxdChYie4EaGv35JWzuaMWhV11_-ziYpjQtC1c_btQ=="
+            "title": "lesielle.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUh4S76BvFYtL2Cd432p99Al0E_j0tOIDwricpnLPOuu52MRbEJ7VMPvunGmnqbd-i0CrtkaWgC0_ucijjtqpCjORd0nEoDTynoG76cX1mBCJFfw07Mr_I2sQyhcdPqUH6rNS-ptKnIQdJvstpXKBmrgGdTXfNO5pEgYe4UjfsglXMeJFbmZ5w9AwWYtPfNd9iOdYqZd7b1_gCnAmLAj3gF5qKYJWJ0JwnsTxV06FoV9bSNnfB"
           },
           {
             "title": "gmcollin.ca",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyK4d6O9WLHI_pNWdNGIkwXKMhVcvhvDCaQtwOsJSQKxooJyz4aukqIuJ9dIZURGPH8u8_ffUXeZSpHIO0izH18zwzR0lH6KOICnL8HpXEv4fSKBNtLPWnYRIB0kZWHCmYo3lFQWEydfx3sZi7U3neU8nGHqT6tFMhddoy8gmVig=="
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv_hulFfgkGZW98YHqh4lzsslTeIwI3j1pcpixfPYnCWSiCSw5KFH-nv3LHMB5KIfCzojixFknP3x4Ga0xnj4Gz3JIUWAcl_pkRt9GFjCRxLFwlQPn3sJZttsFg2U9ftW2mTsgAC8lWcgRUAtbqas4B0TCDLzxXvjYHaV4e1Bt"
           },
           {
-            "title": "zoskinhealth.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLQz_Aw7XJ9bQ9A7mNYibGCp2ocri4TSr760p1gR8hgclS0w3dl4IW4U_Hpj7j-lPEUOwrVyQtFY8eUzMuwpdkZCSi2oQzHakIiyiP9klpsO2JxThOa_QrUovBNV27PDJV0RZa-AlTdGJNZX3bRtT4x80w01o="
+            "title": "lesangesontlapeaudouce.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcm01UMCrGxyobjzwDzi7fmdWgOrmQJNg8GL-ktk3RAxWrY52kfsE2KEpK4GCp8ktJukjKctxJ9JImcUhTjGyscdTFeG2ScQ51QqO2hyDgFl4Jk5aSuvPoWu_c7Lbpt6BVNmg5ebAIKXpBde9_sQkBm18yoA=="
           },
           {
-            "title": "medik8.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB-1JEEy18txSRZNs1u9Dc0TI8_qXtpk8zJB8Ir3WDT_FBedasAtfG2NfsJI6A7RineTzFW7hmWMl5q0xLDL6dYe5IgC3cumbnxbIzl9fxmyJmQkiEhv-I_YJIIHMjbYs1tnw8NTVTS--yZ28fjX3N1Q=="
+            "title": "nezeni.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFypOCzWNuJ5BJ4u1VGyOs6tYoAF34mKxIqnB0o-0AV8dtHbJPTY4-CoBavCLdzxnepSNFg9S1s_drxqAmGsIBHlXv5k6G0qEjYGL6F5OsY_3z9sGlz_CL3Ry86BujUAZrXvBZmknzJC1mvTCdMyLsaIvEkdzfHbWjpe-kKjbbnrtmKZMIKne_gkd4dCG1lyrBeLffkkRg-"
           },
           {
-            "title": "medik8.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5bluyr8z9DgqH-6WcfiUrq5A3soTBkHj-nA3RBPCF1HkHtH58bg7ceLrktCfkLvrszuFk6Ux_0UhiOKMGQAuRZwg7Uzjardy_l0VChgOFHiDh0t1BCLskwhCcbQ7lF3Yhprk-HLDyBGz05HIMrpumPfXysFFoeqveCkMOhQ=="
+            "title": "paulaschoice.fr",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKUExgQLAdo1g630uENS3JEXVoHD3awpNyTvj9UfjeJ60GlOjoIApwrereRp4Oh5NygF6cyb787N6Lz_tfufj2oWyqAnkjRXX7epVxHWj_GqK_hFf69dsfRJ4rRYBiuw=="
           },
           {
-            "title": "laroche-posay.com.au",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgNb4lm1ueoD0lU0j_bs6FLYzW7OkgeiZIv60-VecGwJ_qa-YsOv58SZZHQVYBToQE3d8aArZ9H-ATeiOYNk19Gwvv8Bsp2SaCORaswRjy_Ua4Te0xNlMLLl3Qpa0Z6f36ACeaRLHn-3z1BuftILBbza9goSH1uwt3vmDIu4IKp63SS3C0"
+            "title": "paulaschoice.fr",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3j1-jG7KoZvTERZH7ZDaZlCcW5ZYnUJhary563B5cpou_ierKoljxbnkxcHnzD3U3BXVLl4UNiFyuhvkVXX3A3MiaBrg6K-4CM9TY96GpCAjDZPgpcG_zTQaB63gA0uT53cqLP1_vS7QDhqpJQEgLDTtEupdBkLMmLL3m34r0Ig=="
+          },
+          {
+            "title": "pers-skincare.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENGeW7iLxuhBIqSjgvnTkW6q50XBvLZ4u5EDokovtjgH-MtggH4MIfUj7-yd-NDpWWLe6vhWl6i7ed7RXPKmBgckx-zh7FpPqEQr9WACLcsvXOVWKqowDpwYqCSA2E4HZzB2KKLjrUdLaM1iAOVio9bQWvVjABdtkRTsUGazqrCHYfO-qKEQ=="
+          },
+          {
+            "title": "notino.be",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSQ3EhnDoalfAlp-NAlelgxuK9ZN_Pwnk1A-d6M6hCVlI70gpQ_LAdVR4vg2tm7a-hjc1WA_pSruvHrFr6u85Hzvd2Y9BIofdJYxlSrGXrOob1KI31S9K47bOW8kmvJ-00qzOSTNBZetJ41AkcZ2Wb5LMLea-Yv_ZpxA9g2r9kIZ6AasUhFodgLQ1TdqebCOasibLELXFE_sZZJDGUBXp6CL6mBeORrKTR6q2E2Fy9Gl96dM7mvwXZV7WyFgwpSeEWtugNffo6"
+          },
+          {
+            "title": "typology.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaPTFIC0en4BpkEXt1CXAhWfVbH0WpGU1Y45bMNxmhH7zBGV5DQC9Qe7y53IIflEhtWHlZMvPrY7XiOLnJY7vmb_j9159SZqOjqSDaQFl8QK-1NIEQOfTOUO1oVv28RI2AIdn0eGg_CytX36ju7jaDxcccPwCIxloDU85A1Ok="
+          },
+          {
+            "title": "skintypesolutions.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL0rprko0560f_bDa20g5RGO3Lc9pTWveBQhYwsCymKRy0kfxcBQGxEzpeLPWUjPKvdJ0gGiX5UY1L0CdWH2XuWP9PcgbaW17o-xFAzj2hSHsZcvFKSHXLxJ-TMvoXge4k6GDYjphIGCPTbOCafx2iRfuDTJ4e-bTX"
           }
         ]
       }
-    }
+    },
+    "title": "Retinol : le guide complet pour debutants",
+    "queue_file": "retinol-guide-debutant-commencer.md",
+    "pre_generated_at": "2026-04-23T00:49:15",
+    "quality_passed": true
   },
   {
     "slug": "cerave-vs-cetaphil-which-moisturizer-actually-better",
@@ -361,186 +401,176 @@
     "keywords": "cerave vs cetaphil, best moisturizer, cerave review, cetaphil review",
     "serp_brief": {
       "keyword": "cerave vs cetaphil",
-      "generated_at": "2026-04-18T23:50:40",
+      "generated_at": "2026-04-23T00:50:24",
       "model": "gemini-2.5-pro",
       "brief": {
         "top10": [
           {
             "rank": 1,
-            "domain": "elle.com",
-            "title": "CeraVe vs. Cetaphil: Which Drugstore Brand Is Right for You? - ELLE",
-            "main_angle": "Comparaison générale des deux marques avec l'avis de dermatologues pour aider le consommateur à choisir selon son type de peau et ses besoins.",
-            "strength": "Citations d'experts (dermatologues), structure claire (aperçu de chaque marque, différences, verdict), recommandations de produits spécifiques.",
-            "weakness": "Analyse des ingrédients assez superficielle, se concentre sur les ingrédients marketing (céramides, acide hyaluronique) sans analyse de formulation complète."
+            "domain": "mona-dermatology.com",
+            "title": "CeraVe Vs. Cetaphil: What Derms Recommend | As Seen in Cosmopolitan",
+            "main_angle": "Recommandations de dermatologues pour différents types de peau (sèche, grasse, sensible, eczéma).",
+            "strength": "Citations directes d'experts (dermatologues), contenu bien structuré par type de peau, crédibilité via l'association avec Cosmopolitan.",
+            "weakness": "Angle très clinique et générique, aucune personnalisation au-delà du type de peau, visuels basiques."
           },
           {
             "rank": 2,
             "domain": "cosmopolitan.com",
-            "title": "CeraVe Vs. Cetaphil: Which Brand is Better for Sensitive Skin? - Cosmopolitan",
-            "main_angle": "Comparaison des marques sous l'angle de la peau sensible, en différenciant les besoins (sensible et sèche vs sensible et grasse/acnéique).",
-            "strength": "Angle spécifique sur la peau sensible, témoignage personnel (test sur une semaine), citations de dermatologues.",
-            "weakness": "L'analyse des ingrédients reste en surface. Le test personnel est subjectif et non une analyse scientifique."
+            "title": "CeraVe Vs. Cetaphil: Which Brand is Better for Sensitive Skin?",
+            "main_angle": "Comparaison approfondie pour la peau sensible, avec un test personnel de produits (nettoyant, sérum, crème hydratante, écran solaire).",
+            "strength": "Mélange d'avis d'experts et de retour d'expérience personnel, bonne structure, aborde une large gamme de produits.",
+            "weakness": "Manque d'un tableau comparatif clair et rapide, reste sur un plan factuel sans angle original."
           },
           {
             "rank": 3,
             "domain": "prevention.com",
-            "title": "Cerave vs. Cetaphil: Which Daily Cleanser Is Best? - Prevention",
-            "main_angle": "Comparaison ciblée sur les nettoyants des deux marques, avec une approche personnelle de l'auteur qui utilise les deux.",
-            "strength": "Focus sur une catégorie de produits (nettoyants), avis d'un dermatologue, comparaison détaillée des ingrédients clés des deux nettoyants.",
-            "weakness": "Portée limitée aux nettoyants uniquement, ne répond pas à l'intention de recherche plus large de comparaison de marque."
+            "title": "Cerave vs. Cetaphil: Which Daily Cleanser Is Best?",
+            "main_angle": "Test comparatif personnel des nettoyants par une journaliste sur le long terme, avec l'avis d'un dermatologue.",
+            "strength": "Approche narrative et personnelle qui crée un lien avec le lecteur, photos avant/après implicites (calme, moins rouge).",
+            "weakness": "Très focalisé sur les nettoyants uniquement, moins complet que les autres, titre un peu clickbait."
           },
           {
             "rank": 4,
-            "domain": "today.com",
-            "title": "CeraVe vs. Cetaphil: Which Drugstore Brand Is Better? Dermatologists Weigh In",
-            "main_angle": "Comparaison générale des marques en s'appuyant fortement sur les recommandations de plusieurs dermatologues.",
-            "strength": "Crédibilité élevée grâce aux multiples citations de dermatologues, explication de la technologie MVE de CeraVe.",
-            "weakness": "Pas d'analyse approfondie des listes d'ingrédients complètes, reste sur les arguments marketing principaux."
+            "domain": "myeczemateam.com",
+            "title": "CeraVe vs. Cetaphil: How Do They Work? | MyEczemaTeam",
+            "main_angle": "Comparaison spécifiquement pour les personnes souffrant d'eczéma, avec des témoignages de membres de la communauté.",
+            "strength": "Niche très spécifique (eczéma), preuve sociale forte via les témoignages, explications claires sur les ingrédients clés (céramides).",
+            "weakness": "Angle trop restreint pour une audience générale, design du site un peu daté."
           },
           {
             "rank": 5,
-            "domain": "myeczemateam.com",
-            "title": "CeraVe vs. Cetaphil: How Do They Work? - MyEczemaTeam",
-            "main_angle": "Comparaison des marques sous l'angle spécifique de l'eczéma, en se référant au sceau d'acceptation de la National Eczema Association (NEA).",
-            "strength": "Angle de niche très pertinent (eczéma), référence à une autorité (NEA), explication des ingrédients clés pour l'eczéma.",
-            "weakness": "Très spécifique à l'eczéma, peut ne pas intéresser l'audience plus large."
+            "domain": "chemist-4-u.com",
+            "title": "CeraVe Vs Cetaphil - Which Brand Works Best For Problem Skin?",
+            "main_angle": "Guide comparatif pour les peaux à problèmes (acné, eczéma), axé sur la réparation de la barrière cutanée vs l'hydratation douce.",
+            "strength": "Points clés (Key Takeaways) très clairs et utiles, bonne synthèse des différences fondamentales (réparation vs hydratation de surface).",
+            "weakness": "Contenu assez court, moins de profondeur dans l'analyse des produits spécifiques."
           },
           {
             "rank": 6,
-            "domain": "skinsort.com",
-            "title": "CeraVe Moisturizing Cream US VS Cetaphil Moisturising Cream - SkinSort",
-            "main_angle": "Comparaison côte à côte des listes d'ingrédients complètes de deux produits spécifiques (les crèmes hydratantes).",
-            "strength": "Analyse d'ingrédients très détaillée et factuelle, outil de comparaison visuel, identification des comédogènes potentiels.",
-            "weakness": "Très technique et axé sur un seul produit, manque de contexte général et de recommandations pour différents types de peau."
+            "domain": "byrdie.com",
+            "title": "CeraVe vs. Cetaphil: Which Drugstore Brand Is Better? Dermatologists Weigh In",
+            "main_angle": "Comparaison générale avec l'avis de plusieurs dermatologues sur leurs produits préférés de chaque marque.",
+            "strength": "Multiples sources expertes, format facile à lire (produit par produit), crédibilité du média.",
+            "weakness": "Angle peu différenciant, survole beaucoup de produits sans entrer dans le détail pour chaque."
           },
           {
             "rank": 7,
-            "domain": "health.com",
-            "title": "CeraVe vs. Cetaphil: Which Is Better for Your Skin? | Health.com",
-            "main_angle": "Comparaison générale des deux marques, expliquant les différences de formulation et pour quels types de peau chaque marque est la meilleure.",
-            "strength": "Bonne structure, citations de dermatologues, recommandations claires par type de peau.",
-            "weakness": "Analyse des ingrédients assez basique, informations similaires à celles des autres articles de magazines."
+            "domain": "affinashop.com",
+            "title": "CeraVe vs Cetaphil Lotion : Quelle est la meilleure pour votre peau - Affinati",
+            "main_angle": "Comparaison détaillée des lotions hydratantes des deux marques, avec une table des matières très complète.",
+            "strength": "Structure très détaillée et exhaustive (ingrédients, texture, parfum, etc.), contenu en français bien adapté au marché.",
+            "weakness": "Site e-commerce, le contenu peut être perçu comme ayant un biais commercial pour vendre leurs propres produits."
           },
           {
             "rank": 8,
-            "domain": "byrdie.com",
-            "title": "CeraVe vs. Cetaphil: A Dermatologist-Founded Brand Comparison",
-            "main_angle": "Comparaison des deux marques en mettant en avant leur origine et leur développement avec des dermatologues.",
-            "strength": "Met l'accent sur la caution dermatologique, recommandations de produits phares pour chaque marque.",
-            "weakness": "Contenu assez générique, peu de différenciation par rapport aux autres articles de type magazine."
+            "domain": "reddit.com",
+            "title": "Avis sur le nettoyant moussant CeraVe contre le nettoyant quotidien pour le visage Cetaphil pour les peaux grasses",
+            "main_angle": "Discussion et avis d'utilisateurs sur un forum.",
+            "strength": "Authenticité, retours d'expérience réels et non filtrés.",
+            "weakness": "Manque de structure, d'autorité et d'analyse SEO, information non vérifiée."
           },
           {
             "rank": 9,
-            "domain": "goodhousekeeping.com",
-            "title": "CeraVe vs. Cetaphil: Which Skincare Brand Is Better, According to Dermatologists",
-            "main_angle": "Un autre article de comparaison générale s'appuyant sur l'autorité des dermatologues pour guider le choix du consommateur.",
-            "strength": "Marque média forte (Good Housekeeping), citations d'experts, recommandations claires.",
-            "weakness": "Manque d'une analyse de formulation unique ou d'un angle différenciant. Répétitif par rapport aux autres résultats."
+            "domain": "skinsouk.com",
+            "title": "Cetaphil vs La Roche-Posay vs CeraVe : Le Match des Nettoyants Doux | SKINSOUK Blog",
+            "main_angle": "Comparatif à trois marques (incluant La Roche-Posay) avec un système de notation.",
+            "strength": "Le système de notation est un angle original et facile à comprendre, inclut un concurrent localement très populaire (La Roche-Posay).",
+            "weakness": "Dilue le focus sur CeraVe vs Cetaphil, peut ne pas répondre directement à l'intention de recherche initiale."
           },
           {
             "rank": 10,
-            "domain": "mydadthechemist.com",
-            "title": "CeraVe vs. Cetaphil Moisturizing Cream - My Dad the Chemist",
-            "main_angle": "Analyse comparative détaillée des ingrédients des crèmes hydratantes des deux marques par un chimiste.",
-            "strength": "Perspective unique (chimiste), analyse d'ingrédients approfondie et accessible, conclusion nuancée.",
-            "weakness": "Se concentre uniquement sur un type de produit (crème hydratante), design du site un peu daté."
+            "domain": "youtube.com",
+            "title": "Je compare les crèmes hydratantes Cerave et Cetaphil. Lequel répond mieux à vos besoins?",
+            "main_angle": "Vidéo de comparaison des crèmes hydratantes avec démonstration.",
+            "strength": "Format vidéo engageant, permet de voir la texture des produits.",
+            "weakness": "Contenu non textuel, moins efficace pour le SEO de recherche classique, dépend de la qualité de la présentation."
           }
         ],
         "common_angles": [
-          "Comparaison générale des deux marques, leur histoire et leur philosophie.",
-          "Recommandations basées sur le type de peau (sèche, grasse, sensible, acnéique, eczéma).",
-          "Citations et avis de dermatologues pour renforcer la crédibilité.",
-          "Mise en avant des ingrédients clés : céramides et acide hyaluronique pour CeraVe, formules plus simples et douces pour Cetaphil.",
-          "Comparaison de produits spécifiques, le plus souvent les nettoyants et les crèmes hydratantes."
+          "Comparaison des ingrédients clés (céramides, acide hyaluronique pour CeraVe; glycérine, panthénol pour Cetaphil)",
+          "Recommandations basées sur le type de peau (CeraVe pour sec/eczéma, Cetaphil pour sensible/gras)",
+          "Avis et citations de dermatologues",
+          "Focus sur la douceur et l'absence de parfum",
+          "Comparaison de produits spécifiques (nettoyants, crèmes hydratantes)"
         ],
         "weak_angles": [
-          "Analyse complète et comparative des formulations au-delà des ingrédients marketing.",
-          "Absence de notation ou de score objectif pour comparer les produits.",
-          "Analyse des ingrédients controversés ou potentiellement irritants dans les formules (parabènes, certains alcools, etc.).",
-          "Comparaison visuelle des textures et de l'expérience utilisateur (photos, vidéos courtes).",
-          "Contexte de l'utilisation des produits dans une routine complète (comment ils interagissent avec d'autres actifs)."
+          "Absence totale de personnalisation au-delà du type de peau (pas de lien avec le style de vie, l'environnement, le bien-être global)",
+          "Approche purement clinique et scientifique, sans dimension holistique ou spirituelle",
+          "Manque d'interactivité (pas de quiz, d'outils d'aide au choix)",
+          "Contenu très factuel et descriptif, peu de storytelling ou d'angle éditorial unique",
+          "Visuels génériques (photos de produits sur fond blanc)"
         ],
         "winning_moves": [
-          "Proposer une analyse de formulation plus profonde que les concurrents, en utilisant le système de notation SkinScore pour chaque produit phare comparé (nettoyant, hydratant, etc.).",
-          "Créer un tableau comparatif détaillé qui note (A-E) les produits CeraVe vs Cetaphil sur des critères précis : efficacité des actifs, sécurité de la formule (irritants, allergènes), adéquation au type de peau.",
-          "Intégrer une analyse des \"mauvais\" ingrédients ou des ingrédients controversés (ex: parabènes, phénoxyéthanol) présents dans les produits, un point totalement absent chez les concurrents.",
-          "Développer une section \"Verdict par type de peau\" très visuelle (infographie) qui recommande non pas une marque, mais le MEILLEUR produit de chaque marque pour un besoin spécifique (ex: Meilleur nettoyant CeraVe pour peau sèche vs Meilleur nettoyant Cetaphil pour peau sèche).",
-          "Créer du contenu GEO-friendly en répondant directement aux questions PAA avec des réponses courtes et factuelles, et en structurant l'article pour viser le Featured Snippet (tableau comparatif, listes à puces)."
+          "Créer un angle unique 'dermo-karmique' : associer les besoins de la peau aux archétypes de l'astrologie (ex: 'Peau type Eau, sensible et réactive : le cocon Cetaphil') et de la numérologie (ex: 'Chemin de vie 1, besoin de simplicité : la routine Cetaphil').",
+          "Développer un quiz interactif : 'Quelle routine CeraVe ou Cetaphil pour votre signature vibratoire ?' qui analyse le type de peau ET la date de naissance pour une recommandation personnalisée.",
+          "Traduire la science en métaphores spirituelles : présenter les céramides de CeraVe comme un 'bouclier énergétique' pour la peau et la formule douce de Cetaphil comme une 'purification bienveillante'.",
+          "Utiliser une direction artistique inspirée : créer des visuels qui mêlent l'imagerie dermatologique (molécules, barrière cutanée) à des symboles astraux, des mandalas ou de la géométrie sacrée.",
+          "Structurer l'article en deux parties : 1) La comparaison 'rationnelle' attendue par Google et les lecteurs (ingrédients, avis dermato) pour sécuriser le ranking. 2) La révélation 'Karmastro' qui offre une nouvelle grille de lecture et une solution unique."
         ],
         "must_include_sections": [
-          "CeraVe vs. Cetaphil: The Independent Formulation Match",
-          "At a Glance: CeraVe vs. Cetaphil Comparison Table (SkinScore Rated)",
-          "Ingredient Deep Dive: Ceramides & MVE Tech (CeraVe) vs. Gentle Simplicity (Cetaphil)",
-          "The Formulation Breakdown: What's Really Inside Their Bestsellers?",
-          "Skin Type & Concern Verdict: The Best Cleanser and Moisturizer For You",
-          "Beyond the Hype: Are There Any Controversial Ingredients to Watch Out For?",
-          "FAQ: Your CeraVe vs. Cetaphil Questions Answered by Formulation Experts"
+          "CeraVe vs Cetaphil : Le Match des Géants (La réponse rapide pour les pressés)",
+          "Analyse des Composants : Ce que les Ingrédients Révèlent de leur 'Personnalité'",
+          "Votre Peau a son propre Thème Astral : Quelle Marque pour votre Signe d'Eau, de Terre, de Feu ou d'Air ?",
+          "Numérologie de la Peau : Calculez votre Chiffre et Découvrez votre Duo Dermo-Karmique",
+          "Le Verdict des Dermatologues vs. L'Approche Holistique : Comment Choisir ?",
+          "Construire votre Rituel Sacré : Quelle Routine pour le Matin et le Soir ?"
         ],
         "citable_facts_to_verify": [
-          "CeraVe a été lancé en 2005, tandis que Cetaphil a été fondé en 1947.",
-          "Tous les produits CeraVe contiennent 3 céramides essentiels.",
-          "La technologie MVE (MultiVesicular Emulsion) de CeraVe permet une libération contrôlée des ingrédients hydratants sur 24 heures.",
-          "CeraVe et Cetaphil ont plus de 44 produits combinés qui ont reçu le sceau d'acceptation de la National Eczema Association."
+          "CeraVe contient systématiquement 3 céramides essentiels et de l'acide hyaluronique dans ses formules phares.",
+          "Cetaphil utilise des ingrédients plus simples comme la glycérine et le panthénol pour une hydratation douce.",
+          "La majorité des dermatologues recommandent CeraVe pour les peaux très sèches ou avec eczéma, et Cetaphil pour les peaux extrêmement sensibles ou grasses et acnéiques."
         ],
         "entities_to_mention": [
-          "National Eczema Association (NEA)",
-          "Dr. Adeline Kikam",
-          "Dr. Kiran Mian",
-          "Dr. Sejal Shah",
-          "Dr. Marisa Garshick",
-          "L'Oréal (maison mère de CeraVe)",
-          "Galderma (maison mère de Cetaphil)"
+          "CeraVe",
+          "Cetaphil",
+          "Céramides",
+          "Acide Hyaluronique",
+          "Glycérine",
+          "Panthénol",
+          "Niacinamide",
+          "Barrière cutanée",
+          "Dermatologue",
+          "Peau sensible",
+          "Peau sèche",
+          "Peau grasse",
+          "Acné",
+          "Eczéma",
+          "Rosacée",
+          "Non-comédogène"
         ],
         "target_word_count": 3000,
         "intent_type": "informational",
-        "featured_snippet_opportunity": "Tableau comparatif. Viser un tableau simple qui oppose les deux marques sur des critères clés : Idéal pour (type de peau), Ingrédients clés, Technologie phare, Point faible de la formulation, Prix moyen. La formulation cible serait : 'What is the main difference between CeraVe and Cetaphil? CeraVe focuses on barrier repair with ceramides and MVE technology, making it ideal for dry to normal skin, while Cetaphil uses simpler, gentler formulas for highly sensitive and reactive skin.'",
+        "featured_snippet_opportunity": "Tableau comparatif structuré : 'Pour Qui ? / Ingrédients Clés / Texture / Idéal pour...' pour chaque marque.",
         "serp_features_detected": [
           "AI Overview",
           "People Also Ask",
-          "Featured Snippet",
-          "Video",
-          "Image Pack"
+          "Videos",
+          "Top Stories"
         ],
         "grounding_sources": [
           {
             "title": "monadermatology.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO0PletmrOpIJB1HkS6pBGpetD_fOJ85lXO0W2kpqK9ysXMc2yCWZ7vuC66qRnALtm2YfbeHTF48FYcyxi85YWxTUG76KTMR2uqW7wafOsLrbJF-xPN4WZr2nr3fioFE0n0ut3CO5qvbfcMvDN"
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9SfWp5Y2D4s_id83re-fUNrRULQneuJwljlYv5v3l5fAptxG90jzsScRTnI4ZZ0TqIvTufIVBlL-9AGtYLUQ9mxKYWm8rL1W4-w5mOtIY1Cv5Xz0gjj218CremuqktJuhvWOC4B4CsNIOUB2B"
           },
           {
             "title": "cosmopolitan.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXVil_qKLelF9GdfRJgfRwokC6maJ8wTEglQQfGRpMXCEgxBrgZZeOq2Nh45FeBsf22XMVlXMtfrAXdlouBBCSq2cZ9aS-jTw5JzMAxOEEO-JrBPUlOtpyL1XRcH_iRhKsiN2Wv7nt3035Y_R8SgpgkftUidMZxY9MAtxWbqa18Gga092LAUwE"
-          },
-          {
-            "title": "theindependentpharmacy.co.uk",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8jR__0dXSZ3hAmMnVP2Ha47mtQTM1oqO5pYLZjTjPwh6JZm7QYP1A_nehwnWpgOt2bSLbrldSyeSmAZjGO3xBgjgxeJk_YnK1UzywBsVU02W5Up2GRl7dPIdGbpKJ_igfJRoLlV_Pt1K53AVwdZWSIHJd5s6pK1cnY7cSSE7216woc6fBsvoMRT-EkzTJeBEyp7aYr10X542IbQFaRG_PVB63fg=="
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXnrSfyfH1vTCTH2ygSDTpwwZFw8bfueQzXHMeaYC68EJZoqNubg7Hjskr-4zD_dM6mpooN2YMUsH5lqdFjqSigZTliQ7cuV_lklvtgVLTr_6CmQ8aDu-4BAKLHlJk2UejwJso1CdUKMbBFNhWPKTNE-6SANp3xmjQsKoDeLtqrkPbXtT33CAf"
           },
           {
             "title": "myeczemateam.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqh1r7LbPQ-IxVLgdn3XoVTzzkzIn-YA6xGdHVDYYjTVMyEr3E_RDK21XHPTcfmrVQsCihe1O1PLAN-tjeVtK_Fi6wJ-bijG5jD2uxbh__4ltfcE1RRANM6_fFLXqKUZMjVV-vPAFIb8aPXsN2j1G8ZMy_w8HiMo2MZqHNMLZbWhvdnNs="
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKs-Jq4JCPS5tZLgtWrYZFJKZMRvLdn45jj4NRRTPuA5KXo3vKp_zC73og_pEUN7u08pimV84bIwb6yuxZjZj-0pfOIxqsVQG_haaLkrikCSf_b9oZfKnBGI7tIDRbsEaGIji4XbcUrHEv3WQxZz5L-4poLlKtYU9FDu6zTrLCZyNxqVA="
           },
           {
-            "title": "prevention.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdnLfwUHmQURfZ9eHhH5z8U72HNTL0bkqTRSvhWMpFHRwRrL3fBqDQ1nQOjfEY1HjZqCC8_UCD9HBYn_eus5gvIUqujn0VkKRBpXActuODvE6wvoSMyjO7TL3PAZsHht21U-FFMH2CpvpSaRLEPB4B1d_Az0Sw8H0UynWYTHKmCIE523hJ_JWffULSyA=="
-          },
-          {
-            "title": "elle.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpIWwOi4F5sgGqQf4nQoTehTDsWykbg4dsPfA3EG4lp8077y-zj0LgLKQZm3IH6_IziIEYWZMF-4FBbupCIeINNQgIB-NQnziWWBuR-qOucxDYAqNRlnp25Bsz8BjrWVh_NcBwVAsdK-GnRSefRO0JTOYNFbPnW_kzhJDXwrQml8s3ERY="
-          },
-          {
-            "title": "today.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJO6sip1WZdsyYSvNeRgcBuKhYxflDXrjEaznaxK8fHJYP3PjQyVzq4SexTx8EsVKkXz6c4RiGKkVTx1IhtoYk0757ABYHEZzQi02zyUJWA_pJtNsIsG0LSYTuYIbHCGxdXA8_U9M_aD4INeQLkXmZlcA="
-          },
-          {
-            "title": "elle.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH44sAfS3bGN49Yxh41YPzCgkf9cZ-e-bwqJBWDLkCBVKez2kf78avY2cD1io7h_THZqGRWr5U_r1DHSTWZlOhKZfJw4LNLOQmeeSZpFZAWQ2yzUgePbiM3KqNKb9VKna32volpYHdVa8DzSkvT1Mh0OkHfU5M89PzG"
-          },
-          {
-            "title": "productplayoffs.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe2phqPG3zZw0--8gJi6zqygN8BpQrA9YBlajPTLMq5r7Hxr5bxoBHANFRDzrHgkxmcOrPSVilZ5orH_kJaGUO0Ve3Mb_McLtgtItqegwMLNXxehYRpOBFOZkeDCSEKj_6zdKtPy2-iA8xIgY1"
+            "title": "theindependentpharmacy.co.uk",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj8Jcc4J59NDGIJbisZiK4oeU5OSwJMfi0BqBC-_RCnZdSVcSumznH1NWsJX_figJhfpx-vuI4qQgE6Oj64lojMx4vQ7bNs1jgA9OYsVfkRP2IDeZjRYam95jt8VL72YdTqgMCV7b7YDN8FJOZCS27rZ9qrY52DTrfYq2ubwngh8HJzoVoacB_lpZgrlLdyoYOIPDyfkvvYjl3xUiVr03CxUFc_g=="
           }
         ]
       }
-    }
+    },
+    "title": "CeraVe vs Cetaphil: which moisturizer is actually better?",
+    "queue_file": "cerave-vs-cetaphil-which-moisturizer-actually-better.md",
+    "pre_generated_at": "2026-04-23T00:53:23",
+    "quality_passed": true
   },
   {
     "slug": "niacinamide-vitamin-c-together-myth-debunked",
@@ -731,7 +761,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Niacinamide and vitamin C together: the myth is debunked"
   },
   {
     "slug": "10-ingredients-comedogenes-pires-peau",
@@ -924,7 +955,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Les 10 ingredients les plus comedogenes en skincare"
   },
   {
     "slug": "best-moisturizer-dry-skin-dermatologist-picks",
@@ -1096,7 +1128,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Best moisturizers for dry skin: dermatologist picks ranked"
   },
   {
     "slug": "fragrance-skincare-hidden-allergen",
@@ -1304,7 +1337,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Fragrance in skincare: the hidden allergen in 60% of products"
   },
   {
     "slug": "parfum-cosmetique-allergene-cache",
@@ -1486,7 +1520,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Parfum en cosmetique : l'allergene cache dans 60% des soins"
   },
   {
     "slug": "skincare-routine-order-morning-night",
@@ -1662,7 +1697,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Skincare routine order: the correct morning and night sequence"
   },
   {
     "slug": "ordre-routine-skincare-matin-soir",
@@ -1817,7 +1853,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "Ordre de ta routine skincare : la bonne sequence matin et soir"
   },
   {
     "slug": "la-mer-vs-cerave-350-euro-question",
@@ -1982,7 +2019,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "La Mer vs CeraVe: the 350 EUR question answered by science"
   },
   {
     "slug": "best-sunscreen-oily-skin-no-white-cast",
@@ -2181,7 +2219,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Best sunscreens for oily skin: no white cast, no grease"
   },
   {
     "slug": "meilleur-solaire-peau-grasse-sans-trace",
@@ -2355,7 +2394,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Meilleurs solaires peau grasse : sans trace blanche, sans brillance"
   },
   {
     "slug": "hyaluronic-acid-mistakes-everyone-makes",
@@ -2528,7 +2568,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Hyaluronic acid: 5 mistakes everyone makes (and how to fix them)"
   },
   {
     "slug": "acide-hyaluronique-erreurs-tout-monde",
@@ -2680,7 +2721,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "Acide hyaluronique : 5 erreurs que tout le monde fait"
   },
   {
     "slug": "the-ordinary-complete-guide-best-products",
@@ -2830,7 +2872,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "The Ordinary complete guide: every product ranked and reviewed"
   },
   {
     "slug": "guide-complet-the-ordinary-meilleurs-produits",
@@ -3018,7 +3061,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Guide complet The Ordinary : chaque produit classe et note"
   },
   {
     "slug": "k-beauty-routine-explained-science",
@@ -3168,7 +3212,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "K-beauty routine explained: what science actually supports"
   },
   {
     "slug": "acne-routine-dermatologist-approved",
@@ -3363,7 +3408,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Acne skincare routine: dermatologist-approved products ranked"
   },
   {
     "slug": "routine-acne-dermato-approuvee",
@@ -3512,7 +3558,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "Routine acne : les produits approuves par les dermatologues, classes"
   },
   {
     "slug": "salicylic-acid-vs-benzoyl-peroxide-acne",
@@ -3682,7 +3729,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Salicylic acid vs benzoyl peroxide: which is better for acne?"
   },
   {
     "slug": "vitamin-c-serum-guide-forms-concentrations",
@@ -3834,7 +3882,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "Vitamin C serum guide: forms, concentrations, and what actually works"
   },
   {
     "slug": "serum-vitamine-c-guide-formes-concentrations",
@@ -4046,7 +4095,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Serum vitamine C : formes, concentrations, et ce qui marche vraiment"
   },
   {
     "slug": "double-cleansing-worth-it-science",
@@ -4200,7 +4250,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "Double cleansing: is it worth it? What the science says"
   },
   {
     "slug": "best-anti-aging-ingredients-ranked-evidence",
@@ -4365,7 +4416,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Best anti-aging ingredients ranked by clinical evidence"
   },
   {
     "slug": "meilleurs-actifs-anti-age-preuves-cliniques",
@@ -4533,7 +4585,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Meilleurs actifs anti-age classes par preuves cliniques"
   },
   {
     "slug": "skin-cycling-trend-does-it-work",
@@ -4696,7 +4749,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Skin cycling: does this TikTok trend actually work?"
   },
   {
     "slug": "slugging-vaseline-trend-dermatologist-opinion",
@@ -4860,7 +4914,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Slugging with Vaseline: what dermatologists actually think"
   },
   {
     "slug": "best-serums-hyperpigmentation-dark-spots",
@@ -5039,7 +5094,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Best serums for hyperpigmentation: dark spots ranked by efficacy"
   },
   {
     "slug": "meilleurs-serums-taches-brunes-hyperpigmentation",
@@ -5205,7 +5261,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Meilleurs serums anti-taches : hyperpigmentation classee par efficacite"
   },
   {
     "slug": "rosacea-skincare-routine-what-to-avoid",
@@ -5357,7 +5414,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "Rosacea skincare routine: what to use and what to avoid"
   },
   {
     "slug": "ceramides-explained-why-your-barrier-needs-them",
@@ -5557,7 +5615,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Ceramides explained: why your skin barrier needs them"
   },
   {
     "slug": "ceramides-barriere-cutanee-expliques",
@@ -5723,7 +5782,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Ceramides : pourquoi ta barriere cutanee en a besoin"
   },
   {
     "slug": "spf-myths-debunked-dermatologist",
@@ -5900,7 +5960,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "SPF myths debunked: 10 things you're getting wrong about sunscreen"
   },
   {
     "slug": "azelaic-acid-underrated-acne-rosacea",
@@ -6088,7 +6149,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Azelaic acid: the most underrated ingredient for acne and rosacea"
   },
   {
     "slug": "acide-azelaique-sous-estime-acne-rosacee",
@@ -6240,7 +6302,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "Acide azelaique : l'actif le plus sous-estime contre l'acne et la rosacee"
   },
   {
     "slug": "best-cleanser-sensitive-skin-gentle",
@@ -6444,7 +6507,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Best cleansers for sensitive skin: gentle formulas ranked"
   },
   {
     "slug": "hada-labo-guide-best-products-japan",
@@ -6633,7 +6697,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Hada Labo complete guide: Japan's best-selling skincare ranked"
   },
   {
     "slug": "bakuchiol-vs-retinol-natural-alternative",
@@ -6784,7 +6849,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "Bakuchiol vs retinol: is the natural alternative as effective?"
   },
   {
     "slug": "cosrx-guide-best-products-kbeauty",
@@ -6938,7 +7004,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "COSRX complete guide: best K-beauty products ranked by SkinScore"
   },
   {
     "slug": "parabens-safe-science-truth",
@@ -7088,7 +7155,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "Are parabens safe? What the science actually says"
   },
   {
     "slug": "parabenes-dangereux-science-verite",
@@ -7263,7 +7331,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Les parabenes sont-ils dangereux ? Ce que dit la science"
   },
   {
     "slug": "best-products-acne-scars-post-inflammatory",
@@ -7432,7 +7501,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Best products for acne scars: post-inflammatory marks faded"
   },
   {
     "slug": "silicones-skincare-safe-dimethicone",
@@ -7583,7 +7653,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "Silicones in skincare: are they safe? The dimethicone debate"
   },
   {
     "slug": "mineral-oil-skincare-truth-nivea",
@@ -7746,7 +7817,8 @@
           }
         ]
       }
-    }
+    },
+    "title": "Mineral oil in skincare: the truth behind Nivea's favourite ingredient"
   },
   {
     "slug": "drunk-elephant-worth-price-honest-review",
@@ -7899,7 +7971,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "Is Drunk Elephant worth the price? An honest ingredient review"
   },
   {
     "slug": "best-eye-cream-do-you-need-one",
@@ -8051,7 +8124,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "Best eye creams: do you even need one? What dermatologists say"
   },
   {
     "slug": "peptides-skincare-worth-hype",
@@ -8204,7 +8278,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "Peptides in skincare: are they worth the hype?"
   },
   {
     "slug": "centella-asiatica-cica-guide-complet",
@@ -8356,7 +8431,8 @@
         ],
         "grounding_sources": []
       }
-    }
+    },
+    "title": "Centella asiatica (cica) : le guide complet de l'ingredient star"
   },
   {
     "slug": "how-to-read-inci-list-skincare",
@@ -8548,6 +8624,7 @@
           }
         ]
       }
-    }
+    },
+    "title": "How to read an INCI list: decode your skincare in 5 minutes"
   }
 ]

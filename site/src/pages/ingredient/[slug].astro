@@ -2,9 +2,10 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { ingredients, type Ingredient } from "../../data/ingredients";
 import { products } from "../../data/products";
+import { getIngredientDeep } from "../../data/ingredient-deep-content";
 import { siteConfig } from "../../../site.config";
 import { fullUrl, gradeClass } from "../../utils/config";
-import { jsonLdBreadcrumbs } from "../../utils/seo";
+import { jsonLdBreadcrumbs, jsonLdFaq } from "../../utils/seo";
 import { getLocale, t, tr, localizedPath } from "../../i18n/t";
 
 export function getStaticPaths() {
@@ -39,13 +40,28 @@ const skinTypeLabels: Record<string, { en: string; fr: string }> = {
   normal: { en: "Normal skin", fr: "Peau normale" },
 };
 
-// Indexation policy: ingredient pages are currently thin (avg 55 words of
-// editorial content). Noindex across the board until the ingredient
-// deep-dive enrichment lands. STACK-2026 programmatic thin pages rule.
-const noIndex = true;
+// Indexation policy: only ingredients with a deep review (1000+ words)
+// are indexable. The others stay noindex pending enrichment.
+const deep = getIngredientDeep(ingredient.id);
+const noIndex = !deep;
+
+const jsonLd: object[] = [jsonLdBreadcrumbs(breadcrumbs)];
+if (deep?.faq?.length) {
+  jsonLd.push(
+    jsonLdFaq(deep.faq.map((f) => ({ question: t(f.question, locale), answer: t(f.answer, locale) })))
+  );
+}
+
+let speakableHtml = "";
+if (deep) {
+  const term = t(deep.speakableTerm, locale);
+  const body = t(deep.speakable, locale);
+  const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  speakableHtml = body.replace(new RegExp(escaped), `<strong>${term}</strong>`);
+}
 ---
 
-<BaseLayout title={title} description={description} jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]} noIndex={noIndex}>
+<BaseLayout title={title} description={description} jsonLd={jsonLd} noIndex={noIndex}>
   <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
     <!-- Breadcrumbs -->
     <nav class="text-xs text-slate-400 mb-8 flex items-center gap-1.5 flex-wrap">
@@ -84,9 +100,16 @@ const noIndex = true;
     </header>
 
     <!-- Description -->
-    <div class="card mb-8">
+    <div class="card mb-6">
       <p class="text-slate-600 leading-relaxed">{t(ingredient.description, locale)}</p>
     </div>
+
+    {deep && (
+      <aside data-speakable aria-label="TL;DR" class="mb-8 rounded-xl border border-violet-200 bg-violet-50/60 px-6 py-5 text-slate-700">
+        <p class="text-xs font-bold uppercase tracking-wider text-violet-700 mb-2">TL;DR</p>
+        <p class="text-[15px] leading-relaxed" set:html={speakableHtml} />
+      </aside>
+    )}
 
     <!-- Benefits & Risks -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
@@ -130,10 +153,48 @@ const noIndex = true;
       </div>
     </section>
 
+    {deep && (
+      <section class="mb-12 prose prose-slate max-w-none">
+        <h2>{locale === "fr" ? "Mécanisme d'action" : "How it works"}</h2>
+        <p>{t(deep.mechanism, locale)}</p>
+
+        <h2>{locale === "fr" ? "Preuves cliniques" : "Clinical evidence"}</h2>
+        <p>{t(deep.evidence, locale)}</p>
+
+        <h2>{locale === "fr" ? "Dosage et protocole" : "Dosing and protocol"}</h2>
+        <p>{t(deep.dosing, locale)}</p>
+
+        <h2>{locale === "fr" ? "Interactions" : "Interactions with other actives"}</h2>
+        <p>{t(deep.interactions, locale)}</p>
+
+        <h2>{locale === "fr" ? "Erreurs courantes" : "Common mistakes"}</h2>
+        <p>{t(deep.mistakes, locale)}</p>
+
+        {deep.faq.length > 0 && (
+          <>
+            <h2>FAQ</h2>
+            {deep.faq.map((item) => (
+              <>
+                <h3>{t(item.question, locale)}</h3>
+                <p>{t(item.answer, locale)}</p>
+              </>
+            ))}
+          </>
+        )}
+
+        <h2>Sources</h2>
+        <ul>
+          {deep.sources.map((s) => (
+            <li><a href={s.url} rel="noopener">{s.label}</a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+
     <!-- Concerns addressed -->
     {ingredient.concerns.length > 0 && (
       <section class="mb-10">
-        <h3 class="text-base font-bold mb-3">{locale === "fr" ? "Preoccupations ciblees" : "Targets these concerns"}</h3>
+        <h3 class="text-base font-bold mb-3">{locale === "fr" ? "Préoccupations ciblées" : "Targets these concerns"}</h3>
         <div class="flex flex-wrap gap-2">
           {ingredient.concerns.map((c) => (
             <a href={localizedPath(`/best/${c}`, locale)} class="text-sm font-medium px-3 py-1.5 rounded-full bg-violet-50 text-violet-700 hover:bg-violet-100 transition-colors capitalize">

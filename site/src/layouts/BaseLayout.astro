@@ -66,6 +66,8 @@ const frHref = frHrefProp !== undefined ? frHrefProp : siteConfig.url + "/fr" + 
     <meta name="author" content={siteConfig.author} />
     <meta name="keywords" content={siteConfig.keywords.join(", ")} />
     {noIndex && <meta name="robots" content="noindex, nofollow" />}
+    {siteConfig.googleSiteVerification && <meta name="google-site-verification" content={siteConfig.googleSiteVerification} />}
+    {siteConfig.bingSiteVerification && <meta name="msvalidate.01" content={siteConfig.bingSiteVerification} />}
 
     <!-- Hreflang (bilingual EN + FR, suppressed when no translation exists) -->
     {enHref && <link rel="alternate" hreflang="en" href={enHref} />}
