@@ -58,7 +58,7 @@ The pooled safety findings:
 - **No serious adverse events** were reported in any of the 18 trials across all indications
 - Mild, transient facial flushing was observed in 2 to 4% of participants using 5% niacinamide and in 4 to 8% of participants using 10%, typically resolving within 15 to 30 minutes of application
 - At 2% concentration, the adverse event rate was not statistically distinguishable from placebo or vehicle control
-- No cases of contact dermatitis attributable to niacinamide itself were confirmed, though a small number of patch-test-positive cases (under 0.1% of the wider patch-tested population per [DermNet NZ](https://dermnetnz.org/topics/nicotinamide-allergy) data) do exist
+- No cases of contact dermatitis attributable to niacinamide itself were confirmed, though a small number of patch-test-positive cases (under 0.1% of the wider patch-tested population per [DermNet NZ nicotinamide overview](https://dermnetnz.org/topics/nicotinamide)) do exist
 
 Efficacy outcomes in the same meta-analysis provide context. At 4% concentration used twice daily for 8 to 12 weeks, niacinamide produced a 35 to 60% reduction in acne lesion count, a 20 to 30% improvement in melanin index for post-inflammatory hyperpigmentation, and a statistically significant reduction in transepidermal water loss in atopic-prone skin.
 

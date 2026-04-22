@@ -20,7 +20,7 @@ speakable: "For dry skin, the best moisturizer combines three ingredient classes
 
 Here is a fact that most moisturiser brands would rather you didn't know: a 10-dollar tub of CeraVe Moisturising Cream scores virtually identically to a 200-dollar pot of La Mer on a formulation-by-formulation basis. That is not a typo. That is what happens when you stop reading marketing copy and start reading INCI lists.
 
-Dry skin affects roughly 29-40% of the population at any given time, according to the [American Academy of Dermatology](https://www.aad.org/public/everyday-care/skin-care-basics/dry/moisturizer-tips), and it is one of the most searched skincare concerns online. Yet most "best of" lists are built on editorial opinion, brand sponsorships, or a quick interview with a dermatologist who happened to be available. At SkinScore, we do things differently: every recommendation on this page is backed by a full INCI analysis and a formulation score from our [SkinScore methodology](https://getskinscore.com/methodology).
+Dry skin affects roughly 29-40% of the population at any given time, according to the [American Academy of Dermatology](https://www.aad.org/public/everyday-care/skin-care-basics/dry), and it is one of the most searched skincare concerns online. Yet most "best of" lists are built on editorial opinion, brand sponsorships, or a quick interview with a dermatologist who happened to be available. At SkinScore, we do things differently: every recommendation on this page is backed by a full INCI analysis and a formulation score from our [SkinScore methodology](https://getskinscore.com/methodology).
 
 In this guide, you will find out exactly which ingredients your dry skin moisturiser needs (and at what concentrations), why ceramides are not all created equal, how drugstore products beat luxury rivals on formulation, and how to build a complete dry skin routine that actually holds up in winter. No fear-mongering, no filler, just science.
 
@@ -211,7 +211,7 @@ Explore all scored moisturisers for dry skin in the [SkinScore rankings database
 
 ## Sources
 
-1. American Academy of Dermatology (AAD). "Moisturizer tips for people with dry skin." [https://www.aad.org/public/everyday-care/skin-care-basics/dry/moisturizer-tips](https://www.aad.org/public/everyday-care/skin-care-basics/dry/moisturizer-tips)
+1. American Academy of Dermatology (AAD). "Skin care basics for dry skin." [https://www.aad.org/public/everyday-care/skin-care-basics/dry](https://www.aad.org/public/everyday-care/skin-care-basics/dry)
 
 2. Feingold KR, Elias PM. "Role of lipids in the formation and maintenance of the cutaneous permeability barrier." *Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids*, 2014. [https://www.jlr.org/article/S0022-2275(20)37205-7/fulltext](https://www.jlr.org/article/S0022-2275(20)37205-7/fulltext)
 
@@ -219,4 +219,4 @@ Explore all scored moisturisers for dry skin in the [SkinScore rankings database
 
 4. Fluhr JW, Darlenski R, Surber C. "Glycerol and the skin: holistic approach to its origin and functions." *British Journal of Dermatology*, 2008. [https://pubmed.ncbi.nlm.nih.gov/18492128/](https://pubmed.ncbi.nlm.nih.gov/18492128/)
 
-5. Kao JS et al. "Short-term glucocorticoid treatment compromises both permeability barrier homeostasis and stratum corneum integrity: inhibition of epidermal lipid synthesis accounts for functional abnormalities." *Journal of Investigative Dermatology*, 2003. Referenced via Cleveland Clinic dry skin guidance: [https://health.clevelandclinic.org/best-lotion-for-dry-skin](https://health.clevelandclinic.org/best-lotion-for-dry-skin)
+5. Kao JS et al. "Short-term glucocorticoid treatment compromises both permeability barrier homeostasis and stratum corneum integrity: inhibition of epidermal lipid synthesis accounts for functional abnormalities." *Journal of Investigative Dermatology*, 2003. [https://pubmed.ncbi.nlm.nih.gov/12648209/](https://pubmed.ncbi.nlm.nih.gov/12648209/)

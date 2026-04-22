@@ -94,7 +94,7 @@ For acne-prone skin, use this three-step check when reading a new product:
 
 Three ingredient families have reputations that do not match their clinical data. It is worth fixing this because avoiding them forces you into more expensive formulations for no benefit.
 
-Mineral oil has a Fulton rating of 0 to 1 in modern testing. The fear comes from confusion between cosmetic-grade mineral oil (refined, pharmaceutical purity) and industrial-grade mineral oil (unrefined, contains aromatic compounds). The cosmetic version is one of the most thoroughly safety-tested ingredients in modern skincare. The [CIR expert panel reaffirmed its safety profile](https://online.personalcarecouncil.org/ctfa-static/online/lists/cir-pdfs/pr1008.pdf) in 2019.
+Mineral oil has a Fulton rating of 0 to 1 in modern testing. The fear comes from confusion between cosmetic-grade mineral oil (refined, pharmaceutical purity) and industrial-grade mineral oil (unrefined, contains aromatic compounds). The cosmetic version is one of the most thoroughly safety-tested ingredients in modern skincare. The [Cosmetic Ingredient Review expert panel](https://www.cir-safety.org/) has reassessed mineral oil several times and consistently affirms its safety profile in cosmetic use.
 
 Petrolatum has the same story. Rated 0 on comedogenicity, extremely well-tolerated, used clinically in post-procedure wound care and eczema management. The "clogs pores" claim attached to petrolatum in online skincare communities is not supported by the evidence. For very dry, cracked or post-procedure skin, petrolatum applied thinly is the safest and most effective occlusive agent in the formulary.
 

@@ -64,7 +64,7 @@ Hydroquinone is a depigmenting agent used in prescription strength for melasma a
 
 **Status:** Avoid.
 
-Preservatives in this family include DMDM hydantoin, imidazolidinyl urea, diazolidinyl urea, quaternium-15, and bronopol (2-bromo-2-nitropropane-1,3-diol). They work by slowly releasing formaldehyde to inhibit microbial growth. Formaldehyde is a [known human carcinogen per IARC](https://monographs.iarc.who.int/wp-content/uploads/2018/06/mono100F-29.pdf) and a documented contact allergen, and during pregnancy the precautionary approach removes unnecessary cumulative exposure. These preservatives are found primarily in mass-market US cosmetics and hair products; EU formulations increasingly use alternatives like phenoxyethanol + ethylhexylglycerin blends.
+Preservatives in this family include DMDM hydantoin, imidazolidinyl urea, diazolidinyl urea, quaternium-15, and bronopol (2-bromo-2-nitropropane-1,3-diol). They work by slowly releasing formaldehyde to inhibit microbial growth. Formaldehyde is classified as a [known human carcinogen per the IARC monograph list](https://monographs.iarc.who.int/list-of-classifications) and a documented contact allergen, and during pregnancy the precautionary approach removes unnecessary cumulative exposure. These preservatives are found primarily in mass-market US cosmetics and hair products; EU formulations increasingly use alternatives like phenoxyethanol + ethylhexylglycerin blends.
 
 ### 6. Chemical sunscreens containing oxybenzone
 

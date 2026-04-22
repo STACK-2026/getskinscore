@@ -194,7 +194,7 @@ export const ingredientDeepContent: IngredientDeepContent[] = [
       { label: "Bukhari SNA et al. HA skincare review. Int J Biol Macromol 2018", url: "https://pubmed.ncbi.nlm.nih.gov/30107201/" },
       { label: "CIR safety assessment: Hyaluronic Acid", url: "https://www.cir-safety.org/" },
       { label: "EU CosIng entry: Sodium Hyaluronate", url: "https://ec.europa.eu/growth/tools-databases/cosing/" },
-      { label: "DermNet NZ: Moisturisers", url: "https://dermnetnz.org/topics/moisturisers" },
+      { label: "DermNet NZ: Emollients and moisturisers", url: "https://dermnetnz.org/topics/emollients-and-moisturisers" },
     ],
   },
 
@@ -440,7 +440,7 @@ export const ingredientDeepContent: IngredientDeepContent[] = [
     sources: [
       { label: "Ditre CM et al. Effects of AHAs on photoaged skin. JAAD 1996", url: "https://pubmed.ncbi.nlm.nih.gov/8621798/" },
       { label: "Kornhauser A et al. Applications of hydroxyacids. Clin Cosmet Investig Dermatol 2018", url: "https://pubmed.ncbi.nlm.nih.gov/29255366/" },
-      { label: "SCCS opinion on Alpha Hydroxy Acids SCCS/1601/18", url: "https://health.ec.europa.eu/publications/opinion-alpha-hydroxy-acids_en" },
+      { label: "SCCS Scientific Committee on Consumer Safety (opinions hub)", url: "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en" },
       { label: "Sharquie KE et al. Glycolic vs salicylic peel for melasma 2011", url: "https://pubmed.ncbi.nlm.nih.gov/21309956/" },
       { label: "EU CosIng entry: Glycolic Acid", url: "https://ec.europa.eu/growth/tools-databases/cosing/" },
     ],
