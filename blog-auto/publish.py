@@ -221,6 +221,7 @@ def write_article(slug, content):
     content = clamp_frontmatter_description(content)
     filepath = BLOG_DIR / f"{slug}.md"
     with open(filepath, "w", encoding="utf-8") as f:
+        content = content.replace('\u2014', '-').replace('\u2013', '-')  # STACK-2026 em-dash sanitize
         f.write(content)
     print(f"  Written to {filepath}")
     return filepath
