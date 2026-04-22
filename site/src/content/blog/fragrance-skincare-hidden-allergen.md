@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Fragrance in Skincare: The Hidden Allergen in 60% of Products"
 description: "Fragrance is the most common allergen in skincare. Learn which ingredients to avoid, how EU and US regulations differ, and the best fragrance-free products by"
@@ -14,7 +13,6 @@ lang: "en"
 lastReviewed: "2026-04-22"
 reviewedBy: "SkinScore Research Team"
 ---
-```
 
 # Fragrance in Skincare: The Hidden Allergen in 60% of Products
 
