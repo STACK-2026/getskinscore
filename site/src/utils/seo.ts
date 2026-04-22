@@ -148,12 +148,5 @@ export function jsonLdProduct(opts: {
       },
       author: { "@id": `${siteConfig.url}/#organization` },
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: opts.scoreNumeric,
-      bestRating: 100,
-      worstRating: 0,
-      ratingCount: 1,
-    },
   };
 }

@@ -4,6 +4,7 @@ import { siteConfig } from "../../site.config";
 import { fullUrl } from "../utils/config";
 import { jsonLdArticle, jsonLdBreadcrumbs } from "../utils/seo";
 import { getLocale, t, tr, localizedPath } from "../i18n/t";
+import { authors } from "../data/authors";
 
 interface Props {
   title: string;
@@ -29,10 +30,13 @@ const {
 } = Astro.props;
 
 const isDefault = lang === "en";
-const blogPath = isDefault ? `/blog/${slug}` : `/fr/blog/${slug}`;
-const blogIndexPath = isDefault ? `/blog` : `/fr/blog`;
+const blogPath = isDefault ? `/blog/${slug}/` : `/fr/blog/${slug}/`;
+const blogIndexPath = isDefault ? `/blog/` : `/fr/blog/`;
 const homePath = isDefault ? "/" : "/fr/";
 const locale = isDefault ? "en" : "fr";
+
+const authorEntry = author ? authors.find((a) => a.name === author) : undefined;
+const authorHref = authorEntry ? `/authors/${authorEntry.id}/` : undefined;
 
 const articleUrl = fullUrl(blogPath);
 const dateStr = date.toISOString().split("T")[0];
@@ -67,7 +71,7 @@ const jsonLd = [
       {category && <span class="inline-block bg-violet-100 text-violet-700 text-sm font-medium px-3 py-1 rounded-full mb-4">{category}</span>}
       <h1 class="mb-4">{title}</h1>
       <div class="flex items-center gap-4 text-slate-500 text-sm flex-wrap">
-        <span>{author}</span>
+        {authorHref ? <a href={authorHref} class="hover:text-violet-600 underline-offset-2 hover:underline">{author}</a> : <span>{author}</span>}
         <span>|</span>
         <time datetime={dateStr}>{date.toLocaleDateString(l.locale, { day: "numeric", month: "long", year: "numeric" })}</time>
         {reviewedDateStr && (<><span>|</span><span>{l.reviewed} <time datetime={reviewedDateStr}>{lastReviewed?.toLocaleDateString(l.locale, { day: "numeric", month: "long", year: "numeric" })}</time></span></>)}
