@@ -312,6 +312,7 @@ def main():
         git_commit_push(filepath, title)
         log_result(slug, True)
         print(f"\n  Published: {title}")
+        submit_url_to_bing(f"https://getskinscore.com/blog/{slug}/")
 
     except Exception as e:
         print(f"\n  ERROR: {e}")
