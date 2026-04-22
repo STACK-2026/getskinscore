@@ -778,188 +778,190 @@
     "keywords": "ingredients comedogenes, comedogene liste, pores bouches",
     "serp_brief": {
       "keyword": "ingredients comedogenes",
-      "generated_at": "2026-04-18T23:51:35",
+      "generated_at": "2026-04-23T01:03:33",
       "model": "gemini-2.5-pro",
       "brief": {
         "top10": [
           {
             "rank": 1,
-            "domain": "dermalogica.be",
-            "title": "6 x ingrédients comédogènes dans les produits de soin à éviter - Dermalogica BE",
-            "main_angle": "Liste simple et directe d'ingrédients à éviter, présentée par une marque d'autorité.",
-            "strength": "Contenu très accessible et facile à scanner, avec des explications simples pour chaque ingrédient.",
-            "weakness": "Liste très courte (seulement 6 ingrédients), manque de profondeur et ne cite pas de sources ou d'échelle de comédogénicité."
+            "domain": "botany.care",
+            "title": "Ingrédients Comédogènes : 50 scores INCI + alternatives (2026)",
+            "main_angle": "Liste scientifique et nuancée d'ingrédients comédogènes avec leurs scores et alternatives.",
+            "strength": "Approche détaillée et scientifique, mention de l'échelle de comédogénicité, explications claires sur la formation d'un comédon, et proposition d'alternatives. Le contenu est bien structuré avec un sommaire.",
+            "weakness": "Le design est un peu simple. L'angle est très scientifique et pourrait ne pas capter l'audience cible qui cherche une approche plus spirituelle ou holistique."
           },
           {
             "rank": 2,
-            "domain": "botany.care",
-            "title": "Ingrédients Comédogènes : 50 scores INCI + alternatives (2026) – Botany Care",
-            "main_angle": "Guide complet et nuancé qui non seulement liste les ingrédients mais explique comment interpréter leur comédogénicité en fonction du type de peau et de la formulation globale.",
-            "strength": "Très détaillé, inclut une liste de 50 ingrédients avec leurs scores, des alternatives, une explication scientifique, et démystifie certaines idées reçues.",
-            "weakness": "La densité de l'information pourrait être intimidante pour un débutant complet."
+            "domain": "typology.com",
+            "title": "Peaux grasses : quels sont les ingrédients à éviter",
+            "main_angle": "Conseils ciblés pour les peaux grasses, en liant ingrédients comédogènes et production de sébum.",
+            "strength": "Contenu bien ciblé pour un type de peau spécifique (peaux grasses), ce qui est pertinent car c'est une préoccupation majeure pour ce segment. L'explication de l'indice de comédogénicité est claire.",
+            "weakness": "L'article se concentre uniquement sur les peaux grasses et peut donc exclure une partie de l'audience. L'angle est purement cosmétique et factuel."
           },
           {
             "rank": 3,
             "domain": "ecco-verde.fr",
-            "title": "Que sont les ingrédients comédogènes ? - Notre beauty Blog - Ecco Verde",
-            "main_angle": "Article éducationnel qui définit la comédogénicité et explique que l'effet dépend du type de peau, tout en étant un blog de e-commerce.",
-            "strength": "Bonne explication du concept de l'échelle de probabilité, nuance l'idée qu'un ingrédient est 'mauvais' pour tout le monde.",
-            "weakness": "La liste d'ingrédients fournie est assez limitée et l'aspect commercial est très présent."
+            "title": "Que sont les ingrédients comédogènes ? - Notre beauty Blog",
+            "main_angle": "Définition de la comédogénicité et liste d'ingrédients, en mettant l'accent sur les huiles végétales.",
+            "strength": "Bonne explication de base sur ce qu'est un ingrédient comédogène, avec une liste d'huiles végétales et leur potentiel comédogène. L'article nuance en expliquant qu'un ingrédient comédogène ne cause pas systématiquement des imperfections.",
+            "weakness": "Le contenu est assez basique et manque de profondeur. Il n'y a pas d'angle unique ou différenciant."
           },
           {
             "rank": 4,
-            "domain": "saperorganic.com",
-            "title": "Quels sont les ingrédients comédogènes et où les trouve-t-on - Saper Organic Skincare",
-            "main_angle": "Classification des ingrédients par niveau de comédogénicité (élevé, modéré, doux) avec des exemples concrets.",
-            "strength": "Structure claire qui aide l'utilisateur à évaluer rapidement le risque potentiel d'un produit en fonction de la position de l'ingrédient dans la liste INCI.",
-            "weakness": "Le contenu est relativement court et sert de porte d'entrée vers les produits de la marque."
+            "domain": "le-moly.fr",
+            "title": "Comprendre la Comédogénicité : la clé pour une peau saine",
+            "main_angle": "Guide complet sur la comédogénicité avec une échelle claire et des listes d'ingrédients classés par potentiel.",
+            "strength": "Article très bien structuré qui explique clairement ce qu'est la comédogénicité, son importance et comment identifier les produits. L'échelle de 0 à 5 est très visuelle et pratique.",
+            "weakness": "Le ton est très informatif et manque d'un angle engageant ou original qui pourrait résonner avec notre audience."
           },
           {
             "rank": 5,
-            "domain": "femmeactuelle.fr",
-            "title": "Voici la liste des ingrédients comédogènes qui favorisent l'apparition de boutons et de kystes - Femmeactuelle.fr",
-            "main_angle": "Article de magazine grand public qui liste les grandes familles d'ingrédients comédogènes en citant un expert.",
-            "strength": "Format facile à lire, crédibilité apportée par la citation d'un expert.",
-            "weakness": "Manque de détails techniques, pas de liste exhaustive ni d'échelle de notation."
+            "domain": "laboratoire-4e.com",
+            "title": "Les substances comédogènes - Laboratoire 4e",
+            "main_angle": "Explication étymologique et scientifique des ingrédients comédogènes, en distinguant les ingrédients de synthèse des huiles végétales.",
+            "strength": "L'approche étymologique du mot \"comédogène\" est intéressante. L'article fait une distinction claire entre les ingrédients synthétiques et les huiles végétales naturelles, ce qui est un bon point.",
+            "weakness": "Le contenu est un peu dense et pourrait être mieux structuré pour une lecture plus facile. L'angle reste très technique."
           },
           {
             "rank": 6,
-            "domain": "ceramol.fr",
-            "title": "Acné et alimentation : comment les aliments peuvent-ils affecter votre peau - Ceramol",
-            "main_angle": "Angle différent qui connecte l'acné à l'alimentation plutôt qu'aux ingrédients topiques.",
-            "strength": "Couvre une intention de recherche connexe et importante pour la cible.",
-            "weakness": "Ne répond pas directement à la requête sur les 'ingrédients comédogènes' cosmétiques."
+            "domain": "cosmeticshomemadecolchique.over-blog.com",
+            "title": "Liste des ingrédients comédogènes - Cosmetics Home Made Colchique",
+            "main_angle": "Liste d'ingrédients comédogènes avec une mise en garde sur la fiabilité de la mention \"non comédogène\".",
+            "strength": "L'article met en garde contre la simple mention \"non comédogène\" et encourage à vérifier la liste des ingrédients, ce qui est un conseil pertinent.",
+            "weakness": "Le design du blog est daté et le contenu manque de structure claire. Les sources citées datent un peu."
           },
           {
             "rank": 7,
-            "domain": "sephora.ca",
-            "title": "Produits Non ComéDogèNes | Sephora Canada",
-            "main_angle": "Page de catégorie e-commerce listant des produits étiquetés 'non-comédogènes'.",
-            "strength": "Répond à l'intention transactionnelle de trouver et acheter des produits non-comédogènes.",
-            "weakness": "Aucun contenu informationnel ou éducationnel sur ce que sont les ingrédients comédogènes."
+            "domain": "dermalogica.fr",
+            "title": "6 x ingrédients comédogènes dans les produits de soin à éviter",
+            "main_angle": "Liste courte et directe de 6 ingrédients comédogènes à éviter.",
+            "strength": "Format facile à lire et à mémoriser (liste de 6 ingrédients). L'angle est très direct et pratique.",
+            "weakness": "L'article est très court et manque de détails. Il ne fait que survoler le sujet sans apporter une réelle valeur ajoutée."
           },
           {
             "rank": 8,
-            "domain": "apnee-paris.com",
-            "title": "ACNÉ HORMONALE : Les aliments à éviter - Apnée Paris",
-            "main_angle": "Se concentre sur l'acné hormonale et les déclencheurs alimentaires.",
-            "strength": "Niche spécifique dans le sujet plus large de l'acné, peut être très pertinent pour une partie de l'audience.",
-            "weakness": "Hors-sujet par rapport à la requête sur les ingrédients cosmétiques."
+            "domain": "saper-organic.com",
+            "title": "Quels sont les ingrédients comédogènes et où les trouve-t-on",
+            "main_angle": "Classification des ingrédients comédogènes par niveau de risque (élevé, modéré, doux).",
+            "strength": "La classification par niveau de comédogénicité (élevé, modéré, doux) est une bonne idée pour aider le lecteur à prioriser les ingrédients à éviter.",
+            "weakness": "Le contenu est assez court et pourrait être plus développé. Le design est simple."
           },
           {
             "rank": 9,
-            "domain": "eau-thermale-avene.fr",
-            "title": "Crème et soin non-comédogène | Eau Thermale Avène",
-            "main_angle": "Page de marque qui définit le 'non-comédogène' et présente ses propres produits comme solution.",
-            "strength": "Contenu clair et rassurant venant d'une marque de confiance.",
-            "weakness": "Très orienté produit, ne fournit pas de liste d'ingrédients à éviter en général."
+            "domain": "epicosm.com",
+            "title": "Comment repérer et éviter un soin comédogène ?",
+            "main_angle": "Guide pratique pour identifier et éviter les produits comédogènes.",
+            "strength": "L'angle est très orienté vers l'action et l'autonomie du consommateur. L'explication de l'effet occlusif est claire.",
+            "weakness": "L'article pourrait bénéficier de listes plus détaillées d'ingrédients à éviter ou à privilégier."
           },
           {
             "rank": 10,
-            "domain": "marieclaire.fr",
-            "title": "Comment trouver des cosmétiques non comédogènes ? Notre guide",
-            "main_angle": "Guide pratique pour aider les consommateurs à identifier les produits non-comédogènes en lisant les étiquettes.",
-            "strength": "Donne des conseils actionnables, mentionne des outils comme des applications d'analyse cosmétique.",
-            "weakness": "Moins une liste d'ingrédients qu'une méthode pour les trouver."
+            "domain": "lecosmetologue.com",
+            "title": "Liste comédogène - Le Cosmétologue",
+            "main_angle": "Liste d'ingrédients comédogènes basée sur les travaux du Dr Fulton, avec une critique de la méthode de test.",
+            "strength": "La référence au Dr Fulton et la critique des tests sur les animaux apportent une perspective intéressante et éthique.",
+            "weakness": "L'auteur exprime des doutes sur la fiabilité de la liste, ce qui peut dérouter le lecteur. Le format est une simple liste, peu engageante."
           }
         ],
         "common_angles": [
-          "Définition de ce qu'est un ingrédient comédogène.",
-          "Présentation de l'échelle de comédogénicité de 0 à 5.",
-          "Listes d'ingrédients (surtout des huiles et beurres végétaux) avec leur score.",
-          "L'importance du type de peau dans la réaction à un ingrédient.",
-          "Conseils pour lire la liste INCI et repérer les ingrédients problématiques."
+          "Définition de la comédogénicité",
+          "Liste d'ingrédients comédogènes",
+          "Échelle de comédogénicité (0 à 5)",
+          "Focus sur les huiles végétales",
+          "Conseils pour les peaux grasses et à tendance acnéique"
         ],
         "weak_angles": [
-          "La concentration de l'ingrédient dans la formule et son impact sur la comédogénicité.",
-          "L'interaction entre les ingrédients : une formule bien conçue peut atténuer l'effet comédogène d'un ingrédient.",
-          "Les limites des tests originaux (faits sur des oreilles de lapin) et la validité de l'échelle de Fulton.",
-          "Alternatives précises et modernes pour chaque ingrédient comédogène listé.",
-          "Le rôle des ingrédients synthétiques souvent diabolisés à tort (ex: silicones, huiles minérales) qui sont en réalité non-comédogènes."
+          "Approche holistique et personnalisée",
+          "Lien entre alimentation, style de vie et comédons",
+          "Perspective énergétique ou vibratoire des ingrédients",
+          "Connexion entre le type de peau et le profil astrologique/numérologique",
+          "Absence de storytelling ou d'angle incarné"
         ],
         "winning_moves": [
-          "Créer la liste la plus exhaustive et la mieux structurée du web (plus de 100 ingrédients), présentée sous forme de tableau interactif avec filtres (par score, par famille d'ingrédient) et fonction de recherche.",
-          "Intégrer notre propre outil d'analyse 'SkinScore' directement sur la page : un champ où l'utilisateur peut coller une liste d'ingrédients pour obtenir une analyse de comédogénicité instantanée.",
-          "Produire une vidéo explicative de 5 minutes qui résume le concept, explique les nuances (concentration, type de peau) et montre comment utiliser notre outil d'analyse.",
-          "Aller au-delà de la simple liste en créant des sections dédiées aux 'mythes et réalités', en abordant les idées reçues sur les ingrédients naturels vs. synthétiques, et en expliquant les limites de l'échelle de comédogénicité.",
-          "Proposer des 'Routines Types Non-Comédogènes' pour différents types de peau (grasse, mixte, sensible) en utilisant des produits notés A ou B par SkinScore, créant ainsi un lien direct entre l'information et notre solution."
+          "Créer un 'Calculateur de Potentiel Comédogène Karmique' : un outil interactif où l'utilisateur entre son type de peau (lié à son élément astrologique : Feu, Terre, Air, Eau) et obtient une liste personnalisée d'ingrédients à surveiller, basée sur une approche data-driven mais expliquée avec le storytelling de Karmastro.",
+          "Rédiger un article de fond 'Ce que votre peau essaie de vous dire : décoder les ingrédients comédogènes avec l'astrologie et la numérologie'. Lier les blocages (pores bouchés) à des blocages énergétiques ou à des transits planétaires spécifiques.",
+          "Proposer un 'Rituel de Beauté Lunaire Non-Comédogène' : des conseils de soins de la peau basés sur les phases de la lune, en recommandant des ingrédients non-comédogènes pour chaque phase (purification en lune décroissante, nutrition en lune croissante).",
+          "Intégrer une dimension pythagoricienne : associer une 'vibration numérique' à chaque ingrédient (basée sur son indice de comédogénicité) et expliquer comment équilibrer les énergies sur sa peau.",
+          "Créer une infographie 'La Roue Zodiacale des Huiles de Beauté' qui associe chaque signe astrologique à des huiles non-comédogènes qui correspondent à son énergie, en se basant sur la tradition hellénistique."
         ],
         "must_include_sections": [
-          "Qu'est-ce qu'un ingrédient comédogène ? La définition scientifique",
-          "L'Échelle de Comédogénicité de 0 à 5 : Comment l'interpréter ?",
-          "Tableau Interactif : La Liste Ultime des Ingrédients Comédogènes et Non-Comédogènes",
-          "Pourquoi une liste ne suffit pas : L'importance de la formulation et de votre type de peau",
-          "Mythes vs Réalités : Les ingrédients naturels sont-ils toujours meilleurs ?",
-          "Analysez vos produits : Comment repérer les ingrédients comédogènes dans une liste INCI ?"
+          "Au-delà de la peau : quand les ingrédients comédogènes révèlent vos blocages énergétiques",
+          "L'indice de comédogénicité : une science, mais pas une fatalité karmique",
+          "Votre carte du ciel cutanée : identifiez les ingrédients comédogènes selon votre profil astrologique (Feu, Terre, Air, Eau)",
+          "Numérologie des ingrédients : calculez la vibration de votre routine beauté",
+          "Le rituel Karmastro : choisir ses ingrédients en conscience pour une peau alignée",
+          "Liste des ingrédients comédogènes à connaître (et leurs alternatives vibratoires)"
         ],
         "citable_facts_to_verify": [
-          "L'échelle de comédogénicité a été popularisée par Fulton en 1984, basée sur les travaux de Kligman en 1972.",
-          "Les tests originaux pour établir l'échelle de comédogénicité ont été réalisés sur des oreilles de lapin.",
-          "L'huile de coco a un indice de comédogénicité de 4 sur 5.",
-          "Le beurre de karité est considéré comme non-comédogène (indice 0)."
+          "L'échelle de comédogénicité de 0 à 5 et les ingrédients associés à chaque score.",
+          "La définition scientifique de la formation d'un comédon (accumulation de sébum et de kératinocytes).",
+          "La liste des ingrédients synthétiques souvent comédogènes (huiles minérales, silicones, PEGs)."
         ],
         "entities_to_mention": [
-          "Dr. James E. Fulton",
-          "Dr. Albert Kligman",
-          "INCI (International Nomenclature of Cosmetic Ingredients)",
-          "Yuka",
-          "INCI Beauty"
+          "Dr. Fulton (pour le contexte historique de l'échelle de comédogénicité)",
+          "Huile de coco",
+          "Beurre de karité",
+          "Silicones",
+          "Huiles minérales",
+          "Acide hyaluronique",
+          "Huile de jojoba"
         ],
         "target_word_count": 3000,
         "intent_type": "informational",
-        "featured_snippet_opportunity": "Tableau. Viser un tableau à 3 colonnes : 'Ingrédient (INCI)', 'Score de Comédogénicité (0-5)', et 'Alternatives Sûres'. La formulation cible serait une réponse directe à 'quelle est la liste des ingrédients comédogènes', en présentant les 10-15 ingrédients les plus courants avec leur score.",
+        "featured_snippet_opportunity": "Tableau ou liste à puces présentant l'échelle de comédogénicité avec des exemples clairs d'ingrédients pour chaque score.",
         "serp_features_detected": [
           "AI Overview",
-          "People Also Ask",
-          "Featured Snippet",
-          "Video",
-          "Image Pack"
+          "People Also Ask (PAA)",
+          "Featured Snippet"
         ],
         "grounding_sources": [
           {
             "title": "botanycare.fr",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYh3Tmsxk_0pilPU1LK793O6m221dRd-7PIBU9LolOrce-Zowd257tkZos3H4gi5uignqb5eqsL4-9Pi8GxCi-eKOK_EE8emVMLLI-LcFoLOfg8QVzgdtqeovWem8GwkGoNjDDOnB4rDCbIsjIOxoZ4m1qQ7LtcUUe17_UE904x13L2yXW_Q-vAG3N_e0opnZambYp"
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1yaNtgqD1q-NP_jiImA5SAno_ESLmn9qhXHmX7K-3p6r2pwGYSa7yUBfI48PmWZcwoFZjHz5pUlX5DVlygRsbykC3r90S07zZOUr0GDJyGyzQAWtt9jBOhSa48MGdqf2bWJan6WRR6qVS5E4e3bXgi2_93WxlFrPDzQ9z5hBUHAYaKhPRZ3aFvjK72XHozKzKIfQ="
+          },
+          {
+            "title": "typology.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVcVTQjBicRGBJpEMySEXajqk4cnC5R9vO8HOo3-KTGHkyDBRsp1TS0C7Vj2JBx-bhAvyQJaXfcn-tVETnm-C_cNZCG2OqhOYRtoNqWsKrAVWQoclqatQfVBTlsccQIf_UCiovhO4a-3sZG5On7FKDYSTNEUDNW5xTLuzZmkRrolMSp9rb7Uzc8ctm_aYRrhcGSL9PQlprdTs="
           },
           {
             "title": "ecco-verde.fr",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXXKRWKCJSSinrmePyG4fVSQHbBxz8R4rwgeoFOI4AM9gBeNS5VhNuFO5kkqeXQLZ7aBFv4lKn9yYkCaQAdpnj0HEPT2fl9JClvmf-Wf6agr3oY_KbpC4Q_hi5Q_ohqspFVywJQhNGL85vpWIyiccUCRk_Dzt0RTifU7QZ6I-_uCJWtDWKHzXWrg=="
-          },
-          {
-            "title": "saper.es",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1KQuLRguQMJ15_ImbnSfUELZHtQMRUojE6nfzHfIvpxKwyySmn7dwZHCROFtxmz08GASWjvTOZBGSOlJSqExfHFiP-VW7aiAswH5mv-7fBUrxmKPj8mdF5p6cXMJNyJ72bNW6Uvat95_agyUSxNu6pKZOwQ=="
-          },
-          {
-            "title": "laboratoire4e.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS72H5FzgLqas7yArnj1MlX5RFcLeZbc4d1rh9d9b7Vf76XCI6eDfjlF7DiC2evesAAL-R8NMG9nE6xM95G5qHTdKHlFzWugOTWYoT_so2MjddHvh0Xb-CdUG3aQRlqwiQJr3nRrXXlS9iar36e2-v4NvzqkpA7cFDpDJETeJs6ARH1kbOSf7JD2E8_Q=="
-          },
-          {
-            "title": "femmeactuelle.fr",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-MLAQ2-VzKBuQLdJ-FAJYl93YXLzJUnEdtNTZlY2YHRBNzk0wPvY3DbGEbzapWaU_ePDQk__0E-qM2PQ4aUN3Psuk0Ei1sirfkFI8Mlm0w9MPYIIOOgnPHEXWS-n9wEv7S3d0F8DGiWC7sHDYW_I7B-xQNz2zqRgklJwjq8dGdKLjmt_-qN82RYaVFvUN2d4udX_QHLxh6ZHg103IsPVZWMtrKb_RGQ9xRUSIvqbm7qSwR3XPopD6YQzp9G2Y00Og-VHHlGv00c7xVMMfyXYn3w=="
-          },
-          {
-            "title": "eau-thermale-avene.fr",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2k5jQCSlujE7Pv4s3-jHVvp-llIN2W5jUNN25m1yCcsD2_FAecIjl0oOLKwEcPWMEZ-z3tywNwba07Kg_zpitQ1M9Kdh7_LfgSqcIpSXnF6tMrSm7uVAQnBvMZZNRZcdnIINBB5d-JgZmbGkFwf90OeTbUSe5xiuHXlCYgg_ci4U2D71oQKf9AFtAGWDfn205ag=="
-          },
-          {
-            "title": "grangettes.store",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeSoxILP3qOTiE7xuWtGn1WW9U5zd-V05LuWCbapPMrQczd_H6GRUK9vHeFvh8JTD-uAINvTf692CyDJgYTfwEcEwhnjwrtL1flP1sHBFw1gra6XgpXv4Rc7SHYsiYhWOpQ75qeczITmvIZbvHlzq1bwSyITpkHlLBZ0Oi9T2MBm8JAU4A_Qofr_9a5qBLveRIbtIXHDKh1yVYj3s="
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQKAjGpbMbWcq3cm8CbLlv87esgYTyfjs8QYXGnv08XSqX-4kim56Fx6x2a027rILrQvxheudWdprLNpIyeseoCoef0kK-AoQKfbXlmd5sDX5xAiUEzn7Lz-rwpKNYxvDCHZIoyWSmRL-D52edUl3uRufQmnY8H5_dzBaWmwMcmcouKjVfxLYA"
           },
           {
             "title": "lemoly.fr",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkwgBb7W6GqdT9VFwjZYAxwIqAQQJZ_oHEAiyAydibSYL3P5ihnrOoFVngMPfPz57NDGL_SRdrAslB-lngBwodpj_iBS9xJpv8DJ6fl4ChhEbgiQkPnpo_3s9H5usDwF7kg9OUsA-c6GMOfh9o13nDQMXBoBOhdy6CNCzSRXxLXXNQkxm35i3Z4k9IfvBVgG5i"
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF265ehtnwZM_7ZZSbslXfRQFyNgfAeLc_XShRM7KOa0E7HdeFp06QRNzl8gKjGH4cQpraElNI54HmozDQdnXCXmz-VNPYEU6C3MqrWcs2O2WiW6twi-oDowbvO28BISgOchAE0RH0hywe-JuQG5FADaQ0sT8cZmPay_C5714sewQ1Uwi6Y07UP6aDKZRfnINI="
           },
           {
-            "title": "laroche-posay.com.au",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7e7AIylC1GAL3V6lLndEoU12lEzY8JDVXHrDxK6t-idNrbanXzLLaD-ysgL1DVPs638SMalY25B0S4PB_k1uNxAuX6GQ4ZUu1qiY8hEn0xpurmJIyKn8hSERB67LscNVqQSUINfDAKt-HOXKCHaoCx0RXoLYZWleGoFk2P-g7kNlr7eIkOg=="
+            "title": "laboratoire4e.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtOP1DYLcpmFvjv9drD7eVt4tRXhLc0GBR3MgsDqUcMtAG7EGBBdh9WRKtEPxp_zi77AFK-x2MG9YML0MNFptUbYv7ad1ykNR9HUjCG1oFcAG-IGtMLrdGYmd3_nkgBazmcMcNPyHDb-xnjvNS09xXjoKur0EO4UbPO9cqPryP9NfvRFNO89wgKhmx"
           },
           {
-            "title": "beekman1802.com",
-            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR9TT4Y08hNgeVRYJGC_UL1CoNiSUBHaA_EZcdElhwUaEptpSeLQyKG8tYU9HtyLcsX1J1Ve1Si4wsckbq4SoVmbdj1gXLJs8CmciGAihuE0jP7h-dQnrP-56w_YNuZaiLF_RGD5e-zHJue772srv33UYsYZ5EqxuYncd8AMvpMDtiGBUugg=="
+            "title": "wordpress.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-G3acGTE02lG03h9AnxDIUnNsK-nDPmVss5BEWfGSAX1IXd9n0Px1xqibW8G_u1rvsNyMoeXhj8j3vOlPtv9EwS2CXOhIzGgfraj9BbOgiZ7jR0S8WUNTl1rSStSWT38k1d5JgIEGikV0Fr7e1DgqSU-fnXmMDArScfQ6np5SQKWf_3gdb0KxPB3ZmjtIGAxTyAWANOxu"
+          },
+          {
+            "title": "dermalogica.be",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHLexwe4SMQ0fEf3PIhZPi8ybS9qhgPqMcEgmr0AyTfa6zXWmo-4zRVhnNyXY6p715YKqqQqri-tx9Xg7Dpc6Rdw4O-wVGF2mUUGG_yClqetcnqRKJfnmWFqKWfHKPgNuPgfY_REl4p118nfDVT-Vvw09x6pPsUG0="
+          },
+          {
+            "title": "saper.es",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYj3NqIGMhZCxobm6dOijr8xl6lKN8NmTyKmWF_0d2Utdw1PPyEXgH0InS5aar1sUIWB3pAJVFn4SiPCbsaf6jMJkxqRGUwHi9eRZAk_FNhyGK8b1G4QxhH8jqCsqGCnsyq8Ntpx8lkqv3vTY8JJ9ygAk9"
+          },
+          {
+            "title": "epicosm.fr",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPr7ph7lZP9WYNUEUj-NnDhEG0Fnn7G9OqVHv7AXcw5E-UewLI-sh4KGEtro9eIjn-Wbc4l5oVlWsqN6NBDFpJMXiSfhsr4SrHZDqVJshyaarMZkuHPowikQjJBSC6E2IDWfjMSUQ9_GgU_UJtABF-AIW4KL6iGyuP"
+          },
+          {
+            "title": "lecosmetologue.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOveo4jMPypZ677nGHpkBasdNjrW3bOZCRhyPZtVHosW5w1vP00NdkR-oahdzmB4aF_Yx_niVhAem5OG0_A9gEuMn9mkQhCEn7_1TFf6pRZEBh66y75VpFJ46NpVUUR1C0PemO72lLoZESqtmFvlPSnztr4Ms="
           }
         ]
       }
     },
-    "title": "Les 10 ingredients les plus comedogenes en skincare"
+    "title": "Les 10 ingredients les plus comedogenes en skincare",
+    "queue_file": "10-ingredients-comedogenes-pires-peau.md",
+    "pre_generated_at": "2026-04-23T01:12:22",
+    "quality_passed": true
   },
   {
     "slug": "best-moisturizer-dry-skin-dermatologist-picks",
