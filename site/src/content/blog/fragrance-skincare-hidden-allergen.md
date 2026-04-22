@@ -22,6 +22,8 @@ That luxurious floral scent in your moisturiser is not just a pleasant bonus. It
 
 In this article, we are going beyond the usual "fragrance is bad, avoid it" advice. We will dig into the actual science of how fragrance triggers skin reactions, explain why "natural" scent is not automatically safer, decode what "fragrance-free" really means on a label (hint: it is not what you think), compare EU and US regulatory frameworks, and give you a data-driven list of the best fragrance-free products across categories, pulled from SkinScore's analysis of over 2,700 products. By the end, you will know exactly what to look for and what to skip.
 
+**In a hurry?** Jump straight to [the 26 EU-regulated fragrance allergens](#how-to-spot-fragrance-on-an-ingredient-list-the-26-eu-allergens) to check your current products, or to [the best fragrance-free products by category](#skinscores-data-driven-verdict-the-best-fragrance-free-products-by-category).
+
 ---
 
 ## Why Is Fragrance in Skincare So Controversial?

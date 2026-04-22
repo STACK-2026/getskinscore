@@ -60,9 +60,9 @@ The texture and absorption rates differ significantly too. CeraVe's moisturisers
 
 ## Price analysis: value for money breakdown
 
-Here's where things get interesting from a value perspective. CeraVe Moisturising Cream (454g) typically costs £12-15, working out to roughly 3p per gram. [Cetaphil Moisturising Lotion](https://getskinscore.com/product/cetaphil-moisturizing-lotion) (473ml) costs £8-12, approximately 2.5p per gram.
+Here's where things get interesting from a value perspective. CeraVe Moisturising Cream (454g) typically costs 14-18 EUR (12-15 GBP), working out to roughly 3 cents per gram. [Cetaphil Moisturising Lotion](https://getskinscore.com/product/cetaphil-moisturizing-lotion) (473ml) costs 9-14 EUR (8-12 GBP), approximately 2.5 cents per gram.
 
-But price per gram tells only part of the story. When we factor in ingredient quality and concentration, CeraVe delivers significantly better value. The ceramide complex alone would cost £20+ if purchased as separate skincare actives. You're essentially getting pharmaceutical-grade barrier repair technology at drugstore prices.
+But price per gram tells only part of the story. When we factor in ingredient quality and concentration, CeraVe delivers significantly better value. The ceramide complex alone would cost 23 EUR+ (20 GBP+) if purchased as separate skincare actives. You're essentially getting pharmaceutical-grade barrier repair technology at drugstore prices.
 
 Cetaphil's lower price reflects simpler formulations with basic moisturising ingredients. Whilst this approach works for some people, you're paying for simplicity rather than innovation or advanced efficacy.
 

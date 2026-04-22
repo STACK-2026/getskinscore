@@ -90,7 +90,7 @@ These are the products that scored highest in our formulation analysis for dry s
 
 **1. CeraVe Moisturising Cream**
 SkinScore: **A**
-Price: approximately 12-18 GBP / 15-20 USD for 340g
+Price: approximately 14-21 EUR (12-18 GBP / 15-20 USD) for 340g
 
 This is the benchmark. The formulation leads with water and glycerin, delivers three ceramide types (ceramide NP, AP, and EOP), includes hyaluronic acid, cholesterol, and niacinamide, and uses petrolatum and dimethicone as occlusives. The MultiVesicular Emulsion delivery system is genuinely unique and clinically studied. Fragrance-free. Non-comedogenic. Suitable for the face and body. At this price point, it is essentially impossible to beat on a cost-per-effective-ingredient basis.
 
@@ -98,13 +98,13 @@ The only criticism: the texture is thick and slightly sticky, which some users d
 
 **2. La Roche-Posay Toleriane Double Repair Face Moisturiser**
 SkinScore: **A**
-Price: approximately 20-24 GBP / 25-30 USD for 75ml
+Price: approximately 23-28 EUR (20-24 GBP / 25-30 USD) for 75ml
 
 A worthy A-tier formulation. It contains ceramide-3, niacinamide (5%), and La Roche-Posay's signature prebiotic thermal water, which has demonstrated anti-inflammatory properties in clinical studies. The lighter texture makes it more suitable for daytime use. Fragrance-free. The concentration of ceramide-3 alone is unlikely to match CeraVe's multi-ceramide approach, but the niacinamide dose and overall formulation coherence earn it the A.
 
 **3. Cetaphil Moisturising Cream**
 SkinScore: **A-**
-Price: approximately 10-14 GBP / 12-18 USD for 250g
+Price: approximately 12-16 EUR (10-14 GBP / 12-18 USD) for 250g
 
 [Cetaphil's Moisturising Cream](https://getskinscore.com/product/cetaphil-moisturizing-cream) is a clinical classic for good reason. A 2019 split-face study published in the British Journal of Dermatology found it restored barrier function measurably within 7 days of twice-daily use. The formulation is glycerin-forward with petrolatum, dimethicone, and sweet almond oil as emollients. It lacks ceramides, which knocks it just below a full A for dry-skin-specific repair, but for sensitive dry skin it remains one of the safest and most effective options available.
 
@@ -112,13 +112,13 @@ Price: approximately 10-14 GBP / 12-18 USD for 250g
 
 **4. Kiehl's Ultra Facial Cream**
 SkinScore: **B+**
-Price: approximately 28-35 GBP / 35-42 USD for 50ml
+Price: approximately 33-41 EUR (28-35 GBP / 35-42 USD) for 50ml
 
 Kiehl's Ultra Facial Cream is one of the most marketed moisturisers in the world, and it is genuinely good. The formulation includes squalane, glycerin, and polar lipids from apricot kernel, and it layers well under SPF. The caveat: at this price, the formulation does not justify the premium versus CeraVe. It lacks ceramides and the occlusive layer is light. It scores well for texture and tolerability, but you are partly paying for the brand. Visit our [Kiehl's brand page](https://getskinscore.com/brand/kiehls) for more product comparisons.
 
 **5. SkinCeuticals Triple Lipid Restore 2:4:2**
 SkinScore: **B+**
-Price: approximately 130-150 GBP / 155-185 USD for 48ml
+Price: approximately 152-176 EUR (130-150 GBP / 155-185 USD) for 48ml
 
 This is the luxury pick that at least justifies part of its price tag. The name refers to the ceramide:cholesterol:fatty acid ratio (2%:4%:2%), which mirrors the natural skin barrier composition more closely than almost any other product on the market. It contains ceramide-2, squalane, and linoleic acid-rich plant oils. Does it score better than CeraVe? No. Does it offer a legitimate science-based formulation? Yes. If you want a barrier repair product in a luxury format and budget is not a concern, this is the one to choose. Anything else in this price bracket is mostly packaging.
 
@@ -130,14 +130,14 @@ Let's be completely direct here, because this is the comparison no one in mainst
 
 | Product | Price per 100ml | Ceramides | Humectants | Occlusives | Irritants | SkinScore |
 |---|---|---|---|---|---|---|
-| CeraVe Moisturising Cream | ~4 GBP | 3 types | Glycerin, HA | Petrolatum, Dimethicone | None | A |
-| Cetaphil Moisturising Cream | ~5 GBP | None | Glycerin | Petrolatum, Dimethicone | None | A- |
-| La Roche-Posay Toleriane | ~32 GBP | Ceramide-3 | Glycerin, HA | Dimethicone | None | A |
-| Kiehl's Ultra Facial Cream | ~65 GBP | None | Glycerin | Squalane | Fragrance trace | B+ |
-| SkinCeuticals Triple Lipid | ~320 GBP | Ceramide-2 | Niacinamide | Squalane, Fatty Acids | None | B+ |
-| La Mer Moisturising Cream | ~650 GBP | None significant | Glycerin | Mineral oil | Fragrance | B |
+| CeraVe Moisturising Cream | ~5 EUR / 4 GBP | 3 types | Glycerin, HA | Petrolatum, Dimethicone | None | A |
+| Cetaphil Moisturising Cream | ~6 EUR / 5 GBP | None | Glycerin | Petrolatum, Dimethicone | None | A- |
+| La Roche-Posay Toleriane | ~37 EUR / 32 GBP | Ceramide-3 | Glycerin, HA | Dimethicone | None | A |
+| Kiehl's Ultra Facial Cream | ~76 EUR / 65 GBP | None | Glycerin | Squalane | Fragrance trace | B+ |
+| SkinCeuticals Triple Lipid | ~375 EUR / 320 GBP | Ceramide-2 | Niacinamide | Squalane, Fatty Acids | None | B+ |
+| La Mer Moisturising Cream | ~760 EUR / 650 GBP | None significant | Glycerin | Mineral oil | Fragrance | B |
 
-The conclusion is uncomfortable for luxury brands: CeraVe at 4 GBP per 100ml outperforms La Mer at 650 GBP per 100ml on the formulation criteria that actually matter for dry skin repair. La Mer's "Miracle Broth" is a fermented kelp extract that has never been independently validated in a peer-reviewed clinical trial at the concentrations used. It scores B, not because the formulation is harmful, but because it underdelivers on barrier repair ingredients relative to its price and marketing claims.
+The conclusion is uncomfortable for luxury brands: CeraVe at 5 EUR per 100ml outperforms La Mer at 760 EUR per 100ml on the formulation criteria that actually matter for dry skin repair. La Mer's "Miracle Broth" is a fermented kelp extract that has never been independently validated in a peer-reviewed clinical trial at the concentrations used. It scores B, not because the formulation is harmful, but because it underdelivers on barrier repair ingredients relative to its price and marketing claims.
 
 The one genuine exception is SkinCeuticals, where the 2:4:2 lipid ratio represents a deliberate and science-backed formulation decision. You are still paying a luxury premium, but at least you are getting a formulation that is doing something your skin cannot replicate easily from a cheaper jar.
 
