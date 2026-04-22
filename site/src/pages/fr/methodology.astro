@@ -6,37 +6,44 @@ import { jsonLdBreadcrumbs } from "../../utils/seo";
 
 const breadcrumbs = [
   { name: "Accueil", url: fullUrl("/fr/") },
-  { name: "Methodologie", url: fullUrl("/fr/methodology") },
+  { name: "Méthodologie", url: fullUrl("/fr/methodology") },
 ];
 ---
 
 <BaseLayout
-  title={`Methodologie de notation - Comment SkinScore note les produits | ${siteConfig.name}`}
-  description="Transparence totale sur la facon dont SkinScore note les produits skincare. Cinq dimensions, ponderation, sources de donnees et seuils de notes."
+  title={`Méthodologie de notation · Comment SkinScore note les produits | ${siteConfig.name}`}
+  description="Transparence totale sur la façon dont SkinScore note les produits skincare. Cinq dimensions, pondération, sources de données et seuils de notes."
   jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
 >
   <div class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
-    <h1 class="text-center mb-4">Methodologie de notation</h1>
-    <p class="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
-      Transparence totale sur la facon dont SkinScore note chaque produit. Cinq dimensions, ponderation, sources et seuils.
+    <h1 class="text-center mb-4">Méthodologie de notation</h1>
+    <p class="text-center text-slate-600 mb-8 max-w-2xl mx-auto">
+      Transparence totale sur la façon dont SkinScore note chaque produit. Cinq dimensions, pondération, sources de données et seuils.
     </p>
+
+    <aside data-speakable aria-label="TL;DR" class="max-w-2xl mx-auto mb-12 rounded-xl border border-violet-200 bg-violet-50/60 px-6 py-5 text-slate-700">
+      <p class="text-xs font-bold uppercase tracking-wider text-violet-700 mb-2">TL;DR</p>
+      <p class="text-[15px] leading-relaxed">
+        <strong>La méthodologie SkinScore</strong> note chaque produit de 0 à 100 sur cinq dimensions pondérées : efficacité (30%), sécurité (25%), comédogénicité (20%), transparence (15%), compatibilité peau (10%). Les données proviennent d'EU CosIng (30 000+ ingrédients), des avis SCCS et de la recherche dermatologique. Les seuils : A (85-100), B (70-84), C (55-69), D (40-54), E (0-39). Aucune marque ne peut acheter un meilleur score.
+      </p>
+    </aside>
 
     <div class="prose max-w-none">
       <h2>Cinq dimensions, un score</h2>
-      <p>Chaque produit est analyse selon cinq dimensions independantes. Chaque dimension produit un score de 0 a 100, puis un score final pondere est calcule.</p>
+      <p>Chaque produit est analysé selon cinq dimensions indépendantes. Chaque dimension produit un score de 0 à 100, puis un score final pondéré est calculé.</p>
 
       <table>
         <thead><tr><th>Dimension</th><th>Poids</th><th>Ce qu'on mesure</th></tr></thead>
         <tbody>
-          <tr><td><strong>Efficacite</strong></td><td>30%</td><td>Presence et position d'actifs prouves (retinol, niacinamide, vitamine C, AHA/BHA, ceramides...)</td></tr>
-          <tr><td><strong>Securite</strong></td><td>25%</td><td>Absence d'ingredients nocifs (allergenes, perturbateurs endocriniens, substances reglementees UE)</td></tr>
-          <tr><td><strong>Comedogenicite</strong></td><td>20%</td><td>Risque d'obstruction des pores base sur l'echelle comedogene 0-5 de chaque ingredient</td></tr>
-          <tr><td><strong>Transparence</strong></td><td>15%</td><td>INCI complet, concentrations divulguees, certifications (vegan, cruelty-free, bio)</td></tr>
-          <tr><td><strong>Compatibilite peau</strong></td><td>10%</td><td>Adaptation de la formule au type de peau (seche, grasse, mixte, sensible, normale)</td></tr>
+          <tr><td><strong>Efficacité</strong></td><td>30%</td><td>Présence et position d'actifs prouvés (rétinol, niacinamide, vitamine C, AHA/BHA, céramides...)</td></tr>
+          <tr><td><strong>Sécurité</strong></td><td>25%</td><td>Absence d'ingrédients nocifs (allergènes, perturbateurs endocriniens, substances réglementées UE)</td></tr>
+          <tr><td><strong>Comédogénicité</strong></td><td>20%</td><td>Risque d'obstruction des pores basé sur l'échelle comédogène 0-5 de chaque ingrédient</td></tr>
+          <tr><td><strong>Transparence</strong></td><td>15%</td><td>INCI complet, concentrations divulguées, certifications (vegan, cruelty-free, bio)</td></tr>
+          <tr><td><strong>Compatibilité peau</strong></td><td>10%</td><td>Adaptation de la formule au type de peau déclaré (sèche, grasse, mixte, sensible, normale)</td></tr>
         </tbody>
       </table>
 
-      <h2>Echelle de notation</h2>
+      <h2>Échelle de notation</h2>
       <div class="not-prose flex items-center gap-4 justify-center my-8">
         <div class="text-center"><div class="grade grade-lg grade-a mx-auto mb-2">A</div><p class="text-xs text-slate-500">85-100</p></div>
         <div class="text-center"><div class="grade grade-lg grade-b mx-auto mb-2">B</div><p class="text-xs text-slate-500">70-84</p></div>
@@ -45,19 +52,19 @@ const breadcrumbs = [
         <div class="text-center"><div class="grade grade-lg grade-e mx-auto mb-2">E</div><p class="text-xs text-slate-500">0-39</p></div>
       </div>
 
-      <h2>Sources de donnees</h2>
+      <h2>Sources de données</h2>
       <ul>
-        <li><strong>EU CosIng</strong> - Base officielle de la Commission europeenne (30 000+ ingredients cosmetiques)</li>
-        <li><strong>SCCS</strong> - Comite scientifique pour la securite des consommateurs</li>
-        <li><strong>Recherche dermatologique</strong> - Publications et essais cliniques dans les journaux de reference</li>
-        <li><strong>Listes INCI fabricants</strong> - Compositions completes des emballages</li>
+        <li><strong>EU CosIng</strong> · Base officielle de la Commission européenne (30 000+ ingrédients cosmétiques, numéros CAS, fonctions, restrictions)</li>
+        <li><strong>SCCS</strong> · Comité scientifique pour la sécurité des consommateurs (avis de sécurité sur les ingrédients cosmétiques)</li>
+        <li><strong>Recherche dermatologique</strong> · Publications et essais cliniques dans les journaux de dermatologie de référence</li>
+        <li><strong>Listes INCI fabricants</strong> · Compositions complètes des emballages produits</li>
       </ul>
 
-      <h2>Independance</h2>
-      <p>SkinScore n'accepte aucun paiement des marques pour influencer les notes. Nos revenus proviennent de liens affilies vers des detaillants (qui n'affectent jamais les scores) et d'abonnements premium optionnels.</p>
+      <h2>Indépendance</h2>
+      <p>SkinScore n'accepte aucun paiement des marques pour influencer les notes. Nos revenus proviennent de liens affiliés vers des détaillants (qui n'affectent jamais les scores) et d'abonnements premium optionnels. Aucune marque ne peut acheter un meilleur score.</p>
 
       <h2>Limites</h2>
-      <p>Notre notation est basee sur les ingredients declares, pas sur les concentrations exactes (rarement divulguees). L'ordre INCI donne une indication relative. Nous mettons a jour les scores quand les marques reformulent.</p>
+      <p>Notre notation est basée sur les ingrédients déclarés, pas sur les concentrations exactes (rarement divulguées par les marques). L'ordre INCI donne une indication relative, mais deux produits avec les mêmes ingrédients dans le même ordre peuvent avoir des concentrations différentes. Nous mettons à jour les scores quand les marques reformulent.</p>
     </div>
   </div>
 </BaseLayout>

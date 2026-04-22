@@ -21,13 +21,38 @@ const breadcrumbs = [
   jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
 >
   <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
-    <div class="text-center mb-10">
+    <div class="text-center mb-8">
       <h1 class="mb-3">{locale === "fr" ? "Classement skincare" : "Skincare rankings"}</h1>
       <p class="text-slate-600 max-w-2xl mx-auto">
         {locale === "fr"
-          ? `${sorted.length} produits notes de A a E. Independant, base sur la science, jamais influence par les marques.`
+          ? `${sorted.length} produits notés de A à E. Indépendant, basé sur la science, jamais influencé par les marques.`
           : `${sorted.length} products rated from A to E. Independent, science-backed, never influenced by brands.`}
       </p>
+    </div>
+
+    <aside data-speakable aria-label="TL;DR" class="max-w-3xl mx-auto mb-10 rounded-xl border border-violet-200 bg-violet-50/60 px-6 py-5 text-slate-700">
+      <p class="text-xs font-bold uppercase tracking-wider text-violet-700 mb-2">TL;DR</p>
+      <p class="text-[15px] leading-relaxed">
+        {locale === "fr" ? (
+          <><strong>Le classement SkinScore</strong> note chaque produit de A (85 à 100) à E (0 à 39) sur cinq axes : efficacité (actifs prouvés), sécurité (allergènes, perturbateurs endocriniens), comédogénicité, transparence (INCI complète) et compatibilité avec ton type de peau. Les données proviennent d'EU CosIng, des avis SCCS et de la recherche dermatologique revue par les pairs. Aucune marque ne nous paie. La Mer obtient un C, on s'en fiche.</>
+        ) : (
+          <><strong>SkinScore rankings</strong> grade every product from A (85 to 100) down to E (0 to 39) across five dimensions: efficacy (proven actives), safety (allergens, endocrine disruptors), comedogenicity, transparency (full INCI), and skin-type fit. Data comes from EU CosIng, SCCS opinions, and peer-reviewed dermatology research. No brand pays us. La Mer gets a C. We don't care.</>
+        )}
+      </p>
+    </aside>
+
+    <div class="max-w-3xl mx-auto mb-10 text-slate-600 leading-relaxed space-y-4">
+      {locale === "fr" ? (
+        <>
+          <p>Pour utiliser ce classement, repère d'abord ta catégorie de produit (nettoyant, sérum, hydratant, exfoliant) via les scores globaux. Un grade A ne signifie pas que le produit sera parfait pour toi : regarde le sous-score "compatibilité" selon ton type de peau (sèche, grasse, sensible, mixte, normale). Un score global de 85 sur un produit noté D en compatibilité peau sensible reste un mauvais choix si ta peau réagit.</p>
+          <p>Les seuils sont stricts : A = 85 à 100 (excellent, à peu près irréprochable), B = 70 à 84 (très bon, quelques compromis mineurs), C = 55 à 69 (correct, mais mieux ailleurs), D = 40 à 54 (évite pour ton type de peau), E = 0 à 39 (formulation problématique). Les scores sont recalculés dès qu'un fabricant change sa formulation INCI.</p>
+        </>
+      ) : (
+        <>
+          <p>To use this ranking, first locate your product category (cleanser, serum, moisturiser, exfoliant) via the overall scores. A grade of A does not mean the product will be perfect for you: check the "skin-type fit" sub-score against your own profile (dry, oily, sensitive, combination, normal). A global 85 on a product that rates D for sensitive skin is still a bad pick if your skin reacts.</p>
+          <p>The thresholds are strict: A = 85 to 100 (excellent, near-flawless), B = 70 to 84 (very good, minor compromises), C = 55 to 69 (acceptable, better options exist), D = 40 to 54 (avoid for your skin type), E = 0 to 39 (problematic formulation). Scores are recomputed whenever a manufacturer changes the INCI list.</p>
+        </>
+      )}
     </div>
 
     <div class="space-y-3">

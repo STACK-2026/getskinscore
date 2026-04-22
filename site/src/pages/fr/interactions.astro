@@ -33,18 +33,29 @@ const interactions = [
 
 <BaseLayout
   title={`${locale === "fr" ? "Checker d'interactions skincare" : "Skincare Interaction Checker"} | ${siteConfig.name}`}
-  description={locale === "fr" ? "Puis-je utiliser du retinol avec de la vitamine C ? Verifie si tes actifs skincare sont compatibles. Base sur la science." : "Can I use retinol with vitamin C? Check if your skincare actives are compatible. Science-backed."}
+  description={locale === "fr" ? "Puis-je utiliser du rétinol avec de la vitamine C ? Vérifie si tes actifs skincare sont compatibles. Basé sur la science." : "Can I use retinol with vitamin C? Check if your skincare actives are compatible. Science-backed."}
   jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
 >
   <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
-    <div class="text-center mb-10">
+    <div class="text-center mb-8">
       <h1 class="mb-3">{locale === "fr" ? "Checker d'interactions skincare" : "Skincare Interaction Checker"}</h1>
       <p class="text-slate-500 max-w-2xl mx-auto">
         {locale === "fr"
-          ? "\"Puis-je utiliser du retinol avec de la vitamine C ?\" Verifie la compatibilite de tes actifs. Base sur la recherche dermatologique, pas les mythes TikTok."
+          ? "\"Puis-je utiliser du rétinol avec de la vitamine C ?\" Vérifie la compatibilité de tes actifs. Basé sur la recherche dermatologique, pas les mythes TikTok."
           : "\"Can I use retinol with vitamin C?\" Check your actives compatibility. Based on dermatology research, not TikTok myths."}
       </p>
     </div>
+
+    <aside data-speakable aria-label="TL;DR" class="max-w-3xl mx-auto mb-10 rounded-xl border border-violet-200 bg-violet-50/60 px-6 py-5 text-slate-700">
+      <p class="text-xs font-bold uppercase tracking-wider text-violet-700 mb-2">TL;DR</p>
+      <p class="text-[15px] leading-relaxed">
+        {locale === "fr" ? (
+          <><strong>Les interactions skincare</strong> ne sont pas toutes égales. Combinaisons sûres ou synergiques : niacinamide + vitamine C (le mythe de l'incompatibilité est débunké depuis 2010), céramides + acide hyaluronique, SPF avec tout le reste. Combinaisons risquées à séparer : rétinol + AHA/BHA le même soir (irritation cumulée), L-ascorbique + rétinol (oxydation), benzoyl peroxide + rétinol (dégradation mutuelle). Toujours introduire un nouvel actif seul pendant 2 semaines.</>
+        ) : (
+          <><strong>Skincare interactions</strong> are not all equal. Safe or synergistic combinations: niacinamide + vitamin C (the incompatibility myth was debunked in 2010), ceramides + hyaluronic acid, SPF with everything else. Risky combinations to separate: retinol + AHA/BHA the same night (cumulative irritation), L-ascorbic acid + retinol (oxidation), benzoyl peroxide + retinol (mutual degradation). Always introduce a new active alone for 2 weeks first.</>
+        )}
+      </p>
+    </aside>
 
     <!-- Search/filter -->
     <div class="mb-8">

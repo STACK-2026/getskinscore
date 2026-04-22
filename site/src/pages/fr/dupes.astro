@@ -77,17 +77,28 @@ function gc(grade: string) { return `grade-${grade.toLowerCase()}`; }
   jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
 >
   <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
-    <div class="text-center mb-10">
+    <div class="text-center mb-8">
       <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-100 text-amber-700 text-sm font-semibold mb-4">
-        {locale === "fr" ? "Memes actifs, prix divise" : "Same actives, fraction of the price"}
+        {locale === "fr" ? "Mêmes actifs, prix divisé" : "Same actives, fraction of the price"}
       </div>
       <h1 class="mb-3">{locale === "fr" ? "Trouveur de dupes" : "Dupe Finder"}</h1>
       <p class="text-slate-500 max-w-2xl mx-auto">
         {locale === "fr"
-          ? "L'acide L-ascorbique est l'acide L-ascorbique, qu'il coute 160 EUR ou 15 EUR. On compare les formules ingredient par ingredient et on te montre l'alternative intelligente."
+          ? "L'acide L-ascorbique est l'acide L-ascorbique, qu'il coûte 160 EUR ou 15 EUR. On compare les formules ingrédient par ingrédient et on te montre l'alternative intelligente."
           : "L-ascorbic acid is L-ascorbic acid whether it costs 160 EUR or 15 EUR. We compare formulas ingredient by ingredient and show you the smart alternative."}
       </p>
     </div>
+
+    <aside data-speakable aria-label="TL;DR" class="max-w-3xl mx-auto mb-10 rounded-xl border border-amber-200 bg-amber-50/60 px-6 py-5 text-slate-700">
+      <p class="text-xs font-bold uppercase tracking-wider text-amber-700 mb-2">TL;DR</p>
+      <p class="text-[15px] leading-relaxed">
+        {locale === "fr" ? (
+          <><strong>Les dupes SkinScore</strong> identifient les produits moins chers qui partagent les mêmes actifs prouvés que les références de luxe. Exemples vérifiés : La Mer Crème (350 EUR) vs CeraVe Moisturising Cream (15 EUR, score supérieur), SkinCeuticals C E Ferulic (160 EUR) vs Geek & Gorgeous Liquid Gold (15 EUR). On compare l'INCI réel, pas les promesses marketing. {resolvedPairs.length} paires de dupes validées par notre équipe.</>
+        ) : (
+          <><strong>SkinScore dupes</strong> identifies cheaper products that share the same proven actives as luxury references. Verified examples: La Mer Crème (350 EUR) vs CeraVe Moisturising Cream (15 EUR, higher score), SkinCeuticals C E Ferulic (160 EUR) vs Geek & Gorgeous Liquid Gold (15 EUR). We compare real INCI lists, not marketing promises. {resolvedPairs.length} verified dupe pairs curated by our team.</>
+        )}
+      </p>
+    </aside>
 
     <div class="space-y-8">
       {resolvedPairs.map((pair) => (

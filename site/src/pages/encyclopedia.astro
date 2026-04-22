@@ -26,14 +26,25 @@ const breadcrumbs = [
   jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
 >
   <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
-    <div class="text-center mb-10">
-      <h1 class="mb-3">{locale === "fr" ? "Encyclopedie des ingredients" : "Ingredient encyclopedia"}</h1>
+    <div class="text-center mb-8">
+      <h1 class="mb-3">{locale === "fr" ? "Encyclopédie des ingrédients" : "Ingredient encyclopedia"}</h1>
       <p class="text-slate-600 max-w-2xl mx-auto">
         {locale === "fr"
-          ? `${ingredients.length} ingredients INCI decodes. Chaque nom scientifique explique en langage clair avec score de securite, comedogenicite et compatibilite peau.`
+          ? `${ingredients.length} ingrédients INCI décodés. Chaque nom scientifique expliqué en langage clair avec score de sécurité, comédogénicité et compatibilité peau.`
           : `${ingredients.length} INCI ingredients decoded. Every scientific name explained in plain language with safety scores, comedogenic ratings, and skin-type fit.`}
       </p>
     </div>
+
+    <aside data-speakable aria-label="TL;DR" class="max-w-3xl mx-auto mb-10 rounded-xl border border-violet-200 bg-violet-50/60 px-6 py-5 text-slate-700">
+      <p class="text-xs font-bold uppercase tracking-wider text-violet-700 mb-2">TL;DR</p>
+      <p class="text-[15px] leading-relaxed">
+        {locale === "fr" ? (
+          <><strong>L'encyclopédie SkinScore</strong> décode {ingredients.length} ingrédients INCI, chacun noté de A à E sur trois axes : sécurité (allergènes, perturbateurs endocriniens, restrictions UE), efficacité (preuves cliniques) et comédogénicité (risque d'obstruction des pores, échelle 0-5). Cherche un ingrédient par son nom INCI ou filtre par catégorie (actifs, conservateurs, émollients, tensioactifs). Données issues d'EU CosIng, SCCS et PubMed.</>
+        ) : (
+          <><strong>The SkinScore encyclopedia</strong> decodes {ingredients.length} INCI ingredients, each graded A to E on three axes: safety (allergens, endocrine disruptors, EU restrictions), efficacy (clinical evidence), and comedogenicity (pore-clogging risk, 0-5 scale). Search by INCI name or filter by category (actives, preservatives, emollients, surfactants). Data sourced from EU CosIng, SCCS opinions, and PubMed research.</>
+        )}
+      </p>
+    </aside>
 
     <!-- Category filters -->
     <div class="flex flex-wrap gap-2 mb-8 justify-center">

@@ -18,18 +18,29 @@ const breadcrumbs = [
   jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
 >
   <div class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
-    <h1 class="text-center mb-4">{locale === "fr" ? "Methodologie de notation" : "Scoring methodology"}</h1>
-    <p class="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
+    <h1 class="text-center mb-4">{locale === "fr" ? "Méthodologie de notation" : "Scoring methodology"}</h1>
+    <p class="text-center text-slate-600 mb-8 max-w-2xl mx-auto">
       {locale === "fr"
-        ? "Transparence totale sur la facon dont SkinScore note les produits. Cinq dimensions, ponderation, sources de donnees et seuils de notes expliques."
+        ? "Transparence totale sur la façon dont SkinScore note les produits. Cinq dimensions, pondération, sources de données et seuils de notes expliqués."
         : "Full transparency on how SkinScore rates every product. Five dimensions, weighting, data sources, and grade thresholds explained."}
     </p>
+
+    <aside data-speakable aria-label="TL;DR" class="max-w-2xl mx-auto mb-12 rounded-xl border border-violet-200 bg-violet-50/60 px-6 py-5 text-slate-700">
+      <p class="text-xs font-bold uppercase tracking-wider text-violet-700 mb-2">TL;DR</p>
+      <p class="text-[15px] leading-relaxed">
+        {locale === "fr" ? (
+          <><strong>La méthodologie SkinScore</strong> note chaque produit de 0 à 100 sur cinq dimensions pondérées : efficacité (30%), sécurité (25%), comédogénicité (20%), transparence (15%), compatibilité peau (10%). Les données proviennent d'EU CosIng (30 000+ ingrédients), des avis SCCS et de la recherche dermatologique. Les seuils : A (85-100), B (70-84), C (55-69), D (40-54), E (0-39). Aucune marque ne peut acheter un meilleur score.</>
+        ) : (
+          <><strong>SkinScore methodology</strong> grades every product from 0 to 100 across five weighted dimensions: efficacy (30%), safety (25%), comedogenicity (20%), transparency (15%), skin-type fit (10%). Data comes from EU CosIng (30,000+ ingredients), SCCS safety opinions, and peer-reviewed dermatology research. Thresholds: A (85-100), B (70-84), C (55-69), D (40-54), E (0-39). No brand can buy a better score.</>
+        )}
+      </p>
+    </aside>
 
     <div class="prose max-w-none">
       <h2>{locale === "fr" ? "Cinq dimensions, un score" : "Five dimensions, one score"}</h2>
       <p>
         {locale === "fr"
-          ? "Chaque produit est analyse selon cinq dimensions independantes. Chaque dimension produit un score de 0 a 100, puis un score final pondere est calcule."
+          ? "Chaque produit est analysé selon cinq dimensions indépendantes. Chaque dimension produit un score de 0 à 100, puis un score final pondéré est calculé."
           : "Every product is analysed across five independent dimensions. Each dimension produces a 0-100 score, then a weighted final score is calculated."}
       </p>
 
@@ -43,34 +54,34 @@ const breadcrumbs = [
         </thead>
         <tbody>
           <tr>
-            <td><strong>{locale === "fr" ? "Efficacite" : "Efficacy"}</strong></td>
+            <td><strong>{locale === "fr" ? "Efficacité" : "Efficacy"}</strong></td>
             <td>30%</td>
-            <td>{locale === "fr" ? "Presence et position d'actifs prouves (retinol, niacinamide, vitamine C, AHA/BHA, ceramides...)" : "Presence and position of proven actives (retinol, niacinamide, vitamin C, AHA/BHA, ceramides...)"}</td>
+            <td>{locale === "fr" ? "Présence et position d'actifs prouvés (rétinol, niacinamide, vitamine C, AHA/BHA, céramides...)" : "Presence and position of proven actives (retinol, niacinamide, vitamin C, AHA/BHA, ceramides...)"}</td>
           </tr>
           <tr>
-            <td><strong>{locale === "fr" ? "Securite" : "Safety"}</strong></td>
+            <td><strong>{locale === "fr" ? "Sécurité" : "Safety"}</strong></td>
             <td>25%</td>
-            <td>{locale === "fr" ? "Absence d'ingredients nocifs (allergenes, perturbateurs endocriniens, substances reglementees UE)" : "Absence of harmful ingredients (allergens, endocrine disruptors, EU-restricted substances)"}</td>
+            <td>{locale === "fr" ? "Absence d'ingrédients nocifs (allergènes, perturbateurs endocriniens, substances réglementées UE)" : "Absence of harmful ingredients (allergens, endocrine disruptors, EU-restricted substances)"}</td>
           </tr>
           <tr>
-            <td><strong>{locale === "fr" ? "Comedogenicite" : "Comedogenicity"}</strong></td>
+            <td><strong>{locale === "fr" ? "Comédogénicité" : "Comedogenicity"}</strong></td>
             <td>20%</td>
-            <td>{locale === "fr" ? "Risque d'obstruction des pores base sur l'echelle comedogene 0-5 de chaque ingredient" : "Pore-clogging risk based on the 0-5 comedogenic scale of each ingredient"}</td>
+            <td>{locale === "fr" ? "Risque d'obstruction des pores basé sur l'échelle comédogène 0-5 de chaque ingrédient" : "Pore-clogging risk based on the 0-5 comedogenic scale of each ingredient"}</td>
           </tr>
           <tr>
             <td><strong>{locale === "fr" ? "Transparence" : "Transparency"}</strong></td>
             <td>15%</td>
-            <td>{locale === "fr" ? "INCI complet, concentrations divulguees, certifications (vegan, cruelty-free, bio)" : "Full INCI disclosure, concentrations published, certifications (vegan, cruelty-free, organic)"}</td>
+            <td>{locale === "fr" ? "INCI complet, concentrations divulguées, certifications (vegan, cruelty-free, bio)" : "Full INCI disclosure, concentrations published, certifications (vegan, cruelty-free, organic)"}</td>
           </tr>
           <tr>
-            <td><strong>{locale === "fr" ? "Compatibilite peau" : "Skin-type fit"}</strong></td>
+            <td><strong>{locale === "fr" ? "Compatibilité peau" : "Skin-type fit"}</strong></td>
             <td>10%</td>
-            <td>{locale === "fr" ? "Adaptation de la formule au type de peau declare (seche, grasse, mixte, sensible, normale)" : "How well the formula suits the declared skin type (dry, oily, combination, sensitive, normal)"}</td>
+            <td>{locale === "fr" ? "Adaptation de la formule au type de peau déclaré (sèche, grasse, mixte, sensible, normale)" : "How well the formula suits the declared skin type (dry, oily, combination, sensitive, normal)"}</td>
           </tr>
         </tbody>
       </table>
 
-      <h2>{locale === "fr" ? "Echelle de notation" : "Grade thresholds"}</h2>
+      <h2>{locale === "fr" ? "Échelle de notation" : "Grade thresholds"}</h2>
       <div class="not-prose flex items-center gap-4 justify-center my-8">
         <div class="text-center">
           <div class="grade grade-lg grade-a mx-auto mb-2">A</div>
@@ -94,25 +105,25 @@ const breadcrumbs = [
         </div>
       </div>
 
-      <h2>{locale === "fr" ? "Sources de donnees" : "Data sources"}</h2>
+      <h2>{locale === "fr" ? "Sources de données" : "Data sources"}</h2>
       <ul>
-        <li><strong>EU CosIng</strong> - {locale === "fr" ? "Base officielle de la Commission europeenne (30 000+ ingredients cosmetiques, numeros CAS, fonctions, restrictions)" : "Official European Commission database (30,000+ cosmetic ingredients, CAS numbers, functions, restrictions)"}</li>
-        <li><strong>SCCS</strong> - {locale === "fr" ? "Comite scientifique pour la securite des consommateurs (avis de securite sur les ingredients cosmetiques)" : "Scientific Committee on Consumer Safety (safety opinions on cosmetic ingredients)"}</li>
-        <li><strong>{locale === "fr" ? "Recherche dermatologique" : "Peer-reviewed dermatology"}</strong> - {locale === "fr" ? "Publications et essais cliniques dans les journaux de dermatologie de reference" : "Publications and clinical trials in leading dermatology journals"}</li>
-        <li><strong>{locale === "fr" ? "Listes INCI fabricants" : "Manufacturer INCI lists"}</strong> - {locale === "fr" ? "Compositions completes des emballages produits" : "Full compositions from product packaging"}</li>
+        <li><strong>EU CosIng</strong> - {locale === "fr" ? "Base officielle de la Commission européenne (30 000+ ingrédients cosmétiques, numéros CAS, fonctions, restrictions)" : "Official European Commission database (30,000+ cosmetic ingredients, CAS numbers, functions, restrictions)"}</li>
+        <li><strong>SCCS</strong> - {locale === "fr" ? "Comité scientifique pour la sécurité des consommateurs (avis de sécurité sur les ingrédients cosmétiques)" : "Scientific Committee on Consumer Safety (safety opinions on cosmetic ingredients)"}</li>
+        <li><strong>{locale === "fr" ? "Recherche dermatologique" : "Peer-reviewed dermatology"}</strong> - {locale === "fr" ? "Publications et essais cliniques dans les journaux de dermatologie de référence" : "Publications and clinical trials in leading dermatology journals"}</li>
+        <li><strong>{locale === "fr" ? "Listes INCI fabricants" : "Manufacturer INCI lists"}</strong> - {locale === "fr" ? "Compositions complètes des emballages produits" : "Full compositions from product packaging"}</li>
       </ul>
 
-      <h2>{locale === "fr" ? "Independance" : "Independence"}</h2>
+      <h2>{locale === "fr" ? "Indépendance" : "Independence"}</h2>
       <p>
         {locale === "fr"
-          ? "SkinScore n'accepte aucun paiement des marques pour influencer les notes. Nos revenus proviennent de liens affilies vers des detaillants (qui n'affectent jamais les scores) et d'abonnements premium optionnels. Aucune marque ne peut acheter un meilleur score."
+          ? "SkinScore n'accepte aucun paiement des marques pour influencer les notes. Nos revenus proviennent de liens affiliés vers des détaillants (qui n'affectent jamais les scores) et d'abonnements premium optionnels. Aucune marque ne peut acheter un meilleur score."
           : "SkinScore does not accept payment from brands to influence ratings. Our revenue comes from affiliate links to retailers (which never affect scores) and optional premium subscriptions. No brand can buy a better score."}
       </p>
 
       <h2>{locale === "fr" ? "Limites" : "Limitations"}</h2>
       <p>
         {locale === "fr"
-          ? "Notre notation est basee sur les ingredients declares, pas sur les concentrations exactes (rarement divulguees par les marques). L'ordre INCI donne une indication relative, mais deux produits avec les memes ingredients dans le meme ordre peuvent avoir des concentrations differentes. Nous mettons a jour les scores quand les marques reformulent."
+          ? "Notre notation est basée sur les ingrédients déclarés, pas sur les concentrations exactes (rarement divulguées par les marques). L'ordre INCI donne une indication relative, mais deux produits avec les mêmes ingrédients dans le même ordre peuvent avoir des concentrations différentes. Nous mettons à jour les scores quand les marques reformulent."
           : "Our scoring is based on declared ingredients, not exact concentrations (rarely disclosed by brands). INCI order gives a relative indication, but two products with the same ingredients in the same order may have different concentrations. We update scores when brands reformulate."}
       </p>
     </div>
