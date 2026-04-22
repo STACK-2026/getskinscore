@@ -165,7 +165,23 @@ const subScoreLabels = [
 
 <StatsLive />
 
-<!-- ========== 3. MANIFESTE ========== -->
+<!-- ========== 3. TL;DR data-speakable (AI citation) ========== -->
+<section class="py-10 bg-white">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6">
+    <aside data-speakable aria-label="TL;DR" class="rounded-xl border border-violet-200 bg-violet-50/60 px-6 py-5 text-slate-700">
+      <p class="text-xs font-bold uppercase tracking-wider text-violet-700 mb-2">TL;DR</p>
+      <p class="text-[15px] leading-relaxed">
+        {locale === "fr" ? (
+          <><strong>SkinScore</strong> note chaque produit skincare de A (85-100) à E (0-39) sur cinq dimensions pondérées : efficacité, sécurité, comédogénicité, transparence et compatibilité peau. Nos données proviennent d'EU CosIng (30 000+ ingrédients), des avis SCCS et de la recherche dermatologique revue par les pairs. Aucune marque ne nous paie. La Mer à 350 EUR obtient un C, CeraVe à 5 EUR obtient un A. La science ne ment pas.</>
+        ) : (
+          <><strong>SkinScore</strong> grades every skincare product from A (85-100) down to E (0-39) across five weighted dimensions: efficacy, safety, comedogenicity, transparency, and skin-type fit. Data comes from EU CosIng (30,000+ ingredients), SCCS safety opinions, and peer-reviewed dermatology research. No brand pays us. La Mer at 350 EUR gets a C. CeraVe at 5 EUR gets an A. Science doesn't lie.</>
+        )}
+      </p>
+    </aside>
+  </div>
+</section>
+
+<!-- ========== 4. MANIFESTE ========== -->
 <section class="section bg-slate-900 text-white relative overflow-hidden">
   <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(124,58,237,0.2),transparent_70%)]"></div>
   <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_rgba(79,70,229,0.1),transparent_60%)]"></div>
@@ -182,7 +198,7 @@ const subScoreLabels = [
     <p class="reveal text-base md:text-lg text-white/50 leading-relaxed mb-8">
       {locale === "fr"
         ? "SkinScore est né d'une frustration simple : pourquoi est-ce si difficile de savoir ce qu'il y a dans un soin ? Pourquoi faut-il un diplôme en chimie pour lire une étiquette ? Pourquoi les marques dépensent plus en marketing qu'en formulation ? On a décidé de changer ça. Chaque ingrédient, passé au crible. Chaque produit, noté sans concession. Aucune marque ne nous paie. Aucune ne peut acheter un meilleur score."
-        : "SkinScore was born from a simple frustration: why is it so hard to know what's in your skincare? Why do you need a chemistry degree to read a label? Why do brands spend more on marketing than formulation? We decided to change that. Every ingrédient, dissected. Every product, scored without compromise. No brand pays us. None can buy a better score."}
+        : "SkinScore was born from a simple frustration: why is it so hard to know what's in your skincare? Why do you need a chemistry degree to read a label? Why do brands spend more on marketing than formulation? We decided to change that. Every ingredient, dissected. Every product, scored without compromise. No brand pays us. None can buy a better score."}
     </p>
     <div class="reveal flex flex-wrap justify-center gap-3 text-sm">
       <span class="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-white/70 hover:bg-white/10 transition-colors">{locale === "fr" ? "Zero partenariat marque" : "Zero brand deals"}</span>
@@ -727,10 +743,10 @@ const subScoreLabels = [
     <div class="reveal-children space-y-3">
       {(locale === "fr" ? [
         { question: "Comment SkinScore note-t-il les produits ?", answer: "SkinScore analyse chaque ingrédient de la liste INCI selon cinq dimensions : efficacité (actifs prouvés), sécurité (allergènes, irritants, substances réglementées UE), comédogénicité (risque d'obstruction des pores), transparence (divulgation complète, certifications) et compatibilité avec le type de peau. Chaque dimension est notée puis combinée en une note finale de A à E." },
-        { question: "SkinScore est-il independant ?", answer: "Oui. SkinScore n'accepte aucun paiement des marques pour influencer les notes. Notre méthodologie est entièrement transparente, basee sur les données UE CosIng, les avis SCCS et la recherche dermatologique. Nos revenus viennent de liens affilies (qui n'affectent jamais les scores)." },
-        { question: "C'est quoi une liste INCI ?", answer: "INCI (International Nomenclature of Cosmetic Ingredients) est le systeme de nomenclature standardise des ingrédients cosmétiques. Tout produit vendu en UE doit afficher sa liste INCI. SkinScore decode ces noms scientifiques en langage clair." },
-        { question: "SkinScore peut recommander une routine ?", answer: "Oui. Fais notre quiz peau de 2 minutes pour obtenir une routine AM/PM personnalisee selon ton type de peau, tes préoccupations et ton budget. Chaque produit recommande est soutenu par sa note SkinScore." },
-        { question: "Combien de produits couvre SkinScore ?", answer: "SkinScore note actuellement plus de 2 600 produits de 250+ marques. Nettoyants, hydratants, serums, solaires, exfoliants, masques. On ajoute de nouveaux produits chaque jour." },
+        { question: "SkinScore est-il indépendant ?", answer: "Oui. SkinScore n'accepte aucun paiement des marques pour influencer les notes. Notre méthodologie est entièrement transparente, basée sur les données UE CosIng, les avis SCCS et la recherche dermatologique. Nos revenus viennent de liens affiliés (qui n'affectent jamais les scores)." },
+        { question: "C'est quoi une liste INCI ?", answer: "INCI (International Nomenclature of Cosmetic Ingredients) est le système de nomenclature standardisé des ingrédients cosmétiques. Tout produit vendu en UE doit afficher sa liste INCI. SkinScore décode ces noms scientifiques en langage clair." },
+        { question: "SkinScore peut recommander une routine ?", answer: "Oui. Fais notre quiz peau de 2 minutes pour obtenir une routine AM/PM personnalisée selon ton type de peau, tes préoccupations et ton budget. Chaque produit recommandé est soutenu par sa note SkinScore." },
+        { question: "Combien de produits couvre SkinScore ?", answer: "SkinScore note actuellement plus de 2 600 produits de 250+ marques. Nettoyants, hydratants, sérums, solaires, exfoliants, masques. On ajoute de nouveaux produits chaque jour." },
       ] : siteConfig.faq).map((item, i) => (
         <details class="group card !p-0 overflow-hidden" open={i === 0}>
           <summary class="flex items-center justify-between p-5 cursor-pointer font-bold text-sm text-slate-800 hover:text-violet-700 transition-colors">
