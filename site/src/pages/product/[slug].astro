@@ -149,12 +149,31 @@ const speakableText = summaryText
     </header>
 
     <!-- TL;DR data-speakable for AI citation (ChatGPT, Perplexity, AI Overviews) -->
-    <aside data-speakable aria-label="TL;DR" class="mb-8 rounded-xl border border-violet-200 bg-violet-50/60 px-6 py-5 text-slate-700">
+    <aside data-speakable aria-label="TL;DR" class="mb-6 rounded-xl border border-violet-200 bg-violet-50/60 px-6 py-5 text-slate-700">
       <p class="text-xs font-bold uppercase tracking-wider text-violet-700 mb-2">TL;DR</p>
       <p class="text-[15px] leading-relaxed">
         <strong>{product.brand} {product.name}</strong> {speakableCore} {speakableText}
       </p>
     </aside>
+
+    <!-- Dupes CTA: main conversion path on product pages -->
+    <a
+      href={localizedPath("/dupes", locale)}
+      class="group flex items-center gap-4 mb-8 rounded-xl border border-amber-200 bg-gradient-to-r from-amber-50 to-amber-100/40 px-5 py-4 hover:border-amber-300 hover:shadow-md transition-all"
+    >
+      <span class="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-full bg-amber-200/70 text-amber-700 text-lg">&euro;</span>
+      <div class="flex-1 min-w-0">
+        <p class="text-sm font-bold text-amber-900">
+          {locale === "fr" ? `Moins cher pour les mêmes actifs que ${product.brand} ${product.name} ?` : `Same actives as ${product.brand} ${product.name} for less?`}
+        </p>
+        <p class="text-xs text-amber-700/80">
+          {locale === "fr" ? "On compare les formules INCI, pas les prix. Trouve l'alternative validée." : "We compare INCI formulas, not prices. Find the validated alternative."}
+        </p>
+      </div>
+      <span class="shrink-0 text-sm font-semibold text-amber-700 group-hover:translate-x-0.5 transition-transform">
+        {locale === "fr" ? "Trouver un dupe →" : "Find a dupe →"}
+      </span>
+    </a>
 
     <!-- Summary -->
     <div class="card mb-8">

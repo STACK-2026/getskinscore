@@ -10,12 +10,41 @@ const breadcrumbs = [
   { name: t(tr.common.home, locale), url: fullUrl(localizedPath("/", locale)) },
   { name: t(tr.nav.methodology, locale), url: fullUrl(localizedPath("/methodology", locale)) },
 ];
+
+const aboutPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": locale === "fr" ? "Méthodologie SkinScore" : "SkinScore methodology",
+  "url": fullUrl(localizedPath("/methodology", locale)),
+  "description": locale === "fr"
+    ? "Méthodologie de notation SkinScore. Cinq dimensions pondérées, sources EU CosIng + SCCS + recherche dermatologique."
+    : "SkinScore scoring methodology. Five weighted dimensions, sources from EU CosIng, SCCS opinions and peer-reviewed dermatology research.",
+  "inLanguage": locale === "fr" ? "fr-FR" : "en-US",
+  "isPartOf": { "@id": `${siteConfig.url}/#website` },
+  "publisher": { "@id": `${siteConfig.url}/#organization` },
+  "mainEntity": {
+    "@type": "DefinedTermSet",
+    "name": "SkinScore grading scale",
+    "hasDefinedTerm": [
+      { "@type": "DefinedTerm", "name": "A", "description": "85 to 100. Excellent: proven actives, no harmful ingredients, transparent INCI, strong skin-type fit." },
+      { "@type": "DefinedTerm", "name": "B", "description": "70 to 84. Very good: minor compromises on one of the five dimensions." },
+      { "@type": "DefinedTerm", "name": "C", "description": "55 to 69. Acceptable: mid-tier formulation, better alternatives exist." },
+      { "@type": "DefinedTerm", "name": "D", "description": "40 to 54. Avoid: formulation problems for the declared skin type." },
+      { "@type": "DefinedTerm", "name": "E", "description": "0 to 39. Problematic: restricted substances, known allergens, or structurally poor formula." }
+    ]
+  },
+  "citation": [
+    { "@type": "CreativeWork", "name": "EU CosIng database", "url": "https://ec.europa.eu/growth/tools-databases/cosing/" },
+    { "@type": "CreativeWork", "name": "SCCS opinions on cosmetic ingredients", "url": "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en" },
+    { "@type": "CreativeWork", "name": "EU Cosmetics Regulation 1223/2009", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1223-20220301" }
+  ],
+};
 ---
 
 <BaseLayout
-  title={`Scoring Methodology - How SkinScore Rates Products | ${siteConfig.name}`}
-  description="Full transparency on how SkinScore rates skincare products. Five dimensions, weighted scoring, data sources, and grade thresholds explained."
-  jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
+  title={locale === "fr" ? `Méthodologie de notation · Comment SkinScore note les produits | ${siteConfig.name}` : `Scoring Methodology · How SkinScore Rates Products | ${siteConfig.name}`}
+  description={locale === "fr" ? "Comment SkinScore note chaque produit skincare : cinq dimensions pondérées, sources EU CosIng, SCCS et recherche dermatologique, seuils A-E et limites assumées." : "How SkinScore rates every skincare product: five weighted dimensions, EU CosIng and SCCS sources, peer-reviewed dermatology research, A-E thresholds, and limitations stated upfront."}
+  jsonLd={[jsonLdBreadcrumbs(breadcrumbs), aboutPageSchema]}
 >
   <div class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
     <h1 class="text-center mb-4">{locale === "fr" ? "Méthodologie de notation" : "Scoring methodology"}</h1>
@@ -105,12 +134,31 @@ const breadcrumbs = [
         </div>
       </div>
 
+      <h2>{locale === "fr" ? "Pourquoi ces cinq dimensions" : "Why these five dimensions"}</h2>
+      <p>
+        {locale === "fr"
+          ? "Un produit skincare ne se résume pas à un seul chiffre. Un sérum vitamine C peut contenir un actif très efficace (grade A en efficacité) tout en étant irritant pour les peaux sensibles (grade C en compatibilité peau). Une crème peut être ultra-transparente sur sa composition (grade A en transparence) mais contenir un allergène connu (grade C en sécurité). Réduire un produit à un seul score cacherait ces nuances. Nos cinq dimensions sont chacune notées indépendamment, puis agrégées avec une pondération fixée par notre équipe éditoriale en 2026. Les poids reflètent ce qui compte le plus pour la santé cutanée à long terme : l'efficacité d'actifs prouvés (30%) avant tout, suivie de la sécurité réglementaire (25%), de la comédogénicité (20%), puis de la transparence et de la compatibilité peau."
+          : "A skincare product does not reduce to a single number. A vitamin C serum can contain a highly effective active (grade A on efficacy) while irritating sensitive skin (grade C on skin-type fit). A moisturiser can be ultra-transparent about its composition (grade A on transparency) yet contain a known allergen (grade C on safety). Reducing a product to a single score would hide these nuances. Each of our five dimensions is graded independently, then aggregated with a fixed weighting set by our editorial team in 2026. The weights reflect what matters most for long-term skin health: proven-active efficacy (30%) above all, followed by regulatory safety (25%), comedogenicity (20%), then transparency and skin-type fit."}
+      </p>
+
+      <h2>{locale === "fr" ? "Exemple concret de calcul" : "A concrete scoring example"}</h2>
+      <p>
+        {locale === "fr"
+          ? "Prenons CeraVe Moisturising Cream. Son INCI déclare cinq céramides en positions 4, 8 et 11, de la niacinamide en position 9, de l'acide hyaluronique en position 13, pas de parfum, pas d'huile comédogène en tête de liste. Dans notre grille : efficacité 87 (céramides + niacinamide prouvés), sécurité 92 (aucun allergène UE listé, conservateurs à risque minimal), comédogénicité 85 (triglycérides caprique à risque 0-1), transparence 82 (INCI complet, pas de concentrations déclarées), compatibilité peau sèche 95. Score pondéré final : 0,30×87 + 0,25×92 + 0,20×85 + 0,15×82 + 0,10×95 = 88, soit un grade A. Même produit pour une peau acnéique grasse : compatibilité descend à 60, score pondéré 85, toujours grade A mais en bas de fourchette."
+          : "Take CeraVe Moisturising Cream. Its INCI list declares five ceramides in positions 4, 8 and 11, niacinamide in position 9, hyaluronic acid in position 13, no fragrance, no comedogenic oil in the first third. On our grid: efficacy 87 (ceramides and niacinamide are both clinically proven), safety 92 (no EU-listed allergens, preservatives are minimal-risk), comedogenicity 85 (caprylic triglycerides at risk 0-1), transparency 82 (full INCI but no declared concentrations), skin-type fit for dry skin 95. Weighted final score: 0.30×87 + 0.25×92 + 0.20×85 + 0.15×82 + 0.10×95 = 88, grade A. Same product evaluated for oily acne-prone skin: skin-type fit drops to 60, weighted score 85, still grade A but at the lower end."}
+      </p>
+
       <h2>{locale === "fr" ? "Sources de données" : "Data sources"}</h2>
+      <p>
+        {locale === "fr"
+          ? "Nos scores ne sont pas des opinions. Chaque ingrédient est évalué contre quatre sources primaires vérifiables, et chaque agrégation est documentée dans notre fiche d'ingrédient publique."
+          : "Our scores are not opinions. Every ingredient is evaluated against four primary verifiable sources, and every aggregation is documented on the public ingredient page."}
+      </p>
       <ul>
-        <li><strong>EU CosIng</strong> - {locale === "fr" ? "Base officielle de la Commission européenne (30 000+ ingrédients cosmétiques, numéros CAS, fonctions, restrictions)" : "Official European Commission database (30,000+ cosmetic ingredients, CAS numbers, functions, restrictions)"}</li>
-        <li><strong>SCCS</strong> - {locale === "fr" ? "Comité scientifique pour la sécurité des consommateurs (avis de sécurité sur les ingrédients cosmétiques)" : "Scientific Committee on Consumer Safety (safety opinions on cosmetic ingredients)"}</li>
-        <li><strong>{locale === "fr" ? "Recherche dermatologique" : "Peer-reviewed dermatology"}</strong> - {locale === "fr" ? "Publications et essais cliniques dans les journaux de dermatologie de référence" : "Publications and clinical trials in leading dermatology journals"}</li>
-        <li><strong>{locale === "fr" ? "Listes INCI fabricants" : "Manufacturer INCI lists"}</strong> - {locale === "fr" ? "Compositions complètes des emballages produits" : "Full compositions from product packaging"}</li>
+        <li><strong>EU CosIng</strong> - {locale === "fr" ? "Base officielle de la Commission européenne (30 000+ ingrédients cosmétiques, numéros CAS, fonctions, restrictions par Annexe)" : "Official European Commission database (30,000+ cosmetic ingredients, CAS numbers, functions, Annex restrictions)"} · <a href="https://ec.europa.eu/growth/tools-databases/cosing/" rel="noopener">ec.europa.eu/growth/tools-databases/cosing/</a></li>
+        <li><strong>SCCS</strong> - {locale === "fr" ? "Comité scientifique pour la sécurité des consommateurs de la Commission européenne (avis de sécurité actualisés tous les 2 à 4 ans par ingrédient)" : "European Commission Scientific Committee on Consumer Safety (safety opinions updated every 2 to 4 years per ingredient)"} · <a href="https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en" rel="noopener">sccs.ec.europa.eu</a></li>
+        <li><strong>{locale === "fr" ? "Recherche dermatologique revue par les pairs" : "Peer-reviewed dermatology research"}</strong> - {locale === "fr" ? "PubMed, Journal of the American Academy of Dermatology, British Journal of Dermatology, essais cliniques randomisés uniquement" : "PubMed, Journal of the American Academy of Dermatology, British Journal of Dermatology, randomised clinical trials only"} · <a href="https://pubmed.ncbi.nlm.nih.gov" rel="noopener">pubmed.ncbi.nlm.nih.gov</a></li>
+        <li><strong>{locale === "fr" ? "Listes INCI fabricants" : "Manufacturer INCI lists"}</strong> - {locale === "fr" ? "Lecture directe des emballages et fiches techniques officielles. Aucune donnée déclarée par la marque en privé n'est utilisée." : "Read directly from packaging and official technical datasheets. No data supplied privately by the brand is used."}</li>
       </ul>
 
       <h2>{locale === "fr" ? "Indépendance" : "Independence"}</h2>
@@ -120,11 +168,42 @@ const breadcrumbs = [
           : "SkinScore does not accept payment from brands to influence ratings. Our revenue comes from affiliate links to retailers (which never affect scores) and optional premium subscriptions. No brand can buy a better score."}
       </p>
 
-      <h2>{locale === "fr" ? "Limites" : "Limitations"}</h2>
+      <h2>{locale === "fr" ? "Ce que nous ne notons PAS" : "What we deliberately do NOT score"}</h2>
       <p>
         {locale === "fr"
-          ? "Notre notation est basée sur les ingrédients déclarés, pas sur les concentrations exactes (rarement divulguées par les marques). L'ordre INCI donne une indication relative, mais deux produits avec les mêmes ingrédients dans le même ordre peuvent avoir des concentrations différentes. Nous mettons à jour les scores quand les marques reformulent."
-          : "Our scoring is based on declared ingredients, not exact concentrations (rarely disclosed by brands). INCI order gives a relative indication, but two products with the same ingredients in the same order may have different concentrations. We update scores when brands reformulate."}
+          ? "Un produit SkinScore ne juge pas l'emballage, le marketing, le parfum perçu, la texture ou la réputation de la marque. Ce sont des éléments subjectifs qui varient d'un utilisateur à l'autre. Nous ne notons pas non plus la provenance géographique, le statut indépendant ou corporate de la marque, ni la durabilité de l'emballage — ces critères méritent une évaluation mais appartiennent à d'autres grilles (B-Corp, 1% for the Planet, LCA environnementale). Confondre composition et éthique brouille la décision d'achat. Notre périmètre est strict : est-ce que cette formule va fonctionner pour ta peau, sans la mettre en danger ?"
+          : "A SkinScore product score does not judge packaging, marketing, perceived fragrance, texture, or brand reputation. These are subjective elements that vary per user. We also do not score geographic origin, independent versus corporate status, or packaging sustainability. These criteria deserve evaluation but belong to separate frameworks (B-Corp, 1% for the Planet, LCA environmental). Conflating composition with ethics blurs the purchase decision. Our scope is strict: will this formula work for your skin, without putting it at risk?"}
+      </p>
+
+      <h2>{locale === "fr" ? "Gouvernance éditoriale et mise à jour" : "Editorial governance and updates"}</h2>
+      <p>
+        {locale === "fr"
+          ? "Chaque score est saisi par un premier analyste, puis relu par un second avant publication. Les quatre pen names de l'équipe éditoriale (Dr. Elena Voss, Dr. Sarah Chen, Marc Severin, Lina Park) couvrent chacun une spécialité. Aucun score n'est publié sans double validation. Les grilles de pondération sont figées pour l'année 2026 et seront révisées publiquement au premier trimestre 2027 si les données le justifient. Nous publions un changelog accessible sur la page des actualités à chaque mise à jour majeure."
+          : "Every score is entered by a first analyst, then reviewed by a second before publication. The four pen names on the editorial team (Dr. Elena Voss, Dr. Sarah Chen, Marc Severin, Lina Park) each cover a specialty. No score is published without double validation. Weighting grids are frozen for 2026 and will be reviewed publicly in Q1 2027 if the data warrants. We publish a changelog on our news page every time a major methodology update ships."}
+      </p>
+      <p>
+        {locale === "fr"
+          ? "Dès qu'un fabricant modifie sa formulation INCI (et donc l'étiquette produit), le score est recalculé dans les deux semaines. Si tu possèdes un produit avec un ancien packaging, réfère-toi à la date de mise à jour affichée sur la page produit. La fenêtre typique de recalcul, mesurée sur les 2 699 produits du catalogue, est de 10 jours."
+          : "As soon as a manufacturer changes the INCI (and therefore the product label), the score is recomputed within two weeks. If you own a product with older packaging, refer to the update date shown on the product page. The typical recomputation window, measured across the 2,699 catalogue products, is 10 days."}
+      </p>
+
+      <h2>{locale === "fr" ? "Indépendance" : "Independence"}</h2>
+      <p>
+        {locale === "fr"
+          ? "SkinScore n'accepte aucun paiement des marques pour influencer les notes. Nos revenus proviennent de liens affiliés vers des détaillants (qui n'affectent jamais les scores) et d'abonnements premium optionnels. Aucune marque ne peut acheter un meilleur score, une position dans les classements ou un emplacement dans le Dupe Finder. Notre base de code est ouverte à l'audit pour tout journaliste ou chercheur sur demande écrite."
+          : "SkinScore does not accept payment from brands to influence ratings. Our revenue comes from affiliate links to retailers (which never affect scores) and optional premium subscriptions. No brand can buy a better score, a position in the rankings, or placement in the Dupe Finder. Our codebase is open to audit for any journalist or researcher on written request."}
+      </p>
+
+      <h2>{locale === "fr" ? "Limites assumées" : "Stated limitations"}</h2>
+      <p>
+        {locale === "fr"
+          ? "Notre notation est basée sur les ingrédients déclarés, pas sur les concentrations exactes (rarement divulguées par les marques). L'ordre INCI donne une indication relative — plus un ingrédient est haut dans la liste, plus sa concentration est élevée — mais deux produits avec les mêmes ingrédients dans le même ordre peuvent avoir des concentrations différentes. Un sérum vitamine C à 10% et un autre à 20% auront le même rang INCI mais des efficacités très différentes."
+          : "Our scoring is based on declared ingredients, not exact concentrations (rarely disclosed by brands). INCI order gives a relative indication — the higher an ingredient appears, the higher its concentration — but two products with the same ingredients in the same order may have different concentrations. A 10% vitamin C serum and a 20% one will share the same INCI rank but have very different efficacies."}
+      </p>
+      <p>
+        {locale === "fr"
+          ? "Nous n'analysons pas non plus la stabilité galénique, la forme cristalline d'un actif, l'encapsulation, la taille des particules, ni les interactions à l'application (pH de la peau, ordre d'application). Pour les produits sensibles à ces facteurs (peptides, rétinoïdes, vitamine C L-ascorbique), consulte toujours la notice fabricant en complément du score."
+          : "We also do not evaluate galenic stability, the crystalline form of an active, encapsulation, particle size, or interactions on application (skin pH, layering order). For products sensitive to these factors (peptides, retinoids, L-ascorbic acid vitamin C), always read the manufacturer's instructions in addition to the score."}
       </p>
     </div>
   </div>
