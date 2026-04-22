@@ -5,7 +5,7 @@ import { getIngredient } from "../../data/ingredients";
 import { getStarContent } from "../../data/star-product-content";
 import { siteConfig } from "../../../site.config";
 import { fullUrl, gradeClass } from "../../utils/config";
-import { jsonLdProduct, jsonLdBreadcrumbs } from "../../utils/seo";
+import { jsonLdProduct, jsonLdBreadcrumbs, jsonLdFaq } from "../../utils/seo";
 import { getLocale, t, tr, localizedPath } from "../../i18n/t";
 
 export function getStaticPaths() {
@@ -38,6 +38,7 @@ const jsonLd = [
     scoreNumeric: product.scoreNumeric,
   }),
   jsonLdBreadcrumbs(breadcrumbs),
+  ...(star?.faq?.length ? [jsonLdFaq(star.faq.map((f) => ({ question: t(f.question, locale), answer: t(f.answer, locale) })))] : []),
 ];
 
 // Find alternatives: same type, better or equal score, different brand
@@ -53,6 +54,15 @@ const subScoreLabels = [
   { key: "transparency", label: t(tr.product.transparency, locale) },
   { key: "skinTypeFit", label: t(tr.product.skinTypeFit, locale) },
 ];
+
+// data-speakable TL;DR for AI citation (ChatGPT, Perplexity, AI Overviews)
+const summaryText = t(product.summary, locale)?.trim() || "";
+const speakableCore = locale === "fr"
+  ? `obtient ${product.score} (${product.scoreNumeric}/100) sur l'analyse cinq dimensions de SkinScore : efficacité, sécurité, comédogénicité, transparence, compatibilité avec ton type de peau.`
+  : `scores ${product.score} (${product.scoreNumeric}/100) on SkinScore's five-dimension analysis: efficacy, safety, comedogenicity, transparency, and skin-type fit.`;
+const speakableText = summaryText
+  ? summaryText.split(". ").slice(0, 2).join(". ").replace(/\.+$/, "") + "."
+  : "";
 ---
 
 <BaseLayout title={title} description={description} jsonLd={jsonLd}>
@@ -137,6 +147,14 @@ const subScoreLabels = [
         </div>
       </div>
     </header>
+
+    <!-- TL;DR data-speakable for AI citation (ChatGPT, Perplexity, AI Overviews) -->
+    <aside data-speakable aria-label="TL;DR" class="mb-8 rounded-xl border border-violet-200 bg-violet-50/60 px-6 py-5 text-slate-700">
+      <p class="text-xs font-bold uppercase tracking-wider text-violet-700 mb-2">TL;DR</p>
+      <p class="text-[15px] leading-relaxed">
+        <strong>{product.brand} {product.name}</strong> {speakableCore} {speakableText}
+      </p>
+    </aside>
 
     <!-- Summary -->
     <div class="card mb-8">

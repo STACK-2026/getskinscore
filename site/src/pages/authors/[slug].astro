@@ -5,20 +5,35 @@ import { siteConfig } from "../../../site.config";
 import { fullUrl } from "../../utils/config";
 import { jsonLdBreadcrumbs } from "../../utils/seo";
 import { getLocale, t, localizedPath } from "../../i18n/t";
+import { getCollection } from "astro:content";
 
-export function getStaticPaths() {
-  return authors.map((a) => ({
-    params: { slug: a.id },
-    props: { author: a },
-  }));
+export async function getStaticPaths() {
+  const posts = await getCollection("blog", ({ data }) => !data.draft);
+  return authors.map((a) => {
+    const signed = posts
+      .filter((p) => p.data.author === a.name)
+      .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+      .map((p) => ({
+        slug: p.id.replace(/\.md$/, ""),
+        title: p.data.title,
+        description: p.data.description,
+        date: p.data.date,
+        lang: p.data.lang,
+      }));
+    return {
+      params: { slug: a.id },
+      props: { author: a, signed },
+    };
+  });
 }
 
-const { author } = Astro.props as { author: Author };
+const { author, signed } = Astro.props as { author: Author; signed: Array<{ slug: string; title: string; description: string; date: Date; lang: "en" | "fr" }> };
 const locale = getLocale(Astro.url);
+const articlesForLocale = signed.filter((a) => a.lang === locale);
 
 const breadcrumbs = [
   { name: locale === "fr" ? "Accueil" : "Home", url: fullUrl(localizedPath("/", locale)) },
-  { name: locale === "fr" ? "Equipe" : "Team", url: fullUrl(localizedPath("/about", locale)) },
+  { name: locale === "fr" ? "Équipe" : "Team", url: fullUrl(localizedPath("/about", locale)) },
   { name: author.name, url: fullUrl(localizedPath(`/authors/${author.id}`, locale)) },
 ];
 
@@ -32,8 +47,10 @@ const jsonLd = [
     description: t(author.bio, locale),
     url: fullUrl(`/authors/${author.id}`),
     worksFor: { "@id": `${siteConfig.url}/#organization` },
+    knowsAbout: author.expertise,
   },
 ];
+const dateFmt = (d: Date) => d.toLocaleDateString(locale === "fr" ? "fr-FR" : "en-US", { day: "numeric", month: "long", year: "numeric" });
 ---
 
 <BaseLayout
@@ -68,14 +85,34 @@ const jsonLd = [
       </div>
     </div>
 
+    {articlesForLocale.length > 0 && (
+      <section class="border-t border-slate-200 pt-8 mb-10">
+        <h2 class="text-base font-bold mb-5">
+          {locale === "fr" ? `Articles signés par ${author.name}` : `Articles by ${author.name}`}
+          <span class="ml-2 text-xs font-medium text-slate-400">({articlesForLocale.length})</span>
+        </h2>
+        <ul class="space-y-5">
+          {articlesForLocale.map((a) => (
+            <li>
+              <a href={`${locale === "fr" ? "/fr" : ""}/blog/${a.slug}/`} class="group block">
+                <h3 class="text-base font-semibold text-slate-800 group-hover:text-violet-600 transition-colors mb-1">{a.title}</h3>
+                <p class="text-sm text-slate-500 line-clamp-2 mb-1">{a.description}</p>
+                <time datetime={a.date.toISOString().split("T")[0]} class="text-xs text-slate-400">{dateFmt(a.date)}</time>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
     <div class="border-t border-slate-200 pt-8">
       <p class="text-sm text-slate-500 leading-relaxed">
         {locale === "fr"
-          ? `${author.name} fait partie de l'equipe editoriale de ${siteConfig.name}. Tous les scores et analyses sont revus par au moins deux membres de l'equipe avant publication. Notre methodologie est entierement transparente et basee sur les donnees EU CosIng, les avis SCCS et la recherche dermatologique revue par les pairs.`
+          ? `${author.name} fait partie de l'équipe éditoriale de ${siteConfig.name}. Tous les scores et analyses sont revus par au moins deux membres de l'équipe avant publication. Notre méthodologie est entièrement transparente et basée sur les données EU CosIng, les avis SCCS et la recherche dermatologique revue par les pairs.`
           : `${author.name} is part of the ${siteConfig.name} editorial team. All scores and analyses are reviewed by at least two team members before publication. Our methodology is fully transparent and based on EU CosIng data, SCCS opinions, and peer-reviewed dermatological research.`}
       </p>
       <a href={localizedPath("/methodology", locale)} class="inline-block mt-3 text-sm text-violet-600 font-medium hover:text-violet-700">
-        {locale === "fr" ? "Voir notre methodologie" : "See our methodology"} &rarr;
+        {locale === "fr" ? "Voir notre méthodologie" : "See our methodology"} &rarr;
       </a>
     </div>
   </div>
