@@ -4,7 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 import { siteConfig } from "./site.config.ts";
 
 // FR pages generated via i18n fallback that @astrojs/sitemap misses
-import { products } from "./src/data/products.ts";
+import { products, brandSlug, getUniqueBrands } from "./src/data/products.ts";
+import { starProductContent } from "./src/data/star-product-content.ts";
 
 const frFallbackPages = (() => {
   const base = siteConfig.url;
@@ -32,9 +33,34 @@ const frFallbackPages = (() => {
   return pages.map((p) => `${base}${p}`);
 })();
 
+// Indexation policy (STACK-2026 programmatic thin pages rule):
+// - Product pages: only enriched ("star") products in sitemap.
+// - Brand pages: only brands with 3+ rated products.
+// - Ingredient pages: all excluded pending deep-dive enrichment.
+const enrichedProductIds = new Set(starProductContent.map((s) => s.id));
+const indexableBrandSlugs = (() => {
+  const counts = new Map();
+  for (const p of products) {
+    const slug = brandSlug(p.brand);
+    if (!slug) continue;
+    counts.set(slug, (counts.get(slug) || 0) + 1);
+  }
+  return new Set([...counts.entries()].filter(([, n]) => n >= 3).map(([s]) => s));
+})();
+
+const sitemapFilter = (url) => {
+  // Drop noindexed thin programmatic paths from the sitemap entirely.
+  if (/\/ingredient\//.test(url)) return false;
+  const productMatch = url.match(/\/product\/([^/]+)\/?$/);
+  if (productMatch) return enrichedProductIds.has(productMatch[1]);
+  const brandMatch = url.match(/\/brand\/([^/]+)\/?$/);
+  if (brandMatch) return indexableBrandSlugs.has(brandMatch[1]);
+  return true;
+};
+
 export default defineConfig({
   site: siteConfig.url,
-  integrations: [sitemap({ customPages: frFallbackPages, lastmod: new Date() })],
+  integrations: [sitemap({ customPages: frFallbackPages, lastmod: new Date(), filter: sitemapFilter })],
   i18n: {
     defaultLocale: "en",
     locales: ["en", "fr"],

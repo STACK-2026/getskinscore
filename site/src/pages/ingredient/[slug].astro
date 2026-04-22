@@ -38,9 +38,14 @@ const skinTypeLabels: Record<string, { en: string; fr: string }> = {
   sensitive: { en: "Sensitive skin", fr: "Peau sensible" },
   normal: { en: "Normal skin", fr: "Peau normale" },
 };
+
+// Indexation policy: ingredient pages are currently thin (avg 55 words of
+// editorial content). Noindex across the board until the ingredient
+// deep-dive enrichment lands. STACK-2026 programmatic thin pages rule.
+const noIndex = true;
 ---
 
-<BaseLayout title={title} description={description} jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}>
+<BaseLayout title={title} description={description} jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]} noIndex={noIndex}>
   <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
     <!-- Breadcrumbs -->
     <nav class="text-xs text-slate-400 mb-8 flex items-center gap-1.5 flex-wrap">

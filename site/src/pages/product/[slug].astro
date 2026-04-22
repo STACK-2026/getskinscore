@@ -63,9 +63,15 @@ const speakableCore = locale === "fr"
 const speakableText = summaryText
   ? summaryText.split(". ").slice(0, 2).join(". ").replace(/\.+$/, "") + "."
   : "";
+
+// Indexation policy: only pages with deep editorial content are indexable.
+// STACK-2026 programmatic thin pages rule: products under the enrichment
+// threshold are noindexed to protect crawl budget and Helpful Content signal.
+const isEnriched = Boolean(star);
+const noIndex = !isEnriched;
 ---
 
-<BaseLayout title={title} description={description} jsonLd={jsonLd}>
+<BaseLayout title={title} description={description} jsonLd={jsonLd} noIndex={noIndex}>
   <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
     <!-- Breadcrumbs -->
     <nav class="text-xs text-slate-400 mb-8 flex items-center gap-1.5 flex-wrap">

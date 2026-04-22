@@ -60,9 +60,13 @@ const jsonLd = [
     description: `${brand} skincare products rated by SkinScore. ${sorted.length} products, average score ${avgGrade} (${avgScore}/100).`,
   },
 ];
+
+// Indexation policy: brand pages with 3+ rated products are indexable hubs,
+// single-product brand pages are thin hub duplicates of the product page.
+const noIndex = sorted.length < 3;
 ---
 
-<BaseLayout title={title} description={description} jsonLd={jsonLd}>
+<BaseLayout title={title} description={description} jsonLd={jsonLd} noIndex={noIndex}>
   <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
     <!-- Breadcrumbs -->
     <nav class="text-xs text-slate-400 mb-8 flex items-center gap-1.5 flex-wrap">
