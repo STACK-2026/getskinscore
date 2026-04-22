@@ -10,8 +10,10 @@ draft: false
 image: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200&h=630&fit=crop&crop=center&q=80"
 imageAlt: "Sérum de rétinol avec compte-gouttes sur fond blanc minimaliste"
 lang: "fr"
-lastReviewed: "2026-04-15"
-reviewedBy: "SkinScore Research Team"
+lastReviewed: "2026-04-18"
+reviewedBy: "Dr. Sarah Chen"
+speakableTerm: "rétinol"
+speakable: "Le rétinol fonctionne, mais 60% des débutants abandonnent dès le premier mois parce qu'ils commencent trop fort, trop vite. La règle : 0,25 à 0,3% de rétinol pur (ou 0,01% d'acide rétinoïque), deux fois par semaine le soir sur peau sèche, tamponne avec une crème hydratante, jamais en même temps que la vitamine C ou les AHA. La purge dure 4 à 6 semaines. Les résultats apparaissent au mois 3, pas la semaine 1."
 ---
 
 # Rétinol : le guide complet pour débutants

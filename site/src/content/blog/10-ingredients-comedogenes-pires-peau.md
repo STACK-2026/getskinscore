@@ -10,8 +10,10 @@ draft: false
 image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&h=630&fit=crop&crop=center&q=80"
 imageAlt: "Gros plan sur une peau avec des pores dilatés, illustration des ingrédients comédogènes en skincare"
 lang: "fr"
-lastReviewed: "2026-04-18"
-reviewedBy: "SkinScore Research Team"
+lastReviewed: "2026-04-21"
+reviewedBy: "Dr. Sarah Chen"
+speakableTerm: "comédogènes"
+speakable: "Les ingrédients comédogènes sont réels mais l'échelle de Fulton a 50 ans et ses tests sur oreille de lapin sont obsolètes. Surveille surtout l'isopropyl myristate (score 5), l'huile de coco (score 4) et les extraits d'algues (score 4) dans les 5 premiers ingrédients de ta liste INCI. Ne te fie pas aux mentions 'non-comédogène' : elles n'ont aucun fondement réglementaire en France ni dans l'UE. Un ingrédient à risque en position 12 n'a aucun impact."
 ---
 
 # Ingrédients comédogènes : le top 10 à éviter

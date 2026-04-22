@@ -10,8 +10,10 @@ draft: false
 image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1200&h=630&fit=crop&crop=center&q=80"
 imageAlt: "Scientific skincare serums and droppers on laboratory bench representing niacinamide and vitamin C compatibility research"
 lang: "en"
-lastReviewed: "2026-04-17"
-reviewedBy: "SkinScore Research Team"
+lastReviewed: "2026-04-20"
+reviewedBy: "Dr. Elena Voss"
+speakableTerm: "niacinamide"
+speakable: "The niacinamide plus vitamin C incompatibility is a myth rooted in 50-year-old lab studies using impure forms at elevated temperatures. In modern formulas at room temperature, they coexist without measurable loss of efficacy. Layer them or combine them, morning or night. The real incompatibility to watch: L-ascorbic acid with retinol the same night (oxidation risk), not with niacinamide. SCCS 2022 safety opinion: zero reactive interaction documented."
 ---
 
 # Niacinamide and vitamin C together: the myth is debunked

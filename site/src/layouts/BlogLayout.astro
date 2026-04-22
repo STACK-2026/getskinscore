@@ -20,13 +20,15 @@ interface Props {
   lang?: string;
   lastReviewed?: Date;
   reviewedBy?: string;
+  speakable?: string;
+  speakableTerm?: string;
 }
 
 const {
   title, description, date,
   author = siteConfig.blog.defaultAuthor,
   category, tags = [], image, imageAlt, slug, keywords,
-  lang = "en", lastReviewed, reviewedBy,
+  lang = "en", lastReviewed, reviewedBy, speakable, speakableTerm,
 } = Astro.props;
 
 const isDefault = lang === "en";
@@ -81,6 +83,13 @@ const jsonLd = [
     </header>
 
     {image && <figure class="mb-10"><img src={image} alt={imageAlt || title} class="w-full rounded-xl" loading="eager" width="800" height="450" /></figure>}
+
+    {speakable && (
+      <aside data-speakable aria-label="TL;DR" class="mb-10 rounded-xl border border-violet-200 bg-violet-50/60 px-6 py-5 text-slate-700">
+        <p class="text-xs font-bold uppercase tracking-wider text-violet-700 mb-2">TL;DR</p>
+        <p class="text-[15px] leading-relaxed" set:html={speakableTerm ? speakable.replace(new RegExp(`\\b${speakableTerm.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`), `<strong>${speakableTerm}</strong>`) : speakable} />
+      </aside>
+    )}
 
     <div class="prose max-w-none"><slot /></div>
 

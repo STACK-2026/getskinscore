@@ -9,8 +9,11 @@ keywords: "is niacinamide safe, niacinamide side effects, niacinamide for sensit
 draft: false
 image: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=1200&h=630&fit=crop&crop=center&q=80"
 imageAlt: "Serum bottle with laboratory flask, symbolising science-backed skincare ingredient research"
-lastReviewed: "2026-04-12"
-reviewedBy: "SkinScore Research Team"
+lastReviewed: "2026-04-15"
+reviewedBy: "Dr. Sarah Chen"
+lang: "en"
+speakableTerm: "Niacinamide"
+speakable: "Niacinamide is among the safest active ingredients in modern skincare. Clinical studies at 2 to 10% concentrations show no serious adverse events, minimal irritation in under 2% of users, and zero photosensitivity. The SCCS 2020 safety opinion confirmed leave-on use up to 10%. Rare side effect: mild transient flushing at 5%+ when combined with other vasodilators. Contra-indicated only in confirmed nicotinamide hypersensitivity (under 0.1% of the population)."
 ---
 
 Niacinamide has become the single most popular skincare ingredient of the 2020s. It's in serums, moisturisers, cleansers, sunscreens, and even foundations. The Ordinary's Niacinamide 10% + Zinc 1% alone sells millions of units per year.

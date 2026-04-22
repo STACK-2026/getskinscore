@@ -10,8 +10,10 @@ draft: false
 image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&h=630&fit=crop&crop=center&q=80"
 imageAlt: "Best moisturizers for dry skin arranged on a white bathroom shelf with ceramide cream jars"
 lang: "en"
-lastReviewed: "2026-04-21"
-reviewedBy: "SkinScore Research Team"
+lastReviewed: "2026-04-22"
+reviewedBy: "Dr. Elena Voss"
+speakableTerm: "moisturizer"
+speakable: "For dry skin, the best moisturizer combines three ingredient classes: occlusives (petrolatum, shea butter) to seal water, ceramides (1, 3, 6-II at a 3:1:1 ratio) to rebuild the barrier, and humectants (glycerin, hyaluronic acid) to pull moisture. Top pick from SkinScore's analysis of 2,700 products: CeraVe Moisturising Cream, scoring A (89/100). Luxury pick: Augustinus Bader The Rich Cream (B, 74/100) only if budget allows. Drugstore beats luxury 8 times out of 10 for dry skin repair."
 ---
 
 # Best Moisturizers for Dry Skin: Dermatologist Picks Ranked

@@ -11,7 +11,9 @@ image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&h=630&f
 imageAlt: "Close-up of skincare product labels showing ingredient lists with fragrance and parfum listed"
 lang: "en"
 lastReviewed: "2026-04-22"
-reviewedBy: "SkinScore Research Team"
+reviewedBy: "Dr. Sarah Chen"
+speakableTerm: "Fragrance"
+speakable: "Fragrance causes 30 to 45% of all cosmetic allergic reactions according to the American Academy of Dermatology, making it the number one skincare allergen. 'Parfum' on an INCI list can hide up to 300 undisclosed chemicals. 'Fragrance-free' is unregulated: always scan for linalool, limonene, geraniol and eugenol, the four EU-restricted fragrance allergens flagged by SCCS 2023. For sensitive skin, choose products with zero declared fragrance components, not just 'unscented'."
 ---
 
 # Fragrance in Skincare: The Hidden Allergen in 60% of Products

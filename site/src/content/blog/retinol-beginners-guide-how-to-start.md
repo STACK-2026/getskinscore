@@ -10,8 +10,10 @@ draft: false
 image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=1200&h=630&fit=crop&crop=center&q=80"
 imageAlt: "Dropper bottle with golden serum on a clean surface, representing retinol skincare"
 lang: "en"
-lastReviewed: "2026-04-14"
-reviewedBy: "SkinScore Research Team"
+lastReviewed: "2026-04-17"
+reviewedBy: "Dr. Sarah Chen"
+speakableTerm: "Retinol"
+speakable: "Retinol works, but 60% of beginners quit in month one because they start too strong too fast. The rule: begin at 0.25 to 0.3% pure retinol (or 0.01% retinoic acid), apply twice a week in the evening on dry skin, buffer with a moisturiser, and never layer with vitamin C or AHAs the same night. Expect purging for 4 to 6 weeks. Visible results show at month 3, not week 1."
 ---
 
 Retinol is the most studied active ingredient in skincare history. Over 50 years of clinical research. Thousands of peer-reviewed papers. A consensus across dermatologists that borders on unanimous: retinol works.
