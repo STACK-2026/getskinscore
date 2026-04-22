@@ -1,0 +1,56 @@
+name: Enrich Product — Tue + Thu
+
+# Generates a star editorial content block for the next product in the
+# queue via Mistral (draft) + Claude Sonnet (audit only). 2 products per
+# week via Tue and Thu crons, ~8 products/month.
+
+on:
+  schedule:
+    - cron: '42 5 * * 2,4'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (no commit)'
+        type: choice
+        options: ['false', 'true']
+        default: 'false'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: enrich-product-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: self-hosted
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        working-directory: scripts
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install requests python-dotenv
+
+      - name: Run enrichment
+        working-directory: scripts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then ARGS="--dry-run"; fi
+          python3 enrich_product.py $ARGS
