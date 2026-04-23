@@ -215,13 +215,25 @@ def clamp_frontmatter_description(content, max_len=160):
     return "\n".join(lines)
 
 
+def strip_code_fence(content: str) -> str:
+    """LLMs sometimes wrap the whole article in ```yaml / ```markdown / ``` fences.
+    Astro content collections reject files that don't start with `---`, so strip
+    any opening/closing fence before writing."""
+    import re
+    s = content.lstrip()
+    s = re.sub(r"^```[a-zA-Z]*\s*\n", "", s)
+    s = re.sub(r"\n```\s*$", "\n", s.rstrip() + "\n")
+    return s
+
+
 def write_article(slug, content):
     """Write article to blog directory."""
     BLOG_DIR.mkdir(parents=True, exist_ok=True)
+    content = strip_code_fence(content)
     content = clamp_frontmatter_description(content)
     filepath = BLOG_DIR / f"{slug}.md"
     with open(filepath, "w", encoding="utf-8") as f:
-        content = content.replace('\u2014', '-').replace('\u2013', '-')  # STACK-2026 em-dash sanitize
+        content = content.replace('\u2014', '-').replace('\u2013', '-')
         f.write(content)
     print(f"  Written to {filepath}")
     return filepath

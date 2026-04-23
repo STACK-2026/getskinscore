@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Parfum en cosmétique : l'allergène caché dans 60% des soins"
 description: "Qu'est-ce que 'Parfum' signifie vraiment sur une étiquette INCI ? Allergènes, perturbateurs endocriniens, microbiome : le guide complet et sans bullshit."
