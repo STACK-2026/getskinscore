@@ -9,8 +9,12 @@ export function fontsUrl(): string {
 }
 
 export function fullUrl(path: string): string {
+  const base = siteConfig.url.replace(/\/$/, "");
   const clean = path.startsWith("/") ? path : `/${path}`;
-  return `${siteConfig.url}${clean}`;
+  const hasFileExt = /\.[a-z0-9]{2,5}($|[?#])/i.test(clean);
+  const hasSuffix = /[/?#]$/.test(clean) || clean.includes("?") || clean.includes("#");
+  if (hasFileExt || hasSuffix) return `${base}${clean}`;
+  return `${base}${clean}/`;
 }
 
 export function gradeColor(grade: string): string {
