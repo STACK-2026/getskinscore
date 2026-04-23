@@ -1,4 +1,4 @@
-// SkinScore — analytics tracker
+// SkinScore · analytics tracker
 (function () {
   var SUPABASE_URL = "https://ovptmntzrrrjxstzzceu.supabase.co";
   var SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im92cHRtbnR6cnJyanhzdHp6Y2V1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYwMTE5MDIsImV4cCI6MjA5MTU4NzkwMn0.unuHMBaDPXKK-2Ka-FXxLbuWbtwXkSQrnuyaYjgyVQc";

@@ -1,4 +1,4 @@
-name: Deploy Site — Cloudflare Pages
+name: Deploy Site · Cloudflare Pages
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - 'site/src/content/**'
       - '.github/workflows/deploy-site.yml'
   workflow_run:
-    workflows: ["Blog Auto — The Lab", "Rebuild Guard — Daily touch for scheduled articles"]
+    workflows: ["Blog Auto · The Lab", "Rebuild Guard · Daily touch for scheduled articles"]
     types: [completed]
     branches: [main]
   workflow_dispatch: {}

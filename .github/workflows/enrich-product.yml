@@ -1,4 +1,4 @@
-name: Enrich Product — Tue + Thu
+name: Enrich Product · Tue + Thu
 
 # Generates a star editorial content block for the next product in the
 # queue via Mistral (draft) + Claude Sonnet (audit only). 2 products per

@@ -1,4 +1,4 @@
-name: Enrich Ingredient — Weekly
+name: Enrich Ingredient · Weekly
 
 # Generates a deep-dive review for the next ingredient in the queue via
 # Mistral (draft) + Claude Sonnet (audit only). Claude API usage is

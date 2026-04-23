@@ -27432,7 +27432,7 @@ export const products: Product[] = [
   },
   {
     id: "weleda-citrus-erfrischende-feuchtigkeitslotion",
-    name: "Citrus — Erfrischende Feuchtigkeitslotion",
+    name: "Citrus · Erfrischende Feuchtigkeitslotion",
     brand: "Weleda",
     type: "moisturizer",
     score: "C",
@@ -67075,7 +67075,7 @@ export const products: Product[] = [
       { name: "COCAMIDOPROPYL BETAINE", position: 3 },
       { name: "SODIUM MYRETH SULFATE", position: 4 },
       { name: "PEG-7 GLYCERYL COCOATE", position: 5 },
-      { name: "COCO—GLUCOSIDE", position: 6 },
+      { name: "COCO,GLUCOSIDE", position: 6 },
       { name: "PEG-150 DlSTEARATE", position: 7 },
       { name: "GLYCERYL CAPRYLATE", position: 8 },
       { name: "GLYCOL DISTEARATE", position: 9 },

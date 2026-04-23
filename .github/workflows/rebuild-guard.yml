@@ -1,4 +1,4 @@
-name: Rebuild Guard — Daily touch for scheduled articles
+name: Rebuild Guard · Daily touch for scheduled articles
 
 on:
   schedule:

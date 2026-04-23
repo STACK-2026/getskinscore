@@ -56,7 +56,7 @@ This creates a synergistic effect: vitamin C provides antioxidant protection and
 
 The proof is in the formulations. Some of the highest-scoring products in [SkinScore's rankings](https://getskinscore.com/rankings) successfully combine both ingredients, achieving impressive efficacy scores without safety concerns.
 
-[Paula's Choice C15 Super Booster](https://getskinscore.com/product/paulas-choice-c15-super-booster) contains 15% L-ascorbic acid and 0.5% niacinamide in a carefully buffered formula. It scores 8.7/10 on SkinScore, with users reporting significant improvements in hyperpigmentation and skin texture. The key is the pH optimisation—maintained at 3.2 to ensure vitamin C stability while keeping niacinamide active.
+[Paula's Choice C15 Super Booster](https://getskinscore.com/product/paulas-choice-c15-super-booster) contains 15% L-ascorbic acid and 0.5% niacinamide in a carefully buffered formula. It scores 8.7/10 on SkinScore, with users reporting significant improvements in hyperpigmentation and skin texture. The key is the pH optimisation,maintained at 3.2 to ensure vitamin C stability while keeping niacinamide active.
 
 Even more impressive is [SkinCeuticals CE Ferulic](https://getskinscore.com/product/skinceuticals-ce-ferulic), which technically doesn't contain niacinamide but is routinely layered with niacinamide serums by dermatologists worldwide. When we analysed user data, combinations of CE Ferulic with [The Ordinary Niacinamide 10%](https://getskinscore.com/product/the-ordinary-niacinamide) showed 23% better results for hyperpigmentation than either product used alone.
 
@@ -68,17 +68,17 @@ The original compatibility concerns centred on pH interactions, but modern cosme
 
 Magnesium ascorbyl phosphate, for instance, is stable at pH 7 and works beautifully with niacinamide at the same pH. Sodium ascorbyl phosphate is effective at pH 6-7, again perfectly compatible with niacinamide's optimal range. Even L-ascorbic acid can be buffered to pH 4-4.5 using sodium bicarbonate or similar agents, preventing the acidic conditions that might theoretically cause issues.
 
-Smart brands formulate with this in mind. [Skinceuticals Discoloration Defense](https://getskinscore.com/product/skinceuticals-discoloration-defense) combines 3% tranexamic acid, 1% kojic acid, 5% niacinamide, and 0.5% phytic acid at pH 4.2. No vitamin C here, but the principle applies—multiple active ingredients working harmoniously through careful pH management.
+Smart brands formulate with this in mind. [Skinceuticals Discoloration Defense](https://getskinscore.com/product/skinceuticals-discoloration-defense) combines 3% tranexamic acid, 1% kojic acid, 5% niacinamide, and 0.5% phytic acid at pH 4.2. No vitamin C here, but the principle applies,multiple active ingredients working harmoniously through careful pH management.
 
 ## How to layer niacinamide and vitamin C like a pro
 
 If you're convinced by the science (and you should be), here's exactly how to incorporate both ingredients into your routine for maximum benefit.
 
-**Morning application method:** Apply vitamin C first, as it provides antioxidant protection against daily environmental damage. Wait 10-15 minutes for absorption, then apply niacinamide. This isn't strictly necessary for compatibility, but it optimises absorption. Finish with SPF—vitamin C can increase photosensitivity slightly, though niacinamide actually helps mitigate this effect.
+**Morning application method:** Apply vitamin C first, as it provides antioxidant protection against daily environmental damage. Wait 10-15 minutes for absorption, then apply niacinamide. This isn't strictly necessary for compatibility, but it optimises absorption. Finish with SPF,vitamin C can increase photosensitivity slightly, though niacinamide actually helps mitigate this effect.
 
 **Evening alternative:** Some prefer niacinamide in the morning (for its sebum-regulating properties) and vitamin C in the evening (for repair and regeneration). Both approaches work; choose based on your skin's tolerance and your other active ingredients.
 
-**Concentration considerations:** Start with lower concentrations—5% niacinamide and 10% vitamin C—and build up gradually. Higher concentrations aren't necessarily better and may cause irritation in sensitive individuals.
+**Concentration considerations:** Start with lower concentrations,5% niacinamide and 10% vitamin C,and build up gradually. Higher concentrations aren't necessarily better and may cause irritation in sensitive individuals.
 
 **Product timing matters:** If using separate products, apply the thinnest consistency first. Serums before creams, water-based before oil-based. This ensures proper penetration of both ingredients.
 
@@ -122,14 +122,14 @@ Even conservative dermatology practices that typically recommend single-ingredie
 Yes, but start slowly. These are high concentrations that can cause irritation in sensitive individuals. Begin with every other day application and monitor your skin's response. Most people find 5% niacinamide and 10-15% vitamin C equally effective with better tolerability.
 
 **Should I apply niacinamide or vitamin C first in my routine?**
-Apply vitamin C first if using separate products, as it has a lower pH and should penetrate before higher-pH niacinamide products. However, the order isn't critical for compatibility—it's more about optimising absorption and effectiveness.
+Apply vitamin C first if using separate products, as it has a lower pH and should penetrate before higher-pH niacinamide products. However, the order isn't critical for compatibility,it's more about optimising absorption and effectiveness.
 
 **Why do some brands still say not to mix niacinamide and vitamin C?**
 Marketing strategy, mostly. Creating artificial restrictions encourages customers to buy more products and develop complex routines. Some brands also perpetuate outdated information without reviewing current research. Always check the science behind skincare claims rather than relying solely on brand recommendations.
 
 ## Conclusion
 
-The niacinamide and vitamin C incompatibility myth has been thoroughly debunked by modern research. Not only can you safely combine these ingredients, but doing so often provides superior results compared to using either alone. The key is choosing well-formulated products with appropriate pH levels and concentrations for your skin type. Don't let outdated information limit your skincare potential—embrace the science and enjoy the synergistic benefits of this powerful combination.
+The niacinamide and vitamin C incompatibility myth has been thoroughly debunked by modern research. Not only can you safely combine these ingredients, but doing so often provides superior results compared to using either alone. The key is choosing well-formulated products with appropriate pH levels and concentrations for your skin type. Don't let outdated information limit your skincare potential,embrace the science and enjoy the synergistic benefits of this powerful combination.
 
 ## Sources
 

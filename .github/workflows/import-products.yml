@@ -1,4 +1,4 @@
-name: Import Products — Monthly OBF refresh
+name: Import Products · Monthly OBF refresh
 
 on:
   schedule:
