@@ -631,6 +631,93 @@ export const ingredientDeepContent: IngredientDeepContent[] = [
       { label: "EU CosIng entry: Copper tripeptide-1", url: "https://ec.europa.eu/growth/tools-databases/cosing/" },
     ],
   },
+  // Auto-enriched lactic-acid
+  {
+    id: "lactic-acid",
+    speakableTerm: {
+      en: "Lactic Acid",
+      fr: "Acide lactique"
+    },
+    speakable: {
+      en: "<strong>Lactic Acid</strong> is a gentle alpha-hydroxy acid that exfoliates dead skin cells while boosting hydration. Its larger molecular size reduces irritation compared to stronger AHAs like glycolic acid, making it suitable for sensitive or beginner skin. It brightens dull complexions and improves texture, but requires daily SPF to prevent sun sensitivity. A well-tolerated exfoliant with proven benefits for most skin types.",
+      fr: "<strong>L'acide lactique</strong> est un alpha-hydroxy acide doux qui exfolie les cellules mortes tout en hydratant la peau. Sa molécule plus grosse limite l'irritation par rapport à des AHAs plus forts comme l'acide glycolique, ce qui le rend idéal pour les peaux sensibles ou débutantes. Il illumine le teint et améliore la texture, mais nécessite une protection solaire quotidienne pour éviter la photosensibilisation. Un exfoliant bien toléré, aux bénéfices prouvés pour la plupart des types de peau."
+    },
+    mechanism: {
+      en: "Lactic acid (2-hydroxypropanoic acid) is a water-soluble alpha-hydroxy acid (AHA) that disrupts corneocyte cohesion in the stratum corneum. It weakens desmosomal proteins, such as corneodesmosin, by chelating calcium ions, which accelerates desquamation. Its molecular weight (90.08 g/mol) is larger than glycolic acid (76.05 g/mol), limiting penetration into deeper skin layers and reducing irritation. Lactic acid also stimulates ceramide synthesis by upregulating serine palmitoyltransferase, enhancing barrier function. Its humectant properties arise from hydroxyl and carboxyl groups that bind water molecules, increasing epidermal hydration. Additionally, it modulates keratinocyte differentiation, promoting a smoother skin surface.",
+      fr: "L'acide lactique (acide 2-hydroxypropanoïque) est un alpha-hydroxy acide (AHA) hydrosoluble qui perturbe la cohésion des cornéocytes dans le stratum corneum. Il affaiblit les protéines desmosomales, comme la cornéodesmosine, en chélatant les ions calcium, ce qui accélère la desquamation. Son poids moléculaire (90,08 g/mol) est plus élevé que celui de l'acide glycolique (76,05 g/mol), limitant sa pénétration dans les couches profondes de la peau et réduisant l'irritation. L'acide lactique stimule aussi la synthèse de céramides en régulant à la hausse la sérine palmitoyltransférase, renforçant la fonction barrière. Ses propriétés humectantes proviennent de ses groupes hydroxyle et carboxyle qui lient les molécules d'eau, augmentant l'hydratation épidermique. De plus, il module la différenciation des kératinocytes, favorisant une surface cutanée plus lisse."
+    },
+    evidence: {
+      en: "A 2001 study by Wang et al. (Archives of Dermatological Research) demonstrated that lactic acid improves skin hydration and barrier function at concentrations of 5-12%. The Cosmetic Ingredient Review (CIR) Expert Panel (2016) concluded that lactic acid is safe for use in cosmetics at concentrations up to 10% (pH ≥ 3.5), with higher concentrations requiring professional supervision. A 2017 study by Moghimipour (Journal of Cosmetic Dermatology) found that lactic acid at 5% significantly reduced hyperpigmentation in melasma patients after 8 weeks. The EU Scientific Committee on Consumer Safety (SCCS) supports its use in leave-on products at ≤10% (pH ≥ 3.5). DermNet NZ confirms its efficacy for keratosis pilaris and mild acne at 5-10% concentrations.",
+      fr: "Une étude de 2001 menée par Wang et al. (Archives of Dermatological Research) a démontré que l'acide lactique améliore l'hydratation et la fonction barrière de la peau à des concentrations de 5 à 12%. Le Cosmetic Ingredient Review (CIR) Expert Panel (2016) a conclu que l'acide lactique est sûr pour une utilisation cosmétique à des concentrations allant jusqu'à 10% (pH ≥ 3,5), les concentrations plus élevées nécessitant une supervision professionnelle. Une étude de 2017 par Moghimipour (Journal of Cosmetic Dermatology) a révélé qu'une concentration de 5% d'acide lactique réduisait significativement l'hyperpigmentation chez les patients atteints de mélasma après 8 semaines. Le Comité scientifique pour la sécurité des consommateurs (SCCS) de l'UE soutient son utilisation dans les produits sans rinçage à ≤10% (pH ≥ 3,5). DermNet NZ confirme son efficacité pour la kératose pilaire et l'acné légère à des concentrations de 5 à 10%."
+    },
+    dosing: {
+      en: "For at-home use, lactic acid concentrations typically range from 5% to 10%, with a pH between 3.5 and 4.0 for optimal efficacy and minimal irritation. The EU Scientific Committee on Consumer Safety (SCCS) recommends a maximum concentration of 10% for leave-on products (pH ≥ 3.5). Begin with once-weekly application, gradually increasing to 2-3 times per week if tolerated. Apply to dry skin in the evening, avoiding the eye area. Follow with a moisturizer to mitigate dryness. Due to its photosensitizing effects, daily SPF 30+ is essential. Professional peels may use concentrations up to 30%, but these require dermatological supervision.",
+      fr: "Pour un usage à domicile, les concentrations d'acide lactique varient généralement de 5% à 10%, avec un pH compris entre 3,5 et 4,0 pour une efficacité optimale et une irritation minimale. Le Comité scientifique pour la sécurité des consommateurs (SCCS) de l'UE recommande une concentration maximale de 10% pour les produits sans rinçage (pH ≥ 3,5). Commence par une application hebdomadaire, puis augmente progressivement jusqu'à 2 ou 3 fois par semaine si ta peau le tolère. Applique sur peau sèche le soir, en évitant le contour des yeux. Utilise toujours une crème hydratante ensuite pour limiter la sécheresse. En raison de son effet photosensibilisant, un SPF 30+ quotidien est indispensable. Les peelings professionnels peuvent utiliser des concentrations allant jusqu'à 30%, mais ils nécessitent une supervision dermatologique."
+    },
+    interactions: {
+      en: "Lactic acid pairs well with hydrating ingredients like hyaluronic acid and glycerin to counteract dryness. Avoid combining it with other strong exfoliants (e.g., glycolic acid, salicylic acid) in the same routine to prevent over-exfoliation. Retinoids can be used on alternate nights, but introduce them gradually. Vitamin C (L-ascorbic acid) can be layered if the pH of both products is compatible (lactic acid's pH should be ≥ 3.5). Avoid using lactic acid immediately after shaving or waxing to minimize irritation.",
+      fr: "L'acide lactique se marie bien avec des ingrédients hydratants comme l'acide hyaluronique et la glycérine pour compenser la sécheresse. Évite de le combiner avec d'autres exfoliants puissants (comme l'acide glycolique ou l'acide salicylique) dans la même routine pour prévenir la surexfoliation. Les rétinoïdes peuvent être utilisés les soirs alternés, mais introduis-les progressivement. La vitamine C (acide L-ascorbique) peut être superposée si le pH des deux produits est compatible (le pH de l'acide lactique doit être ≥ 3,5). Évite d'utiliser l'acide lactique juste après un rasage ou une épilation pour minimiser l'irritation."
+    },
+    mistakes: {
+      en: "A common mistake is overusing lactic acid, especially when starting out. Applying it daily or using high concentrations (e.g., 10%) too soon can lead to redness, peeling, or a compromised skin barrier. Another error is skipping SPF, which increases sun damage risk. Some users also layer lactic acid with incompatible actives (e.g., vitamin C at pH < 3.5 or benzoyl peroxide), causing irritation. Always patch-test new products and introduce them gradually to assess tolerance.",
+      fr: "Une erreur fréquente est de surutiliser l'acide lactique, surtout au début. L'appliquer quotidiennement ou utiliser des concentrations élevées (comme 10%) trop tôt peut provoquer des rougeurs, des desquamations ou endommager la barrière cutanée. Une autre erreur est de négliger le SPF, ce qui augmente le risque de dommages solaires. Certains utilisateurs superposent aussi l'acide lactique avec des actifs incompatibles (comme la vitamine C à pH < 3,5 ou le peroxyde de benzoyle), ce qui provoque des irritations. Fais toujours un test cutané avec les nouveaux produits et introduis-les progressivement pour évaluer ta tolérance."
+    },
+    faq: [
+      {
+        question: {
+          en: "Can I use lactic acid if I have rosacea or eczema?",
+          fr: "Puis-je utiliser l'acide lactique si j'ai de la rosacée ou de l'eczéma ?"
+        },
+        answer: {
+          en: "Lactic acid may be tolerated by some individuals with rosacea or eczema, but it depends on skin sensitivity. Its hydrating properties can benefit eczema-prone skin, but the low pH may trigger stinging in rosacea. Start with a low concentration (e.g., 2-3%) and a higher pH (4.0-4.5), or opt for lactobionic acid, a gentler polyhydroxy acid. Consult a dermatologist before use if you have these conditions.",
+          fr: "L'acide lactique peut être toléré par certaines personnes atteintes de rosacée ou d'eczéma, mais cela dépend de la sensibilité de ta peau. Ses propriétés hydratantes peuvent être bénéfiques pour les peaux sujettes à l'eczéma, mais son pH bas peut provoquer des picotements en cas de rosacée. Commence avec une concentration faible (2-3%) et un pH plus élevé (4,0-4,5), ou opte pour l'acide lactobionique, un polyhydroxy acide plus doux. Consulte un dermatologue avant de l'utiliser si tu as ces problèmes."
+        }
+      },
+      {
+        question: {
+          en: "How long does it take to see results with lactic acid?",
+          fr: "Combien de temps faut-il pour voir des résultats avec l'acide lactique ?"
+        },
+        answer: {
+          en: "Visible improvements in skin texture and brightness typically appear after 4-6 weeks of consistent use, as lactic acid gradually renews the skin's surface. For hyperpigmentation, results may take 8-12 weeks due to slower cellular turnover. Moghimipour (2017) noted significant improvements in melasma after 8 weeks of 5% lactic acid use. Consistency and sun protection are key to achieving results.",
+          fr: "Les améliorations visibles de la texture et de l'éclat de la peau apparaissent généralement après 4 à 6 semaines d'utilisation régulière, car l'acide lactique renouvelle progressivement la surface cutanée. Pour l'hyperpigmentation, les résultats peuvent prendre 8 à 12 semaines en raison d'un renouvellement cellulaire plus lent. Moghimipour (2017) a observé des améliorations significatives du mélasma après 8 semaines d'utilisation d'acide lactique à 5%. La régularité et la protection solaire sont essentielles pour obtenir des résultats."
+        }
+      },
+      {
+        question: {
+          en: "Is lactic acid safe during pregnancy or breastfeeding?",
+          fr: "L'acide lactique est-il sûr pendant la grossesse ou l'allaitement ?"
+        },
+        answer: {
+          en: "Lactic acid is generally considered safe for use during pregnancy and breastfeeding at concentrations ≤10%, as it is not significantly absorbed systemically. The American College of Obstetricians and Gynecologists (ACOG) and the NHS classify topical AHAs as low-risk during pregnancy. However, avoid professional-grade peels or high concentrations (e.g., >10%) without medical supervision. Always consult your healthcare provider before use.",
+          fr: "L'acide lactique est généralement considéré comme sûr pendant la grossesse et l'allaitement à des concentrations ≤10%, car il n'est pas absorbé de manière significative par l'organisme. L'American College of Obstetricians and Gynecologists (ACOG) et le NHS classent les AHAs topiques comme à faible risque pendant la grossesse. Cependant, évite les peelings professionnels ou les concentrations élevées (par exemple, >10%) sans supervision médicale. Consulte toujours ton médecin avant de l'utiliser."
+        }
+      }
+    ],
+    sources: [
+      {
+        label: "Wang et al. Lactic acid and skin hydration. Archives of Dermatological Research 2001",
+        url: "https://pubmed.ncbi.nlm.nih.gov/11471765/"
+      },
+      {
+        label: "Cosmetic Ingredient Review Expert Panel. Safety assessment of alpha-hydroxy acids. CIR 2016",
+        url: "https://www.cir-safety.org/sites/default/files/ahas072016FR.pdf"
+      },
+      {
+        label: "Moghimipour E. Lactic acid in melasma treatment. Journal of Cosmetic Dermatology 2017",
+        url: "https://pubmed.ncbi.nlm.nih.gov/28139010/"
+      },
+      {
+        label: "EU Scientific Committee on Consumer Safety. Opinion on alpha-hydroxy acids. SCCS 2016",
+        url: "https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/sccs_o_200.pdf"
+      },
+      {
+        label: "DermNet NZ. Lactic acid for keratosis pilaris. DermNet NZ 2023",
+        url: "https://dermnetnz.org/topics/lactic-acid"
+      }
+    ]
+  },
+
 ];
 
 export function getIngredientDeep(id: string): IngredientDeepContent | undefined {
