@@ -1,52 +1,40 @@
-# www→apex redirect — DEFERRED, requires manual CF dashboard action
+# www→apex redirect — RESOLVED via Pages Function middleware
 
-## What was attempted
+**Original status:** deferred (CF Pages `_redirects` does not honor cross-host syntax, and the API token in `.env.master` lacks `Zone:Rulesets:Edit` scope to add a zone-level Single Redirect rule).
 
-The plan's Phase 2 added a cross-host rule to `site/public/_redirects`:
+**Resolution:** instead of needing a zone-level rule, the redirect is now handled by `site/functions/_middleware.js` (Pages Function), which already exists for bot logging. Cross-host redirect logic was prepended to short-circuit at the edge before any asset serving.
 
-```
-https://www.getskinscore.com/* https://getskinscore.com/:splat 301!
-```
+**Commit:** `54f23f9` (deployed in run `25118690135` at 2026-04-29 ~15:42 UTC)
 
-Verified post-deploy on 2026-04-29: **the rule does NOT fire** — Cloudflare Pages does not honor cross-host syntax in `_redirects`. www.getskinscore.com still serves HTTP 200 with the same content as the apex.
-
-## Why the API path failed
-
-Tried via `CLOUDFLARE_API_TOKEN` from `.env.master`:
-
-| Approach | Result |
-|---|---|
-| `PUT /zones/{id}/rulesets/phases/http_request_dynamic_redirect/entrypoint` (Single Redirect rule) | 403 "request is not authorized" — token lacks `Zone:Rulesets:Edit` scope |
-| `POST /zones/{id}/pagerules` (legacy Page Rule) | 1011 "Page Rules endpoint does not support account owned tokens" |
-| `DELETE /accounts/{id}/pages/projects/getskinscore-site/domains/www.getskinscore.com` | Succeeded but caused HTTP 522 → restored immediately |
-
-The current token has Pages-write scope but not Zone-Rulesets-write. Re-adding the domain restored service: domains list now `['getskinscore-site.pages.dev', 'getskinscore.com']` (www re-binding in `initializing` state, but DNS+cache serves HTTP 200).
-
-## Manual steps to finish the fix
-
-**Option A (recommended) — Single Redirect Rule via Cloudflare dashboard:**
-1. Go to Cloudflare → Zone `getskinscore.com` → Rules → Redirect Rules → "Create rule".
-2. Rule name: `www → apex 301`
-3. **If incoming requests match...**: Custom filter expression
-   - Field: `Hostname`, Operator: `equals`, Value: `www.getskinscore.com`
-4. **Then...**: 
-   - Type: `Static`
-   - URL redirect: `https://getskinscore.com${http.request.uri.path}` (use Dynamic if Static rejects)
-   - Status code: `301`
-   - Preserve query string: ON
-5. Save. Verify with `curl -sI https://www.getskinscore.com/` — expect `HTTP/2 301` + `location: https://getskinscore.com/`.
-
-**Option B — provide a CF token with `Zone:Rulesets:Edit` scope** in `.env.master`, then I can apply via API:
-```
-CLOUDFLARE_API_TOKEN_RULESETS=... # scoped to Zone:Rulesets:Edit on getskinscore.com
+```js
+// www → apex 301: cross-host redirect cannot be expressed in CF Pages
+// _redirects (path-only syntax), so we short-circuit here at the edge
+// before any asset serving or bot logging. preserve path + query.
+const reqUrl = new URL(request.url);
+if (reqUrl.hostname === "www.getskinscore.com") {
+  reqUrl.hostname = "getskinscore.com";
+  return Response.redirect(reqUrl.toString(), 301);
+}
 ```
 
-## Until this lands
+**Live verification 2026-04-29 17:43 local:**
 
-The 14+ existing `www.getskinscore.com/...` URLs in GSC will keep dual-indexing. Recovery from canonical fix (Task 1, working) + sitemap loosening (Task 7) + rankings hubs (Task 5) will still drive most of the Googlebot crawl-budget recovery. The www leak accounts for ~5-7% of imp leakage based on top-URL audit (top www URLs: 63 + 47 + 35 + ~14 more × ~10 imp ≈ 250 imp/14d out of ~5000 total).
+| URL | Response | Location |
+|---|---|---|
+| `https://www.getskinscore.com/` | 301 | `https://getskinscore.com/` |
+| `https://www.getskinscore.com/brand/la-mer/` | 301 | `https://getskinscore.com/brand/la-mer/` |
+| `https://www.getskinscore.com/fr/ingredient/lactic-acid/` | 301 | `https://getskinscore.com/fr/ingredient/lactic-acid/` |
+| `https://getskinscore.com/` (apex control) | 200 | — |
+| `https://getskinscore.com/compare/` (apex control) | 200 | — |
 
-So this is a secondary fix, not a blocker. Logging it here for follow-up.
+Path + query string preserved. Permanent 301 (not 302, not 308).
 
-## Roll-back (if Option A misbehaves)
+**Why the middleware approach is preferable to the zone-level Single Redirect Rule we tried first:**
+- No CF API token scope expansion required
+- Lives in the repo (visible in git history, code-reviewable)
+- Deploys via the existing GitHub Actions pipeline (no out-of-band dashboard step)
+- Bot logging logic still runs for apex requests (the redirect short-circuits ONLY for www)
 
-Delete the redirect rule in CF dashboard. www.getskinscore.com returns to HTTP 200 dup-host state.
+**Reusable pattern:** the same 4-line addition can be propagated to other STACK-2026 Astro+CF Pages projects with a www custom domain bound. Candidates per `auto_sync_projects.py` registry: any project where the GSC `sc-domain:` property exposes both apex and www variants in indexed URLs.
+
+**Roll-back:** `git revert 54f23f9`. www returns to HTTP 200 dup-host state.
