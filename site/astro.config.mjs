@@ -64,6 +64,12 @@ const sitemapFilter = (url) => {
 
 export default defineConfig({
   site: siteConfig.url,
+  // Lock CF Pages canonical: every URL ends with a slash, every page lives
+  // at /path/index.html. Without this Astro defaults to "ignore", which
+  // leaves /foo and /foo/ both serving the same HTML and GSC splits the
+  // signal across two URLs (cf. STACK-2026 ukheatpumpguide audit).
+  trailingSlash: "always",
+  build: { format: "directory" },
   integrations: [sitemap({ customPages: frFallbackPages, lastmod: new Date(), filter: sitemapFilter })],
   i18n: {
     defaultLocale: "en",
