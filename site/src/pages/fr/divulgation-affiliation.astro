@@ -1,0 +1,91 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { siteConfig } from "../../../site.config";
+import { fullUrl } from "../../utils/config";
+import { jsonLdBreadcrumbs } from "../../utils/seo";
+import { MERCHANTS } from "../../lib/affiliate";
+
+const title = "Divulgation d'affiliation - SkinScore";
+const description =
+  "Comment SkinScore se finance, qui sont nos partenaires affilies, et pourquoi cela n'influence jamais nos notes A-E.";
+const url = fullUrl("/fr/divulgation-affiliation");
+
+const breadcrumbs = [
+  { name: "Accueil", url: fullUrl("/fr/") },
+  { name: "Divulgation d'affiliation", url },
+];
+const jsonLd = [jsonLdBreadcrumbs(breadcrumbs)];
+
+const partners = MERCHANTS.filter((m) => m.active);
+---
+
+<BaseLayout title={title} description={description} jsonLd={jsonLd}>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-14">
+    <p class="text-xs font-bold uppercase tracking-wider text-violet-700 mb-3">Transparence</p>
+    <h1 class="text-3xl md:text-4xl font-extrabold mb-5">Divulgation d'affiliation</h1>
+
+    <p class="text-lg text-slate-600 leading-relaxed mb-6">
+      SkinScore est un comparateur skincare independant. <strong>Aucune marque ne nous paie</strong>{" "}
+      pour apparaitre sur le site, ameliorer une note, ou gagner une position dans le classement.
+      Notre seule source de revenus est l'affiliation : quand tu achetes via un lien partenaire,
+      le distributeur nous reverse une commission, sans surcout pour toi.
+    </p>
+
+    <h2 class="text-xl font-bold mt-8 mb-3">Comment ca marche</h2>
+    <p class="text-slate-700 leading-relaxed mb-3">
+      Sur chaque fiche produit tu trouves un bouton <strong>"Acheter sur..."</strong>. Il pointe
+      vers une URL <code class="bg-violet-50 px-2 py-0.5 rounded text-sm">/go/&lt;produit&gt;</code>{" "}
+      sous notre domaine, qui te redirige ensuite vers le site partenaire via le reseau Awin. Si tu
+      finalises l'achat dans la fenetre de cookie autorisee, Awin attribue la vente a SkinScore et
+      le partenaire nous reverse une commission (generalement entre 4 et 12% de la transaction).
+    </p>
+    <p class="text-slate-700 leading-relaxed mb-3">
+      Aucun cookie n'est pose tant que tu n'as pas clique sur un bouton d'achat. Aucune donnee
+      personnelle n'est collectee de notre cote (le parametre{" "}
+      <code class="bg-violet-50 px-2 py-0.5 rounded text-sm">clickref</code> ne contient que le
+      slug du produit, jamais ton identite).
+    </p>
+
+    <h2 class="text-xl font-bold mt-8 mb-3">Nos partenaires actifs</h2>
+    <ul class="list-disc pl-6 space-y-2 mb-3">
+      {partners.map((m) => (
+        <li>
+          <a href={m.domain} rel="nofollow" target="_blank" class="font-bold text-violet-700 hover:text-violet-900">
+            {m.name}
+          </a>{" "}
+          <span class="text-slate-600">- {m.country === "FR" ? "France" : "Royaume-Uni"}</span>
+        </li>
+      ))}
+    </ul>
+    <p class="text-sm text-slate-500">
+      Reseau utilise : <a href="https://www.awin.com/fr" rel="nofollow" target="_blank" class="text-violet-700 hover:underline">Awin</a>{" "}
+      (publisher account ID 1866466).
+    </p>
+
+    <h2 class="text-xl font-bold mt-8 mb-3">Pourquoi nos notes restent fiables</h2>
+    <p class="text-slate-700 leading-relaxed mb-3">
+      Notre <a href="/fr/methodology/" class="text-violet-700 underline hover:no-underline">methodologie de notation</a>{" "}
+      (cinq dimensions ponderees : efficacite 30%, securite 25%, comedogenicite 20%, transparence 15%,
+      adequation au type de peau 10%) est entierement publique et auditable. Les scores sont calcules
+      par algorithme, pas par humain. Aucun partenaire affilie ne peut demander une modification de
+      score ou de classement.
+    </p>
+    <p class="text-slate-700 leading-relaxed mb-3">
+      Une marque distribuee par un partenaire affilie peut tres bien recevoir un D ou E si sa
+      formulation le justifie. Inversement, une marque sans aucun partenariat peut recevoir un A.
+      La <strong>seule chose</strong> que change l'affiliation, c'est la presence ou non d'un
+      bouton "Acheter sur..." en bas de fiche.
+    </p>
+
+    <h2 class="text-xl font-bold mt-8 mb-3">Conformite</h2>
+    <p class="text-slate-700 leading-relaxed mb-3">
+      Cette divulgation respecte les obligations <strong>RGPD</strong> sur l'information de
+      l'utilisateur, la <strong>directive europeenne 2005/29/CE</strong> sur les pratiques
+      commerciales, l'article <strong>L121-1 du Code de la consommation francais</strong>, ainsi
+      que les <strong>FTC Endorsement Guides</strong> americaines. Tu peux nous contacter via{" "}
+      <a href="/fr/contact/" class="text-violet-700 underline">la page contact</a> pour toute question.
+    </p>
+
+    <p class="text-sm text-slate-500 mt-8">Derniere mise a jour : 29 avril 2026.</p>
+  </div>
+</BaseLayout>

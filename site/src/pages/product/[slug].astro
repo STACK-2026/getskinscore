@@ -7,6 +7,7 @@ import { siteConfig } from "../../../site.config";
 import { fullUrl, gradeClass } from "../../utils/config";
 import { jsonLdProduct, jsonLdBreadcrumbs, jsonLdFaq } from "../../utils/seo";
 import { getLocale, t, tr, localizedPath } from "../../i18n/t";
+import BuyCTA from "../../components/BuyCTA.astro";
 
 export function getStaticPaths() {
   return products.map((p) => ({
@@ -153,6 +154,8 @@ const noIndex = !isEnriched;
         </div>
       </div>
     </header>
+
+    <BuyCTA productId={product.id} brand={product.brand} name={product.name} locale={locale} />
 
     <!-- TL;DR data-speakable for AI citation (ChatGPT, Perplexity, AI Overviews) -->
     <aside data-speakable aria-label="TL;DR" class="mb-6 rounded-xl border border-violet-200 bg-violet-50/60 px-6 py-5 text-slate-700">

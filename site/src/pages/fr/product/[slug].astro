@@ -7,6 +7,7 @@ import { siteConfig } from "../../../../site.config";
 import { fullUrl, gradeClass } from "../../../utils/config";
 import { jsonLdProduct, jsonLdBreadcrumbs } from "../../../utils/seo";
 import { t, tr } from "../../../i18n/t";
+import BuyCTA from "../../../components/BuyCTA.astro";
 
 export function getStaticPaths() {
   return products.map((p) => ({ params: { slug: p.id }, props: { product: p } }));
@@ -54,6 +55,8 @@ const subScoreLabels = [
         </div>
       </div>
     </header>
+
+    <BuyCTA productId={product.id} brand={product.brand} name={product.name} locale={locale} />
 
     <div class="card mb-8"><p class="text-slate-600 leading-relaxed">{t(product.summary, locale)}</p></div>
 

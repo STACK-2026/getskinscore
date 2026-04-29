@@ -1,0 +1,88 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { siteConfig } from "../../site.config";
+import { fullUrl } from "../utils/config";
+import { jsonLdBreadcrumbs } from "../utils/seo";
+import { MERCHANTS } from "../lib/affiliate";
+
+const title = "Affiliate disclosure - SkinScore";
+const description =
+  "How SkinScore makes money, who our affiliate partners are, and why this never influences our A-E scores.";
+const url = fullUrl("/affiliate-disclosure");
+
+const breadcrumbs = [
+  { name: "Home", url: fullUrl("/") },
+  { name: "Affiliate disclosure", url },
+];
+const jsonLd = [jsonLdBreadcrumbs(breadcrumbs)];
+
+const partners = MERCHANTS.filter((m) => m.active);
+---
+
+<BaseLayout title={title} description={description} jsonLd={jsonLd}>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-14">
+    <p class="text-xs font-bold uppercase tracking-wider text-violet-700 mb-3">Transparency</p>
+    <h1 class="text-3xl md:text-4xl font-extrabold mb-5">Affiliate disclosure</h1>
+
+    <p class="text-lg text-slate-600 leading-relaxed mb-6">
+      SkinScore is an independent skincare comparator. <strong>No brand pays us</strong> to appear on
+      this site, improve a score, or earn a position in the rankings. Our only revenue comes from
+      affiliate links: when you purchase via a partner link, the retailer pays us a commission, at
+      no extra cost to you.
+    </p>
+
+    <h2 class="text-xl font-bold mt-8 mb-3">How it works</h2>
+    <p class="text-slate-700 leading-relaxed mb-3">
+      On every product page you see a <strong>"Buy on..."</strong> button. It points to a
+      <code class="bg-violet-50 px-2 py-0.5 rounded text-sm">/go/&lt;product&gt;</code> URL on our domain,
+      which 302-redirects you through the Awin affiliate network to the partner site. If you complete
+      the purchase within the cookie attribution window, Awin attributes the sale to SkinScore and
+      the partner pays us a commission (typically 4 to 12% of the transaction).
+    </p>
+    <p class="text-slate-700 leading-relaxed mb-3">
+      No cookie is dropped before you click a buy button. No personal data is collected on our side
+      (the <code class="bg-violet-50 px-2 py-0.5 rounded text-sm">clickref</code> parameter only
+      contains the product ID, never your identity).
+    </p>
+
+    <h2 class="text-xl font-bold mt-8 mb-3">Active partners</h2>
+    <ul class="list-disc pl-6 space-y-2 mb-3">
+      {partners.map((m) => (
+        <li>
+          <a href={m.domain} rel="nofollow" target="_blank" class="font-bold text-violet-700 hover:text-violet-900">
+            {m.name}
+          </a>{" "}
+          <span class="text-slate-600">- {m.country === "FR" ? "France" : "United Kingdom"}</span>
+        </li>
+      ))}
+    </ul>
+    <p class="text-sm text-slate-500">
+      Network: <a href="https://www.awin.com/" rel="nofollow" target="_blank" class="text-violet-700 hover:underline">Awin</a>{" "}
+      (publisher account ID 1866466).
+    </p>
+
+    <h2 class="text-xl font-bold mt-8 mb-3">Why our scores stay reliable</h2>
+    <p class="text-slate-700 leading-relaxed mb-3">
+      Our <a href="/methodology/" class="text-violet-700 underline hover:no-underline">scoring methodology</a>{" "}
+      (five weighted dimensions: efficacy 30%, safety 25%, comedogenicity 20%, transparency 15%,
+      skin-type fit 10%) is fully public and auditable. Scores are calculated by an algorithm, not
+      a human. No affiliate partner can request a score change or a ranking adjustment.
+    </p>
+    <p class="text-slate-700 leading-relaxed mb-3">
+      A brand distributed by an affiliate partner can absolutely receive a D or E if its formulation
+      warrants it. Conversely, a brand with no partnership at all can earn an A. The
+      <strong>only</strong> thing affiliation changes is the presence of a "Buy on..." button at the
+      bottom of the page.
+    </p>
+
+    <h2 class="text-xl font-bold mt-8 mb-3">Compliance</h2>
+    <p class="text-slate-700 leading-relaxed mb-3">
+      This disclosure complies with the <strong>FTC Endorsement Guides</strong> (US), the
+      <strong>UK ASA CAP Code</strong> on affiliate marketing, the <strong>EU Directive 2005/29/EC</strong>{" "}
+      on commercial practices, and the <strong>French Code de la consommation L121-1</strong>. Reach
+      us at <a href="/contact/" class="text-violet-700 underline">contact</a> for any question.
+    </p>
+
+    <p class="text-sm text-slate-500 mt-8">Last updated: 29 April 2026.</p>
+  </div>
+</BaseLayout>

@@ -1,0 +1,61 @@
+---
+import { pickMerchantsForProduct, buildGoPath, type Merchant } from "../lib/affiliate";
+
+interface Props {
+  productId: string;
+  brand: string;
+  name: string;
+  locale: "en" | "fr";
+}
+
+const { productId, brand, name, locale } = Astro.props;
+const merchants: Merchant[] = pickMerchantsForProduct(brand, locale);
+
+// Localized strings (kept inline to avoid bloating the i18n bundle).
+const labels = {
+  en: {
+    title: "Where to buy",
+    cta: "Buy on",
+    disclosure:
+      "Affiliate links. SkinScore may earn a commission if you purchase through these links, at no extra cost to you. These partnerships never influence our A-E scores.",
+    discloseLink: "Read our affiliate policy",
+  },
+  fr: {
+    title: "Ou l'acheter",
+    cta: "Acheter sur",
+    disclosure:
+      "Liens d'affiliation. SkinScore peut percevoir une commission si tu achetes via ces liens, sans surcout pour toi. Ces partenariats n'influencent jamais nos notes A-E.",
+    discloseLink: "Notre politique d'affiliation",
+  },
+};
+const L = labels[locale];
+const disclosurePath = locale === "fr" ? "/fr/divulgation-affiliation/" : "/affiliate-disclosure/";
+---
+
+{merchants.length > 0 && (
+  <section class="my-8 rounded-2xl border border-violet-200 bg-violet-50/40 p-5" aria-label={L.title}>
+    <h3 class="text-sm font-bold uppercase tracking-wider text-violet-700 mb-3">{L.title}</h3>
+    <div class="flex flex-col gap-2.5">
+      {merchants.map((m) => (
+        <a
+          href={buildGoPath(productId, m.key, brand, name)}
+          rel="sponsored nofollow noopener"
+          target="_blank"
+          class="group flex items-center justify-between gap-3 px-4 py-3.5 rounded-xl bg-violet-600 hover:bg-violet-700 text-white font-bold transition-all hover:-translate-y-0.5 shadow-sm hover:shadow-md"
+          data-merchant={m.key}
+          data-product={productId}
+        >
+          <span class="text-xs uppercase tracking-wider opacity-80">{L.cta}</span>
+          <span class="flex-1 text-base">{m.name}</span>
+          <span class="text-lg group-hover:translate-x-0.5 transition-transform">&rarr;</span>
+        </a>
+      ))}
+    </div>
+    <p class="mt-3 text-xs leading-relaxed text-slate-600">
+      {L.disclosure}{" "}
+      <a href={disclosurePath} class="underline decoration-violet-300 hover:text-violet-700">
+        {L.discloseLink}
+      </a>.
+    </p>
+  </section>
+)}
