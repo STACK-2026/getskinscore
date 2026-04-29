@@ -12,6 +12,16 @@ const ASSET_EXT = /\.(js|mjs|css|png|jpe?g|webp|avif|gif|svg|ico|woff2?|ttf|otf|
 
 export async function onRequest(context) {
   const { request, next, env, waitUntil } = context;
+
+  // www → apex 301: cross-host redirect cannot be expressed in CF Pages
+  // _redirects (path-only syntax), so we short-circuit here at the edge
+  // before any asset serving or bot logging. preserve path + query.
+  const reqUrl = new URL(request.url);
+  if (reqUrl.hostname === "www.getskinscore.com") {
+    reqUrl.hostname = "getskinscore.com";
+    return Response.redirect(reqUrl.toString(), 301);
+  }
+
   const response = await next();
 
   try {
