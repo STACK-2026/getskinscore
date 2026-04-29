@@ -53,5 +53,53 @@ const breadcrumbs = [
         </a>
       ))}
     </div>
+
+    <!-- Browse by category (internal linking hubs to /fr/best/<concern>/) -->
+    <div class="mt-16 pt-12 border-t border-slate-200">
+      <h2 class="text-xl font-bold mb-6">Parcourir par préoccupation</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-12">
+        {siteConfig.concerns
+          .filter((c) => products.some((p) => p.concerns.includes(c.id)))
+          .map((c) => (
+            <a
+              href={`/fr/best/${c.id}`}
+              class="card card-glow !p-4 text-center hover:border-violet-400"
+            >
+              <p class="text-sm font-bold text-slate-800">{c.label.fr}</p>
+              <p class="text-xs text-slate-500 mt-1">
+                {products.filter((p) => p.concerns.includes(c.id)).length} produits
+              </p>
+            </a>
+          ))}
+      </div>
+
+      <h2 class="text-xl font-bold mb-6">Parcourir par type de produit</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+        {siteConfig.productTypes
+          .filter((pt) => products.some((p) => p.type === pt.id))
+          .map((pt) => {
+            const typeProducts = products.filter((p) => p.type === pt.id);
+            const concernCounts: { [key: string]: number } = {};
+            for (const p of typeProducts) {
+              for (const c of p.concerns) concernCounts[c] = (concernCounts[c] || 0) + 1;
+            }
+            const topConcern = Object.entries(concernCounts).sort((a, b) => b[1] - a[1])[0]?.[0];
+            const href = topConcern
+              ? `/fr/best/${pt.id}-${topConcern}`
+              : `/fr/rankings`;
+            return (
+              <a
+                href={href}
+                class="card card-glow !p-4 text-center hover:border-violet-400"
+              >
+                <p class="text-sm font-bold text-slate-800">{pt.label.fr}</p>
+                <p class="text-xs text-slate-500 mt-1">
+                  {typeProducts.length} produits
+                </p>
+              </a>
+            );
+          })}
+      </div>
+    </div>
   </div>
 </BaseLayout>
