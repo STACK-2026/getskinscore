@@ -46,7 +46,11 @@ const indexableBrandSlugs = (() => {
     if (!slug) continue;
     counts.set(slug, (counts.get(slug) || 0) + 1);
   }
-  return new Set([...counts.entries()].filter(([, n]) => n >= 3).map(([s]) => s));
+  // Loosened from >= 3 to >= 1 on 2026-04-29: brand pages now have real
+  // content (product list + grade distribution + JSON-LD Brand schema). The
+  // >= 3 thin-content guard predates the brand→products linking work and is
+  // no longer needed. See docs/superpowers/notes/2026-04-29-skinscore-sitemap-policy.md
+  return new Set([...counts.entries()].filter(([, n]) => n >= 1).map(([s]) => s));
 })();
 
 const deepIngredientIds = new Set(ingredientDeepContent.map((i) => i.id));
