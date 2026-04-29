@@ -1,4 +1,8 @@
 # Cloudflare Pages redirects
 
+# Cross-host: force apex (www → apex). Stops www.getskinscore.com/... duplicates
+# from leaking into GSC as a separate host.
+https://www.getskinscore.com/* https://getskinscore.com/:splat 301!
+
 # Sitemap alias
 /sitemap.xml /sitemap-index.xml 200
