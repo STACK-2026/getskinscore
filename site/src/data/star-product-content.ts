@@ -569,6 +569,80 @@ export const starProductContent: StarProductContent[] = [
     faq: [{ question: { en: "Is the alcohol in Biore bad for skin?", fr: "L'alcool dans le Biore est-il mauvais pour la peau ?" }, answer: { en: "Alcohol denat (denatured alcohol) at high concentrations can disrupt the skin barrier, increase TEWL (transepidermal water loss), and irritate sensitive skin. It gives Biore its lightweight feel but at a cost. For occasional use or non-sensitive oily skin, it's fine. For daily use on sensitive or retinol-treated skin, alcohol-free alternatives (Beauty of Joseon, LRP Anthelios) are better choices.", fr: "L'alcool denature a haute concentration peut alterer la barriere cutanee et irriter les peaux sensibles. Il donne a Biore sa legerete mais a un cout. Pour usage occasionnel ou peau grasse non sensible, c'est OK. Pour usage quotidien sur peau sensible ou traitee au retinol, les alternatives sans alcool (Beauty of Joseon, LRP Anthelios) sont de meilleurs choix." } }],
     vsCompetitors: [{ competitorId: "beauty-of-joseon-relief-sun-rice-probiotics-spf50", competitorName: "Beauty of Joseon Relief Sun", verdict: { en: "Biore C (58) vs BOJ A (82). BOJ has NO alcohol, NO fragrance, adds niacinamide + rice bran + probiotics. Biore has alcohol + fragrance but a lighter texture. BOJ wins on formula quality AND skin health. Biore wins on pure cosmetic elegance (weightless). For healthy skin choice, BOJ. For the absolute lightest feel, Biore. BOJ is the smarter choice for daily use.", fr: "Biore C (58) vs BOJ A (82). BOJ n'a PAS d'alcool, PAS de parfum, ajoute niacinamide + son de riz + probiotiques. Biore a alcool + parfum mais texture plus legere. BOJ gagne en qualite de formule ET sante cutanee. Biore gagne en elegance cosmetique pure. Pour la sante de la peau, BOJ. Pour la sensation la plus legere, Biore. BOJ est le choix plus intelligent au quotidien." } }],
   },
+  {
+    id: "la-roche-posay-toleriane-sensitive-cream",
+    editorialReview: {
+      en: "La Roche-Posay Toleriane Sensitive Cream earns its A-grade (84/100) by delivering barrier repair without irritation. The formula hinges on 4% niacinamide, clinically shown to reduce redness and strengthen skin over 4-8 weeks, and ceramide NP, which mimics natural lipids to lock in moisture. Squalane and shea butter add emollience without clogging pores, while the prebiotic thermal water, La Roche-Posay's signature, helps rebalance the microbiome. What's absent matters too: no fragrance, alcohol, or essential oils, making this a rare find for reactive skin. The texture is lightweight yet occlusive enough for eczema-prone areas. If you're sensitive to fatty alcohols, note the presence of cetearyl alcohol, a non-irritating emulsifier, but it's a minor trade-off for the results.",
+      fr: "La Toleriane Sensitive Cream de La Roche-Posay mérite son A (84/100) en réparant la barrière cutanée sans irritation. La formule repose sur 4% de niacinamide, prouvé cliniquement pour réduire les rougeurs et renforcer la peau en 4 à 8 semaines, et le céramide NP, qui imite les lipides naturels pour retenir l'hydratation. Le squalane et le beurre de karité apportent de l'onctuosité sans obstruer les pores, tandis que l'eau thermale prébiotique, signature de la marque, rééquilibre le microbiome. Ce qui manque compte aussi: pas de parfum, d'alcool ou d'huiles essentielles, un vrai plus pour les peaux réactives. La texture est légère mais suffisamment occlusive pour les zones sujettes à l'eczéma. Si tu es sensible aux alcools gras, note la présence de cetearyl alcohol, un émulsifiant non irritant, mais c'est un compromis mineur pour les résultats obtenus."
+    },
+    howToUse: {
+      en: "Apply a pea-sized amount to cleansed skin morning and/or evening. Gently pat into face and neck, do not rub, as sensitive skin tolerates pressure poorly. If using with actives like vitamin C or retinoids, layer this cream last to seal in hydration. The 40ml tube is travel-friendly, but the thick texture may require warming between fingers in cold weather. Avoid mixing with water-based serums immediately; wait 30 seconds for absorption. For very dry skin, pair with a hydrating serum like hyaluronic acid underneath. Not ideal for oily skin seeking a mattifying finish, opt for a gel-cream instead.",
+      fr: "Applique une noisette de crème sur peau nettoyée, matin et/ou soir. Tapote doucement sur le visage et le cou, ne frotte pas, car les peaux sensibles supportent mal la pression. Si tu utilises des actifs comme la vitamine C ou les rétinoïdes, applique cette crème en dernier pour sceller l'hydratation. Le tube de 40 ml est pratique pour les déplacements, mais la texture épaisse peut nécessiter un réchauffement entre les doigts par temps froid. Évite de mélanger avec des sérums aqueux immédiatement; attends 30 secondes pour une meilleure absorption. Pour les peaux très sèches, associe-la à un sérum hydratant comme l'acide hyaluronique en dessous. Pas idéale pour les peaux grasses cherchant un fini matifiant, préfère un gel-crème."
+    },
+    whoIsItFor: {
+      en: "Ideal for sensitive, reactive, or eczema-prone skin needing barrier repair. Also suits rosacea-prone skin due to the anti-inflammatory niacinamide. Dry to combination skin types will benefit from the occlusive yet non-greasy texture. Not ideal for oily skin seeking lightweight hydration, try a gel instead, or those allergic to shea butter. If your skin stings with most moisturizers, this is one of the few that's consistently tolerated.",
+      fr: "Parfaite pour les peaux sensibles, réactives ou sujettes à l'eczéma qui ont besoin de réparer leur barrière cutanée. Convient aussi aux peaux sujettes à la rosacée grâce à la niacinamide anti-inflammatoire. Les peaux sèches à mixtes apprécieront sa texture occlusive mais non grasse. Pas idéale pour les peaux grasses cherchant une hydratation légère, préfère un gel, ou celles allergiques au beurre de karité. Si ta peau picote avec la plupart des crèmes, celle-ci est l'une des rares bien tolérées."
+    },
+    whatToExpect: {
+      en: "Week 1: Immediate relief from tightness and dryness, though redness may persist. The prebiotic water can cause a slight tingling sensation, normal and not irritation. Week 4: Noticeable reduction in reactivity, fewer flare-ups when exposed to triggers like wind or temperature changes. Skin feels plumper, and makeup applies more smoothly. Week 12: Barrier function improves, with less transepidermal water loss, confirmed by corneometer studies on similar formulas. Long-term, expect fewer breakouts from dehydration and a more even skin tone. Results plateau after 3 months; consistency is key.",
+      fr: "Semaine 1: Soulagement immédiat des tiraillements et de la sécheresse, mais les rougeurs peuvent persister. L'eau prébiotique peut provoquer un léger picotement, normal et pas une irritation. Semaine 4: Réduction notable de la réactivité, moins de poussées face à des déclencheurs comme le vent ou les changements de température. La peau est plus rebondie, et le maquillage s'applique mieux. Semaine 12: Amélioration de la fonction barrière, avec moins de perte en eau, confirmée par des études au cornéomètre sur des formules similaires. À long terme, moins de boutons dus à la déshydratation et un teint plus uniforme. Les résultats se stabilisent après 3 mois; la régularité est essentielle."
+    },
+    commonMistakes: {
+      en: "Using too much product. A pea-sized amount is sufficient; overapplication can leave a film and clog pores, especially on combination skin.\n\nSkipping patch tests. Even hypoallergenic formulas can trigger reactions. Test on your inner arm for 48 hours before facial use.\n\nMixing with incompatible actives. Niacinamide is stable, but avoid layering with high-percentage AHAs/BHAs, like 10% glycolic acid, to prevent irritation.",
+      fr: "Utiliser trop de produit. Une noisette suffit; trop en appliquer peut laisser un film et obstruer les pores, surtout sur les peaux mixtes.\n\nZapper le test cutané. Même les formules hypoallergéniques peuvent provoquer des réactions. Teste sur l'intérieur du bras pendant 48 heures avant une application sur le visage.\n\nAssocier à des actifs incompatibles. La niacinamide est stable, mais évite de superposer avec des AHA/BHA à haute concentration, comme l'acide glycolique à 10%, pour limiter les irritations."
+    },
+    faq: [
+      {
+        question: {
+          en: "Can I use this if I'm allergic to lanolin?",
+          fr: "Puis-je l'utiliser si je suis allergique à la lanoline?"
+        },
+        answer: {
+          en: "Yes. The formula is lanolin-free and uses plant-derived squalane and shea butter instead. However, if you have a known allergy to shea butter, rare but possible, perform a patch test first. The INCI lists 'Butyrospermum Parkii Butter,' which is shea butter.",
+          fr: "Oui. La formule ne contient pas de lanoline et utilise du squalane d'origine végétale et du beurre de karité. Cependant, si tu es allergique au beurre de karité, rare mais possible, fais un test cutané au préalable. L'INCI mentionne « Butyrospermum Parkii Butter », qui est le beurre de karité."
+        }
+      },
+      {
+        question: {
+          en: "Does this work under sunscreen?",
+          fr: "Est-ce que ça fonctionne sous un écran solaire?"
+        },
+        answer: {
+          en: "Yes, but wait 1-2 minutes after applying the cream to let it absorb fully. This prevents pilling, tiny balls forming when layering sunscreen. If using a mineral SPF, the occlusive properties of the cream can even enhance its staying power. For chemical sunscreens, apply the cream first to buffer potential irritation from filters like octinoxate.",
+          fr: "Oui, mais attends 1 à 2 minutes après l'application de la crème pour qu'elle soit bien absorbée. Cela évite la formation de peluches, petites boules lors de l'application de l'écran solaire. Si tu utilises un SPF minéral, les propriétés occlusives de la crème peuvent même améliorer sa tenue. Pour les SPF chimiques, applique la crème en premier pour limiter les irritations potentielles causées par des filtres comme l'octinoxate."
+        }
+      },
+      {
+        question: {
+          en: "Is this fragrance-free or just 'unscented'?",
+          fr: "Est-ce sans parfum ou simplement « non parfumé »?"
+        },
+        answer: {
+          en: "Truly fragrance-free. The formula contains no masking fragrances, essential oils, or limonene/linalool, common in 'unscented' products. La Roche-Posay's dermatological testing confirms this, making it safe for fragrance-allergic skin. The slight natural scent comes from the shea butter and is not added for aroma.",
+          fr: "Vraiment sans parfum. La formule ne contient ni parfums masquants, ni huiles essentielles, ni limonène/linalool, présents dans les produits « non parfumés ». Les tests dermatologiques de La Roche-Posay le confirment, ce qui la rend sûre pour les peaux allergiques aux parfums. La légère odeur naturelle provient du beurre de karité et n'est pas ajoutée pour l'arôme."
+        }
+      }
+    ],
+    vsCompetitors: [
+      {
+        competitorId: "cerave-moisturizing-cream",
+        competitorName: "CeraVe Moisturizing Cream",
+        verdict: {
+          en: "CeraVe's Moisturizing Cream, A-grade, is the closest rival, with ceramides and hyaluronic acid at a lower price point. However, Toleriane Sensitive wins for reactive skin due to its prebiotic thermal water and absence of fatty esters, like Ceteareth-20, which can irritate some. CeraVe's jar format also risks contamination, while Toleriane's tube is more hygienic. Choose CeraVe for budget-friendly barrier repair; choose Toleriane if your skin stings with most creams.",
+          fr: "La Crème Hydratante de CeraVe, note A, est la concurrente la plus proche, avec des céramides et de l'acide hyaluronique à un prix plus abordable. Cependant, la Toleriane Sensitive l'emporte pour les peaux réactives grâce à son eau thermale prébiotique et l'absence d'esters gras, comme le Ceteareth-20, qui peut irriter. Le pot de CeraVe risque aussi la contamination, tandis que le tube de Toleriane est plus hygiénique. Choisis CeraVe pour une réparation barrière économique; choisis Toleriane si ta peau picote avec la plupart des crèmes."
+        }
+      },
+      {
+        competitorId: "avene-cicalfate-plus-restorative-cream",
+        competitorName: "Avene Cicalfate+ Restorative Protective Cream",
+        verdict: {
+          en: "Avene Cicalfate+, A-grade, is a post-procedure powerhouse with copper-zinc sulfate for healing, but it's heavier and better suited for spot treatment or night use. Toleriane Sensitive is lighter, fragrance-free, and designed for daily wear, ideal for sensitive skin that isn't damaged or broken. If you need intense repair, after a peel or laser, Cicalfate+ is superior. For daily maintenance of reactive skin, Toleriane wins.",
+          fr: "La Cicalfate+ d'Avene, note A, est une championne post-procédure avec du sulfate de cuivre-zinc pour la cicatrisation, mais elle est plus épaisse et mieux adaptée aux soins localisés ou nocturnes. La Toleriane Sensitive est plus légère, sans parfum et conçue pour un usage quotidien, parfaite pour les peaux sensibles non abîmées. Si tu as besoin d'une réparation intense, après un peeling ou un laser, Cicalfate+ est supérieure. Pour l'entretien quotidien des peaux réactives, Toleriane l'emporte."
+        }
+      }
+    ]
+  },
+
 ];
 
 export function getStarContent(productId: string): StarProductContent | undefined {
