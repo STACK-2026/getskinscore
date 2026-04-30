@@ -138,7 +138,7 @@ def extract_json(text: str) -> dict:
         elif ch == "}":
             depth -= 1
             if depth == 0:
-                return json.loads(t[start:i + 1])
+                return json.loads(t[start:i + 1], strict=False)
     raise ValueError("Unbalanced JSON braces")
 
 
@@ -173,17 +173,57 @@ def ts_literal(value: Any, indent: int = 0) -> str:
     raise TypeError(f"Unsupported TS type: {type(value)}")
 
 
-def github_put_file(path: str, content: str, message: str, branch: str = "main") -> str:
-    """Idempotent PUT via GitHub Contents API. Returns new SHA."""
-    if not GITHUB_TOKEN:
-        raise RuntimeError("GITHUB_TOKEN missing")
-    api = f"https://api.github.com/repos/{GITHUB_REPOSITORY}/contents/{urllib.parse.quote(path)}"
-    headers = {
+def _gh_headers() -> dict:
+    return {
         "Authorization": f"Bearer {GITHUB_TOKEN}",
         "Accept": "application/vnd.github+json",
         "X-GitHub-Api-Version": "2022-11-28",
     }
-    # Fetch current SHA (if exists)
+
+
+def _git_db_put_file(path: str, content: str, message: str, branch: str = "main") -> str:
+    """PUT via Git Database API for files >1MB (cap Contents API).
+    blob -> tree -> commit -> ref update. Returns blob SHA."""
+    base = f"https://api.github.com/repos/{GITHUB_REPOSITORY}"
+    h = _gh_headers()
+    r = requests.post(f"{base}/git/blobs", headers=h, json={
+        "content": base64.b64encode(content.encode()).decode(),
+        "encoding": "base64",
+    }, timeout=60)
+    r.raise_for_status()
+    blob_sha = r.json()["sha"]
+    r = requests.get(f"{base}/git/refs/heads/{branch}", headers=h, timeout=30)
+    r.raise_for_status()
+    parent = r.json()["object"]["sha"]
+    r = requests.get(f"{base}/git/commits/{parent}", headers=h, timeout=30)
+    r.raise_for_status()
+    base_tree = r.json()["tree"]["sha"]
+    r = requests.post(f"{base}/git/trees", headers=h, json={
+        "base_tree": base_tree,
+        "tree": [{"path": path, "mode": "100644", "type": "blob", "sha": blob_sha}],
+    }, timeout=60)
+    r.raise_for_status()
+    tree_sha = r.json()["sha"]
+    r = requests.post(f"{base}/git/commits", headers=h, json={
+        "message": message,
+        "tree": tree_sha,
+        "parents": [parent],
+    }, timeout=30)
+    r.raise_for_status()
+    commit_sha = r.json()["sha"]
+    r = requests.patch(f"{base}/git/refs/heads/{branch}", headers=h, json={"sha": commit_sha}, timeout=30)
+    r.raise_for_status()
+    return blob_sha
+
+
+def github_put_file(path: str, content: str, message: str, branch: str = "main") -> str:
+    """Idempotent PUT. Falls back to Git DB API for files >1MB (Contents API cap)."""
+    if not GITHUB_TOKEN:
+        raise RuntimeError("GITHUB_TOKEN missing")
+    if len(content.encode()) > 1_000_000:
+        return _git_db_put_file(path, content, message, branch)
+    api = f"https://api.github.com/repos/{GITHUB_REPOSITORY}/contents/{urllib.parse.quote(path)}"
+    headers = _gh_headers()
     sha = None
     r = requests.get(api, headers=headers, params={"ref": branch}, timeout=30)
     if r.status_code == 200:
@@ -195,7 +235,6 @@ def github_put_file(path: str, content: str, message: str, branch: str = "main")
     }
     if sha:
         body["sha"] = sha
-    # Retry on 409/422 (SHA race)
     for attempt in range(3):
         r = requests.put(api, headers=headers, json=body, timeout=30)
         if r.status_code in (200, 201):
@@ -212,20 +251,29 @@ def github_put_file(path: str, content: str, message: str, branch: str = "main")
 
 
 def github_get_file(path: str, branch: str = "main") -> tuple[str, str]:
-    """Fetch file content + SHA from GitHub. Returns (text, sha)."""
+    """Fetch (text, sha). Files >1MB return empty content via Contents API:
+    fall back to Git Blobs API (100MB cap). products.ts (~4MB) hits this path."""
     if not GITHUB_TOKEN:
         raise RuntimeError("GITHUB_TOKEN missing")
     api = f"https://api.github.com/repos/{GITHUB_REPOSITORY}/contents/{urllib.parse.quote(path)}"
     r = requests.get(
         api,
-        headers={"Authorization": f"Bearer {GITHUB_TOKEN}", "Accept": "application/vnd.github+json"},
+        headers=_gh_headers(),
         params={"ref": branch},
         timeout=30,
     )
     r.raise_for_status()
     data = r.json()
-    text = base64.b64decode(data["content"]).decode()
-    return text, data["sha"]
+    sha = data["sha"]
+    if data.get("content"):
+        return base64.b64decode(data["content"]).decode(), sha
+    blob = requests.get(
+        f"https://api.github.com/repos/{GITHUB_REPOSITORY}/git/blobs/{sha}",
+        headers=_gh_headers(),
+        timeout=60,
+    )
+    blob.raise_for_status()
+    return base64.b64decode(blob.json()["content"]).decode(), sha
 
 
 def sanitize(s: str) -> str:
