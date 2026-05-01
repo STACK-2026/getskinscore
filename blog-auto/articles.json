@@ -391,7 +391,10 @@
     "title": "Retinol : le guide complet pour debutants",
     "queue_file": "retinol-guide-debutant-commencer.md",
     "pre_generated_at": "2026-04-23T00:49:15",
-    "quality_passed": true
+    "quality_passed": true,
+    "published": true,
+    "publishedAt": "2026-05-01",
+    "lastReviewed": "2026-05-01"
   },
   {
     "slug": "cerave-vs-cetaphil-which-moisturizer-actually-better",
