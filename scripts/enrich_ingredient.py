@@ -103,7 +103,10 @@ def already_enriched(ts_text: str, ing_id: str) -> bool:
 
 def get_ingredient_stub(ts_text: str, ing_id: str) -> dict | None:
     """Extract a small stub (inci, name EN/FR, category, score) for the LLM."""
-    m = re.search(r'\n  \{\s*\n\s*id:\s*"' + re.escape(ing_id) + r'"[\s\S]*?\n  \}', ts_text)
+    # Tolerate single-line `  { id: "...", ... }` (current format) and multi-line block fallback.
+    m = re.search(r'\n\s*\{\s*id:\s*"' + re.escape(ing_id) + r'"[^\n]*\}', ts_text)
+    if not m:
+        m = re.search(r'\n\s*\{\s*\n\s*id:\s*"' + re.escape(ing_id) + r'"[\s\S]*?\n\s*\}', ts_text)
     if not m:
         return None
     block = m.group()
