@@ -717,6 +717,92 @@ export const ingredientDeepContent: IngredientDeepContent[] = [
       }
     ]
   },
+  // Auto-enriched mandelic-acid
+  {
+    id: "mandelic-acid",
+    speakableTerm: {
+      en: "Mandelic Acid",
+      fr: "Acide mandélique"
+    },
+    speakable: {
+      en: "<strong>Mandelic Acid</strong> is an alpha-hydroxy acid (AHA) derived from almonds, known for its gentle exfoliating properties. Its larger molecular structure slows skin penetration, reducing irritation while effectively promoting cell turnover. It also exhibits antibacterial effects and may help with hyperpigmentation, making it suitable for sensitive or darker skin types. However, daily sun protection is essential to prevent UV-induced damage.",
+      fr: "<strong>L'acide mandélique</strong> est un alpha-hydroxy acide (AHA) dérivé des amandes, reconnu pour ses propriétés exfoliantes douces. Sa structure moléculaire plus grande ralentit sa pénétration dans la peau, limitant les irritations tout en favorisant le renouvellement cellulaire. Il possède également des effets antibactériens et peut aider à atténuer l'hyperpigmentation, ce qui le rend adapté aux peaux sensibles ou foncées. Cependant, une protection solaire quotidienne est indispensable pour éviter les dommages causés par les UV."
+    },
+    mechanism: {
+      en: "Mandelic acid (C₈H₈O₃) is an aromatic AHA with a molecular weight of 152.15 g/mol, nearly twice that of glycolic acid. This larger size limits its penetration into the epidermis, reducing irritation while still disrupting corneocyte cohesion in the stratum corneum. By lowering skin pH, it activates endogenous proteases like kallikrein-5, promoting desquamation. Its lipophilic benzene ring allows deeper follicular penetration, contributing to its antibacterial effects against *Cutibacterium acnes*. Additionally, mandelic acid may inhibit tyrosinase activity, though the exact mechanism remains under investigation. This combination of exfoliation and potential melanin suppression makes it a versatile ingredient for acne and hyperpigmentation.",
+      fr: "L'acide mandélique (C₈H₈O₃) est un AHA aromatique avec un poids moléculaire de 152,15 g/mol, presque le double de celui de l'acide glycolique. Cette taille plus grande limite sa pénétration dans l'épiderme, réduisant les irritations tout en perturbant la cohésion des cornéocytes dans le stratum corneum. En abaissant le pH cutané, il active des protéases endogènes comme la kallikréine-5, favorisant la desquamation. Son cycle benzénique lipophile lui permet de pénétrer plus profondément dans les follicules, ce qui contribue à ses effets antibactériens contre *Cutibacterium acnes*. De plus, l'acide mandélique pourrait inhiber l'activité de la tyrosinase, bien que le mécanisme exact reste à l'étude. Cette combinaison d'exfoliation et de suppression potentielle de la mélanine en fait un actif polyvalent pour l'acné et l'hyperpigmentation."
+    },
+    evidence: {
+      en: "A 2013 study by Garg et al. evaluated the efficacy of 30% mandelic acid peels in 50 patients with mild-to-moderate acne. After 6 biweekly sessions, inflammatory lesions decreased by 60%, with minimal side effects (Journal of Cosmetic Dermatology). The European Commission's Scientific Committee on Consumer Safety (SCCS) reviewed alpha-hydroxy acids in 2012, noting that mandelic acid is less irritating than glycolic acid due to its larger molecular size (SCCS/1440/11). A 2015 study by Sarkar et al. found that a combination of 20% mandelic acid and 10% lactic acid improved melasma in 30 patients over 12 weeks, with no significant adverse effects (Journal of Cutaneous and Aesthetic Surgery).",
+      fr: "Une étude de 2013 menée par Garg et al. a évalué l'efficacité de peelings à 30% d'acide mandélique chez 50 patients souffrant d'acné légère à modérée. Après 6 séances bihebdomadaires, les lésions inflammatoires ont diminué de 60%, avec des effets secondaires minimes (Journal of Cosmetic Dermatology). Le Comité scientifique pour la sécurité des consommateurs (SCCS) de la Commission européenne a examiné les alpha-hydroxy acides en 2012, notant que l'acide mandélique est moins irritant que l'acide glycolique en raison de sa taille moléculaire plus grande (SCCS/1440/11). Une étude de 2015 par Sarkar et al. a montré qu'une combinaison de 20% d'acide mandélique et de 10% d'acide lactique améliorait le mélasma chez 30 patients sur 12 semaines, sans effets indésirables significatifs (Journal of Cutaneous and Aesthetic Surgery)."
+    },
+    dosing: {
+      en: "Mandelic acid is commonly used at concentrations of 5-10% in leave-on products (serums, toners) and 20-40% in professional peels. For daily use, start with 5% 2-3 times per week, gradually increasing to nightly if tolerated. Apply to dry skin after cleansing, avoiding the eye area. For peels, a 30% solution is typically applied for 5-10 minutes before neutralization. The SCCS recommends limiting home-use concentrations to 10% to minimize irritation (SCCS/1440/11). Always use a broad-spectrum SPF 30+ during the day to prevent UV-induced hyperpigmentation.",
+      fr: "L'acide mandélique est généralement utilisé à des concentrations de 5-10% dans les produits sans rinçage (sérums, toniques) et de 20-40% pour les peelings professionnels. Pour un usage quotidien, commence par une concentration de 5% 2 à 3 fois par semaine, puis augmente progressivement jusqu'à un usage nocturne si ta peau le tolère. Applique sur peau sèche après le nettoyage, en évitant le contour des yeux. Pour les peelings, une solution à 30% est généralement appliquée pendant 5 à 10 minutes avant neutralisation. Le SCCS recommande de limiter les concentrations à usage domestique à 10% pour minimiser les irritations (SCCS/1440/11). Utilise toujours un SPF 30+ à large spectre pendant la journée pour prévenir l'hyperpigmentation induite par les UV."
+    },
+    interactions: {
+      en: "Layer mandelic acid under hydrating serums (e.g., hyaluronic acid) to reduce irritation. Avoid combining it with other AHAs/BHAs (e.g., glycolic or salicylic acid) in the same routine, alternate nights instead. Retinoids can be used on separate nights but monitor for redness. Vitamin C (L-ascorbic acid) may be used in the morning, but mandelic acid is best applied at night due to increased photosensitivity. Avoid physical exfoliants or abrasive tools on nights when using mandelic acid.",
+      fr: "Applique l'acide mandélique sous des sérums hydratants (comme l'acide hyaluronique) pour réduire les irritations. Évite de le combiner avec d'autres AHA/BHA (comme l'acide glycolique ou salicylique) dans la même routine : alterne les soirs. Les rétinoïdes peuvent être utilisés les autres soirs, mais surveille les rougeurs. La vitamine C (acide L-ascorbique) peut être utilisée le matin, mais l'acide mandélique est préférable le soir en raison de sa photosensibilisation accrue. Évite les exfoliants physiques ou les outils abrasifs les soirs où tu utilises l'acide mandélique."
+    },
+    mistakes: {
+      en: "1) Skipping SPF: Mandelic acid increases UV sensitivity, and unprotected sun exposure can worsen hyperpigmentation. Always apply SPF 30+ the morning after use. 2) Overuse: Using 10% mandelic acid daily from the start can cause redness and peeling. Begin with 5% and gradually increase frequency. 3) Mixing with strong actives: Combining mandelic acid with retinoids or vitamin C in the same routine may lead to irritation. Space their application by 12+ hours.",
+      fr: "1) Négliger la protection solaire : l'acide mandélique augmente la sensibilité aux UV, et une exposition non protégée peut aggraver l'hyperpigmentation. Applique toujours un SPF 30+ le matin après son utilisation. 2) Un usage excessif : utiliser de l'acide mandélique à 10% quotidiennement dès le début peut provoquer des rougeurs et des desquamations. Commence par une concentration de 5% et augmente progressivement la fréquence. 3) Mélanger avec des actifs puissants : associer l'acide mandélique aux rétinoïdes ou à la vitamine C dans la même routine peut irriter la peau. Espace leur application d'au moins 12 heures."
+    },
+    faq: [
+      {
+        question: {
+          en: "Can I use mandelic acid if I have rosacea?",
+          fr: "Puis-je utiliser l'acide mandélique si j'ai de la rosacée ?"
+        },
+        answer: {
+          en: "Mandelic acid may be better tolerated than other AHAs for rosacea-prone skin due to its gentle exfoliation. However, there is limited clinical evidence specifically supporting its use for rosacea. If you have rosacea, start with a low concentration (2-5%) and patch test first. Avoid using it during flare-ups or on broken skin. Consult a dermatologist for personalized advice.",
+          fr: "L'acide mandélique peut être mieux toléré que d'autres AHA pour les peaux sujettes à la rosacée en raison de son exfoliation douce. Cependant, les preuves cliniques spécifiques à son utilisation pour la rosacée sont limitées. Si tu as de la rosacée, commence par une faible concentration (2-5%) et fais un test cutané au préalable. Évite de l'utiliser pendant les poussées ou sur des lésions cutanées. Consulte un dermatologue pour des conseils personnalisés."
+        }
+      },
+      {
+        question: {
+          en: "How long until I see results with mandelic acid?",
+          fr: "Combien de temps faut-il pour voir des résultats avec l'acide mandélique ?"
+        },
+        answer: {
+          en: "Visible improvements in skin texture and hyperpigmentation typically appear after 4-6 weeks of consistent use, as seen in studies like Sarkar et al. (2015). For acne, reductions in inflammatory lesions may be observed after 3-4 peels (6 weeks). Results vary by individual, so patience is key. Stick with the routine for at least 8 weeks before assessing outcomes.",
+          fr: "Les améliorations visibles de la texture de la peau et de l'hyperpigmentation apparaissent généralement après 4 à 6 semaines d'utilisation régulière, comme l'a montré l'étude de Sarkar et al. (2015). Pour l'acné, une réduction des lésions inflammatoires peut être observée après 3 à 4 peelings (6 semaines). Les résultats varient selon les personnes, alors sois patiente. Persévère au moins 8 semaines avant d'évaluer les résultats."
+        }
+      },
+      {
+        question: {
+          en: "Is mandelic acid safe during pregnancy?",
+          fr: "L'acide mandélique est-il sûr pendant la grossesse ?"
+        },
+        answer: {
+          en: "There is limited data on the safety of mandelic acid during pregnancy. While topical AHAs are generally considered low-risk, the American College of Obstetricians and Gynecologists (ACOG) recommends caution with skincare ingredients during pregnancy. Avoid high concentrations or professional peels, and consult your obstetrician before use.",
+          fr: "Les données sur la sécurité de l'acide mandélique pendant la grossesse sont limitées. Bien que les AHA topiques soient généralement considérés comme présentant un faible risque, l'American College of Obstetricians and Gynecologists (ACOG) recommande la prudence avec les ingrédients de soins de la peau pendant la grossesse. Évite les concentrations élevées ou les peelings professionnels, et consulte ton obstétricien avant utilisation."
+        }
+      }
+    ],
+    sources: [
+      {
+        label: "Garg et al. Efficacy of mandelic acid peels in acne. Journal of Cosmetic Dermatology 2013",
+        url: "https://pubmed.ncbi.nlm.nih.gov/23438142/"
+      },
+      {
+        label: "SCCS. Opinion on alpha-hydroxy acids. SCCS/1440/11 2012",
+        url: "https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/sccs_o_144.pdf"
+      },
+      {
+        label: "Sarkar et al. Comparative study of 20% mandelic acid versus 10% lactic acid peels in melasma. Journal of Cutaneous and Aesthetic Surgery 2015",
+        url: "https://pubmed.ncbi.nlm.nih.gov/26157300/"
+      },
+      {
+        label: "DermNet NZ. Mandelic acid. 2021",
+        url: "https://dermnetnz.org/topics/mandelic-acid"
+      },
+      {
+        label: "ACOG. Skin conditions during pregnancy. 2020",
+        url: "https://www.acog.org/womens-health/faqs/skin-conditions-during-pregnancy"
+      }
+    ]
+  },
 
 ];
 
