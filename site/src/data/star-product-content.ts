@@ -642,6 +642,79 @@ export const starProductContent: StarProductContent[] = [
       }
     ]
   },
+  {
+    id: "vichy-mineral-89",
+    editorialReview: {
+      en: "Vichy Mineral 89 earns a B (77/100) for its no-frills hydration. The star is 89% Vichy mineralizing thermal water, which delivers calcium, potassium, and silicates, minerals that support skin barrier function. Sodium hyaluronate (undisclosed %) binds water in the stratum corneum, giving that plump, dewy feel within hours. However, the formula includes fragrance, which can irritate sensitive skin and explains why it doesn't reach an A. If you tolerate scent and want a simple, fast-absorbing hydrator, this is a solid pick. For fragrance-free alternatives, see our vsCompetitors below.",
+      fr: "Vichy Mineral 89 obtient un B (77/100) pour son hydratation sans chichis. L'ingrédient phare, c'est l'eau thermale minéralisante Vichy à 89%, riche en calcium, potassium et silicates, des minéraux qui renforcent la barrière cutanée. Le hyaluronate de sodium (concentration non divulguée) retient l'eau dans le stratum corneum, offrant un effet repulpant et lumineux en quelques heures. Mais la formule contient du parfum, ce qui peut irriter les peaux sensibles et explique pourquoi elle ne décroche pas un A. Si tu tolères les parfums et cherches un hydratant simple et ultra-léger, c'est un bon choix. Pour des alternatives sans parfum, vois nos comparatifs ci-dessous."
+    },
+    howToUse: {
+      en: "Apply 2-3 drops to clean, damp skin morning and/or evening. Gently press into face and neck, no rubbing. Follow with moisturizer if your skin needs extra comfort. The serum is water-thin, so layer it before thicker creams or oils. Avoid mixing with vitamin C serums at the same time; use vitamin C in the AM and Mineral 89 in the PM if you want both. The glass dropper is hygienic but fragile, don't drop it.",
+      fr: "Applique 2 à 3 gouttes sur peau nettoyée et légèrement humide, matin et/ou soir. Tapote doucement sur le visage et le cou, pas de frottement. Si ta peau a besoin de plus de réconfort, enchaîne avec une crème hydratante. Le serum est ultra-léger, donc utilise-le avant les textures plus épaisses comme les crèmes ou les huiles. Évite de le mélanger avec un serum à la vitamine C en même temps : utilise la vitamine C le matin et Mineral 89 le soir si tu veux les deux. Le compte-gouttes en verre est hygiénique mais fragile, fais attention à ne pas le faire tomber."
+    },
+    whoIsItFor: {
+      en: "Ideal for normal to dry skin that needs a hydration boost without heaviness. Also works for combination skin in humid climates. If you have sensitive or reactive skin, the fragrance may be a deal-breaker. Not ideal for oily, acne-prone skin looking for oil-free mattifying options, this serum is purely about hydration, not sebum control.",
+      fr: "Parfait pour les peaux normales à sèches qui ont besoin d'un coup de boost hydratant sans effet gras. Convient aussi aux peaux mixtes en climat humide. Si tu as la peau sensible ou réactive, le parfum peut poser problème. Pas idéal pour les peaux grasses à imperfections qui cherchent un effet matifiant sans huile, ce serum est uniquement hydratant, pas régulateur de sébum."
+    },
+    whatToExpect: {
+      en: "Week 1: Immediate lightness and a dewy finish. Skin feels softer, but the effect fades by evening if you don't layer with moisturizer.\nWeek 4: More consistent hydration, especially if used twice daily. Fine lines appear less pronounced due to plumping.\nWeek 12: Barrier feels stronger, less tightness after cleansing. If you're using it alone, dry patches may still need extra moisture. For long-term benefits, pair with a ceramide cream.",
+      fr: "Semaine 1 : Effet léger et frais immédiat, peau plus douce, mais l'hydratation s'estompe en fin de journée si tu ne mets pas de crème par-dessus.\nSemaine 4 : Hydratation plus stable, surtout si tu l'utilises matin et soir. Les ridules semblent moins marquées grâce à l'effet repulpant.\nSemaine 12 : La barrière cutanée se renforce, moins de tiraillements après le nettoyage. Si tu l'utilises seul, les zones sèches peuvent encore avoir besoin d'un complément. Pour des résultats durables, associe-le à une crème aux céramides."
+    },
+    commonMistakes: {
+      en: "Using it on bone-dry skin. Hyaluronic acid needs water to work, apply to damp skin or mist with thermal water first.\n\nSkipping moisturizer. This serum hydrates but doesn't lock in moisture. Without a cream on top, the water it binds can evaporate, leaving skin drier than before.\n\nMixing with acids at high concentrations. If you're using a strong AHA/BHA, apply it first, wait 10-15 minutes, then use Mineral 89 to avoid pH conflicts.",
+      fr: "L'appliquer sur peau complètement sèche. L'acide hyaluronique a besoin d'eau pour agir, utilise-le sur peau légèrement humide ou vaporise de l'eau thermale avant.\n\nZapper la crème hydratante. Ce serum hydrate mais ne scelle pas l'hydratation. Sans crème par-dessus, l'eau qu'il retient peut s'évaporer, laissant ta peau plus sèche qu'avant.\n\nLe mélanger avec des acides à haute concentration. Si tu utilises un AHA/BHA puissant, applique-le d'abord, attends 10-15 minutes, puis utilise Mineral 89 pour éviter les conflits de pH."
+    },
+    faq: [
+      {
+        question: {
+          en: "Can I use Mineral 89 with retinol?",
+          fr: "Puis-je utiliser Mineral 89 avec du rétinol ?"
+        },
+        answer: {
+          en: "Yes, but space them out. Retinol can increase sensitivity, so use Mineral 89 in the morning and retinol at night. If irritation occurs, buffer retinol with a moisturizer or reduce frequency.",
+          fr: "Oui, mais espace leur application. Le rétinol peut augmenter la sensibilité, donc utilise Mineral 89 le matin et le rétinol le soir. Si tu ressens des irritations, applique une crème avant le rétinol ou réduis la fréquence."
+        }
+      },
+      {
+        question: {
+          en: "Is this serum suitable for acne-prone skin?",
+          fr: "Ce serum convient-il aux peaux à imperfections ?"
+        },
+        answer: {
+          en: "It's non-comedogenic, but the fragrance and glycerin (high in the formula) may not suit inflamed acne. If you're acne-prone, opt for a fragrance-free hyaluronic acid serum like The Ordinary's version.",
+          fr: "Il est non comédogène, mais le parfum et la glycérine (présente en quantité élevée dans la formule) peuvent ne pas convenir aux peaux acnéiques inflammées. Si tu as des imperfections, choisis plutôt un serum à l'acide hyaluronique sans parfum, comme celui de The Ordinary."
+        }
+      },
+      {
+        question: {
+          en: "Does it work under makeup?",
+          fr: "Est-ce qu'il fonctionne sous le maquillage ?"
+        },
+        answer: {
+          en: "Yes, its lightweight texture makes it a good primer. Let it absorb for 1-2 minutes before applying foundation. If your skin is very dry, follow with a hydrating primer to prevent makeup from clinging to dry patches.",
+          fr: "Oui, sa texture ultra-légère en fait un bon primer. Laisse-le pénétrer 1-2 minutes avant d'appliquer ton fond de teint. Si ta peau est très sèche, utilise un primer hydratant par-dessus pour éviter que le maquillage ne s'accroche aux zones sèches."
+        }
+      }
+    ],
+    vsCompetitors: [
+      {
+        competitorId: "the-ordinary-hyaluronic-acid-2-b5",
+        competitorName: "The Ordinary Hyaluronic Acid 2% + B5",
+        verdict: {
+          en: "The Ordinary's version is fragrance-free, contains three molecular weights of hyaluronic acid for deeper hydration, and includes panthenol (vitamin B5) to soothe. It's also cheaper and scores an A (88/100). Choose it if you want a cleaner, more effective hydrator without scent.",
+          fr: "La version de The Ordinary est sans parfum, contient trois poids moléculaires d'acide hyaluronique pour une hydratation plus profonde, et inclut du panthénol (vitamine B5) pour apaiser. Elle est aussi moins chère et obtient un A (88/100). Choisis-la si tu veux un hydratant plus clean et plus efficace, sans parfum."
+        }
+      },
+      {
+        competitorId: "la-roche-posay-hyalu-b5-serum",
+        competitorName: "La Roche-Posay Hyalu B5 Serum",
+        verdict: {
+          en: "La Roche-Posay's serum also gets a B (78/100) and is nearly identical in function, hyaluronic acid + vitamin B5, but adds madecassoside for repair. It's fragrance-free and better for sensitive skin. If you're torn between the two, pick La Roche-Posay for the extra soothing benefits.",
+          fr: "Le serum de La Roche-Posay obtient aussi un B (78/100) et a une fonction quasi identique, acide hyaluronique + vitamine B5, mais ajoute du madecassoside pour réparer. Il est sans parfum et mieux adapté aux peaux sensibles. Si tu hésites entre les deux, choisis La Roche-Posay pour ses bénéfices apaisants supplémentaires."
+        }
+      }
+    ]
+  },
 
 ];
 
