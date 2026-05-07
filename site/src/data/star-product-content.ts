@@ -715,6 +715,79 @@ export const starProductContent: StarProductContent[] = [
       }
     ]
   },
+  {
+    id: "avene-eau-thermale-spray",
+    editorialReview: {
+      en: "Avene Eau Thermale Spray earns a C (63/100) on SkinScore, a passing grade, but one that reflects its limited role in skincare. The formula is 100% Avène Thermal Spring Water, containing silicates (undisclosed concentration) and trace minerals like calcium and magnesium. These electrolytes may temporarily calm irritation, particularly after sun exposure or minor procedures, though published data on its efficacy is scarce. A 2012 study in *Journal of the European Academy of Dermatology* noted that thermal waters can reduce subjective discomfort in sensitive skin, but the effects are short-lived. Without humectants or occlusives, hydration evaporates within 30 minutes. Fragrance-free and preservative-free, it's safe for reactive skin, but it lacks actives to address acne, hyperpigmentation, or barrier repair. Think of it as a first-aid mist, not a daily essential.",
+      fr: "L'Eau Thermale Spray d'Avène obtient un C (63/100) sur SkinScore, une note correcte, mais qui souligne son utilité limitée. La formule est à 100% d'Eau Thermale d'Avène, riche en silicates (concentration non divulguée) et en oligo-éléments comme le calcium et le magnésium. Ces minéraux peuvent apaiser temporairement les irritations, surtout après une exposition au soleil ou un soin agressif, mais les données publiées sur son efficacité restent rares. Une étude de 2012 dans le *Journal of the European Academy of Dermatology* a noté que les eaux thermales pouvaient réduire l'inconfort subjectif des peaux sensibles, mais les effets sont éphémères. Sans humectants ni agents occlusifs, l'hydratation s'évapore en 30 minutes. Sans parfum ni conservateurs, elle convient aux peaux réactives, mais elle ne contient pas d'actifs pour traiter l'acné, l'hyperpigmentation ou réparer la barrière cutanée. Considère-la comme un spray de premiers secours, pas comme un produit quotidien indispensable."
+    },
+    howToUse: {
+      en: "Use Avene Eau Thermale Spray as needed, not as a daily toner. Keep it in your bag for post-workout redness, airplane dryness, or after minor skin procedures. In the AM, spray 20 cm from your face, let it sit for 10 seconds, then pat off excess with a tissue, don't rub. Follow immediately with a serum or moisturizer to lock in the minimal hydration. In the PM, it can soothe skin post-cleansing, but layer a humectant like hyaluronic acid right after. Avoid spraying directly on open wounds or active eczema patches, as the minerals may sting. The 300 ml can is pressurized, don't puncture it or expose it to temperatures above 50°C.",
+      fr: "Utilise l'Eau Thermale Spray d'Avène selon tes besoins, pas comme un tonique quotidien. Garde-la dans ton sac pour apaiser les rougeurs post-sport, la sécheresse en avion ou après un soin cutané. Le matin, vaporise à 20 cm de ton visage, laisse poser 10 secondes, puis tapote l'excédent avec un mouchoir, ne frotte pas. Applique tout de suite après un sérum ou une crème pour retenir l'hydratation minimale. Le soir, elle peut calmer la peau après le nettoyage, mais enchaîne avec un humectant comme l'acide hyaluronique. Évite de vaporiser sur des plaies ouvertes ou des plaques d'eczéma actif, car les minéraux peuvent piquer. Le flacon de 300 ml est sous pression, ne le perce pas et ne l'expose pas à une chaleur supérieure à 50°C."
+    },
+    whoIsItFor: {
+      en: "This spray is ideal for reactive, sensitive, or post-procedure skin that flushes easily. It's also a decent pick for rosacea-prone complexions or anyone needing a quick cool-down after sun exposure. However, if your main concerns are acne, dullness, or dehydration, this won't help, it lacks exfoliants, brighteners, or humectants. Not ideal for oily skin either, as it doesn't regulate sebum or refine pores. If you're looking for a true toner with actives, skip this and opt for a B-rated alternative.",
+      fr: "Ce spray convient aux peaux réactives, sensibles ou en convalescence après un soin agressif, qui rougissent facilement. C'est aussi un bon choix pour les teints sujets à la rosacée ou pour ceux qui ont besoin d'un rafraîchissement rapide après le soleil. En revanche, si tes préoccupations principales sont l'acné, le teint terne ou la déshydratation, ce produit ne suffira pas, il manque d'exfoliants, d'éclaircissants ou d'humectants. Pas idéal non plus pour les peaux grasses, car il ne régule pas le sébum ni n'affine les pores. Si tu cherches un vrai tonique avec des actifs, passe ton chemin et choisis une alternative notée B."
+    },
+    whatToExpect: {
+      en: "Week 1: Immediate relief from stinging or tightness, especially after shaving or waxing. Your skin may feel slightly softer, but don't expect lasting hydration, this isn't a moisturizer. Week 4: If used post-cleansing, you might notice less redness after 2-3 sprays, but no change in texture, pore size, or breakouts. Week 12: Still no long-term benefits like improved barrier function or reduced sensitivity. The spray's effects remain temporary. For real progress, pair it with a proper skincare routine, this alone won't deliver results.",
+      fr: "Semaine 1: Un soulagement immédiat des picotements ou tiraillements, surtout après le rasage ou l'épilation. Ta peau peut sembler un peu plus douce, mais ne t'attends pas à une hydratation durable, ce n'est pas une crème. Semaine 4: Si tu l'utilises après le nettoyage, tu pourrais remarquer moins de rougeurs après 2-3 vaporisations, mais pas de changement au niveau de la texture, des pores ou des boutons. Semaine 12: Toujours aucun bénéfice à long terme, comme une amélioration de la barrière cutanée ou une réduction de la sensibilité. Les effets du spray restent temporaires. Pour des résultats concrets, associe-le à une routine adaptée, seul, il ne fera pas de miracle."
+    },
+    commonMistakes: {
+      en: "Using it as a toner substitute. This spray doesn't balance pH, remove residue, or prep skin for serums, it's just water with minerals. If you skip your actual toner for this, you're missing out on actives that could improve your skin.\n\nStoring it in a hot car or bathroom. The can is pressurized and can explode if exposed to high temperatures. Keep it in a cool, dry place, away from direct sunlight.\n\nSpraying it on makeup. While it won't ruin your foundation, it won't set it either, it's not a setting spray. The water will just evaporate, leaving your makeup unchanged.",
+      fr: "L'utiliser comme substitut de tonique. Ce spray ne rééquilibre pas le pH, n'élimine pas les résidus et ne prépare pas la peau aux sérums, c'est juste de l'eau avec des minéraux. Si tu sautes ton tonique pour celui-ci, tu passes à côté d'actifs qui pourraient améliorer ta peau.\n\nLe ranger dans une voiture chaude ou une salle de bain humide. Le flacon est sous pression et peut exploser s'il est exposé à des températures élevées. Garde-le dans un endroit frais et sec, à l'abri du soleil.\n\nLe vaporiser sur le maquillage. Bien que ça ne ruine pas ton fond de teint, ça ne le fixe pas non plus, ce n'est pas un spray fixateur. L'eau s'évaporera simplement, sans changer ton maquillage."
+    },
+    faq: [
+      {
+        question: {
+          en: "Can I use this spray to remove makeup?",
+          fr: "Est-ce que je peux utiliser ce spray pour démaquiller ?"
+        },
+        answer: {
+          en: "No. Avene Eau Thermale Spray is not a cleanser, it doesn't contain surfactants or oils to dissolve makeup, sunscreen, or sebum. If you spray it on a cotton pad and swipe it over your face, you'll just move the makeup around, not remove it. For effective makeup removal, use a dedicated micellar water or oil-based cleanser first, then follow with this spray for soothing if needed.",
+          fr: "Non. L'Eau Thermale Spray d'Avène n'est pas un démaquillant, elle ne contient pas de tensioactifs ni d'huiles pour dissoudre le maquillage, la crème solaire ou le sébum. Si tu la vaporises sur un coton et que tu passes sur ton visage, tu vas juste étaler le maquillage, pas l'enlever. Pour un démaquillage efficace, utilise d'abord une eau micellaire ou un nettoyant à base d'huile, puis applique ce spray pour apaiser si besoin."
+        }
+      },
+      {
+        question: {
+          en: "Is this spray sterile? Can I use it on open wounds?",
+          fr: "Est-ce que ce spray est stérile ? Puis-je l'utiliser sur des plaies ouvertes ?"
+        },
+        answer: {
+          en: "The spray is not sterile. While it's preservative-free, the canister and nozzle are not medical-grade sterile environments. Using it on open wounds, fresh acne lesions, or post-procedure skin (like after microneedling) could introduce bacteria and cause infection. For open wounds, opt for a saline solution or a product specifically labeled as sterile, like Avène's Cicalfate+ Restorative Protective Cream.",
+          fr: "Le spray n'est pas stérile. Bien qu'il soit sans conservateurs, le flacon et la buse ne sont pas des environnements stériles de grade médical. L'utiliser sur des plaies ouvertes, des boutons frais ou après un soin comme le microneedling pourrait introduire des bactéries et provoquer une infection. Pour les plaies ouvertes, choisis une solution saline ou un produit spécifiquement étiqueté comme stérile, comme la Crème Réparatrice Cicalfate+ d'Avène."
+        }
+      },
+      {
+        question: {
+          en: "Does this spray expire? How long does it last after opening?",
+          fr: "Est-ce que ce spray a une date de péremption ? Combien de temps dure-t-il après ouverture ?"
+        },
+        answer: {
+          en: "The unopened can has a 3-year shelf life from the date of manufacture, printed on the bottom. Once opened, the manufacturer recommends using it within 6 months. However, since the formula is preservative-free and the can is pressurized, the risk of contamination is low. Still, if the spray smells off or the texture changes (e.g., becomes cloudy), discard it. Store it upright in a cool place to maximize longevity.",
+          fr: "Le flacon non ouvert a une durée de conservation de 3 ans à partir de la date de fabrication, indiquée sur le fond. Une fois ouvert, le fabricant recommande de l'utiliser dans les 6 mois. Cependant, comme la formule est sans conservateurs et que le flacon est sous pression, le risque de contamination est faible. Néanmoins, si le spray sent mauvais ou que la texture change (par exemple, devient trouble), jette-le. Conserve-le debout dans un endroit frais pour maximiser sa durée de vie."
+        }
+      }
+    ],
+    vsCompetitors: [
+      {
+        competitorId: "tower-28-sos-daily-rescue-facial-spray",
+        competitorName: "Tower 28 SOS Daily Rescue Facial Spray",
+        verdict: {
+          en: "Tower 28's SOS spray (also C-rated) edges out Avene's with a more functional formula. It includes hypochlorous acid (0.015%), a mild antimicrobial that can help with acne and irritation, plus glycerin for light hydration. While neither spray is a powerhouse, Tower 28's is better for reactive, acne-prone skin, whereas Avene's is purely a soothing mist with no added benefits. If you're choosing between the two, pick Tower 28 for its slight edge in actives, though neither will replace a proper toner.",
+          fr: "Le spray SOS de Tower 28 (noté C aussi) surpasse légèrement celui d'Avène grâce à une formule plus fonctionnelle. Il contient de l'acide hypochloreux (0,015%), un antimicrobien doux qui peut aider contre l'acné et les irritations, ainsi que de la glycérine pour une légère hydratation. Aucun des deux n'est un produit révolutionnaire, mais celui de Tower 28 est plus adapté aux peaux réactives et sujettes à l'acné, tandis que celui d'Avène reste un simple spray apaisant sans bénéfices supplémentaires. Si tu dois choisir entre les deux, opte pour Tower 28 pour son léger avantage en actifs, même si aucun ne remplacera un vrai tonique."
+        }
+      },
+      {
+        competitorId: "paula-s-choice-skin-balancing-pore-reducing-toner",
+        competitorName: "Paula's Choice Skin Balancing Pore-Reducing Toner",
+        verdict: {
+          en: "Paula's Choice's B-rated toner (78/100) is in a different league. It contains niacinamide (2%), antioxidants, and gentle exfoliants to refine pores, balance oil, and prep skin for serums. Unlike Avene's spray, it delivers long-term benefits like reduced shine and improved texture. If you're using Avene's spray as a toner substitute, switch to Paula's Choice, it's a far more effective step in your routine, though it won't replace the soothing relief of thermal water for reactive skin.",
+          fr: "Le tonique de Paula's Choice, noté B (78/100), joue dans une autre catégorie. Il contient de la niacinamide (2%), des antioxydants et des exfoliants doux pour affiner les pores, équilibrer le sébum et préparer la peau aux sérums. Contrairement au spray d'Avène, il offre des bénéfices à long terme, comme une réduction de la brillance et une amélioration de la texture. Si tu utilises le spray d'Avène comme substitut de tonique, passe à celui de Paula's Choice, c'est une étape bien plus efficace dans ta routine, même s'il ne remplace pas l'effet apaisant de l'eau thermale pour les peaux réactives."
+        }
+      }
+    ]
+  },
 
 ];
 
