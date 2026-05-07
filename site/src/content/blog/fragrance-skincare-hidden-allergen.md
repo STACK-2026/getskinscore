@@ -1,6 +1,6 @@
 ---
 title: "Fragrance in Skincare: The Hidden Allergen in 60% of Products"
-description: "Fragrance is the most common allergen in skincare. Learn which ingredients to avoid, how EU and US regulations differ, and the best fragrance-free products by category."
+description: "Fragrance is the most common allergen in skincare. Which ingredients to avoid, how EU and US rules differ, and the best fragrance-free picks by category."
 date: 2026-05-06T07:11:00+02:00
 author: "Dr. Elena Voss"
 category: "science"

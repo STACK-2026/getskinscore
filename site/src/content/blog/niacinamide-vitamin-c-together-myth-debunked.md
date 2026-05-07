@@ -1,6 +1,6 @@
 ---
 title: "Niacinamide and vitamin C together: the myth is debunked"
-description: "Can you mix niacinamide and vitamin C? Modern dermatology says yes. We break down the 1960s lab study behind the myth, the peer-reviewed evidence, and how to layer both for hyperpigmentation and barrier support."
+description: "Can you mix niacinamide and vitamin C? Modern dermatology says yes. The 1960s lab study behind the myth, peer-reviewed evidence, and how to layer both."
 date: 2026-05-03T07:11:00+02:00
 author: "Dr. Sarah Chen"
 category: "science"
