@@ -3,6 +3,8 @@ title: "Privacy Policy"
 description: "SkinScore privacy policy. How we collect, use, and protect your data."
 ---
 
+
+# Privacy Policy
 *Last updated: April 12, 2026*
 
 ## What data we collect

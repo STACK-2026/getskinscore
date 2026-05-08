@@ -3,6 +3,8 @@ title: "Terms of Service"
 description: "SkinScore terms of service. Rules and conditions for using getskinscore.com."
 ---
 
+
+# Terms of Service
 *Last updated: April 12, 2026*
 
 ## Acceptance
