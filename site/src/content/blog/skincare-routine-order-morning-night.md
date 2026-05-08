@@ -1,6 +1,6 @@
 ---
 title: "Skincare Routine Order: Morning & Night Sequence That Works"
-description: "The correct skincare routine order, AM and PM, with the science of layering, active ingredient conflicts, and a step-by-step sequence dermatologists actually recommend."
+description: "The correct skincare routine order, AM and PM. Layering science, active ingredient conflicts, and a step-by-step sequence dermatologists actually recommend."
 date: 2026-04-24T07:11:00+02:00
 author: "Marc Severin"
 category: "routines"
