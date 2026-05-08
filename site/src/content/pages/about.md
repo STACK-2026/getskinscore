@@ -3,8 +3,6 @@ title: "About SkinScore"
 description: "Why SkinScore exists. The story behind the skincare ingredient analyzer that doesn't take money from brands."
 ---
 
-# We built SkinScore because we were tired of being lied to.
-
 It started with a 90EUR serum.
 
 The packaging was beautiful. The marketing promised "visible results in 7 days." The influencer who recommended it had a discount code. So we bought it.

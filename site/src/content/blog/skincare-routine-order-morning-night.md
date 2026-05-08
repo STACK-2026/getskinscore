@@ -17,8 +17,6 @@ speakableTerm: "skincare routine order"
 speakable: "The correct skincare routine order is cleanser, treatment serum, moisturiser, and sunscreen in the morning, then double cleanse, exfoliant or retinol, moisturiser, and an optional occlusive at night. The universal rule is to apply products from the thinnest to the thickest texture so each formula reaches the skin. Vitamin C belongs in the morning, retinol at night, and SPF is the final non-negotiable step every day."
 ---
 
-# Skincare Routine Order: Morning & Night Sequence That Works
-
 The correct **skincare routine order** is cleanser, treatment, moisturiser, then SPF in the morning. Order matters because thicker formulas physically block lighter ones from reaching skin. Apply thinnest to thickest, AM for protection, PM for repair. Get the sequence right and your existing products work harder than any upgrade you could buy.
 
 > **TL;DR**: The correct **skincare routine order** is cleanser, exfoliant or essence, water-based serum, eye cream, moisturiser, facial oil, sunscreen in the morning, with retinol or peptides replacing vitamin C at night. Rule: thinnest to thickest, lowest pH first. AM protects with antioxidants and SPF; PM repairs with retinoids, peptides and richer occlusives. Avoid combining retinol with AHAs or vitamin C in the same routine. Niacinamide and vitamin C are compatible at room temperature. Wait 60 to 90 seconds between actives.

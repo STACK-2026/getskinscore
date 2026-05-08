@@ -17,8 +17,6 @@ speakableTerm: "parfum cosmétique"
 speakable: "Le parfum cosmétique est un mélange complexe de 30 à 300 substances odorantes, protégé par le secret commercial. La nouvelle réglementation européenne 2023/1545 impose la déclaration de plus de 80 allergènes dès le 31 juillet 2026. Naturel ou synthétique, ce qui compte est la concentration et le profil de chaque molécule, pas son origine."
 ---
 
-# Parfum en cosmétique : l'allergène caché dans 60% des soins
-
 Le parfum cosmétique est l'ingrédient le plus opaque de la liste INCI : derrière le simple mot "Parfum" peut se cacher un mélange de 50 à 300 substances, protégées par le secret commercial. Première cause d'allergie de contact en Europe, il se trouve dans environ 60 % des soins, y compris ceux étiquetés "doux" ou "peau sensible".
 
 > **TL;DR** : Le **parfum cosmétique** désigne sur l'étiquette INCI un mélange complexe et non divulgué de 30 à 300 molécules odorantes. La nouvelle réglementation européenne (UE) 2023/1545 force la déclaration de plus de 80 allergènes au lieu de 26, applicable aux nouveaux produits dès le 31 juillet 2026. Naturel ou synthétique, peu importe : ce qui compte, c'est la concentration et le profil de chaque molécule. Pour les peaux sensibles, atopiques ou enceintes, réduire l'exposition reste une démarche raisonnable.

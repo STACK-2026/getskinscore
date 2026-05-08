@@ -3,8 +3,6 @@ title: "Cookie Policy"
 description: "SkinScore cookie policy. What cookies we use and why."
 ---
 
-# Cookie Policy
-
 *Last updated: April 13, 2026*
 
 ## What cookies do we use?
