@@ -17,8 +17,6 @@ speakableTerm: "moisturizer"
 speakable: "For dry skin, the best moisturizer combines three ingredient classes: occlusives like petrolatum to seal water, ceramides NP, AP and EOP to rebuild the barrier, and humectants like glycerin and hyaluronic acid to pull moisture in. Top dermatologist pick: CeraVe Moisturising Cream, scoring A on SkinScore. Luxury pick: SkinCeuticals Triple Lipid Restore. Drugstore formulas beat luxury jars 8 times out of 10 for dry skin barrier repair."
 ---
 
-# Best Moisturizers for Dry Skin: Dermatologist Picks Ranked
-
 The **best moisturizer for dry skin** pairs ceramides, glycerin and an occlusive like petrolatum to rebuild a leaking barrier, not just sit on top of it. On formulation alone, a 10 USD CeraVe tub outperforms most 200 USD luxury jars. Here is the dermatologist-vetted ranking, with what to look for and what to avoid.
 
 > **TL;DR**: For dry skin, choose a moisturizer with three ingredient classes working together: ceramides (NP, AP, EOP) to repair the barrier, humectants like glycerin and hyaluronic acid to draw water, and occlusives like petrolatum or dimethicone to seal it in. Top scored picks on SkinScore: **CeraVe Moisturising Cream** (A), La Roche-Posay Toleriane Double Repair (A) and Cetaphil Moisturising Cream (A-). Luxury exception worth the price: SkinCeuticals Triple Lipid Restore 2:4:2. Avoid alcohol denat, fragrance and high-strength AHAs in your daily cream.

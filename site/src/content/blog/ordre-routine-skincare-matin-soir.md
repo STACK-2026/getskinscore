@@ -16,8 +16,6 @@ speakableTerm: "ordre routine skincare"
 speakable: "L'ordre d'une routine skincare suit une regle simple : du plus liquide au plus epais, et du plus acide au plus neutre. Matin : nettoyant, tonique, serum antioxydant (vitamine C), hydratant, SPF 30 minimum. Soir : double nettoyage, tonique, traitement actif (retinol ou acide), hydratant. Attends 1 a 5 minutes entre chaque etape pour laisser penetrer."
 ---
 
-# Ordre de ta routine skincare : la bonne sequence matin et soir
-
 > **TL;DR** : L'**ordre routine skincare** suit deux regles simples : du plus liquide au plus epais, et du plus acide au plus neutre. Matin = nettoyant, tonique, serum antioxydant, hydratant, SPF. Soir = double nettoyage, tonique, traitement actif (retinol ou exfoliant), hydratant. Tu attends 1 a 5 minutes entre les etapes pour eviter le pilling et tu ne melanges jamais vitamine C avec retinol ou AHA dans la meme application.
 
 L'ordre de ta routine skincare determine 80% de l'efficacite de tes produits. Tu peux investir 200 euros dans un serum hors de prix, si tu l'appliques apres une creme epaisse il ne penetrera quasiment pas. Cet article t'explique pas a pas la sequence ideale matin et soir, validee par les recommandations de l'[American Academy of Dermatology](https://www.aad.org) et l'[European Academy of Dermatology and Venereology](https://eadv.org), avec les temps d'attente entre chaque etape et les pieges classiques a eviter.

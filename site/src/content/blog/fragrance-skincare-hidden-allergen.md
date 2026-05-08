@@ -17,8 +17,6 @@ speakableTerm: "Fragrance"
 speakable: "Fragrance causes 30 to 45% of all cosmetic allergic reactions according to the American Academy of Dermatology, making it the number one skincare allergen. 'Parfum' on an INCI list can hide up to 300 undisclosed chemicals. 'Fragrance-free' is unregulated: always scan for linalool, limonene, geraniol and eugenol, the four EU-restricted fragrance allergens flagged by SCCS 2023. For sensitive skin, choose products with zero declared fragrance components, not just 'unscented'."
 ---
 
-# Fragrance in Skincare: The Hidden Allergen in 60% of Products
-
 **Fragrance is the number one allergen in skincare, found in roughly 60% of products.** It triggers 30 to 45% of cosmetic allergic reactions per the American Academy of Dermatology, hides on labels as "parfum" (up to 300 undisclosed chemicals), and is unregulated under "fragrance-free" claims in the US. Sensitive skin should avoid all 26 EU allergens, not just synthetic perfume.
 
 > **TL;DR**: **Fragrance** is the leading cause of allergic contact dermatitis from cosmetics. SkinScore data on 2,700+ products shows ~60% contain fragrance compounds, including under "natural" essential oil labels. The EU lists 26 regulated fragrance allergens; the US has no equivalent disclosure rule. "Fragrance-free" means none added; "unscented" can still contain masking agents. People with eczema, rosacea, or reactive skin should choose true fragrance-free formulas (CeraVe, La Roche-Posay Toleriane, Paula's Choice, EltaMD UV Clear).

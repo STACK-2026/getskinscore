@@ -17,8 +17,6 @@ speakableTerm: "ingrédients comédogènes"
 speakable: "Les ingrédients comédogènes sont réels mais l'échelle de Fulton repose sur des tests menés sur oreille de lapin en 1972. Surveille surtout l'isopropyl myristate, l'huile de coco et les extraits d'algues dans les 5 premiers ingrédients de ta liste INCI. Ne te fie pas aux mentions non-comédogène : elles n'ont aucun fondement réglementaire en France ni dans l'UE. Un ingrédient à risque en position 12 d'une formule a souvent un impact négligeable."
 ---
 
-# Ingrédients comédogènes : le top 10 à éviter dans tes soins
-
 Les ingrédients comédogènes existent vraiment, mais l'industrie cosmétique entretient un flou réglementaire qui complique la lecture des étiquettes. Ce guide te donne le top 10 des substances à surveiller, leur score sur l'échelle de Fulton, les alternatives validées, et pourquoi la mention "non-comédogène" sur un packaging ne signifie strictement rien en droit français ou européen.
 
 > **TL;DR** : Les **ingrédients comédogènes** réels existent (huile de coco, isopropyl myristate, lanoline, extraits d'algues), mais l'échelle de Fulton repose sur des tests menés en 1972 sur oreilles de lapin. La concentration et la position dans la liste INCI comptent autant que l'ingrédient lui-même. La mention "non-comédogène" n'est encadrée par aucune réglementation en France ni dans l'UE. Surveille les 5 premiers ingrédients de la liste INCI, et n'élimine pas silicones et vaseline qui ne bouchent pas les pores.

@@ -17,8 +17,6 @@ speakableTerm: "rétinol"
 speakable: "Le rétinol fonctionne, mais 60% des débutants abandonnent dès le premier mois parce qu'ils commencent trop fort, trop vite. La règle : 0,1 à 0,3% de rétinol pur, deux fois par semaine le soir sur peau sèche, tamponne avec une crème hydratante, jamais en même temps que la vitamine C ou les AHA. La purge dure 4 à 6 semaines. Les résultats apparaissent au mois 3, pas la semaine 1."
 ---
 
-# Rétinol débutant : le guide complet pour bien commencer
-
 Le **rétinol débutant** se travaille à 0,1 à 0,3%, deux soirs par semaine, sur peau sèche, et toujours sous une crème hydratante. Jamais combiné le même soir avec vitamine C, AHA, BHA ou peroxyde de benzoyle. SPF 30 minimum chaque matin. Premiers signes au bout de 4 à 6 semaines, vraies améliorations à 3 mois.
 
 > **TL;DR** : Pour un **rétinol débutant** sans dégâts, commence à 0,1 ou 0,3% deux soirs par semaine, applique sur peau parfaitement sèche, scelle avec une crème à céramides, et n'associe jamais avec acides ou vitamine C le même soir. Attends-toi à une phase d'adaptation de 4 à 6 semaines. SPF 30+ obligatoire le matin. Les premières améliorations visibles arrivent entre la semaine 6 et le mois 3.
