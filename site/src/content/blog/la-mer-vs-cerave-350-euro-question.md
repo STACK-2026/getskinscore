@@ -1,6 +1,6 @@
 ---
 title: "La Mer vs CeraVe: the 350 EUR Question Answered by Science"
-description: "La Mer vs CeraVe, decoded by formulation. Mineral oil and Miracle Broth versus ceramides 1, 3 and 6-II, with the per-gram cost, dermatologist consensus and the verdict."
+description: "La Mer vs CeraVe: formulation, ceramides vs Miracle Broth, per-gram cost, derm consensus, and the verdict on whether the 350 EUR is worth it."
 date: 2026-05-09T07:11:00+02:00
 author: "Marc Severin"
 category: "product-reviews"
