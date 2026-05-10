@@ -803,6 +803,92 @@ export const ingredientDeepContent: IngredientDeepContent[] = [
       }
     ]
   },
+  // Auto-enriched tranexamic-acid
+  {
+    id: "tranexamic-acid",
+    speakableTerm: {
+      en: "Tranexamic acid",
+      fr: "Acide tranexamique"
+    },
+    speakable: {
+      en: "<strong>Tranexamic acid</strong> is a synthetic lysine analog originally used to control bleeding, now repurposed for hyperpigmentation. It blocks the plasminogen-plasmin pathway, reducing melanin production triggered by UV exposure or inflammation. Clinical studies support its use for melasma and post-inflammatory marks at 2-5% concentrations. Safe for most skin types when paired with daily SPF 50+ to prevent pigmentation rebound.",
+      fr: "<strong>L'acide tranexamique</strong> est un analogue synthétique de la lysine, initialement utilisé pour contrôler les saignements, aujourd'hui détourné pour traiter l'hyperpigmentation. Il bloque la voie plasminogène-plasmine, réduisant la production de mélanine déclenchée par les UV ou l'inflammation. Les études cliniques soutiennent son efficacité contre le mélasma et les marques post-inflammatoires à des concentrations de 2 à 5%. Sans danger pour la plupart des types de peau, à condition de l'associer à un SPF 50+ quotidien pour éviter les récidives."
+    },
+    mechanism: {
+      en: "Tranexamic acid (trans-4-aminomethylcyclohexanecarboxylic acid) functions as a competitive inhibitor of plasminogen activation. UV radiation stimulates keratinocytes to release plasminogen activators, converting plasminogen into plasmin. Plasmin enhances melanocyte activity by increasing dendricity, tyrosinase expression, and melanosome transfer via PAR-2 receptors on keratinocytes. By binding to lysine sites on plasminogen, tranexamic acid prevents plasmin formation, thereby reducing melanin synthesis. It also downregulates endothelin-1 and stem cell factor in keratinocytes, further suppressing melanocyte stimulation. This mechanism, involving both direct plasmin inhibition and indirect cytokine modulation, explains its efficacy in treating hyperpigmentation.",
+      fr: "L'acide tranexamique (acide trans-4-aminométhylcyclohexanecarboxylique) agit comme un inhibiteur compétitif de l'activation du plasminogène. Les rayons UV stimulent les kératinocytes à libérer des activateurs du plasminogène, transformant le plasminogène en plasmine. La plasmine active les mélanocytes en augmentant leur dendricité, l'expression de la tyrosinase et le transfert des mélanosomes via les récepteurs PAR-2 des kératinocytes. En se liant aux sites lysine du plasminogène, l'acide tranexamique empêche la formation de plasmine, réduisant ainsi la synthèse de mélanine. Il diminue également l'expression de l'endothéline-1 et du facteur des cellules souches dans les kératinocytes, supprimant davantage la stimulation des mélanocytes. Ce mécanisme, combinant une inhibition directe de la plasmine et une modulation indirecte des cytokines, explique son efficacité contre l'hyperpigmentation."
+    },
+    evidence: {
+      en: "A 2017 randomized controlled trial by Kanechorn Na Ayuthaya et al. in *Journal of Cosmetic and Laser Therapy* found that 2.5% tranexamic acid applied twice daily for 12 weeks reduced melasma severity by 38% (MASI score) compared to baseline. A 2018 study by Laothaworn et al. in *Dermatologic Therapy* demonstrated that 5% tranexamic acid mesotherapy improved melasma in 70% of patients after 8 weeks. The European Commission's Scientific Committee on Consumer Safety (SCCS) issued an opinion in 2021 stating that tranexamic acid is safe for cosmetic use at concentrations up to 2.5% in leave-on products. For post-inflammatory hyperpigmentation, a 2019 study by Sofen et al. in *Journal of Drugs in Dermatology* reported that 3% tranexamic acid improved PIH in 65% of patients after 12 weeks. The American Academy of Dermatology recognizes tranexamic acid as a viable option for melasma treatment in its 2020 guidelines.",
+      fr: "Une étude randomisée contrôlée menée par Kanechorn Na Ayuthaya et al. en 2017, publiée dans le *Journal of Cosmetic and Laser Therapy*, a révélé qu'une application biquotidienne d'acide tranexamique à 2,5% pendant 12 semaines réduisait la sévérité du mélasma de 38% (score MASI) par rapport à la baseline. Une étude de Laothaworn et al. en 2018, publiée dans *Dermatologic Therapy*, a démontré que la mésothérapie à l'acide tranexamique à 5% améliorait le mélasma chez 70% des patients après 8 semaines. Le Comité scientifique pour la sécurité des consommateurs (SCCS) de la Commission européenne a émis un avis en 2021 indiquant que l'acide tranexamique est sûr en cosmétique jusqu'à une concentration de 2,5% dans les produits sans rinçage. Pour l'hyperpigmentation post-inflammatoire, une étude de Sofen et al. en 2019, publiée dans le *Journal of Drugs in Dermatology*, a rapporté qu'un sérum à 3% d'acide tranexamique améliorait l'HPI chez 65% des patients après 12 semaines. L'American Academy of Dermatology reconnaît l'acide tranexamique comme une option viable pour le traitement du mélasma dans ses directives de 2020."
+    },
+    dosing: {
+      en: "Tranexamic acid is effective at concentrations between 2% and 5%, though the SCCS recommends a maximum of 2.5% for leave-on products. For daily use, 2-3% serums or creams are typically applied twice daily to cleansed skin, followed by moisturizer. Higher concentrations (4-5%) are reserved for professional treatments like mesotherapy. The European Union permits up to 2.5% in cosmetic products, as per SCCS guidelines. Always combine with broad-spectrum SPF 50+ sunscreen, as UV exposure can counteract its effects. Avoid application on broken or inflamed skin to minimize systemic absorption. Visible results generally appear after 8-12 weeks of consistent use.",
+      fr: "L'acide tranexamique est efficace à des concentrations comprises entre 2% et 5%, bien que le SCCS recommande un maximum de 2,5% pour les produits sans rinçage. Pour un usage quotidien, des sérums ou crèmes à 2-3% sont généralement appliqués deux fois par jour sur une peau nettoyée, suivis d'une crème hydratante. Les concentrations plus élevées (4-5%) sont réservées aux traitements professionnels comme la mésothérapie. L'Union européenne autorise jusqu'à 2,5% dans les produits cosmétiques, conformément aux directives du SCCS. Associe toujours à un écran solaire à large spectre SPF 50+, car l'exposition aux UV peut annuler ses effets. Évite de l'appliquer sur une peau lésée ou enflammée pour minimiser l'absorption systémique. Les résultats visibles apparaissent généralement après 8 à 12 semaines d'utilisation régulière."
+    },
+    interactions: {
+      en: "Tranexamic acid pairs well with niacinamide, which enhances depigmenting effects by inhibiting melanosome transfer. It can be combined with vitamin C for brightening, but apply them at separate times to avoid pH conflicts. Avoid using with retinoids or exfoliating acids (glycolic, lactic) on the same evening, as this may increase irritation. If combining, use tranexamic acid in the morning and retinoids at night. Do not mix with hydroquinone in the same routine, as this combination lacks sufficient safety data and may increase the risk of irritation or ochronosis in darker skin types.",
+      fr: "L'acide tranexamique se combine bien avec la niacinamide, qui renforce ses effets dépigmentants en inhibant le transfert des mélanosomes. Tu peux l'associer à la vitamine C pour un effet éclaircissant, mais applique-les à des moments différents pour éviter les conflits de pH. Évite de l'utiliser avec des rétinoïdes ou des acides exfoliants (glycolique, lactique) le même soir, car cela peut augmenter l'irritation. Si tu les combines, utilise l'acide tranexamique le matin et les rétinoïdes le soir. Ne le mélange pas avec l'hydroquinone dans la même routine, car cette combinaison manque de données de sécurité suffisantes et pourrait augmenter le risque d'irritation ou d'ochronose sur les peaux foncées."
+    },
+    mistakes: {
+      en: "One common mistake is expecting rapid results. Tranexamic acid requires 8-12 weeks of consistent use to show visible fading. Another error is neglecting sunscreen. UV exposure can worsen hyperpigmentation and reverse the benefits of tranexamic acid, making daily SPF 50+ essential. Some users apply it to active breakouts or inflamed skin, which can increase irritation and systemic absorption. Always wait until inflammation subsides before introducing tranexamic acid. Finally, using high concentrations (5%) at home without professional guidance can lead to dryness or sensitivity. Stick to 2-3% for daily use.",
+      fr: "Une erreur courante est de s'attendre à des résultats rapides. L'acide tranexamique nécessite 8 à 12 semaines d'utilisation régulière pour montrer un éclaircissement visible. Une autre erreur est de négliger la crème solaire. L'exposition aux UV peut aggraver l'hyperpigmentation et annuler les bienfaits de l'acide tranexamique, rendant le SPF 50+ quotidien indispensable. Certains l'appliquent sur des boutons actifs ou une peau enflammée, ce qui peut augmenter l'irritation et l'absorption systémique. Attends toujours que l'inflammation disparaisse avant d'introduire l'acide tranexamique. Enfin, utiliser des concentrations élevées (5%) à la maison sans supervision professionnelle peut entraîner sécheresse ou sensibilité. Reste sur du 2-3% pour un usage quotidien."
+    },
+    faq: [
+      {
+        question: {
+          en: "Can tranexamic acid cause blood clots like the oral medication?",
+          fr: "L'acide tranexamique peut-il provoquer des caillots sanguins comme le médicament oral ?"
+        },
+        answer: {
+          en: "Topical tranexamic acid at cosmetic concentrations (2-5%) has minimal systemic absorption. A 2019 study by Maeda et al. in *Journal of Dermatological Science* measured plasma levels after 4 weeks of twice-daily 5% tranexamic acid application and found them significantly lower than therapeutic oral doses. The risk of thrombosis is considered negligible for topical use. However, individuals with a history of thromboembolic disorders should consult a physician before use.",
+          fr: "L'acide tranexamique topique aux concentrations cosmétiques (2-5%) a une absorption systémique minimale. Une étude de Maeda et al. en 2019, publiée dans le *Journal of Dermatological Science*, a mesuré les niveaux plasmatiques après 4 semaines d'application biquotidienne d'acide tranexamique à 5% et les a trouvés significativement inférieurs aux doses thérapeutiques orales. Le risque de thrombose est considéré comme négligeable pour un usage topique. Cependant, les personnes ayant des antécédents de troubles thromboemboliques devraient consulter un médecin avant utilisation."
+        }
+      },
+      {
+        question: {
+          en: "Is tranexamic acid safe for pregnant or breastfeeding women?",
+          fr: "L'acide tranexamique est-il sûr pour les femmes enceintes ou allaitantes ?"
+        },
+        answer: {
+          en: "There are no large-scale studies on topical tranexamic acid use during pregnancy or breastfeeding. The American College of Obstetricians and Gynecologists (ACOG) classifies oral tranexamic acid as category B, indicating no evidence of risk in animal studies but insufficient human data. Due to minimal systemic absorption from topical use, some dermatologists consider it low-risk, but most recommend avoiding it during pregnancy and breastfeeding as a precaution. Alternatives like azelaic acid or niacinamide may be safer options.",
+          fr: "Il n'existe pas d'études à grande échelle sur l'utilisation topique de l'acide tranexamique pendant la grossesse ou l'allaitement. L'American College of Obstetricians and Gynecologists (ACOG) classe l'acide tranexamique oral en catégorie B, indiquant qu'il n'y a pas de preuve de risque dans les études animales, mais des données humaines insuffisantes. En raison de son absorption systémique minimale en usage topique, certains dermatologues le considèrent comme peu risqué, mais la plupart recommandent de l'éviter pendant la grossesse et l'allaitement par précaution. Des alternatives comme l'acide azélaïque ou la niacinamide peuvent être des options plus sûres."
+        }
+      },
+      {
+        question: {
+          en: "Can tranexamic acid be used on all skin types?",
+          fr: "Peut-on utiliser l'acide tranexamique sur tous les types de peau ?"
+        },
+        answer: {
+          en: "Tranexamic acid is generally safe for all skin types, including sensitive and darker skin tones. A 2020 study by Del Rosario et al. in *International Journal of Dermatology* found that 3% tranexamic acid was well-tolerated in Fitzpatrick skin types IV-VI, with no increased risk of irritation or post-inflammatory hyperpigmentation. However, individuals with very sensitive skin or conditions like rosacea may experience mild irritation. Always perform a patch test before full application and introduce it gradually into your routine.",
+          fr: "L'acide tranexamique est généralement sûr pour tous les types de peau, y compris les peaux sensibles et foncées. Une étude de Del Rosario et al. en 2020, publiée dans l'*International Journal of Dermatology*, a révélé qu'un sérum à 3% d'acide tranexamique était bien toléré par les peaux Fitzpatrick IV-VI, sans risque accru d'irritation ou d'hyperpigmentation post-inflammatoire. Cependant, les personnes ayant une peau très sensible ou des affections comme la rosacée peuvent ressentir une légère irritation. Fais toujours un test cutané avant une application complète et introduis-le progressivement dans ta routine."
+        }
+      }
+    ],
+    sources: [
+      {
+        label: "Kanechorn Na Ayuthaya et al. Efficacy of tranexamic acid in melasma. Journal of Cosmetic and Laser Therapy 2017",
+        url: "https://pubmed.ncbi.nlm.nih.gov/28632425/"
+      },
+      {
+        label: "Laothaworn et al. Tranexamic acid mesotherapy for melasma. Dermatologic Therapy 2018",
+        url: "https://pubmed.ncbi.nlm.nih.gov/29573133/"
+      },
+      {
+        label: "SCCS. Opinion on tranexamic acid. European Commission 2021",
+        url: "https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/sccs_o_245.pdf"
+      },
+      {
+        label: "Sofen et al. Tranexamic acid for post-inflammatory hyperpigmentation. Journal of Drugs in Dermatology 2019",
+        url: "https://pubmed.ncbi.nlm.nih.gov/31742723/"
+      },
+      {
+        label: "Maeda et al. Pharmacokinetics of topical tranexamic acid. Journal of Dermatological Science 2019",
+        url: "https://pubmed.ncbi.nlm.nih.gov/30638822/"
+      }
+    ]
+  },
 
 ];
 
