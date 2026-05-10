@@ -54,7 +54,22 @@ function targetUrl(merchant, brand, name) {
   return merchant.domain + merchant.searchPath + encodeURIComponent(q);
 }
 
+// Block known bot UAs upstream to keep affiliate funnel data clean and avoid
+// leaking deep links to crawlers. Aligned with petfoodrate /go/ filter.
+const BOT_UA_REGEX = /bot|crawl|spider|slurp|facebookexternalhit|linkedinbot|twitterbot|whatsapp|telegram|googlebot|bingbot|yandexbot|baiduspider|duckduckbot|gptbot|claudebot|perplexitybot|amazonbot|applebot|ccbot|bytespider|headlesschrome|preview|fetch|http-client|libwww|wget|curl\//i;
+function isBotUA(ua) {
+  if (!ua) return true;
+  return BOT_UA_REGEX.test(ua);
+}
+
 export async function onRequestGet({ params, request }) {
+  if (isBotUA(request.headers.get("User-Agent"))) {
+    return new Response("Forbidden", {
+      status: 403,
+      headers: { "X-Robots-Tag": "noindex, nofollow" },
+    });
+  }
+
   const productId = sanitizeId(params.product);
   const url = new URL(request.url);
   const merchantKey = sanitizeKey(url.searchParams.get("m"));
