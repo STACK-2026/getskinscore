@@ -1,7 +1,7 @@
 ---
 title: "La Mer vs CeraVe: the 350 EUR Question Answered by Science"
 description: "La Mer vs CeraVe: formulation, ceramides vs Miracle Broth, per-gram cost, derm consensus, and the verdict on whether the 350 EUR is worth it."
-date: 2026-05-09T07:11:00+02:00
+date: 2026-05-10T07:11:00+02:00
 author: "Marc Severin"
 category: "product-reviews"
 tags: ["la mer vs cerave", "la mer worth it", "luxury skincare", "drugstore vs luxury", "moisturizer comparison", "ceramides", "miracle broth"]
@@ -10,7 +10,7 @@ draft: false
 image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1200&h=630&fit=crop&crop=center&q=80"
 imageAlt: "Two moisturizer jars side by side representing a luxury vs drugstore comparison"
 lang: "en"
-lastReviewed: "2026-05-09"
+lastReviewed: "2026-05-10"
 reviewedBy: "SkinScore Research Team"
 schemaFaq: true
 speakableTerm: "la mer vs cerave"
