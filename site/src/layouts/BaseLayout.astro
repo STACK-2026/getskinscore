@@ -4,6 +4,7 @@ import { fontsUrl } from "../utils/config";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import CookieBanner from "../components/CookieBanner.astro";
+import GA4Tracker from "../components/GA4Tracker.astro";
 import { getLocale } from "../i18n/t";
 import { organizationSchema, websiteSchema } from "../lib/structured-data";
 import "../styles/global.css";
@@ -92,6 +93,9 @@ const frHref = frHrefProp !== undefined ? frHrefProp : siteConfig.url + "/fr" + 
 
     <!-- Analytics tracker -->
     <script src="/tracker.js" defer is:inline></script>
+
+    <!-- GA4 (Mix mode, runs alongside Supabase tracker) -->
+    <GA4Tracker />
 
     <!-- Favicon -->
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
