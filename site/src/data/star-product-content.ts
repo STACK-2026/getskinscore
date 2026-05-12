@@ -788,6 +788,79 @@ export const starProductContent: StarProductContent[] = [
       }
     ]
   },
+  {
+    id: "neutrogena-hydro-boost-water-gel",
+    editorialReview: {
+      en: "Neutrogena Hydro Boost Water Gel earns a B (72/100) for its no-fuss, oil-free hydration. The star ingredient is sodium hyaluronate, hyaluronic acid's smaller cousin, at an undisclosed concentration, which pulls moisture into the skin without heaviness. Glycerin (concentration undisclosed) backs it up, reinforcing the moisture barrier. However, the formula includes fragrance (limonene, linalool), which knocks points off for sensitive skin compatibility. Texture is a win: a cooling, jelly-like gel that absorbs in seconds, leaving zero greasy residue. It's a solid pick for oily or combination skin, but those with dry or reactive skin should look elsewhere. No miracles here, just reliable, lightweight hydration.",
+      fr: "Le Neutrogena Hydro Boost Water Gel obtient un B (72/100) pour son hydratation sans huile et sans chichis. L'ingrédient phare est le sodium hyaluronate - la version plus petite de l'acide hyaluronique - à une concentration non divulguée, qui attire l'eau dans la peau sans effet gras. La glycérine (concentration non précisée) renforce cette action en soutenant la barrière hydrolipidique. Mais attention : la formule contient du parfum (limonène, linalool), ce qui réduit son score pour les peaux sensibles. Sa texture est un vrai plus : un gel frais et gélatineux qui pénètre en quelques secondes sans laisser de film gras. Un bon choix pour les peaux mixtes à grasses, mais les peaux sèches ou réactives devraient éviter. Pas de miracle, juste une hydratation légère et efficace."
+    },
+    howToUse: {
+      en: "Apply a pea-sized amount to clean, damp skin morning and/or evening. The gel spreads easily, so start with less, you can always add more if needed. Layer under sunscreen in the AM or over serums (like vitamin C or niacinamide) but avoid mixing with heavy oils or occlusives, as they can disrupt the gel's lightweight finish. If your skin feels tight after application, it's a sign you need a richer moisturizer on top. The 50ml pump bottle is hygienic but can be tricky to empty completely, tap it upside down to get the last bits out.",
+      fr: "Applique une noisette de produit sur peau propre et légèrement humide, matin et/ou soir. Le gel s'étale facilement, alors commence avec une petite quantité - tu peux en ajouter si besoin. Le matin, superpose-le sous ta crème solaire, ou le soir sur tes sérums (vitamine C, niacinamide). Évite de le mélanger avec des huiles épaisses ou des occlusifs, car ils altèrent sa texture légère. Si ta peau tiraille après application, c'est le signe qu'il te faut un hydratant plus riche par-dessus. Le flacon pompe de 50 ml est hygiénique, mais difficile à vider entièrement - tape-le à l'envers pour récupérer les dernières gouttes."
+    },
+    whoIsItFor: {
+      en: "Ideal for oily, combination, or normal skin types craving hydration without shine. Also works for those who dislike heavy creams or live in humid climates. The gel's oil-free formula won't clog pores, making it a decent option for acne-prone skin (though it's not specifically non-comedogenic). Not ideal for dry or very dry skin, it lacks the occlusives needed to lock in moisture long-term. Skip if you're sensitive to fragrance or have rosacea, eczema, or compromised skin barriers.",
+      fr: "Parfait pour les peaux grasses, mixtes ou normales qui veulent de l'hydratation sans brillance. Convient aussi à ceux qui détestent les crèmes épaisses ou vivent dans des climats humides. Sa formule sans huile n'obstrue pas les pores, ce qui en fait une option correcte pour les peaux acnéiques (même si elle n'est pas officiellement non comédogène). À éviter pour les peaux sèches ou très sèches : elle manque d'occlusifs pour retenir l'eau sur le long terme. Passe ton chemin si tu es sensible aux parfums ou si tu as de la rosacée, de l'eczéma ou une barrière cutanée fragilisée."
+    },
+    whatToExpect: {
+      en: "Week 1: Immediate cooling sensation and a dewy (not greasy) finish. Skin feels softer, but don't expect deep hydration yet, this is surface-level moisture. Week 4: If your skin tolerates the fragrance, you'll notice less tightness and a more balanced complexion. Oily areas may still need blotting papers by midday. Week 12: Consistent use should leave skin plump and comfortable, but it won't fix chronic dryness or fine lines. For best results, pair with a hydrating serum if your skin needs more than this gel can provide.",
+      fr: "Semaine 1 : Sensation de fraîcheur immédiate et un fini légèrement lumineux (sans gras). La peau est plus douce, mais ne t'attends pas à une hydratation profonde - c'est superficiel. Semaine 4 : Si ta peau tolère le parfum, les tiraillements diminuent et le teint semble plus équilibré. Les zones grasses peuvent encore nécessiter des papiers matifiants en milieu de journée. Semaine 12 : Une utilisation régulière devrait laisser ta peau rebondie et confortable, mais ça ne résoudra pas la sécheresse chronique ou les ridules. Pour de meilleurs résultats, associe-le à un sérum hydratant si ta peau en demande plus."
+    },
+    commonMistakes: {
+      en: "Using it on bone-dry skin. The gel's humectants need water to work, apply to damp skin or spritz with a thermal water first. Without moisture, the gel can actually pull water from deeper layers of your skin, leaving it drier than before.\n\nOver-applying. A pea-sized amount covers the entire face. Too much can pill under makeup or leave a sticky residue, especially in humid weather. Start small and build up if needed.\n\nExpecting it to replace a richer moisturizer. It's a hydrator, not an occlusive, dry skin types will still need a cream on top to seal in moisture and prevent transepidermal water loss.",
+      fr: "L'appliquer sur peau complètement sèche. Les humectants du gel ont besoin d'eau pour agir - utilise-le sur peau humide ou vaporise un peu d'eau thermale avant. Sans humidité, le gel peut même puiser l'eau des couches profondes de ta peau, la laissant plus sèche qu'avant.\n\nEn mettre trop. Une noisette suffit pour tout le visage. Une quantité excessive peut pelucher sous le maquillage ou laisser un film collant, surtout par temps humide. Commence avec peu et ajoute si nécessaire.\n\nCroire qu'il remplace une crème riche. C'est un hydratant, pas un occlusif - les peaux sèches auront toujours besoin d'une crème par-dessus pour sceller l'hydratation et éviter la perte en eau transépidermique."
+    },
+    faq: [
+      {
+        question: {
+          en: "Is this moisturizer good for acne-prone skin?",
+          fr: "Ce produit est-il adapté aux peaux acnéiques ?"
+        },
+        answer: {
+          en: "It's oil-free and lightweight, so it won't clog pores like heavier creams. However, it's not specifically formulated for acne (no salicylic acid, niacinamide, or anti-inflammatory actives). The fragrance could also irritate active breakouts. If your acne is mild and you tolerate fragrance, it's a decent option. For inflamed or cystic acne, opt for a fragrance-free, non-comedogenic moisturizer instead.",
+          fr: "Il est sans huile et léger, donc il n'obstrue pas les pores comme les crèmes épaisses. Mais il n'est pas spécialement formulé pour l'acné (pas d'acide salicylique, de niacinamide ou d'actifs anti-inflammatoires). Le parfum peut aussi irriter les boutons actifs. Si ton acné est légère et que tu tolères le parfum, c'est une option correcte. Pour de l'acné inflammatoire ou kystique, choisis plutôt un hydratant sans parfum et non comédogène."
+        }
+      },
+      {
+        question: {
+          en: "Can I use this under makeup?",
+          fr: "Puis-je l'utiliser sous mon maquillage ?"
+        },
+        answer: {
+          en: "Yes, but with caveats. The gel absorbs quickly and provides a smooth base, but it's not a primer, if your skin is dry, foundation may cling to dry patches. For oily skin, set it with a light powder to prevent shine. Avoid applying too much, as excess product can cause pilling under foundation or concealer. If you use a silicone-based primer, apply it after the gel has fully absorbed.",
+          fr: "Oui, mais avec quelques précautions. Le gel pénètre vite et offre une base lisse, mais ce n'est pas un primer - si ta peau est sèche, le fond de teint peut accrocher aux zones de sécheresse. Pour les peaux grasses, fixe-le avec une poudre légère pour éviter la brillance. Évite d'en mettre trop, car un excès peut faire pelucher le fond de teint ou l'anticernes. Si tu utilises un primer à base de silicone, applique-le après que le gel ait complètement pénétré."
+        }
+      },
+      {
+        question: {
+          en: "Does it work for sensitive skin?",
+          fr: "Est-ce que ça convient aux peaux sensibles ?"
+        },
+        answer: {
+          en: "The fragrance (limonene, linalool) and potential sensitizers like phenoxyethanol make this a risky choice for sensitive skin. While some tolerate it, others report redness or stinging, especially if their barrier is compromised. If you have rosacea, eczema, or contact dermatitis, opt for a fragrance-free, minimalist moisturizer like La Roche-Posay Toleriane Sensitive Cream instead.",
+          fr: "Le parfum (limonène, linalool) et des ingrédients potentiellement irritants comme le phénoxyéthanol en font un choix risqué pour les peaux sensibles. Certains le tolèrent, mais d'autres signalent des rougeurs ou des picotements, surtout si leur barrière cutanée est fragilisée. Si tu as de la rosacée, de l'eczéma ou une dermatite de contact, choisis plutôt une crème sans parfum et minimaliste comme la La Roche-Posay Toleriane Sensitive Cream."
+        }
+      }
+    ],
+    vsCompetitors: [
+      {
+        competitorId: "cerave-moisturizing-cream",
+        competitorName: "CeraVe Moisturizing Cream",
+        verdict: {
+          en: "CeraVe's A-rated cream (91/100) is the polar opposite of Hydro Boost. It's fragrance-free, packed with ceramides and cholesterol to repair the skin barrier, and works for dry, sensitive, and even eczema-prone skin. The texture is thick and occlusive, great for locking in moisture but too heavy for oily skin. Hydro Boost wins for lightweight, oil-free hydration, but CeraVe is the clear choice for long-term barrier support and sensitivity.",
+          fr: "La crème CeraVe notée A (91/100) est l'opposé du Hydro Boost. Sans parfum, riche en céramides et cholestérol pour réparer la barrière cutanée, elle convient aux peaux sèches, sensibles et même sujettes à l'eczéma. Sa texture est épaisse et occlusive - idéale pour retenir l'hydratation, mais trop lourde pour les peaux grasses. Le Hydro Boost l'emporte pour une hydratation légère et sans huile, mais CeraVe est clairement supérieur pour un soutien à long terme de la barrière cutanée et les peaux sensibles."
+        }
+      },
+      {
+        competitorId: "kiehls-ultra-facial-cream",
+        competitorName: "Kiehl's Ultra Facial Cream",
+        verdict: {
+          en: "Kiehl's B-rated cream (78/100) splits the difference between Hydro Boost and CeraVe. It's fragrance-free, with squalane and glacial glycoprotein for hydration and a lightweight-but-creamy texture. It's pricier than Neutrogena but more versatile, works for normal to dry skin without feeling greasy. Hydro Boost is still the better pick for oily skin or humid climates, but Kiehl's is a stronger all-rounder if you want a single moisturizer for year-round use.",
+          fr: "La crème Kiehl's notée B (78/100) se situe entre le Hydro Boost et CeraVe. Sans parfum, avec du squalane et de la glycoprotéine glaciaire pour l'hydratation, elle offre une texture légère mais crémeuse. Elle est plus chère que Neutrogena, mais plus polyvalente - convient aux peaux normales à sèches sans effet gras. Le Hydro Boost reste le meilleur choix pour les peaux grasses ou les climats humides, mais Kiehl's est un meilleur compromis si tu veux une seule crème pour toute l'année."
+        }
+      }
+    ]
+  },
 
 ];
 
