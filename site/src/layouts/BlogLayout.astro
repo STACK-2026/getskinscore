@@ -23,14 +23,34 @@ interface Props {
   reviewedBy?: string;
   speakable?: string;
   speakableTerm?: string;
+  body?: string;
 }
 
 const {
   title, description, date,
   author = siteConfig.blog.defaultAuthor,
   category, tags = [], image, imageAlt, slug, keywords,
-  lang = "en", lastReviewed, reviewedBy, speakable, speakableTerm,
+  lang = "en", lastReviewed, reviewedBy, speakable, speakableTerm, body,
 } = Astro.props;
+
+function extractFaq(md: string | undefined): { q: string; a: string }[] {
+  if (!md) return [];
+  const m = md.match(/^##\s+(FAQ|Foire aux questions|Questions fr[ée]quentes)[^\n]*$/im);
+  if (!m || m.index === undefined) return [];
+  let section = md.slice(m.index + m[0].length);
+  const nextH2 = section.match(/^##\s+/m);
+  if (nextH2 && nextH2.index !== undefined) section = section.slice(0, nextH2.index);
+  const pairs: { q: string; a: string }[] = [];
+  const re = /^###\s+([^\n]+)\n+([\s\S]*?)(?=^###\s+|$)/gm;
+  let m2: RegExpExecArray | null;
+  while ((m2 = re.exec(section)) !== null) {
+    const q = m2[1].replace(/\s*\{#[^}]+\}\s*$/, '').replace(/\*\*/g, '').trim();
+    const a = m2[2].replace(/\*\*/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\s+/g, ' ').trim();
+    if (q && a) pairs.push({ q, a });
+  }
+  return pairs;
+}
+const faqPairs = extractFaq(body);
 
 const isDefault = lang === "en";
 const blogPath = isDefault ? `/blog/${slug}/` : `/fr/blog/${slug}/`;
@@ -60,10 +80,22 @@ const breadcrumbs = [
   { name: title, url: articleUrl },
 ];
 
-const jsonLd = [
+const jsonLd: any[] = [
   jsonLdArticle({ title, description, url: articleUrl, datePublished: dateStr, dateModified: reviewedDateStr, image, author, keywords: keywords?.split(",").map((k) => k.trim()), reviewedBy, inLanguage: l.locale }),
   jsonLdBreadcrumbs(breadcrumbs),
 ];
+
+if (faqPairs.length > 0) {
+  jsonLd.push({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqPairs.map(({ q, a }) => ({
+      '@type': 'Question',
+      name: q,
+      acceptedAnswer: { '@type': 'Answer', text: a },
+    })),
+  });
+}
 ---
 
 <BaseLayout title={`${title} | ${siteConfig.name}`} description={description} canonicalUrl={articleUrl} ogImage={image} ogType="article" publishedTime={dateStr} jsonLd={jsonLd} enHref={enHref} frHref={frHref}>
