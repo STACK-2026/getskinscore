@@ -17,8 +17,12 @@ const breadcrumbs = [
 ---
 
 <BaseLayout
-  title={`Compare Skincare Products Side by Side | ${siteConfig.name}`}
-  description="Compare skincare products side by side. See ingredient scores, safety ratings, and skin-type fit across every dimension. Science-backed, independent comparisons."
+  title={locale === "fr"
+    ? `Comparateur produits skincare : ${products.length} produits notes A-E + ingredients | ${siteConfig.name}`
+    : `Compare skincare: ${products.length} products ranked A-E + ingredient breakdown | ${siteConfig.name}`}
+  description={locale === "fr"
+    ? `Compare ${products.length} produits de soin cote a cote : ingredients, score A-E, securite par type de peau. Decryptage independant base sur CIR et EWG.`
+    : `Side-by-side comparison of ${products.length} skincare products: ingredients, A-E score, safety per skin type. Independent CIR + EWG-backed analysis.`}
   jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
 >
   <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12">

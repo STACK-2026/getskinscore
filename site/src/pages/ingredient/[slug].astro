@@ -17,8 +17,16 @@ export function getStaticPaths() {
 
 const { ingredient } = Astro.props as { ingredient: Ingredient };
 const locale = getLocale(Astro.url);
-const title = `${t(ingredient.name, locale)} - Score ${ingredient.score} | ${siteConfig.name}`;
-const description = t(ingredient.description, locale).slice(0, 155) + "...";
+const ingredientName = t(ingredient.name, locale);
+const comedogenicLabel = locale === "fr"
+  ? (ingredient.comedogenic === 0 ? "non comedogene" : `comedogene ${ingredient.comedogenic}/5`)
+  : (ingredient.comedogenic === 0 ? "Non-comedogenic" : `Comedogenic ${ingredient.comedogenic}/5`);
+const title = locale === "fr"
+  ? `${ingredientName} : ${comedogenicLabel}, score ${ingredient.score}, securite peau | ${siteConfig.name}`
+  : `${ingredientName}: ${comedogenicLabel}, score ${ingredient.score}, safety profile | ${siteConfig.name}`;
+const description = (locale === "fr"
+  ? `${ingredientName} obtient le score ${ingredient.score} (${ingredient.scoreNumeric}/100). ${comedogenicLabel}, profil de securite, usages et alternatives.`
+  : `${ingredientName} scored ${ingredient.score} (${ingredient.scoreNumeric}/100). ${comedogenicLabel}, CIR-backed safety profile, uses + alternatives.`).slice(0, 175);
 const url = fullUrl(`/ingredient/${ingredient.id}`);
 
 const breadcrumbs = [

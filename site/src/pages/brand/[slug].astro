@@ -41,8 +41,12 @@ const avgGrade = avgScore >= 85 ? "A" : avgScore >= 70 ? "B" : avgScore >= 55 ? 
 // Product types this brand offers
 const types = [...new Set(sorted.map((p) => p.type))];
 
-const title = `${brand} Skincare Review - ${sorted.length} Products Rated A to E | ${siteConfig.name}`;
-const description = `Independent ${brand} skincare review. ${sorted.length} products analysed and rated from A to E. Average score: ${avgGrade} (${avgScore}/100). Best product: ${bestProduct.name} (${bestProduct.score}).`;
+const title = locale === "fr"
+  ? `${brand} avis : ${sorted.length} produits notes ${avgGrade} moyenne (${avgScore}/100) | ${siteConfig.name}`
+  : `${brand} review: ${sorted.length} products scored ${avgGrade} avg (${avgScore}/100) | ${siteConfig.name}`;
+const description = locale === "fr"
+  ? `Avis ${brand} independant : ${sorted.length} produits decryptes, note moyenne ${avgGrade} (${avgScore}/100). Meilleur produit : ${bestProduct.name} (${bestProduct.score}). Liste complete, ingredients.`.slice(0, 175)
+  : `Independent ${brand} review: ${sorted.length} products analysed, average score ${avgGrade} (${avgScore}/100). Best: ${bestProduct.name} (${bestProduct.score}). Full ranking + ingredient breakdown.`.slice(0, 175);
 
 const breadcrumbs = [
   { name: t(tr.common.home, locale), url: fullUrl(localizedPath("/", locale)) },
