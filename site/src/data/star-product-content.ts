@@ -861,6 +861,79 @@ export const starProductContent: StarProductContent[] = [
       }
     ]
   },
+  {
+    id: "la-roche-posay-effaclar-duo-plus",
+    editorialReview: {
+      en: "La Roche-Posay Effaclar Duo+ SPF 30 earns a B (78/100) for its multi-tasking approach to acne-prone skin. The formula combines 5% niacinamide to calm inflammation, 0.4% salicylic acid for gentle exfoliation, and piroctone olamine, an antifungal agent that reduces *C. acnes* bacteria. Zinc PCA (1%) helps regulate sebum without stripping skin. The SPF 30 is a pragmatic addition, though the mineral-heavy filter (titanium dioxide) may leave a faint white cast on deeper skin tones. Texture is lightweight but not truly mattifying, so oily skin types may need a blotting step later in the day. While effective for mild to moderate breakouts, those with fungal acne should note the piroctone olamine and potential comedogenicity of the SPF base.",
+      fr: "La Roche-Posay Effaclar Duo+ SPF 30 obtient un B (78/100) pour son approche polyvalente des peaux à imperfections. La formule associe 5% de niacinamide pour apaiser l'inflammation, 0,4% d'acide salicylique pour une exfoliation douce, et de la piroctone olamine - un agent antifongique qui réduit les bactéries *C. acnes*. Le zinc PCA (1%) aide à réguler le sébum sans agresser la peau. Le SPF 30 est un atout pratique, mais le filtre minéral (dioxyde de titane) peut laisser un léger voile blanc sur les peaux mates ou foncées. La texture est légère, mais pas vraiment matifiante, donc les peaux grasses devront peut-être utiliser un papier matifiant plus tard dans la journée. Efficace pour les boutons légers à modérés, mais attention : les peaux sujettes à l'acné fongique devront surveiller la piroctone olamine et le potentiel comédogène de la base SPF."
+    },
+    howToUse: {
+      en: "Apply a pea-sized amount to clean, dry skin every morning as your final skincare step before makeup. The SPF 30 provides sufficient protection for incidental sun exposure, but reapply every 2 hours if outdoors. Layering under heavier creams or oils may dilute the active ingredients, stick to lightweight serums if additional hydration is needed. Avoid mixing with vitamin C in the same routine, as the low pH of ascorbic acid can destabilize the niacinamide. If irritation occurs, reduce frequency to every other day and buffer with a simple moisturizer.",
+      fr: "Applique une noisette de produit sur peau nettoyée et sèche, chaque matin, comme dernière étape de ta routine avant le maquillage. Le SPF 30 protège suffisamment pour une exposition solaire occasionnelle, mais réapplique toutes les 2 heures si tu es en extérieur. Évite de superposer des crèmes épaisses ou des huiles, car elles peuvent diluer les actifs - privilégie un sérum léger si tu as besoin d'hydratation supplémentaire. Ne l'associe pas à de la vitamine C dans la même routine, car le pH acide de l'acide ascorbique peut déstabiliser la niacinamide. En cas d'irritation, espace les applications un jour sur deux et utilise une crème hydratante simple en tampon."
+    },
+    whoIsItFor: {
+      en: "Ideal for combination to oily skin prone to mild acne, blackheads, or occasional breakouts. The niacinamide and zinc PCA help balance sebum production, while salicylic acid keeps pores clear. Not ideal for dry or sensitive skin, fragrance and alcohol denat. (listed mid-INCI) may trigger irritation. Those with fungal acne should patch-test first due to piroctone olamine. Avoid if you're using strong retinoids or AHAs/BHAs in your AM routine, as layering may cause excessive dryness.",
+      fr: "Parfait pour les peaux mixtes à grasses sujettes aux imperfections légères, points noirs ou boutons occasionnels. La niacinamide et le zinc PCA aident à réguler le sébum, tandis que l'acide salicylique nettoie les pores. Pas adapté aux peaux sèches ou sensibles - le parfum et l'alcool dénaturé (présents en milieu de liste INCI) peuvent irriter. Les peaux sujettes à l'acné fongique devront faire un test cutané au préalable à cause de la piroctone olamine. À éviter si tu utilises des rétinoïdes puissants ou des AHA/BHA le matin, car la superposition peut assécher excessivement."
+    },
+    whatToExpect: {
+      en: "Week 1: Skin may feel slightly drier as salicylic acid begins exfoliating. Some purging (small whiteheads) is normal, don't panic. Week 4: Breakouts should decrease in frequency, and pores appear less clogged. The niacinamide may reduce redness from existing blemishes. Week 12: Skin texture feels smoother, with fewer new breakouts. Oiliness is better controlled, but don't expect a matte finish, this is still a moisturizer. SPF 30 protection remains consistent, but it's not a substitute for dedicated sunscreen if you're outdoors for extended periods.",
+      fr: "Semaine 1 : Ta peau peut sembler un peu plus sèche, car l'acide salicylique commence à exfolier. Un léger *purging* (petits boutons blancs) est normal - pas de panique. Semaine 4 : Les éruptions devraient diminuer en fréquence, et tes pores paraîtront moins obstrués. La niacinamide peut réduire les rougeurs des boutons existants. Semaine 12 : La texture de ta peau est plus lisse, avec moins de nouvelles imperfections. La production de sébum est mieux régulée, mais ne t'attends pas à un fini mat - c'est avant tout une crème hydratante. La protection SPF 30 reste efficace, mais ce n'est pas un substitut à une crème solaire dédiée si tu passes beaucoup de temps en extérieur."
+    },
+    commonMistakes: {
+      en: "Using it as a spot treatment only. The salicylic acid and niacinamide work best when applied to the entire affected area, not just individual pimples. This prevents new breakouts from forming elsewhere.\n\nSkipping sunscreen reapplication. While the SPF 30 is convenient, it's not enough for prolonged sun exposure. If you're outside for more than 2 hours, layer a dedicated sunscreen over it or reapply the Duo+.\n\nMixing with other exfoliants. Combining this with AHAs, BHAs, or retinoids in the same routine can lead to irritation, redness, and compromised barrier function. Stick to one active at a time.",
+      fr: "Ne l'utiliser qu'en traitement localisé. L'acide salicylique et la niacinamide agissent mieux quand tu les appliques sur toute la zone concernée, pas seulement sur les boutons visibles. Ça évite l'apparition de nouvelles imperfections ailleurs.\n\nOublier de réappliquer la protection solaire. Même si le SPF 30 est pratique, il ne suffit pas pour une exposition prolongée. Si tu restes dehors plus de 2 heures, superpose une crème solaire dédiée ou réapplique le Duo+.\n\nLe mélanger avec d'autres exfoliants. L'associer à des AHA, BHA ou rétinoïdes dans la même routine peut irriter, provoquer des rougeurs et fragiliser ta barrière cutanée. Limite-toi à un seul actif à la fois."
+    },
+    faq: [
+      {
+        question: {
+          en: "Can I use this at night?",
+          fr: "Puis-je l'utiliser le soir ?"
+        },
+        answer: {
+          en: "Technically yes, but it's not optimal. The SPF 30 is unnecessary at night, and the formula contains alcohol denat., which may dry out skin over time. If you prefer a nighttime version, La Roche-Posay's Effaclar Duo (+) (without SPF) is a better choice, it includes the same actives without the sunscreen base.",
+          fr: "Techniquement oui, mais ce n'est pas idéal. Le SPF 30 est inutile le soir, et la formule contient de l'alcool dénaturé, qui peut assécher ta peau sur la durée. Si tu préfères une version nocturne, l'Effaclar Duo (+) (sans SPF) de La Roche-Posay est un meilleur choix - il contient les mêmes actifs, sans la base solaire."
+        }
+      },
+      {
+        question: {
+          en: "Will this fade acne scars?",
+          fr: "Est-ce que ça atténue les cicatrices d'acné ?"
+        },
+        answer: {
+          en: "Not directly. The niacinamide may help reduce post-inflammatory erythema (red marks) over time, but it won't significantly fade deep scars or hyperpigmentation. For true scar fading, look for products with higher concentrations of niacinamide (10%+), azelaic acid, or retinoids. The Duo+ SPF 30 is better suited for preventing new breakouts than treating old scars.",
+          fr: "Pas directement. La niacinamide peut aider à réduire les marques rouges (érythème post-inflammatoire) avec le temps, mais elle n'atténuera pas les cicatrices profondes ou l'hyperpigmentation. Pour estomper les cicatrices, cherche des produits avec des concentrations plus élevées de niacinamide (10%+), d'acide azélaïque ou de rétinoïdes. Le Duo+ SPF 30 est plus efficace pour prévenir les nouvelles imperfections que pour traiter les anciennes cicatrices."
+        }
+      },
+      {
+        question: {
+          en: "Is this safe for perioral dermatitis?",
+          fr: "Est-ce adapté à la dermatite périorale ?"
+        },
+        answer: {
+          en: "Proceed with caution. The fragrance and alcohol denat. in the formula may trigger flare-ups in sensitive conditions like perioral dermatitis. If you're prone to this, patch-test first and monitor for stinging, redness, or dryness. A simpler, fragrance-free moisturizer (like La Roche-Posay's Toleriane Sensitive Cream) is often a safer choice for compromised skin barriers.",
+          fr: "À utiliser avec prudence. Le parfum et l'alcool dénaturé dans la formule peuvent déclencher des poussées si tu es sujet à la dermatite périorale. Fais un test cutané d'abord et surveille les picotements, rougeurs ou sécheresse. Une crème plus simple et sans parfum (comme la Toleriane Sensitive Cream de La Roche-Posay) est souvent un choix plus sûr pour les barrières cutanées fragilisées."
+        }
+      }
+    ],
+    vsCompetitors: [
+      {
+        competitorId: "ducray-keracnyl-pp-cream",
+        competitorName: "Ducray Keracnyl PP+ Cream",
+        verdict: {
+          en: "Ducray Keracnyl PP+ (grade B) is a closer match for acne-prone skin, with 4% niacinamide and 1% zinc gluconate, higher concentrations than the Duo+ SPF 30. It skips SPF but includes myrtacine, a patented anti-inflammatory. However, the Duo+ SPF 30 wins for convenience, combining sun protection with actives. If your priority is acne treatment over SPF, Keracnyl PP+ may be more effective. For a daily moisturizer with built-in protection, the Duo+ SPF 30 is the better pick.",
+          fr: "Le Ducray Keracnyl PP+ (note B) est plus ciblé pour les peaux acnéiques, avec 4% de niacinamide et 1% de gluconate de zinc - des concentrations plus élevées que dans le Duo+ SPF 30. Il ne contient pas de SPF, mais inclut de la myrtacine, un anti-inflammatoire breveté. Cependant, le Duo+ SPF 30 l'emporte pour sa praticité, combinant protection solaire et actifs. Si ta priorité est le traitement de l'acné plutôt que le SPF, le Keracnyl PP+ peut être plus efficace. Pour une crème quotidienne avec protection intégrée, le Duo+ SPF 30 est le meilleur choix."
+        }
+      },
+      {
+        competitorId: "bioderma-sebium-global",
+        competitorName: "Bioderma Sébium Global",
+        verdict: {
+          en: "Bioderma Sébium Global (grade B) is a heavier-duty option for oily, acne-prone skin. It includes 2% salicylic acid (vs. 0.4% in the Duo+ SPF 30) and fluidactiv, a patented complex to regulate sebum quality. However, it lacks SPF and has a thicker texture, making it better suited for nighttime use. The Duo+ SPF 30 is lighter and more versatile for daily wear, especially if you want sun protection without layering multiple products.",
+          fr: "Le Bioderma Sébium Global (note B) est une option plus intensive pour les peaux grasses et acnéiques. Il contient 2% d'acide salicylique (contre 0,4% dans le Duo+ SPF 30) et du fluidactiv, un complexe breveté pour réguler la qualité du sébum. Cependant, il n'a pas de SPF et sa texture est plus épaisse, ce qui le rend plus adapté à une utilisation nocturne. Le Duo+ SPF 30 est plus léger et polyvalent pour un usage quotidien, surtout si tu veux une protection solaire sans superposer plusieurs produits."
+        }
+      }
+    ]
+  },
 
 ];
 
