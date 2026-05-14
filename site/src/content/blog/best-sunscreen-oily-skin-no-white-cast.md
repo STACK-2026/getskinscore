@@ -41,7 +41,7 @@ Three label cues actually matter for oily skin:
 
 **SPF 30 to 50**. Below SPF 30 the protection drops sharply. Above SPF 50 the marginal gain is minimal and the formulas tend to feel heavier. The [European Academy of Dermatology and Venereology](https://eadv.org) considers SPF 30 the practical floor for daily urban exposure and SPF 50 the recommendation for prolonged outdoor activity.
 
-**Non-comedogenic and fragrance-free**. Non-comedogenic testing is not standardized but a marker brands voluntarily display. Fragrance is a leading cause of contact dermatitis in sensitive oily skin, as covered in our deep dive on [hidden fragrance allergens in skincare](/blog/fragrance-skincare-hidden-allergen).
+**Non-comedogenic and fragrance-free**. Non-comedogenic testing is not standardized but a marker brands voluntarily display. Fragrance is a leading cause of contact dermatitis in sensitive oily skin, as covered in our deep dive on [hidden fragrance allergens in skincare](/blog/fragrance-skincare-hidden-allergen/).
 
 ## Chemical vs mineral sunscreens for oily skin
 
@@ -57,7 +57,7 @@ The mineral versus chemical debate is the most common question in dermatology fo
 
 A sunscreen formulated for oily skin should pair UV filters with active sebum management. The following ingredients have peer reviewed support for oily and acne prone skin.
 
-**Niacinamide (2 to 5 percent)**. Vitamin B3 reduces sebum production, soothes inflammation and strengthens the skin barrier. We have covered the full evidence base in our article on [niacinamide and skin research](/blog/is-niacinamide-safe-dermatology-research). When present in a sunscreen at 4 percent or above, it doubles as a daytime active.
+**Niacinamide (2 to 5 percent)**. Vitamin B3 reduces sebum production, soothes inflammation and strengthens the skin barrier. We have covered the full evidence base in our article on [niacinamide and skin research](/blog/is-niacinamide-safe-dermatology-research/). When present in a sunscreen at 4 percent or above, it doubles as a daytime active.
 
 **Silica and perlite**. These mineral powders absorb sebum throughout the day and create a true matte finish. They are inert, do not clog pores, and are graded as non-comedogenic by most third party testing labs.
 
@@ -69,7 +69,7 @@ A sunscreen formulated for oily skin should pair UV filters with active sebum ma
 
 ## Ingredients to avoid
 
-The list of pore clogging ingredients is well established in dermatological literature. The [comedogenic ingredients reference list](/blog/comedogenic-ingredients-complete-list) covers the topic in full, but the priority offenders to flag on a sunscreen INCI are:
+The list of pore clogging ingredients is well established in dermatological literature. The [comedogenic ingredients reference list](/blog/comedogenic-ingredients-complete-list/) covers the topic in full, but the priority offenders to flag on a sunscreen INCI are:
 
 - Isopropyl myristate and isopropyl palmitate
 - Coconut oil and coconut oil derivatives (cocos nucifera oil, sodium cocoate)
@@ -95,7 +95,7 @@ The practical sequence for oily skin:
 4. Press, do not rub. Rubbing destroys the protective film and pills the formula.
 5. Wait two minutes before makeup.
 
-For a complete daily protocol, see our guide on [skincare routine order, morning and night](/blog/skincare-routine-order-morning-night), which integrates SPF into the broader sequence.
+For a complete daily protocol, see our guide on [skincare routine order, morning and night](/blog/skincare-routine-order-morning-night/), which integrates SPF into the broader sequence.
 
 ## Best sunscreen formats for oily skin
 
@@ -115,7 +115,7 @@ Format matters as much as formula. The same active blend can feel completely dif
 
 Sunscreen is one step of a coherent oily skin routine. The mistake many people make is layering a heavy moisturizer under sunscreen, which compounds the greasy effect. Oily skin benefits from a lightweight humectant serum (hyaluronic acid, glycerin) and a gel moisturizer, with the sunscreen acting as the final occlusive layer.
 
-If you are still searching for the right moisturizer, our review of [dermatologist picked moisturizers](/blog/best-moisturizer-dry-skin-dermatologist-picks) covers the lightweight options that work even on combination and oily skin. Pairing actives also matters. Vitamin C in the morning and niacinamide in the same routine is a proven combination, as we detailed in our myth debunking piece on [niacinamide and vitamin C together](/blog/niacinamide-vitamin-c-together-myth-debunked).
+If you are still searching for the right moisturizer, our review of [dermatologist picked moisturizers](/blog/best-moisturizer-dry-skin-dermatologist-picks/) covers the lightweight options that work even on combination and oily skin. Pairing actives also matters. Vitamin C in the morning and niacinamide in the same routine is a proven combination, as we detailed in our myth debunking piece on [niacinamide and vitamin C together](/blog/niacinamide-vitamin-c-together-myth-debunked/).
 
 ## Common sunscreen mistakes that worsen oily skin
 
