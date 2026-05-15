@@ -10,7 +10,7 @@ draft: false
 image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1200&h=630&fit=crop&crop=center&q=80"
 imageAlt: "Fluid sunscreen tube next to gel and matte texture swatches on a clean surface"
 lang: "en"
-lastReviewed: "2026-05-11"
+lastReviewed: "2026-05-15"
 reviewedBy: "SkinScore Research Team"
 schemaFaq: true
 speakableTerm: "best sunscreen oily skin"
