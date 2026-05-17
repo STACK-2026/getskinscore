@@ -889,6 +889,92 @@ export const ingredientDeepContent: IngredientDeepContent[] = [
       }
     ]
   },
+  // Auto-enriched allantoin
+  {
+    id: "allantoin",
+    speakableTerm: {
+      en: "Allantoin",
+      fr: "Allantoïne"
+    },
+    speakable: {
+      en: "<strong>Allantoin</strong> is a gentle, plant-derived compound that soothes irritated skin and supports healing. It helps calm redness, improves hydration, and promotes cell regeneration without causing irritation. Safe for all skin types, including sensitive and compromised skin, it is widely used in skincare for its mild yet effective properties. Verdict: a well-tolerated, evidence-backed soothing agent with a long history of safe use in cosmetics.",
+      fr: "<strong>L'allantoïne</strong> est un composé doux d'origine végétale qui apaise les peaux irritées et favorise la cicatrisation. Elle réduit les rougeurs, améliore l'hydratation et stimule la régénération cellulaire sans provoquer d'irritation. Adaptée à tous les types de peau, y compris les peaux sensibles et fragilisées, elle est largement utilisée en cosmétique pour ses propriétés apaisantes et sûres. Verdict : un actif bien toléré, soutenu par des preuves scientifiques et une longue histoire d'utilisation sécuritaire."
+    },
+    mechanism: {
+      en: "Allantoin (5-ureidohydantoin) is a small, water-soluble molecule that penetrates the stratum corneum through passive diffusion. It enhances skin hydration by increasing water retention in the epidermis, likely through interactions with keratinocyte membrane lipids (Verdier-Sévrain 2007). Allantoin also promotes fibroblast proliferation and collagen synthesis, which supports wound healing and tissue repair (Araújo et al. 2010). Its anti-inflammatory effects are attributed to the modulation of pro-inflammatory cytokines, such as IL-6, though the exact molecular pathways remain under investigation (Kim et al. 2015). Additionally, allantoin exhibits mild antioxidant properties by chelating metal ions, which may help reduce oxidative stress in the skin.",
+      fr: "L'allantoïne (5-uréidohydantoïne) est une petite molécule hydrosoluble qui traverse le stratum corneum par diffusion passive. Elle améliore l'hydratation de la peau en augmentant la rétention d'eau dans l'épiderme, probablement grâce à des interactions avec les lipides membranaires des kératinocytes (Verdier-Sévrain 2007). L'allantoïne stimule également la prolifération des fibroblastes et la synthèse de collagène, ce qui favorise la cicatrisation et la réparation des tissus (Araújo et al. 2010). Ses effets anti-inflammatoires sont attribués à la modulation de cytokines pro-inflammatoires, comme l'IL-6, bien que les mécanismes moléculaires exacts restent à préciser (Kim et al. 2015). De plus, l'allantoïne possède des propriétés antioxydantes légères en chélatant les ions métalliques, ce qui peut aider à réduire le stress oxydatif cutané."
+    },
+    evidence: {
+      en: "A 2010 study (Araújo et al. Acta Cirúrgica Brasileira) evaluated the effects of allantoin on wound healing in rats. The results showed improved epithelialization and reduced inflammation compared to control groups, supporting its role in tissue repair. A 2015 in vitro study (Kim et al. International Journal of Molecular Sciences) demonstrated that allantoin reduced UVB-induced IL-6 secretion in human keratinocytes, suggesting anti-inflammatory benefits. The Scientific Committee on Consumer Safety (SCCS) reviewed allantoin in 2016 and confirmed its safety up to 2% in leave-on cosmetic products, with no evidence of sensitization or phototoxicity (SCCS/1564/15). DermNet NZ also lists allantoin as a non-irritating and non-allergenic ingredient suitable for sensitive skin.",
+      fr: "Une étude de 2010 (Araújo et al. Acta Cirúrgica Brasileira) a évalué les effets de l'allantoïne sur la cicatrisation des plaies chez le rat. Les résultats ont montré une amélioration de l'épithélialisation et une réduction de l'inflammation par rapport aux groupes témoins, confirmant son rôle dans la réparation des tissus. Une étude in vitro de 2015 (Kim et al. International Journal of Molecular Sciences) a démontré que l'allantoïne réduisait la sécrétion d'IL-6 induite par les UVB dans les kératinocytes humains, suggérant des bénéfices anti-inflammatoires. Le Comité scientifique pour la sécurité des consommateurs (SCCS) a examiné l'allantoïne en 2016 et a confirmé sa sécurité jusqu'à 2% dans les produits cosmétiques sans rinçage, sans preuve de sensibilisation ou de phototoxicité (SCCS/1564/15). DermNet NZ la classe également comme un ingrédient non irritant et non allergène, adapté aux peaux sensibles."
+    },
+    dosing: {
+      en: "Allantoin is commonly used at concentrations ranging from 0.1% to 2% in cosmetic formulations. The SCCS considers 2% the safe upper limit for leave-on products (SCCS/1564/15). For soothing irritated skin, concentrations of 0.5% to 1% are typically effective when applied twice daily after cleansing. Allantoin is stable in formulations with a pH between 4 and 8, making it compatible with most skincare routines. It does not increase photosensitivity, so no additional SPF precautions are required. However, avoid combining it with extremely acidic (pH < 3) or alkaline (pH > 9) products, as these may compromise its stability.",
+      fr: "L'allantoïne est généralement utilisée à des concentrations de 0,1% à 2% dans les formulations cosmétiques. Le SCCS considère que 2% est la limite supérieure sûre pour les produits sans rinçage (SCCS/1564/15). Pour apaiser les peaux irritées, des concentrations de 0,5% à 1% sont généralement efficaces, appliquées deux fois par jour après le nettoyage. L'allantoïne est stable dans des formulations avec un pH compris entre 4 et 8, ce qui la rend compatible avec la plupart des routines de soin. Elle n'augmente pas la photosensibilité, donc aucune précaution supplémentaire liée à la protection solaire n'est nécessaire. Évite cependant de la combiner avec des produits très acides (pH < 3) ou alcalins (pH > 9), car cela pourrait compromettre sa stabilité."
+    },
+    interactions: {
+      en: "Allantoin works well with hydrating ingredients like hyaluronic acid and barrier-repairing agents such as ceramides and niacinamide. It can be used alongside retinoids or exfoliating acids (AHAs/BHAs) to help mitigate irritation, but apply allantoin first to maximize its soothing effects. Avoid mixing allantoin with highly acidic products (e.g., vitamin C at pH < 3.5), as this may reduce its stability. If using copper peptides, consider separating applications by at least 30 minutes to avoid potential interactions with allantoin's chelating properties.",
+      fr: "L'allantoïne se combine bien avec des actifs hydratants comme l'acide hyaluronique et des agents réparateurs de la barrière cutanée, tels que les céramides et la niacinamide. Tu peux l'utiliser avec des rétinoïdes ou des acides exfoliants (AHA/BHA) pour atténuer les irritations, mais applique d'abord l'allantoïne pour maximiser ses effets apaisants. Évite de la mélanger avec des produits très acides (comme la vitamine C à pH < 3,5), car cela peut réduire sa stabilité. Si tu utilises des peptides de cuivre, espace les applications d'au moins 30 minutes pour éviter d'éventuelles interactions avec les propriétés chélatrices de l'allantoïne."
+    },
+    mistakes: {
+      en: "One common mistake is using allantoin on open wounds or severe skin breaks without medical advice, as it is not a substitute for antiseptics. Another error is assuming that higher concentrations (e.g., 5%) will provide better results, when 0.5% to 1% is often sufficient for soothing and healing. Finally, users sometimes mix allantoin with incompatible products, such as strong acids or alkalis, which can degrade its effectiveness. Always check product pH or use a pH-balanced toner before application.",
+      fr: "Une erreur fréquente est d'utiliser l'allantoïne sur des plaies ouvertes ou des lésions cutanées sévères sans avis médical, car elle ne remplace pas les antiseptiques. Une autre erreur est de croire que des concentrations plus élevées (par exemple 5%) donneront de meilleurs résultats, alors que 0,5% à 1% suffit souvent pour apaiser et cicatriser. Enfin, certains mélangent l'allantoïne avec des produits incompatibles, comme des acides forts ou des bases, ce qui peut réduire son efficacité. Vérifie toujours le pH du produit ou utilise un tonique équilibré avant application."
+    },
+    faq: [
+      {
+        question: {
+          en: "Is allantoin safe for acne-prone skin?",
+          fr: "L'allantoïne est-elle sûre pour les peaux acnéiques ?"
+        },
+        answer: {
+          en: "Yes, allantoin is non-comedogenic and generally safe for acne-prone skin. It helps reduce inflammation and supports healing without clogging pores. However, opt for lightweight, non-greasy formulations like gels or serums to avoid occluding the skin. Concentrations of 0.5% to 1% are typically effective for soothing acne-related irritation.",
+          fr: "Oui, l'allantoïne est non comédogène et généralement sûre pour les peaux acnéiques. Elle aide à réduire l'inflammation et favorise la cicatrisation sans obstruer les pores. Préfère cependant des formulations légères et non grasses, comme des gels ou sérums, pour éviter d'étouffer la peau. Des concentrations de 0,5% à 1% sont généralement efficaces pour apaiser les irritations liées à l'acné."
+        }
+      },
+      {
+        question: {
+          en: "Can I use allantoin with retinol?",
+          fr: "Puis-je utiliser l'allantoïne avec du rétinol ?"
+        },
+        answer: {
+          en: "Yes, allantoin can be used with retinol to help reduce irritation. Apply allantoin first to soothe the skin, wait 10-15 minutes, then apply retinol. This combination is particularly useful for sensitive skin or during the initial phase of retinol use. Start with low retinol concentrations (0.25% to 0.5%) to minimize potential irritation.",
+          fr: "Oui, tu peux utiliser l'allantoïne avec du rétinol pour atténuer les irritations. Applique d'abord l'allantoïne pour apaiser la peau, attends 10 à 15 minutes, puis applique le rétinol. Cette combinaison est particulièrement utile pour les peaux sensibles ou pendant la phase d'adaptation au rétinol. Commence avec de faibles concentrations de rétinol (0,25% à 0,5%) pour minimiser les irritations potentielles."
+        }
+      },
+      {
+        question: {
+          en: "Does allantoin expire or degrade over time?",
+          fr: "L'allantoïne se dégrade-t-elle ou expire-t-elle avec le temps ?"
+        },
+        answer: {
+          en: "Allantoin is stable for 2-3 years in unopened products when stored in a cool, dry place. Once opened, use the product within 12 months for optimal efficacy. Signs of degradation include changes in texture, color, or odor. Avoid exposing products to extreme temperatures or direct sunlight, as these can accelerate breakdown. Always check the PAO (Period After Opening) symbol on the packaging for guidance.",
+          fr: "L'allantoïne est stable pendant 2 à 3 ans dans les produits non ouverts, conservés dans un endroit frais et sec. Une fois ouverts, utilise le produit dans les 12 mois pour une efficacité optimale. Les signes de dégradation incluent des changements de texture, de couleur ou d'odeur. Évite d'exposer les produits à des températures extrêmes ou à la lumière directe du soleil, car cela peut accélérer la dégradation. Vérifie toujours le symbole PAO (Période Après Ouverture) sur l'emballage pour plus d'informations."
+        }
+      }
+    ],
+    sources: [
+      {
+        label: "Araújo et al. Effect of allantoin on wound healing in rats. Acta Cirúrgica Brasileira 2010",
+        url: "https://pubmed.ncbi.nlm.nih.gov/20676460/"
+      },
+      {
+        label: "Kim et al. Anti-inflammatory effects of allantoin in UVB-irradiated keratinocytes. International Journal of Molecular Sciences 2015",
+        url: "https://pubmed.ncbi.nlm.nih.gov/26378537/"
+      },
+      {
+        label: "SCCS. Opinion on allantoin. SCCS/1564/15 2016",
+        url: "https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/sccs_o_199.pdf"
+      },
+      {
+        label: "Verdier-Sévrain et al. Skin hydration: a review on its molecular mechanisms. Journal of Cosmetic Dermatology 2007",
+        url: "https://pubmed.ncbi.nlm.nih.gov/17524122/"
+      },
+      {
+        label: "DermNet NZ. Allantoin. DermNet NZ 2023",
+        url: "https://dermnetnz.org/topics/allantoin"
+      }
+    ]
+  },
 
 ];
 
