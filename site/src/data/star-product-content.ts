@@ -934,6 +934,79 @@ export const starProductContent: StarProductContent[] = [
       }
     ]
   },
+  {
+    id: "cerave-foaming-facial-cleanser",
+    editorialReview: {
+      en: "CeraVe Acne Foaming Cream Cleanser earns a B (73/100) for its targeted approach to oily and acne-prone skin. The formula centers on 4% benzoyl peroxide, an FDA-approved ingredient proven to reduce P. acnes bacteria and unclog pores at this concentration. Ceramides NP, AP, and EOP (undisclosed levels) support barrier repair, while niacinamide, likely at a low dose, offers mild anti-inflammatory benefits. The surfactant base (sodium lauroyl sarcosinate, cocamidopropyl betaine) is gentle enough for daily use but may strip skin if overused. Verdict: a science-backed option for acne-prone users who tolerate benzoyl peroxide, but not a fit for dry or sensitive skin.",
+      fr: "Le nettoyant moussant anti-acné CeraVe obtient un B (73/100) pour son action ciblée sur les peaux grasses et acnéiques. Sa formule repose sur 4% de peroxyde de benzoyle, un actif approuvé par la FDA qui réduit les bactéries P. acnes et débouche les pores à cette concentration. Les céramides NP, AP et EOP (dosage non divulgué) aident à restaurer la barrière cutanée, tandis que la niacinamide, probablement à faible dose, apporte un effet anti-inflammatoire léger. La base lavante (sodium lauroyl sarcosinate, cocamidopropyl betaine) est assez douce pour un usage quotidien, mais peut dessécher si tu en abuses. Verdict: un choix étayé scientifiquement pour les peaux acnéiques tolérantes au benzoyle, mais pas adapté aux peaux sèches ou sensibles."
+    },
+    howToUse: {
+      en: "Use once or twice daily, morning and/or evening. Wet your face with lukewarm water, apply a dime-sized amount, and massage gently for 20-30 seconds, avoiding scrubbing. Rinse thoroughly and pat dry. The foaming texture is lightweight but may leave a tight feeling on dry skin; follow with a moisturizer if needed. Note: benzoyl peroxide can bleach fabrics, so rinse your hands and use a dedicated towel after application. Not ideal for removing heavy makeup; pair with a micellar water or balm if needed.",
+      fr: "Utilise-le une à deux fois par jour, matin et/ou soir. Mouille ton visage à l'eau tiède, applique une noisette de produit et masse délicatement pendant 20-30 secondes, sans frotter. Rince abondamment et tapote pour sécher. La texture moussante est légère, mais peut laisser une sensation de tiraillement si ta peau est sèche; applique une crème hydratante après si nécessaire. Attention: le peroxyde de benzoyle peut décolorer les tissus, rince-toi bien les mains et utilise une serviette dédiée. Pas efficace pour enlever le maquillage tenace; associe-le à une eau micellaire ou un baume démaquillant si besoin."
+    },
+    whoIsItFor: {
+      en: "Best for oily, combination, or acne-prone skin that tolerates benzoyl peroxide. The 4% concentration effectively targets breakouts without the irritation of higher doses. Not ideal for dry, sensitive, or eczema-prone skin, ceramide content helps but may not offset drying effects. Rosacea sufferers should patch-test first, as benzoyl peroxide can trigger flare-ups.",
+      fr: "Idéal pour les peaux grasses, mixtes ou sujettes à l'acné qui tolèrent le peroxyde de benzoyle. La concentration à 4% cible efficacement les boutons sans irriter comme les doses plus élevées. À éviter si ta peau est sèche, sensible ou sujette à l'eczéma, les céramides aident, mais ne compensent pas toujours l'effet desséchant. Les peaux rosacées doivent faire un test cutané d'abord, car le benzoyle peut provoquer des poussées."
+    },
+    whatToExpect: {
+      en: "Week 1: Skin may feel tighter or slightly dry as it adjusts to benzoyl peroxide. Breakouts can temporarily worsen (purging) as pores clear. Week 4: Visible reduction in inflammatory acne (red bumps, pustules) if used consistently. Week 12: Fewer new breakouts, but blackheads and closed comedones may persist. Consider pairing with a salicylic acid product for stubborn congestion. Results vary; some see improvement in 2 weeks, others need 6-8. Not a cure for hormonal or cystic acne.",
+      fr: "Semaine 1: Ta peau peut sembler plus tendue ou légèrement sèche en s'adaptant au peroxyde de benzoyle. Les boutons peuvent empirer temporairement (purge) pendant que les pores se nettoient. Semaine 4: Réduction visible de l'acné inflammatoire (boutons rouges, pustules) si tu es régulier. Semaine 12: Moins de nouvelles éruptions, mais les points noirs et comédons fermés peuvent persister. Envisage un produit à l'acide salicylique pour les imperfections tenaces. Les résultats varient: certains voient une amélioration en 2 semaines, d'autres ont besoin de 6-8. Pas une solution pour l'acné hormonale ou kystique."
+    },
+    commonMistakes: {
+      en: "Leaving it on too long. Benzoyl peroxide works on contact, no need to let it sit like a mask. Over-cleansing can disrupt your skin barrier, leading to more oil production and irritation.\n\nUsing it as a spot treatment. This is a cleanser, not a leave-on treatment. Applying it only to pimples wastes product and can cause uneven dryness.\n\nSkipping moisturizer. Even oily skin needs hydration. Benzoyl peroxide dries out the surface, so follow with a lightweight, non-comedogenic moisturizer to prevent rebound oiliness.",
+      fr: "Le laisser poser trop longtemps. Le peroxyde de benzoyle agit au contact, pas besoin de l'appliquer comme un masque. Un nettoyage excessif peut abîmer ta barrière cutanée, provoquant plus de sébum et d'irritation.\n\nL'utiliser en traitement local. C'est un nettoyant, pas un soin à laisser poser. L'appliquer seulement sur les boutons gaspille le produit et peut dessécher de façon inégale.\n\nZapper la crème hydratante. Même les peaux grasses ont besoin d'hydratation. Le benzoyle assèche la surface, alors suis avec une crème légère et non comédogène pour éviter l'effet rebond."
+    },
+    faq: [
+      {
+        question: {
+          en: "Can I use this with retinoids or exfoliating acids?",
+          fr: "Puis-je l'utiliser avec des rétinoïdes ou des acides exfoliants?"
+        },
+        answer: {
+          en: "Yes, but space them out. Use the cleanser in the morning and retinoids/acids at night to avoid over-drying. Benzoyl peroxide can deactivate some retinoids, like tretinoin, if applied simultaneously, so wait 30 minutes between steps. Start with alternate days to gauge tolerance.",
+          fr: "Oui, mais espace les applications. Utilise le nettoyant le matin et les rétinoïdes/acides le soir pour éviter le dessèchement. Le peroxyde de benzoyle peut désactiver certains rétinoïdes, comme la trétinoïne, s'ils sont appliqués en même temps, alors attends 30 minutes entre les deux. Commence par des jours alternés pour tester ta tolérance."
+        }
+      },
+      {
+        question: {
+          en: "Will this bleach my towels or pillowcases?",
+          fr: "Est-ce que ça va décolorer mes serviettes ou mes taies d'oreiller?"
+        },
+        answer: {
+          en: "Yes, benzoyl peroxide is a bleaching agent. Rinse your face and hands thoroughly after use, and opt for white towels or dark fabrics to minimize visible stains. Consider using disposable cotton pads for drying if staining is a concern.",
+          fr: "Oui, le peroxyde de benzoyle décolore. Rince bien ton visage et tes mains après utilisation, et choisis des serviettes blanches ou des tissus foncés pour limiter les traces. Si ça t'inquiète, utilise des cotons jetables pour te sécher."
+        }
+      },
+      {
+        question: {
+          en: "Is this safe for fungal acne (malassezia)?",
+          fr: "Est-ce que c'est adapté à l'acné fongique (malassezia)?"
+        },
+        answer: {
+          en: "No. Benzoyl peroxide targets bacterial acne, not fungal overgrowth. This cleanser contains fatty acids (like caprylic/capric triglyceride) that can feed malassezia, worsening fungal acne. Opt for a zinc pyrithione or ketoconazole-based cleanser instead.",
+          fr: "Non. Le peroxyde de benzoyle cible l'acné bactérienne, pas la prolifération fongique. Ce nettoyant contient des acides gras (comme les triglycérides caprylique/caprique) qui peuvent nourrir le malassezia et aggraver l'acné fongique. Préfère un nettoyant à la pyrithione de zinc ou au kétoconazole."
+        }
+      }
+    ],
+    vsCompetitors: [
+      {
+        competitorId: "la-roche-posay-toleriane-hydrating-gentle-cleanser",
+        competitorName: "La Roche-Posay Toleriane Hydrating Gentle Cleanser",
+        verdict: {
+          en: "La Roche-Posay's A-rated cleanser (88/100) is the better choice for dry or sensitive skin. It skips benzoyl peroxide in favor of glycerin and niacinamide, making it far less stripping. However, if acne is your primary concern, CeraVe's 4% benzoyl peroxide offers stronger antibacterial action, just expect more dryness. Pick Toleriane for comfort, CeraVe for breakouts.",
+          fr: "Le nettoyant Toleriane de La Roche-Posay (note A, 88/100) est bien plus adapté aux peaux sèches ou sensibles. Il mise sur la glycérine et la niacinamide, sans peroxyde de benzoyle, donc beaucoup moins desséchant. En revanche, si ton problème principal est l'acné, le benzoyle à 4% de CeraVe a une action antibactérienne plus forte, mais attends-toi à plus de sécheresse. Choisis Toleriane pour le confort, CeraVe pour les boutons."
+        }
+      },
+      {
+        competitorId: "the-ordinary-squalane-cleanser",
+        competitorName: "The Ordinary Squalane Cleanser",
+        verdict: {
+          en: "The Ordinary's A-rated balm (85/100) is a gentler, makeup-friendly alternative. Its squalane base dissolves impurities without surfactants, making it ideal for dry or reactive skin. However, it lacks active ingredients like benzoyl peroxide, so it won't treat acne as effectively. Use CeraVe for acne control, The Ordinary for a soothing, hydrating cleanse.",
+          fr: "Le baume nettoyant de The Ordinary (note A, 85/100) est une alternative plus douce et adaptée au démaquillage. Sa base de squalane dissout les impuretés sans tensioactifs, parfait pour les peaux sèches ou réactives. Mais il ne contient pas d'actifs comme le peroxyde de benzoyle, donc moins efficace contre l'acné. Utilise CeraVe pour contrôler les boutons, The Ordinary pour un nettoyage apaisant et hydratant."
+        }
+      }
+    ]
+  },
 
 ];
 
