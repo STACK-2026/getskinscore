@@ -1,12 +1,6 @@
 import { siteConfig } from "../../site.config";
 
-export function fontsUrl(): string {
-  const families = [
-    `family=${siteConfig.fonts.display.replace(/ /g, "+")}:wght@400;500;600;700;800`,
-    `family=${siteConfig.fonts.body.replace(/ /g, "+")}:wght@400;500;600;700`,
-  ];
-  return `https://fonts.googleapis.com/css2?${families.join("&")}&display=swap`;
-}
+// fontsUrl() removed: fonts are now self-hosted via @fontsource (see BaseLayout.astro imports)
 
 export function fullUrl(path: string): string {
   const base = siteConfig.url.replace(/\/$/, "");

@@ -1,6 +1,6 @@
 ---
 title: "Guide complet The Ordinary : chaque produit classé et noté"
-description: "Le guide The Ordinary qui classe chaque produit majeur par formulation, preuve scientifique et profil de peau. Meilleurs achats, faux pas, conflits et routine type."
+description: "Guide The Ordinary : chaque produit majeur classé par formulation, preuve scientifique, profil peau. Meilleurs achats, faux pas, routine type."
 date: 2026-05-19T07:11:00+02:00
 author: "marc-severin"
 category: "guides"
