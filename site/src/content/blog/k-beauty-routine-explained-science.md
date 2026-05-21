@@ -1,6 +1,6 @@
 ---
 title: "K-beauty Routine Explained: What Science Actually Supports"
-description: "A dermato-cosmetic deep dive into the K-beauty routine: the 4 essential steps backed by science, the 6 optional ones, the real ingredient evidence, and how to build your own."
+description: "Dermato-cosmetic deep dive into the K-beauty routine: 4 essential steps backed by science, 6 optional layers, and how to build your own."
 date: 2026-05-21T07:11:00+02:00
 author: "lina-park"
 category: "routines"
