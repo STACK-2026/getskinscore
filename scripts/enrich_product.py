@@ -16,6 +16,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from enrich_common import (  # noqa: E402
+    ClaudeUnavailableError,
     claude_audit,
     commit_path_to_ts,
     extract_json,
@@ -265,4 +266,8 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
-    sys.exit(run(dry_run=args.dry_run))
+    try:
+        sys.exit(run(dry_run=args.dry_run))
+    except ClaudeUnavailableError as e:
+        log.warning("Claude unavailable, skipping enrichment cleanly: %s", e)
+        sys.exit(0)

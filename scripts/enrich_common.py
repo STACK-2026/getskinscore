@@ -48,7 +48,7 @@ log = logging.getLogger("enrich")
 
 def mistral_call(system: str, user: str, *, temperature: float = 0.3, max_tokens: int = 8000, retries: int = 3) -> str:
     if not MISTRAL_API_KEY:
-        raise RuntimeError("MISTRAL_API_KEY missing")
+        raise ClaudeUnavailableError("MISTRAL_API_KEY missing")
     payload = {
         "model": MISTRAL_LARGE,
         "messages": [
@@ -75,18 +75,30 @@ def mistral_call(system: str, user: str, *, temperature: float = 0.3, max_tokens
                 log.warning("Mistral %s, retry %ss", r.status_code, wait)
                 time.sleep(wait)
                 continue
+            if r.status_code in (401, 402, 403):
+                body = r.text[:300] if r.text else ""
+                log.warning("Mistral %s body: %s", r.status_code, body)
+                raise ClaudeUnavailableError(f"Mistral {r.status_code}: {body[:200]}")
             r.raise_for_status()
             return r.json()["choices"][0]["message"]["content"]
+        except ClaudeUnavailableError:
+            raise
         except Exception as e:  # noqa: BLE001
             last = e
             log.warning("Mistral attempt %s failed: %s", attempt + 1, e)
             time.sleep(3)
-    raise last or RuntimeError("Mistral failed")
+    raise last or ClaudeUnavailableError("Mistral failed after retries")
+
+
+class ClaudeUnavailableError(RuntimeError):
+    """Raised when Claude API is unavailable for a reason that should NOT fail the CI
+    (credit balance exhausted, rate limit after retries, etc.). Caller can decide
+    to skip gracefully (exit 0) instead of crashing the workflow."""
 
 
 def claude_audit(system: str, user: str, *, max_tokens: int = 1500, retries: int = 3) -> str:
     if not ANTHROPIC_API_KEY:
-        raise RuntimeError("ANTHROPIC_API_KEY missing")
+        raise ClaudeUnavailableError("ANTHROPIC_API_KEY missing")
     payload = {
         "model": CLAUDE_SONNET,
         "max_tokens": max_tokens,
@@ -111,14 +123,23 @@ def claude_audit(system: str, user: str, *, max_tokens: int = 1500, retries: int
                 log.warning("Claude %s, retry %ss", r.status_code, wait)
                 time.sleep(wait)
                 continue
+            if r.status_code == 400:
+                body = r.text[:500] if r.text else ""
+                log.warning("Claude 400 body: %s", body)
+                if "credit balance" in body.lower() or "low" in body.lower():
+                    raise ClaudeUnavailableError(f"credit balance exhausted: {body[:200]}")
+                # Other 400 (malformed prompt etc.): also unavailable for this run
+                raise ClaudeUnavailableError(f"Claude 400: {body[:200]}")
             r.raise_for_status()
             blocks = r.json().get("content", [])
             return "".join(b.get("text", "") for b in blocks)
+        except ClaudeUnavailableError:
+            raise  # propagate immediately, do not retry credit errors
         except Exception as e:  # noqa: BLE001
             last = e
             log.warning("Claude attempt %s failed: %s", attempt + 1, e)
             time.sleep(5)
-    raise last or RuntimeError("Claude audit failed")
+    raise last or ClaudeUnavailableError("Claude audit failed after retries")
 
 
 def extract_json(text: str) -> dict:
