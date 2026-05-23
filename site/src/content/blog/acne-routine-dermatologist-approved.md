@@ -1,6 +1,6 @@
 ---
 title: "Acne Skincare Routine: Dermatologist-Approved Products Ranked"
-description: "A complete acne skincare routine that actually works. Dermatologist-approved AM and PM steps, ingredient picks by acne type, and the products ranked A by SkinScore."
+description: "A complete acne skincare routine that works. Dermatologist-approved AM and PM steps, ingredient picks by acne type, and the products ranked A by SkinScore."
 date: 2026-05-22T07:11:00+02:00
 author: "dr-sarah-chen"
 category: "routines"

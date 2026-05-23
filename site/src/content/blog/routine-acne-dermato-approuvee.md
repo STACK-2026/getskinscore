@@ -1,6 +1,6 @@
 ---
 title: "Routine acné : les produits approuvés par les dermatologues, classés"
-description: "La routine acné qui marche vraiment : 4 étapes validées par les dermatos, les actifs à choisir selon ton type d'acné, et les produits notés A par SkinScore."
+description: "La routine acné qui marche : 4 étapes validées par les dermatos, les actifs à choisir selon ton type d'acné, et les produits notés A par SkinScore."
 date: 2026-05-23T07:11:00+02:00
 author: "Dr. Sarah Chen"
 category: "routines"
