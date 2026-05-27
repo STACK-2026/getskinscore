@@ -21,7 +21,7 @@ speakable: "Salicylic acid is the best first move for blackheads, whiteheads and
 
 > **TL;DR**: Pick **salicylic acid (BHA)** for clogged pores and oily skin, **benzoyl peroxide** for red, inflamed pimples. You can combine them safely by using salicylic acid in the morning and benzoyl peroxide at night, or by alternating days. Never stack either one with retinol the same evening. Always finish with SPF 30+, because both actives increase photosensitivity.
 
-Acne treatment guidelines from the [American Academy of Dermatology](https://www.aad.org/public/diseases/acne/diy/over-the-counter) and the [European Academy of Dermatology and Venereology](https://eadv.org/patient-corner/leaflets/) agree on one thing: there is no single best topical for everyone. Choosing between salicylic acid and benzoyl peroxide depends on your acne type, your skin sensitivity, and the rest of your routine. This guide walks through both ingredients with peer-reviewed evidence, then shows how to use them together without wrecking your barrier. Every product reference is graded on [SkinScore](/rankings).
+Acne treatment guidelines from the American Academy of Dermatology and the European Academy of Dermatology and Venereology agree on one thing: there is no single best topical for everyone. Choosing between salicylic acid and benzoyl peroxide depends on your acne type, your skin sensitivity, and the rest of your routine. This guide walks through both ingredients with peer-reviewed evidence, then shows how to use them together without wrecking your barrier. Every product reference is graded on [SkinScore](/rankings).
 
 ## The quick answer (comparison table)
 
@@ -125,7 +125,7 @@ Both ingredients dry the skin. The difference is intensity. Salicylic acid is ge
 1. **Buffer with moisturiser.** A ceramide and glycerin moisturiser applied 5 minutes after the active reduces dryness without reducing efficacy. CeraVe Moisturising Cream is the workhorse here.
 2. **Reduce frequency before reducing concentration.** If irritation appears, drop from daily to every other day before lowering the percentage.
 3. **Skip the active on shaved, broken or sunburned skin.** Wait at least 48 hours after any aggressive treatment.
-4. **Wear SPF 30+ daily.** Both actives are photosensitisers. [Inserm dermatology guidance](https://www.inserm.fr/dossier/peau/) on acne explicitly notes the need for daily sun protection during topical treatment.
+4. **Wear SPF 30+ daily.** Both actives are photosensitisers. Inserm dermatology guidance on acne explicitly notes the need for daily sun protection during topical treatment.
 
 Watch for signs of overuse: tightness right after cleansing, stinging when applying moisturiser, sudden flaking, or a sensation of warmth lasting more than 30 minutes. Any of those means pause for 3 to 5 days, reset with bland moisturiser, then restart at lower frequency.
 
@@ -193,7 +193,7 @@ Adapalene 0.1% gel is over-the-counter in many countries and is a topical retino
 
 7. Haute Autorité de Santé. "Prise en charge de l'acné." [HAS](https://www.has-sante.fr/)
 
-8. Inserm. "Dossier d'information: peau et dermatologie." [Inserm](https://www.inserm.fr/dossier/peau/)
+8. Inserm. "Dossier d'information: peau et dermatologie." Inserm
 
 <!-- maillage:auto -->
 ## For further reading

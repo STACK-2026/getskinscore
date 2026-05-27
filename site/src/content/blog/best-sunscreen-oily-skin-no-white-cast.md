@@ -33,7 +33,7 @@ The good news is that 2026 formulation chemistry has solved most of these proble
 
 ## Decoding sunscreen labels for oily skin
 
-The terms "oil free", "non-comedogenic" and "matte finish" appear on most modern sunscreens, but they are marketing claims without unified regulatory backing in either the United States or the European Union. The [American Academy of Dermatology](https://www.aad.org/public/everyday-care/sun-protection/shade/how-to-select-sunscreen) recommends focusing on the actual ingredient list rather than front of pack badges.
+The terms "oil free", "non-comedogenic" and "matte finish" appear on most modern sunscreens, but they are marketing claims without unified regulatory backing in either the United States or the European Union. The American Academy of Dermatology recommends focusing on the actual ingredient list rather than front of pack badges.
 
 Three label cues actually matter for oily skin:
 
@@ -51,7 +51,7 @@ The mineral versus chemical debate is the most common question in dermatology fo
 
 **Chemical filters** absorb UV and convert it to heat. Modern photostable filters used in Europe and Asia (Tinosorb S, Tinosorb M, Uvinul A Plus, Mexoryl 400) deliver high SPF and high UVA protection in a fluid texture, with no white cast. The trade off is that they require photostabilization and a thin application layer of about two minutes before sun exposure.
 
-**Hybrid formulas** combine micronized zinc oxide with a chemical UVA booster. They are often the best compromise for oily skin: matte enough to wear under makeup, photostable enough for outdoor activity, and visually invisible if tinted. The [Inserm](https://www.inserm.fr/dossier/cancers-de-la-peau/) review on skin cancer prevention emphasizes that the best sunscreen is the one you will actually apply daily, which makes texture acceptability a public health concern.
+**Hybrid formulas** combine micronized zinc oxide with a chemical UVA booster. They are often the best compromise for oily skin: matte enough to wear under makeup, photostable enough for outdoor activity, and visually invisible if tinted. The Inserm review on skin cancer prevention emphasizes that the best sunscreen is the one you will actually apply daily, which makes texture acceptability a public health concern.
 
 ## Key ingredients to look for
 

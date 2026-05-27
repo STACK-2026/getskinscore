@@ -31,7 +31,7 @@ Skin is a barrier. That is its entire job. The stratum corneum is built to keep 
 
 **pH interference.** Several high-performance ingredients are pH-dependent. L-ascorbic acid, the active form of vitamin C, requires a skin surface pH near 3.5 to remain stable and to penetrate effectively, as confirmed by a 2017 review in [Nutrients](https://pubmed.ncbi.nlm.nih.gov/28805671/). Apply it over a neutralising moisturiser and you have shifted the pH before it touches your face.
 
-The [American Academy of Dermatology](https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-routine) and the [European Academy of Dermatology and Venereology](https://www.eadv.org/) both stress that sequencing is a foundational skill, not a fashion choice. Sequence first, hero ingredients second.
+The American Academy of Dermatology and the [European Academy of Dermatology and Venereology](https://www.eadv.org/) both stress that sequencing is a foundational skill, not a fashion choice. Sequence first, hero ingredients second.
 
 ---
 
@@ -67,7 +67,7 @@ The morning routine has one purpose: protection. You are preparing skin for UV r
 
 **Step 5: Moisturiser.** Even oily skin needs this. Humectants pull water in, emollients smooth, occlusives seal. Lighter gel-creams sit better under SPF. For brand-versus-brand context, see our [CeraVe vs Cetaphil comparison](/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/).
 
-**Step 6: SPF, non-negotiable.** Minimum SPF 30, ideally SPF 50, applied as the final morning step every day, including overcast and indoor-window days. The [ANSM](https://ansm.sante.fr/) and [Inserm](https://www.inserm.fr/dossier/peau/) both classify daily broad-spectrum SPF as the single most evidence-based anti-ageing measure available. Apply roughly 1.5 ml on the face. Do not premix it into your moisturiser, the film must remain intact to function.
+**Step 6: SPF, non-negotiable.** Minimum SPF 30, ideally SPF 50, applied as the final morning step every day, including overcast and indoor-window days. The [ANSM](https://ansm.sante.fr/) and Inserm both classify daily broad-spectrum SPF as the single most evidence-based anti-ageing measure available. Apply roughly 1.5 ml on the face. Do not premix it into your moisturiser, the film must remain intact to function.
 
 ---
 
@@ -180,9 +180,9 @@ No. The sequence and the science are identical. Skin biology does not vary meani
 
 1. Pullar, J.M., Carr, A.C., Vissers, M.C.M. (2017). "The Roles of Vitamin C in Skin Health." *Nutrients*, 9(8), 866. [pubmed.ncbi.nlm.nih.gov/28805671](https://pubmed.ncbi.nlm.nih.gov/28805671/)
 2. Lin, F.H., et al. (2005). "Ferulic acid stabilizes a solution of vitamins C and E and doubles its photoprotection of skin." *Journal of Investigative Dermatology*, 125(4), 826-832. [pubmed.ncbi.nlm.nih.gov/16185284](https://pubmed.ncbi.nlm.nih.gov/16185284/)
-3. American Academy of Dermatology. "Skin care basics and routines." [aad.org](https://www.aad.org/public/everyday-care/skin-care-basics/care/skin-care-routine)
+3. American Academy of Dermatology. "Skin care basics and routines." aad.org
 4. European Academy of Dermatology and Venereology, public guidance. [eadv.org](https://www.eadv.org/)
-5. Inserm, dossier peau. [inserm.fr](https://www.inserm.fr/dossier/peau/)
+5. Inserm, dossier peau. inserm.fr
 6. ANSM, cosmetic safety and surveillance. [ansm.sante.fr](https://ansm.sante.fr/)
 7. Haute Autorite de Sante, dermatology recommendations. [has-sante.fr](https://www.has-sante.fr/)
 

@@ -65,7 +65,7 @@ Le packaging compte autant que la formule. Le rétinol est photosensible et s'ox
 
 L'hydratation est non négociable. Applique systématiquement une crème à céramides et acide hyaluronique par-dessus le rétinol. La technique du "sandwich" (crème, rétinol, crème) est validée par les dermatologues pour les peaux réactives et réduit drastiquement l'inconfort de rétinisation.
 
-Le matin, SPF 30 à 50 à large spectre, deux mg/cm² (l'équivalent d'une cuillère à café pour visage et cou). Cette quantité est rappelée par toutes les recommandations dermatologiques, dont celles de l'[Inserm sur le vieillissement cutané](https://www.inserm.fr/dossier/peau/).
+Le matin, SPF 30 à 50 à large spectre, deux mg/cm² (l'équivalent d'une cuillère à café pour visage et cou). Cette quantité est rappelée par toutes les recommandations dermatologiques, dont celles de l'Inserm sur le vieillissement cutané.
 
 ## Les cinq erreurs qui sabotent 90% des débutants
 
@@ -166,7 +166,7 @@ Oui. Arrête le rétinol au moins une semaine avant un peeling chimique léger, 
 1. [American Academy of Dermatology : retinoid versus retinol](https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol)
 2. [Kong R. et al. (2016). A comparative study of the effects of retinol and retinoic acid. Journal of Cosmetic Dermatology](https://pubmed.ncbi.nlm.nih.gov/25732599/)
 3. [Dhaliwal S. et al. (2019). Topical bakuchiol and retinol for facial photoageing. British Journal of Dermatology](https://pubmed.ncbi.nlm.nih.gov/30121448/)
-4. [Inserm : dossier peau et vieillissement cutané](https://www.inserm.fr/dossier/peau/)
+4. Inserm : dossier peau et vieillissement cutané
 5. [ANSM : agence nationale de sécurité du médicament et des produits de santé](https://ansm.sante.fr/)
 6. [Société Française de Dermatologie : dermato-info.fr](https://dermato-info.fr/fr/le-vieillissement-cutan%C3%A9)
 7. [European Academy of Dermatology and Venereology](https://eadv.org/)

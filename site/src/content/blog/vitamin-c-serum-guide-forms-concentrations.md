@@ -21,7 +21,7 @@ A good **vitamin C serum** can brighten dull skin, fade pigmentation, and multip
 
 > **TL;DR**: The gold standard is **L-ascorbic acid** at 10 to 20 percent, pH below 3.5, paired with vitamin E and ferulic acid. For sensitive skin or those new to actives, derivatives like sodium ascorbyl phosphate or tetrahexyldecyl ascorbate are gentler at higher pH and stay stable longer. Use in the morning under SPF for maximum photoprotection benefit.
 
-Vitamin C is one of the few ingredients with consistent peer-reviewed evidence for brightening, collagen support, and antioxidant defence. Guidelines from the [American Academy of Dermatology](https://www.aad.org/public/everyday-care/skin-care-basics/care/antioxidants-explained) and recommendations published by the [European Academy of Dermatology and Venereology](https://eadv.org/) place topical vitamin C among the core photoaging ingredients. But efficacy collapses if the formula is wrong. Every product reference in this guide is graded on [SkinScore](/rankings).
+Vitamin C is one of the few ingredients with consistent peer-reviewed evidence for brightening, collagen support, and antioxidant defence. Guidelines from the American Academy of Dermatology and recommendations published by the [European Academy of Dermatology and Venereology](https://eadv.org/) place topical vitamin C among the core photoaging ingredients. But efficacy collapses if the formula is wrong. Every product reference in this guide is graded on [SkinScore](/rankings).
 
 ## What vitamin C actually does on the skin
 
@@ -125,7 +125,7 @@ L-ascorbic acid at low pH can cause:
 - **Yellow staining** on white pillowcases and towels if the serum oxidises overnight. Use a coloured pillowcase during the adjustment phase.
 - **Irritant contact dermatitis** in 1 to 3 percent of users, mostly on already compromised barriers. Stop and rebuild with the [barrier repair routine](/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/).
 
-Pregnancy: topical L-ascorbic acid is generally considered safe by most obstetric and dermatology bodies. Always confirm with your obstetrician. The French [ANSM](https://ansm.sante.fr/) and the [Inserm dermatology dossier](https://www.inserm.fr/dossier/peau/) list ascorbic acid among the better tolerated cosmetic actives during pregnancy at standard concentrations.
+Pregnancy: topical L-ascorbic acid is generally considered safe by most obstetric and dermatology bodies. Always confirm with your obstetrician. The French [ANSM](https://ansm.sante.fr/) and the Inserm dermatology dossier list ascorbic acid among the better tolerated cosmetic actives during pregnancy at standard concentrations.
 
 If a serum suddenly stings more than usual or feels different, check the colour. A browned formula is no longer therapeutic and should be replaced.
 
@@ -160,13 +160,13 @@ Topical vitamin C in standard cosmetic concentrations is generally considered sa
 
 3. Telang, P.S. (2013). "Vitamin C in dermatology." *Indian Dermatology Online Journal*, 4(2), 143-146. [PubMed](https://pubmed.ncbi.nlm.nih.gov/23741676/)
 
-4. American Academy of Dermatology. "Antioxidants in skin care." [AAD](https://www.aad.org/public/everyday-care/skin-care-basics/care/antioxidants-explained)
+4. American Academy of Dermatology. "Antioxidants in skin care." AAD
 
 5. ANSM. "Recommandations sur les ingredients cosmetiques." [ANSM](https://ansm.sante.fr/)
 
 6. Haute Autorite de Sante. "Bon usage des produits cosmetiques." [HAS](https://www.has-sante.fr/)
 
-7. Inserm. "Dossier d'information: peau et dermatologie." [Inserm](https://www.inserm.fr/dossier/peau/)
+7. Inserm. "Dossier d'information: peau et dermatologie." Inserm
 
 <!-- maillage:auto -->
 ## For further reading

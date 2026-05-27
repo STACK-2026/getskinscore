@@ -107,7 +107,7 @@ Mineral Oil et Paraffinum Liquidum affichent des scores de 0 à 2 selon le grade
 
 ### Mythe 4 : "Un produit non-comédogène est forcément safe"
 
-La mention "non-comédogène" n'est encadrée par aucune législation européenne ni américaine. N'importe quelle marque peut l'apposer sans test clinique. Le [Règlement (CE) n°1223/2009](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=celex%3A32009R1223) ne définit pas ce terme. L'[ANSM](https://ansm.sante.fr/dossiers-thematiques/cosmetiques) confirme que la surveillance porte sur la sécurité globale, pas sur la fiabilité des allégations marketing.
+La mention "non-comédogène" n'est encadrée par aucune législation européenne ni américaine. N'importe quelle marque peut l'apposer sans test clinique. Le [Règlement (CE) n°1223/2009](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=celex%3A32009R1223) ne définit pas ce terme. L'ANSM confirme que la surveillance porte sur la sécurité globale, pas sur la fiabilité des allégations marketing.
 
 ### Mythe 5 : "Toute huile végétale finit par boucher les pores"
 
@@ -157,7 +157,7 @@ Le combo le plus difficile à gérer : les hydratants puissants (lanoline, huile
 
 ### Peau sensible
 
-Réduis le nombre d'étapes, évite parfums et huiles essentielles. L'[Inserm](https://www.inserm.fr/dossier/peau/) rappelle qu'une barrière cutanée fragilisée laisse pénétrer plus facilement les irritants et comédogènes.
+Réduis le nombre d'étapes, évite parfums et huiles essentielles. L'Inserm rappelle qu'une barrière cutanée fragilisée laisse pénétrer plus facilement les irritants et comédogènes.
 
 ---
 
@@ -194,8 +194,8 @@ Si tu dois en retenir un seul : l'isopropyl myristate. Score 4-5, omniprésent d
 1. American Academy of Dermatology, [Acne: causes](https://www.aad.org/public/diseases/acne/causes/acne-causes)
 2. Fulton, J.E. et al. (1984). "Comedogenicity of current therapeutic products, cosmetics, and ingredients in the rabbit ear." *J Am Acad Dermatol*. [PubMed](https://pubmed.ncbi.nlm.nih.gov/6693356/)
 3. Draelos, Z.D., DiNardo, J.C. (2006). "A re-evaluation of the comedogenicity concept." *J Am Acad Dermatol*. [PubMed](https://pubmed.ncbi.nlm.nih.gov/16488318/)
-4. ANSM, [Cosmétiques et surveillance du marché](https://ansm.sante.fr/dossiers-thematiques/cosmetiques)
-5. Inserm, [Peau, structure et pathologies](https://www.inserm.fr/dossier/peau/)
+4. ANSM, Cosmétiques et surveillance du marché
+5. Inserm, Peau, structure et pathologies
 6. EADV, [European Academy of Dermatology and Venereology](https://eadv.org)
 7. Société Française de Dermatologie, [dermato-info.fr](https://dermato-info.fr)
 8. Règlement (CE) n°1223/2009, [EUR-Lex](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=celex%3A32009R1223)

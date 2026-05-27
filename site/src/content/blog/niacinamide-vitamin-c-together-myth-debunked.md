@@ -35,11 +35,11 @@ The myth survived because it served a purpose. Splitting a routine into "vitamin
 
 Three decades of peer-reviewed work back the combination. A 2002 trial by Hakozaki and colleagues, published in the British Journal of Dermatology and indexed on [PubMed](https://pubmed.ncbi.nlm.nih.gov/12100180/), tested 5% niacinamide against vehicle in 120 women over 8 weeks. The niacinamide arm reduced hyperpigmentation by 35-68% depending on lesion type, with no irritation or interaction issues when participants continued their existing vitamin C routine.
 
-A widely cited 2005 review by Bissett, also on [PubMed](https://pubmed.ncbi.nlm.nih.gov/15611420/), pooled niacinamide data on fine lines, hyperpigmentation, and skin yellowing, and explicitly noted compatibility with antioxidant actives including ascorbic acid.
+A widely cited 2005 review by Bissett, also on PubMed, pooled niacinamide data on fine lines, hyperpigmentation, and skin yellowing, and explicitly noted compatibility with antioxidant actives including ascorbic acid.
 
 For vitamin C, the 2017 Pullar and Carr review in Nutrients (also indexed on [PubMed](https://pubmed.ncbi.nlm.nih.gov/28805671/)) summarizes the dermatologic evidence: ascorbic acid below pH 3.5 is the gold standard for tyrosinase inhibition, but stabilized derivatives like sodium ascorbyl phosphate work at pH 6-7, the same range where niacinamide is happiest. Different pH targets used to be the only real argument against mixing, and modern derivatives erase it.
 
-The [American Academy of Dermatology](https://www.aad.org/public/everyday-care/skin-care-basics/skin-care-tips) lists both ingredients as evidence-based picks for at-home brightening routines, and the [European Academy of Dermatology and Venereology](https://www.eadv.org/patient-corner/skin-academy/skincare-basics) treats them as standard tools in pigmentation management. Neither body publishes any warning against co-use.
+The American Academy of Dermatology lists both ingredients as evidence-based picks for at-home brightening routines, and the European Academy of Dermatology and Venereology treats them as standard tools in pigmentation management. Neither body publishes any warning against co-use.
 
 ## How niacinamide and vitamin C work in your skin
 
@@ -121,7 +121,7 @@ The AAD lists vitamin C as a first-line at-home brightener and niacinamide as a 
 
 In daily practice, dermatologists typically prescribe a morning routine of vitamin C serum followed by niacinamide-containing moisturizer (CeraVe PM, La Roche-Posay Effaclar Duo+, and similar formulas all carry niacinamide at 4-5%). For dedicated brightening regimens, they may add a second niacinamide serum at 10% in the evening. For product comparisons in this category, our [CeraVe vs Cetaphil moisturizer review](/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/) breaks down the niacinamide content in each.
 
-For French readers looking for guidance from a public health source, [Dermato-Info](https://dermato-info.fr/article/cosmetiques) maintains current dermatologic recommendations on cosmetic actives, and [Inserm](https://www.inserm.fr/dossier/peau/) publishes accessible research summaries on skin biology relevant to topical treatment design.
+For French readers looking for guidance from a public health source, Dermato-Info maintains current dermatologic recommendations on cosmetic actives, and Inserm publishes accessible research summaries on skin biology relevant to topical treatment design.
 
 ## Frequently asked questions
 

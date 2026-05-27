@@ -33,7 +33,7 @@ The flip side is that the catalog is too dense for most beginners. Without a cle
 
 ## How The Ordinary Pricing Actually Works
 
-The brand does not undercut competitors by using cheaper actives. It undercuts them by removing marketing margin, paring back packaging and refusing to fund celebrity campaigns. The actives themselves are standard cosmetic raw materials available to every formulator on the market. A 30 ml bottle of niacinamide 10% costs roughly the same to produce whether the front label says The Ordinary or a luxury house, as confirmed by industry teardowns referenced by [Inserm](https://www.inserm.fr/dossier/peau/) cosmetic science briefings.
+The brand does not undercut competitors by using cheaper actives. It undercuts them by removing marketing margin, paring back packaging and refusing to fund celebrity campaigns. The actives themselves are standard cosmetic raw materials available to every formulator on the market. A 30 ml bottle of niacinamide 10% costs roughly the same to produce whether the front label says The Ordinary or a luxury house, as confirmed by industry teardowns referenced by Inserm cosmetic science briefings.
 
 What you pay for at higher tiers is usually sensorial finish, fragrance, packaging design and proprietary delivery systems. Some of those add real benefit. Most do not. For the unfragranced, no-frills basics, The Ordinary is the textbook reference. For a side-by-side benchmark, see our [CeraVe versus Cetaphil comparison](/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/), which uses the same evidence-first lens.
 

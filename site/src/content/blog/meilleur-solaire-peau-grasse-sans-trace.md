@@ -33,7 +33,7 @@ La bonne nouvelle, c'est que la chimie cosmétique de 2026 a largement résolu c
 
 ## Décrypter les étiquettes solaires pour peau grasse
 
-Les mentions "sans huile", "non comédogène" et "fini mat" apparaissent sur la majorité des solaires modernes, mais ce sont des allégations marketing sans cadre réglementaire harmonisé en France ou en Europe. L'[American Academy of Dermatology](https://www.aad.org/public/everyday-care/sun-protection/shade/how-to-select-sunscreen) recommande de se concentrer sur la liste INCI plutôt que sur les pictogrammes de face.
+Les mentions "sans huile", "non comédogène" et "fini mat" apparaissent sur la majorité des solaires modernes, mais ce sont des allégations marketing sans cadre réglementaire harmonisé en France ou en Europe. L'American Academy of Dermatology recommande de se concentrer sur la liste INCI plutôt que sur les pictogrammes de face.
 
 Trois indices d'étiquette comptent vraiment pour une peau grasse :
 
@@ -158,7 +158,7 @@ Non. "Oil free" signifie sans huile végétale ou minérale, mais une formule oi
 
 ## Sources et références
 
-- [American Academy of Dermatology : How to select sunscreen](https://www.aad.org/public/everyday-care/sun-protection/shade/how-to-select-sunscreen)
+- American Academy of Dermatology : How to select sunscreen
 - [European Academy of Dermatology and Venereology](https://eadv.org)
 - [Agence nationale de sécurité du médicament](https://ansm.sante.fr/)
 - [Haute Autorité de Santé](https://www.has-sante.fr/)

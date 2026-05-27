@@ -25,7 +25,7 @@ speakable: "La Mer vs CeraVe is decided by formulation, not price. La Mer relies
 
 ## La Mer vs CeraVe: the formulation verdict at a glance
 
-Strip both jars of marketing and the picture is unambiguous. La Mer is a fragranced, mineral-oil-led emulsion built around a fermented kelp extract. CeraVe is a ceramide-led, fragrance-free emulsion built around a barrier-repair lipid trio. Both are competent moisturisers. Only one is engineered around the dominant biological model of barrier function, the lamellar lipid matrix described by [Inserm](https://www.inserm.fr/dossier/peau/) and reinforced by decades of work in the [Journal of Investigative Dermatology](https://pubmed.ncbi.nlm.nih.gov/8120733/). That product is CeraVe.
+Strip both jars of marketing and the picture is unambiguous. La Mer is a fragranced, mineral-oil-led emulsion built around a fermented kelp extract. CeraVe is a ceramide-led, fragrance-free emulsion built around a barrier-repair lipid trio. Both are competent moisturisers. Only one is engineered around the dominant biological model of barrier function, the lamellar lipid matrix described by Inserm and reinforced by decades of work in the [Journal of Investigative Dermatology](https://pubmed.ncbi.nlm.nih.gov/8120733/). That product is CeraVe.
 
 The 350 EUR question is not whether La Mer works. Any well-formulated occlusive cream reduces transepidermal water loss. The real question is whether you are paying for unique, evidence-backed actives, or for an emulsion of mineral oil with prestige packaging.
 
@@ -47,7 +47,7 @@ The CeraVe Moisturizing Cream INCI: **Purified Water**, **Glycerin**, **Caprylic
 
 Translated: a glycerin-led humectant base with caprylic/capric triglyceride emolliency, an industrial-grade dose of three essential skin ceramides (NP/Ceramide 3, AP/Ceramide 6-II, EOP/Ceramide 1), cholesterol and free fatty acids in the 1:1:1 ratio that mimics native stratum corneum, plus low-molecular-weight hyaluronic acid and phytosphingosine, fragrance-free.
 
-It is delivered through a **MultiVesicular Emulsion (MVE)** technology, a patented liposomal system that releases the ceramide trio gradually over 24 hours. The clinical relevance of ceramide replacement therapy in atopic dermatitis and barrier dysfunction is documented in studies indexed by [PubMed](https://pubmed.ncbi.nlm.nih.gov/12100180/) and reviewed by the [American Academy of Dermatology](https://www.aad.org/public/diseases/eczema/childhood/treating/dry-skin).
+It is delivered through a **MultiVesicular Emulsion (MVE)** technology, a patented liposomal system that releases the ceramide trio gradually over 24 hours. The clinical relevance of ceramide replacement therapy in atopic dermatitis and barrier dysfunction is documented in studies indexed by [PubMed](https://pubmed.ncbi.nlm.nih.gov/12100180/) and reviewed by the American Academy of Dermatology.
 
 This is not a budget compromise. It is a clinical-grade emulsion that happens to retail for 14 EUR.
 
@@ -105,7 +105,7 @@ For 350 EUR, you can buy one 30 ml jar of Creme de la Mer (about two months of u
 
 ## What dermatologists from the AAD and EADV recommend
 
-Public position statements from the [American Academy of Dermatology](https://www.aad.org/public/everyday-care/skin-care-basics/care/moisturizer), the [European Academy of Dermatology and Venereology](https://www.eadv.org/), the [Haute Autorite de Sante](https://www.has-sante.fr/) and [dermato-info.fr](https://dermato-info.fr/) converge on four formulation criteria for healthy or compromised skin:
+Public position statements from the American Academy of Dermatology, the [European Academy of Dermatology and Venereology](https://www.eadv.org/), the [Haute Autorite de Sante](https://www.has-sante.fr/) and [dermato-info.fr](https://dermato-info.fr/) converge on four formulation criteria for healthy or compromised skin:
 
 1. **Ceramides or biomimetic lipids** in the formula.
 2. **Humectants** (glycerin, hyaluronic acid, urea) at meaningful concentrations.
@@ -158,10 +158,10 @@ Public-facing position statements from the AAD, the EADV, the Haute Autorite de 
 
 ## Sources
 
-1. American Academy of Dermatology. "Moisturizer: Why you may need it if you have acne." [aad.org](https://www.aad.org/public/everyday-care/skin-care-basics/care/moisturizer)
-2. American Academy of Dermatology. "How to treat childhood eczema." [aad.org](https://www.aad.org/public/diseases/eczema/childhood/treating/dry-skin)
+1. American Academy of Dermatology. "Moisturizer: Why you may need it if you have acne." aad.org
+2. American Academy of Dermatology. "How to treat childhood eczema." aad.org
 3. European Academy of Dermatology and Venereology, public guidance. [eadv.org](https://www.eadv.org/)
-4. Inserm, dossier peau. [inserm.fr](https://www.inserm.fr/dossier/peau/)
+4. Inserm, dossier peau. inserm.fr
 5. ANSM, cosmetic safety and surveillance. [ansm.sante.fr](https://ansm.sante.fr/)
 6. Haute Autorite de Sante, dermatology recommendations. [has-sante.fr](https://www.has-sante.fr/)
 7. dermato-info.fr, French Society of Dermatology. [dermato-info.fr](https://dermato-info.fr/)

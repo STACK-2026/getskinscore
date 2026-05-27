@@ -21,7 +21,7 @@ Une **routine acné** validée par les dermatologues tient en quatre étapes : u
 
 > **TL;DR** : La meilleure **routine acné** suit un cadre simple recommandé par l'[American Academy of Dermatology](https://www.aad.org/public/diseases/acne/skin-care/tips) : nettoyer avec un actif doux (BHA ou peroxyde de benzoyle), traiter avec de l'adapalène le soir et de la niacinamide le matin, hydrater avec une crème aux céramides non comédogène, et protéger avec un SPF 30 ou plus chaque jour. Adapte les actifs à ton sous type d'acné (rétentionnelle, inflammatoire, nodulokystique), layer doucement, et donne huit à douze semaines de constance à ta routine avant de tout changer.
 
-L'acné touche environ 80 % des adolescents et près de la moitié des femmes adultes en France, selon les données de l'[Inserm](https://www.inserm.fr/dossier/acne/). Trop de routines échouent non pas par manque d'actifs, mais par excès : trop de produits, trop d'irritation, trop d'impatience. Voici la méthode dermato qui marche vraiment.
+L'acné touche environ 80 % des adolescents et près de la moitié des femmes adultes en France, selon les données de l'Inserm. Trop de routines échouent non pas par manque d'actifs, mais par excès : trop de produits, trop d'irritation, trop d'impatience. Voici la méthode dermato qui marche vraiment.
 
 ## Quel type d'acné as tu ? (Le guide visuel rapide)
 
@@ -31,7 +31,7 @@ Tous les boutons ne se traitent pas pareil. Identifier ton sous type d'acné con
 
 **Acné inflammatoire papulopustuleuse**. Boutons rouges, parfois remplis de pus, autour du nez, du menton, du front. Actifs de référence : peroxyde de benzoyle 2,5 à 5 % et acide salicylique 0,5 à 2 %.
 
-**Acné nodulokystique**. Lésions profondes, douloureuses, qui laissent des cicatrices. Une consultation dermatologique est nécessaire : la prise en charge passe souvent par l'isotrétinoïne orale, encadrée en France par l'[ANSM](https://ansm.sante.fr/dossiers-thematiques/isotretinoine).
+**Acné nodulokystique**. Lésions profondes, douloureuses, qui laissent des cicatrices. Une consultation dermatologique est nécessaire : la prise en charge passe souvent par l'isotrétinoïne orale, encadrée en France par l'ANSM.
 
 **Acné hormonale adulte**. Boutons profonds sur le bas du visage et la mâchoire, poussées synchronisées avec le cycle menstruel. Plan combiné : actifs topiques + bilan hormonal + parfois antiandrogènes oraux. Si tu es en âge de procréer, vérifie la compatibilité des actifs avec une éventuelle grossesse, sujet que nous traitons dans notre guide [grossesse et skincare](/fr/blog/pregnancy-safe-skincare-ingredient-guide/).
 
@@ -150,7 +150,7 @@ Consulte si tu as des lésions nodulokystiques douloureuses, des cicatrices qui 
 
 ### Le régime alimentaire influence t il vraiment l'acné ?
 
-Les preuves les plus solides concernent les laitages écrémés et les aliments à fort index glycémique. L'[Inserm](https://www.inserm.fr/dossier/acne/) cite plusieurs études prospectives associant consommation élevée de sucres rapides et aggravation de l'acné. Pour le chocolat, les données restent contradictoires. Ce n'est jamais la cause unique, mais c'est un levier qui complète la routine topique.
+Les preuves les plus solides concernent les laitages écrémés et les aliments à fort index glycémique. L'Inserm cite plusieurs études prospectives associant consommation élevée de sucres rapides et aggravation de l'acné. Pour le chocolat, les données restent contradictoires. Ce n'est jamais la cause unique, mais c'est un levier qui complète la routine topique.
 
 ## Le mot de la fin
 

@@ -165,7 +165,7 @@ For a full mapping of compatible and incompatible actives, see the [ingredient i
 
 - **Retinol and salicylic acid**: alternate evenings only, never stacked the same night.
 - **Retinol and ascorbic acid**: vitamin C in the AM, retinol in the PM. The most common beginner mistake.
-- **Retinol and ceramide NP**: ideal pairing. Ceramides reinforce the barrier that retinol stresses, a point echoed in the [European Academy of Dermatology and Venereology](https://eadv.org/patient-corner/leaflets/) barrier guidance.
+- **Retinol and ceramide NP**: ideal pairing. Ceramides reinforce the barrier that retinol stresses, a point echoed in the European Academy of Dermatology and Venereology barrier guidance.
 - **Retinol and hyaluronic acid**: layer freely. Apply HA on slightly damp skin, wait one minute, then retinol.
 - **Retinol and azelaic acid**: compatible but taxing. Introduce one, stabilise, then add the second.
 - **Retinol and fragrance-heavy creams**: avoid. Fragrance compounds amplify retinoid irritation, as documented in the [encyclopedia](/encyclopedia).

@@ -42,7 +42,7 @@ Prescription topical retinoids (tretinoin, adapalene, tazarotene) have lower abs
 
 **Status:** Relative contraindication. Discontinue as a precaution.
 
-Cosmetic retinol converts to retinoic acid in the skin through a two-step enzymatic process. The conversion rate is low (estimated 5 to 10% of applied retinol reaches retinoic acid form in viable epidermis), and percutaneous systemic absorption at leave-on cosmetic concentrations (0.01 to 0.3% under [SCCS 2023 cap](https://health.ec.europa.eu/publications/opinion-vitamin-safety-use-cosmetic-products_en)) is a small fraction of the applied dose. In absolute terms, topical retinol at cosmetic concentrations is unlikely to produce teratogenic exposure comparable to oral vitamin A.
+Cosmetic retinol converts to retinoic acid in the skin through a two-step enzymatic process. The conversion rate is low (estimated 5 to 10% of applied retinol reaches retinoic acid form in viable epidermis), and percutaneous systemic absorption at leave-on cosmetic concentrations (0.01 to 0.3% under SCCS 2023 cap) is a small fraction of the applied dose. In absolute terms, topical retinol at cosmetic concentrations is unlikely to produce teratogenic exposure comparable to oral vitamin A.
 
 That said, ACOG, NHS, and all major dermatology societies recommend discontinuation during pregnancy as a precaution, because no pregnancy-exposed cohort exists large enough to rule out rare adverse outcomes, and because safe alternatives with comparable benefit exist. Azelaic acid and niacinamide handle most of retinol's typical use cases (acne, hyperpigmentation, barrier support) without the precaution flag.
 

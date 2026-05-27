@@ -21,7 +21,7 @@ speakable: "CeraVe wins for dry, eczema-prone or barrier-damaged skin because it
 
 > **TL;DR**: Pick **CeraVe** if you have dry, eczema-prone, post-procedure or barrier-damaged skin: the ceramide NP, AP, EOP trio plus niacinamide and hyaluronic acid restore lipid balance in 2 to 4 weeks. Pick Cetaphil if you have ultra-reactive sensitive skin, multiple cosmetic allergies or want the lowest-INCI drugstore moisturiser. Both are fragrance-free in their core SKUs. Both cost under 18 EUR for 450g. Only CeraVe rebuilds the skin barrier.
 
-Both brands dominate dermatology referrals because they are cheap, widely available and clinically defensible, but they solve different problems. The [American Academy of Dermatology](https://www.aad.org/public/everyday-care/skin-care-basics/care/moisturizer) recommends moisturisers containing ceramides, hyaluronic acid or glycerin for daily use, and that sentence is the entire CeraVe vs Cetaphil debate in miniature. This guide covers the INCI lists, the clinical evidence and a 30-second decision tree. Every product is graded on [SkinScore](/rankings).
+Both brands dominate dermatology referrals because they are cheap, widely available and clinically defensible, but they solve different problems. The American Academy of Dermatology recommends moisturisers containing ceramides, hyaluronic acid or glycerin for daily use, and that sentence is the entire CeraVe vs Cetaphil debate in miniature. This guide covers the INCI lists, the clinical evidence and a 30-second decision tree. Every product is graded on [SkinScore](/rankings).
 
 ## CeraVe vs Cetaphil: the science behind each brand
 
@@ -138,7 +138,7 @@ Yes, the core moisturisers from both brands are pregnancy-compatible. They conta
 
 ## Sources
 
-1. [American Academy of Dermatology, moisturiser guidance](https://www.aad.org/public/everyday-care/skin-care-basics/care/moisturizer)
+1. American Academy of Dermatology, moisturiser guidance
 2. Meckfessel, M.H. and Brandt, S. (2014). [The structure, function and importance of ceramides in skin and their use as therapeutic agents in skin-care products](https://pubmed.ncbi.nlm.nih.gov/24656728/). Journal of the American Academy of Dermatology, 71(1), 177-184.
 3. Draelos, Z.D. (2018). [The science behind skin care: moisturizers](https://pubmed.ncbi.nlm.nih.gov/29410721/). Journal of Clinical and Aesthetic Dermatology.
 4. Bissett, D.L. and colleagues (2006). [Topical niacinamide reduces inflammatory acne lesions](https://pubmed.ncbi.nlm.nih.gov/16766489/). International Journal of Dermatology.

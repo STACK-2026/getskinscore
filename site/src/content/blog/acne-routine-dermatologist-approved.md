@@ -72,7 +72,7 @@ Generic routines fail because acne is not one disease. The [European Academy of 
 
 ## Building an Advanced Routine: How to Layer Actives Safely
 
-Most acne flare-ups from skincare come from layering errors, not ingredient choice. The [French Inserm](https://www.inserm.fr/dossier/peau/) describes the stratum corneum as a controlled-permeability barrier. Stacking three or four actives at once breaches that barrier and triggers irritation that mimics acne.
+Most acne flare-ups from skincare come from layering errors, not ingredient choice. The French Inserm describes the stratum corneum as a controlled-permeability barrier. Stacking three or four actives at once breaches that barrier and triggers irritation that mimics acne.
 
 A safer compatibility map for evening application:
 

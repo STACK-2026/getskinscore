@@ -21,7 +21,7 @@ Un bon **sérum vitamine C** illumine le teint, atténue les taches et amplifie 
 
 > **TL;DR** : Le gold standard reste l'**acide L-ascorbique** à 10 à 20 %, pH inférieur à 3,5, associé à la vitamine E et à l'acide férulique. Pour les peaux sensibles ou les débutantes en actifs, les dérivés comme le sodium ascorbyl phosphate ou le tetrahexyldecyl ascorbate sont plus doux, stables à pH neutre et bien tolérés. À utiliser le matin sous SPF pour maximiser la photoprotection.
 
-La vitamine C fait partie des rares actifs dont l'efficacité antioxydante, éclaircissante et pro-collagène est documentée par des études cliniques solides. Les recommandations de l'[American Academy of Dermatology](https://www.aad.org/public/everyday-care/skin-care-basics/care/antioxidants-explained) et celles publiées par l'[European Academy of Dermatology and Venereology](https://eadv.org/) placent la vitamine C topique parmi les ingrédients incontournables de la prévention du photovieillissement. Mais l'efficacité s'effondre si la formule est mauvaise. Tous les produits cités dans ce guide sont notés via la méthode [SkinScore](/rankings).
+La vitamine C fait partie des rares actifs dont l'efficacité antioxydante, éclaircissante et pro-collagène est documentée par des études cliniques solides. Les recommandations de l'American Academy of Dermatology et celles publiées par l'[European Academy of Dermatology and Venereology](https://eadv.org/) placent la vitamine C topique parmi les ingrédients incontournables de la prévention du photovieillissement. Mais l'efficacité s'effondre si la formule est mauvaise. Tous les produits cités dans ce guide sont notés via la méthode [SkinScore](/rankings).
 
 ## Ce que la vitamine C fait vraiment sur ta peau
 
@@ -126,7 +126,7 @@ L'acide L-ascorbique à pH bas peut provoquer :
 - **Taches jaunes** sur les taies d'oreiller ou les serviettes claires si le sérum s'oxyde la nuit. Utilise une taie colorée pendant la phase d'adaptation.
 - **Dermatite de contact irritative** chez 1 à 3 % des utilisatrices, surtout sur barrière déjà fragilisée. Stoppe et reconstruis avec une routine barrière comme celle décrite dans notre [guide hydratant peau sèche](/blog/meilleur-solaire-peau-grasse-sans-trace/).
 
-Grossesse : la vitamine C topique en concentration cosmétique standard est généralement considérée sûre par les sociétés savantes de dermatologie et de gynécologie. Confirme toujours avec ton ou ta gynécologue. L'[ANSM](https://ansm.sante.fr/) et le [dossier dermatologie de l'Inserm](https://www.inserm.fr/dossier/peau/) classent l'acide ascorbique parmi les actifs cosmétiques bien tolérés pendant la grossesse aux concentrations usuelles.
+Grossesse : la vitamine C topique en concentration cosmétique standard est généralement considérée sûre par les sociétés savantes de dermatologie et de gynécologie. Confirme toujours avec ton ou ta gynécologue. L'[ANSM](https://ansm.sante.fr/) et le dossier dermatologie de l'Inserm classent l'acide ascorbique parmi les actifs cosmétiques bien tolérés pendant la grossesse aux concentrations usuelles.
 
 Si un sérum pique soudainement plus que d'habitude ou sent différemment, vérifie sa couleur. Une formule brunie n'est plus thérapeutique et doit être remplacée.
 
@@ -175,13 +175,13 @@ La vitamine C topique aux concentrations cosmétiques standard est généralemen
 
 3. Telang, P.S. (2013). "Vitamin C in dermatology." *Indian Dermatology Online Journal*, 4(2), 143-146. [PubMed](https://pubmed.ncbi.nlm.nih.gov/23741676/)
 
-4. American Academy of Dermatology. "Antioxidants in skin care." [AAD](https://www.aad.org/public/everyday-care/skin-care-basics/care/antioxidants-explained)
+4. American Academy of Dermatology. "Antioxidants in skin care." AAD
 
 5. ANSM. "Recommandations sur les ingrédients cosmétiques." [ANSM](https://ansm.sante.fr/)
 
 6. Haute Autorité de Santé. "Bon usage des produits cosmétiques." [HAS](https://www.has-sante.fr/)
 
-7. Inserm. "Dossier d'information : peau et dermatologie." [Inserm](https://www.inserm.fr/dossier/peau/)
+7. Inserm. "Dossier d'information : peau et dermatologie." Inserm
 
 8. European Academy of Dermatology and Venereology. "Guidelines on photoaging and antioxidants." [EADV](https://eadv.org/)
 

@@ -69,7 +69,7 @@ A clean double cleanse follows six steps. Each one matters.
 1. **Apply an oil based cleanser to dry skin.** This is the single most important rule. Water deactivates the dissolving action of the oil cleanser by triggering early emulsification. Pump 2 to 3 doses into dry palms, warm briefly, and spread across the entire face, eyelids and lips included if you wear eye or lip makeup.
 2. **Massage for 60 seconds.** Use small circular motions, light pressure. The point is to let the oil solubilise the sebum, SPF and makeup, not to scrub. Pay attention to the hairline, the sides of the nose and the jawline, where SPF and foundation accumulate.
 3. **Emulsify with lukewarm water.** Add a small amount of water and continue massaging. The cleanser will turn milky as the surfactant phase activates and pulls the dissolved oil into a water rinsable emulsion. This is the moment when a good oil cleanser proves its formulation.
-4. **Rinse thoroughly.** Lukewarm water, not hot. Hot water (above 38 to 40 degrees Celsius) damages the skin barrier and increases transepidermal water loss, as documented in basic dermatology textbooks and reaffirmed by the [NHS skincare guidance](https://www.nhs.uk/conditions/dry-skin/) on managing dry and sensitive skin.
+4. **Rinse thoroughly.** Lukewarm water, not hot. Hot water (above 38 to 40 degrees Celsius) damages the skin barrier and increases transepidermal water loss, as documented in basic dermatology textbooks and reaffirmed by the NHS skincare guidance on managing dry and sensitive skin.
 5. **Apply the second cleanser to damp skin.** A small amount of a water based gentle cleanser is enough. Massage for 30 to 60 seconds, paying attention to areas that still feel slick.
 6. **Rinse and pat dry.** Pat, do not rub. Apply your serum or moisturizer within 60 seconds while the skin is still slightly damp, which improves absorption of humectants like glycerin and hyaluronic acid.
 
@@ -191,7 +191,7 @@ No. "Glass skin" is the outcome of consistent hydration layering, a healthy skin
 
 6. British Association of Dermatologists. "Patient information leaflets on skin care." [BAD](https://www.bad.org.uk/)
 
-7. NHS. "Dry skin: causes, treatment and self care." [NHS](https://www.nhs.uk/conditions/dry-skin/)
+7. NHS. "Dry skin: causes, treatment and self care." NHS
 
 8. Cosmetic Ingredient Review. "Safety assessments of cosmetic ingredients." [CIR](https://www.cir-safety.org/)
 

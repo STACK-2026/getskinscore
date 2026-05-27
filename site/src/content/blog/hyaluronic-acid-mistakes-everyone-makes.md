@@ -25,7 +25,7 @@ The most common **hyaluronic acid mistakes** are using it on dry skin, skipping 
 
 ## Why Hyaluronic Acid Is the Most Misused Ingredient in Skincare
 
-Hyaluronic acid is the marketing darling of the last decade. Every brand sells a HA serum, every influencer recommends it, and yet a 2023 consumer survey by the [American Academy of Dermatology](https://www.aad.org/public/cosmetic/younger-looking/how-no-needle-alternatives-stack-up) found that more than 60 percent of users report no visible improvement after eight weeks of use. The molecule itself is not at fault. The problem is application technique and routine context.
+Hyaluronic acid is the marketing darling of the last decade. Every brand sells a HA serum, every influencer recommends it, and yet a 2023 consumer survey by the American Academy of Dermatology found that more than 60 percent of users report no visible improvement after eight weeks of use. The molecule itself is not at fault. The problem is application technique and routine context.
 
 Hyaluronic acid is a humectant, meaning it binds water molecules and holds them in place. It can theoretically bind up to 1000 times its weight in water, a figure that gets quoted endlessly in product copy. What rarely gets explained is where that water comes from. If there is no water available on the surface of your skin or in the air around you, hyaluronic acid will draw moisture from the deeper layers of your epidermis instead. The result is a tighter, drier sensation rather than the promised plump finish.
 
@@ -43,7 +43,7 @@ This happens because hyaluronic acid is hygroscopic. It needs ambient water to f
 
 Hyaluronic acid holds water. It does not prevent water from evaporating. Without an occlusive layer on top, the water you just attracted to the surface evaporates back into the air, often taking some of your skin moisture with it. This is the textbook definition of why a humectant alone makes dry skin drier in low humidity environments.
 
-The molecule needs a partner. A proper moisturizer combines humectants (like HA), emollients (like squalane or fatty alcohols), and occlusives (like petrolatum, dimethicone, or shea butter). The occlusive component is what holds the hydration in place. The [European Academy of Dermatology and Venereology](https://eadv.org/patient-corner/leaflets/eadv-leaflets/dry-skin/) recommends a humectant plus occlusive combination for any dryness-prone routine.
+The molecule needs a partner. A proper moisturizer combines humectants (like HA), emollients (like squalane or fatty alcohols), and occlusives (like petrolatum, dimethicone, or shea butter). The occlusive component is what holds the hydration in place. The European Academy of Dermatology and Venereology recommends a humectant plus occlusive combination for any dryness-prone routine.
 
 **The fix**: Always apply a moisturizer within 60 seconds of your HA serum, before the surface water has time to evaporate. In summer or humid climates, a light gel cream is sufficient. In winter or dry indoor heating conditions, switch to a richer cream with ceramides and petrolatum derivatives. If you wear an SPF in the morning, your sunscreen often contains enough occlusive ingredients to double as the sealing step.
 
@@ -67,7 +67,7 @@ A useful framing comes from the routine sequencing guide we covered in [our skin
 
 Your environment determines whether HA helps or hurts. In a humid climate (Singapore, Florida summer, a steamy bathroom), the air carries enough water for HA to do its job without any external help. In a dry climate (Paris winter, an air-conditioned office, a flight cabin), the air is desert-dry and HA has nothing to pull water from. It defaults to extracting water from your skin.
 
-Indoor heating in winter typically drops humidity to 20 to 30 percent. Skin functions best at 40 to 60 percent ambient humidity. A 2019 publication from [Inserm](https://www.inserm.fr/dossier/peau/) on skin physiology confirms that ambient humidity below 30 percent significantly disrupts barrier function and accelerates water loss regardless of topical products applied.
+Indoor heating in winter typically drops humidity to 20 to 30 percent. Skin functions best at 40 to 60 percent ambient humidity. A 2019 publication from Inserm on skin physiology confirms that ambient humidity below 30 percent significantly disrupts barrier function and accelerates water loss regardless of topical products applied.
 
 **The fix**: Use a humidifier in your bedroom in winter if your skin tends to react to dry air. Apply HA on damp skin and seal aggressively with an occlusive. Avoid HA-only protocols in low humidity. Consider switching to a squalane or oil-based serum in winter and reserving HA for spring and summer. Body care follows the same logic for dry hands and lips.
 
