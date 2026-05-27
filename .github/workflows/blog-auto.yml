@@ -3,8 +3,9 @@ name: Blog Auto · The Lab
 on:
   # Cron re-enabled 14/04/2026: publishes articles pre-written and scheduled in articles.json
   # (manual writing rule still applies for article CREATION, cron only publishes scheduled ones)
-  schedule:
-    - cron: '30 5-6 * * 1-5'
+  # DISABLED 2026-05-27: no API publish — manual workflow_dispatch only
+#   schedule:
+#     - cron: '30 5-6 * * 1-5'
   workflow_dispatch:
     inputs:
       force:
