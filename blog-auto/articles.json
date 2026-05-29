@@ -4824,7 +4824,8 @@
     },
     "title": "Skin cycling: does this TikTok trend actually work?",
     "done": true,
-    "published_at": "2026-05-28"
+    "published_at": "2026-05-28",
+    "published": true
   },
   {
     "slug": "slugging-vaseline-trend-dermatologist-opinion",
@@ -4989,7 +4990,10 @@
         ]
       }
     },
-    "title": "Slugging with Vaseline: what dermatologists actually think"
+    "title": "Slugging with Vaseline: what dermatologists actually think",
+    "published": true,
+    "published_at": "2026-05-29T07:11:00+02:00",
+    "done": true
   },
   {
     "slug": "best-serums-hyperpigmentation-dark-spots",
