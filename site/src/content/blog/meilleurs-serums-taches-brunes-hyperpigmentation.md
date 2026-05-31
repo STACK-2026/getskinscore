@@ -1,6 +1,6 @@
 ---
 title: "Meilleurs sérums anti-taches : hyperpigmentation classée par efficacité"
-description: "Classement dermato des meilleurs sérums anti-taches : vitamine C, acide azélaïque, acide tranexamique, alpha-arbutine, niacinamide. Concentrations, preuves et routine."
+description: "Classement dermato des meilleurs sérums anti-taches : vitamine C, acide azélaïque, acide tranexamique, alpha-arbutine, niacinamide. Concentrations, preuves."
 date: 2026-05-31T07:11:00+02:00
 author: "dr-elena-voss"
 category: "routines"

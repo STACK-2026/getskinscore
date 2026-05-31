@@ -72,7 +72,7 @@ Ne jamais combiner retinol et AHA dans la meme application : tu detruis ta barri
 **Etape 4 : Hydratant ou creme reparatrice**
 Une creme plus riche que celle du matin, avec ceramides, niacinamide, panthenol ou centella asiatica pour reparer la barriere pendant la nuit.
 
-**Etape 5 : Soin specifique (optionnel)**
+**Etape 5 : Soin spécifique (optionnel)**
 Contour des yeux, baume levres, huile pour le cou. Cette etape vient toujours en dernier, apres l'hydratant.
 
 ---
@@ -86,7 +86,7 @@ Le temps d'attente entre les etapes est sous estime par 70% des debutants. Voici
 | Apres tonique | 30 secondes | Penetration rapide |
 | Apres serum aqueux | 1 a 2 minutes | Stabilisation du pH |
 | Apres vitamine C | 60 a 90 secondes | Eviter la dilution |
-| Apres retinol | 5 a 20 minutes | Le sandwich avec creme reduit l'irritation |
+| Apres retinol | 5 a 20 minutes | Le sandwich avec creme réduit l'irritation |
 | Avant SPF | 2 minutes | Eviter le pilling |
 
 Si tu vois ton produit former des petites peluches grises (le pilling), c'est que tu n'as pas attendu assez longtemps ou que tu as utilise trop de produit.
@@ -111,9 +111,9 @@ Si tu vois ton produit former des petites peluches grises (le pilling), c'est qu
 
 **Peau grasse a tendance acneique.** Privilegie les textures gel, ajoute un BHA (acide salicylique) deux soirs par semaine entre le tonique et l'hydratant. Le SPF doit etre non comedogene, idealement mineral. Notre [tableau des ingredients comedogenes](/fr/blog/10-ingredients-comedogenes-pires-peau/) liste les molecules a eviter.
 
-**Peau seche.** Ajoute une essence ou un face mist apres le tonique pour booster l'hydratation. Choisis une creme avec ceramides et squalane, et integre une huile vegetale legere (jojoba, rosehip) en finishing le soir.
+**Peau seche.** Ajoute une essence ou un face mist apres le tonique pour booster l'hydratation. Choisis une creme avec ceramides et squalane, et integre une huile végétale legere (jojoba, rosehip) en finishing le soir.
 
-**Peau sensible.** Reduis le nombre d'etapes, evite les parfums et les huiles essentielles, prefere les formulations courtes a moins de 10 ingredients. La methode sandwich (creme avant et apres le retinol) reduit drastiquement les reactions.
+**Peau sensible.** Reduis le nombre d'etapes, evite les parfums et les huiles essentielles, prefere les formulations courtes a moins de 10 ingredients. La methode sandwich (creme avant et apres le retinol) réduit drastiquement les reactions.
 
 **Peau mixte.** Adapte la zone : creme legere sur la zone T, plus riche sur les joues. Tu peux faire deux routines partielles si necessaire.
 
@@ -123,7 +123,7 @@ Si tu vois ton produit former des petites peluches grises (le pilling), c'est qu
 
 Une routine bien construite donne ses premiers resultats au bout de 4 semaines, et son plein potentiel a 12 semaines. C'est le cycle de renouvellement cellulaire complet de l'epiderme. Avant cela, tu juges sur des criteres d'usage (texture, absorption, tolerance), pas sur des resultats anti-age ou anti-taches.
 
-L'erreur la plus frequente est de changer de produit toutes les deux semaines parce que rien ne se passe. Une etude publiee dans le [Journal of the American Academy of Dermatology](https://www.jaad.org) sur le retinoide topique montre que la majorite des ameliorations cliniques apparaissent entre la semaine 8 et la semaine 24.
+L'erreur la plus frequente est de changer de produit toutes les deux semaines parce que rien ne se passe. Une étude publiee dans le [Journal of the American Academy of Dermatology](https://www.jaad.org) sur le retinoide topique montre que la majorite des ameliorations cliniques apparaissent entre la semaine 8 et la semaine 24.
 
 ---
 

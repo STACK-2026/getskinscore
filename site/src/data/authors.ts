@@ -20,7 +20,7 @@ export const authors: Author[] = [
     },
     bio: {
       en: "Cosmetic science researcher with a background in pharmaceutical chemistry. Specialises in INCI decoding, ingredient safety assessment, and EU regulatory compliance. Reviews every product score for accuracy before publication.",
-      fr: "Chercheuse en science cosmetique avec un parcours en chimie pharmaceutique. Specialisee dans le decodage INCI, l'evaluation de securite des ingredients et la conformite reglementaire UE. Revise chaque score produit avant publication.",
+      fr: "Chercheuse en science cosmetique avec un parcours en chimie pharmaceutique. Specialisee dans le decodage INCI, l'evaluation de sécurité des ingredients et la conformite reglementaire UE. Revise chaque score produit avant publication.",
     },
     expertise: ["ingredients", "safety", "EU regulation", "INCI decoding"],
   },
@@ -46,7 +46,7 @@ export const authors: Author[] = [
     },
     bio: {
       en: "Clinical research background in dermatology with a focus on ingredient efficacy and skin barrier function. Translates peer-reviewed studies into actionable skincare advice. Believes in evidence over trends.",
-      fr: "Parcours en recherche clinique dermatologique avec un focus sur l'efficacite des ingredients et la fonction barriere cutanee. Traduit les etudes revues par les pairs en conseils skincare actionnables. Croit aux preuves, pas aux tendances.",
+      fr: "Parcours en recherche clinique dermatologique avec un focus sur l'efficacite des ingredients et la fonction barriere cutanee. Traduit les études revues par les pairs en conseils skincare actionnables. Croit aux preuves, pas aux tendances.",
     },
     expertise: ["dermatology", "clinical research", "skin barrier", "actives"],
   },

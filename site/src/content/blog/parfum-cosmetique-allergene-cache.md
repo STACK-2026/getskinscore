@@ -5,7 +5,7 @@ date: 2026-04-23T07:23:02+02:00
 author: "Dr. Elena Voss"
 category: "science"
 tags: ["parfum", "allergènes", "INCI", "sans parfum", "réglementation", "peau sensible"]
-keywords: "parfum cosmetique, allergene parfum, sans parfum"
+keywords: "parfum cosmetique, allergène parfum, sans parfum"
 draft: false
 image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=1200&h=630&fit=crop&crop=center&q=80"
 imageAlt: "Flacons de cosmétiques et ingrédients parfumés sur fond blanc - allergènes parfum cosmétique"

@@ -190,11 +190,11 @@ export const products: Product[] = [
     ],
     summary: {
       en: "The most popular serum in the world for good reason. High-concentration niacinamide (10%) paired with zinc PCA targets pores, oil control, and blemishes simultaneously. Clean formula, no fillers, transparent concentrations.",
-      fr: "Le serum le plus populaire au monde, a juste titre. Niacinamide a haute concentration (10%) associe au zinc PCA cible les pores, le controle du sebum et les imperfections simultanement. Formule clean, pas de fillers, concentrations transparentes.",
+      fr: "Le serum le plus populaire au monde, a juste titre. Niacinamide a haute concentration (10%) associe au zinc PCA cible les pores, le contrôle du sebum et les imperfections simultanement. Formule clean, pas de fillers, concentrations transparentes.",
     },
     strengths: {
       en: ["High-dose niacinamide (10%) with proven efficacy", "Zinc PCA for oil control", "Incredibly affordable", "Transparent concentrations disclosed"],
-      fr: ["Niacinamide haute dose (10%) a l'efficacite prouvee", "Zinc PCA pour le controle du sebum", "Prix incroyablement accessible", "Concentrations transparentes affichees"],
+      fr: ["Niacinamide haute dose (10%) a l'efficacite prouvee", "Zinc PCA pour le contrôle du sebum", "Prix incroyablement accessible", "Concentrations transparentes affichees"],
     },
     weaknesses: {
       en: ["Can cause flushing at 10% for some (lower % works too)", "Minimal hydration (pair with moisturizer)", "Pilling when layered with some products"],
@@ -632,7 +632,7 @@ export const products: Product[] = [
     ],
     summary: {
       en: "A peptide-packed protein moisturizer with 9 signal peptides including copper tripeptide-1. Squalane and glycerin provide hydration while the peptide complex targets fine lines, firmness, and skin elasticity. Clean formula, no fragrance.",
-      fr: "Un hydratant proteique charge en peptides avec 9 peptides de signalisation dont le tripeptide de cuivre-1. Squalane et glycerine hydratent pendant que le complexe peptidique cible rides, fermete et elasticite. Formule clean, sans parfum.",
+      fr: "Un hydratant protéique charge en peptides avec 9 peptides de signalisation dont le tripeptide de cuivre-1. Squalane et glycerine hydratent pendant que le complexe peptidique cible rides, fermete et elasticite. Formule clean, sans parfum.",
     },
     strengths: {
       en: ["9 peptides including copper tripeptide-1", "Squalane + glycerin hydration", "No fragrance, no essential oils", "Clean formula philosophy"],
@@ -817,7 +817,7 @@ export const products: Product[] = [
     },
     weaknesses: {
       en: ["Contains fragrance/parfum (allergen)", "No proven active ingredients beyond HA", "Premium price for basic formula"],
-      fr: ["Contient du parfum (allergene)", "Pas d'actifs prouves au-dela de l'HA", "Prix premium pour une formule basique"],
+      fr: ["Contient du parfum (allergène)", "Pas d'actifs prouves au-dela de l'HA", "Prix premium pour une formule basique"],
     },
     claims: { dermatologistTested: true },
     tags: ["hyaluronic-acid", "thermal-water", "french-pharmacy", "hydration"],
@@ -906,7 +906,7 @@ export const products: Product[] = [
     },
     weaknesses: {
       en: ["Contains PHMB (EU-restricted preservative)", "Contains fragrance", "No beneficial actives", "Inferior to Bioderma Sensibio for sensitive skin"],
-      fr: ["Contient du PHMB (conservateur reglemente UE)", "Contient du parfum", "Aucun actif benefique", "Inferieur au Bioderma Sensibio pour peaux sensibles"],
+      fr: ["Contient du PHMB (conservateur reglemente UE)", "Contient du parfum", "Aucun actif bénéfique", "Inferieur au Bioderma Sensibio pour peaux sensibles"],
     },
     claims: {},
     tags: ["micellar-water", "affordable", "mass-market"],
@@ -1216,7 +1216,7 @@ export const products: Product[] = [
       fr: "L'essence culte de la K-beauty avec 96% de mucine d'escargot. Profondement hydratante, apaisante, aide a la reparation cutanee et a un leger eclaircissement. La texture visqueuse s'apprivoise mais les resultats sont loues mondialement.",
     },
     strengths: { en: ["96% snail mucin (hydration + repair)", "Panthenol + HA + allantoin", "Large 100ml format", "K-beauty cult classic"], fr: ["96% mucine d'escargot (hydratation + reparation)", "Panthenol + HA + allantoine", "Grand format 100ml", "Classique culte K-beauty"] },
-    weaknesses: { en: ["Not vegan (snail-derived)", "Clinical evidence limited vs established actives", "Slimy texture not for everyone"], fr: ["Non vegan (derive d'escargot)", "Preuves cliniques limitees vs actifs etablis", "Texture visqueuse pas pour tout le monde"] },
+    weaknesses: { en: ["Not vegan (snail-derived)", "Clinical evidence limited vs established actives", "Slimy texture not for everyone"], fr: ["Non vegan (derive d'escargot)", "Preuves cliniques limitees vs actifs établis", "Texture visqueuse pas pour tout le monde"] },
     claims: { crueltyFree: false },
     tags: ["snail-mucin", "k-beauty", "hydration", "essence", "cult"],
   },
@@ -93679,7 +93679,7 @@ export const products: Product[] = [
     },
     strengths: {
       en: ["8h oil control with tapioca starch", "L-Carnitine anti-shine", "Dry touch matte finish", "Dermatologist recommended", "Non-comedogenic proven"],
-      fr: ["Controle du sebum 8h avec amidon de tapioca", "L-Carnitine anti-brillance", "Fini mat toucher sec", "Recommande par les dermatologues", "Non-comedogene prouve"],
+      fr: ["Contrôle du sebum 8h avec amidon de tapioca", "L-Carnitine anti-brillance", "Fini mat toucher sec", "Recommande par les dermatologues", "Non-comedogene prouve"],
     },
     weaknesses: {
       en: ["Contains Homosalate + Octocrylene (controversial filters)", "Alcohol denat. present", "Too drying for dry skin", "Contains cyclomethicone (D5)"],
@@ -93858,7 +93858,7 @@ export const products: Product[] = [
     ],
     summary: {
       en: "Garnier's affordable anti-dark spots SPF fluid. Hyaluronic acid + iron oxides for visible light protection. L'Oreal UV filter system (Mexoryl XL, Tinosorb S). Ultralight fluid, invisible finish. Best budget EU sunscreen.",
-      fr: "Le fluide SPF anti-taches abordable de Garnier. Acide hyaluronique + oxydes de fer pour protection contre la lumiere visible. Systeme filtrant L'Oreal (Mexoryl XL, Tinosorb S). Fluide ultra-leger, fini invisible. Meilleur solaire EU budget.",
+      fr: "Le fluide SPF anti-taches abordable de Garnier. Acide hyaluronique + oxydes de fer pour protection contre la lumiere visible. Système filtrant L'Oreal (Mexoryl XL, Tinosorb S). Fluide ultra-leger, fini invisible. Meilleur solaire EU budget.",
     },
     strengths: {
       en: ["Best budget EU sunscreen", "Hyaluronic acid hydration", "Iron oxides for visible light", "Ultralight invisible texture", "Multiple EU UV filters"],
@@ -93934,11 +93934,11 @@ export const products: Product[] = [
     ],
     summary: {
       en: "Shiseido's flagship outdoor sunscreen. Legendary 'Auto Booster' technology - UV protection strengthens with heat and sweat. Hybrid mineral + chemical filter system with 8 UV filters. The gold standard in Japan for sports and outdoor use.",
-      fr: "Le solaire outdoor phare de Shiseido. Technologie 'Auto Booster' legendaire - la protection UV se renforce avec la chaleur et la transpiration. Systeme hybride mineral + chimique avec 8 filtres UV. La reference au Japon pour sport et plein air.",
+      fr: "Le solaire outdoor phare de Shiseido. Technologie 'Auto Booster' legendaire - la protection UV se renforce avec la chaleur et la transpiration. Système hybride mineral + chimique avec 8 filtres UV. La reference au Japon pour sport et plein air.",
     },
     strengths: {
       en: ["Auto Booster tech (stronger with heat/sweat)", "8 UV filters hybrid system", "Legendary water resistance", "Skincare ingredients (green tea, licorice)", "Trusted #1 in Japan for decades"],
-      fr: ["Tech Auto Booster (plus fort avec chaleur/transpiration)", "Systeme hybride 8 filtres UV", "Resistance a l'eau legendaire", "Ingredients soin (the vert, reglisse)", "N.1 de confiance au Japon depuis des decennies"],
+      fr: ["Tech Auto Booster (plus fort avec chaleur/transpiration)", "Système hybride 8 filtres UV", "Resistance a l'eau legendaire", "Ingredients soin (the vert, reglisse)", "N.1 de confiance au Japon depuis des decennies"],
     },
     weaknesses: {
       en: ["Contains fragrance", "Alcohol high in formula", "BHT preservative", "Octocrylene present", "Premium price"],
