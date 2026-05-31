@@ -7,7 +7,7 @@ export const siteConfig = {
   name: "SkinScore",
   tagline: "Your skincare is lying to you",
   description:
-    "67% of skincare products contain a concerning ingredient. SkinScore decodes every INCI list, scores products A to E across safety, efficacy, and skin-type fit. No brand pays us. La Mer gets a C. We don't care.",
+    "67% of skincare products contain a concerning ingredient. SkinScore decodes every INCI list, scores products A to E across safety, efficacy, and skin-type fit.'t care.",
   url: "https://getskinscore.com",
   appUrl: "https://app.getskinscore.com",
   locale: "en-US",
