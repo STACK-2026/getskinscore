@@ -42,6 +42,7 @@ export async function onRequest(context) {
     if (!env.SUPABASE_URL || !env.SUPABASE_SERVICE_KEY) return response;
 
     const payload = {
+      site: "getskinscore",
       path: path.slice(0, 500),
       referrer: (request.headers.get("referer") || "").slice(0, 500) || null,
       user_agent: ua.slice(0, 500),

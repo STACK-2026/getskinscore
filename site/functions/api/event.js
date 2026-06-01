@@ -43,7 +43,7 @@ export async function onRequestPost({ request, env }) {
       "Content-Type": "application/json",
       Prefer: "return=minimal",
     },
-    body: JSON.stringify({ type, target, page, session_id: sid }),
+    body: JSON.stringify({ site: "getskinscore", type, target, page, session_id: sid }),
   });
 
   if (!r.ok) {
