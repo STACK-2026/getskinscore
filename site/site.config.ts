@@ -7,7 +7,7 @@ export const siteConfig = {
   name: "SkinScore",
   tagline: "Your skincare is lying to you",
   description:
-    "67% of skincare products contain a concerning ingredient. SkinScore decodes every INCI list, scores products A to E across safety, efficacy, and skin-type fit.'t care.",
+    "67% of skincare products contain a concerning ingredient. SkinScore decodes every INCI list and scores products A to E across safety, efficacy, and skin-type fit.",
   url: "https://getskinscore.com",
   appUrl: "https://getskinscore.com/quiz",
   locale: "en-US",
