@@ -9,7 +9,7 @@ export const siteConfig = {
   description:
     "67% of skincare products contain a concerning ingredient. SkinScore decodes every INCI list, scores products A to E across safety, efficacy, and skin-type fit.'t care.",
   url: "https://getskinscore.com",
-  appUrl: "https://app.getskinscore.com",
+  appUrl: "https://getskinscore.com/quiz",
   locale: "en-US",
   language: "en",
 

@@ -89,7 +89,7 @@ Ta peau n'est pas juste un organe : c'est une interface entre ton cosmos intéri
 **Sensibilité comédogène** : très faible. Tu produis peu de sébum, donc tu ne formes presque jamais de comédons classiques. Par contre, tu peux développer des boutons inflammatoires (pustules, papules) si tu utilises des ingrédients irritants qui déclenchent une réponse immunitaire.  
 **Ingrédients à éviter** : pas tant pour leur comédogénicité que pour leur potentiel irritant : alcool denat (0/5 mais dessèche), parfums synthétiques, huiles essentielles non diluées. Mais si tu surcompenses ta déshydratation avec des huiles ultra-riches (coco, germe de blé), tu peux quand même boucher tes rares pores.  
 **Alternatives alignées** : [céramides](/blog/ceramides-barriere-cutanee-expliques/) (0/5), acide hyaluronique (0/5), [centella asiatica](/blog/centella-asiatica-cica-guide-complet/) (0/5), huile de chanvre (0/5), squalane (1/5).  
-**Conseil Karmastro** : ta peau Eau absorbe les émotions collectives comme une éponge. Ton skincare doit être apaisant, cocooning, mais non occlusif. Mise sur une [routine pour rosacée](/blog/rosacea-skincare-routine-what-to-avoid/) même si tu n'as pas de diagnostic officiel. Et consulte ton thème natal sur [https://app.getskinscore.com/theme-natal](https://app.getskinscore.com/theme-natal) pour comprendre tes cycles émotionnels et adapter ta routine.
+**Conseil Karmastro** : ta peau Eau absorbe les émotions collectives comme une éponge. Ton skincare doit être apaisant, cocooning, mais non occlusif. Mise sur une [routine pour rosacée](/blog/rosacea-skincare-routine-what-to-avoid/) même si tu n'as pas de diagnostic officiel. Et consulte ton thème natal sur [https://getskinscore.com/quiz](https://getskinscore.com/quiz) pour comprendre tes cycles émotionnels et adapter ta routine.
 
 ## Numérologie des ingrédients : calculez la vibration de votre routine beauté
 
@@ -121,7 +121,7 @@ Maintenant qu'on a posé les bases (échelle scientifique, profil astro-cutané,
 Sors tous tes produits. Lis les listes INCI (si tu ne sais pas comment, consulte notre guide [comment lire une liste INCI](/blog/how-to-read-inci-list-skincare/)). Identifie les ingrédients comédogènes de score 3 et plus. Note ceux qui reviennent dans plusieurs produits (c'est souvent là qu'est le problème : l'accumulation).
 
 ### 2. Consulte ton thème natal cutané
-Va sur [https://app.getskinscore.com/theme-natal](https://app.getskinscore.com/theme-natal) et entre ta date, heure et lieu de naissance. Karmastro génère ton profil astro-cutané complet : dominante élémentaire (Feu/Terre/Air/Eau), maisons planétaires influençant ta peau (Mars pour l'inflammation, Vénus pour l'hydratation, Saturne pour la barrière), et transits actuels. Si Saturne transite ta maison VI (santé, routine quotidienne), c'est le moment idéal pour purger ta routine.
+Va sur [https://getskinscore.com/quiz](https://getskinscore.com/quiz) et entre ta date, heure et lieu de naissance. Karmastro génère ton profil astro-cutané complet : dominante élémentaire (Feu/Terre/Air/Eau), maisons planétaires influençant ta peau (Mars pour l'inflammation, Vénus pour l'hydratation, Saturne pour la barrière), et transits actuels. Si Saturne transite ta maison VI (santé, routine quotidienne), c'est le moment idéal pour purger ta routine.
 
 ### 3. Calcule ta vibration idéale
 Détermine ton chemin de vie numérologique (somme de ta date de naissance réduite à un chiffre entre 1 et 9). Identifie les ingrédients dont la vibration correspond ou complète ton énergie naturelle. Si tu es chemin de vie 5 (liberté, changement, légèreté), privilégie les vibrations 0, 1 et 2. Si tu es chemin de vie 8 (pouvoir, structure, densité), tu tolères mieux les vibrations 2 et 3, mais évite absolument les 4 et 5 (surcharge garantie).
@@ -241,7 +241,7 @@ Maintenant qu'on a éliminé les pires coupables, voici les héros discrets : le
 **Origine** : version hydrogénée du squalène, naturellement présent dans le sébum humain (30 % de sa composition). Peut être dérivé de l'olive, de la canne à sucre, ou de requin (préférez les versions véganes).  
 **Pourquoi c'est non comédogène** : molécule biomimétique qui pénètre sans résidu gras. Elle restaure la barrière cutanée, apaise les inflammations, et ne nourrit pas *C. acnes*.  
 **Profils compatibles** : tous, absolument tous. Peau Feu, Terre, Air, Eau. Tous les chemins de vie numérologique. C'est l'ingrédient universel par excellence.  
-**Verdict SkinScore** : le squalane, c'est le signe Verseau du skincare : adaptable, futuriste, non conventionnel, mais efficace. On le retrouve dans des dizaines de produits bien notés sur [SkinScore](https://app.getskinscore.com). Pour plus de détails, consulte notre article sur [l'acide hyaluronique et les erreurs communes](/blog/acide-hyaluronique-erreurs-tout-monde/).
+**Verdict SkinScore** : le squalane, c'est le signe Verseau du skincare : adaptable, futuriste, non conventionnel, mais efficace. On le retrouve dans des dizaines de produits bien notés sur [SkinScore](https://getskinscore.com/quiz). Pour plus de détails, consulte notre article sur [l'acide hyaluronique et les erreurs communes](/blog/acide-hyaluronique-erreurs-tout-monde/).
 
 ### Huile de jojoba (Score : 2/5, vibration 1)
 **Origine** : extraite des graines de jojoba (*Simmondsia chinensis*). Techniquement une cire liquide, pas une huile.  
@@ -294,7 +294,7 @@ Maintenant qu'on a éliminé les pires coupables, voici les héros discrets : le
 ## FAQ : vos questions sur les ingrédients comédogènes
 
 ### Pourquoi ma peau réagit-elle différemment aux ingrédients comédogènes que celle de ma sœur ?
-Ta sensibilité aux ingrédients comédogènes dépend de plusieurs facteurs : ta génétique (certaines personnes ont des pores plus larges, une production de sébum plus intense), ton microbiome cutané (la composition bactérienne de ta peau influence l'inflammation), ton profil hormonal (les androgènes stimulent les glandes sébacées), et ton profil astro-cutané selon Karmastro. Une peau Feu/Mars (yang, inflammatoire) ne réagira pas comme une peau Eau/Lune (yin, déshydratée). Si ta sœur tolère l'huile de coco et pas toi, c'est normal : vous n'avez pas le même terrain énergétique. Fais ton propre thème natal cutané sur [https://app.getskinscore.com/theme-natal](https://app.getskinscore.com/theme-natal) pour comprendre tes spécificités.
+Ta sensibilité aux ingrédients comédogènes dépend de plusieurs facteurs : ta génétique (certaines personnes ont des pores plus larges, une production de sébum plus intense), ton microbiome cutané (la composition bactérienne de ta peau influence l'inflammation), ton profil hormonal (les androgènes stimulent les glandes sébacées), et ton profil astro-cutané selon Karmastro. Une peau Feu/Mars (yang, inflammatoire) ne réagira pas comme une peau Eau/Lune (yin, déshydratée). Si ta sœur tolère l'huile de coco et pas toi, c'est normal : vous n'avez pas le même terrain énergétique. Fais ton propre thème natal cutané sur [https://getskinscore.com/quiz](https://getskinscore.com/quiz) pour comprendre tes spécificités.
 
 ### Puis-je utiliser un ingrédient comédogène si je fais un double cleansing tous les soirs ?
 En théorie, oui. Le [double cleansing](/blog/double-cleansing-worth-it-science/) (nettoyage à l'huile puis nettoyant moussant) élimine les résidus gras et peut limiter l'accumulation d'ingrédients comédogènes. Mais en pratique, pourquoi prendre le risque ? Si tu as déjà une peau à tendance acnéique, privilégie directement des ingrédients non comédogènes. Ça te simplifie la vie et réduit les variables. Le double cleansing, c'est un filet de sécurité, pas une excuse pour utiliser n'importe quoi.
@@ -314,13 +314,13 @@ Ta peau, c'est ton interface avec le monde. Chaque ingrédient que tu y applique
 
 En éliminant les huiles lourdes (coco, germe de blé), les esters synthétiques occlusifs (myristate d'isopropyle, oléate de décyle), et en privilégiant les alternatives alignées (squalane, jojoba, céramides, niacinamide), tu ne fais pas que résoudre un problème dermatologique. Tu créées un espace de cohérence énergétique où ta peau peut enfin respirer, s'auto-réguler, et refléter ton équilibre intérieur.
 
-Chez Karmastro, on ne croit pas aux routines génériques. Ton chemin de vie numérologique, ton profil astro-cutané, tes transits planétaires actuels : tout ça influence ta sensibilité aux ingrédients. Consulte ton thème natal cutané sur [https://app.getskinscore.com/theme-natal](https://app.getskinscore.com/theme-natal), calcule la vibration de ta routine actuelle, et remplace consciemment les ingrédients qui ne servent plus ton alignement.
+Chez Karmastro, on ne croit pas aux routines génériques. Ton chemin de vie numérologique, ton profil astro-cutané, tes transits planétaires actuels : tout ça influence ta sensibilité aux ingrédients. Consulte ton thème natal cutané sur [https://getskinscore.com/quiz](https://getskinscore.com/quiz), calcule la vibration de ta routine actuelle, et remplace consciemment les ingrédients qui ne servent plus ton alignement.
 
 Et rappelle-toi : l'échelle de comédogénicité est un guide, pas une loi absolue. Ton ressenti prime toujours. Si un ingrédient de score 2 te fait pousser des boutons, écoute ta peau. Si un ingrédient de score 3 te convient parfaitement (rare, mais possible), garde-le. L'essentiel, c'est l'observation, la patience, et l'intention consciente.
 
 Ta peau mérite mieux que les conseils génériques de l'industrie cosmétique. Elle mérite une routine karmiquement juste.
 
-**Prochaine étape ?** Analyse ta routine actuelle sur [https://app.getskinscore.com](https://app.getskinscore.com), identifie les ingrédients comédogènes cachés, et reçois des recommandations personnalisées basées sur ton profil énergétique. Parce que ta peau, comme ton âme, aspire à la fluidité.
+**Prochaine étape ?** Analyse ta routine actuelle sur [https://getskinscore.com/quiz](https://getskinscore.com/quiz), identifie les ingrédients comédogènes cachés, et reçois des recommandations personnalisées basées sur ton profil énergétique. Parce que ta peau, comme ton âme, aspire à la fluidité.
 
 ## Sources
 

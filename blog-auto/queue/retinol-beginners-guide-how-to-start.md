@@ -465,4 +465,4 @@ Most beginner failures stem from impatience and poor pairing strategies. You now
 
 For deeper guidance on compatible actives, explore our [best anti-aging ingredients ranked by evidence](/blog/best-anti-aging-ingredients-ranked-evidence/), [ceramides explained for barrier health](/blog/ceramides-explained-why-your-barrier-needs-them/), and [niacinamide myths debunked](/blog/niacinamide-vitamin-c-together-myth-debunked/). And if you're curious about [bakuchiol as a gentler alternative](/blog/bakuchiol-vs-retinol-natural-alternative/), we've got you covered there too.
 
-Ready to start? Head to [https://app.getskinscore.com](https://app.getskinscore.com) and explore your full skincare profile. Your glowing skin awaits.
+Ready to start? Head to [https://getskinscore.com/quiz](https://getskinscore.com/quiz) and explore your full skincare profile. Your glowing skin awaits.

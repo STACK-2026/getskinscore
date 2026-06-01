@@ -436,4 +436,4 @@ Explorez les autres ingrédients puissants qui complètent le rétinol : [niacin
 
 Le rétinol est un investissement à long terme. Les premiers mois peuvent être inconfortables, mais après 3-4 mois, vous verrez une transformation que peu d'ingrédients offrent. Commencez doucement, soyez patient, et votre peau vous remerciera.
 
-Prêt à débuter ? [Accédez à notre analyse complète des meilleurs produits rétinol, notés par SkinScore.](https://app.getskinscore.com)
+Prêt à débuter ? [Accédez à notre analyse complète des meilleurs produits rétinol, notés par SkinScore.](https://getskinscore.com/quiz)

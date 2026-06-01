@@ -432,6 +432,6 @@ If your skin is dry, eczema-prone, or barrier-damaged, CeraVe is your answer. If
 
 The honest truth? The best moisturiser is the one you'll use twice daily for months without skipping a single application. Choose based on texture, feel, and your skin's actual needs, not hype.
 
-Ready to find your perfect match? **[Analyse your current moisturiser on SkinScore](https://app.getskinscore.com)** and get a personalised recommendation based on your ingredient profile and skin type.
+Ready to find your perfect match? **[Analyse your current moisturiser on SkinScore](https://getskinscore.com/quiz)** and get a personalised recommendation based on your ingredient profile and skin type.
 
 Your skin will thank you.
