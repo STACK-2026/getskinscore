@@ -1,6 +1,6 @@
 ---
 title: "Céramides : pourquoi ta barrière cutanée en a besoin"
-description: "Ce que font vraiment les céramides, les neuf types présents en cosmétique, pourquoi le ratio 3:1:1 compte, et comment choisir une crème barrière qui tient ses promesses."
+description: "Ce que font vraiment les céramides, les types présents en cosmétique, pourquoi le ratio 3:1:1 compte, et comment choisir une crème barrière efficace."
 date: 2026-06-02T07:11:00+02:00
 author: "dr-elena-voss"
 category: "ingredients"
