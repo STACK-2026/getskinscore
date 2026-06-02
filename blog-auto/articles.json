@@ -5702,7 +5702,8 @@
     },
     "title": "Ceramides explained: why your skin barrier needs them",
     "done": true,
-    "published_at": "2026-06-01"
+    "published_at": "2026-06-01",
+    "published": true
   },
   {
     "slug": "ceramides-barriere-cutanee-expliques",
@@ -5869,7 +5870,10 @@
         ]
       }
     },
-    "title": "Ceramides : pourquoi ta barriere cutanee en a besoin"
+    "title": "Ceramides : pourquoi ta barriere cutanee en a besoin",
+    "published": true,
+    "done": true,
+    "published_at": "2026-06-02"
   },
   {
     "slug": "spf-myths-debunked-dermatologist",
