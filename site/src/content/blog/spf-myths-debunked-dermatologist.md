@@ -23,6 +23,24 @@ Sunscreen is the most studied product in your bathroom and the most misunderstoo
 
 Before the myths, one number frames everything. The dermatology standard dose is two milligrams of sunscreen per square centimetre of skin, which works out to about a quarter teaspoon for the face and a full shot glass for the whole body. The [American Academy of Dermatology](https://www.aad.org/) states this plainly, and a frequently cited analysis in the *British Journal of Dermatology* found that typical real world use sits between a third and a half of that. Because SPF rises in a non-linear way with film thickness, applying half the dose does not give you half the SPF. It gives you something far lower. Keep that in mind as each myth falls.
 
+<nav class="not-prose my-8 rounded-xl border border-violet-200 bg-violet-50/60 px-6 py-5" aria-label="Table of contents">
+  <p class="text-xs font-bold uppercase tracking-wider text-violet-700 mb-3">Contents</p>
+  <ol class="list-decimal list-inside space-y-1.5 text-[15px] text-slate-700 marker:text-violet-400">
+    <li><a class="hover:text-violet-700 hover:underline underline-offset-2" href="#myth-1-a-base-tan-protects-you-from-burning">A base tan protects you from burning</a></li>
+    <li><a class="hover:text-violet-700 hover:underline underline-offset-2" href="#myth-2-spf-100-is-twice-as-strong-as-spf-50">SPF 100 is twice as strong as SPF 50</a></li>
+    <li><a class="hover:text-violet-700 hover:underline underline-offset-2" href="#myth-3-you-do-not-need-sunscreen-indoors">You do not need sunscreen indoors</a></li>
+    <li><a class="hover:text-violet-700 hover:underline underline-offset-2" href="#myth-4-cloudy-days-mean-you-can-skip-it">Cloudy days mean you can skip it</a></li>
+    <li><a class="hover:text-violet-700 hover:underline underline-offset-2" href="#myth-5-dark-skin-does-not-need-sunscreen">Dark skin does not need sunscreen</a></li>
+    <li><a class="hover:text-violet-700 hover:underline underline-offset-2" href="#myth-6-chemical-sunscreens-are-dangerous">Chemical sunscreens are dangerous</a></li>
+    <li><a class="hover:text-violet-700 hover:underline underline-offset-2" href="#myth-7-higher-spf-means-you-can-reapply-less">Higher SPF means you can reapply less</a></li>
+    <li><a class="hover:text-violet-700 hover:underline underline-offset-2" href="#myth-8-one-morning-application-lasts-all-day">One morning application lasts all day</a></li>
+    <li><a class="hover:text-violet-700 hover:underline underline-offset-2" href="#myth-9-sunscreen-blocks-all-your-vitamin-d">Sunscreen blocks all your vitamin D</a></li>
+    <li><a class="hover:text-violet-700 hover:underline underline-offset-2" href="#myth-10-sunscreen-is-only-about-skin-cancer">Sunscreen is only about skin cancer</a></li>
+    <li><a class="hover:text-violet-700 hover:underline underline-offset-2" href="#the-mistake-bigger-than-any-single-myth">The mistake bigger than any single myth</a></li>
+    <li><a class="hover:text-violet-700 hover:underline underline-offset-2" href="#faq">FAQ</a></li>
+  </ol>
+</nav>
+
 ## Myth 1: A base tan protects you from burning
 
 The belief is that a few controlled sessions early in the season build up a protective tan, so you can spend longer in the sun later without burning. This is one of the oldest and most harmful **sunscreen myths**, partly because it contains a sliver of truth wrapped around a dangerous error.
@@ -63,7 +81,7 @@ Melanin offers limited defence against UVA-driven photoaging and very little aga
 
 The fear around chemical, or organic, UV filters intensified after studies showed that some filters such as oxybenzone and avobenzone are absorbed into the bloodstream at detectable levels. Headlines ran with absorption as if it equalled harm. The science does not support that leap.
 
-In 2019 and 2020 the United States [Food and Drug Administration](https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-stay-safe-sun) published studies confirming that several common filters are absorbed systemically above the threshold that triggers further safety testing. The FDA was explicit on a crucial point: detecting a chemical in the blood is a call for more data, not evidence of harm, and people should continue using sunscreen because the risk of skin cancer is well established. There is no human evidence that approved UV filters cause the harms attributed to them online, and the filters used in Europe and Asia, such as Tinosorb S, Tinosorb M, Uvinul A Plus, and Mexoryl 400, are newer, more photostable, and not significantly absorbed.
+In 2019 and 2020 the United States [Food and Drug Administration](https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun) published studies confirming that several common filters are absorbed systemically above the threshold that triggers further safety testing. The FDA was explicit on a crucial point: detecting a chemical in the blood is a call for more data, not evidence of harm, and people should continue using sunscreen because the risk of skin cancer is well established. There is no human evidence that approved UV filters cause the harms attributed to them online, and the filters used in Europe and Asia, such as Tinosorb S, Tinosorb M, Uvinul A Plus, and Mexoryl 400, are newer, more photostable, and not significantly absorbed.
 
 The mineral versus chemical question is genuinely nuanced for sensitive and reactive skin, where mineral filters are often better tolerated. But framing modern chemical filters as a health hazard is not supported by toxicology. The proven danger is the UV, not the molecule that blocks it.
 
