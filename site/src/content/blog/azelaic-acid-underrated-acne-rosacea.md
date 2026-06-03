@@ -1,6 +1,6 @@
 ---
 title: "Azelaic Acid: The Most Underrated Ingredient for Acne and Rosacea"
-description: "Azelaic acid quietly outperforms most actives for acne, rosacea and dark spots. A dermato-cosmetic guide to concentrations, products and what the evidence really shows."
+description: "Azelaic acid quietly outperforms most actives for acne, rosacea and dark spots. A guide to concentrations, products and what the evidence really shows."
 date: 2026-06-03T07:11:00+02:00
 author: "Dr. Elena Voss"
 category: "ingredients"
