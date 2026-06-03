@@ -6053,7 +6053,8 @@
     },
     "title": "SPF myths debunked: 10 things you're getting wrong about sunscreen",
     "done": true,
-    "published_at": "2026-06-02"
+    "published_at": "2026-06-02",
+    "published": true
   },
   {
     "slug": "azelaic-acid-underrated-acne-rosacea",
@@ -6242,7 +6243,10 @@
         ]
       }
     },
-    "title": "Azelaic acid: the most underrated ingredient for acne and rosacea"
+    "title": "Azelaic acid: the most underrated ingredient for acne and rosacea",
+    "published": true,
+    "published_at": "2026-06-03",
+    "done": true
   },
   {
     "slug": "acide-azelaique-sous-estime-acne-rosacee",
