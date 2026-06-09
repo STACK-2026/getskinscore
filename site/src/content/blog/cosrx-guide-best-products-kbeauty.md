@@ -132,17 +132,17 @@ If you want to see how individual COSRX products score against the wider market,
 
 ## Frequently Asked Questions
 
-**Is COSRX snail mucin safe to use every day?**
+### Is COSRX snail mucin safe to use every day?
 Yes, for most people the Advanced Snail 96 Mucin Power Essence is gentle enough for daily, twice-daily use. It is a humectant, not an active, so it does not over-exfoliate or sensitize skin. Patch test first if you have never used snail-derived ingredients, since a small number of people react to them.
 
-**Can I use the COSRX BHA and Snail Essence together?**
+### Can I use the COSRX BHA and Snail Essence together?
 Yes. Apply the BHA Blackhead Power Liquid first on the nights you use it, wait a few minutes, then layer the Snail 96 Essence and your moisturizer on top. The essence helps offset any dryness from the acid. Just avoid stacking the BHA with an AHA or retinoid in the same session.
 
-**What is the difference between the COSRX Snail 96 Essence and the Snail 92 Cream?**
+### What is the difference between the COSRX Snail 96 Essence and the Snail 92 Cream?
 The 96 essence is a lightweight humectant step that hydrates but does not seal moisture in, suitable for all skin types. The 92 All in One Cream is a richer, occlusive moisturizer better suited to dry skin. Oily skin should use the essence with a separate light moisturizer; dry skin can use both or rely on the cream alone.
 
-**Is COSRX good for acne-prone skin?**
+### Is COSRX good for acne-prone skin?
 For mild congestion and blackheads, yes. The BHA Blackhead Power Liquid at 4% betaine salicylate is gentle and effective for unclogging pores, and the snail essence adds hydration without heaviness. For inflammatory or persistent acne, COSRX is a supporting routine rather than a standalone treatment, and you may need a dedicated acne plan.
 
-**Are COSRX products cruelty-free?**
+### Are COSRX products cruelty-free?
 COSRX is widely marketed as cruelty-free, but certification status and policies can change and vary by market. Verify the current status with an up-to-date certifying body before buying on that basis.
