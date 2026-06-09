@@ -74,6 +74,16 @@ KNOWN_SIBLING_SUPABASE_REFS = {
     "gfhloroqncrfzahkaihn": "petfoodrate-app",
 }
 
+# Sanctioned shared STACK-2026 collector (analytics / leads / forms).
+# Per the 2026-06-01 data architecture, each site's runtime tail (page_views,
+# events, leads) writes to ONE shared collector instead of a per-site Supabase.
+# Its anon key is INSERT-only under RLS, so referencing this ref in client code
+# is by design, not a leak. This is the ONLY non-self Supabase ref allowed in
+# runtime code; everything else still fails.
+SHARED_COLLECTOR_REFS = {
+    "vuzdnxlvrqsclpqmhkxn": "stack-2026-shared-collector (litiereagglomerante)",
+}
+
 KNOWN_SIBLING_DOMAINS = {
     "bebedecrypte.com": "BébéDécrypte",
     "petfoodrate.com": "PetFoodRate",
@@ -201,6 +211,8 @@ def scan(root: Path) -> list[dict]:
     self_domain = SELF_PROJECT["domain"]
     allowed_refs = set(SELF_PROJECT.get("own_supabase_refs") or {self_ref})
     allowed_refs.add(self_ref)
+    # The sanctioned shared collector is allowed in runtime code by design.
+    allowed_refs |= set(SHARED_COLLECTOR_REFS)
     allowed_domains = set(SELF_PROJECT.get("own_domains") or {self_domain})
     allowed_domains.add(self_domain)
     own_tokens = set(SELF_PROJECT.get("own_tokens") or ())
