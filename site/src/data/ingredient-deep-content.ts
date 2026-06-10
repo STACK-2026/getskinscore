@@ -76,7 +76,7 @@ export const ingredientDeepContent: IngredientDeepContent[] = [
       { label: "Kligman AM et al. Topical tretinoin for photoaged skin. JAMA 1986", url: "https://pubmed.ncbi.nlm.nih.gov/3511372/" },
       { label: "Fisher GJ et al. Mechanisms of photoaging and chronological skin aging. Arch Dermatol 2002", url: "https://pubmed.ncbi.nlm.nih.gov/12437452/" },
       { label: "Dhaliwal S et al. Bakuchiol vs retinol for facial photoaging. Br J Dermatol 2019", url: "https://pubmed.ncbi.nlm.nih.gov/29752714/" },
-      { label: "SCCS opinion on Vitamin A SCCS/1639/21", url: "https://health.ec.europa.eu/publications/opinion-vitamin-safety-use-cosmetic-products_en" },
+      { label: "SCCS opinion on Vitamin A SCCS/1639/21", url: "https://health.ec.europa.eu/publications/vitamin-retinol-retinyl-acetate-retinyl-palmitate_en" },
       { label: "EU CosIng entry: Retinol", url: "https://ec.europa.eu/growth/tools-databases/cosing/" },
     ],
   },
@@ -254,7 +254,7 @@ export const ingredientDeepContent: IngredientDeepContent[] = [
     sources: [
       { label: "Zeichner JA. Salicylic acid 2% vs benzoyl peroxide 2.5% trial 2010", url: "https://pubmed.ncbi.nlm.nih.gov/20941945/" },
       { label: "Arif T. Salicylic acid as a peeling agent review. Clin Cosmet Investig Dermatol 2015", url: "https://pubmed.ncbi.nlm.nih.gov/26347269/" },
-      { label: "SCCS opinion on Salicylic Acid SCCS/1601/18", url: "https://health.ec.europa.eu/publications/opinion-salicylic-acid-cas-no-69-72-7-submission-ii_en" },
+      { label: "SCCS opinion on Salicylic Acid SCCS/1601/18", url: "https://health.ec.europa.eu/publications/salicylic-acid-cas-no-69-72-7-ec-no-200-712-3_en" },
       { label: "EU CosIng entry: Salicylic Acid", url: "https://ec.europa.eu/growth/tools-databases/cosing/" },
       { label: "American Academy of Dermatology: Acne treatment", url: "https://www.aad.org/public/diseases/acne" },
     ],
@@ -701,7 +701,7 @@ export const ingredientDeepContent: IngredientDeepContent[] = [
       },
       {
         label: "Cosmetic Ingredient Review Expert Panel. Safety assessment of alpha-hydroxy acids. CIR 2016",
-        url: "https://www.cir-safety.org/sites/default/files/ahas072016FR.pdf"
+        url: "https://www.cir-safety.org/sites/default/files/ahas.pdf"
       },
       {
         label: "Moghimipour E. Lactic acid in melasma treatment. Journal of Cosmetic Dermatology 2017",
@@ -713,7 +713,7 @@ export const ingredientDeepContent: IngredientDeepContent[] = [
       },
       {
         label: "DermNet NZ. Lactic acid for keratosis pilaris. DermNet NZ 2023",
-        url: "https://dermnetnz.org/topics/lactic-acid"
+        url: "https://dermnetnz.org/topics/alpha-hydroxy-acid-facial-treatments"
       }
     ]
   },
@@ -795,7 +795,7 @@ export const ingredientDeepContent: IngredientDeepContent[] = [
       },
       {
         label: "DermNet NZ. Mandelic acid. 2021",
-        url: "https://dermnetnz.org/topics/mandelic-acid"
+        url: "https://dermnetnz.org/topics/alpha-hydroxy-acid-facial-treatments"
       },
       {
         label: "ACOG. Skin conditions during pregnancy. 2020",
@@ -971,7 +971,7 @@ export const ingredientDeepContent: IngredientDeepContent[] = [
       },
       {
         label: "DermNet NZ. Allantoin. DermNet NZ 2023",
-        url: "https://dermnetnz.org/topics/allantoin"
+        url: "https://dermnetnz.org/topics/emollients-and-moisturisers"
       }
     ]
   },
