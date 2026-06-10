@@ -86,7 +86,7 @@ The single biggest mistake with red marks is treating them like brown ones and r
 
 ## Sunscreen is the product that decides whether any of this works
 
-If you take one thing from this guide, take this: a brightening routine without daily sunscreen is pouring water into a leaking bucket. UV light reactivates the exact melanocytes you are trying to calm, so every brown mark you treat at night gets re-stimulated the next time you go outside unprotected. The [American Academy of Dermatology](https://www.aad.org/) and the British Association of Dermatologists both put daily broad-spectrum sun protection at the centre of any post-inflammatory pigmentation plan, and the [NHS](https://www.nhs.uk/conditions/sunscreen-and-sun-safety/) reinforces broad-spectrum daily use as the baseline.
+If you take one thing from this guide, take this: a brightening routine without daily sunscreen is pouring water into a leaking bucket. UV light reactivates the exact melanocytes you are trying to calm, so every brown mark you treat at night gets re-stimulated the next time you go outside unprotected. The [American Academy of Dermatology](https://www.aad.org/) and the British Association of Dermatologists both put daily broad-spectrum sun protection at the centre of any post-inflammatory pigmentation plan, and the [NHS](https://www.nhs.uk/live-well/seasonal-health/sunscreen-and-sun-safety/) reinforces broad-spectrum daily use as the baseline.
 
 Use a broad-spectrum SPF 50 every morning, rain or shine, and reapply across the day. Visible light, not just UV, drives pigmentation in deeper skin tones, which is why tinted mineral sunscreens with iron oxides are a smart upgrade for anyone fighting stubborn PIH. If you have oily or acne-prone skin and have written off sunscreen as greasy, our [best sunscreen for oily skin guide](/blog/best-sunscreen-oily-skin-no-white-cast/) covers the lightweight formulas that do not clog or shine.
 
@@ -167,7 +167,7 @@ Yes, every day, without exception. UV and visible light reactivate the pigment c
 
 1. American Academy of Dermatology. "Acne scars: who gets and causes" and "How to prevent and treat scars." [AAD](https://www.aad.org/)
 
-2. NHS. "Sunscreen and sun safety." [NHS](https://www.nhs.uk/conditions/sunscreen-and-sun-safety/)
+2. NHS. "Sunscreen and sun safety." [NHS](https://www.nhs.uk/live-well/seasonal-health/sunscreen-and-sun-safety/)
 
 3. Kaufman, B. P. et al. (2018). "Postinflammatory hyperpigmentation: epidemiology, clinical presentation, pathogenesis, and treatment." *American Journal of Clinical Dermatology*. [PubMed](https://pubmed.ncbi.nlm.nih.gov/29222629/)
 
