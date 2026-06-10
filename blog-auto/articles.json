@@ -7115,7 +7115,8 @@
     },
     "title": "COSRX complete guide: best K-beauty products ranked by SkinScore",
     "done": true,
-    "published_at": "2026-06-09"
+    "published_at": "2026-06-09",
+    "published": true
   },
   {
     "slug": "parabens-safe-science-truth",
@@ -7266,7 +7267,10 @@
         "grounding_sources": []
       }
     },
-    "title": "Are parabens safe? What the science actually says"
+    "title": "Are parabens safe? What the science actually says",
+    "published": true,
+    "done": true,
+    "published_at": "2026-06-10"
   },
   {
     "slug": "parabenes-dangereux-science-verite",
