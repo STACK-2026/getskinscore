@@ -61,7 +61,7 @@ La loi européenne est la plus stricte de la planète sur l'usage des parabènes
 
 Le propylparaben et le butylparaben sont plafonnés à 0,14 pour cent au total et interdits dans les produits sans rinçage pour le siège des bébés. Le méthylparaben et l'éthylparaben restent autorisés jusqu'à 0,4 pour cent chacun ou 0,8 pour cent combinés. L'**ANSES** applique le même cadre, sans restriction nationale supplémentaire au titre du [règlement cosmétique (CE) n° 1223/2009](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32009R1223).
 
-La FDA adopte une posture différente mais aboutit, pour les parabènes à chaîne courte, à une conclusion pratique similaire. La position publique de la FDA est que les données scientifiques actuelles ne montrent pas que les parabènes, tels qu'utilisés en cosmétique, aient un effet sur la santé humaine. L'American Academy of Dermatology reflète cette vue sur ses [pages dédiées aux ingrédients](https://www.aad.org/public/everyday-care/skin-care-basics/care/skincare-ingredients).
+La FDA adopte une posture différente mais aboutit, pour les parabènes à chaîne courte, à une conclusion pratique similaire. La position publique de la FDA est que les données scientifiques actuelles ne montrent pas que les parabènes, tels qu'utilisés en cosmétique, aient un effet sur la santé humaine. L'American Academy of Dermatology reflète cette vue sur ses [pages dédiées aux ingrédients](https://www.aad.org/public/everyday-care/skin-care-basics/care).
 
 ## Tous les parabènes ne se valent pas : chaîne courte contre chaîne longue
 

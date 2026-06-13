@@ -8,10 +8,24 @@ export type Merchant = {
   key: string;
   name: string;
   mid: string;
-  country: "FR" | "GB";
+  country: "FR" | "GB" | "INTL";
   domain: string;
   searchPath?: string;
   active: boolean;
+};
+
+// Universal fallback. Amazon carries every brand we cover (CeraVe, Cetaphil,
+// L'Oreal, The Ordinary...) that the Awin merchants (K-beauty + Foreo) do NOT,
+// so every product page gets at least one buy path instead of a dead end.
+// The actual marketplace (.com/.co.uk/.fr) and tracking tag are resolved at the
+// /go/ edge from the visitor's country — never at build time.
+export const AMAZON_MERCHANT: Merchant = {
+  key: "amazon",
+  name: "Amazon",
+  mid: "",
+  country: "INTL",
+  domain: "",
+  active: true,
 };
 
 export const MERCHANTS: Merchant[] = [
@@ -99,6 +113,7 @@ export function pickMerchantsForProduct(brand: string, locale: "en" | "fr"): Mer
   const b = brand.trim().toLowerCase();
   const out: Merchant[] = [];
 
+  // Awin merchants first (better commission) when they actually carry the brand.
   if (FOREO_BRANDS.has(b)) {
     if (locale === "fr") {
       const fr = MERCHANTS.find((m) => m.key === "foreo_fr" && m.active);
@@ -107,15 +122,13 @@ export function pickMerchantsForProduct(brand: string, locale: "en" | "fr"): Mer
       const uk = MERCHANTS.find((m) => m.key === "foreo_uk" && m.active);
       if (uk) out.push(uk);
     }
-    return out;
-  }
-
-  if (STYLEVANA_BRANDS.has(b)) {
+  } else if (STYLEVANA_BRANDS.has(b)) {
     const sv = MERCHANTS.find((m) => m.key === "stylevana_fr" && m.active);
     if (sv) out.push(sv);
-    return out;
   }
 
+  // Amazon always appended: universal coverage so no product page is a dead end.
+  out.push(AMAZON_MERCHANT);
   return out;
 }
 

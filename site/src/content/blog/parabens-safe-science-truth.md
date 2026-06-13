@@ -53,7 +53,7 @@ European law is the strictest on the planet for paraben use. The [SCCS opinion o
 
 Propylparaben and butylparaben are capped at 0.14 percent total and banned from leave on baby products on the nappy area. Methylparaben and ethylparaben remain authorised up to 0.4 percent each or 0.8 percent combined. France's [ANSM](https://ansm.sante.fr/) applies the same framework with no extra national restrictions.
 
-The FDA takes a different posture but reaches a similar practical place for short chain parabens. The FDA's public position is that current scientific data do not show that parabens, as used in cosmetics, have any effect on human health. The American Academy of Dermatology mirrors this view on its [AAD ingredient pages](https://www.aad.org/public/everyday-care/skin-care-basics/care/skincare-ingredients).
+The FDA takes a different posture but reaches a similar practical place for short chain parabens. The FDA's public position is that current scientific data do not show that parabens, as used in cosmetics, have any effect on human health. The American Academy of Dermatology mirrors this view on its [AAD ingredient pages](https://www.aad.org/public/everyday-care/skin-care-basics/care).
 
 ## Not all parabens are created equal: short chain vs long chain
 

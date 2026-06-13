@@ -25,6 +25,50 @@ const MERCHANTS = {
   },
 };
 
+// --- Amazon (universal fallback, geo-routed by visitor country) ---------------
+// Marketplaces are region-locked: a US visitor must land on amazon.com, a UK one
+// on amazon.co.uk, etc. Each marketplace needs its own Associates tracking tag,
+// supplied via CF Pages env (AMAZON_TAG_US / AMAZON_TAG_UK / AMAZON_TAG_FR).
+const AMAZON_MARKETPLACES = {
+  com: { domain: "https://www.amazon.com", tagEnv: "AMAZON_TAG_US" },
+  couk: { domain: "https://www.amazon.co.uk", tagEnv: "AMAZON_TAG_UK" },
+  fr: { domain: "https://www.amazon.fr", tagEnv: "AMAZON_TAG_FR" },
+};
+
+function amazonMarketplaceForCountry(country) {
+  const c = (country || "").toUpperCase();
+  if (["GB", "UK", "IE"].includes(c)) return "couk";
+  if (["FR", "BE", "LU", "MC"].includes(c)) return "fr";
+  return "com"; // US/CA + everything else (English content defaults to .com)
+}
+
+// Resolve the tag for a marketplace, falling back so a link is never tag-less:
+// missing US/UK tag -> use whatever is configured, finally the confirmed FR tag.
+function resolveAmazonTag(env, mpKey) {
+  const e = env || {};
+  return (
+    e[AMAZON_MARKETPLACES[mpKey].tagEnv] ||
+    e.AMAZON_TAG_US ||
+    e.AMAZON_TAG_UK ||
+    e.AMAZON_TAG_FR ||
+    "litiereagglo-21" // reused parc FR tag (amazon.fr) as last-resort default
+  );
+}
+
+function buildAmazonUrl(env, country, brand, name, clickref) {
+  const mpKey = amazonMarketplaceForCountry(country);
+  const mp = AMAZON_MARKETPLACES[mpKey];
+  const tag = resolveAmazonTag(env, mpKey);
+  const q = [brand, name].filter(Boolean).join(" ").trim() || "skincare";
+  const params = new URLSearchParams({
+    k: q,
+    tag,
+    linkCode: "ll2",
+    ascsubtag: clickref,
+  });
+  return `${mp.domain}/s?${params.toString()}`;
+}
+
 function buildAwin(mid, ued, clickref) {
   const params = new URLSearchParams({
     awinmid: mid,
@@ -62,7 +106,7 @@ function isBotUA(ua) {
   return BOT_UA_REGEX.test(ua);
 }
 
-export async function onRequestGet({ params, request }) {
+export async function onRequestGet({ params, request, env }) {
   if (isBotUA(request.headers.get("User-Agent"))) {
     return new Response("Forbidden", {
       status: 403,
@@ -75,6 +119,13 @@ export async function onRequestGet({ params, request }) {
   const merchantKey = sanitizeKey(url.searchParams.get("m"));
   const brand = sanitize(url.searchParams.get("b"), 80);
   const name = sanitize(url.searchParams.get("n"), 120);
+  const clickref = productId || "home";
+
+  // Amazon: geo-route to the visitor's local marketplace with its tag.
+  if (merchantKey === "amazon") {
+    const country = request.headers.get("CF-IPCountry") || "";
+    return Response.redirect(buildAmazonUrl(env, country, brand, name, clickref), 302);
+  }
 
   const merchant = MERCHANTS[merchantKey];
   if (!merchant) {
@@ -82,6 +133,5 @@ export async function onRequestGet({ params, request }) {
   }
 
   const ued = targetUrl(merchant, brand, name);
-  const clickref = productId || "home";
   return Response.redirect(buildAwin(merchant.mid, ued, clickref), 302);
 }
