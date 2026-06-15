@@ -22,7 +22,7 @@ const interactions = [
   { a: "Vitamin C", b: "Niacinamide", status: "ok", en: "Safe and beneficial together. The myth they cancel out is completely debunked. Many products contain both. They complement each other for brightening and barrier support.", fr: "Surs et benefiques ensemble. Le mythe qu'ils s'annulent est completement dementi. Beaucoup de produits contiennent les deux. Ils se complementent pour l'eclat et la barriere." },
   { a: "Vitamin C", b: "AHA/Glycolic Acid", status: "caution", en: "Can be used together but both are at low pH - potential for irritation. If your skin tolerates acids well, fine. For sensitive skin, use vitamin C in AM and AHA in PM.", fr: "Peuvent etre utilises ensemble mais les deux sont a pH bas - risque d'irritation. Si ta peau tolere bien les acides, OK. Pour peau sensible, vitamine C le matin et AHA le soir." },
   { a: "Vitamin C", b: "SPF", status: "synergy", en: "SYNERGY! Vitamin C enhances SPF photoprotection by up to 8x (with vitamin E and ferulic acid). Always use vitamin C under SPF in the morning for maximum protection.", fr: "SYNERGIE ! La vitamine C ameliore la photoprotection du SPF jusqu'a 8x (avec vitamine E et acide ferulique). Toujours utiliser la vitamine C sous le SPF le matin pour une protection maximale." },
-  { a: "Niacinamide", b: "AHA/BHA", status: "ok", en: "Safe together. Niacinamide actually helps calm irritation from acids. Apply acid first, wait a few minutes, then niacinamide. Some people experience flushing at very high niacinamide concentrations.", fr: "Surs ensemble. Le niacinamide aide a calmer l'irritation des acides. Applique l'acide d'abord, attends quelques minutes, puis niacinamide. Certaines personnes ressentent des rougeurs a tres haute concentration." },
+  { a: "Niacinamide", b: "AHA/BHA", status: "ok", en: "Safe together. Niacinamide actually helps calm irritation from acids. Apply acid first, wait a few minutes, then niacinamide. Some people expérience flushing at very high niacinamide concentrations.", fr: "Surs ensemble. Le niacinamide aide a calmer l'irritation des acides. Applique l'acide d'abord, attends quelques minutes, puis niacinamide. Certaines personnes ressentent des rougeurs a tres haute concentration." },
   { a: "AHA", b: "BHA", status: "caution", en: "Can be used together at moderate concentrations (like in The Ordinary Peeling Solution). But don't stack multiple strong acid products. If using both, start with BHA (oil-soluble, penetrates pores) then AHA (water-soluble, surface).", fr: "Peuvent etre utilises ensemble a concentrations moderees (comme dans le Peeling TO). Mais ne pas empiler plusieurs produits acides forts. Si les deux, commencer par le BHA (liposoluble, penetre les pores) puis AHA (hydrosoluble, surface)." },
   { a: "Benzoyl Peroxide", b: "Vitamin C", status: "avoid", en: "Avoid together. BP oxidizes vitamin C, making it ineffective. Use BP in PM and vitamin C in AM, or on different days.", fr: "Eviter ensemble. Le PB oxyde la vitamine C, la rendant inefficace. Utilise le PB le soir et la vitamine C le matin, ou des jours differents." },
   { a: "Copper Peptides", b: "Vitamin C", status: "avoid", en: "Avoid together. Copper ions can oxidize L-ascorbic acid, reducing its efficacy. Use copper peptides in PM and vitamin C in AM.", fr: "Eviter ensemble. Les ions cuivre peuvent oxyder l'acide L-ascorbique, reduisant son efficacite. Utilise les peptides de cuivre le soir et la vitamine C le matin." },
@@ -87,11 +87,11 @@ const interactions = [
     <div class="mt-10 pt-8 border-t border-slate-200 text-center">
       <p class="text-sm text-slate-400">
         {locale === "fr"
-          ? "Base sur la recherche dermatologique et les donnees EU CosIng. En cas de doute, consulte un dermatologue."
+          ? "Base sur la recherche dermatologique et les données EU CosIng. En cas de doute, consulte un dermatologue."
           : "Based on dermatological research and EU CosIng data. When in doubt, consult a dermatologist."}
       </p>
       <a href={localizedPath("/methodology", locale)} class="text-sm text-violet-600 hover:text-violet-700 font-medium">
-        {locale === "fr" ? "Voir notre methodologie" : "See our methodology"} &rarr;
+        {locale === "fr" ? "Voir notre méthodologie" : "See our methodology"} &rarr;
       </a>
     </div>
   </div>
