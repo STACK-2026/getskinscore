@@ -24,18 +24,18 @@ const randomIngredients = ingredients.filter((i) => i.score === "A").slice(0, 3)
 
     <h2 class="text-xl font-bold text-slate-800 mb-3">This formula doesn't exist</h2>
     <p class="text-slate-500 mb-10 max-w-md mx-auto leading-relaxed">
-      The ingredient you're looking for isn't in our database yet, or the URL has a typo. But don't worry, your skin journey doesn't end here.
+      The ingrédient you're looking for isn't in our database yet, or the URL has a typo. But don't worry, your skin journey doesn't end here.
     </p>
 
     <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
       <a href="/" class="btn-primary">Back to homepage</a>
       <a href="/rankings" class="btn-secondary">Browse rankings</a>
-      <a href="/encyclopedia" class="btn-secondary">Explore ingredients</a>
+      <a href="/encyclopedia" class="btn-secondary">Explore ingrédients</a>
     </div>
 
     <!-- Suggest some ingredients -->
     <div class="border-t border-slate-200 pt-10">
-      <p class="text-sm text-slate-400 mb-6 uppercase tracking-wider font-medium">While you're here, discover these A-rated ingredients</p>
+      <p class="text-sm text-slate-400 mb-6 uppercase tracking-wider font-medium">While you're here, discover these A-rated ingrédients</p>
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl mx-auto">
         {randomIngredients.map((ing) => (
           <a href={`/ingredient/${ing.id}`} class="card card-glow ingredient-glow flex items-center gap-3 !p-4 text-left">
