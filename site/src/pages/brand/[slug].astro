@@ -45,7 +45,7 @@ const title = locale === "fr"
   ? `${brand} avis : ${sorted.length} produits notes ${avgGrade} moyenne (${avgScore}/100) | ${siteConfig.name}`
   : `${brand} review: ${sorted.length} products scored ${avgGrade} avg (${avgScore}/100) | ${siteConfig.name}`;
 const description = locale === "fr"
-  ? `Avis ${brand} indépendant : ${sorted.length} produits decryptes, note moyenne ${avgGrade} (${avgScore}/100). Meilleur produit : ${bestProduct.name} (${bestProduct.score}). Liste complete, ingredients.`.slice(0, 175)
+  ? `Avis ${brand} independant : ${sorted.length} produits decryptes, note moyenne ${avgGrade} (${avgScore}/100). Meilleur produit : ${bestProduct.name} (${bestProduct.score}). Liste complete, ingredients.`.slice(0, 175)
   : `Independent ${brand} review: ${sorted.length} products analysed, average score ${avgGrade} (${avgScore}/100). Best: ${bestProduct.name} (${bestProduct.score}). Full ranking + ingredient breakdown.`.slice(0, 175);
 
 const breadcrumbs = [
@@ -169,7 +169,7 @@ const noIndex = sorted.length < 3;
       <h2 class="text-lg font-bold mb-3">{locale === "fr" ? `Notre avis sur ${brand}` : `Our verdict on ${brand}`}</h2>
       <p class="text-slate-600 leading-relaxed">
         {locale === "fr"
-          ? `${brand} obtient un score moyen de ${avgGrade} (${avgScore}/100) sur ${sorted.length} produits analyses par SkinScore. ${bestProduct.name} est leur meilleur produit avec un score de ${bestProduct.score} (${bestProduct.scoreNumeric}/100). Chaque produit est note selon cinq dimensions : efficacite, sécurité, comedogenicite, transparence et compatibilite avec le type de peau. Les notes sont indépendantes et basees sur l'analyse INCI, pas sur les affirmations marketing.`
+          ? `${brand} obtient un score moyen de ${avgGrade} (${avgScore}/100) sur ${sorted.length} produits analyses par SkinScore. ${bestProduct.name} est leur meilleur produit avec un score de ${bestProduct.score} (${bestProduct.scoreNumeric}/100). Chaque produit est note selon cinq dimensions : efficacite, securite, comedogenicite, transparence et compatibilite avec le type de peau. Les notes sont independantes et basees sur l'analyse INCI, pas sur les affirmations marketing.`
           : `${brand} scores an average of ${avgGrade} (${avgScore}/100) across ${sorted.length} products analysed by SkinScore. ${bestProduct.name} is their top-rated product with a score of ${bestProduct.score} (${bestProduct.scoreNumeric}/100). Each product is rated across five dimensions: efficacy, safety, comedogenicity, transparency, and skin-type fit. Ratings are independent and based on INCI analysis, not marketing claims.`}
       </p>
     </div>
