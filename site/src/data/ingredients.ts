@@ -310,7 +310,7 @@ export const ingredients: Ingredient[] = [
   {
     id: "panthenol",
     inciName: "Panthenol",
-    name: { en: "Panthenol (Pro-Vitamin B5)", fr: "Panthenol (Provitamine B5)" },
+    name: { en: "Panthenol (Pro-Vitamin B5)", fr: "Panthénol (Provitamine B5)" },
     category: "soothing",
     score: "A",
     color: "green",
@@ -356,7 +356,7 @@ export const ingredients: Ingredient[] = [
   {
     id: "tocopherol",
     inciName: "Tocopherol",
-    name: { en: "Vitamin E (Tocopherol)", fr: "Vitamine E (Tocopherol)" },
+    name: { en: "Vitamin E (Tocopherol)", fr: "Vitamine E (Tocophérol)" },
     category: "antioxidant",
     score: "A",
     color: "green",
@@ -384,7 +384,7 @@ export const ingredients: Ingredient[] = [
     comedogenic: 0,
     description: {
       en: "Ancient medicinal plant, a K-beauty hero ingredient. Contains madecassoside, asiaticoside, and asiatic acid. Powerful wound healer, anti-inflammatory, and collagen stimulator.",
-      fr: "Plante médicinale ancestrale, ingrédient star de la K-beauty. Contient madecassoside, asiaticoside et acide asiatique. Puissant cicatrisant, anti-inflammatoire et stimulateur de collagène."
+      fr: "Plante médicinale ancestrale, ingrédient star de la K-beauty. Contient madécassoside, asiaticoside et acide asiatique. Puissant cicatrisant, anti-inflammatoire et stimulateur de collagène."
     },
     benefits: { en: "Soothes, heals, stimulates collagen, anti-inflammatory, strengthens barrier", fr: "Apaise, cicatrise, stimule le collagène, anti-inflammatoire, renforce la barrière" },
     risks: { en: "Very well tolerated. Extremely rare sensitization.", fr: "Très bien toléré. Sensibilisation extrêmement rare." },
@@ -771,7 +771,7 @@ export const ingredients: Ingredient[] = [
   {
     id: "butylene-glycol",
     inciName: "Butylene Glycol",
-    name: { en: "Butylene Glycol", fr: "Butylene glycol" },
+    name: { en: "Butylene Glycol", fr: "Butylène glycol" },
     category: "humectant",
     score: "B",
     color: "green",
