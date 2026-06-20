@@ -21,17 +21,17 @@ const datasetSchema = jsonLdDataset({
   dateModified: BUILD_DATE_ISO,
   inLanguage: locale === "fr" ? "fr-FR" : "en-US",
   description: locale === "fr"
-    ? "Base de donnees SkinScore : 2 699 produits skincare notes de 0 a 100 sur cinq dimensions ponderees (efficacite, securite, comedogenicite, transparence, compatibilite peau), a partir de 30 000+ ingredients EU CosIng."
+    ? "Base de données SkinScore : 2 699 produits skincare notés de 0 à 100 sur cinq dimensions pondérées (efficacité, sécurité, comédogénicité, transparence, compatibilité peau), à partir de 30 000+ ingrédients EU CosIng."
     : "SkinScore database: 2,699 skincare products scored 0 to 100 across five weighted dimensions (efficacy, safety, comedogenicity, transparency, skin-type fit), built from 30,000+ EU CosIng ingredients.",
 });
 
 // FAQ: visible <details> below render the exact same Q/A as this schema (parity).
 const faqItems = locale === "fr"
   ? [
-      { question: "Que signifie le poids de 30% sur l'efficacite ?", answer: "L'efficacite compte pour 30% du score final, soit la plus forte ponderation. Concretement, le score final = 0,30 x efficacite + 0,25 x securite + 0,20 x comedogenicite + 0,15 x transparence + 0,10 x compatibilite peau. Un actif prouve bien positionne dans l'INCI pese donc plus qu'une simple mention de transparence." },
-      { question: "Pourquoi la comedogenicite est-elle separee de la securite ?", answer: "Un ingredient peut etre parfaitement sur (aucun allergene, aucune substance reglementee) et pourtant boucher les pores d'une peau grasse ou acneique. La securite mesure le risque reglementaire et allergene ; la comedogenicite mesure le risque d'obstruction des pores sur l'echelle 0-5. Les confondre cacherait un risque reel pour les peaux a tendance acneique." },
-      { question: "A quelle frequence les scores sont-ils recalcules ?", answer: "Des qu'un fabricant modifie sa formulation INCI, le score est recalcule dans les deux semaines. La fenetre typique de recalcul, mesuree sur les 2 699 produits du catalogue, est de 10 jours. La date de mise a jour est affichee sur chaque page produit." },
-      { question: "Une marque peut-elle acheter un meilleur score ?", answer: "Non. SkinScore n'accepte aucun paiement des marques pour influencer les notes, les classements ou le Dupe Finder. Les revenus proviennent de liens affilies vers des detaillants, qui n'affectent jamais les scores, et d'abonnements premium optionnels." },
+      { question: "Que signifie le poids de 30% sur l'efficacité ?", answer: "L'efficacité compte pour 30% du score final, soit la plus forte pondération. Concrètement, le score final = 0,30 x efficacité + 0,25 x sécurité + 0,20 x comédogénicité + 0,15 x transparence + 0,10 x compatibilité peau. Un actif prouvé bien positionné dans l'INCI pèse donc plus qu'une simple mention de transparence." },
+      { question: "Pourquoi la comédogénicité est-elle séparée de la sécurité ?", answer: "Un ingrédient peut être parfaitement sûr (aucun allergène, aucune substance réglementée) et pourtant boucher les pores d'une peau grasse ou acnéique. La sécurité mesure le risque réglementaire et allergène ; la comédogénicité mesure le risque d'obstruction des pores sur l'échelle 0-5. Les confondre cacherait un risque réel pour les peaux à tendance acnéique." },
+      { question: "À quelle fréquence les scores sont-ils recalculés ?", answer: "Dès qu'un fabricant modifie sa formulation INCI, le score est recalculé dans les deux semaines. La fenêtre typique de recalcul, mesurée sur les 2 699 produits du catalogue, est de 10 jours. La date de mise à jour est affichée sur chaque page produit." },
+      { question: "Une marque peut-elle acheter un meilleur score ?", answer: "Non. SkinScore n'accepte aucun paiement des marques pour influencer les notes, les classements ou le Dupe Finder. Les revenus proviennent de liens affiliés vers des détaillants, qui n'affectent jamais les scores, et d'abonnements premium optionnels." },
     ]
   : [
       { question: "What does the 30% efficacy weight mean?", answer: "Efficacy accounts for 30% of the final score, the heaviest weighting. The final score = 0.30 x efficacy + 0.25 x safety + 0.20 x comedogenicity + 0.15 x transparency + 0.10 x skin-type fit. A proven active positioned high in the INCI list therefore counts more than a transparency claim alone." },

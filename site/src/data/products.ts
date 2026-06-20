@@ -100,7 +100,7 @@ export const products: Product[] = [
     ],
     summary: {
       en: "The gold standard drugstore moisturizer. Three essential ceramides (NP, AP, EOP) with hyaluronic acid and niacinamide rebuild the skin barrier while locking in moisture. Developed with dermatologists, fragrance-free, suitable for eczema-prone skin.",
-      fr: "La reference des hydratants en pharmacie. Trois ceramides essentiels (NP, AP, EOP) avec acide hyaluronique et niacinamide restaurent la barriere cutanee. Developpe avec des dermatologues, sans parfum, adapte aux peaux a tendance eczema.",
+      fr: "La référence des hydratants en pharmacie. Trois céramides essentiels (NP, AP, EOP) avec acide hyaluronique et niacinamide restaurent la barrière cutanée. Développé avec des dermatologues, sans parfum, adapté aux peaux à tendance eczéma.",
     },
     strengths: {
       en: ["Three essential ceramides for barrier repair", "Fragrance-free, non-irritating", "Niacinamide + hyaluronic acid", "Excellent value (large format)"],
@@ -190,7 +190,7 @@ export const products: Product[] = [
     ],
     summary: {
       en: "The most popular serum in the world for good reason. High-concentration niacinamide (10%) paired with zinc PCA targets pores, oil control, and blemishes simultaneously. Clean formula, no fillers, transparent concentrations.",
-      fr: "Le serum le plus populaire au monde, a juste titre. Niacinamide a haute concentration (10%) associe au zinc PCA cible les pores, le contrôle du sebum et les imperfections simultanement. Formule clean, pas de fillers, concentrations transparentes.",
+      fr: "Le sérum le plus populaire au monde, à juste titre. Niacinamide à haute concentration (10%) associé au zinc PCA cible les pores, le contrôle du sébum et les imperfections simultanément. Formule clean, pas de fillers, concentrations transparentes.",
     },
     strengths: {
       en: ["High-dose niacinamide (10%) with proven efficacy", "Zinc PCA for oil control", "Incredibly affordable", "Transparent concentrations disclosed"],
@@ -536,7 +536,7 @@ export const products: Product[] = [
     ],
     summary: {
       en: "A classic gentle cleanser recommended by dermatologists for decades. However, the formula contains SLS and three parabens (methyl, propyl, butyl), which lower its safety score. Effective but dated formula compared to modern alternatives.",
-      fr: "Un classique recommande par les dermatologues depuis des decennies. Cependant, la formule contient du SLS et trois parabenes (methyl, propyl, butyl), ce qui baisse son score de securite. Efficace mais formule datee par rapport aux alternatives modernes.",
+      fr: "Un classique recommandé par les dermatologues depuis des décennies. Cependant, la formule contient du SLS et trois parabènes (methyl, propyl, butyl), ce qui baisse son score de sécurité. Efficace mais formule datée par rapport aux alternatives modernes.",
     },
     strengths: {
       en: ["Very gentle cleansing action", "Long dermatologist track record", "Affordable, large format", "No fragrance"],
@@ -582,7 +582,7 @@ export const products: Product[] = [
     ],
     summary: {
       en: "The gold standard vitamin C serum backed by a Duke University patent. 15% L-ascorbic acid + 1% vitamin E + 0.5% ferulic acid create a synergistic antioxidant trio that provides 8x photoprotection. The most researched vitamin C formula on the market.",
-      fr: "Le serum vitamine C de reference, brevete par Duke University. 15% d'acide L-ascorbique + 1% vitamine E + 0,5% acide ferulique creent un trio antioxydant synergique offrant 8x la photoprotection. La formule vitamine C la plus etudiee du marche.",
+      fr: "Le sérum vitamine C de référence, breveté par Duke University. 15% d'acide L-ascorbique + 1% vitamine E + 0,5% acide ferulique creent un trio antioxydant synergique offrant 8x la photoprotection. La formule vitamine C la plus etudiee du marche.",
     },
     strengths: {
       en: ["15% L-ascorbic acid at optimal pH", "Patented C+E+Ferulic synergy (8x photoprotection)", "Panthenol + hyaluronic acid support", "Most clinically studied vitamin C serum"],
@@ -765,7 +765,7 @@ export const products: Product[] = [
     ],
     summary: {
       en: "A French pharmacy powerhouse. 14% gluconolactone (PHA - gentler than AHA) + 4% niacinamide + salicylic acid + zinc PCA. Triple-action on pores, oil, and blemishes without irritation. PHA provides exfoliation without sun sensitivity.",
-      fr: "Un concentre de pharmacie francaise. 14% gluconolactone (PHA - plus doux que l'AHA) + 4% niacinamide + acide salicylique + zinc PCA. Triple action sur les pores, le sebum et les imperfections sans irritation.",
+      fr: "Un concentré de pharmacie française. 14% gluconolactone (PHA - plus doux que l'AHA) + 4% niacinamide + acide salicylique + zinc PCA. Triple action sur les pores, le sebum et les imperfections sans irritation.",
     },
     strengths: {
       en: ["14% PHA (gentle exfoliation, no sun sensitivity)", "Niacinamide + salicylic acid + zinc triple action", "Panthenol to soothe", "Excellent French pharmacy value"],
@@ -1086,7 +1086,7 @@ export const products: Product[] = [
     ],
     summary: {
       en: "La Roche-Posay's latest generation SPF50+ with Mexoryl 400, the first filter to protect against ultra-long UVA rays. Lightweight fluid, invisible finish, with added niacinamide. The dermatologist's go-to sunscreen.",
-      fr: "La derniere generation SPF50+ de La Roche-Posay avec Mexoryl 400, le premier filtre protegeant contre les UVA ultra-longs. Fluide leger, fini invisible, avec niacinamide ajoute. La creme solaire de reference des dermatologues.",
+      fr: "La dernière génération SPF50+ de La Roche-Posay avec Mexoryl 400, le premier filtre protégeant contre les UVA ultra-longs. Fluide léger, fini invisible, avec niacinamide ajouté. La crème solaire de référence des dermatologues.",
     },
     strengths: { en: ["Mexoryl 400 (ultra-long UVA protection)", "Niacinamide added", "Lightweight fluid texture", "Dermatologist gold standard SPF"], fr: ["Mexoryl 400 (protection UVA ultra-longs)", "Niacinamide ajoute", "Texture fluide legere", "Reference SPF des dermatologues"] },
     weaknesses: { en: ["Chemical UV filters (not mineral)", "Can leave slight white cast on dark skin", "Price per ml is high"], fr: ["Filtres UV chimiques (pas mineraux)", "Leger voile blanc possible sur peaux foncees", "Prix au ml eleve"] },
@@ -1152,7 +1152,7 @@ export const products: Product[] = [
     ],
     summary: {
       en: "A mass-market anti-aging cream with niacinamide and panthenol. Active ingredients are good but buried under fragrance, parabens, and polyethylene. The actives work, but the formula could be much cleaner.",
-      fr: "Une creme anti-age grand public avec niacinamide et panthenol. Les actifs sont bons mais noyes sous le parfum, les parabenes et le polyethylene. Les actifs fonctionnent, mais la formule pourrait etre bien plus propre.",
+      fr: "Une crème anti-âge grand public avec niacinamide et panthénol. Les actifs sont bons mais noyés sous le parfum, les parabènes et le polyéthylène. Les actifs fonctionnent, mais la formule pourrait être bien plus propre.",
     },
     strengths: { en: ["Niacinamide + panthenol + vitamin E", "Widely available", "Decent anti-aging actives"], fr: ["Niacinamide + panthenol + vitamine E", "Tres disponible", "Actifs anti-age corrects"] },
     weaknesses: { en: ["Fragrance", "Methylparaben + ethylparaben", "Polyethylene (microplastic)", "Low transparency on concentrations"], fr: ["Parfum", "Methylparabene + ethylparabene", "Polyethylene (microplastique)", "Faible transparence sur les concentrations"] },
@@ -93618,7 +93618,7 @@ export const products: Product[] = [
     ],
     summary: {
       en: "SVR's cult-favorite blurring sunscreen. Matte velvet finish that acts as a primer, pore-blurring effect, with 4 modern EU UV filters + niacinamide. The French pharmacy secret for oily skin.",
-      fr: "Le solaire flouteur culte de SVR. Fini mat velours qui fait office de base de maquillage, effet flouteur de pores, avec 4 filtres UV EU modernes + niacinamide. Le secret de la pharmacie francaise pour peaux grasses.",
+      fr: "Le solaire flouteur culte de SVR. Fini mat velours qui fait office de base de maquillage, effet flouteur de pores, avec 4 filtres UV EU modernes + niacinamide. Le secret de la pharmacie française pour peaux grasses.",
     },
     strengths: {
       en: ["Blurring primer effect", "Matte velvet finish", "Niacinamide included", "4 modern EU filters", "Excellent value"],
@@ -94468,7 +94468,7 @@ export const products: Product[] = [
     ],
     summary: {
       en: "CeraVe's 100% mineral face sunscreen with their signature ceramide complex. Zinc oxide + titanium dioxide. 3 essential ceramides + niacinamide + hyaluronic acid. Fragrance-free, non-comedogenic. The sensitive skin mineral gold standard.",
-      fr: "Le solaire mineral visage 100% de CeraVe avec leur complexe ceramide signature. Oxyde de zinc + dioxyde de titane. 3 ceramides essentiels + niacinamide + acide hyaluronique. Sans parfum, non comedogene. La reference minerale pour peaux sensibles.",
+      fr: "Le solaire minéral visage 100% de CeraVe avec leur complexe céramide signature. Oxyde de zinc + dioxyde de titane. 3 céramides essentiels + niacinamide + acide hyaluronique. Sans parfum, non comédogène. La référence minérale pour peaux sensibles.",
     },
     strengths: {
       en: ["100% mineral (zinc + titanium)", "3 ceramides + niacinamide + HA", "Fragrance-free, non-comedogenic", "Sensitive skin approved", "Affordable for mineral SPF"],
