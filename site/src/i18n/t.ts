@@ -100,7 +100,7 @@ export const tr = {
     q1: { en: "How does SkinScore rate skincare products?", fr: "Comment SkinScore note les produits skincare ?" },
     a1: {
       en: "SkinScore analyses every ingredient in a product's INCI list across five dimensions: efficacy (proven actives like retinol, niacinamide, vitamin C), safety (allergens, irritants, EU-restricted substances), comedogenicity (pore-clogging risk), transparency (full ingredient disclosure, certifications), and skin-type fit. Each dimension is scored and combined into a final A-to-E grade.",
-      fr: "SkinScore analyse chaque ingrédient de la liste INCI d'un produit selon cinq dimensions : efficacité (actifs prouvés comme le retinol, niacinamide, vitamine C), sécurité (allergènes, irritants, substances réglementées UE), comédogénicité (risque d'obstruction des pores), transparence (divulgation complète, certifications) et compatibilité avec le type de peau. Chaque dimension est notée puis combinée en une note finale de A à E.",
+      fr: "SkinScore analyse chaque ingrédient de la liste INCI d'un produit selon cinq dimensions : efficacité (actifs prouvés comme le rétinol, niacinamide, vitamine C), sécurité (allergènes, irritants, substances réglementées UE), comédogénicité (risque d'obstruction des pores), transparence (divulgation complète, certifications) et compatibilité avec le type de peau. Chaque dimension est notée puis combinée en une note finale de A à E.",
     },
     q2: { en: "Is SkinScore independent?", fr: "SkinScore est-il indépendant ?" },
     a2: {
@@ -115,7 +115,7 @@ export const tr = {
     q4: { en: "Can SkinScore recommend a routine?", fr: "SkinScore peut-il recommander une routine ?" },
     a4: {
       en: "Yes. Take our 2-minute skin quiz to get a personalised AM/PM routine recommendation based on your skin type, concerns, and budget. Every product recommended is backed by its SkinScore rating.",
-      fr: "Oui. Fais notre quiz peau de 2 minutes pour obtenir une routine AM/PM personnalisée selon ton type de peau, tes préoccupations et ton budget. Chaque produit recommande est soutenu par sa note SkinScore.",
+      fr: "Oui. Fais notre quiz peau de 2 minutes pour obtenir une routine AM/PM personnalisée selon ton type de peau, tes préoccupations et ton budget. Chaque produit recommandé est soutenu par sa note SkinScore.",
     },
   },
 
@@ -129,13 +129,13 @@ export const tr = {
   // Product page
   product: {
     overallScore: { en: "Overall score", fr: "Score global" },
-    subScores: { en: "Score breakdown", fr: "Detail des scores" },
+    subScores: { en: "Score breakdown", fr: "Détail des scores" },
     efficacy: { en: "Efficacy", fr: "Efficacité" },
     safety: { en: "Safety", fr: "Sécurité" },
     comedogenicity: { en: "Comedogenicity", fr: "Comédogénicité" },
     transparency: { en: "Transparency", fr: "Transparence" },
     skinTypeFit: { en: "Skin-type fit", fr: "Compatibilité peau" },
-    ingredients: { en: "Full ingredient list", fr: "Liste complete des ingredients" },
+    ingredients: { en: "Full ingredient list", fr: "Liste complète des ingrédients" },
     strengths: { en: "Strengths", fr: "Points forts" },
     weaknesses: { en: "Weaknesses", fr: "Points faibles" },
     alternatives: { en: "Better alternatives", fr: "Meilleures alternatives" },
@@ -144,7 +144,7 @@ export const tr = {
   // Ingredient page
   ingredient: {
     benefits: { en: "Benefits", fr: "Bienfaits" },
-    risks: { en: "Risks & concerns", fr: "Risques et precautions" },
+    risks: { en: "Risks & concerns", fr: "Risques et précautions" },
     goodFor: { en: "Best for", fr: "Idéal pour" },
     badFor: { en: "Avoid if", fr: "Éviter si" },
     foundIn: { en: "Found in", fr: "Présent dans" },

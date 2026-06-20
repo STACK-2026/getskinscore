@@ -38,7 +38,7 @@ const heroMorphPhrases = locale === "fr"
 
 // Badge rotating phrases
 const badgePhrases = locale === "fr"
-  ? ["67% des soins contiennent un ingrédient douteux", "La Mer à 350 EUR obtient un C. Nivea à 5 EUR aussi.", "Le parfum est l'allergène n1 en cosmétique", "2 700+ soins notés de A à E. Aucune marque ne nous paie.", "Ton sérum à 80 EUR a les mêmes actifs que celui à 12 EUR"]
+  ? ["67% des soins contiennent un ingrédient douteux", "La Mer à 350 EUR obtient un C. Nivea à 5 EUR aussi.", "Le parfum est l'allergène n°1 en cosmétique", "2 700+ soins notés de A à E. Aucune marque ne nous paie.", "Ton sérum à 80 EUR a les mêmes actifs que celui à 12 EUR"]
   : ["67% of skincare products contain a concerning ingredient", "La Mer at 350 EUR scores a C. Nivea at 5 EUR also scores C.", "Fragrance is the #1 allergen in cosmetics", "2,700+ products scored A to E. No brand pays us.", "Your 80 EUR serum has the same actives as this 12 EUR one"];
 
 // CTA morph phrases
@@ -662,8 +662,8 @@ const subScoreLabels = [
 
     <div class="reveal-children space-y-6">
       {[
-        { label: locale === "fr" ? "Luxe" : "Luxury", brands: ["La Mer", "Chanel", "Dior", "Estee Lauder", "Lancome", "Shiseido", "SK-II", "Tatcha"] },
-        { label: locale === "fr" ? "Pharmacie" : "Dermatologist", brands: ["CeraVe", "La Roche-Posay", "Bioderma", "Avene", "SVR", "Vichy", "Eucerin", "Nuxe"] },
+        { label: locale === "fr" ? "Luxe" : "Luxury", brands: ["La Mer", "Chanel", "Dior", "Estee Lauder", "Lancôme", "Shiseido", "SK-II", "Tatcha"] },
+        { label: locale === "fr" ? "Pharmacie" : "Dermatologist", brands: ["CeraVe", "La Roche-Posay", "Bioderma", "Avène", "SVR", "Vichy", "Eucerin", "Nuxe"] },
         { label: "Indie / Clean", brands: ["The Ordinary", "Drunk Elephant", "Paula's Choice", "Rhode", "Glow Recipe"] },
         { label: "K-beauty / J-beauty", brands: ["COSRX", "Hada Labo", "Purito", "Klairs", "Missha", "Anua", "Laneige", "Torriden"] },
       ].map((category) => (

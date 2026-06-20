@@ -33,7 +33,7 @@ const totalBrands = new Set(products.map((p) => p.brand).filter(Boolean)).size;
 
       <p class="sk-final-body">
         {locale === "fr"
-          ? "Decrypte tes produits en 30 secondes. Grade A a E sur 5 dimensions. Aucune marque ne nous paie."
+          ? "Décrypte tes produits en 30 secondes. Grade A à E sur 5 dimensions. Aucune marque ne nous paie."
           : "Decode your products in 30 seconds. A-to-E grading on 5 dimensions. No brand pays us."}
       </p>
 
@@ -52,11 +52,11 @@ const totalBrands = new Set(products.map((p) => p.brand).filter(Boolean)).size;
       <dl class="sk-final-grid">
         <div class="sk-final-stat">
           <dt class="sk-final-stat-num" data-count={totalProducts}>{totalProducts}</dt>
-          <dd class="sk-final-stat-label">{locale === "fr" ? "produits notes" : "products graded"}</dd>
+          <dd class="sk-final-stat-label">{locale === "fr" ? "produits notés" : "products graded"}</dd>
         </div>
         <div class="sk-final-stat">
           <dt class="sk-final-stat-num" data-count={totalIngredients}>{totalIngredients}</dt>
-          <dd class="sk-final-stat-label">{locale === "fr" ? "ingredients INCI" : "INCI ingredients"}</dd>
+          <dd class="sk-final-stat-label">{locale === "fr" ? "ingrédients INCI" : "INCI ingredients"}</dd>
         </div>
         <div class="sk-final-stat">
           <dt class="sk-final-stat-num" data-count={totalBrands}>{totalBrands}</dt>
