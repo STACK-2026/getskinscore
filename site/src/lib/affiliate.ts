@@ -18,7 +18,7 @@ export type Merchant = {
 // L'Oreal, The Ordinary...) that the Awin merchants (K-beauty + Foreo) do NOT,
 // so every product page gets at least one buy path instead of a dead end.
 // The actual marketplace (.com/.co.uk/.fr) and tracking tag are resolved at the
-// /go/ edge from the visitor's country — never at build time.
+// /go/ edge from the visitor's country, never at build time.
 export const AMAZON_MERCHANT: Merchant = {
   key: "amazon",
   name: "Amazon",

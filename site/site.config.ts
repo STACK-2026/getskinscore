@@ -16,7 +16,7 @@ export const siteConfig = {
   // Bilingual
   locales: [
     { code: "en", label: "English", path: "/" },
-    { code: "fr", label: "Francais", path: "/fr/" },
+    { code: "fr", label: "Français", path: "/fr/" },
   ],
 
   // Branding - clean science, warm but clinical
@@ -180,19 +180,19 @@ export const siteConfig = {
   productTypes: [
     { id: "cleanser", label: { en: "Cleanser", fr: "Nettoyant" } },
     { id: "moisturizer", label: { en: "Moisturizer", fr: "Hydratant" } },
-    { id: "serum", label: { en: "Serum", fr: "Serum" } },
+    { id: "serum", label: { en: "Serum", fr: "Sérum" } },
     { id: "sunscreen", label: { en: "Sunscreen", fr: "Protection solaire" } },
     { id: "exfoliant", label: { en: "Exfoliant", fr: "Exfoliant" } },
     { id: "mask", label: { en: "Mask", fr: "Masque" } },
     { id: "toner", label: { en: "Toner", fr: "Lotion tonique" } },
     { id: "eye-cream", label: { en: "Eye cream", fr: "Contour des yeux" } },
-    { id: "lip-care", label: { en: "Lip care", fr: "Soin des levres" } },
+    { id: "lip-care", label: { en: "Lip care", fr: "Soin des lèvres" } },
     { id: "body-care", label: { en: "Body care", fr: "Soin du corps" } },
   ],
 
   // Skin types
   skinTypes: [
-    { id: "dry", label: { en: "Dry", fr: "Seche" } },
+    { id: "dry", label: { en: "Dry", fr: "Sèche" } },
     { id: "oily", label: { en: "Oily", fr: "Grasse" } },
     { id: "combination", label: { en: "Combination", fr: "Mixte" } },
     { id: "sensitive", label: { en: "Sensitive", fr: "Sensible" } },

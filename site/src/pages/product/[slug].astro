@@ -4,7 +4,7 @@ import { products, type Product } from "../../data/products";
 import { getIngredient } from "../../data/ingredients";
 import { getStarContent } from "../../data/star-product-content";
 import { siteConfig } from "../../../site.config";
-import { fullUrl, gradeClass } from "../../utils/config";
+import { fullUrl, gradeClass, BUILD_DATE_ISO, updatedLabel } from "../../utils/config";
 import { jsonLdProduct, jsonLdBreadcrumbs, jsonLdFaq } from "../../utils/seo";
 import { getLocale, t, tr, localizedPath } from "../../i18n/t";
 import BuyCTA from "../../components/BuyCTA.astro";
@@ -37,6 +37,7 @@ const jsonLd = [
     url,
     score: product.score,
     scoreNumeric: product.scoreNumeric,
+    dateModified: BUILD_DATE_ISO,
   }),
   jsonLdBreadcrumbs(breadcrumbs),
   ...(star?.faq?.length ? [jsonLdFaq(star.faq.map((f) => ({ question: t(f.question, locale), answer: t(f.answer, locale) })))] : []),
@@ -233,7 +234,14 @@ const noIndex = !isEnriched;
 
     <!-- Full ingredient list -->
     <section class="mb-10">
-      <h2 class="text-xl font-bold mb-4">{t(tr.product.ingredients, locale)}</h2>
+      <div class="flex items-baseline justify-between flex-wrap gap-2 mb-4">
+        <h2 class="text-xl font-bold">{t(tr.product.ingredients, locale)}</h2>
+        <p class="text-xs text-slate-500">
+          {locale === "fr"
+            ? `Formule analysée à partir de l'INCI déclaré · ${updatedLabel("fr")}`
+            : `Formula analysed from the declared INCI · ${updatedLabel("en")}`}
+        </p>
+      </div>
       <div class="space-y-1">
         {product.ingredients.map((ing) => {
           const detail = ing.ingredientId ? getIngredient(ing.ingredientId) : null;
@@ -264,7 +272,7 @@ const noIndex = !isEnriched;
 
     <!-- Best for -->
     <section class="mb-10">
-      <h3 class="text-base font-bold mb-3">{locale === "fr" ? "Ideal pour" : "Best for"}</h3>
+      <h3 class="text-base font-bold mb-3">{locale === "fr" ? "Idéal pour" : "Best for"}</h3>
       <div class="flex flex-wrap gap-2">
         {product.bestFor.map((st) => (
           <span class="text-sm font-medium px-3 py-1 rounded-full bg-violet-50 text-violet-700 capitalize">{st} {locale === "fr" ? "peau" : "skin"}</span>
@@ -307,7 +315,7 @@ const noIndex = !isEnriched;
         <!-- What to expect -->
         <section>
           <h2 class="text-lg font-bold mb-3">
-            {locale === "fr" ? "A quoi s'attendre" : "What to expect"}
+            {locale === "fr" ? "À quoi s'attendre" : "What to expect"}
           </h2>
           <div class="card !bg-amber-50/30 !border-amber-200/50">
             <p class="text-slate-700 leading-relaxed">{t(star.whatToExpect, locale)}</p>
@@ -317,7 +325,7 @@ const noIndex = !isEnriched;
         <!-- Common mistakes -->
         <section>
           <h2 class="text-lg font-bold mb-3">
-            {locale === "fr" ? "Erreurs a eviter" : "Common mistakes"}
+            {locale === "fr" ? "Erreurs à éviter" : "Common mistakes"}
           </h2>
           <div class="card !bg-red-50/30 !border-red-200/50">
             <p class="text-slate-700 leading-relaxed whitespace-pre-line">{t(star.commonMistakes, locale)}</p>

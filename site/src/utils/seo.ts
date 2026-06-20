@@ -129,6 +129,7 @@ export function jsonLdProduct(opts: {
   image?: string;
   score: string;
   scoreNumeric: number;
+  dateModified?: string;
 }) {
   return {
     "@context": "https://schema.org",
@@ -140,6 +141,7 @@ export function jsonLdProduct(opts: {
     image: opts.image,
     review: {
       "@type": "Review",
+      ...(opts.dateModified ? { dateModified: opts.dateModified } : {}),
       reviewRating: {
         "@type": "Rating",
         ratingValue: opts.scoreNumeric,
@@ -148,5 +150,50 @@ export function jsonLdProduct(opts: {
       },
       author: { "@id": `${siteConfig.url}/#organization` },
     },
+  };
+}
+
+// First-party dataset schema. Only declare metrics already shown in HTML.
+// Used on /methodology and /rankings to make the SkinScore database a
+// citable, versioned source for LLMs (schema.org/Dataset).
+export function jsonLdDataset(opts: {
+  url: string;
+  dateModified: string;
+  inLanguage?: string;
+  description: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    name: "SkinScore Product Database",
+    description: opts.description,
+    url: opts.url,
+    keywords: [
+      "skincare scoring",
+      "INCI analysis",
+      "cosmetic ingredient safety",
+      "product efficacy",
+      "comedogenicity",
+    ],
+    variableMeasured: [
+      { "@type": "PropertyValue", name: "Efficacy", description: "Presence and position of proven actives. Weight 30%." },
+      { "@type": "PropertyValue", name: "Safety", description: "Absence of harmful or EU-restricted ingredients. Weight 25%." },
+      { "@type": "PropertyValue", name: "Comedogenicity", description: "Pore-clogging risk on the 0-5 comedogenic scale. Weight 20%." },
+      { "@type": "PropertyValue", name: "Transparency", description: "Full INCI disclosure and certifications. Weight 15%." },
+      { "@type": "PropertyValue", name: "Skin-type fit", description: "Suitability for the declared skin type. Weight 10%." },
+    ],
+    measurementTechnique: "SkinScore Methodology v1.0: five weighted dimensions scored 0-100 from declared INCI lists.",
+    license: "https://getskinscore.com/methodology",
+    isAccessibleForFree: true,
+    datePublished: "2026-04-12",
+    dateModified: opts.dateModified,
+    spatialCoverage: "Worldwide",
+    inLanguage: opts.inLanguage || "en-US",
+    creator: { "@id": `${siteConfig.url}/#organization` },
+    publisher: { "@id": `${siteConfig.url}/#organization` },
+    citation: [
+      { "@type": "CreativeWork", name: "EU CosIng database", url: "https://ec.europa.eu/growth/tools-databases/cosing/" },
+      { "@type": "CreativeWork", name: "SCCS opinions on cosmetic ingredients", url: "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en" },
+    ],
   };
 }

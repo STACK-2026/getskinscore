@@ -2,26 +2,44 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { products } from "../../data/products";
 import { siteConfig } from "../../../site.config";
-import { fullUrl, gradeClass } from "../../utils/config";
-import { jsonLdBreadcrumbs } from "../../utils/seo";
+import { fullUrl, gradeClass, BUILD_DATE_ISO, updatedLabel } from "../../utils/config";
+import { jsonLdBreadcrumbs, jsonLdDataset, jsonLdFaq } from "../../utils/seo";
 
 const sorted = [...products].sort((a, b) => b.scoreNumeric - a.scoreNumeric);
+const aCount = sorted.filter((p) => p.score === "A").length;
 const breadcrumbs = [
   { name: "Accueil", url: fullUrl("/fr/") },
   { name: "Classement", url: fullUrl("/fr/rankings") },
 ];
+
+const datasetSchema = jsonLdDataset({
+  url: fullUrl("/fr/rankings"),
+  dateModified: BUILD_DATE_ISO,
+  inLanguage: "fr-FR",
+  description: `Classement SkinScore de ${sorted.length} produits skincare notes de A a E sur cinq dimensions ponderees, dont ${aCount} produits notes A.`,
+});
+
+const faqItems = [
+  { question: "À quelle fréquence le classement est-il recalculé ?", answer: `Le classement couvre ${sorted.length} produits et chaque score est recalculé dès qu'un fabricant modifie sa formulation INCI, dans une fenêtre typique de 10 jours. La date de mise à jour est affichée en haut de cette page.` },
+  { question: "Pourquoi un produit obtient-il un B et pas un A ?", answer: "Un B (70 à 84) signifie un compromis mineur sur l'une des cinq dimensions : un actif efficace mais un peu de parfum, ou une formule sûre mais sans concentration déclarée. Un A (85 à 100) exige l'excellence sur les cinq axes simultanément." },
+  { question: "Comment lire le classement pour mon type de peau ?", answer: "Un score global élevé ne garantit pas l'adéquation à ta peau. Ouvre la fiche produit et vérifie le sous-score compatibilité peau pour ton profil (sèche, grasse, mixte, sensible, normale) avant d'acheter." },
+];
+const faqSchema = jsonLdFaq(faqItems);
 ---
 
 <BaseLayout
   title={`Classement skincare · Meilleurs produits notés de A à E | ${siteConfig.name}`}
   description={`${sorted.length} produits skincare notés de A à E. Indépendant, basé sur la science, jamais influencé par les marques.`}
-  jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
+  jsonLd={[jsonLdBreadcrumbs(breadcrumbs), datasetSchema, faqSchema]}
 >
   <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
     <div class="text-center mb-8">
       <h1 class="mb-3">Classement skincare</h1>
       <p class="text-slate-600 max-w-2xl mx-auto">
         {sorted.length} produits notés de A à E. Indépendant, basé sur la science, jamais influencé par les marques.
+      </p>
+      <p class="text-xs text-slate-500 mt-3">
+        {aCount} produits notés A · scores recalculés mensuellement · {updatedLabel("fr")}
       </p>
     </div>
 
@@ -99,6 +117,24 @@ const breadcrumbs = [
               </a>
             );
           })}
+      </div>
+    </div>
+
+    <!-- FAQ: HTML visible en parité exacte avec le schéma FAQPage -->
+    <div class="mt-16 pt-12 border-t border-slate-200 max-w-3xl mx-auto">
+      <h2 class="text-xl font-bold mb-6">Questions fréquentes</h2>
+      <div class="space-y-3">
+        {faqItems.map((item, i) => (
+          <details class="card !p-0 overflow-hidden" open={i === 0}>
+            <summary class="flex items-center justify-between p-4 cursor-pointer font-bold text-sm text-slate-800 hover:text-violet-700">
+              <span class="pr-4">{item.question}</span>
+              <svg class="w-5 h-5 shrink-0 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9" /></svg>
+            </summary>
+            <div class="px-4 pb-4 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+              {item.answer}
+            </div>
+          </details>
+        ))}
       </div>
     </div>
   </div>

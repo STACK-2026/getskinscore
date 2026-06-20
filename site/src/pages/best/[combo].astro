@@ -2,8 +2,8 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { products } from "../../data/products";
 import { siteConfig } from "../../../site.config";
-import { fullUrl, gradeClass } from "../../utils/config";
-import { jsonLdBreadcrumbs } from "../../utils/seo";
+import { fullUrl, gradeClass, BUILD_DATE_ISO, updatedLabel } from "../../utils/config";
+import { jsonLdBreadcrumbs, jsonLdFaq } from "../../utils/seo";
 import { getLocale, t, tr, localizedPath } from "../../i18n/t";
 
 export function getStaticPaths() {
@@ -41,10 +41,10 @@ const yr = new Date().getFullYear();
 const topGrade = sorted[0]?.score || "B";
 const aCount = sorted.filter((p: any) => p.score === "A").length;
 const title = locale === "fr"
-  ? `Meilleurs ${label} ${yr} : ${sorted.length} produits ranks A-E (${aCount} A) | ${siteConfig.name}`
+  ? `Meilleurs ${label} ${yr} : ${sorted.length} produits classés A-E (${aCount} A) | ${siteConfig.name}`
   : `Best ${label} skincare ${yr}: ${sorted.length} products ranked A-E (${aCount} A-rated) | ${siteConfig.name}`;
 const description = locale === "fr"
-  ? `${sorted.length} produits skincare classes pour ${label} en ${yr}, ${aCount} notes A. Independant, base sur INCI et recherche evaluee.`.slice(0, 175)
+  ? `${sorted.length} produits skincare classés pour ${label} en ${yr}, ${aCount} notés A. Indépendant, basé sur l'INCI et la recherche évaluée par les pairs.`.slice(0, 175)
   : `${sorted.length} skincare products ranked for ${label} in ${yr}, ${aCount} A-rated. Independent, INCI-backed analysis with peer-reviewed sources.`.slice(0, 175);
 
 const breadcrumbs = [
@@ -52,9 +52,27 @@ const breadcrumbs = [
   { name: t(tr.nav.rankings, locale), url: fullUrl("/rankings") },
   { name: `Best ${label}`, url: fullUrl(`/best/${value}`) },
 ];
+
+// FAQ in parity with visible <details> below.
+const topName = sorted[0] ? `${sorted[0].brand} ${sorted[0].name}` : "";
+const faqItems = [
+  {
+    question: `How many ${label} products are ranked, and how many are A-rated?`,
+    answer: `SkinScore ranks ${sorted.length} ${label} products for ${yr}, of which ${aCount} earn an A grade (85 to 100). ${topName ? `${topName} currently leads this list with a ${sorted[0].score} (${sorted[0].scoreNumeric}/100).` : ""}`.trim(),
+  },
+  {
+    question: `How is the best ${label} product chosen?`,
+    answer: `Each product is scored 0 to 100 across five weighted dimensions: efficacy (30%), safety (25%), comedogenicity (20%), transparency (15%), and skin-type fit (10%). Ranking is independent and INCI-based. No brand can pay for placement.`,
+  },
+  {
+    question: `When was this ${label} ranking last updated?`,
+    answer: `This ranking reflects the latest decoded INCI lists and is regenerated on every build. Scores are recomputed within a typical 10-day window whenever a manufacturer changes a formulation.`,
+  },
+];
+const faqSchema = jsonLdFaq(faqItems);
 ---
 
-<BaseLayout title={title} description={description} jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}>
+<BaseLayout title={title} description={description} jsonLd={[jsonLdBreadcrumbs(breadcrumbs), faqSchema]}>
   <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
     <nav class="text-xs text-slate-400 mb-8 flex items-center gap-1.5 flex-wrap">
       {breadcrumbs.map((item, i) => (
@@ -63,8 +81,11 @@ const breadcrumbs = [
     </nav>
 
     <h1 class="mb-3 capitalize">Best {label} products</h1>
-    <p class="text-slate-600 mb-10 max-w-2xl">
-      {sorted.length} products ranked by SkinScore for {label}. Every rating is independent, based on INCI analysis and peer-reviewed research.
+    <p class="text-slate-600 mb-2 max-w-2xl">
+      {sorted.length} products ranked by SkinScore for {label}, {aCount} of them A-rated. Every rating is independent, based on INCI analysis and peer-reviewed research.
+    </p>
+    <p class="text-xs text-slate-500 mb-10">
+      {locale === "fr" ? `Classement ${yr} · ${updatedLabel("fr")}` : `${yr} ranking · ${updatedLabel("en")}`}
     </p>
 
     <div class="space-y-3">
@@ -79,6 +100,24 @@ const breadcrumbs = [
           <span class="text-sm font-bold text-slate-600 shrink-0">{p.scoreNumeric}/100</span>
         </a>
       ))}
+    </div>
+
+    <!-- FAQ: visible HTML in exact parity with FAQPage schema -->
+    <div class="mt-16 pt-12 border-t border-slate-200 max-w-3xl">
+      <h2 class="text-xl font-bold mb-6">Frequently asked questions</h2>
+      <div class="space-y-3">
+        {faqItems.map((item, i) => (
+          <details class="card !p-0 overflow-hidden" open={i === 0}>
+            <summary class="flex items-center justify-between p-4 cursor-pointer font-bold text-sm text-slate-800 hover:text-violet-700">
+              <span class="pr-4">{item.question}</span>
+              <svg class="w-5 h-5 shrink-0 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9" /></svg>
+            </summary>
+            <div class="px-4 pb-4 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+              {item.answer}
+            </div>
+          </details>
+        ))}
+      </div>
     </div>
   </div>
 </BaseLayout>

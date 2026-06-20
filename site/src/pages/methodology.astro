@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { siteConfig } from "../../site.config";
-import { fullUrl } from "../utils/config";
-import { jsonLdBreadcrumbs } from "../utils/seo";
+import { fullUrl, BUILD_DATE_ISO, updatedLabel } from "../utils/config";
+import { jsonLdBreadcrumbs, jsonLdDataset, jsonLdFaq } from "../utils/seo";
 import { getLocale, t, tr, localizedPath } from "../i18n/t";
 
 const locale = getLocale(Astro.url);
@@ -10,6 +10,37 @@ const breadcrumbs = [
   { name: t(tr.common.home, locale), url: fullUrl(localizedPath("/", locale)) },
   { name: t(tr.nav.methodology, locale), url: fullUrl(localizedPath("/methodology", locale)) },
 ];
+
+const methodologyUrl = fullUrl(localizedPath("/methodology", locale));
+
+// First-party dataset schema. Every value below is also displayed in the HTML
+// (five dimensions + weights in the table, 30,000+ ingredients and 2,699
+// products in the prose). No figure is declared that is not visible on page.
+const datasetSchema = jsonLdDataset({
+  url: methodologyUrl,
+  dateModified: BUILD_DATE_ISO,
+  inLanguage: locale === "fr" ? "fr-FR" : "en-US",
+  description: locale === "fr"
+    ? "Base de donnees SkinScore : 2 699 produits skincare notes de 0 a 100 sur cinq dimensions ponderees (efficacite, securite, comedogenicite, transparence, compatibilite peau), a partir de 30 000+ ingredients EU CosIng."
+    : "SkinScore database: 2,699 skincare products scored 0 to 100 across five weighted dimensions (efficacy, safety, comedogenicity, transparency, skin-type fit), built from 30,000+ EU CosIng ingredients.",
+});
+
+// FAQ: visible <details> below render the exact same Q/A as this schema (parity).
+const faqItems = locale === "fr"
+  ? [
+      { question: "Que signifie le poids de 30% sur l'efficacite ?", answer: "L'efficacite compte pour 30% du score final, soit la plus forte ponderation. Concretement, le score final = 0,30 x efficacite + 0,25 x securite + 0,20 x comedogenicite + 0,15 x transparence + 0,10 x compatibilite peau. Un actif prouve bien positionne dans l'INCI pese donc plus qu'une simple mention de transparence." },
+      { question: "Pourquoi la comedogenicite est-elle separee de la securite ?", answer: "Un ingredient peut etre parfaitement sur (aucun allergene, aucune substance reglementee) et pourtant boucher les pores d'une peau grasse ou acneique. La securite mesure le risque reglementaire et allergene ; la comedogenicite mesure le risque d'obstruction des pores sur l'echelle 0-5. Les confondre cacherait un risque reel pour les peaux a tendance acneique." },
+      { question: "A quelle frequence les scores sont-ils recalcules ?", answer: "Des qu'un fabricant modifie sa formulation INCI, le score est recalcule dans les deux semaines. La fenetre typique de recalcul, mesuree sur les 2 699 produits du catalogue, est de 10 jours. La date de mise a jour est affichee sur chaque page produit." },
+      { question: "Une marque peut-elle acheter un meilleur score ?", answer: "Non. SkinScore n'accepte aucun paiement des marques pour influencer les notes, les classements ou le Dupe Finder. Les revenus proviennent de liens affilies vers des detaillants, qui n'affectent jamais les scores, et d'abonnements premium optionnels." },
+    ]
+  : [
+      { question: "What does the 30% efficacy weight mean?", answer: "Efficacy accounts for 30% of the final score, the heaviest weighting. The final score = 0.30 x efficacy + 0.25 x safety + 0.20 x comedogenicity + 0.15 x transparency + 0.10 x skin-type fit. A proven active positioned high in the INCI list therefore counts more than a transparency claim alone." },
+      { question: "Why is comedogenicity separate from safety?", answer: "An ingredient can be perfectly safe (no allergens, no restricted substances) yet still clog the pores of oily or acne-prone skin. Safety measures regulatory and allergen risk; comedogenicity measures pore-clogging risk on the 0-5 scale. Merging them would hide a real risk for acne-prone skin." },
+      { question: "How often are scores recalculated?", answer: "As soon as a manufacturer changes the INCI list, the score is recomputed within two weeks. The typical recomputation window, measured across the 2,699 catalogue products, is 10 days. The update date is shown on every product page." },
+      { question: "Can a brand buy a better score?", answer: "No. SkinScore does not accept payment from brands to influence ratings, rankings, or the Dupe Finder. Revenue comes from affiliate links to retailers, which never affect scores, and optional premium subscriptions." },
+    ];
+
+const faqSchema = jsonLdFaq(faqItems);
 
 const aboutPageSchema = {
   "@context": "https://schema.org",
@@ -44,7 +75,7 @@ const aboutPageSchema = {
 <BaseLayout
   title={locale === "fr" ? `Méthodologie de notation · Comment SkinScore note les produits | ${siteConfig.name}` : `Scoring Methodology · How SkinScore Rates Products | ${siteConfig.name}`}
   description={locale === "fr" ? "Comment SkinScore note chaque produit skincare : cinq dimensions pondérées, sources EU CosIng, SCCS et recherche dermatologique, seuils A-E et limites assumées." : "How SkinScore rates every skincare product: five weighted dimensions, EU CosIng and SCCS sources, peer-reviewed dermatology research, A-E thresholds, and limitations stated upfront."}
-  jsonLd={[jsonLdBreadcrumbs(breadcrumbs), aboutPageSchema]}
+  jsonLd={[jsonLdBreadcrumbs(breadcrumbs), aboutPageSchema, datasetSchema, faqSchema]}
 >
   <div class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
     <h1 class="text-center mb-4">{locale === "fr" ? "Méthodologie de notation" : "Scoring methodology"}</h1>
@@ -64,6 +95,12 @@ const aboutPageSchema = {
         )}
       </p>
     </aside>
+
+    <p class="text-center text-xs text-slate-500 mb-10">
+      {locale === "fr"
+        ? `Méthodologie SkinScore v1.0 · en vigueur depuis le 12 avril 2026 · scores recalculés mensuellement · ${updatedLabel("fr")}`
+        : `SkinScore Methodology v1.0 · effective 12 April 2026 · scores recalculated monthly · ${updatedLabel("en")}`}
+    </p>
 
     <div class="prose max-w-none">
       <h2>{locale === "fr" ? "Cinq dimensions, un score" : "Five dimensions, one score"}</h2>
@@ -205,6 +242,21 @@ const aboutPageSchema = {
           ? "Nous n'analysons pas non plus la stabilité galénique, la forme cristalline d'un actif, l'encapsulation, la taille des particules, ni les interactions à l'application (pH de la peau, ordre d'application). Pour les produits sensibles à ces facteurs (peptides, rétinoïdes, vitamine C L-ascorbique), consulte toujours la notice fabricant en complément du score."
           : "We also do not evaluate galenic stability, the crystalline form of an active, encapsulation, particle size, or interactions on application (skin pH, layering order). For products sensitive to these factors (peptides, retinoids, L-ascorbic acid vitamin C), always read the manufacturer's instructions in addition to the score."}
       </p>
+
+      <h2>{locale === "fr" ? "Questions fréquentes sur la méthodologie" : "Methodology FAQ"}</h2>
+      <div class="not-prose space-y-3 mt-4">
+        {faqItems.map((item, i) => (
+          <details class="card !p-0 overflow-hidden" open={i === 0}>
+            <summary class="flex items-center justify-between p-4 cursor-pointer font-bold text-sm text-slate-800 hover:text-violet-700">
+              <span class="pr-4">{item.question}</span>
+              <svg class="w-5 h-5 shrink-0 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9" /></svg>
+            </summary>
+            <div class="px-4 pb-4 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+              {item.answer}
+            </div>
+          </details>
+        ))}
+      </div>
     </div>
   </div>
 </BaseLayout>

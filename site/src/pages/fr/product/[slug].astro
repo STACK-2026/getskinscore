@@ -4,7 +4,7 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { products, type Product } from "../../../data/products";
 import { getIngredient } from "../../../data/ingredients";
 import { siteConfig } from "../../../../site.config";
-import { fullUrl, gradeClass } from "../../../utils/config";
+import { fullUrl, gradeClass, BUILD_DATE_ISO, updatedLabel } from "../../../utils/config";
 import { jsonLdProduct, jsonLdBreadcrumbs } from "../../../utils/seo";
 import { t, tr } from "../../../i18n/t";
 import BuyCTA from "../../../components/BuyCTA.astro";
@@ -38,7 +38,7 @@ const subScoreLabels = [
 ];
 ---
 
-<BaseLayout title={title} description={description} jsonLd={[jsonLdProduct({ name: product.name, brand: product.brand, description: t(product.summary, locale), url, score: product.score, scoreNumeric: product.scoreNumeric }), jsonLdBreadcrumbs(breadcrumbs)]}>
+<BaseLayout title={title} description={description} jsonLd={[jsonLdProduct({ name: product.name, brand: product.brand, description: t(product.summary, locale), url, score: product.score, scoreNumeric: product.scoreNumeric, dateModified: BUILD_DATE_ISO }), jsonLdBreadcrumbs(breadcrumbs)]}>
   <div class="max-w-4xl mx-auto px-4 sm:px-6 py-12">
     <nav class="text-xs text-slate-400 mb-8 flex items-center gap-1.5 flex-wrap">
       {breadcrumbs.map((item, i) => (<>{i > 0 && <span>/</span>}{i < breadcrumbs.length - 1 ? <a href={item.url} class="hover:text-violet-600">{item.name}</a> : <span class="text-slate-600">{item.name}</span>}</>))}
@@ -82,7 +82,10 @@ const subScoreLabels = [
     </div>
 
     <section class="mb-10">
-      <h2 class="text-xl font-bold mb-4">{t(tr.product.ingredients, locale)}</h2>
+      <div class="flex items-baseline justify-between flex-wrap gap-2 mb-4">
+        <h2 class="text-xl font-bold">{t(tr.product.ingredients, locale)}</h2>
+        <p class="text-xs text-slate-500">Formule analysée à partir de l'INCI déclaré · {updatedLabel("fr")}</p>
+      </div>
       <div class="space-y-1">
         {product.ingredients.map((ing) => {
           const detail = ing.ingredientId ? getIngredient(ing.ingredientId) : null;

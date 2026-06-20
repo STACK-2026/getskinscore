@@ -1,24 +1,43 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { siteConfig } from "../../../site.config";
-import { fullUrl } from "../../utils/config";
-import { jsonLdBreadcrumbs } from "../../utils/seo";
+import { fullUrl, BUILD_DATE_ISO, updatedLabel } from "../../utils/config";
+import { jsonLdBreadcrumbs, jsonLdDataset, jsonLdFaq } from "../../utils/seo";
 
 const breadcrumbs = [
   { name: "Accueil", url: fullUrl("/fr/") },
   { name: "Méthodologie", url: fullUrl("/fr/methodology") },
 ];
+
+const methodologyUrl = fullUrl("/fr/methodology");
+const datasetSchema = jsonLdDataset({
+  url: methodologyUrl,
+  dateModified: BUILD_DATE_ISO,
+  inLanguage: "fr-FR",
+  description: "Base de donnees SkinScore : 2 699 produits skincare notes de 0 a 100 sur cinq dimensions ponderees (efficacite, securite, comedogenicite, transparence, compatibilite peau), a partir de 30 000+ ingredients EU CosIng.",
+});
+
+const faqItems = [
+  { question: "Que signifie le poids de 30% sur l'efficacité ?", answer: "L'efficacité compte pour 30% du score final, soit la plus forte pondération. Le score final = 0,30 x efficacité + 0,25 x sécurité + 0,20 x comédogénicité + 0,15 x transparence + 0,10 x compatibilité peau." },
+  { question: "Pourquoi la comédogénicité est-elle séparée de la sécurité ?", answer: "Un ingrédient peut être parfaitement sûr (aucun allergène, aucune substance réglementée) et pourtant boucher les pores d'une peau grasse. La sécurité mesure le risque réglementaire et allergène ; la comédogénicité mesure le risque d'obstruction des pores sur l'échelle 0-5." },
+  { question: "À quelle fréquence les scores sont-ils recalculés ?", answer: "Dès qu'un fabricant modifie sa formulation INCI, le score est recalculé dans les deux semaines, fenêtre typique de 10 jours mesurée sur les 2 699 produits du catalogue. La date de mise à jour figure sur chaque page produit." },
+  { question: "Une marque peut-elle acheter un meilleur score ?", answer: "Non. SkinScore n'accepte aucun paiement des marques pour influencer les notes, les classements ou le Dupe Finder. Les revenus proviennent de liens affiliés et d'abonnements premium optionnels." },
+];
+const faqSchema = jsonLdFaq(faqItems);
 ---
 
 <BaseLayout
   title={`Méthodologie de notation · Comment SkinScore note les produits | ${siteConfig.name}`}
   description="Transparence totale sur la façon dont SkinScore note les produits skincare. Cinq dimensions, pondération, sources de données et seuils de notes."
-  jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
+  jsonLd={[jsonLdBreadcrumbs(breadcrumbs), datasetSchema, faqSchema]}
 >
   <div class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
     <h1 class="text-center mb-4">Méthodologie de notation</h1>
     <p class="text-center text-slate-600 mb-8 max-w-2xl mx-auto">
       Transparence totale sur la façon dont SkinScore note chaque produit. Cinq dimensions, pondération, sources de données et seuils.
+    </p>
+    <p class="text-center text-xs text-slate-500 mb-8">
+      Méthodologie SkinScore v1.0 · en vigueur depuis le 12 avril 2026 · scores recalculés mensuellement · {updatedLabel("fr")}
     </p>
 
     <aside data-speakable aria-label="TL;DR" class="max-w-2xl mx-auto mb-12 rounded-xl border border-violet-200 bg-violet-50/60 px-6 py-5 text-slate-700">
@@ -54,9 +73,9 @@ const breadcrumbs = [
 
       <h2>Sources de données</h2>
       <ul>
-        <li><strong>EU CosIng</strong> · Base officielle de la Commission européenne (30 000+ ingrédients cosmétiques, numéros CAS, fonctions, restrictions)</li>
-        <li><strong>SCCS</strong> · Comité scientifique pour la sécurité des consommateurs (avis de sécurité sur les ingrédients cosmétiques)</li>
-        <li><strong>Recherche dermatologique</strong> · Publications et essais cliniques dans les journaux de dermatologie de référence</li>
+        <li><strong>EU CosIng</strong> · Base officielle de la Commission européenne (30 000+ ingrédients cosmétiques, numéros CAS, fonctions, restrictions) · <a href="https://ec.europa.eu/growth/tools-databases/cosing/" rel="external nofollow noopener">ec.europa.eu/growth/tools-databases/cosing/</a></li>
+        <li><strong>SCCS</strong> · Comité scientifique pour la sécurité des consommateurs (avis de sécurité sur les ingrédients cosmétiques) · <a href="https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en" rel="external nofollow noopener">sccs.ec.europa.eu</a></li>
+        <li><strong>Recherche dermatologique</strong> · Publications et essais cliniques dans les journaux de dermatologie de référence · <a href="https://pubmed.ncbi.nlm.nih.gov" rel="external nofollow noopener">pubmed.ncbi.nlm.nih.gov</a></li>
         <li><strong>Listes INCI fabricants</strong> · Compositions complètes des emballages produits</li>
       </ul>
 
@@ -65,6 +84,21 @@ const breadcrumbs = [
 
       <h2>Limites</h2>
       <p>Notre notation est basée sur les ingrédients déclarés, pas sur les concentrations exactes (rarement divulguées par les marques). L'ordre INCI donne une indication relative, mais deux produits avec les mêmes ingrédients dans le même ordre peuvent avoir des concentrations différentes. Nous mettons à jour les scores quand les marques reformulent.</p>
+
+      <h2>Questions fréquentes sur la méthodologie</h2>
+      <div class="not-prose space-y-3 mt-4">
+        {faqItems.map((item, i) => (
+          <details class="card !p-0 overflow-hidden" open={i === 0}>
+            <summary class="flex items-center justify-between p-4 cursor-pointer font-bold text-sm text-slate-800 hover:text-violet-700">
+              <span class="pr-4">{item.question}</span>
+              <svg class="w-5 h-5 shrink-0 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9" /></svg>
+            </summary>
+            <div class="px-4 pb-4 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+              {item.answer}
+            </div>
+          </details>
+        ))}
+      </div>
     </div>
   </div>
 </BaseLayout>

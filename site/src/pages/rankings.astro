@@ -2,23 +2,50 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { products } from "../data/products";
 import { siteConfig } from "../../site.config";
-import { fullUrl, gradeClass } from "../utils/config";
-import { jsonLdBreadcrumbs } from "../utils/seo";
+import { fullUrl, gradeClass, BUILD_DATE_ISO, updatedLabel } from "../utils/config";
+import { jsonLdBreadcrumbs, jsonLdDataset, jsonLdFaq } from "../utils/seo";
 import { getLocale, t, tr, localizedPath } from "../i18n/t";
 
 const locale = getLocale(Astro.url);
 const sorted = [...products].sort((a, b) => b.scoreNumeric - a.scoreNumeric);
+const aCount = sorted.filter((p) => p.score === "A").length;
 
 const breadcrumbs = [
   { name: t(tr.common.home, locale), url: fullUrl(localizedPath("/", locale)) },
   { name: t(tr.nav.rankings, locale), url: fullUrl(localizedPath("/rankings", locale)) },
 ];
+
+const rankingsUrl = fullUrl(localizedPath("/rankings", locale));
+
+// Dataset schema: sorted.length and aCount are both displayed on this page.
+const datasetSchema = jsonLdDataset({
+  url: rankingsUrl,
+  dateModified: BUILD_DATE_ISO,
+  inLanguage: locale === "fr" ? "fr-FR" : "en-US",
+  description: locale === "fr"
+    ? `Classement SkinScore de ${sorted.length} produits skincare notes de A a E sur cinq dimensions ponderees, dont ${aCount} produits notes A.`
+    : `SkinScore ranking of ${sorted.length} skincare products graded A to E across five weighted dimensions, including ${aCount} A-rated products.`,
+});
+
+const faqItems = locale === "fr"
+  ? [
+      { question: "À quelle fréquence le classement est-il recalculé ?", answer: `Le classement couvre ${sorted.length} produits et chaque score est recalculé dès qu'un fabricant modifie sa formulation INCI, dans une fenêtre typique de 10 jours. La date de mise à jour est affichée en haut de cette page.` },
+      { question: "Pourquoi un produit obtient-il un B et pas un A ?", answer: "Un B (70 à 84) signifie un compromis mineur sur l'une des cinq dimensions : un actif efficace mais un peu de parfum, ou une formule sûre mais sans concentration déclarée. Un A (85 à 100) exige l'excellence sur les cinq axes simultanément." },
+      { question: "Comment lire le classement pour mon type de peau ?", answer: "Un score global élevé ne garantit pas l'adéquation à ta peau. Ouvre la fiche produit et vérifie le sous-score compatibilité peau pour ton profil (sèche, grasse, mixte, sensible, normale) avant d'acheter." },
+    ]
+  : [
+      { question: "How often is the ranking recalculated?", answer: `The ranking covers ${sorted.length} products and each score is recomputed as soon as a manufacturer changes the INCI list, within a typical 10-day window. The update date is shown at the top of this page.` },
+      { question: "Why does a product get a B and not an A?", answer: "A B (70 to 84) means a minor compromise on one of the five dimensions: an effective active but some fragrance, or a safe formula with no declared concentration. An A (85 to 100) requires excellence across all five dimensions at once." },
+      { question: "How do I read the ranking for my skin type?", answer: "A high overall score does not guarantee a fit for your skin. Open the product page and check the skin-type fit sub-score for your profile (dry, oily, combination, sensitive, normal) before buying." },
+    ];
+
+const faqSchema = jsonLdFaq(faqItems);
 ---
 
 <BaseLayout
   title={`Skincare Rankings - Best Products Rated A to E | ${siteConfig.name}`}
   description="Independent skincare product rankings. Every product scored from A to E across efficacy, safety, comedogenicity, transparency, and skin-type fit. Science-backed, brand-independent."
-  jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
+  jsonLd={[jsonLdBreadcrumbs(breadcrumbs), datasetSchema, faqSchema]}
 >
   <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12">
     <div class="text-center mb-8">
@@ -27,6 +54,11 @@ const breadcrumbs = [
         {locale === "fr"
           ? `${sorted.length} produits notés de A à E. Indépendant, basé sur la science, jamais influencé par les marques.`
           : `${sorted.length} products rated from A to E. Independent, science-backed, never influenced by brands.`}
+      </p>
+      <p class="text-xs text-slate-500 mt-3">
+        {locale === "fr"
+          ? `${aCount} produits notés A · scores recalculés mensuellement · ${updatedLabel("fr")}`
+          : `${aCount} A-rated products · scores recalculated monthly · ${updatedLabel("en")}`}
       </p>
     </div>
 
@@ -134,6 +166,26 @@ const breadcrumbs = [
               </a>
             );
           })}
+      </div>
+    </div>
+
+    <!-- FAQ: visible HTML in exact parity with FAQPage schema -->
+    <div class="mt-16 pt-12 border-t border-slate-200 max-w-3xl mx-auto">
+      <h2 class="text-xl font-bold mb-6">
+        {locale === "fr" ? "Questions fréquentes" : "Frequently asked questions"}
+      </h2>
+      <div class="space-y-3">
+        {faqItems.map((item, i) => (
+          <details class="card !p-0 overflow-hidden" open={i === 0}>
+            <summary class="flex items-center justify-between p-4 cursor-pointer font-bold text-sm text-slate-800 hover:text-violet-700">
+              <span class="pr-4">{item.question}</span>
+              <svg class="w-5 h-5 shrink-0 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9" /></svg>
+            </summary>
+            <div class="px-4 pb-4 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+              {item.answer}
+            </div>
+          </details>
+        ))}
       </div>
     </div>
   </div>
