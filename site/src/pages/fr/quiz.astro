@@ -59,7 +59,7 @@ for (const ptype of productTypes) {
 
 <BaseLayout
   title={`${locale === "fr" ? "Quiz routine skincare" : "Skincare Routine Quiz"} | ${siteConfig.name}`}
-  description={locale === "fr" ? "Trouve ta routine skincare ideale en 4 questions. Recommandations personnalisees basees sur ton type de peau et tes preoccupations." : "Find your ideal skincare routine in 4 questions. Personalised recommendations based on your skin type and concerns."}
+  description={locale === "fr" ? "Trouve ta routine skincare idéale en 4 questions. Recommandations personnalisées basées sur ton type de peau et tes préoccupations." : "Find your ideal skincare routine in 4 questions. Personalised recommendations based on your skin type and concerns."}
   jsonLd={[jsonLdBreadcrumbs(breadcrumbs)]}
 >
   <div class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
@@ -83,15 +83,15 @@ for (const ptype of productTypes) {
           {locale === "fr" ? "Quel est ton type de peau ?" : "What's your skin type?"}
         </h1>
         <p class="text-slate-500 mb-8">
-          {locale === "fr" ? "Pas sure ? Choisis ce qui te correspond le plus." : "Not sure? Pick what fits you best."}
+          {locale === "fr" ? "Pas sûre ? Choisis ce qui te correspond le plus." : "Not sure? Pick what fits you best."}
         </p>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3" id="skin-type-options">
           {[
-            { id: "dry", en: "Dry", fr: "Seche", desc_en: "Tight, flaky, rough patches", desc_fr: "Tiraillements, desquamation, zones rugueuses" },
-            { id: "oily", en: "Oily", fr: "Grasse", desc_en: "Shiny T-zone, enlarged pores, prone to breakouts", desc_fr: "Zone T brillante, pores dilates, sujette aux eruptions" },
-            { id: "combination", en: "Combination", fr: "Mixte", desc_en: "Oily T-zone but dry cheeks", desc_fr: "Zone T grasse mais joues seches" },
-            { id: "sensitive", en: "Sensitive", fr: "Sensible", desc_en: "Reacts easily, redness, stinging", desc_fr: "Reagit facilement, rougeurs, picotements" },
-            { id: "normal", en: "Normal", fr: "Normale", desc_en: "Balanced, few issues", desc_fr: "Equilibree, peu de problemes" },
+            { id: "dry", en: "Dry", fr: "Sèche", desc_en: "Tight, flaky, rough patches", desc_fr: "Tiraillements, desquamation, zones rugueuses" },
+            { id: "oily", en: "Oily", fr: "Grasse", desc_en: "Shiny T-zone, enlarged pores, prone to breakouts", desc_fr: "Zone T brillante, pores dilatés, sujette aux éruptions" },
+            { id: "combination", en: "Combination", fr: "Mixte", desc_en: "Oily T-zone but dry cheeks", desc_fr: "Zone T grasse mais joues sèches" },
+            { id: "sensitive", en: "Sensitive", fr: "Sensible", desc_en: "Reacts easily, redness, stinging", desc_fr: "Réagit facilement, rougeurs, picotements" },
+            { id: "normal", en: "Normal", fr: "Normale", desc_en: "Balanced, few issues", desc_fr: "Équilibrée, peu de problèmes" },
           ].map((opt) => (
             <button
               class="quiz-option text-left p-5 rounded-xl border-2 border-slate-200 hover:border-violet-400 hover:bg-violet-50 transition-all duration-200"
@@ -108,19 +108,19 @@ for (const ptype of productTypes) {
       <!-- Step 2: Primary Concern -->
       <div id="step-2" class="quiz-step hidden">
         <h2 class="text-2xl md:text-3xl font-extrabold mb-3">
-          {locale === "fr" ? "Ta preoccupation principale ?" : "Your primary concern?"}
+          {locale === "fr" ? "Ta préoccupation principale ?" : "Your primary concern?"}
         </h2>
         <p class="text-slate-500 mb-8">
-          {locale === "fr" ? "Choisis celle qui te gene le plus." : "Pick the one that bothers you most."}
+          {locale === "fr" ? "Choisis celle qui te gêne le plus." : "Pick the one that bothers you most."}
         </p>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3" id="concern-options">
           {[
-            { id: "acne", en: "Acne & breakouts", fr: "Acne et eruptions", icon: "💧" },
+            { id: "acne", en: "Acne & breakouts", fr: "Acné et éruptions", icon: "💧" },
             { id: "anti-aging", en: "Fine lines & wrinkles", fr: "Rides et ridules", icon: "⏳" },
-            { id: "hyperpigmentation", en: "Dark spots & uneven tone", fr: "Taches brunes et teint irregulier", icon: "☀️" },
-            { id: "rosacea", en: "Redness & rosacea", fr: "Rougeurs et rosacee", icon: "🔥" },
-            { id: "dryness", en: "Dryness & dehydration", fr: "Secheresse et deshydratation", icon: "💨" },
-            { id: "pores", en: "Large pores & texture", fr: "Pores dilates et texture", icon: "⭕" },
+            { id: "hyperpigmentation", en: "Dark spots & uneven tone", fr: "Taches brunes et teint irrégulier", icon: "☀️" },
+            { id: "rosacea", en: "Redness & rosacea", fr: "Rougeurs et rosacée", icon: "🔥" },
+            { id: "dryness", en: "Dryness & dehydration", fr: "Sécheresse et déshydratation", icon: "💨" },
+            { id: "pores", en: "Large pores & texture", fr: "Pores dilatés et texture", icon: "⭕" },
           ].map((opt) => (
             <button
               class="quiz-option text-left p-5 rounded-xl border-2 border-slate-200 hover:border-violet-400 hover:bg-violet-50 transition-all duration-200"
@@ -140,7 +140,7 @@ for (const ptype of productTypes) {
           {locale === "fr" ? "Ton budget ?" : "Your budget?"}
         </h2>
         <p class="text-slate-500 mb-8">
-          {locale === "fr" ? "On a des options a tous les prix." : "We have options at every price point."}
+          {locale === "fr" ? "On a des options à tous les prix." : "We have options at every price point."}
         </p>
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-3" id="budget-options">
           {[
@@ -163,7 +163,7 @@ for (const ptype of productTypes) {
       <!-- Step 4: Preferences -->
       <div id="step-4" class="quiz-step hidden">
         <h2 class="text-2xl md:text-3xl font-extrabold mb-3">
-          {locale === "fr" ? "Des preferences particulieres ?" : "Any preferences?"}
+          {locale === "fr" ? "Des préférences particulières ?" : "Any preferences?"}
         </h2>
         <p class="text-slate-500 mb-8">
           {locale === "fr" ? "Optionnel. Coche ce qui est important pour toi." : "Optional. Check what matters to you."}
@@ -172,7 +172,7 @@ for (const ptype of productTypes) {
           {[
             { id: "fragrance-free", en: "Fragrance-free", fr: "Sans parfum" },
             { id: "vegan", en: "Vegan", fr: "Vegan" },
-            { id: "cruelty-free", en: "Cruelty-free", fr: "Non teste sur les animaux" },
+            { id: "cruelty-free", en: "Cruelty-free", fr: "Non testé sur les animaux" },
           ].map((opt) => (
             <label class="flex items-center gap-3 p-4 rounded-xl border-2 border-slate-200 hover:border-violet-300 cursor-pointer transition-colors">
               <input type="checkbox" class="w-5 h-5 rounded-md border-slate-300 text-violet-600 focus:ring-violet-500" data-pref={opt.id} />
@@ -189,7 +189,7 @@ for (const ptype of productTypes) {
       <div id="results" class="quiz-step hidden">
         <div class="text-center mb-8">
           <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-100 text-violet-700 text-sm font-semibold mb-4">
-            {locale === "fr" ? "Ta routine personnalisee" : "Your personalised routine"}
+            {locale === "fr" ? "Ta routine personnalisée" : "Your personalised routine"}
           </div>
           <h2 class="text-2xl md:text-3xl font-extrabold mb-2" id="result-title"></h2>
           <p class="text-slate-500" id="result-subtitle"></p>
@@ -272,7 +272,7 @@ for (const ptype of productTypes) {
       // Get results
       document.getElementById("get-results").addEventListener("click", function () {
         if (!answers.skinType || !answers.concern) {
-          alert(locale === "fr" ? "Reponds aux questions d'abord !" : "Answer the questions first!");
+          alert(locale === "fr" ? "Réponds aux questions d'abord !" : "Answer the questions first!");
           return;
         }
 
@@ -321,7 +321,7 @@ for (const ptype of productTypes) {
 
         if (locale === "fr") {
           title.textContent = "Routine pour peau " + st + " - " + concern;
-          subtitle.textContent = "Produits selectionnes et notes par SkinScore pour ta peau.";
+          subtitle.textContent = "Produits sélectionnés et notés par SkinScore pour ta peau.";
         } else {
           title.textContent = st.charAt(0).toUpperCase() + st.slice(1) + " skin - " + concern + " routine";
           subtitle.textContent = "Products selected and scored by SkinScore for your skin.";
@@ -340,7 +340,7 @@ for (const ptype of productTypes) {
         // AM routine
         var amHtml = "";
         if (cleanser) amHtml += productCard(cleanser, locale === "fr" ? "1. Nettoyant" : "1. Cleanser");
-        if (serum) amHtml += productCard(serum, locale === "fr" ? "2. Serum" : "2. Serum");
+        if (serum) amHtml += productCard(serum, locale === "fr" ? "2. Sérum" : "2. Serum");
         if (moisturizer) amHtml += productCard(moisturizer, locale === "fr" ? "3. Hydratant" : "3. Moisturiser");
         if (sunscreen) amHtml += productCard(sunscreen, locale === "fr" ? "4. SPF" : "4. SPF");
 
@@ -348,7 +348,7 @@ for (const ptype of productTypes) {
         var pmHtml = "";
         if (cleanser) pmHtml += productCard(cleanser, locale === "fr" ? "1. Nettoyant" : "1. Cleanser");
         if (exfoliant) pmHtml += productCard(exfoliant, locale === "fr" ? "2. Exfoliant (2-3x/sem)" : "2. Exfoliant (2-3x/week)");
-        if (serum) pmHtml += productCard(serum, locale === "fr" ? "3. Serum" : "3. Serum");
+        if (serum) pmHtml += productCard(serum, locale === "fr" ? "3. Sérum" : "3. Serum");
         if (moisturizer) pmHtml += productCard(moisturizer, locale === "fr" ? "4. Hydratant" : "4. Moisturiser");
 
         amDiv.innerHTML = amHtml || '<p class="text-slate-400">' + (locale === "fr" ? "Pas assez de produits correspondants" : "Not enough matching products") + '</p>';
