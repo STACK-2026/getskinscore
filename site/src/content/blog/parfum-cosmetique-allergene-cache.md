@@ -110,7 +110,7 @@ Surprise du panel : plusieurs crèmes de pharmacie sans parfum à moins de 12 �
 
 **Étape 4.** Décode les mentions marketing. "Hypoallergénique" n'a aucune définition légale en France. "Sans parfum" devrait signifier zéro ingrédient parfumant, mais certains fabricants utilisent des masquants d'odeur non déclarés. La [HAS](https://www.has-sante.fr/) et la [Société Française de Dermatologie](https://dermato-info.fr/) recommandent de se fier aux certifications COSMOS, ECOCERT ou aux labels validés par des associations de patients.
 
-**Étape 5.** Croise avec les outils SkinScore et l'analyse de produits comparables. Pour les Anglophones, on a aussi documenté ce sujet dans notre [fragrance skincare hidden allergen guide](/en/blog/fragrance-skincare-hidden-allergen/).
+**Étape 5.** Croise avec les outils SkinScore et l'analyse de produits comparables. Pour les Anglophones, on a aussi documenté ce sujet dans notre [fragrance skincare hidden allergen guide](/blog/fragrance-skincare-hidden-allergen/).
 
 ## Marques transparentes vs marques opaques : panorama honnête
 

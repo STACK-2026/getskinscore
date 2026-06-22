@@ -211,7 +211,7 @@ Cautiously, and only under dermatologist supervision. Low-strength formulas (0.0
 **Related articles:**
 - [CeraVe vs Cetaphil: which moisturizer is actually better?](/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/)
 - [Is niacinamide safe? Dermatology research](/blog/is-niacinamide-safe-dermatology-research/)
-- [Retinol guide for French speakers](/blog/retinol-guide-debutant-commencer/)
+- [Retinol guide for French speakers](/fr/blog/retinol-guide-debutant-commencer/)
 
 **Resources:**
 - [Browse products](/encyclopedia)

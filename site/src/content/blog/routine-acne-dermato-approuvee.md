@@ -33,7 +33,7 @@ Tous les boutons ne se traitent pas pareil. Identifier ton sous type d'acné con
 
 **Acné nodulokystique**. Lésions profondes, douloureuses, qui laissent des cicatrices. Une consultation dermatologique est nécessaire : la prise en charge passe souvent par l'isotrétinoïne orale, encadrée en France par l'ANSM.
 
-**Acné hormonale adulte**. Boutons profonds sur le bas du visage et la mâchoire, poussées synchronisées avec le cycle menstruel. Plan combiné : actifs topiques + bilan hormonal + parfois antiandrogènes oraux. Si tu es en âge de procréer, vérifie la compatibilité des actifs avec une éventuelle grossesse, sujet que nous traitons dans notre guide [grossesse et skincare](/fr/blog/pregnancy-safe-skincare-ingredient-guide/).
+**Acné hormonale adulte**. Boutons profonds sur le bas du visage et la mâchoire, poussées synchronisées avec le cycle menstruel. Plan combiné : actifs topiques + bilan hormonal + parfois antiandrogènes oraux. Si tu es en âge de procréer, vérifie la compatibilité des actifs avec une éventuelle grossesse, sujet que nous traitons dans notre guide [grossesse et skincare](/blog/pregnancy-safe-skincare-ingredient-guide/).
 
 ## Les 4 étapes essentielles d'une routine acné réussie
 
@@ -80,13 +80,13 @@ Comprendre la mécanique de chaque actif te permet de choisir intelligemment.
 
 **Rétinoïdes topiques (adapalène, trétinoïne)**. Normalisent la kératinisation, réduisent la formation de microcomédons, atténuent l'inflammation et le risque de cicatrices. L'adapalène 0,1 % est disponible sans ordonnance en France ; la trétinoïne reste sur prescription. Les rétinoïdes sont contre indiqués pendant la grossesse.
 
-**Niacinamide (4 à 10 %)**. Régule le sébum, calme l'inflammation, atténue les marques post inflammatoires. Compatible avec tous les autres actifs, contrairement au mythe qui veut qu'elle annule la vitamine C, idée fausse que nous démontons dans [niacinamide et vitamine C ensemble](/fr/blog/niacinamide-vitamin-c-together-myth-debunked/).
+**Niacinamide (4 à 10 %)**. Régule le sébum, calme l'inflammation, atténue les marques post inflammatoires. Compatible avec tous les autres actifs, contrairement au mythe qui veut qu'elle annule la vitamine C, idée fausse que nous démontons dans [niacinamide et vitamine C ensemble](/blog/niacinamide-vitamin-c-together-myth-debunked/).
 
 ## Construire ta routine : produits notés par étape
 
 Pour aider le choix, voici les catégories de produits que les dermatologues recommandent le plus souvent en France, avec les marques de référence.
 
-**Nettoyants ciblés acné**. La Roche Posay Effaclar Purifying Foaming Gel (BHA), CeraVe Foaming Cleanser SA, Avène Cleanance Gel. Ces formules nettoient sans détruire la barrière. Pour comparer CeraVe et Cetaphil sur ce critère, vois notre [comparatif CeraVe vs Cetaphil](/fr/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/).
+**Nettoyants ciblés acné**. La Roche Posay Effaclar Purifying Foaming Gel (BHA), CeraVe Foaming Cleanser SA, Avène Cleanance Gel. Ces formules nettoient sans détruire la barrière. Pour comparer CeraVe et Cetaphil sur ce critère, vois notre [comparatif CeraVe vs Cetaphil](/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/).
 
 **Traitements topiques**. Adapalène 0,1 % (Differin générique, Effaclar Adapalene), peroxyde de benzoyle 2,5 % (Cutacnyl, PanOxyl), Effaclar Duo+ (combinaison adapalène + niacinamide). Vérifie la composition complète sur notre [encyclopédie des ingrédients](/fr/encyclopedia).
 

@@ -74,19 +74,19 @@ Quand SkinScore note une crème aux céramides, les questions sont toujours les 
 1. **Les céramides sont-ils nommés ?** Cherche NP, AP, EOP ou équivalents numériques.
 2. **Les lipides de soutien sont-ils présents ?** Cholestérol plus un acide gras (stéarique, béhénique, linoléique) signalent une formule pensée pour la réparation barrière.
 3. **Le reste est-il barrière-friendly ?** Glycérine, acide hyaluronique, panthénol et niacinamide sont complémentaires. La niacinamide stimule la synthèse endogène de céramides, donc elle travaille avec les céramides topiques.
-4. **Quelle est la charge irritante ?** Parfum, huiles essentielles et alcool dénaturé sabotent la réparation. Voir le [guide sur les allergènes cachés du parfum](/blog/parfum-cosmetique-allergene-cache/).
+4. **Quelle est la charge irritante ?** Parfum, huiles essentielles et alcool dénaturé sabotent la réparation. Voir le [guide sur les allergènes cachés du parfum](/fr/blog/parfum-cosmetique-allergene-cache/).
 5. **La texture correspond-elle à ta peau ?** Baume occlusif pour peaux sèches et matures ; gel-crème pour peaux grasses et mixtes, pour éviter la congestion.
 
 Les marques qui formulent régulièrement des mélanges nommés avec lipides de soutien comprennent CeraVe, La Roche-Posay, The INKEY List, Dr. Jart+ (Ceramidin) et SkinCeuticals (Triple Lipid Restore). La présence ici tient à la formulation, pas à une approbation : même une marque solide peut sortir un produit faible.
 
 ## Comment intégrer les céramides dans ta routine
 
-Les céramides sont l'un des ingrédients les plus simples à caser dans une routine, parce qu'ils n'entrent en conflit avec presque rien. La règle : les céramides vont à l'étape hydratant, après les sérums fluides et avant la protection solaire. Pour la séquence complète, voir le [guide d'ordre de routine](/blog/ordre-routine-skincare-matin-soir/).
+Les céramides sont l'un des ingrédients les plus simples à caser dans une routine, parce qu'ils n'entrent en conflit avec presque rien. La règle : les céramides vont à l'étape hydratant, après les sérums fluides et avant la protection solaire. Pour la séquence complète, voir le [guide d'ordre de routine](/fr/blog/ordre-routine-skincare-matin-soir/).
 
-- **Avec le rétinol.** À associer. Les rétinoïdes stressent la barrière, exactement le moment où un apport de céramides aide. Une crème aux céramides après un rétinoïde réduit la desquamation sans diminuer l'efficacité. Les débutants trouveront la titration bien plus douce avec des céramides, comme détaillé dans le [guide rétinol débutants](/blog/retinol-guide-debutant-commencer/).
+- **Avec le rétinol.** À associer. Les rétinoïdes stressent la barrière, exactement le moment où un apport de céramides aide. Une crème aux céramides après un rétinoïde réduit la desquamation sans diminuer l'efficacité. Les débutants trouveront la titration bien plus douce avec des céramides, comme détaillé dans le [guide rétinol débutants](/fr/blog/retinol-guide-debutant-commencer/).
 - **Avec les acides (AHA et BHA).** Applique l'acide d'abord, laisse absorber, puis la crème aux céramides pour restaurer les lipides emportés par l'exfoliation.
-- **Avec la vitamine C.** Aucun conflit. Sérum vitamine C d'abord, puis crème aux céramides. Le [guide des sérums vitamine C](/blog/serum-vitamine-c-guide-formes-concentrations/) détaille les formes disponibles.
-- **Avec l'acide hyaluronique.** Duo naturel : l'humectant attire l'eau, les céramides la scellent. Voir aussi [les erreurs sur l'acide hyaluronique](/blog/acide-hyaluronique-erreurs-tout-monde/).
+- **Avec la vitamine C.** Aucun conflit. Sérum vitamine C d'abord, puis crème aux céramides. Le [guide des sérums vitamine C](/fr/blog/serum-vitamine-c-guide-formes-concentrations/) détaille les formes disponibles.
+- **Avec l'acide hyaluronique.** Duo naturel : l'humectant attire l'eau, les céramides la scellent. Voir aussi [les erreurs sur l'acide hyaluronique](/fr/blog/acide-hyaluronique-erreurs-tout-monde/).
 
 La routine la plus rentable reste simple : un nettoyant doux, le sérum traitant que ta peau réclame, une crème barrière aux céramides, et un SPF le matin. Pas besoin d'empiler un sérum aux céramides par-dessus une crème aux céramides.
 
@@ -156,14 +156,14 @@ Oui. Les phytocéramides (blé, riz, konjac) sont structurellement proches des c
 ## Pour aller plus loin
 
 **Articles liés :**
-- [Ordre de routine skincare : matin et soir](/blog/ordre-routine-skincare-matin-soir/)
-- [Routine acné approuvée par les dermatologues](/blog/routine-acne-dermato-approuvee/)
+- [Ordre de routine skincare : matin et soir](/fr/blog/ordre-routine-skincare-matin-soir/)
+- [Routine acné approuvée par les dermatologues](/fr/blog/routine-acne-dermato-approuvee/)
 - [CeraVe vs Cetaphil : quel hydratant est vraiment meilleur](/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/)
 - [La Mer vs CeraVe : la question à 350 euros](/blog/la-mer-vs-cerave-350-euro-question/)
-- [Erreurs courantes avec l'acide hyaluronique](/blog/acide-hyaluronique-erreurs-tout-monde/)
-- [Guide rétinol pour débutants](/blog/retinol-guide-debutant-commencer/)
-- [Sérum vitamine C : guide des formes et concentrations](/blog/serum-vitamine-c-guide-formes-concentrations/)
-- [Parfum cosmétique : l'allergène caché](/blog/parfum-cosmetique-allergene-cache/)
+- [Erreurs courantes avec l'acide hyaluronique](/fr/blog/acide-hyaluronique-erreurs-tout-monde/)
+- [Guide rétinol pour débutants](/fr/blog/retinol-guide-debutant-commencer/)
+- [Sérum vitamine C : guide des formes et concentrations](/fr/blog/serum-vitamine-c-guide-formes-concentrations/)
+- [Parfum cosmétique : l'allergène caché](/fr/blog/parfum-cosmetique-allergene-cache/)
 
 **Ressources :**
 - [Voir les produits](/encyclopedia)

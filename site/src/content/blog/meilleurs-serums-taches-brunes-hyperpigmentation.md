@@ -48,7 +48,7 @@ Voici les actifs cosmétiques qui ont les meilleures données chez l'humain, en 
 | Thiamidol (Isobutylamido thiazolyl resorcinol) | 0,2 pour cent (Eucerin) | Inhibiteur sélectif de tyrosinase humaine | Mélasma, lentigos |
 | Acide glycolique | 5 à 10 pour cent | Exfoliation, accélère le renouvellement | Surface, éclat |
 
-La **vitamine C** sous forme L-ascorbique cumule trois effets prouvés : inhibition de la tyrosinase, neutralisation des radicaux libres, et cofacteur de la synthèse de collagène. La référence reste le travail de Pinnell sur la formule 15 pour cent L-AA, 1 pour cent vitamine E, 0,5 pour cent acide férulique, indexée sur [PubMed](https://pubmed.ncbi.nlm.nih.gov/15955097/). Pour comprendre les formes stabilisées (sodium ascorbyl phosphate, tetrahexyldecyl ascorbate), notre [guide sérum vitamine C](/blog/serum-vitamine-c-guide-formes-concentrations/) détaille les concentrations efficaces et les pH cibles.
+La **vitamine C** sous forme L-ascorbique cumule trois effets prouvés : inhibition de la tyrosinase, neutralisation des radicaux libres, et cofacteur de la synthèse de collagène. La référence reste le travail de Pinnell sur la formule 15 pour cent L-AA, 1 pour cent vitamine E, 0,5 pour cent acide férulique, indexée sur [PubMed](https://pubmed.ncbi.nlm.nih.gov/15955097/). Pour comprendre les formes stabilisées (sodium ascorbyl phosphate, tetrahexyldecyl ascorbate), notre [guide sérum vitamine C](/fr/blog/serum-vitamine-c-guide-formes-concentrations/) détaille les concentrations efficaces et les pH cibles.
 
 L'**acide azélaïque** est l'un des rares actifs à combiner action anti-tache et anti-inflammatoire. Une revue sur PubMed compare l'azélaïque 20 pour cent à l'hydroquinone 4 pour cent sur le mélasma avec des résultats comparables et moins d'irritation à long terme. C'est l'actif que je recommande en premier sur les peaux acnéiques avec HPI.
 
@@ -86,7 +86,7 @@ Aucun de ces sérums ne fait disparaître une tache en deux semaines. Compte 8 �
 
 Le bon sérum dépend du type de tache et du phototype.
 
-- **Lentigos solaires.** Vitamine C le matin sous SPF, exfoliation acide glycolique deux soirs par semaine. Le rétinol en complément booste le renouvellement, voir notre [guide rétinol débutant](/blog/retinol-guide-debutant-commencer/).
+- **Lentigos solaires.** Vitamine C le matin sous SPF, exfoliation acide glycolique deux soirs par semaine. Le rétinol en complément booste le renouvellement, voir notre [guide rétinol débutant](/fr/blog/retinol-guide-debutant-commencer/).
 - **HPI sur peau acnéique.** Acide azélaïque 10 pour cent matin et soir, niacinamide en couche de soutien. Évite les exfoliants agressifs qui relancent l'inflammation.
 - **Mélasma.** Acide tranexamique 2 à 5 pour cent matin et soir, thiamidol en alternance, niacinamide en couche de soutien, SPF 50 minéral non négociable.
 - **Peaux sensibles.** Alpha-arbutine 2 pour cent et niacinamide, on évite les pH bas et les pourcentages élevés de vitamine C.
@@ -102,9 +102,9 @@ Une routine anti-taches qui marche tient en cinq étapes simples, l'ordre compte
 
 **Soir.** Double nettoyage si maquillage ou SPF résistant, sérum anti-tache (azélaïque, alpha-arbutine ou niacinamide selon ton type), crème de nuit. Deux à trois soirs par semaine, tu peux remplacer le sérum par un rétinoïde si ta peau le tolère.
 
-**Stack intelligent.** Niacinamide se met avant ou après n'importe quel actif. Vitamine C le matin. Acide tranexamique compatible matin et soir. Détail dans notre [guide d'ordre de routine matin et soir](/blog/ordre-routine-skincare-matin-soir/). L'[acide hyaluronique](/blog/acide-hyaluronique-erreurs-tout-monde/) reste un soutien utile sans interférence.
+**Stack intelligent.** Niacinamide se met avant ou après n'importe quel actif. Vitamine C le matin. Acide tranexamique compatible matin et soir. Détail dans notre [guide d'ordre de routine matin et soir](/fr/blog/ordre-routine-skincare-matin-soir/). L'[acide hyaluronique](/fr/blog/acide-hyaluronique-erreurs-tout-monde/) reste un soutien utile sans interférence.
 
-**SPF, toujours.** Un écran SPF 50 à large spectre, réappliqué toutes les 2 heures en exposition. Sur peau grasse, choisis une texture fluide non comédogène, on en a sélectionné dans le [guide solaire peau grasse sans trace](/blog/meilleur-solaire-peau-grasse-sans-trace/).
+**SPF, toujours.** Un écran SPF 50 à large spectre, réappliqué toutes les 2 heures en exposition. Sur peau grasse, choisis une texture fluide non comédogène, on en a sélectionné dans le [guide solaire peau grasse sans trace](/fr/blog/meilleur-solaire-peau-grasse-sans-trace/).
 
 **Patience.** 4 semaines pour un éclat global, 8 à 12 semaines pour estomper, 6 mois pour stabiliser. Ordre de grandeur des études cliniques.
 
@@ -115,7 +115,7 @@ Une routine anti-taches qui marche tient en cinq étapes simples, l'ordre compte
 3. **Exfolier en agressif.** Les gommages mécaniques et les peelings maison sur peau pigmentée déclenchent une inflammation. Préfère un acide glycolique 5 à 10 pour cent deux soirs par semaine.
 4. **Arrêter trop tôt.** Tu commences à voir une amélioration à 8 semaines et tu arrêtes le sérum. La tache revient en 4 semaines.
 5. **Ignorer les déclencheurs hormonaux.** Sur le mélasma, sans discussion sur la contraception ou la grossesse avec ton dermatologue ou ton ou ta gynécologue, le sérum seul plafonne.
-6. **Choisir un actif sans regarder la concentration.** Un produit qui annonce de la vitamine C en fin d'INCI à 0,5 pour cent ne fera pas le travail. Croise l'étiquette avec notre méthode dans le [guide complet The Ordinary](/blog/guide-complet-the-ordinary-meilleurs-produits/), valable pour toutes les marques.
+6. **Choisir un actif sans regarder la concentration.** Un produit qui annonce de la vitamine C en fin d'INCI à 0,5 pour cent ne fera pas le travail. Croise l'étiquette avec notre méthode dans le [guide complet The Ordinary](/fr/blog/guide-complet-the-ordinary-meilleurs-produits/), valable pour toutes les marques.
 
 ## Hyperpigmentation, phototype foncé et grossesse
 
@@ -166,13 +166,13 @@ Le rétinol n'est pas un éclaircissant direct, mais il accélère le renouvelle
 ## Pour aller plus loin
 
 **Articles liés :**
-- [Sérum vitamine C : formes, concentrations, et ce qui marche vraiment](/blog/serum-vitamine-c-guide-formes-concentrations/)
-- [Meilleurs actifs anti-âge : classement par preuves cliniques](/blog/meilleurs-actifs-anti-age-preuves-cliniques/)
-- [Rétinol : guide débutant pour bien démarrer](/blog/retinol-guide-debutant-commencer/)
-- [Ordre de routine skincare matin et soir](/blog/ordre-routine-skincare-matin-soir/)
-- [Meilleurs solaires peau grasse : sans trace blanche](/blog/meilleur-solaire-peau-grasse-sans-trace/)
-- [Acide hyaluronique : les erreurs que tout le monde fait](/blog/acide-hyaluronique-erreurs-tout-monde/)
-- [Guide complet The Ordinary : meilleurs produits](/blog/guide-complet-the-ordinary-meilleurs-produits/)
+- [Sérum vitamine C : formes, concentrations, et ce qui marche vraiment](/fr/blog/serum-vitamine-c-guide-formes-concentrations/)
+- [Meilleurs actifs anti-âge : classement par preuves cliniques](/fr/blog/meilleurs-actifs-anti-age-preuves-cliniques/)
+- [Rétinol : guide débutant pour bien démarrer](/fr/blog/retinol-guide-debutant-commencer/)
+- [Ordre de routine skincare matin et soir](/fr/blog/ordre-routine-skincare-matin-soir/)
+- [Meilleurs solaires peau grasse : sans trace blanche](/fr/blog/meilleur-solaire-peau-grasse-sans-trace/)
+- [Acide hyaluronique : les erreurs que tout le monde fait](/fr/blog/acide-hyaluronique-erreurs-tout-monde/)
+- [Guide complet The Ordinary : meilleurs produits](/fr/blog/guide-complet-the-ordinary-meilleurs-produits/)
 
 **Ressources :**
 - [Parcourir les produits](/encyclopedia)

@@ -173,6 +173,6 @@ Oui. Arrête le rétinol au moins une semaine avant un peeling chimique léger, 
 
 ## En résumé : patience, méthode, régularité
 
-Le rétinol n'est pas l'ennemi qu'on décrit sur les réseaux. C'est un actif puissant validé par cinquante ans de littérature scientifique, à condition de respecter trois règles : commencer bas (0,1 à 0,3%), espacer les applications les premières semaines, et hydrater systématiquement. Dans six mois, tu te demanderas pourquoi tu as attendu. Pour aller plus loin, compare les actifs sur notre [encyclopédie](/fr/encyclopedia) ou consulte la version anglaise complète de ce guide : [retinol for beginners](/en/blog/retinol-beginners-guide-how-to-start/).
+Le rétinol n'est pas l'ennemi qu'on décrit sur les réseaux. C'est un actif puissant validé par cinquante ans de littérature scientifique, à condition de respecter trois règles : commencer bas (0,1 à 0,3%), espacer les applications les premières semaines, et hydrater systématiquement. Dans six mois, tu te demanderas pourquoi tu as attendu. Pour aller plus loin, compare les actifs sur notre [encyclopédie](/fr/encyclopedia) ou consulte la version anglaise complète de ce guide : [retinol for beginners](/blog/retinol-beginners-guide-how-to-start/).
 
 Cet article a vocation informative et ne remplace pas l'avis d'un dermatologue. En cas de réactions persistantes, consulte un professionnel de santé.

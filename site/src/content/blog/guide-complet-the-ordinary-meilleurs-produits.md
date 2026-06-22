@@ -173,4 +173,4 @@ Non pour les rétinoïdes (Retinol, Granactive Retinoid) et l'acide salicylique 
 
 ---
 
-Pour aller plus loin, la version anglophone est disponible : [the ordinary complete guide best products](/en/blog/the-ordinary-complete-guide-best-products/). The Ordinary reste l'option la plus rationnelle pour entrer dans le skincare actif sans se ruiner, à condition d'accepter ses limites. Choisis deux ou trois références ciblées, applique avec rigueur, juge sur trois mois.
+Pour aller plus loin, la version anglophone est disponible : [the ordinary complete guide best products](/blog/the-ordinary-complete-guide-best-products/). The Ordinary reste l'option la plus rationnelle pour entrer dans le skincare actif sans se ruiner, à condition d'accepter ses limites. Choisis deux ou trois références ciblées, applique avec rigueur, juge sur trois mois.

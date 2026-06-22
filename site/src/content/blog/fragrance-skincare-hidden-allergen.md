@@ -57,7 +57,7 @@ Synthetic fragrance ingredients, by contrast, are often isolated single compound
 
 The honest answer: **neither natural nor synthetic fragrance is categorically safer**. What matters is the specific compounds, their concentrations, and whether they appear in a rinse-off or leave-on product.
 
-Do not automatically trust "scented with natural botanical extracts" as a safety signal. Check for specific essential oils in the ingredient list and cross-reference them against the [SkinScore ingredient encyclopedia](https://getskinscore.com/encyclopedia). The same caution applies to layering actives with fragranced products: if you are starting [retinol as a beginner](/en/blog/retinol-beginners-guide-how-to-start/), pair it with a fragrance-free buffer to limit barrier stress.
+Do not automatically trust "scented with natural botanical extracts" as a safety signal. Check for specific essential oils in the ingredient list and cross-reference them against the [SkinScore ingredient encyclopedia](https://getskinscore.com/encyclopedia). The same caution applies to layering actives with fragranced products: if you are starting [retinol as a beginner](/blog/retinol-beginners-guide-how-to-start/), pair it with a fragrance-free buffer to limit barrier stress.
 
 ---
 
@@ -122,15 +122,15 @@ Across the 2,700+ products we have analysed, here are the highest-scoring fragra
 
 **Best Fragrance-Free Cleansers**
 
-The [CeraVe Hydrating Facial Cleanser](https://getskinscore.com/product/cerave-hydrating-facial-cleanser) remains the benchmark: ceramides 1, 3, and 6-II plus hyaluronic acid in a fragrance-free, non-comedogenic base. SkinScore: 91/100. If you are deciding between drugstore staples, our [CeraVe vs Cetaphil deep dive](/en/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/) compares fragrance status alongside ceramide content.
+The [CeraVe Hydrating Facial Cleanser](https://getskinscore.com/product/cerave-hydrating-facial-cleanser) remains the benchmark: ceramides 1, 3, and 6-II plus hyaluronic acid in a fragrance-free, non-comedogenic base. SkinScore: 91/100. If you are deciding between drugstore staples, our [CeraVe vs Cetaphil deep dive](/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/) compares fragrance status alongside ceramide content.
 
 **Best Fragrance-Free Moisturisers**
 
-The [La Roche-Posay Toleriane Double Repair Face Moisturizer](https://getskinscore.com/product/la-roche-posay-toleriane-double-repair-moisturizer) delivers ceramides, niacinamide, and prebiotic thermal water in a fully fragrance-free formula. SkinScore: 89/100. La Mer's Creme de la Mer, at 200+ euros, contains essential oils and fragrance compounds and scores lower on our allergen safety metric. For drier or reactive profiles, see our [best moisturizers for dry skin guide](/en/blog/best-moisturizer-dry-skin-dermatologist-picks/).
+The [La Roche-Posay Toleriane Double Repair Face Moisturizer](https://getskinscore.com/product/la-roche-posay-toleriane-double-repair-moisturizer) delivers ceramides, niacinamide, and prebiotic thermal water in a fully fragrance-free formula. SkinScore: 89/100. La Mer's Creme de la Mer, at 200+ euros, contains essential oils and fragrance compounds and scores lower on our allergen safety metric. For drier or reactive profiles, see our [best moisturizers for dry skin guide](/blog/best-moisturizer-dry-skin-dermatologist-picks/).
 
 **Best Fragrance-Free Serums**
 
-[Paula's Choice 10% Niacinamide Booster](https://getskinscore.com/product/paulas-choice-10-niacinamide-booster) is one of the cleanest high-actives serums we have reviewed: niacinamide at a clinically meaningful 10%, no fragrance, and a stable, well-preserved formula. SkinScore: 93/100. Wondering whether to layer it with vitamin C? We covered that in [niacinamide and vitamin C together: the myth debunked](/en/blog/niacinamide-vitamin-c-together-myth-debunked/).
+[Paula's Choice 10% Niacinamide Booster](https://getskinscore.com/product/paulas-choice-10-niacinamide-booster) is one of the cleanest high-actives serums we have reviewed: niacinamide at a clinically meaningful 10%, no fragrance, and a stable, well-preserved formula. SkinScore: 93/100. Wondering whether to layer it with vitamin C? We covered that in [niacinamide and vitamin C together: the myth debunked](/blog/niacinamide-vitamin-c-together-myth-debunked/).
 
 **Best Fragrance-Free SPFs**
 

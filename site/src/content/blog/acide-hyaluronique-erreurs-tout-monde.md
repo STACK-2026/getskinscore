@@ -131,4 +131,4 @@ Oui, sans restriction d'usage chez l'adulte sain, y compris pendant la grossesse
 4. Scelle dans la minute avec une crème hydratante qui contient un occlusif.
 5. Adapte la richesse de la crème à l'humidité ambiante de la saison.
 
-Pour aller plus loin, la version anglophone de ce guide est disponible : [hyaluronic acid mistakes everyone makes](/en/blog/hyaluronic-acid-mistakes-everyone-makes/). Bien utilisé, l'acide hyaluronique est l'un des actifs les plus efficaces et les mieux tolérés du marché. Mal utilisé, il devient au mieux un placebo, au pire un facteur de déshydratation. La différence se joue sur cinq gestes simples, validés par la dermatologie, et reproductibles dès demain matin.
+Pour aller plus loin, la version anglophone de ce guide est disponible : [hyaluronic acid mistakes everyone makes](/blog/hyaluronic-acid-mistakes-everyone-makes/). Bien utilisé, l'acide hyaluronique est l'un des actifs les plus efficaces et les mieux tolérés du marché. Mal utilisé, il devient au mieux un placebo, au pire un facteur de déshydratation. La différence se joue sur cinq gestes simples, validés par la dermatologie, et reproductibles dès demain matin.

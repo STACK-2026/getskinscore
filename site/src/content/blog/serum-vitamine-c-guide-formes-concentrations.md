@@ -88,7 +88,7 @@ L'analyse indépendante de formulation via [SkinScore](/rankings) fait remonter 
 - **SkinCeuticals C E Ferulic** reste la référence avec 15 % d'acide L-AA, 1 % de vitamine E et 0,5 % d'acide férulique. Prix premium, verre ambré opaque, pedigree clinique indiscutable.
 - **La Roche-Posay Pure Vitamin C10 Serum** mise sur 10 % d'acide L-ascorbique pur associé à la neurosensine pour la tolérance des peaux sensibles. La marque dermo-cosmétique applique les standards reconnus par la [HAS](https://www.has-sante.fr/).
 - **Vichy LiftActiv Vitamin C** combine 15 % de L-AA et acide hyaluronique dans un système d'ampoules monodoses qui maximise la stabilité.
-- **The Ordinary Ascorbyl Tetraisopalmitate 20% in Vitamin F** est une option liposoluble plus douce pour les peaux sensibles, détaillée dans le [guide complet The Ordinary](/blog/guide-complet-the-ordinary-meilleurs-produits/).
+- **The Ordinary Ascorbyl Tetraisopalmitate 20% in Vitamin F** est une option liposoluble plus douce pour les peaux sensibles, détaillée dans le [guide complet The Ordinary](/fr/blog/guide-complet-the-ordinary-meilleurs-produits/).
 - **Paula's Choice C15 Super Booster** propose 15 % de L-AA + vitamine E + acide férulique + peptides dans un flacon airless, à un prix plus accessible que SkinCeuticals.
 - **Typology Sérum 11 % Vitamine C + 9 Acides Aminés** offre une formule courte, vegan et un packaging airless ambré, intéressante pour démarrer.
 
@@ -109,7 +109,7 @@ La vitamine C est un actif du matin. Le bénéfice antioxydant s'additionne à c
 
 Si le L-AA pique au réveil, les dérivés SAP ou THD peuvent être utilisés le soir sans entrer en conflit avec le rétinol ou les AHA, car leur pH est neutre. Réserve le créneau du soir aux formes les plus douces.
 
-Pour la logique complète de superposition matin et soir, consulte le [guide de l'ordre de routine matin-soir](/blog/ordre-routine-skincare-matin-soir/).
+Pour la logique complète de superposition matin et soir, consulte le [guide de l'ordre de routine matin-soir](/fr/blog/ordre-routine-skincare-matin-soir/).
 
 ### Compatibilités et conflits
 
@@ -124,7 +124,7 @@ L'acide L-ascorbique à pH bas peut provoquer :
 - **Picotements** dans les 30 à 60 premières secondes, surtout sur peau humide. Applique sur peau bien sèche pour ralentir la pénétration.
 - **Léger desquamation** sur les deux premières semaines. Réduis à un jour sur deux le temps que la tolérance s'installe.
 - **Taches jaunes** sur les taies d'oreiller ou les serviettes claires si le sérum s'oxyde la nuit. Utilise une taie colorée pendant la phase d'adaptation.
-- **Dermatite de contact irritative** chez 1 à 3 % des utilisatrices, surtout sur barrière déjà fragilisée. Stoppe et reconstruis avec une routine barrière comme celle décrite dans notre [guide hydratant peau sèche](/blog/meilleur-solaire-peau-grasse-sans-trace/).
+- **Dermatite de contact irritative** chez 1 à 3 % des utilisatrices, surtout sur barrière déjà fragilisée. Stoppe et reconstruis avec une routine barrière comme celle décrite dans notre [guide hydratant peau sèche](/fr/blog/meilleur-solaire-peau-grasse-sans-trace/).
 
 Grossesse : la vitamine C topique en concentration cosmétique standard est généralement considérée sûre par les sociétés savantes de dermatologie et de gynécologie. Confirme toujours avec ton ou ta gynécologue. L'[ANSM](https://ansm.sante.fr/) et le dossier dermatologie de l'Inserm classent l'acide ascorbique parmi les actifs cosmétiques bien tolérés pendant la grossesse aux concentrations usuelles.
 
@@ -162,10 +162,10 @@ Oui. Le supposé conflit entre vitamine C et niacinamide est un artefact de labo
 Regarde la couleur. Un sérum L-AA frais est transparent à jaune pâle. Une teinte brune, orange ou ambrée foncée signale que l'actif s'est oxydé. Une fois oxydé, le sérum perd son efficacité et peut devenir pro-oxydant sur la peau. Remplace-le dans les 3 mois après ouverture.
 
 ### La vitamine C est-elle compatible avec le rétinol ?
-Oui, à condition de les séparer dans le temps. La vitamine C le matin, le rétinol le soir, est le schéma le plus simple et le mieux toléré. Pour démarrer correctement le rétinol sans irriter, consulte notre [guide rétinol pour débutantes](/blog/retinol-guide-debutant-commencer/).
+Oui, à condition de les séparer dans le temps. La vitamine C le matin, le rétinol le soir, est le schéma le plus simple et le mieux toléré. Pour démarrer correctement le rétinol sans irriter, consulte notre [guide rétinol pour débutantes](/fr/blog/retinol-guide-debutant-commencer/).
 
 ### La vitamine C est-elle sûre pendant la grossesse ?
-La vitamine C topique aux concentrations cosmétiques standard est généralement considérée sûre pendant la grossesse par la plupart des autorités réglementaires, y compris l'ANSM française. Confirme toujours avec ton ou ta gynécologue, et croise avec notre [guide des ingrédients comédogènes à éviter](/blog/10-ingredients-comedogenes-pires-peau/) si tu cumules acné hormonale et grossesse.
+La vitamine C topique aux concentrations cosmétiques standard est généralement considérée sûre pendant la grossesse par la plupart des autorités réglementaires, y compris l'ANSM française. Confirme toujours avec ton ou ta gynécologue, et croise avec notre [guide des ingrédients comédogènes à éviter](/fr/blog/10-ingredients-comedogenes-pires-peau/) si tu cumules acné hormonale et grossesse.
 
 ## Sources
 
@@ -190,12 +190,12 @@ La vitamine C topique aux concentrations cosmétiques standard est généralemen
 
 **Articles liés :**
 - [Niacinamide et vitamine C : le mythe démonté](/blog/niacinamide-vitamin-c-together-myth-debunked/)
-- [Ordre de routine skincare matin et soir](/blog/ordre-routine-skincare-matin-soir/)
-- [Guide complet The Ordinary : meilleurs produits](/blog/guide-complet-the-ordinary-meilleurs-produits/)
-- [Acide hyaluronique : les erreurs que tout le monde fait](/blog/acide-hyaluronique-erreurs-tout-monde/)
-- [Parfum cosmétique : l'allergène caché](/blog/parfum-cosmetique-allergene-cache/)
-- [Rétinol : guide débutant pour bien démarrer](/blog/retinol-guide-debutant-commencer/)
-- [Routine acné dermato approuvée](/blog/routine-acne-dermato-approuvee/)
+- [Ordre de routine skincare matin et soir](/fr/blog/ordre-routine-skincare-matin-soir/)
+- [Guide complet The Ordinary : meilleurs produits](/fr/blog/guide-complet-the-ordinary-meilleurs-produits/)
+- [Acide hyaluronique : les erreurs que tout le monde fait](/fr/blog/acide-hyaluronique-erreurs-tout-monde/)
+- [Parfum cosmétique : l'allergène caché](/fr/blog/parfum-cosmetique-allergene-cache/)
+- [Rétinol : guide débutant pour bien démarrer](/fr/blog/retinol-guide-debutant-commencer/)
+- [Routine acné dermato approuvée](/fr/blog/routine-acne-dermato-approuvee/)
 
 **Ressources :**
 - [Parcourir les produits](/encyclopedia)

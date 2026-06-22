@@ -62,13 +62,13 @@ Voici le tableau récapitulatif des meilleurs actifs anti-âge et de leurs actio
 
 Les rétinoïdes sont les seuls actifs cosmétiques (hors prescription pour la trétinoïne) à avoir démontré une augmentation mesurable de la synthèse de collagène à long terme. Une revue parue dans *Journal of the American Academy of Dermatology* indexée sur [PubMed](https://pubmed.ncbi.nlm.nih.gov/16702999/) résume des décennies d'études sur la trétinoïne 0,025 à 0,1 pour cent et le rétinol 0,3 à 1 pour cent. Les enquêtes auprès de dermatologues placent les rétinoïdes parmi les actifs les plus recommandés, avec des taux d'adhésion souvent au-dessus de 95 pour cent dans la littérature professionnelle.
 
-Pratique : commence à 0,3 pour cent deux soirs par semaine, monte progressivement. Le purge initial peut durer 4 à 8 semaines. Toujours sous SPF le matin. Pour un protocole complet, vois notre [guide rétinol pour débutantes](/blog/retinol-guide-debutant-commencer/).
+Pratique : commence à 0,3 pour cent deux soirs par semaine, monte progressivement. Le purge initial peut durer 4 à 8 semaines. Toujours sous SPF le matin. Pour un protocole complet, vois notre [guide rétinol pour débutantes](/fr/blog/retinol-guide-debutant-commencer/).
 
 ### Vitamine C (acide L-ascorbique)
 
 La vitamine C topique cumule trois effets prouvés : antioxydant, cofacteur de la synthèse de collagène et inhibiteur de la tyrosinase (donc anti-taches). Le travail séminal de Pinnell sur le sérum 15 pour cent L-AA, 1 pour cent vitamine E et 0,5 pour cent acide férulique a montré une multiplication par huit de la photoprotection lorsque le sérum est appliqué sous écran solaire. Référence sur [PubMed](https://pubmed.ncbi.nlm.nih.gov/15955097/).
 
-Concentration efficace : 10 à 20 pour cent en L-ascorbique, pH inférieur à 3,5. Pour les peaux sensibles, les dérivés (sodium ascorbyl phosphate, tetrahexyldecyl ascorbate) restent intéressants. Détails dans notre [guide sérum vitamine C](/blog/serum-vitamine-c-guide-formes-concentrations/).
+Concentration efficace : 10 à 20 pour cent en L-ascorbique, pH inférieur à 3,5. Pour les peaux sensibles, les dérivés (sodium ascorbyl phosphate, tetrahexyldecyl ascorbate) restent intéressants. Détails dans notre [guide sérum vitamine C](/fr/blog/serum-vitamine-c-guide-formes-concentrations/).
 
 ## Tier A : les puissants alliés, peptides, niacinamide, acides
 
@@ -92,7 +92,7 @@ L'acide glycolique 5 à 10 pour cent, l'acide lactique 5 à 10 pour cent et l'ac
 
 ### Acide hyaluronique
 
-L'acide hyaluronique topique n'augmente pas la production de collagène et ne corrige pas les rides profondes. Mais il améliore l'hydratation immédiate et l'effet plumping. Un poids moléculaire mixte (haut, moyen et bas) donne le meilleur compromis surface / pénétration. Les erreurs classiques (appliquer sur peau sèche, en environnement sec) sont décortiquées dans notre [article acide hyaluronique](/blog/acide-hyaluronique-erreurs-tout-monde/).
+L'acide hyaluronique topique n'augmente pas la production de collagène et ne corrige pas les rides profondes. Mais il améliore l'hydratation immédiate et l'effet plumping. Un poids moléculaire mixte (haut, moyen et bas) donne le meilleur compromis surface / pénétration. Les erreurs classiques (appliquer sur peau sèche, en environnement sec) sont décortiquées dans notre [article acide hyaluronique](/fr/blog/acide-hyaluronique-erreurs-tout-monde/).
 
 ### Céramides
 
@@ -118,9 +118,9 @@ Empiler les actifs ne donne pas plus de résultats. C'est souvent l'inverse : ir
 - **Soir** : nettoyage, rétinoïde 2 à 4 soirs par semaine, hydratation. Les soirs sans rétinoïde, acides exfoliants ou peptides.
 - **Tous les jours** : crème avec céramides et niacinamide pour la barrière.
 
-L'ordre d'application compte (du plus fluide au plus riche). Le détail complet figure dans notre [guide ordre de routine](/blog/ordre-routine-skincare-matin-soir/).
+L'ordre d'application compte (du plus fluide au plus riche). Le détail complet figure dans notre [guide ordre de routine](/fr/blog/ordre-routine-skincare-matin-soir/).
 
-La protection solaire reste le geste anti-âge numéro un. Sans SPF, les rétinoïdes et la vitamine C compensent à peine ce que les UV détruisent. Pour les peaux mixtes à grasses, vois notre [sélection solaire peau grasse](/blog/meilleur-solaire-peau-grasse-sans-trace/).
+La protection solaire reste le geste anti-âge numéro un. Sans SPF, les rétinoïdes et la vitamine C compensent à peine ce que les UV détruisent. Pour les peaux mixtes à grasses, vois notre [sélection solaire peau grasse](/fr/blog/meilleur-solaire-peau-grasse-sans-trace/).
 
 ## Erreurs fréquentes qui sabotent une routine anti-âge
 
@@ -140,7 +140,7 @@ Notre [méthodologie](/methodology) note chaque produit sur cinq critères :
 - **Packaging** : airless, opaque, format adapté à la sensibilité de l'actif.
 - **Rapport qualité-prix** : coût par mois d'utilisation.
 
-Les notes SkinScore vont de A (excellent) à E (à éviter). Tu peux comparer les sérums rétinol et vitamine C dans l'[encyclopédie des produits](/encyclopedia) et croiser avec notre table d'[interactions d'ingrédients](/interactions). Pour un focus sur une marque, le [guide complet The Ordinary](/blog/guide-complet-the-ordinary-meilleurs-produits/) montre comment lire une gamme à travers cette grille, et la même approche s'applique à La Roche-Posay ou CeraVe.
+Les notes SkinScore vont de A (excellent) à E (à éviter). Tu peux comparer les sérums rétinol et vitamine C dans l'[encyclopédie des produits](/encyclopedia) et croiser avec notre table d'[interactions d'ingrédients](/interactions). Pour un focus sur une marque, le [guide complet The Ordinary](/fr/blog/guide-complet-the-ordinary-meilleurs-produits/) montre comment lire une gamme à travers cette grille, et la même approche s'applique à La Roche-Posay ou CeraVe.
 
 ## FAQ : meilleurs actifs anti-âge
 
@@ -179,13 +179,13 @@ Compte 4 à 8 semaines pour les premiers effets (éclat, texture), 12 à 16 sema
 ## Pour aller plus loin
 
 **Articles liés :**
-- [Sérum vitamine C : formes, concentrations, et ce qui marche vraiment](/blog/serum-vitamine-c-guide-formes-concentrations/)
-- [Rétinol : guide débutant pour bien démarrer](/blog/retinol-guide-debutant-commencer/)
+- [Sérum vitamine C : formes, concentrations, et ce qui marche vraiment](/fr/blog/serum-vitamine-c-guide-formes-concentrations/)
+- [Rétinol : guide débutant pour bien démarrer](/fr/blog/retinol-guide-debutant-commencer/)
 - [Niacinamide et vitamine C : le mythe démonté](/blog/niacinamide-vitamin-c-together-myth-debunked/)
-- [Acide hyaluronique : les erreurs que tout le monde fait](/blog/acide-hyaluronique-erreurs-tout-monde/)
-- [Ordre de routine skincare matin et soir](/blog/ordre-routine-skincare-matin-soir/)
-- [Guide complet The Ordinary : meilleurs produits](/blog/guide-complet-the-ordinary-meilleurs-produits/)
-- [Meilleurs solaires peau grasse : sans trace blanche](/blog/meilleur-solaire-peau-grasse-sans-trace/)
+- [Acide hyaluronique : les erreurs que tout le monde fait](/fr/blog/acide-hyaluronique-erreurs-tout-monde/)
+- [Ordre de routine skincare matin et soir](/fr/blog/ordre-routine-skincare-matin-soir/)
+- [Guide complet The Ordinary : meilleurs produits](/fr/blog/guide-complet-the-ordinary-meilleurs-produits/)
+- [Meilleurs solaires peau grasse : sans trace blanche](/fr/blog/meilleur-solaire-peau-grasse-sans-trace/)
 
 **Ressources :**
 - [Parcourir les produits](/encyclopedia)

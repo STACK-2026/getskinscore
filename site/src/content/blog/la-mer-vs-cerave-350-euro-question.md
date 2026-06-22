@@ -87,7 +87,7 @@ Ceramides 1, 3 and 6-II are different. They are essential constituents of the la
 
 **Mineral oil and petrolatum.** Cosmetic-grade mineral oil and white petrolatum are inert, non-comedogenic in the grades used by major manufacturers, and among the most effective occlusives in dermatology, reducing transepidermal water loss by up to 98 percent per [Inserm](https://www.inserm.fr/) reviews. Mineral oil in a leave-on cream is not a safety issue. It is, however, not a 350 EUR ingredient.
 
-**Fragrance.** La Mer contains Parfum plus declared allergens including Limonene, Geraniol, Linalool, Citronellol, Citral, Hydroxycitronellal and Benzyl Salicylate. The [European Academy of Dermatology and Venereology](https://www.eadv.org/) recognises fragrance mix as a top contact allergen in cosmetic dermatitis, and the [ANSM](https://ansm.sante.fr/) requires individual allergen labelling above 0.001 percent for leave-on products. CeraVe is fragrance-free. For more, see our [hidden fragrance allergen guide](/en/blog/fragrance-skincare-hidden-allergen/). For sensitive, rosacea-prone, post-procedure or atopic skin, the fragrance load of La Mer is a meaningful clinical drawback regardless of price.
+**Fragrance.** La Mer contains Parfum plus declared allergens including Limonene, Geraniol, Linalool, Citronellol, Citral, Hydroxycitronellal and Benzyl Salicylate. The [European Academy of Dermatology and Venereology](https://www.eadv.org/) recognises fragrance mix as a top contact allergen in cosmetic dermatitis, and the [ANSM](https://ansm.sante.fr/) requires individual allergen labelling above 0.001 percent for leave-on products. CeraVe is fragrance-free. For more, see our [hidden fragrance allergen guide](/blog/fragrance-skincare-hidden-allergen/). For sensitive, rosacea-prone, post-procedure or atopic skin, the fragrance load of La Mer is a meaningful clinical drawback regardless of price.
 
 ---
 
@@ -112,7 +112,7 @@ Public position statements from the American Academy of Dermatology, the [Europe
 3. **Fragrance-free** for sensitive, reactive or atopic profiles.
 4. **Non-comedogenic** for acne-prone profiles.
 
-CeraVe Moisturizing Cream meets all four. Creme de la Mer meets only the first two, partially. The clinical recommendation pattern in the US, France and the EU is consistent: drugstore ceramide-led emulsions are recommended ahead of luxury occlusives for medical and preventative use. Our [CeraVe vs Cetaphil deep dive](/en/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/) explores why CeraVe dominates among drugstore options.
+CeraVe Moisturizing Cream meets all four. Creme de la Mer meets only the first two, partially. The clinical recommendation pattern in the US, France and the EU is consistent: drugstore ceramide-led emulsions are recommended ahead of luxury occlusives for medical and preventative use. Our [CeraVe vs Cetaphil deep dive](/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/) explores why CeraVe dominates among drugstore options.
 
 ---
 
@@ -122,7 +122,7 @@ CeraVe Moisturizing Cream meets all four. Creme de la Mer meets only the first t
 
 **La Mer is the wrong choice if** you have rosacea, sensitive skin, atopic dermatitis, contact dermatitis history, active acne, post-procedure skin (peels, lasers, microneedling), or simply want measurable barrier repair on a per-euro basis. The fragrance allergens and the absence of ceramides are the disqualifying issues, not the price.
 
-**CeraVe is the rational default for almost every other use case.** Daily moisturisation, dry skin, atopic profiles, acne support, post-retinoid recovery, post-procedure barrier repair, and anti-ageing maintenance, since the most evidence-backed anti-ageing measure is consistent SPF and a hydrated barrier. If your skin runs dry, our [dermatologist-vetted dry skin moisturiser ranking](/en/blog/best-moisturizer-dry-skin-dermatologist-picks/) covers the closest equivalents.
+**CeraVe is the rational default for almost every other use case.** Daily moisturisation, dry skin, atopic profiles, acne support, post-retinoid recovery, post-procedure barrier repair, and anti-ageing maintenance, since the most evidence-backed anti-ageing measure is consistent SPF and a hydrated barrier. If your skin runs dry, our [dermatologist-vetted dry skin moisturiser ranking](/blog/best-moisturizer-dry-skin-dermatologist-picks/) covers the closest equivalents.
 
 ---
 
@@ -130,7 +130,7 @@ CeraVe Moisturizing Cream meets all four. Creme de la Mer meets only the first t
 
 There is an honest case for luxury skincare that has nothing to do with active ingredients. Warming a small amount of cream between the palms, applying it slowly and breathing the scent is a moment of self-regulation that affects perceived stress. The cream is the prop, not the protagonist, and La Mer is a particularly good prop.
 
-If you want both, use CeraVe as your daily clinical moisturiser and reserve La Mer for the "ritual" moment, two or three times per week, as a lifestyle product. We cover how to integrate them into a coherent sequence in our [skincare routine order guide](/en/blog/skincare-routine-order-morning-night/).
+If you want both, use CeraVe as your daily clinical moisturiser and reserve La Mer for the "ritual" moment, two or three times per week, as a lifestyle product. We cover how to integrate them into a coherent sequence in our [skincare routine order guide](/blog/skincare-routine-order-morning-night/).
 
 ---
 
@@ -143,7 +143,7 @@ For most users, no. La Mer is a competent occlusive cream with a fragranced bota
 The price reflects positioning, not ingredient cost. The dominant inputs in Creme de la Mer (mineral oil, petrolatum, glycerin, kelp ferment, fragrance compounds) cost a few cents per gram at industrial scale. The retail price funds brand marketing, prestige distribution, packaging, the slow-fermentation narrative and retailer margins. CeraVe is priced for clinical access, with most of the budget going into the ceramide trio and the MultiVesicular Emulsion technology.
 
 **Does CeraVe work as well as La Mer for anti-ageing?**
-For evidence-based anti-ageing, CeraVe outperforms La Mer at a fraction of the price, but neither is the right tool for wrinkle reversal. The most evidence-backed strategy is daily SPF 30 to 50, retinoids, and a hydrated barrier. CeraVe excels at the third pillar. Neither cream contains retinoids, peptides at clinical concentrations or vitamin C in any meaningful dose. Pair either with a retinol routine, such as the one in our [retinol beginner guide](/en/blog/retinol-beginners-guide-how-to-start/), for actual structural change.
+For evidence-based anti-ageing, CeraVe outperforms La Mer at a fraction of the price, but neither is the right tool for wrinkle reversal. The most evidence-backed strategy is daily SPF 30 to 50, retinoids, and a hydrated barrier. CeraVe excels at the third pillar. Neither cream contains retinoids, peptides at clinical concentrations or vitamin C in any meaningful dose. Pair either with a retinol routine, such as the one in our [retinol beginner guide](/blog/retinol-beginners-guide-how-to-start/), for actual structural change.
 
 **Can La Mer cause acne or breakouts?**
 La Mer is not the highest-risk cream on the market, but the formula contains lanolin alcohol, microcrystalline wax, sesame oil and decyl oleate, four ingredients that can be problematic for acne-prone or fungal-acne-prone skin. The fragrance and essential oil load can also trigger inflammatory acne via contact dermatitis. CeraVe Moisturizing Cream carries the non-comedogenic claim.
@@ -152,7 +152,7 @@ La Mer is not the highest-risk cream on the market, but the formula contains lan
 For dry to very dry skin seeking the closest tactile experience, **CeraVe Moisturizing Cream** (340 g tub) is the direct equivalent. For combination or oily skin, **CeraVe PM Facial Moisturizing Lotion** (with niacinamide) is the better pick. For mature skin, **CeraVe Skin Renewing Night Cream** with peptides outperforms La Mer in formula sophistication. All three deliver the ceramide trio and MVE technology that La Mer lacks.
 
 **Do dermatologists recommend La Mer?**
-Public-facing position statements from the AAD, the EADV, the Haute Autorite de Sante and dermato-info.fr consistently rank ceramide-led, fragrance-free, non-comedogenic moisturisers (CeraVe, Cetaphil, La Roche-Posay, Avene) as first-line for medical and preventative use. La Mer is rarely cited, not because it is unsafe, but because it does not meet the four formulation criteria. We cover ingredient-layering rules in [niacinamide and vitamin C together](/en/blog/niacinamide-vitamin-c-together-myth-debunked/).
+Public-facing position statements from the AAD, the EADV, the Haute Autorite de Sante and dermato-info.fr consistently rank ceramide-led, fragrance-free, non-comedogenic moisturisers (CeraVe, Cetaphil, La Roche-Posay, Avene) as first-line for medical and preventative use. La Mer is rarely cited, not because it is unsafe, but because it does not meet the four formulation criteria. We cover ingredient-layering rules in [niacinamide and vitamin C together](/blog/niacinamide-vitamin-c-together-myth-debunked/).
 
 ---
 

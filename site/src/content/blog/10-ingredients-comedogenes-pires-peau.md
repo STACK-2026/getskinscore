@@ -103,7 +103,7 @@ Faux. Dimethicone, Cyclopentasiloxane et Cyclohexasiloxane affichent des scores 
 
 ### Mythe 3 : "L'huile minérale provoque l'acné"
 
-Mineral Oil et Paraffinum Liquidum affichent des scores de 0 à 2 selon le grade de raffinage. Les grades cosmétiques ne montrent pas d'effet comédogène significatif. La CeraVe Moisturizing Cream, qui en contient, est régulièrement recommandée pour peaux acnéiques (notre [comparison CeraVe vs Cetaphil](/en/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/) détaille les formules).
+Mineral Oil et Paraffinum Liquidum affichent des scores de 0 à 2 selon le grade de raffinage. Les grades cosmétiques ne montrent pas d'effet comédogène significatif. La CeraVe Moisturizing Cream, qui en contient, est régulièrement recommandée pour peaux acnéiques (notre [comparison CeraVe vs Cetaphil](/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/) détaille les formules).
 
 ### Mythe 4 : "Un produit non-comédogène est forcément safe"
 
@@ -121,7 +121,7 @@ Un ingrédient comédogène dans une formule bien conçue peut avoir un impact m
 
 **Dilution.** Un fond de teint à 2% d'isopropyl myristate n'a pas le même impact qu'une huile démaquillante qui en contient 40%. Plus l'ingrédient est loin dans la liste INCI, moins il est concentré.
 
-**Antagonistes.** La niacinamide à 4-5% réduit la production de sébum. L'acide salicylique (BHA) est kératolytique et dissout les bouchons folliculaires. Une formule qui combine un émollient à risque avec ces actifs peut convenir à une peau acnéique. Pour associer ces ingrédients, lis notre guide [niacinamide and vitamin C together](/en/blog/niacinamide-vitamin-c-together-myth-debunked/).
+**Antagonistes.** La niacinamide à 4-5% réduit la production de sébum. L'acide salicylique (BHA) est kératolytique et dissout les bouchons folliculaires. Une formule qui combine un émollient à risque avec ces actifs peut convenir à une peau acnéique. Pour associer ces ingrédients, lis notre guide [niacinamide and vitamin C together](/blog/niacinamide-vitamin-c-together-myth-debunked/).
 
 **Véhicule.** Les émulsions huile-dans-eau (textures laiteuses) dispersent les corps gras différemment des émulsions eau-dans-huile (crèmes riches). Le même ingrédient comédogène réagit différemment selon la matrice.
 

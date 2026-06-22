@@ -41,7 +41,7 @@ European Academy of Dermatology and Venereology ([EADV](https://www.eadv.org/)) 
 Every one of these is a documented irritant on rosacea skin. Stacking them is how routines silently sabotage you.
 
 - **Denatured alcohol (alcohol denat., SD alcohol)** strips the lipid barrier and amplifies neurosensory burning.
-- **Fragrance (parfum) and essential oils** are the most common cosmetic allergen, covered in our [hidden fragrance allergen guide](/blog/parfum-cosmetique-allergene-cache/). Lavender, citrus, eucalyptus, peppermint, and menthol are particularly aggressive.
+- **Fragrance (parfum) and essential oils** are the most common cosmetic allergen, covered in our [hidden fragrance allergen guide](/fr/blog/parfum-cosmetique-allergene-cache/). Lavender, citrus, eucalyptus, peppermint, and menthol are particularly aggressive.
 - **Sodium lauryl sulphate (SLS)** in cleansers strips barrier lipids and raises skin pH.
 - **Witch hazel and astringent toners** tighten vessels short term and then trigger rebound redness.
 - **Strong AHA and BHA**, such as glycolic acid above 5 percent or daily salicylic acid above 2 percent, often inflame rosacea skin.
@@ -184,7 +184,7 @@ The most commonly reported dietary triggers are alcohol (especially red wine), h
 - [Best sunscreen for oily skin with no white cast](/blog/best-sunscreen-oily-skin-no-white-cast/)
 - [The Ordinary complete guide: best products](/blog/the-ordinary-complete-guide-best-products/)
 - [Acne routine dermatologist approved](/blog/acne-routine-dermatologist-approved/)
-- [Fragrance in skincare: the hidden allergen](/blog/parfum-cosmetique-allergene-cache/)
+- [Fragrance in skincare: the hidden allergen](/fr/blog/parfum-cosmetique-allergene-cache/)
 - [CeraVe vs Cetaphil: which moisturiser is actually better](/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/)
 
 **Resources:**

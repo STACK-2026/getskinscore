@@ -39,7 +39,7 @@ Quatre indications soutenues par la littérature, classées par solidité des pr
 
 **Rosacée papulo-pustuleuse.** La formulation en gel à 15 pour cent (Finacea aux États-Unis, Skinoren dans une grande partie de l'Europe) fait partie des rares topiques avec un niveau de preuve élevé pour réduire papules, pustules et érythème persistant. La [National Rosacea Society](https://www.rosacea.org/) la cite parmi les options de première intention. L'amélioration visible se situe autour de la 8e semaine, avec une réponse complète proche de la 12e.
 
-**Hyperpigmentation et mélasma.** L'inhibition de la tyrosinase ouvre une voie claire contre le mélasma et les taches post-inflammatoires, en particulier sur les peaux mates ou foncées où l'hydroquinone peut être trop agressive. Des études tête à tête indexées sur PubMed indiquent que l'acide azélaïque à 20 pour cent peut rivaliser avec l'hydroquinone 4 pour cent sur 24 semaines, avec un profil de tolérance bien meilleur. Pour un panorama des actifs ciblant les taches, lis aussi notre [guide des meilleurs sérums taches brunes](/blog/meilleurs-serums-taches-brunes-hyperpigmentation/).
+**Hyperpigmentation et mélasma.** L'inhibition de la tyrosinase ouvre une voie claire contre le mélasma et les taches post-inflammatoires, en particulier sur les peaux mates ou foncées où l'hydroquinone peut être trop agressive. Des études tête à tête indexées sur PubMed indiquent que l'acide azélaïque à 20 pour cent peut rivaliser avec l'hydroquinone 4 pour cent sur 24 semaines, avec un profil de tolérance bien meilleur. Pour un panorama des actifs ciblant les taches, lis aussi notre [guide des meilleurs sérums taches brunes](/fr/blog/meilleurs-serums-taches-brunes-hyperpigmentation/).
 
 **Texture et grain de peau.** En régulant la kératinisation, il affine progressivement le grain et homogénéise la surface. L'effet est cumulatif et discret.
 
@@ -75,27 +75,27 @@ La formulation pèse autant que le pourcentage. Voici comment les options les pl
 
 **The Inkey List 10 % Azelaic Acid.** 10 pour cent à prix doux, vecteur léger, compatible routine acné quotidienne.
 
-Tendance commune aux produits qui scorent haut : 10 pour cent d'actif, sans parfum, synergie avec la niacinamide, peu de silicones, pas d'alcool dénaturé en haut de la liste INCI. Pour comparer méthodiquement les routines acide, consulte aussi notre [guide complet The Ordinary](/blog/guide-complet-the-ordinary-meilleurs-produits/).
+Tendance commune aux produits qui scorent haut : 10 pour cent d'actif, sans parfum, synergie avec la niacinamide, peu de silicones, pas d'alcool dénaturé en haut de la liste INCI. Pour comparer méthodiquement les routines acide, consulte aussi notre [guide complet The Ordinary](/fr/blog/guide-complet-the-ordinary-meilleurs-produits/).
 
 ## Comment intégrer l'acide azélaïque dans une routine
 
 Ajoute l'acide azélaïque comme n'importe quel actif : lentement, après avoir posé les bases barrière.
 
-**Matin.** Nettoyant doux, lotion hydratante si tu en utilises, acide azélaïque 10 pour cent, crème hydratante sans parfum, SPF 30 à 50 minéral ou hybride. L'acide azélaïque est photostable et n'augmente pas la photosensibilité, mais les UV annulent chaque progrès sur les taches, donc le SPF n'est pas négociable. Si tu cherches une formule confortable, consulte notre sélection de [solaires pour peau grasse sans trace](/blog/meilleur-solaire-peau-grasse-sans-trace/).
+**Matin.** Nettoyant doux, lotion hydratante si tu en utilises, acide azélaïque 10 pour cent, crème hydratante sans parfum, SPF 30 à 50 minéral ou hybride. L'acide azélaïque est photostable et n'augmente pas la photosensibilité, mais les UV annulent chaque progrès sur les taches, donc le SPF n'est pas négociable. Si tu cherches une formule confortable, consulte notre sélection de [solaires pour peau grasse sans trace](/fr/blog/meilleur-solaire-peau-grasse-sans-trace/).
 
 **Soir.** Nettoyant, acide azélaïque (même concentration, ou ton gel sur ordonnance), crème hydratante. Si tu utilises aussi du rétinol ou du rétinal, alterne les soirs. Évite de superposer azélaïque et nouveau rétinol, acide glycolique au-dessus de 8 pour cent, ou peroxyde de benzoyle au-dessus de 5 pour cent. Ces actifs fonctionnent, mais le cumul est inconfortable.
 
 **Montée en fréquence.** Démarre 3 fois par semaine pendant 2 semaines, puis tous les soirs, puis matin et soir si la peau suit. Un picotement de 60 à 90 secondes est normal. Une brûlure persistante, une desquamation ou une rougeur durable signifient que tu vas trop vite ou que le véhicule n'est pas pour toi.
 
-**Avec quoi le poser.** Niacinamide, céramides, panthénol, acide hyaluronique, SPF minéral. Pour reconstruire la base barrière avant d'ajouter l'azélaïque, lis notre dossier [céramides et barrière cutanée](/blog/ceramides-barriere-cutanee-expliques/). Pour une routine acné complète, voir notre [routine acné approuvée par les dermatologues](/blog/routine-acne-dermato-approuvee/). Pour l'ordre général dans la journée, le détail est dans notre [ordre de routine matin et soir](/blog/ordre-routine-skincare-matin-soir/).
+**Avec quoi le poser.** Niacinamide, céramides, panthénol, acide hyaluronique, SPF minéral. Pour reconstruire la base barrière avant d'ajouter l'azélaïque, lis notre dossier [céramides et barrière cutanée](/fr/blog/ceramides-barriere-cutanee-expliques/). Pour une routine acné complète, voir notre [routine acné approuvée par les dermatologues](/fr/blog/routine-acne-dermato-approuvee/). Pour l'ordre général dans la journée, le détail est dans notre [ordre de routine matin et soir](/fr/blog/ordre-routine-skincare-matin-soir/).
 
 ## Acide azélaïque vs rétinol, vitamine C, AHA et BHA
 
 Le bon angle n'est pas lequel est le meilleur, mais lequel répond à ton problème.
 
-**Acide azélaïque vs rétinol.** Le rétinol remodèle le derme et accélère le renouvellement. L'acide azélaïque calme l'inflammation et libère le follicule. Sur vieillissement plus pigmentation, le rétinol gagne à long terme. Sur acné plus rosacée, l'acide azélaïque gagne en tolérance. Si tu débutes les rétinoïdes, lis d'abord notre [guide rétinol pour débutant](/blog/retinol-guide-debutant-commencer/).
+**Acide azélaïque vs rétinol.** Le rétinol remodèle le derme et accélère le renouvellement. L'acide azélaïque calme l'inflammation et libère le follicule. Sur vieillissement plus pigmentation, le rétinol gagne à long terme. Sur acné plus rosacée, l'acide azélaïque gagne en tolérance. Si tu débutes les rétinoïdes, lis d'abord notre [guide rétinol pour débutant](/fr/blog/retinol-guide-debutant-commencer/).
 
-**Acide azélaïque vs vitamine C.** Les deux éclaircissent, par des voies différentes. La vitamine C (acide L-ascorbique) est un antioxydant qui intervient en amont sur la synthèse de mélanine. L'acide azélaïque bloque la tyrosinase en aval. Ils sont complémentaires, et beaucoup de routines posent la vitamine C le matin et l'acide azélaïque le soir. Détails dans notre [guide sérum vitamine C, formes et concentrations](/blog/serum-vitamine-c-guide-formes-concentrations/).
+**Acide azélaïque vs vitamine C.** Les deux éclaircissent, par des voies différentes. La vitamine C (acide L-ascorbique) est un antioxydant qui intervient en amont sur la synthèse de mélanine. L'acide azélaïque bloque la tyrosinase en aval. Ils sont complémentaires, et beaucoup de routines posent la vitamine C le matin et l'acide azélaïque le soir. Détails dans notre [guide sérum vitamine C, formes et concentrations](/fr/blog/serum-vitamine-c-guide-formes-concentrations/).
 
 **Acide azélaïque vs acide salicylique.** Le BHA est l'outil contre l'acné comédonienne pure, les points noirs et les filaments sébacés. L'acide azélaïque cible plutôt les papules inflammatoires, les marques post-inflammatoires et la rosacée. Beaucoup de peaux profitent des deux, alternés.
 
@@ -107,7 +107,7 @@ Le profil de tolérance de l'acide azélaïque est l'un des meilleurs en dermato
 
 Effets fréquents et transitoires : léger picotement ou tingle pendant 60 à 90 secondes, légère sécheresse les deux premières semaines, démangeaison ponctuelle sur peau de rosacée. Cela s'atténue en général à mesure que la peau s'adapte.
 
-Effets peu fréquents : érythème persistant, desquamation, urticaire de contact. Au-delà de deux semaines, c'est le signe d'une montée en fréquence trop rapide, ou d'une réaction au véhicule (alcool dénaturé, propylène glycol, parfum dans certaines formules). Pour traquer les déclencheurs cachés, lis aussi notre dossier [parfum cosmétique, l'allergène caché](/blog/parfum-cosmetique-allergene-cache/).
+Effets peu fréquents : érythème persistant, desquamation, urticaire de contact. Au-delà de deux semaines, c'est le signe d'une montée en fréquence trop rapide, ou d'une réaction au véhicule (alcool dénaturé, propylène glycol, parfum dans certaines formules). Pour traquer les déclencheurs cachés, lis aussi notre dossier [parfum cosmétique, l'allergène caché](/fr/blog/parfum-cosmetique-allergene-cache/).
 
 Effet rare : hypopigmentation. Comme l'acide azélaïque inhibe la tyrosinase, un usage très prolongé à forte concentration sur une petite zone peut, en théorie, éclaircir la peau saine adjacente. En pratique clinique, cela reste rare et réversible.
 

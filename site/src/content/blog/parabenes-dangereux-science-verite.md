@@ -67,7 +67,7 @@ La FDA adopte une posture différente mais aboutit, pour les parabènes à chaî
 
 Si vous ne retenez qu'une chose de cet article, retenez celle-ci. Le nombre d'atomes de carbone dans la chaîne latérale détermine presque tout : la force avec laquelle la molécule se lie aux récepteurs des œstrogènes, la facilité avec laquelle elle traverse la barrière cutanée, et la manière dont les autorités la classent.
 
-**Le méthylparaben (un carbone) et l'éthylparaben (deux carbones)** sont courts, polaires et à peine lipophiles. Ils ne montrent aucune activité œstrogénique mesurable dans les tests standardisés et sont éliminés par l'organisme en quelques heures. Ce sont les conservateurs de référence des marques dermatologiques modernes, dont certains produits évoqués dans le [comparatif CeraVe contre Cetaphil](/fr/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/).
+**Le méthylparaben (un carbone) et l'éthylparaben (deux carbones)** sont courts, polaires et à peine lipophiles. Ils ne montrent aucune activité œstrogénique mesurable dans les tests standardisés et sont éliminés par l'organisme en quelques heures. Ce sont les conservateurs de référence des marques dermatologiques modernes, dont certains produits évoqués dans le [comparatif CeraVe contre Cetaphil](/blog/cerave-vs-cetaphil-which-moisturizer-actually-better/).
 
 **Le propylparaben (trois carbones) et le butylparaben (quatre carbones)** sont plus longs, plus lipophiles, et montrent une liaison faible mais mesurable aux récepteurs des œstrogènes in vitro, de l'ordre d'un dix-millième de la puissance de l'œstradiol naturel. C'est pourquoi l'UE les a plafonnés et pourquoi ils sont restreints dans les produits pour bébés.
 
