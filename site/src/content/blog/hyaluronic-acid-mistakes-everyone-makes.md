@@ -1,5 +1,5 @@
 ---
-title: "Hyaluronic Acid Mistakes: 5 Errors Everyone Makes (and the Fix)"
+title: "Acide hyaluronique : 5 erreurs qui assèchent votre peau"
 description: "Hyaluronic acid mistakes can dry out your skin instead of hydrating it. Learn the 5 most common errors, the science behind them, and how to fix your HA routine."
 date: 2026-05-16T07:11:00+02:00
 author: "dr-sarah-chen"

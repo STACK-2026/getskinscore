@@ -1,5 +1,5 @@
 ---
-title: "Meilleurs sérums anti-taches : hyperpigmentation classée par efficacité"
+title: "Sérums anti-taches : Les plus efficaces 2026"
 description: "Classement dermato des meilleurs sérums anti-taches : vitamine C, acide azélaïque, acide tranexamique, alpha-arbutine, niacinamide. Concentrations, preuves."
 date: 2026-05-31T07:11:00+02:00
 author: "dr-elena-voss"

@@ -1,5 +1,5 @@
 ---
-title: "COSRX Complete Guide: Best K-beauty Products Ranked by SkinScore"
+title: "COSRX : Top produits K-beauty classés par efficacité"
 description: "COSRX guide ranking the brand's best K-beauty products by formulation, from Snail 96 Mucin to the BHA liquid, plus dupes, routine stacks and honest skips."
 date: 2026-06-06T07:11:00+02:00
 author: "lina-park"

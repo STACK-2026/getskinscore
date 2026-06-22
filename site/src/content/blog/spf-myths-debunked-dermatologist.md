@@ -1,5 +1,5 @@
 ---
-title: "SPF Myths Debunked: 10 Things You're Getting Wrong About Sunscreen"
+title: "SPF : 10 erreurs que vous faites avec la crème solaire"
 description: "A dermatologist breaks down 10 stubborn SPF myths, from base tans and SPF 100 to indoor exposure and chemical filters, with the actual evidence behind each."
 date: 2026-05-29T07:11:00+02:00
 author: "dr-sarah-chen"

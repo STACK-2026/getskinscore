@@ -1,5 +1,5 @@
 ---
-title: "Sérum vitamine C : formes, concentrations, et ce qui marche vraiment"
+title: "Sérum Vitamine C : Ce qui marche vraiment (forme, dose, pH)"
 description: "Guide dermato-cosmétique du sérum vitamine C : quelle forme choisir (acide L-ascorbique ou dérivés), concentration idéale, pH et intégration dans ta routine."
 date: 2026-05-26T07:11:00+02:00
 author: "Dr. Elena Voss"

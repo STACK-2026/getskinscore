@@ -1,5 +1,5 @@
 ---
-title: "Les parabènes sont-ils dangereux ? Ce que dit vraiment la science"
+title: "Parabènes : la vérité scientifique sur leur danger"
 description: "Parabènes, conservateurs, perturbateurs endocriniens, l'étude Darbre de 2004, position de l'ANSES et du CSSC, chaîne courte contre chaîne longue, alternatives."
 date: 2026-06-12T08:30:00+02:00
 author: "Dr. Elena Voss"

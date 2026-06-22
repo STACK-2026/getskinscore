@@ -1,5 +1,5 @@
 ---
-title: "Meilleurs actifs anti-âge : le classement par niveau de preuves cliniques"
+title: "Meilleurs actifs anti-âge : classement par preuves cliniques"
 description: "Tier list dermato-cosmétique des meilleurs actifs anti-âge : rétinoïdes, vitamine C, peptides, niacinamide, acides. Concentrations, preuves et synergies."
 date: 2026-05-28T07:11:00+02:00
 author: "dr-sarah-chen"

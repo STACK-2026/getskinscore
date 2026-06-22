@@ -1,5 +1,5 @@
 ---
-title: "Meilleurs solaires peau grasse : sans trace blanche, sans brillance"
+title: "Meilleur solaire peau grasse : Zéro brillance, zéro trace"
 description: "Solaire peau grasse : SPF 30-50, texture fluide, filtres non comédogènes et actifs séborégulateurs. Décryptage des formules et conseils."
 date: 2026-05-13T07:11:00+02:00
 author: "lina-park"

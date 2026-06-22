@@ -1,5 +1,5 @@
 ---
-title: "Vitamin C serum guide: forms, concentrations, and what actually works"
+title: "Sérum Vitamine C : Formes, concentrations et efficacité"
 description: "A dermato-cosmetic guide to vitamin C serums: which form to choose (L-ascorbic acid vs derivatives), ideal concentration, pH, and how to layer in your routine."
 date: 2026-05-25T07:11:00+02:00
 author: "Dr. Elena Voss"

@@ -1,5 +1,5 @@
 ---
-title: "Best products for acne scars: how to fade post-inflammatory marks"
+title: "Cicatrices d'acné : estompez les taches post-inflammatoires"
 description: "The best products for acne scars and post-inflammatory marks: which actives fade them, what only a dermatologist can fix, and how long it really takes."
 date: 2026-06-23T07:11:00+02:00
 author: "Dr. Sarah Chen"

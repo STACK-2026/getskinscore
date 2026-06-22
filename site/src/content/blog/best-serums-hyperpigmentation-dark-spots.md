@@ -1,5 +1,5 @@
 ---
-title: "Best serums for hyperpigmentation: dark spots ranked by efficacy"
+title: "Sérums hyperpigmentation : meilleurs anti-taches 2026"
 description: "A dermato-cosmetic guide to the best serums for hyperpigmentation and dark spots. Which actives fade pigment, how to layer them, and what the evidence says."
 date: 2026-05-29T07:11:00+02:00
 author: "Dr. Elena Voss"

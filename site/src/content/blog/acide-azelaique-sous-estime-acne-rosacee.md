@@ -1,5 +1,5 @@
 ---
-title: "Acide azélaïque : l'actif le plus sous-estimé contre l'acné et la rosacée"
+title: "Acide azélaïque : le vrai pouvoir acné, rosacée, taches"
 description: "Pourquoi l'acide azélaïque mérite une place dans ta routine acné, rosacée ou taches : concentrations, formulations et ce que dit vraiment la science."
 date: 2026-06-06T07:11:00+02:00
 author: "dr-elena-voss"
