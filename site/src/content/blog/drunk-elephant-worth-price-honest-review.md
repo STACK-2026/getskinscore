@@ -142,3 +142,21 @@ Removing fragrance and essential oils is a reasonable choice for reactive skin. 
 For the actives, yes. The same vitamin C, acids, peptides and ceramides are available at clinical strength for much less. You pay Drunk Elephant for texture, stability and the curated, fragrance-free range, not for exclusive ingredients.
 
 The bottom line: Drunk Elephant is a well-made premium brand with a few genuinely strong products and a marketing story that is half-true. Buy the heroes, skip the commoditized basics, and you will get real value out of the line without overpaying for the badge. For the official range and product details, see the [Drunk Elephant site](https://www.drunkelephant.com/), and judge each formula on its actives, not its caps.
+
+## Frequently asked questions
+
+### Are there cheaper alternatives to Drunk Elephant products with similar active ingredients?
+
+Yes, many cheaper skincare lines offer the same active ingredients found in Drunk Elephant products. The brand's actives, such as vitamin C, peptides, and glycolic acid, are not exclusive. Consumers seeking evidence per euro can find comparable formulations from other brands without paying luxury prices for common occlusives or non-exclusive ingredients.
+
+### Which Drunk Elephant products offer the best value for their price, according to ingredient reviews?
+
+Based on ingredient reviews, Drunk Elephant's C-Firma Fresh vitamin C, Protini peptide cream, and TLC Framboos glycolic-salicylic night serum are considered the strongest formulations and offer the best value. These products contain genuinely effective active ingredients. In contrast, products like Lala Retro and the Slaai cleanser are noted for being overpriced, offering ordinary occlusives at luxury prices.
+
+### What is the 'Suspicious 6' promise that Drunk Elephant formulations exclude?
+
+Drunk Elephant's 'Suspicious 6' promise refers to their commitment to formulating products without six specific categories of ingredients commonly found in skincare. These excluded ingredients are essential oils, drying alcohols, silicones, chemical sunscreens, fragrance, and SLS (sodium lauryl sulfate). This philosophy aims to create a 'clean beauty' experience by avoiding potential irritants or unnecessary additives.
+
+### Who is the ideal customer for Drunk Elephant products, given their price and formulation approach?
+
+Drunk Elephant products are ideal for consumers who prioritize a curated, fragrance-free skincare routine and appreciate specific product textures. While the actives are not exclusive, the brand appeals to those willing to pay for its 'clean beauty' philosophy and clinical feel. It may not be the best choice for those whose primary concern is maximizing active ingredients per euro spent.

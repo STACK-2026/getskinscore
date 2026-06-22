@@ -134,6 +134,24 @@ Un soulagement des tiraillements apparaît en quelques jours, mais reconstruire 
 ### Les céramides d'origine végétale sont-ils efficaces ?
 Oui. Les phytocéramides (blé, riz, konjac) sont structurellement proches des céramides cutanés et soutiennent la fonction barrière. Option légitime, surtout en formule végane, et pas intrinsèquement inférieure aux céramides de synthèse.
 
+## Questions fréquentes
+
+### Comment choisir une crème aux céramides efficace pour ma barrière cutanée ?
+
+Pour choisir une crème aux céramides efficace, il est crucial de rechercher une formule qui contient également du cholestérol et des acides gras libres, idéalement dans un ratio proche de 3:1:1. Cette combinaison lipidique est essentielle car la barrière cutanée se reconstruit avec toute la famille lipidique. Privilégiez les produits avec des céramides nommés (NP, AP, EOP) et une liste d'ingrédients courte et sans parfum.
+
+### Quels sont les principaux signes indiquant que ma peau a besoin d'un apport en céramides ?
+
+Les principaux signes indiquant un manque de céramides incluent une peau qui ne retient plus l'eau, devenant sèche et déshydratée. Votre peau peut également réagir à des produits qu'elle tolérait auparavant, montrant une sensibilité accrue, et paraître terne. Ces symptômes signalent une barrière cutanée affaiblie qui peine à remplir son rôle protecteur.
+
+### Pourquoi le ratio des lipides est-il plus important que la simple présence de céramides dans un soin ?
+
+Le ratio des lipides est plus important que la simple présence de céramides car la barrière cutanée est composée d'un équilibre précis de céramides, de cholestérol et d'acides gras libres. Pour une reconstruction efficace et fonctionnelle de la barrière, ces trois types de lipides doivent être présents ensemble, idéalement dans un ratio de 3:1:1. Un déséquilibre peut rendre le soin moins efficace pour restaurer la fonction barrière.
+
+### Quels noms de céramides spécifiques devrais-je rechercher sur la liste INCI d'un produit ?
+
+Sur la liste INCI (International Nomenclature of Cosmetic Ingredients), vous devriez rechercher des céramides spécifiques nommés tels que Céramide NP, Céramide AP, et Céramide EOP. Ces désignations indiquent la présence de différents types de céramides essentiels à la fonction barrière de la peau. Il est aussi bénéfique de voir des lipides de soutien comme le cholestérol et les acides gras libres pour une formule complète.
+
 ## Sources
 
 1. American Academy of Dermatology. "Dry Skin: Dermatologists' Tips for Relief." [AAD](https://www.aad.org/public/diseases/a-z/dry-skin)

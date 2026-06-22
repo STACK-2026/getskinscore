@@ -167,6 +167,24 @@ Oui, à condition de les séparer dans le temps. La vitamine C le matin, le rét
 ### La vitamine C est-elle sûre pendant la grossesse ?
 La vitamine C topique aux concentrations cosmétiques standard est généralement considérée sûre pendant la grossesse par la plupart des autorités réglementaires, y compris l'ANSM française. Confirme toujours avec ton ou ta gynécologue, et croise avec notre [guide des ingrédients comédogènes à éviter](/fr/blog/10-ingredients-comedogenes-pires-peau/) si tu cumules acné hormonale et grossesse.
 
+## Questions fréquentes
+
+### À quel moment de la journée et comment intégrer un sérum à la vitamine C dans ma routine de soins ?
+
+Un sérum à la vitamine C doit être appliqué le matin, après le nettoyage et avant l'hydratant et le SPF, pour maximiser sa protection antioxydante contre les agressions environnementales. L'application sous un écran solaire renforce significativement la photoprotection de la peau. Il est essentiel de l'appliquer sur une peau propre et sèche pour une meilleure absorption et efficacité.
+
+### Quelle est la meilleure forme de vitamine C pour les peaux sensibles ou celles qui débutent avec cet actif ?
+
+Pour les peaux sensibles ou les personnes qui commencent à utiliser la vitamine C, les dérivés comme le sodium ascorbyl phosphate (SAP) ou le tetrahexyldecyl ascorbate (THD) sont recommandés. Ces formes sont plus douces, stables à un pH neutre et généralement mieux tolérées que l'acide L-ascorbique pur. Elles offrent une bonne efficacité sans irritation excessive.
+
+### Comment savoir si mon sérum à la vitamine C s'est oxydé et n'est plus efficace ?
+
+Un sérum à la vitamine C oxydé se reconnaît généralement à un changement de couleur, passant du transparent ou jaune pâle à un orange foncé ou marron. Une odeur rance ou métallique peut également indiquer une dégradation du produit. Dans ces cas, le sérum a perdu son efficacité antioxydante et peut même tacher la peau ou les tissus.
+
+### Quels sont les critères essentiels pour choisir un sérum à la vitamine C qui offre une réelle efficacité ?
+
+Un sérum à la vitamine C réellement efficace doit idéalement contenir de l'acide L-ascorbique à une concentration de 10 à 20 %, formulé à un pH inférieur à 3,5. L'efficacité est également amplifiée par la présence de vitamine E et d'acide férulique. Un packaging opaque et hermétique est crucial pour prévenir l'oxydation et maintenir la stabilité du produit.
+
 ## Sources
 
 1. Pinnell, S.R. et al. (2001). "Topical L-ascorbic acid: percutaneous absorption studies." *Dermatologic Surgery*, 27(2), 137-142. [PubMed](https://pubmed.ncbi.nlm.nih.gov/11207686/)
