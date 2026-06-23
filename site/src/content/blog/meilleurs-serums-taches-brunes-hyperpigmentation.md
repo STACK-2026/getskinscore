@@ -21,7 +21,7 @@ Un **sérum anti-taches** peut vraiment estomper l'hyperpigmentation, mais à de
 
 > **TL;DR** : Les **meilleurs sérums anti-taches** s'appuient sur cinq actifs validés : vitamine C (L-ascorbique 10 à 20 pour cent), acide azélaïque 10 pour cent, acide tranexamique 2 à 5 pour cent, alpha-arbutine 2 pour cent et niacinamide 4 à 10 pour cent. La vitamine C et l'acide azélaïque ont le plus de données cliniques. L'acide tranexamique monte en puissance sur le mélasma. La niacinamide bloque le transfert de pigment et se combine avec tout. Compte 8 à 12 semaines pour un résultat visible, et un SPF 50 quotidien, sinon les UV réactivent les taches plus vite que le sérum ne les efface.
 
-L'hyperpigmentation est un motif fréquent de consultation en dermatologie, et l'un des plus longs à traiter. Les recommandations de l'[American Academy of Dermatology](https://www.aad.org/public/diseases/a-z/hyperpigmentation) et les revues indexées sur [PubMed](https://pubmed.ncbi.nlm.nih.gov/) présentent le traitement topique comme un projet de plusieurs mois. Chaque produit cité ici est noté sur [SkinScore](/rankings) par INCI et concentration.
+L'hyperpigmentation est un motif fréquent de consultation en dermatologie, et l'un des plus longs à traiter. Les recommandations de l'American Academy of Dermatology et les revues indexées sur [PubMed](https://pubmed.ncbi.nlm.nih.gov/) présentent le traitement topique comme un projet de plusieurs mois. Chaque produit cité ici est noté sur [SkinScore](/rankings) par INCI et concentration.
 
 ## Qu'est-ce qu'une tache brune et pourquoi apparaît-elle ?
 
@@ -156,7 +156,7 @@ Le rétinol n'est pas un éclaircissant direct, mais il accélère le renouvelle
 3. Mann, T. et al. "Inhibition of human tyrosinase requires molecular motifs distinctively different from mushroom tyrosinase: Thiamidol." *J Invest Dermatol*, 2018. [PubMed](https://pubmed.ncbi.nlm.nih.gov/30450605/)
 4. Hakozaki, T. et al. "The effect of niacinamide on reducing cutaneous pigmentation." *Br J Dermatol*, 2002. [PubMed](https://pubmed.ncbi.nlm.nih.gov/16280062/)
 5. Sarkar, R. et al. "Cosmeceuticals for hyperpigmentation: what is available?" *J Cutan Aesthet Surg*, 2013. [PubMed](https://pubmed.ncbi.nlm.nih.gov/23723597/)
-6. American Academy of Dermatology. "Hyperpigmentation: overview." [AAD](https://www.aad.org/public/diseases/a-z/hyperpigmentation)
+6. American Academy of Dermatology. "Hyperpigmentation: overview." AAD
 7. European Academy of Dermatology and Venereology. "Melasma management." [EADV](https://eadv.org/)
 8. Inserm. "Dossier peau et photovieillissement." [Inserm](https://www.inserm.fr/)
 9. ANSM. "Recommandations sur les ingrédients cosmétiques." [ANSM](https://ansm.sante.fr/)

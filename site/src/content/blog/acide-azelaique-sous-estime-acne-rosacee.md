@@ -117,7 +117,7 @@ Pour minimiser les risques : montée progressive en fréquence, jamais d'associa
 
 C'est là que l'acide azélaïque mérite vraiment sa réputation.
 
-Il fait partie des très rares actifs avec un profil propre pendant la grossesse et l'allaitement. L'[American Academy of Dermatology](https://www.aad.org/public/diseases/acne/skin-care/pregnancy) le cite parmi les options recommandées quand les rétinoïdes, l'acide salicylique au-dessus de 2 pour cent et l'hydroquinone sont contre-indiqués. Pour le mélasma déclenché par les hormones de grossesse, c'est souvent la première molécule vers laquelle se tournent les dermatologues.
+Il fait partie des très rares actifs avec un profil propre pendant la grossesse et l'allaitement. L'American Academy of Dermatology le cite parmi les options recommandées quand les rétinoïdes, l'acide salicylique au-dessus de 2 pour cent et l'hydroquinone sont contre-indiqués. Pour le mélasma déclenché par les hormones de grossesse, c'est souvent la première molécule vers laquelle se tournent les dermatologues.
 
 Pour les peaux sensibles et la rosacée réactive, la même logique s'applique. Le mécanisme ne dépend pas d'une perturbation de la barrière, la molécule est naturellement présente sur la peau, et la formulation peut être construite autour du confort.
 

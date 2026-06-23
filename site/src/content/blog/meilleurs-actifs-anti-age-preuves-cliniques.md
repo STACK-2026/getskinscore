@@ -29,7 +29,7 @@ Comprendre ce que les actifs ciblent évite d'acheter au hasard. Le vieillisseme
 
 **Le vieillissement intrinsèque (chronologique).** À partir de 25 ans, la production de collagène baisse d'environ 1 pour cent par an. Les fibres d'élastine se fragmentent. Les fibroblastes ralentissent leur activité. La production endogène d'acide hyaluronique diminue d'environ 6 pour cent par décennie selon les données compilées par l'[Inserm](https://www.inserm.fr/) et reprises dans la littérature dermatologique.
 
-**Le vieillissement extrinsèque (photovieillissement).** Les UV, la pollution, le tabac et le stress oxydatif activent les métalloprotéinases matricielles (MMP), des enzymes qui dégradent collagène et élastine. L'American Academy of Dermatology rappelle que ce processus représente jusqu'à 80 pour cent des signes visibles du vieillissement facial. Sources : [AAD](https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/anti-aging-skin-care).
+**Le vieillissement extrinsèque (photovieillissement).** Les UV, la pollution, le tabac et le stress oxydatif activent les métalloprotéinases matricielles (MMP), des enzymes qui dégradent collagène et élastine. L'American Academy of Dermatology rappelle que ce processus représente jusqu'à 80 pour cent des signes visibles du vieillissement facial. Sources : AAD.
 
 Un actif anti-âge agit sur un de ces trois leviers : il stimule la production de collagène, il limite la dégradation par les MMP, ou il neutralise les radicaux libres qui déclenchent la cascade. Le classement qui suit utilise cette grille.
 
@@ -169,7 +169,7 @@ Compte 4 à 8 semaines pour les premiers effets (éclat, texture), 12 à 16 sema
 3. Mukherjee, S. et al. "Retinoids in the treatment of skin aging." *Clin Interv Aging*, 2006. [PubMed](https://pubmed.ncbi.nlm.nih.gov/18046911/)
 4. Hakozaki, T. et al. "The effect of niacinamide on reducing cutaneous pigmentation." *Br J Dermatol*, 2002. [PubMed](https://pubmed.ncbi.nlm.nih.gov/16280062/)
 5. Dhaliwal, S. et al. "Prospective, randomized, double-blind assessment of topical bakuchiol and retinol for facial photoaging." *Br J Dermatol*, 2019. [PubMed](https://pubmed.ncbi.nlm.nih.gov/29947134/)
-6. American Academy of Dermatology. "Anti-aging skin care." [AAD](https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/anti-aging-skin-care)
+6. American Academy of Dermatology. "Anti-aging skin care." AAD
 7. European Academy of Dermatology and Venereology. "Photoaging guidelines." [EADV](https://eadv.org/)
 8. Inserm. "Dossier peau et vieillissement." [Inserm](https://www.inserm.fr/)
 9. ANSM. "Recommandations sur les ingrédients cosmétiques." [ANSM](https://ansm.sante.fr/)

@@ -168,7 +168,7 @@ No, and it often backfires. Over-exfoliation inflames the skin, and inflammation
 
 2. Sarkar, R. et al. (2013). "Cosmeceuticals for hyperpigmentation: what is available?" *Journal of Cutaneous and Aesthetic Surgery*. [PubMed](https://pubmed.ncbi.nlm.nih.gov/23723597/)
 
-3. Zhu, W. and Gao, J. (2008). "The use of botanical extracts as topical skin-lightening agents for the improvement of skin pigmentation disorders." *Journal of Investigative Dermatology Symposium Proceedings*. [PubMed](https://pubmed.ncbi.nlm.nih.gov/18369330/)
+3. Zhu, W. and Gao, J. (2008). "The use of botanical extracts as topical skin-lightening agents for the improvement of skin pigmentation disorders." *Journal of Investigative Dermatology Symposium Proceedings*. PubMed
 
 4. American Academy of Dermatology. "How to fade dark spots in skin of color." [AAD](https://www.aad.org/)
 

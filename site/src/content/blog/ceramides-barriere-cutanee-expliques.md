@@ -21,7 +21,7 @@ La plupart des crèmes barrière te vendent un seul mot sur le flacon : céramid
 
 > **TL;DR** : Les céramides sont des lipides qui composent environ 50 pour cent de la **barrière cutanée** et agissent comme le ciment entre les cellules de peau. Ils retiennent l'eau et bloquent les irritants. Un soin aux céramides est plus efficace quand il contient aussi du cholestérol et des acides gras libres, idéalement près d'un ratio 3:1:1, parce que la barrière se reconstruit avec toute la famille lipidique. Cherche des céramides nommés (NP, AP, EOP), des lipides de soutien, et une formule courte sans parfum. La production naturelle de céramides commence à baisser autour de 30 ans, et c'est pour cela qu'une crème barrière a sa place dans la plupart des routines.
 
-La science est suffisamment stable pour que l'[American Academy of Dermatology](https://www.aad.org/public/diseases/a-z/dry-skin) et la [Société Française de Dermatologie](https://www.sfdermato.org/) appuient la réparation barrière sur la même triade lipidique. Chaque produit cité ici est noté indépendamment sur [SkinScore](/rankings) selon l'INCI, la composition lipidique et la charge irritante, pas selon la notoriété de la marque.
+La science est suffisamment stable pour que l'American Academy of Dermatology et la [Société Française de Dermatologie](https://www.sfdermato.org/) appuient la réparation barrière sur la même triade lipidique. Chaque produit cité ici est noté indépendamment sur [SkinScore](/rankings) selon l'INCI, la composition lipidique et la charge irritante, pas selon la notoriété de la marque.
 
 ## Que sont les céramides ? L'analogie du mortier
 
@@ -154,7 +154,7 @@ Sur la liste INCI (International Nomenclature of Cosmetic Ingredients), vous dev
 
 ## Sources
 
-1. American Academy of Dermatology. "Dry Skin: Dermatologists' Tips for Relief." [AAD](https://www.aad.org/public/diseases/a-z/dry-skin)
+1. American Academy of Dermatology. "Dry Skin: Dermatologists' Tips for Relief." AAD
 
 2. Société Française de Dermatologie. "Eczéma atopique." [SFD](https://www.sfdermato.org/)
 
