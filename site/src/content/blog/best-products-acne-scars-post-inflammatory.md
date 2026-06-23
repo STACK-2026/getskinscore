@@ -1,7 +1,7 @@
 ---
 title: "Best products for acne scars: how to fade post-inflammatory marks"
 description: "The best products for acne scars and post-inflammatory marks: which actives fade them, what only a dermatologist can fix, and how long it really takes."
-date: 2026-06-10T08:00:00+02:00
+date: 2026-06-23T07:11:00+02:00
 author: "Dr. Sarah Chen"
 category: "routines"
 tags: ["acne scars", "post-inflammatory hyperpigmentation", "PIH", "post-inflammatory erythema", "azelaic acid", "retinoids", "vitamin c"]
@@ -10,7 +10,7 @@ draft: false
 image: "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=1200&h=630&fit=crop&crop=center&q=80"
 imageAlt: "Close-up of even, healthy skin texture on a cheek, illustrating faded post-inflammatory acne marks after an evidence-based routine"
 lang: "en"
-lastReviewed: "2026-06-10"
+lastReviewed: "2026-06-23"
 reviewedBy: "Dr. Elena Voss"
 schemaFaq: true
 speakableTerm: "Best products for acne scars"
