@@ -8777,7 +8777,10 @@
     "keywords": "retinol vs retinal, retinaldehyde, retinoids comparison, anti-aging",
     "title": "Retinol vs retinal: which one works better and stings less in 2026",
     "plan_cluster": "ingredients-decrypted",
-    "intent_bucket": "informational"
+    "intent_bucket": "informational",
+    "published": true,
+    "published_at": "2026-06-24",
+    "done": true
   },
   {
     "slug": "niacinamide-overhyped-truth-dermatologists-2026",
