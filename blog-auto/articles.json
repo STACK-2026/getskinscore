@@ -8793,7 +8793,10 @@
     "keywords": "niacinamide, vitamin B3, skincare science, overrated ingredients",
     "title": "Niacinamide overhyped? The truth dermatologists rarely tell you",
     "plan_cluster": "ingredients-decrypted",
-    "intent_bucket": "informational"
+    "intent_bucket": "informational",
+    "published": true,
+    "done": true,
+    "published_at": "2026-06-26"
   },
   {
     "slug": "vitamin-c-l-ascorbic-acid-vs-derivatives-2026",
