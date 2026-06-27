@@ -8809,7 +8809,10 @@
     "keywords": "L-ascorbic acid, vitamin C derivatives, SAP, MAP, THD ascorbate",
     "title": "Vitamin C: L-ascorbic acid vs derivatives, which actually works",
     "plan_cluster": "ingredients-decrypted",
-    "intent_bucket": "informational"
+    "intent_bucket": "informational",
+    "published": true,
+    "done": true,
+    "published_at": "2026-06-27"
   },
   {
     "slug": "hyaluronic-acid-molecular-weight-hmw-lmw-2026",
