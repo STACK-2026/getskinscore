@@ -8816,7 +8816,7 @@
     "published_at": "2026-06-27"
   },
   {
-    "slug": "hyaluronic-acid-molecular-weight-hmw-lmw-2026",
+    "slug": "hyaluronic-acid-molecular-weight-hmw-lmw-oligo",
     "title_en": "Hyaluronic acid molecular weight explained: HMW vs LMW vs oligo",
     "title_fr": "",
     "category": "ingredients",
@@ -8826,7 +8826,10 @@
     "keywords": "hyaluronic acid molecular weight, HMW LMW, hydration, sodium hyaluronate",
     "title": "Hyaluronic acid molecular weight explained: HMW vs LMW vs oligo",
     "plan_cluster": "ingredients-decrypted",
-    "intent_bucket": "informational"
+    "intent_bucket": "informational",
+    "published": true,
+    "done": true,
+    "published_at": "2026-06-29"
   },
   {
     "slug": "ceramides-1-2-3-ratio-barrier-repair-2026",
