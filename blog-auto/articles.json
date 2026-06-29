@@ -8855,7 +8855,9 @@
     "keywords": "peptides categories, copper peptides, matrixyl, argireline, palmitoyl",
     "title": "Peptides categories decoded: signal, carrier, neurotransmitter, enzyme",
     "plan_cluster": "ingredients-decrypted",
-    "intent_bucket": "informational"
+    "intent_bucket": "informational",
+    "done": true,
+    "published_at": "2026-06-29"
   },
   {
     "slug": "salicylic-acid-vs-glycolic-acid-bha-aha-2026",

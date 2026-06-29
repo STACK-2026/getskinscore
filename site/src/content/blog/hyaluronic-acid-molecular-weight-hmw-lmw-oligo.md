@@ -1,6 +1,6 @@
 ---
 title: "Hyaluronic acid molecular weight explained: HMW vs LMW vs oligo"
-description: "HMW vs LMW vs oligo hyaluronic acid demystified: HMW sits on top to hold water, LMW slips deeper for plumping, and oligo fragments stay close to the surface. Evidence based guide."
+description: "HMW vs LMW vs oligo hyaluronic acid: HMW sits on top to hold water, LMW slips deeper to plump, oligo stays near the surface. Evidence based guide."
 date: 2026-06-29T07:11:00+02:00
 author: "Dr. Elena Voss"
 category: "ingredients"

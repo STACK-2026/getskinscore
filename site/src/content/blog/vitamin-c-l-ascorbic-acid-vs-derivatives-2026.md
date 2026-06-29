@@ -1,6 +1,6 @@
 ---
 title: "Vitamin C: L-ascorbic acid vs derivatives, which actually works in 2026"
-description: "L-ascorbic acid is the gold standard, but SAP, MAP, THD ascorbate and ethyl ascorbic acid all have their place. Evidence-based comparison of every common vitamin C form."
+description: "L-ascorbic acid is the gold standard, but SAP, MAP, THD ascorbate and ethyl ascorbic acid all have their place. Evidence-based vitamin C comparison."
 date: 2026-06-27T07:11:00+02:00
 author: "Dr. Elena Voss"
 category: "ingredients"

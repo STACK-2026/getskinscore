@@ -1,6 +1,6 @@
 ---
 title: "Niacinamide overhyped? The truth dermatologists rarely tell you"
-description: "Niacinamide is everywhere, but is it as life changing as the marketing says? Evidence-based review of what it actually does, at what dose, and when it disappoints."
+description: "Niacinamide is everywhere, but is it as life changing as the marketing says? Evidence-based review of what it does, at what dose, and when it disappoints."
 date: 2026-06-26T07:11:00+02:00
 author: "Dr. Elena Voss"
 category: "ingredients"
