@@ -59,7 +59,7 @@ Oligo HA, also called ultra low molecular weight HA, is the marketing star of re
 
 The honest summary: oligo HA stays in the upper stratum corneum like other small humectants. It does not cross into the living dermis from a leave on serum, and any brand suggesting otherwise is overselling. It has modest evidence for mild signalling and anti inflammatory effects near the surface, which can support a soothing claim. A clinical review of [topical hyaluronic acid penetration on PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6648810/) walks through how fragment size and vehicle change what reaches what depth.
 
-Inserm, the French national medical research agency, notes in its [public files on skin biology](https://www.inserm.fr/dossier/peau/) that the stratum corneum is the major barrier to topical penetration. That is fine for hydration, which is a surface and upper layer phenomenon, but a problem if you bought oligo HA expecting a dermal filler in a bottle.
+Inserm, the French national medical research agency, notes in its public files on skin biology that the stratum corneum is the major barrier to topical penetration. That is fine for hydration, which is a surface and upper layer phenomenon, but a problem if you bought oligo HA expecting a dermal filler in a bottle.
 
 ## Multi weight or cascading hyaluronic acid: does it actually do more
 
