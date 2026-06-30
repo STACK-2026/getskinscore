@@ -8873,7 +8873,9 @@
     "keywords": "salicylic acid vs glycolic acid, BHA AHA, chemical exfoliant, acne",
     "title": "Salicylic acid vs glycolic acid: BHA or AHA for your skin in 2026",
     "plan_cluster": "ingredients-decrypted",
-    "intent_bucket": "comparison"
+    "intent_bucket": "comparison",
+    "done": true,
+    "published_at": "2026-06-30"
   },
   {
     "slug": "azelaic-acid-10-vs-20-who-benefits-2026",
