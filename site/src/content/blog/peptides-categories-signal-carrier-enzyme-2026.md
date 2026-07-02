@@ -1,5 +1,5 @@
 ---
-title: "Peptides categories decoded: signal, carrier, neurotransmitter, enzyme"
+title: "Peptide categories: signal, carrier, enzyme, neuro"
 description: "The four peptide families in skincare decoded: signal, carrier, neurotransmitter and enzyme-inhibiting, with the evidence behind Matrixyl and copper peptides."
 date: 2026-06-29T07:15:00+02:00
 author: "Dr. Elena Voss"

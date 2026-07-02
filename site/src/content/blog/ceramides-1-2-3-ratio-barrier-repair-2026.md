@@ -1,5 +1,5 @@
 ---
-title: "Ceramides 1, 2 and 3 explained: which ratio actually repairs barrier"
+title: "Ceramides 1, 2 and 3: which ratio repairs your barrier"
 description: "Ceramides 1, 2 and 3 do different jobs in your skin barrier, and the 3:1:1 ratio with cholesterol and fatty acids is the one with real evidence. Honest guide."
 date: 2026-06-30T07:11:00+02:00
 author: "Dr. Sarah Chen"
