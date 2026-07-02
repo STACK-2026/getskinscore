@@ -57,6 +57,18 @@ const jsonLdArray = [...baseJsonLd, ...pageJsonLd];
 const cleanPath = Astro.url.pathname.replace(/^\/fr/, "") || "/";
 const enHref = enHrefProp !== undefined ? enHrefProp : siteConfig.url + cleanPath;
 const frHref = frHrefProp !== undefined ? frHrefProp : siteConfig.url + "/fr" + (cleanPath === "/" ? "/" : cleanPath);
+
+// Compute the correct alt-lang path for the Header lang switcher.
+// Only overrides when BlogLayout has explicitly passed enHref/frHref props —
+// undefined means the page did not opt in (non-blog pages are always bilingual).
+let altLangPath: string | undefined = undefined;
+if (locale === "en" && frHrefProp !== undefined) {
+  // frHrefProp=null → no FR article, fall back to FR blog index
+  altLangPath = frHrefProp ? frHrefProp.replace(siteConfig.url, "") : "/fr/blog/";
+} else if (locale === "fr" && enHrefProp !== undefined) {
+  // enHrefProp=null → no EN article, fall back to EN blog index
+  altLangPath = enHrefProp ? enHrefProp.replace(siteConfig.url, "") : "/blog/";
+}
 ---
 
 <!doctype html>
@@ -121,7 +133,7 @@ const frHref = frHrefProp !== undefined ? frHrefProp : siteConfig.url + "/fr" + 
   </head>
   <body class="min-h-screen flex flex-col">
     <a href="#main-content" class="skip-link">Skip to main content</a>
-    <Header />
+    <Header altLangPath={altLangPath} />
     <main id="main-content" class="flex-1">
       <slot />
     </main>

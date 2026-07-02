@@ -2,12 +2,21 @@
 import { siteConfig } from "../../site.config";
 import { getLocale, t, tr, localizedPath } from "../i18n/t";
 
+interface Props {
+  /** Override the lang-switcher href. Provided by BaseLayout for blog articles
+   *  whose translation may not exist. When undefined, the path is derived from
+   *  the current URL (correct for non-blog pages that always have both locales). */
+  altLangPath?: string;
+}
+
+const { altLangPath } = Astro.props;
 const locale = getLocale(Astro.url);
 const otherLocale = locale === "en" ? "fr" : "en";
 const otherLabel = locale === "en" ? "FR" : "EN";
-const otherPath = locale === "en"
+const computedOtherPath = locale === "en"
   ? `/fr${Astro.url.pathname === "/" ? "/" : Astro.url.pathname}`
   : Astro.url.pathname.replace(/^\/fr/, "") || "/";
+const otherPath = altLangPath !== undefined ? altLangPath : computedOtherPath;
 
 const navLinks = [
   { href: "/rankings", label: t(tr.nav.rankings, locale) },
