@@ -8889,7 +8889,10 @@
     "keywords": "azelaic acid 10 20 percent, rosacea, melasma, acne, finacea",
     "title": "Azelaic acid 10% vs 20%: who really benefits from this quiet star",
     "plan_cluster": "ingredients-decrypted",
-    "intent_bucket": "informational"
+    "intent_bucket": "informational",
+    "done": true,
+    "published": true,
+    "published_at": "2026-07-02"
   },
   {
     "slug": "the-ordinary-vs-inkey-list-dupe-brands-2026",
