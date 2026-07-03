@@ -8918,7 +8918,10 @@
     "keywords": "cerave vs la roche posay, drugstore skincare, sensitive skin, comparison",
     "title": "CeraVe vs La Roche-Posay: barrier brands head to head 2026",
     "plan_cluster": "product-comparisons",
-    "intent_bucket": "commercial"
+    "intent_bucket": "commercial",
+    "done": true,
+    "published": true,
+    "published_at": "2026-07-03"
   },
   {
     "slug": "tatcha-vs-sk-ii-luxury-japanese-skincare-2026",
