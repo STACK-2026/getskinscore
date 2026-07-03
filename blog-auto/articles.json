@@ -8905,7 +8905,10 @@
     "keywords": "the ordinary vs inkey list, affordable skincare, deciem, comparison",
     "title": "The Ordinary vs The Inkey List: which dupe brand wins in 2026",
     "plan_cluster": "product-comparisons",
-    "intent_bucket": "commercial"
+    "intent_bucket": "commercial",
+    "published": true,
+    "done": true,
+    "published_at": "2026-07-03"
   },
   {
     "slug": "cerave-vs-la-roche-posay-barrier-brands-2026",
