@@ -17,9 +17,9 @@ speakableTerm: "INCI list"
 speakable: "An INCI list is the standardised ingredient list on every cosmetic product, written in the International Nomenclature of Cosmetic Ingredients. Ingredients are listed in descending order by weight down to 1 percent, then in any order below that. The first five ingredients usually make up most of the formula. To read a label fast, scan the first five names for the base, look in the middle for hero actives, and find the 1 percent line by spotting preservatives like phenoxyethanol. The list tells you what is in a product and roughly how much, but not the quality, the pH, or the final concentration of each active."
 ---
 
-Most people read a skincare label the way they read a nutrition panel: they glance at the front, trust the marketing, and ignore the small print on the back. That small print is the **INCI list**, and it is the single most honest piece of information on the whole package. Once you know how to read it, you can tell in under a minute whether a serum is mostly water and silicone or whether it actually delivers the active it advertises.
+Most people read a skincare label the way they read a nutrition panel: they glance at the front, trust the marketing, and ignore the small print on the back. That small print is the **INCI list**, and it is the single most honest piece of information on the whole package. Once you know how to read it, you can tell in a minute whether a serum is mostly water and silicone or whether it delivers the active it advertises.
 
-This guide gives you a repeatable method. We cover the three rules that govern every list in the European Union, the United Kingdom and the United States, the one trick that separates a real active from a marketing sprinkle, and the things the list will never tell you no matter how carefully you read it. By the end you will read a label like a formulator, not a shopper.
+This guide gives you a repeatable method: the three rules that govern every list in the EU, the UK and the US, the one trick that separates a real active from a marketing sprinkle, and the things the list will never tell you. By the end you will read a label like a formulator, not a shopper.
 
 ## What an INCI list is and why it matters
 
@@ -27,9 +27,9 @@ INCI stands for International Nomenclature of Cosmetic Ingredients. It is a stan
 
 This naming is not optional. In the European Union, the full ingredient list has been a legal requirement on cosmetic packaging for decades, and the current framework is set by [Regulation (EC) No 1223/2009](https://eur-lex.europa.eu/eli/reg/2009/1223/oj), which governs every cosmetic sold in the EU and, in mirrored form, the UK. In the United States, ingredient declaration on cosmetic labels is mandated under federal law, with the order and format specified in [21 CFR 701.3](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-G/part-701), the Code of Federal Regulations section that tells manufacturers exactly how to list what is inside.
 
-Why does this matter to you as a buyer? Because the front of the package is advertising and the back is regulation. A brand can print "powered by vitamin C" on the front while the actual ascorbic acid sits in position 14, present at a fraction of a percent. The INCI list is where the marketing claim meets the formulation reality, and it is the only place you can check whether the two agree.
+Why does this matter as a buyer? The front of the package is advertising and the back is regulation. A brand can print "powered by vitamin C" on the front while the actual ascorbic acid sits in position 14, at a fraction of a percent. The INCI list is where the marketing claim meets the formulation reality.
 
-When you understand the list, you stop paying for words and start paying for formulas. That is the whole game.
+Understand the list and you stop paying for words. You start paying for formulas.
 
 ## The three rules that govern every ingredient list
 
@@ -59,7 +59,7 @@ Here is the shortcut that does most of the work. The first five ingredients on a
 
 So your first move on any label is to read only the top five. If you see Aqua, a couple of emollients or humectants such as Glycerin and a fatty alcohol, an emulsifier and maybe one active, you understand the product's skeleton in seconds. A moisturiser whose top five are water, glycerin, a silicone, a fatty alcohol and a plant oil is a competent, hydrating base. A "brightening serum" whose top five contain no brightening active at all is selling you a hydrating base with a story attached.
 
-This is also how you compare two products quickly. Put two vitamin C serums side by side and read the top five of each. The one that lists L-Ascorbic Acid high up is a genuine vitamin C product. The one that buries Ascorbyl Glucoside in position 11 is a vitamin C serum in name only. For the deeper detail on why the form and position of vitamin C matters so much, our [guide to vitamin C serum forms and concentrations](/blog/vitamin-c-serum-guide-forms-concentrations/) breaks down each derivative and the concentration each one needs to work.
+This is also how you compare two products quickly. Put two vitamin C serums side by side and read the top five of each. The one that lists L-Ascorbic Acid high up is a genuine vitamin C product. The one that buries Ascorbyl Glucoside in position 11 is a vitamin C serum in name only. Our [guide to vitamin C serum forms and concentrations](/blog/vitamin-c-serum-guide-forms-concentrations/) breaks down each derivative and the concentration it needs to work.
 
 ## How to spot the hero actives and estimate their strength
 
@@ -67,7 +67,7 @@ Once you have read the top five, the middle of the list is where the interesting
 
 You can go one step further and estimate concentration. Many actives have a known effective range and a known typical formulation range. Niacinamide is usually effective from around 2 percent and is commonly formulated between 2 and 5 percent, so if niacinamide appears just above the preservatives it is probably in that range. Retinol is typically used between 0.1 and 1 percent, so it will almost always sit lower on a list than a humectant like glycerin even in a strong product, simply because you do not need much of it. If you want the evidence base behind these ranges, our [review of niacinamide safety and dosing](/blog/is-niacinamide-safe-dermatology-research/) walks through the concentrations that actually have data behind them.
 
-The judgement call is this: an active above the 1 percent line, in the middle of the list, is doing real work. The same active below the 1 percent line, tucked in after the preservatives, is almost certainly a label claim rather than a functional dose. You will not get an exact percentage from a label, and you should be suspicious of anyone who claims you can. But you can reliably sort "this is formulated to work" from "this is formulated to be advertised", which is most of what matters at the point of purchase.
+The judgement call is this: an active above the 1 percent line, in the middle of the list, is doing real work. The same active below the 1 percent line, tucked in after the preservatives, is almost certainly a label claim rather than a functional dose. You will not get an exact percentage from a label. But you can reliably sort "formulated to work" from "formulated to be advertised", which is most of what matters at the point of purchase.
 
 ## What the INCI list does not tell you
 
@@ -81,7 +81,7 @@ Third, the list does not reveal pH, the delivery system, or how ingredients inte
 
 Fourth, the list can be used for "clean-washing". A brand can engineer a short, natural-looking ingredient list to signal purity while quietly relying on the marketing power of absence. A long ingredient list is not bad and a short one is not automatically good. Some of the most effective formulas in dermatology are long because they need a buffer system, a preservative system, stabilisers and the active itself. Judging a product by list length is a mistake, and it is one the "free from" marketing trend actively encourages. We unpack one version of this in our [analysis of whether parabens are actually unsafe](/blog/parabens-safe-science-truth/), where the science and the marketing point in opposite directions.
 
-This is also why a single dreaded word does not condemn a formula. Fragrance is the most common example: it is a frequent allergen and worth avoiding for reactive skin, but its presence in position 12 of a well-formulated cream is a very different thing from its presence in position 3. Context and position decide the risk, not the mere appearance of the word, a point we cover in detail in our piece on [fragrance as the hidden allergen in skincare](/blog/fragrance-skincare-hidden-allergen/).
+This is also why a single dreaded word does not condemn a formula. Fragrance is the most common example: it is a frequent allergen and worth avoiding for reactive skin, but its presence in position 12 of a well-formulated cream is different from its presence in position 3. Context and position decide the risk, a point we cover in our piece on [fragrance as the hidden allergen in skincare](/blog/fragrance-skincare-hidden-allergen/).
 
 ## A 5-minute method you can use on any product
 
@@ -93,7 +93,7 @@ Put the rules together and you have a routine you can run on any bottle in a sho
 4. **Judge the active against the line.** If the headline active is above the line and in the middle of the list, the product is probably formulated to deliver it. If it is below the line, treat the claim as marketing.
 5. **Check for your personal flags.** Known irritants, fragrance, essential oils or specific allergens you react to. Their position tells you how much risk you are taking.
 
-Run those five steps and you will read most labels in well under five minutes, and you will be right far more often than you are wrong.
+Run those five steps and you will read most labels in under five minutes, and be right more often than not.
 
 ## How SkinScore reads labels so you do not have to
 
