@@ -8935,7 +8935,12 @@
     "keywords": "tatcha vs sk-ii, luxury skincare, pitera, japanese skincare, splurge",
     "title": "Tatcha vs SK-II: is luxury Japanese skincare worth $200+ in 2026",
     "plan_cluster": "product-comparisons",
-    "intent_bucket": "commercial"
+    "intent_bucket": "commercial",
+    "queue_file": "tatcha-vs-sk-ii-luxury-japanese-skincare-2026.md",
+    "quality_passed": true,
+    "published": true,
+    "publishedAt": "2026-07-09",
+    "lastReviewed": "2026-07-09"
   },
   {
     "slug": "cetaphil-vs-avene-sensitive-skin-classic-2026",
