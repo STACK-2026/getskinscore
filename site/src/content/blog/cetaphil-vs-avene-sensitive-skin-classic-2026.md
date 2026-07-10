@@ -27,7 +27,7 @@ This guide compares them the way a dermatology consult would: which one calms wh
 
 Cetaphil is a **syndet philosophy**. The original Gentle Skin Cleanser is a synthetic detergent formula that cleans without soap, without sulfates that strip lipids, and without fragrance. The rest of the range extends that idea: keep the ingredient list short, keep the pH close to skin, and stay out of the way. The brand does not sell you an active. It sells you a base you can layer anything on top of.
 
-Avene is a **thermal water philosophy**. Every core product contains [Avene Thermal Spring Water (Eau Thermale d'Avene)](https://www.eau-thermale-avene.com/en/thermal-spring-water), a low-mineralized water rich in silica and trace elements that has been studied for anti-irritant and anti-inflammatory effects on reactive skin. The brand's flagship claims, from post-laser recovery to atopic dermatitis support, all rest on that water. The rest of the formula is deliberately calm around it.
+Avene is a **thermal water philosophy**. Every core product contains [Avene Thermal Spring Water (Eau Thermale d'Avene)](https://www.avenederm.com/thermal-spring-water), a low-mineralized water rich in silica and trace elements that has been studied for anti-irritant and anti-inflammatory effects on reactive skin. The brand's flagship claims, from post-laser recovery to atopic dermatitis support, all rest on that water. The rest of the formula is deliberately calm around it.
 
 That single difference explains almost every downstream contrast: texture, price, target skin type and dermatologist prescribing pattern.
 
