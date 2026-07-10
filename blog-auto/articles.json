@@ -8953,7 +8953,10 @@
     "keywords": "cetaphil vs avene, sensitive skin, thermal water, gentle cleanser",
     "title": "Cetaphil vs Avene: which sensitive skin classic still wins in 2026",
     "plan_cluster": "product-comparisons",
-    "intent_bucket": "commercial"
+    "intent_bucket": "commercial",
+    "published": true,
+    "done": true,
+    "published_at": "2026-07-10"
   },
   {
     "slug": "cosrx-vs-beauty-of-joseon-kbeauty-2026",
