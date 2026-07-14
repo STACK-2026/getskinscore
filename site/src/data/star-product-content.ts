@@ -1007,6 +1007,79 @@ export const starProductContent: StarProductContent[] = [
       }
     ]
   },
+  {
+    id: "cerave-am-facial-moisturizing-lotion-spf-30",
+    editorialReview: {
+      en: "CeraVe AM Facial Moisturizing Lotion SPF 30 earns a B (73/100) for its practical approach to daily sun protection. It combines mineral and chemical filters - zinc oxide at 6.3% and octinoxate at 7.5% - to deliver broad-spectrum SPF 30 coverage without a heavy white cast. The formula includes three ceramides (1, 3, 6-II) at undisclosed concentrations, which help reinforce the skin barrier, supported by studies on ceramide-containing moisturizers. Hyaluronic acid at 0.1% provides lightweight hydration, though its effect is modest given the low concentration. While non-comedogenic for most, the inclusion of isopropyl palmitate may concern acne-prone users. Fragrance-free and accepted by the National Eczema Association, it suits sensitive skin, though those needing higher SPF or water resistance should look elsewhere.",
+      fr: "La CeraVe AM Facial Moisturizing Lotion SPF 30 obtient un B (73/100) pour son approche pragmatique de la protection solaire quotidienne. Elle combine filtres minéraux et chimiques - oxyde de zinc à 6,3% et octinoxate à 7,5% - pour offrir une protection SPF 30 à large spectre sans effet blanc marqué. La formule contient trois céramides (1, 3, 6-II) à des concentrations non divulguées, qui aident à renforcer la barrière cutanée, un bénéfice confirmé par des études sur les hydratants à base de céramides. L'acide hyaluronique à 0,1% apporte une hydratation légère, mais son effet reste limité. Bien que non comédogène pour la plupart, la présence d'isopropyl palmitate peut poser problème aux peaux acnéiques. Sans parfum et reconnue par la National Eczema Association, elle convient aux peaux sensibles, mais ceux qui cherchent un SPF plus élevé ou une résistance à l'eau devront explorer d'autres options."
+    },
+    howToUse: {
+      en: "Apply this lotion as the final step in your morning routine, after serums and before makeup. Use about half a teaspoon for face and neck - most people underapply, reducing SPF effectiveness. Reapply every two hours if outdoors, or immediately after sweating, though this formula isn't water-resistant. The lightweight texture absorbs quickly, but if layered over rich moisturizer, it may pill. For oily skin, let it absorb fully before applying makeup. Avoid eye contact, as chemical filters can sting. If using with vitamin C, apply antioxidant first and wait a few minutes before layering sunscreen.",
+      fr: "Applique cette lotion en dernière étape de ta routine du matin, après tes sérums et avant ton maquillage. Utilise environ une demi-cuillère à café pour le visage et le cou - la plupart des gens en mettent trop peu, ce qui réduit l'efficacité du SPF. Réapplique toutes les deux heures si tu es à l'extérieur, ou immédiatement après avoir transpiré, même si cette formule n'est pas résistante à l'eau. Sa texture légère s'absorbe rapidement, mais si tu l'appliques sur une crème riche, elle peut pelucher. Pour les peaux grasses, laisse-la bien pénétrer avant de mettre du maquillage. Évite le contact avec les yeux, car les filtres chimiques peuvent piquer. Si tu utilises de la vitamine C, applique d'abord ton antioxydant et attends quelques minutes avant de superposer la crème solaire."
+    },
+    whoIsItFor: {
+      en: "This sunscreen suits dry to combination skin types seeking simple, hydrating SPF 30 protection. Particularly good for sensitive or eczema-prone skin due to its fragrance-free, non-irritating formula. Acne-prone users should patch test first - isopropyl palmitate may not agree with everyone. Not ideal for oily skin wanting matte finish, nor for those needing water-resistant or high-SPF protection (50+). Also skip if you prefer purely mineral sunscreens, as it contains chemical filters.",
+      fr: "Cette crème solaire convient aux peaux sèches à mixtes cherchant une protection SPF 30 simple et hydratante. Particulièrement adaptée aux peaux sensibles ou sujettes à l'eczéma grâce à sa formule sans parfum et non irritante. Les peaux acnéiques devraient faire un test d'abord - l'isopropyl palmitate peut ne pas convenir à tous. Pas idéale pour les peaux grasses voulant un fini mat, ni pour ceux ayant besoin d'une protection résistante à l'eau ou d'un SPF élevé (50+). À éviter aussi si tu préfères les écrans solaires 100% minéraux, car elle contient des filtres chimiques."
+    },
+    whatToExpect: {
+      en: "Week 1: Skin may feel slightly hydrated, but don't expect dramatic results - hyaluronic acid is present in low concentration. Lotion absorbs within a minute, leaving dewy finish. Oily skin might notice slight shine by midday. Week 4: Ceramides may improve skin barrier function, reducing tightness or flakiness for drier skin types. SPF protection remains consistent if reapplied properly, but don't rely on it for prolonged sun exposure. Week 12: Long-term users report fewer irritation signs, especially sensitive skin. Acne-prone users should monitor for breakouts - some may react to isopropyl palmitate over time.",
+      fr: "Semaine 1: Ta peau peut sembler légèrement hydratée, mais ne t'attends pas à des résultats spectaculaires - l'acide hyaluronique est présent en faible concentration. La lotion s'absorbe en moins d'une minute, laissant un fini légèrement lumineux. Les peaux grasses pourraient remarquer un léger brillant en milieu de journée. Semaine 4: Les céramides peuvent améliorer la fonction barrière de ta peau, réduisant les tiraillements ou desquamations pour les peaux sèches. La protection SPF reste efficace si tu réappliques correctement, mais ne compte pas dessus pour une exposition prolongée au soleil. Semaine 12: Les utilisateurs réguliers rapportent moins d'irritations, surtout les peaux sensibles. Les peaux acnéiques devraient surveiller les réactions - certaines peuvent réagir à l'isopropyl palmitate avec le temps."
+    },
+    commonMistakes: {
+      en: "Using it as your only sunscreen for beach days. This SPF 30 lotion isn't water-resistant, so it will wash off with sweat or water, leaving you unprotected. Reapply every 40-80 minutes if swimming or sweating, or switch to water-resistant formula.\n\nSkipping reapplication because it's a 'moisturizer with SPF.' SPF degrades with time, heat and light exposure. Even indoors near windows, reapply every two hours for reliable protection.\n\nApplying over thick moisturizer or oily serum. The lotion can pill or ball up, reducing effectiveness. Let skincare absorb fully before applying, or use lighter moisturizer underneath.",
+      fr: "L'utiliser comme seule protection pour une journée à la plage. Ce SPF 30 n'est pas résistant à l'eau, donc il partira avec la transpiration ou l'eau, te laissant sans protection. Réapplique toutes les 40-80 minutes si tu nages ou transpires, ou opte pour une formule résistante à l'eau.\n\nNe pas le réappliquer parce que c'est une 'crème hydratante avec SPF.' Le SPF se dégrade avec le temps, la chaleur et la lumière. Même à l'intérieur près d'une fenêtre, réapplique toutes les deux heures pour une protection fiable.\n\nL'appliquer sur une crème épaisse ou un sérum gras. La lotion peut pelucher ou former des bouloches, réduisant son efficacité. Laisse bien pénétrer tes soins avant de l'appliquer, ou utilise une crème plus légère en dessous."
+    },
+    faq: [
+      {
+        question: {
+          en: "Can I use this at night?",
+          fr: "Puis-je l'utiliser le soir ?"
+        },
+        answer: {
+          en: "Technically yes, but not ideal. SPF filters serve no purpose at night, and the formula is designed for daytime use. It lacks richer textures or active ingredients like retinol that benefit nighttime repair. If out of moisturizer, it won't harm skin, but better nighttime options exist.",
+          fr: "Techniquement oui, mais ce n'est pas l'idéal. Les filtres SPF ne servent à rien le soir, et la formule est conçue pour une utilisation diurne. Elle manque de textures riches ou d'actifs comme le rétinol bénéfiques pour la réparation nocturne. Si tu n'as plus de crème hydratante, ça ne nuira pas à ta peau, mais il existe de meilleures options pour la nuit."
+        }
+      },
+      {
+        question: {
+          en: "Is this safe for rosacea-prone skin?",
+          fr: "Est-ce que c'est sûr pour les peaux sujettes à la rosacée ?"
+        },
+        answer: {
+          en: "Possibly, but not guaranteed. The fragrance-free formula with ceramides is generally safe for rosacea. However, chemical filters like octinoxate and isopropyl palmitate could trigger flare-ups in some. Patch test first, and if you react, switch to mineral-only sunscreen with zinc oxide or titanium dioxide.",
+          fr: "Peut-être, mais pas garanti. La formule sans parfum avec céramides est généralement sûre pour la rosacée. Cependant, les filtres chimiques comme l'octinoxate et l'isopropyl palmitate pourraient déclencher des poussées chez certains. Fais un test cutané d'abord, et si tu réagis, opte pour un écran solaire 100% minéral à base d'oxyde de zinc ou de dioxyde de titane."
+        }
+      },
+      {
+        question: {
+          en: "Does it leave a white cast?",
+          fr: "Est-ce qu'il laisse un effet blanc ?"
+        },
+        answer: {
+          en: "Minimal white cast due to the 6.3% zinc oxide, but not completely absent. The chemical filters help reduce the mineral filter's opacity. On deeper skin tones, you might notice slight ashy residue. For zero white cast, consider chemical-only sunscreens or those with iron oxides for more neutral finish.",
+          fr: "Effet blanc minimal grâce aux 6,3% d'oxyde de zinc, mais pas totalement absent. Les filtres chimiques aident à réduire l'opacité du filtre minéral. Sur les peaux plus foncées, tu pourrais remarquer un léger résidu grisâtre. Pour un effet blanc nul, envisage des écrans solaires 100% chimiques ou des formules avec oxydes de fer pour un fini plus neutre."
+        }
+      }
+    ],
+    vsCompetitors: [
+      {
+        competitorId: "la-roche-posay-anthelios-uvmune-400-spf50",
+        competitorName: "La Roche-Posay Anthelios UVMune 400 SPF50+",
+        verdict: {
+          en: "La Roche-Posay's Anthelios UVMune 400 (A/92) outperforms CeraVe's SPF 30 in protection and performance. It offers higher SPF 50+ with superior UVA protection, and its water-resistant formula makes it better for outdoor activities. The texture is lighter and more cosmetically elegant. However, CeraVe wins on price and accessibility - often half the cost and widely available. Choose La Roche-Posay for maximum protection, CeraVe for budget-friendly daily use.",
+          fr: "L'Anthelios UVMune 400 de La Roche-Posay (A/92) surpasse la CeraVe SPF 30 en protection et performance. Il offre un SPF 50+ plus élevé avec une meilleure protection UVA, et sa formule résistante à l'eau le rend plus adapté aux activités extérieures. La texture est plus légère et élégante. Cependant, la CeraVe l'emporte sur le prix et l'accessibilité - souvent deux fois moins chère et largement disponible. Choisis La Roche-Posay pour une protection maximale, la CeraVe pour un usage quotidien économique."
+        }
+      },
+      {
+        competitorId: "eltamd-uv-clear-spf46",
+        competitorName: "EltaMD UV Clear SPF46",
+        verdict: {
+          en: "EltaMD UV Clear (B/78) is a closer match to CeraVe's SPF 30, but with key differences. Both are hydrating and suitable for sensitive skin, but EltaMD offers higher SPF 46 and includes niacinamide (5%) to help with redness and inflammation. EltaMD's formula is also oil-free, making it better for acne-prone skin. However, CeraVe contains ceramides which may be more beneficial for barrier repair. Choose EltaMD for higher SPF and niacinamide benefits, CeraVe for ceramide-focused hydration.",
+          fr: "L'EltaMD UV Clear (B/78) est plus proche de la CeraVe SPF 30, mais avec des différences importantes. Les deux sont hydratantes et adaptées aux peaux sensibles, mais l'EltaMD offre un SPF 46 plus élevé et contient de la niacinamide (5%) pour aider contre les rougeurs et l'inflammation. La formule de l'EltaMD est aussi sans huile, ce qui la rend meilleure pour les peaux acnéiques. Cependant, la CeraVe contient des céramides qui peuvent être plus bénéfiques pour la réparation de la barrière cutanée. Choisis l'EltaMD pour un SPF plus élevé et les bienfaits de la niacinamide, la CeraVe pour une hydratation axée sur les céramides."
+        }
+      }
+    ]
+  },
 
 ];
 
