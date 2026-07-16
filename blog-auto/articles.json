@@ -8971,7 +8971,10 @@
     "keywords": "cosrx vs beauty of joseon, k-beauty brands, snail mucin, propolis",
     "title": "Cosrx vs Beauty of Joseon: K-beauty heavyweights compared 2026",
     "plan_cluster": "product-comparisons",
-    "intent_bucket": "commercial"
+    "intent_bucket": "commercial",
+    "published": true,
+    "done": true,
+    "published_at": "2026-07-16"
   },
   {
     "slug": "drunk-elephant-vs-dr-dennis-gross-clinical-2026",
