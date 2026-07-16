@@ -1080,6 +1080,79 @@ export const starProductContent: StarProductContent[] = [
       }
     ]
   },
+  {
+    id: "cetaphil-gentle-skin-cleanser",
+    editorialReview: {
+      en: "Cetaphil Gentle Skin Cleanser earns a B (73/100) for its long-standing reliability, but its formula feels outdated in 2024. The cleanser relies on sodium lauryl sulfate, or SLS, for mild foaming: effective for removing surface oils but potentially stripping for sensitive skin. Three parabens, methylparaben, propylparaben, butylparaben, act as preservatives, a choice that drags down its safety score despite their FDA-approved status. The pH sits around 6.0, close to skin's natural acidity, which helps maintain barrier function. However, modern cleansers achieve gentleness without these controversial ingredients. If you tolerate SLS and parabens, it's a competent daily wash, but those with reactive skin may experience tightness or irritation over time.",
+      fr: "Le Cetaphil Gentle Skin Cleanser obtient un B (73/100) pour sa fiabilité éprouvée, mais sa formule semble dépassée en 2024. Le nettoyant utilise du sodium lauryl sulfate, ou SLS, pour un léger moussage: efficace pour éliminer les excès de sébum, mais potentiellement asséchant pour les peaux sensibles. Trois parabènes, méthylparabène, propylparabène, butylparabène, servent de conservateurs, un choix qui pénalise son score de sécurité malgré leur approbation par les autorités sanitaires. Son pH d'environ 6,0 est proche de celui de la peau, ce qui préserve la barrière cutanée. Cependant, les nettoyants modernes parviennent à être doux sans ces ingrédients controversés. Si tu tolères le SLS et les parabènes, c'est un lavage quotidien correct, mais les peaux réactives pourraient ressentir des tiraillements ou des irritations avec le temps."
+    },
+    howToUse: {
+      en: "Use morning and/or evening. Apply a dime-sized amount to damp skin, massage gently in circular motions for 30 seconds, then rinse with lukewarm water. Avoid hot water, which can exacerbate dryness. The lotion-like texture doesn't foam much, so don't overapply: excess product won't rinse cleaner. Pat skin dry with a soft towel; rubbing can cause micro-tears. Follow with moisturizer within 60 seconds to lock in hydration. Note: This cleanser isn't ideal for removing waterproof makeup or sunscreen. For those, use a dedicated first cleanse, for example micellar water or balm, before this step.",
+      fr: "Utilise-le matin et/ou soir. Applique une noisette sur peau humide, masse doucement en mouvements circulaires pendant 30 secondes, puis rince à l'eau tiède. Évite l'eau chaude, qui peut aggraver la sécheresse. La texture lotion ne mousse presque pas, alors n'en mets pas trop: l'excès ne rincera pas mieux. Tapote ta peau avec une serviette douce pour la sécher, sans frotter, pour éviter les micro-lésions. Applique ta crème hydratante dans les 60 secondes pour sceller l'hydratation. Attention: ce nettoyant n'est pas efficace pour enlever le maquillage waterproof ou la crème solaire. Dans ces cas, utilise un premier nettoyant, par exemple une eau micellaire ou un baume, avant cette étape."
+    },
+    whoIsItFor: {
+      en: "Best for normal to dry skin that tolerates SLS and parabens. Its mildness suits those with eczema-prone skin (though not during active flare-ups) or post-procedure care, as recommended by dermatologists. Combination skin may find it adequate but might prefer a lighter gel. Not ideal for oily or acne-prone skin: its emollient texture can leave residue, and SLS may trigger breakouts in some. Sensitive skin types should patch-test first; while gentle, the preservatives and surfactant could provoke reactions.",
+      fr: "Idéal pour les peaux normales à sèches qui tolèrent le SLS et les parabènes. Sa douceur convient aux peaux sujettes à l'eczéma (hors poussées actives) ou aux soins post-intervention, comme le recommandent les dermatologues. Les peaux mixtes peuvent l'utiliser, mais préféreront peut-être un gel plus léger. Pas adapté aux peaux grasses ou acnéiques: sa texture émolliente peut laisser un film, et le SLS peut provoquer des boutons chez certains. Les peaux sensibles doivent faire un test cutané d'abord: bien que doux, les conservateurs et le tensioactif peuvent déclencher des réactions."
+    },
+    whatToExpect: {
+      en: "Week 1: Skin feels clean but may tighten slightly post-wash, especially if you're used to foaming cleansers. Dry skin types might notice immediate relief from flakiness. Week 4: Barrier function stabilizes; less redness or irritation if your skin tolerates the formula. Week 12: Consistent use should maintain hydration without stripping, but those with reactive skin may see cumulative dryness or sensitivity. Results are subtle: this isn't a treatment cleanser, just a reliable daily wash. If you experience persistent dryness, switch to a hydrating alternative like CeraVe Hydrating Cleanser.",
+      fr: "Semaine 1: La peau est propre mais peut tirailler légèrement après le lavage, surtout si tu utilises habituellement des nettoyants moussants. Les peaux sèches remarqueront un soulagement immédiat des desquamations. Semaine 4: La barrière cutanée se stabilise; moins de rougeurs ou d'irritations si ta peau tolère la formule. Semaine 12: Une utilisation régulière devrait maintenir l'hydratation sans assécher, mais les peaux réactives pourraient ressentir une sécheresse ou une sensibilité accumulée. Les résultats sont discrets: ce n'est pas un nettoyant traitant, juste un lavage quotidien fiable. Si la sécheresse persiste, passe à une alternative hydratante comme le CeraVe Hydrating Cleanser."
+    },
+    commonMistakes: {
+      en: "Using it to remove makeup or sunscreen. The Gentle Skin Cleanser isn't formulated for stubborn residues, so you'll likely leave traces behind, clogging pores over time. Always double-cleanse if wearing SPF or makeup.\n\nOver-scrubbing with a washcloth or sponge. The product's mildness doesn't require aggressive physical exfoliation, which can irritate skin. Gentle finger massage is enough.\n\nSkipping moisturizer post-cleanse. Even though it's gentle, SLS can disrupt the lipid barrier. Applying moisturizer within a minute helps counteract potential dryness.",
+      fr: "L'utiliser pour enlever le maquillage ou la crème solaire. Le Gentle Skin Cleanser n'est pas conçu pour les résidus tenaces, tu risques donc d'en laisser, ce qui peut obstruer les pores à long terme. Fais toujours un double nettoyage si tu portes de la crème solaire ou du maquillage.\n\nFrotter trop fort avec un gant ou une éponge. La douceur du produit ne nécessite pas d'exfoliation physique agressive, qui peut irriter la peau. Un massage doux avec les doigts suffit.\n\nZapper la crème hydratante après le nettoyage. Même si c'est doux, le SLS peut perturber la barrière lipidique. Appliquer une crème dans la minute qui suit aide à contrer la sécheresse potentielle."
+    },
+    faq: [
+      {
+        question: {
+          en: "Is this cleanser non-comedogenic?",
+          fr: "Ce nettoyant est-il non comédogène ?"
+        },
+        answer: {
+          en: "Cetaphil doesn't label it as non-comedogenic, and its emollient texture (mineral oil, cetyl alcohol) could clog pores for acne-prone skin. While SLS is often blamed for breakouts, the heavier ingredients here are more likely culprits. If you're prone to clogged pores, opt for a lighter gel or foaming cleanser like CeraVe Foaming Facial Cleanser.",
+          fr: "Cetaphil ne le présente pas comme non comédogène, et sa texture émolliente (huile minérale, alcool cétylique) peut obstruer les pores des peaux acnéiques. Bien que le SLS soit souvent pointé du doigt pour les boutons, ce sont plutôt les ingrédients plus lourds qui posent problème ici. Si tu as tendance à avoir les pores bouchés, choisis un gel ou un nettoyant moussant plus léger comme le CeraVe Foaming Facial Cleanser."
+        }
+      },
+      {
+        question: {
+          en: "Can I use this if I'm pregnant?",
+          fr: "Puis-je l'utiliser pendant ma grossesse ?"
+        },
+        answer: {
+          en: "The parabens in this formula are present at low concentrations (undisclosed, but likely <0.4% each), within FDA and EU safety limits. However, some pregnant individuals prefer to avoid parabens due to theoretical concerns. SLS is considered safe during pregnancy. If you're cautious, switch to a paraben-free cleanser like La Roche-Posay Toleriane Hydrating Gentle Cleanser.",
+          fr: "Les parabènes de cette formule sont présents à faible concentration (non divulguée, mais probablement <0,4% chacun), dans les limites de sécurité de l'UE et de la FDA. Cependant, certaines femmes enceintes préfèrent les éviter par précaution. Le SLS est considéré comme sûr pendant la grossesse. Si tu veux être prudente, passe à un nettoyant sans parabènes comme le La Roche-Posay Toleriane Hydrating Gentle Cleanser."
+        }
+      },
+      {
+        question: {
+          en: "Does it work for fungal acne?",
+          fr: "Est-ce qu'il convient à l'acné fongique ?"
+        },
+        answer: {
+          en: "No. The formula contains fatty alcohols (cetyl alcohol, stearyl alcohol) and mineral oil, which can feed Malassezia yeast, worsening fungal acne. For fungal acne-safe cleansing, look for products with no esters, oils, or fatty acids, like Sebamed Clear Face Cleansing Foam (pH 5.5).",
+          fr: "Non. La formule contient des alcools gras (alcool cétylique, alcool stéarylique) et de l'huile minérale, qui peuvent nourrir la levure Malassezia et aggraver l'acné fongique. Pour un nettoyage adapté à l'acné fongique, cherche des produits sans esters, huiles ni acides gras, comme le Sebamed Clear Face Cleansing Foam (pH 5,5)."
+        }
+      }
+    ],
+    vsCompetitors: [
+      {
+        competitorId: "la-roche-posay-toleriane-hydrating-gentle-cleanser",
+        competitorName: "La Roche-Posay Toleriane Hydrating Gentle Cleanser",
+        verdict: {
+          en: "La Roche-Posay's A-rated cleanser outshines Cetaphil with a paraben-free, fragrance-free formula that includes ceramides and niacinamide. Its pH 5.5 is closer to skin's natural acidity, and the absence of SLS makes it a better pick for reactive or eczema-prone skin. While Cetaphil is cheaper, Toleriane's hydrating actives justify the price for those prioritizing barrier support.",
+          fr: "Le nettoyant noté A de La Roche-Posay surpasse Cetaphil avec une formule sans parabènes ni parfum, enrichie en céramides et niacinamide. Son pH 5,5 est plus proche de l'acidité naturelle de la peau, et l'absence de SLS en fait un meilleur choix pour les peaux réactives ou sujettes à l'eczéma. Bien que Cetaphil soit moins cher, les actifs hydratants de Toleriane justifient son prix pour ceux qui privilégient le soutien de la barrière cutanée."
+        }
+      },
+      {
+        competitorId: "cerave-hydrating-facial-cleanser",
+        competitorName: "CeraVe Hydrating Facial Cleanser",
+        verdict: {
+          en: "CeraVe's A-rated cleanser is the clear upgrade: it ditches SLS and parabens for a sulfate-free, non-foaming lotion packed with ceramides and hyaluronic acid. Unlike Cetaphil, it actively repairs the skin barrier while cleansing. The texture is similarly creamy, but CeraVe's hydrating ingredients make it a standout for dry or compromised skin. If you're using Cetaphil out of habit, switching to CeraVe is a no-brainer.",
+          fr: "Le nettoyant noté A de CeraVe est une nette amélioration: il abandonne le SLS et les parabènes pour une lotion sans sulfates, non moussante, enrichie en céramides et acide hyaluronique. Contrairement à Cetaphil, il répare activement la barrière cutanée pendant le nettoyage. La texture est tout aussi crémeuse, mais les ingrédients hydratants de CeraVe en font un produit phare pour les peaux sèches ou fragilisées. Si tu utilises Cetaphil par habitude, passer à CeraVe est un choix évident."
+        }
+      }
+    ]
+  },
 
 ];
 
