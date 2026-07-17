@@ -8988,7 +8988,9 @@
     "keywords": "drunk elephant vs dr dennis gross, clinical skincare, peel pads, vitamin C",
     "title": "Drunk Elephant vs Dr. Dennis Gross: clinical luxury showdown 2026",
     "plan_cluster": "product-comparisons",
-    "intent_bucket": "commercial"
+    "intent_bucket": "commercial",
+    "published": true,
+    "done": true
   },
   {
     "slug": "paulas-choice-vs-skinceuticals-actives-2026",

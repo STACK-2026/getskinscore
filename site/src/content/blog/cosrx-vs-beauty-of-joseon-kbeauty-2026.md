@@ -1,6 +1,6 @@
 ---
 title: "COSRX vs Beauty of Joseon: which K-beauty brand fits your routine in 2026"
-description: "COSRX vs Beauty of Joseon compared by formulation, price and skin fit: snail mucin vs rice and ginseng, gentle actives and clear buying picks with peer-reviewed sources."
+description: "COSRX vs Beauty of Joseon compared by formula, price and skin fit: snail mucin vs rice and ginseng, gentle actives and honest buying picks."
 date: 2026-07-16T07:11:00+02:00
 author: "Lina Park"
 category: "product-reviews"
