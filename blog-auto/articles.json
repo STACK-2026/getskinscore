@@ -8863,7 +8863,8 @@
     "plan_cluster": "ingredients-decrypted",
     "intent_bucket": "informational",
     "done": true,
-    "published_at": "2026-06-29"
+    "published_at": "2026-06-29",
+    "published": true
   },
   {
     "slug": "salicylic-acid-vs-glycolic-acid-bha-aha-2026",
