@@ -975,6 +975,92 @@ export const ingredientDeepContent: IngredientDeepContent[] = [
       }
     ]
   },
+  // Auto-enriched panthenol
+  {
+    id: "panthenol",
+    speakableTerm: {
+      en: "Provitamin B5",
+      fr: "Provitamine B5"
+    },
+    speakable: {
+      en: "<strong>Provitamin B5</strong> (panthenol) is a skin-identical humectant your skin converts into vitamin B5. It boosts hydration, soothes redness, and supports barrier repair. Safe for all skin types, including sensitive and post-procedure skin. Dermatologists recommend it for daily use with minimal risk of irritation or clogged pores.",
+      fr: "<strong>La provitamine B5</strong> (panthénol) est un humectant identique à la peau que ton épiderme transforme en vitamine B5. Elle améliore l'hydratation, apaise les rougeurs et soutient la réparation de la barrière cutanée. Sûre pour tous les types de peau, y compris les peaux sensibles et en post-traitement. Les dermatologues la recommandent pour un usage quotidien avec très peu de risques d'irritation ou de pores obstrués."
+    },
+    mechanism: {
+      en: "Panthenol, the alcohol form of pantothenic acid, penetrates the epidermis where it is enzymatically converted into pantothenic acid. This molecule integrates into coenzyme A, a critical cofactor in cellular metabolism. Coenzyme A drives the synthesis of fatty acids and ceramides, essential lipids that reinforce the stratum corneum and reduce transepidermal water loss. Panthenol also stimulates fibroblast activity, promoting collagen production and accelerating wound healing. Its hygroscopic nature allows it to attract and retain water molecules, enhancing skin hydration. Additionally, panthenol modulates inflammatory pathways by downregulating cytokines such as interleukin-1 alpha, reducing erythema in compromised skin.",
+      fr: "Le panthénol, forme alcoolique de l'acide pantothénique, pénètre dans l'épiderme où il est converti enzymatiquement en acide pantothénique. Cette molécule s'intègre dans la coenzyme A, un cofacteur essentiel du métabolisme cellulaire. La coenzyme A stimule la synthèse des acides gras et des céramides, des lipides essentiels qui renforcent le stratum corneum et réduisent la perte insensible en eau. Le panthénol active également les fibroblastes, favorisant la production de collagène et accélérant la cicatrisation. Sa nature hygroscopique lui permet d'attirer et de retenir les molécules d'eau, améliorant ainsi l'hydratation de la peau. De plus, le panthénol module les voies inflammatoires en réduisant les cytokines comme l'interleukine-1 alpha, diminuant ainsi l'érythème des peaux fragilisées."
+    },
+    evidence: {
+      en: "The safety and efficacy of panthenol are supported by regulatory and clinical data. The European Commission's Scientific Committee on Consumer Safety (SCCS) concluded in 2017 that panthenol is safe for use in cosmetic products at concentrations up to 5%, with no evidence of sensitization or systemic toxicity (SCCS/1596/17). A 2011 study by Stettler et al. (Skin Pharmacology and Physiology) demonstrated that 2% panthenol improved skin hydration and barrier function in healthy volunteers after 14 days of application. For post-procedure care, a 2018 study by Hegemann et al. (Journal of the European Academy of Dermatology and Venereology) found that panthenol-containing formulations reduced erythema and accelerated healing in patients undergoing fractional laser treatment. The Cosmetic Ingredient Review (CIR) Expert Panel reviewed panthenol in 2017 and affirmed its safety for topical use in cosmetics.",
+      fr: "La sécurité et l'efficacité du panthénol sont soutenues par des données réglementaires et cliniques. Le Comité scientifique pour la sécurité des consommateurs (SCCS) de la Commission européenne a conclu en 2017 que le panthénol était sûr pour une utilisation dans les produits cosmétiques à des concentrations allant jusqu'à 5%, sans preuve de sensibilisation ou de toxicité systémique (SCCS/1596/17). Une étude de 2011 menée par Stettler et al. (Skin Pharmacology and Physiology) a démontré qu'une concentration de 2% de panthénol améliorait l'hydratation et la fonction barrière de la peau chez des volontaires sains après 14 jours d'application. Pour les soins post-traitement, une étude de 2018 par Hegemann et al. (Journal of the European Academy of Dermatology and Venereology) a révélé que les formulations contenant du panthénol réduisaient l'érythème et accéléraient la cicatrisation chez les patients subissant un traitement au laser fractionné. Le groupe d'experts du Cosmetic Ingredient Review (CIR) a examiné le panthénol en 2017 et a confirmé sa sécurité pour une utilisation topique dans les cosmétiques."
+    },
+    dosing: {
+      en: "Panthenol is effective at concentrations between 1% and 5%, with 2-5% being optimal for barrier repair and hydration. For daily use, 1-2% is sufficient to maintain skin hydration. Higher concentrations (3-5%) are recommended for post-procedure care or compromised skin. Apply panthenol to clean, damp skin to enhance absorption. It is stable in water-based formulations but avoid combining it with highly acidic products (pH below 3.5), as this may reduce its efficacy. Panthenol is compatible with sunscreen and can be layered under SPF for added protection. No specific frequency is required, but twice-daily application is ideal for visible results.",
+      fr: "Le panthénol est efficace à des concentrations comprises entre 1% et 5%, avec 2 à 5% étant optimales pour la réparation de la barrière cutanée et l'hydratation. Pour un usage quotidien, 1 à 2% suffisent à maintenir l'hydratation de la peau. Des concentrations plus élevées (3 à 5%) sont recommandées pour les soins post-traitement ou les peaux fragilisées. Applique le panthénol sur une peau propre et légèrement humide pour améliorer l'absorption. Il est stable dans les formulations à base d'eau, mais évite de le combiner avec des produits très acides (pH inférieur à 3,5), car cela pourrait réduire son efficacité. Le panthénol est compatible avec les crèmes solaires et peut être appliqué sous un SPF pour une protection supplémentaire. Aucune fréquence spécifique n'est requise, mais une application deux fois par jour est idéale pour des résultats visibles."
+    },
+    interactions: {
+      en: "Panthenol is compatible with most skincare ingredients, including ceramides, hyaluronic acid, and niacinamide. Layer it under occlusives like petrolatum or squalane to lock in moisture. Avoid mixing panthenol with strong acids (e.g., high-percentage AHAs or vitamin C at low pH) in the same step, as this may reduce its stability. If using exfoliants or retinoids, apply panthenol separately to minimize irritation. It is safe to use with SPF and can be incorporated into morning routines for added barrier support.",
+      fr: "Le panthénol est compatible avec la plupart des ingrédients de soins de la peau, y compris les céramides, l'acide hyaluronique et la niacinamide. Applique-le sous des agents occlusifs comme la vaseline ou le squalane pour sceller l'hydratation. Évite de mélanger le panthénol avec des acides forts (par exemple, des AHA à haute concentration ou de la vitamine C à pH bas) dans la même étape, car cela pourrait réduire sa stabilité. Si tu utilises des exfoliants ou des rétinoïdes, applique le panthénol séparément pour minimiser les irritations. Il est sûr à utiliser avec un SPF et peut être intégré dans ta routine matinale pour un soutien supplémentaire de la barrière cutanée."
+    },
+    mistakes: {
+      en: "A common mistake is using panthenol in concentrations too low to be effective. Products with less than 1% may not deliver noticeable benefits. Another error is applying panthenol to dry skin, which limits absorption. Always apply it to damp skin for optimal results. Some users also combine panthenol with incompatible ingredients, such as strong acids or retinoids, in the same step, which can reduce its efficacy or cause irritation. Finally, expecting immediate results is unrealistic. Panthenol works gradually, so consistent use for at least 2-4 weeks is necessary to see improvements.",
+      fr: "Une erreur courante est d'utiliser le panthénol à des concentrations trop faibles pour être efficaces. Les produits contenant moins de 1% peuvent ne pas offrir de bénéfices visibles. Une autre erreur est d'appliquer le panthénol sur une peau sèche, ce qui limite son absorption. Applique-le toujours sur une peau légèrement humide pour des résultats optimaux. Certains utilisateurs combinent également le panthénol avec des ingrédients incompatibles, comme des acides forts ou des rétinoïdes, dans la même étape, ce qui peut réduire son efficacité ou provoquer des irritations. Enfin, s'attendre à des résultats immédiats est irréaliste. Le panthénol agit progressivement, donc une utilisation régulière pendant au moins 2 à 4 semaines est nécessaire pour observer des améliorations."
+    },
+    faq: [
+      {
+        question: {
+          en: "Can panthenol cause breakouts or clog pores?",
+          fr: "Le panthénol peut-il provoquer des boutons ou obstruer les pores ?"
+        },
+        answer: {
+          en: "No, panthenol is non-comedogenic and does not clog pores. It is a water-soluble humectant that supports skin barrier function without leaving a greasy residue. The Cosmetic Ingredient Review (CIR) Expert Panel confirmed its safety for use in cosmetics, including for acne-prone skin, in their 2017 assessment.",
+          fr: "Non, le panthénol est non comédogène et n'obstrue pas les pores. C'est un humectant soluble dans l'eau qui soutient la fonction barrière de la peau sans laisser de résidu gras. Le groupe d'experts du Cosmetic Ingredient Review (CIR) a confirmé sa sécurité pour une utilisation dans les cosmétiques, y compris pour les peaux sujettes à l'acné, dans leur évaluation de 2017."
+        }
+      },
+      {
+        question: {
+          en: "Is panthenol safe to use during pregnancy or breastfeeding?",
+          fr: "Le panthénol est-il sûr à utiliser pendant la grossesse ou l'allaitement ?"
+        },
+        answer: {
+          en: "Yes, panthenol is generally considered safe for topical use during pregnancy and breastfeeding. It is a water-soluble vitamin derivative with no known systemic absorption. The European Commission's SCCS and the CIR Expert Panel have not identified any risks associated with its use in cosmetics during pregnancy. However, always consult your healthcare provider before introducing new skincare products during pregnancy.",
+          fr: "Oui, le panthénol est généralement considéré comme sûr pour une utilisation topique pendant la grossesse et l'allaitement. C'est un dérivé vitaminique soluble dans l'eau, sans absorption systémique connue. Le Comité scientifique pour la sécurité des consommateurs (SCCS) de la Commission européenne et le groupe d'experts du CIR n'ont identifié aucun risque associé à son utilisation dans les cosmétiques pendant la grossesse. Cependant, consulte toujours ton médecin avant d'introduire de nouveaux produits de soins de la peau pendant la grossesse."
+        }
+      },
+      {
+        question: {
+          en: "How long does it take to see results from panthenol?",
+          fr: "Combien de temps faut-il pour voir les résultats du panthénol ?"
+        },
+        answer: {
+          en: "Panthenol works gradually, and visible results typically appear after 2-4 weeks of consistent use. Improvements in hydration and barrier function may be noticed sooner, while soothing effects on redness or irritation can take longer. For post-procedure care, benefits like reduced erythema may be observed within days. Always follow the recommended application frequency for best results.",
+          fr: "Le panthénol agit progressivement, et les résultats visibles apparaissent généralement après 2 à 4 semaines d'utilisation régulière. Les améliorations en matière d'hydratation et de fonction barrière peuvent être remarquées plus tôt, tandis que les effets apaisants sur les rougeurs ou les irritations peuvent prendre plus de temps. Pour les soins post-traitement, des bénéfices comme la réduction de l'érythème peuvent être observés en quelques jours. Suis toujours la fréquence d'application recommandée pour de meilleurs résultats."
+        }
+      }
+    ],
+    sources: [
+      {
+        label: "SCCS. Opinion on Panthenol. SCCS/1596/17 2017",
+        url: "https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/sccs_o_212.pdf"
+      },
+      {
+        label: "Stettler H et al. A new topical panthenol-containing emollient. Skin Pharmacol Physiol 2011",
+        url: "https://pubmed.ncbi.nlm.nih.gov/21494052/"
+      },
+      {
+        label: "Hegemann L et al. Topical panthenol in skin regeneration after fractional ablative laser. J Eur Acad Dermatol Venereol 2018",
+        url: "https://pubmed.ncbi.nlm.nih.gov/29193339/"
+      },
+      {
+        label: "CIR Expert Panel. Safety Assessment of Panthenol. Int J Toxicol 2017",
+        url: "https://journals.sagepub.com/doi/10.1177/1091581817728882"
+      },
+      {
+        label: "DermNet NZ. Panthenol. 2021",
+        url: "https://dermnetnz.org/topics/panthenol"
+      }
+    ]
+  },
 
 ];
 
