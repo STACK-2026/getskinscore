@@ -138,7 +138,7 @@ If your skin is oily in the T zone and dry on the cheeks, you can also multi mas
 
 ## Which one should you buy?
 
-Buy salicylic acid if your skin is oily, congested, breakout prone or studded with blackheads. Buy glycolic acid if your skin is normal to dry, dull, rough, sun damaged or unevenly toned. If you are not sure, or your skin is sensitive, start with a low percentage salicylic acid or a lactic acid product, both of which are more forgiving than glycolic acid.
+Buy salicylic acid if your skin is oily, congested or breakout prone. Buy glycolic acid if your skin is normal to dry, dull, rough or unevenly toned. If unsure or sensitive, start with low percentage salicylic acid or lactic acid, both more forgiving than glycolic acid.
 
 Whatever you choose, judge the formula, not the marketing. Check the labelled concentration, the position of the acid in the INCI list, and whether the base supports the barrier with ceramides or niacinamide. Every exfoliant referenced here is benchmarked on those criteria in the [SkinScore rankings](/rankings), and you can look up any single ingredient in our [ingredient encyclopedia](/encyclopedia). For how we test and score, see our [methodology](/methodology).
 
@@ -166,6 +166,6 @@ Expect 2 to 4 weeks for salicylic acid to visibly reduce congestion and blackhea
 
 ## The bottom line
 
-Salicylic acid and glycolic acid are not rivals so much as specialists. Salicylic acid is the oil soluble BHA that cleans out the pore, making it the right call for oily, congested and acne prone skin. Glycolic acid is the water soluble AHA that resurfaces the top of the skin, making it the right call for dull, rough, sun damaged and uneven toned skin. Choose by your dominant concern, start low and slow, protect your barrier, and never skip sunscreen. If you want both, alternate them across the week rather than stacking them. The smart routine is not the one with the strongest acid, it is the one matched to your skin.
+Salicylic acid and glycolic acid are specialists, not rivals. BHA salicylic acid cleans out the pore for oily, congested and acne prone skin. AHA glycolic acid resurfaces the surface for dull, rough or sun damaged skin. Choose by your dominant concern, start low and slow, protect your barrier, and never skip sunscreen. If you want both, alternate them across the week rather than stacking them in one sitting.
 
 *Reviewed June 2026 by Dr. Elena Voss. This article is educational and does not replace personalised advice from a dermatologist.*

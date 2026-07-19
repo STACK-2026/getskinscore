@@ -8879,7 +8879,8 @@
     "plan_cluster": "ingredients-decrypted",
     "intent_bucket": "comparison",
     "done": true,
-    "published_at": "2026-06-30"
+    "published_at": "2026-07-19",
+    "published": true
   },
   {
     "slug": "azelaic-acid-10-vs-20-who-benefits-2026",
