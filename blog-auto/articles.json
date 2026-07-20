@@ -8911,7 +8911,8 @@
     "plan_cluster": "product-comparisons",
     "intent_bucket": "commercial",
     "done": true,
-    "published_at": "2026-07-10"
+    "published_at": "2026-07-20",
+    "published": true
   },
   {
     "slug": "cerave-vs-la-roche-posay-barrier-brands-2026",

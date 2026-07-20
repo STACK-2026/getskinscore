@@ -71,7 +71,7 @@ Both brands prioritise function over sensory experience, but there are real text
 
 The Inkey List tends to invest a little more in the sensory side, with textures that feel slightly more finished and easier to layer. This is part of the beginner-friendly positioning. A product that feels pleasant is a product a newcomer keeps using. Neither brand reaches the polish of a luxury serum, but The Inkey List usually feels the more refined of the two on the skin.
 
-Texture is not a trivial detail. Adherence to a routine is the single biggest predictor of results, and a formula you enjoy applying is a formula you will actually use. For sensitive or reactive skin, a smoother texture with fewer sensory triggers also lowers the odds of a reaction. If your skin is easily irritated, our [best cleansers for sensitive skin guide](/blog/best-cleanser-sensitive-skin-gentle/) covers the gentler end of the affordable market.
+Texture matters because adherence is the single biggest predictor of results, and a formula you enjoy applying is a formula you will actually use. If your skin is easily irritated, our [best cleansers for sensitive skin guide](/blog/best-cleanser-sensitive-skin-gentle/) covers the gentler end of the affordable market.
 
 ## Availability, restocks and buying without regret
 
@@ -79,9 +79,9 @@ Both brands are widely available, but the buying experience differs in ways that
 
 The Inkey List has narrower distribution in some markets but a more predictable stock pattern, partly because its tighter catalogue means fewer individual SKUs to keep on shelves. If you build a routine around three or four Inkey List products, you are less likely to hit an out-of-stock wall than someone relying on a specific The Ordinary formulation that goes viral overnight.
 
-The smarter buying strategy with either brand is to resist the low prices. Because a single active costs less than a sandwich, it is tempting to fill a basket with ten products at once. Do not. Buy one or two actives, introduce them one at a time over several weeks, and only add the next once your skin has adapted. This is the single most useful habit for both brands, and it matters more with The Ordinary because the sheer size of the range makes over-buying so easy. A patient, one-active-at-a-time approach turns two cheap brands into a genuinely effective routine instead of a shelf of half-used bottles.
+The smarter buying strategy with either brand is to resist the low prices. Buy one or two actives, introduce them one at a time over several weeks, and only add the next once your skin has adapted. This habit matters more with The Ordinary because the sheer size of the range makes over-buying so easy.
 
-For a broader view of how these affordable ranges stack up against pricier options, our [La Mer versus CeraVe comparison](/blog/la-mer-vs-cerave-350-euro-question/) shows just how little the price tag correlates with the ingredient list, which is exactly the logic that made The Ordinary and The Inkey List possible.
+For a broader view of how these affordable ranges stack up against pricier options, our [La Mer versus CeraVe comparison](/blog/la-mer-vs-cerave-350-euro-question/) shows how little price correlates with the ingredient list, which is exactly the logic that made both brands possible.
 
 ## Which one should you buy?
 
@@ -99,9 +99,9 @@ Pick **The Inkey List** if:
 - You want slightly nicer textures and on-pack routine advice.
 - You would rather buy four products you understand than ten you do not.
 
-You can also mix, and plenty of people do. A common approach is to use The Inkey List for the actives you are unsure about, because the guidance lowers the risk, and The Ordinary for the actives you already know you want at the lowest possible price. There is no loyalty required. Both brands are cheap enough that owning products from each is normal, and the ingredient lists are compatible across brands.
+You can also mix, and plenty of people do. Use The Inkey List for the actives you are unsure about, because the guidance lowers the risk, and The Ordinary for the actives you already want at the lowest possible price. Both brands are cheap enough that owning products from each is normal, and the ingredient lists are compatible.
 
-Whichever you choose, track how your skin responds so you can tell which specific product actually helped rather than which one you assumed helped. Our [encyclopedia](/encyclopedia) and [ranking pages](/rankings) are built for exactly this kind of like-for-like comparison across affordable brands.
+Whichever you choose, track how your skin responds so you can tell which product actually helped. Our [encyclopedia](/encyclopedia) and [ranking pages](/rankings) are built for exactly this kind of comparison.
 
 ## Frequently asked questions
 
@@ -127,6 +127,6 @@ The Ordinary has the deeper catalogue by a wide margin. It carries multiple acid
 
 ## The bottom line
 
-The Ordinary is a chemistry set. The Inkey List is a cookbook. If you already read INCI lists, want the lowest price per active and like engineering your own routine, The Ordinary is the honest answer. If you are newer, want guidance instead of a molecule menu, and would rather finish four products than hoard ten, The Inkey List earns its small premium.
+The Ordinary is a chemistry set. The Inkey List is a cookbook. If you read INCI lists and want the lowest price per active, The Ordinary is the honest answer. If you want guidance instead of a molecule menu, The Inkey List earns its small premium.
 
-Neither brand is a compromise. They are two solutions to the same problem, aimed at two different users. Buy the one that matches how much control you actually want, not the one a viral video told you to.
+Neither brand is a compromise. They are two solutions to the same problem. Buy the one that matches how much control you want, not the one a viral video told you to.
