@@ -1153,6 +1153,79 @@ export const starProductContent: StarProductContent[] = [
       }
     ]
   },
+  {
+    id: "cerave-hydrating-facial-cleanser",
+    editorialReview: {
+      en: "CeraVe Hydrating Facial Cleanser secures its A grade (86/100) with a formula that prioritizes skin barrier integrity. It contains three ceramides (1, 3, 6-II) at undisclosed concentrations, which are recognized in dermatological literature for their role in supporting the skin's lipid barrier. Hyaluronic acid, present in the formula, provides surface hydration by binding water molecules. The inclusion of cholesterol, a lipid naturally found in the skin, is uncommon in cleansers and further aids in maintaining barrier function. This non-foaming lotion avoids sulfates, fragrances, and essential oils, making it suitable for reactive skin. While it doesn't remove makeup effectively, its simplicity and pH of ~5.5 make it a dependable first step in routines for dry or sensitive skin.",
+      fr: "Le CeraVe Hydrating Facial Cleanser obtient sa note A (86/100) grâce à une formule qui préserve l'intégrité de la barrière cutanée. Il contient trois céramides (1, 3, 6-II) - dont les concentrations ne sont pas divulguées - qui jouent un rôle reconnu dans le maintien de la couche lipidique de la peau. L'acide hyaluronique, présent dans la formule, apporte une hydratation de surface en retenant l'eau. La présence de cholestérol - un lipide naturellement présent dans la peau - est rare dans les nettoyants et contribue à renforcer la barrière cutanée. Sans sulfates, sans parfum ni huiles essentielles, ce lait non moussant convient aux peaux réactives. Bien qu'il n'élimine pas le maquillage, sa simplicité et son pH d'environ 5,5 en font une première étape fiable pour les routines des peaux sèches ou sensibles."
+    },
+    howToUse: {
+      en: "Use morning and/or evening as the first step in your routine. Apply a pea-sized amount to damp skin, massage gently in circular motions for 30-60 seconds, then rinse with lukewarm water. Hot water can reduce the efficacy of the ceramides. The lotion texture doesn't lather, so don't expect foam, its strength lies in its mildness. Pat skin dry with a clean towel, leaving it slightly damp to enhance the absorption of subsequent products. For waterproof makeup or sunscreen, pre-cleanse with a micellar water or balm. The 236ml pump bottle is convenient, but the thick formula may require a firm press to dispense.",
+      fr: "Utilise-le matin et/ou soir comme première étape de ta routine. Applique une noisette sur peau humide, masse délicatement en mouvements circulaires pendant 30 à 60 secondes, puis rince à l'eau tiède. L'eau chaude peut diminuer l'efficacité des céramides. Ce nettoyant a une texture lait, donc ne t'attends pas à de la mousse - son atout réside dans sa douceur. Tapote ta peau pour la sécher avec une serviette propre, en la laissant légèrement humide pour favoriser l'absorption des produits suivants. Pour le maquillage waterproof ou la crème solaire, utilise un démaquillant micellaire ou un baume en pré-nettoyage. Le flacon pompe de 236 ml est pratique, mais la texture épaisse peut nécessiter une pression ferme pour sortir le produit."
+    },
+    whoIsItFor: {
+      en: "Best suited for dry, sensitive, or eczema-prone skin, as well as normal skin looking for a non-stripping cleanser. Its ceramide-rich formula also benefits compromised skin barriers (e.g., post-procedure or over-exfoliated skin). Not ideal for oily or acne-prone skin seeking deep pore cleansing, or for removing heavy makeup. If your skin feels tight or irritated after washing, this cleanser is a strong option. Avoid if allergic to cetyl alcohol or the specific ceramides listed.",
+      fr: "Idéal pour les peaux sèches, sensibles ou sujettes à l'eczéma, ainsi que les peaux normales cherchant un nettoyant non agressif. Sa formule riche en céramides convient aussi aux peaux dont la barrière est fragilisée (après un soin dermatologique ou un excès d'exfoliation). Pas adapté aux peaux grasses ou acnéiques recherchant un nettoyage profond des pores, ni pour enlever un maquillage résistant. Si ta peau tiraille ou s'irrite après le lavage, ce produit est fait pour toi. À éviter en cas d'allergie à l'alcool cétylique ou aux céramides spécifiques."
+    },
+    whatToExpect: {
+      en: "Week 1: Skin may feel softer and less tight immediately after use, though long-term barrier improvements take time. Week 4: Some users report reduced redness or irritation, particularly if switching from harsher cleansers. Skin may appear more hydrated due to the hyaluronic acid. Week 12: With consistent use, tolerance to other skincare actives (like retinoids or acids) may improve, though individual results vary. This cleanser doesn't promise dramatic changes but offers reliable, irritation-free cleansing. If skin feels greasy, reduce the amount used.",
+      fr: "Semaine 1 : Ta peau peut sembler plus douce et moins tiraillée immédiatement après utilisation, mais les améliorations de la barrière cutanée prennent du temps. Semaine 4 : Certains utilisateurs constatent une réduction des rougeurs ou irritations, surtout s'ils utilisaient des nettoyants agressifs auparavant. La peau peut paraître plus hydratée grâce à l'acide hyaluronique. Semaine 12 : Avec une utilisation régulière, la tolérance à d'autres actifs (comme les rétinoïdes ou les acides) peut s'améliorer, bien que les résultats varient d'une personne à l'autre. Ce nettoyant ne promet pas de changements spectaculaires, mais offre un nettoyage fiable et sans irritation. Si ta peau semble grasse, réduis la quantité utilisée."
+    },
+    commonMistakes: {
+      en: "Using it as a makeup remover. This cleanser isn't designed to break down mascara or long-wear foundation, and scrubbing to remove makeup can irritate the skin. Always pre-cleanse with a dedicated remover.\n\nUsing too much product. A pea-sized amount is sufficient for the entire face. Excess product won't cleanse better and may leave a residue, particularly on oily skin.\n\nNot rinsing thoroughly. The lotion texture might feel light, but failing to rinse completely can leave a film that interferes with serums or moisturizers.",
+      fr: "L'utiliser comme démaquillant. Ce nettoyant n'est pas conçu pour dissoudre le mascara ou le fond de teint longue tenue, et frotter pour enlever le maquillage peut irriter la peau. Utilise toujours un démaquillant dédié en premier.\n\nEn mettre trop. Une noisette suffit pour tout le visage. En appliquer plus ne nettoie pas mieux et peut laisser un résidu, surtout sur les peaux grasses.\n\nNe pas rincer correctement. La texture lait peut sembler légère, mais ne pas rincer complètement laisse un film qui peut gêner l'absorption des sérums ou crèmes."
+    },
+    faq: [
+      {
+        question: {
+          en: "Can I use this cleanser if I have acne?",
+          fr: "Puis-je utiliser ce nettoyant si j'ai de l'acné ?"
+        },
+        answer: {
+          en: "It's not the best option for acne-prone skin. While non-comedogenic, it lacks active ingredients like salicylic acid or benzoyl peroxide to target breakouts. If your acne is mild and your skin is also dry or sensitive, it *might* work, but oily or congested skin may find it insufficient. Pairing it with a targeted acne treatment could help, but CeraVe's SA Smoothing Cleanser is a better choice for acne.",
+          fr: "Ce n'est pas le meilleur choix pour les peaux acnéiques. Bien qu'il soit non comédogène, il ne contient pas d'actifs comme l'acide salicylique ou le peroxyde de benzoyle pour cibler les boutons. Si ton acné est légère et que ta peau est aussi sèche ou sensible, il *peut* convenir, mais les peaux grasses ou sujettes aux imperfections risquent de le trouver insuffisant. Tu peux l'associer à un traitement anti-acné ciblé, mais le CeraVe SA Smoothing Cleanser est une meilleure option pour l'acné."
+        }
+      },
+      {
+        question: {
+          en: "Is this cleanser fragrance-free?",
+          fr: "Ce nettoyant est-il sans parfum ?"
+        },
+        answer: {
+          en: "Yes, it's fragrance-free and free of essential oils, making it suitable for sensitive or reactive skin. The formula avoids common irritants, though some users may detect a mild, neutral scent from the ingredients themselves. This isn't added fragrance.",
+          fr: "Oui, il est sans parfum et sans huiles essentielles, ce qui le rend adapté aux peaux sensibles ou réactives. La formule évite les irritants courants, bien que certains utilisateurs puissent percevoir une légère odeur neutre due aux ingrédients. Il ne s'agit pas de parfum ajouté."
+        }
+      },
+      {
+        question: {
+          en: "Does it work for removing sunscreen?",
+          fr: "Est-ce qu'il enlève la crème solaire ?"
+        },
+        answer: {
+          en: "It can remove some sunscreens, particularly mineral-based or light chemical formulas, but it's not reliable for water-resistant or high-SPF sunscreens. For thorough removal, pre-cleanse with a micellar water, balm, or oil-based remover. Using this cleanser alone may require excessive rubbing, which can irritate the skin. Always double-cleanse if you wear sunscreen daily.",
+          fr: "Il peut enlever certaines crèmes solaires, notamment les formules minérales ou les filtres chimiques légers, mais il n'est pas fiable pour les crèmes solaires waterproof ou à haut SPF. Pour un nettoyage complet, utilise d'abord un démaquillant micellaire, un baume ou une huile. Utiliser ce nettoyant seul peut nécessiter un frottement excessif, ce qui irrite la peau. Fais toujours un double nettoyage si tu portes de la crème solaire quotidiennement."
+        }
+      }
+    ],
+    vsCompetitors: [
+      {
+        competitorId: "la-roche-posay-toleriane-hydrating-gentle-cleanser",
+        competitorName: "La Roche-Posay Toleriane Hydrating Gentle Cleanser",
+        verdict: {
+          en: "Both earn an A grade, but CeraVe's formula is slightly stronger for barrier repair. La Roche-Posay includes niacinamide, which brightens and soothes, but lacks cholesterol, a key lipid for skin barrier function. CeraVe's thicker texture suits very dry skin, while La Roche-Posay's lighter lotion may appeal to combination skin. If barrier support is your priority, CeraVe wins. For redness-prone skin, La Roche-Posay's thermal water could be preferable.",
+          fr: "Les deux obtiennent une note A, mais la formule de CeraVe est légèrement supérieure pour la réparation de la barrière cutanée. La Roche-Posay contient de la niacinamide, qui illumine et apaise, mais manque de cholestérol - un lipide clé pour la barrière cutanée. La texture plus épaisse de CeraVe convient mieux aux peaux très sèches, tandis que le lait léger de La Roche-Posay peut plaire aux peaux mixtes. Si la réparation de la barrière est ta priorité, CeraVe l'emporte. Pour les peaux sujettes aux rougeurs, l'eau thermale de La Roche-Posay peut être préférable."
+        }
+      },
+      {
+        competitorId: "the-ordinary-squalane-cleanser",
+        competitorName: "The Ordinary Squalane Cleanser",
+        verdict: {
+          en: "The Ordinary's A-grade cleanser is a balm-to-milk formula that excels at dissolving makeup and sunscreen, unlike CeraVe's rinse-off lotion. It contains squalane for hydration but lacks ceramides, making it less effective for barrier repair. CeraVe is the better daily cleanser for sensitive or dry skin, while The Ordinary is ideal as a first step in a double-cleanse routine. If you wear heavy makeup, The Ordinary's texture is more practical, but CeraVe's simplicity and barrier benefits make it the stronger all-rounder.",
+          fr: "Le nettoyant noté A de The Ordinary est une formule baume-lait qui excelle pour dissoudre le maquillage et la crème solaire, contrairement au lait rinçable de CeraVe. Il contient du squalane pour l'hydratation, mais manque de céramides, ce qui le rend moins efficace pour la réparation de la barrière cutanée. CeraVe est le meilleur choix pour un nettoyant quotidien des peaux sensibles ou sèches, tandis que The Ordinary est idéal comme première étape d'un double nettoyage. Si tu portes beaucoup de maquillage, la texture de The Ordinary est plus pratique, mais la simplicité et les bienfaits pour la barrière de CeraVe en font le produit le plus polyvalent."
+        }
+      }
+    ]
+  },
 
 ];
 
