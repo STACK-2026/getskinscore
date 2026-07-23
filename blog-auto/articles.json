@@ -9038,7 +9038,12 @@
     "keywords": "adult acne routine, hormonal acne, retinoid, salicylic acid, 2026",
     "title": "Adult acne routine 2026: evidence-based step by step plan",
     "plan_cluster": "routines-by-concern",
-    "intent_bucket": "informational"
+    "intent_bucket": "informational",
+    "done": true,
+    "published": true,
+    "published_at": "2026-07-23",
+    "publishedAt": "2026-07-23",
+    "lastReviewed": "2026-07-23"
   },
   {
     "slug": "melasma-skincare-evidence-based-actives-2026",
