@@ -9056,7 +9056,9 @@
     "keywords": "melasma treatment, tranexamic acid, hydroquinone alternatives, pigmentation",
     "title": "Melasma skincare: evidence-based actives that actually fade pigment",
     "plan_cluster": "routines-by-concern",
-    "intent_bucket": "informational"
+    "intent_bucket": "informational",
+    "done": true,
+    "published_at": "2026-07-24"
   },
   {
     "slug": "rosacea-skincare-routine-evidence-2026",
