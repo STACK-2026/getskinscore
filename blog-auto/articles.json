@@ -9073,7 +9073,10 @@
     "keywords": "rosacea routine, azelaic acid, ivermectin, sensitive skin, flushing",
     "title": "Rosacea skincare routine 2026: evidence-based dos and absolute donts",
     "plan_cluster": "routines-by-concern",
-    "intent_bucket": "informational"
+    "intent_bucket": "informational",
+    "published": true,
+    "published_at": "2026-07-26",
+    "done": true
   },
   {
     "slug": "eczema-barrier-repair-ceramides-oats-2026",
