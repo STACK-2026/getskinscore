@@ -1061,6 +1061,92 @@ export const ingredientDeepContent: IngredientDeepContent[] = [
       }
     ]
   },
+  // Auto-enriched tocopherol
+  {
+    id: "tocopherol",
+    speakableTerm: {
+      en: "Vitamin E",
+      fr: "Vitamine E"
+    },
+    speakable: {
+      en: "<strong>Vitamin E</strong> is a fat-soluble antioxidant that protects skin cell membranes from oxidative damage. Clinically supported for reducing UV-induced inflammation and enhancing sunscreen performance when combined with vitamin C. Safe for daily use at 0.5-2% concentrations, but prone to oxidation if exposed to air or light. Best suited for dry, sun-exposed, or mature skin seeking barrier repair and photoprotection.",
+      fr: "<strong>La vitamine E</strong> est un antioxydant liposoluble qui protège les membranes cellulaires de la peau contre les dommages oxydatifs. Soutenue cliniquement pour réduire l'inflammation induite par les UV et améliorer l'efficacité des écrans solaires lorsqu'elle est associée à la vitamine C. Sûre pour un usage quotidien à des concentrations de 0,5 à 2 %, mais sensible à l'oxydation à l'air ou à la lumière. Idéale pour les peaux sèches, exposées au soleil ou matures recherchant une réparation de la barrière cutanée et une photoprotection."
+    },
+    mechanism: {
+      en: "Tocopherol (vitamin E) functions as a chain-breaking antioxidant by donating a hydrogen atom to lipid peroxyl radicals, converting them into stable lipid hydroperoxides and halting lipid peroxidation in cell membranes. The resulting tocopheroxyl radical is relatively stable and can be recycled to its active form by water-soluble antioxidants such as ascorbic acid or glutathione. In keratinocytes, tocopherol modulates oxidative stress responses, though the exact pathway for antioxidant enzyme upregulation (e.g., superoxide dismutase) remains under investigation. It also inhibits UVB-induced cyclooxygenase-2 expression, reducing prostaglandin E2 synthesis and associated inflammation. Topically, tocopherol integrates into the stratum corneum lipid matrix, improving membrane fluidity and reducing transepidermal water loss, as noted in studies on barrier function enhancement (Thiele et al., Free Radical Biology and Medicine, 1999).",
+      fr: "Le tocophérol (vitamine E) agit comme un antioxydant interrompant les chaînes radicalaires en donnant un atome d'hydrogène aux radicaux peroxyles lipidiques, les transformant en hydroperoxydes lipidiques stables et bloquant ainsi la peroxydation lipidique dans les membranes cellulaires. Le radical tocophéroxyle résultant, relativement stable, peut être régénéré sous sa forme active par des antioxydants hydrosolubles comme l'acide ascorbique ou le glutathion. Dans les kératinocytes, le tocophérol module les réponses au stress oxydatif, bien que la voie exacte de régulation des enzymes antioxydantes (comme la superoxyde dismutase) reste à l'étude. Il inhibe également l'expression de la cyclooxygénase-2 induite par les UVB, réduisant la synthèse de prostaglandine E2 et l'inflammation associée. En application topique, le tocophérol s'intègre dans la matrice lipidique du stratum corneum, améliorant la fluidité membranaire et réduisant la perte insensible en eau, comme le montrent des études sur l'amélioration de la fonction barrière (Thiele et al., Free Radical Biology and Medicine, 1999)."
+    },
+    evidence: {
+      en: "A 1999 study by Thiele et al. (Free Radical Biology and Medicine) demonstrated that topical tocopherol reduces UV-induced oxidative damage in the stratum corneum, with significant depletion observed in unprotected skin. The Scientific Committee on Consumer Safety (SCCS) confirmed in 2021 that tocopherol is safe for use in cosmetic products at concentrations up to 2%, citing no systemic toxicity or sensitization risks (SCCS/1634/21). A 2003 randomized trial by Dreher et al. (Dermatology) found that combining 2% tocopherol with 5% ascorbic acid reduced UVB-induced erythema by 40% compared to vehicle, highlighting synergistic effects. However, a 2016 review by Niki (Free Radical Biology and Medicine) noted that oxidized tocopherol may exhibit pro-oxidant activity, emphasizing the need for stable formulations. The Cosmetic Ingredient Review (CIR) Expert Panel concluded in 2002 that tocopherol and its esters are safe for topical use, though comedogenicity depends on formulation (CIR, 2002).",
+      fr: "Une étude de 1999 menée par Thiele et al. (Free Radical Biology and Medicine) a démontré que le tocophérol topique réduit les dommages oxydatifs induits par les UV dans le stratum corneum, avec une déplétion significative observée dans les peaux non protégées. Le Comité scientifique pour la sécurité des consommateurs (SCCS) a confirmé en 2021 que le tocophérol est sûr pour une utilisation dans les produits cosmétiques à des concentrations allant jusqu'à 2 %, sans risque de toxicité systémique ou de sensibilisation (SCCS/1634/21). Un essai randomisé de 2003 par Dreher et al. (Dermatology) a révélé que l'association de 2 % de tocophérol et de 5 % d'acide ascorbique réduisait l'érythème induit par les UVB de 40 % par rapport au véhicule, soulignant des effets synergiques. Cependant, une revue de 2016 par Niki (Free Radical Biology and Medicine) a noté que le tocophérol oxydé peut présenter une activité pro-oxydante, soulignant l'importance de formulations stables. Le Cosmetic Ingredient Review (CIR) a conclu en 2002 que le tocophérol et ses esters sont sûrs pour un usage topique, bien que leur comédogénicité dépende de la formulation (CIR, 2002)."
+    },
+    dosing: {
+      en: "Regulatory guidelines permit tocopherol concentrations up to 2% in leave-on products (SCCS, 2021). Clinical studies support efficacy at 0.5-2%, with 1% being the most common in serums and moisturizers. For photoprotection, pair with 10-15% vitamin C in a morning routine, applying to clean, dry skin before sunscreen. Tocopherol is stable in anhydrous formulations but degrades in water-based systems unless stabilized with chelating agents like EDTA or packaged in airless pumps. Avoid combining with high concentrations of iron oxides or copper peptides, as these may accelerate oxidation. Store in opaque, airtight containers to prevent rancidity.",
+      fr: "Les directives réglementaires autorisent des concentrations de tocophérol jusqu'à 2 % dans les produits sans rinçage (SCCS, 2021). Les études cliniques soutiennent une efficacité entre 0,5 et 2 %, avec 1 % comme concentration la plus courante dans les sérums et les crèmes hydratantes. Pour une photoprotection optimale, associe-le à 10-15 % de vitamine C dans ta routine du matin, en l'appliquant sur une peau propre et sèche avant ta crème solaire. Le tocophérol est stable dans les formulations anhydres, mais se dégrade dans les systèmes à base d'eau, sauf s'il est stabilisé avec des agents chélateurs comme l'EDTA ou conditionné dans des pompes airless. Évite de le combiner avec des concentrations élevées d'oxydes de fer ou de peptides de cuivre, car ceux-ci peuvent accélérer son oxydation. Conserve-le dans des contenants opaques et hermétiques pour éviter le rancissement."
+    },
+    interactions: {
+      en: "Tocopherol synergizes with vitamin C, ferulic acid, and niacinamide to enhance antioxidant capacity. Apply vitamin C first, followed by tocopherol-containing products to maximize regeneration. Avoid concurrent use with high-dose retinoids (e.g., tretinoin 0.05%+) at night, as tocopherol may interfere with retinoid absorption. Separate from direct acids (AHA/BHA) by at least 30 minutes to prevent pH-driven oxidation. Compatible with hyaluronic acid, ceramides, and peptides. Do not mix with benzoyl peroxide, as it oxidizes tocopherol into inactive forms (Draelos, Cosmetic Dermatology, 2001).",
+      fr: "Le tocophérol agit en synergie avec la vitamine C, l'acide férulique et la niacinamide pour renforcer la capacité antioxydante. Applique d'abord la vitamine C, puis les produits contenant du tocophérol pour maximiser la régénération. Évite de l'utiliser en même temps que des rétinoïdes à haute dose (comme la trétinoïne à 0,05 % ou plus) le soir, car le tocophérol peut interférer avec leur absorption. Espace son application des acides directs (AHA/BHA) d'au moins 30 minutes pour éviter une oxydation due au pH. Compatible avec l'acide hyaluronique, les céramides et les peptides. Ne le mélange pas avec le peroxyde de benzoyle, car il oxyde le tocophérol en formes inactives (Draelos, Cosmetic Dermatology, 2001)."
+    },
+    mistakes: {
+      en: "A common error is storing tocopherol-based products in clear glass bottles or warm environments, accelerating oxidation. Users often apply tocopherol after sunscreen, which dilutes its photoprotective benefits. Another mistake is combining it with vitamin C in the same step without allowing the vitamin C to absorb first, reducing synergistic effects. Overuse (e.g., concentrations above 2%) may leave a greasy residue without added benefits, as skin absorption is limited (SCCS, 2021).",
+      fr: "Une erreur fréquente est de conserver les produits à base de tocophérol dans des flacons en verre transparent ou dans des environnements chauds, ce qui accélère son oxydation. Les utilisateurs l'appliquent souvent après la crème solaire, ce qui dilue ses bénéfices photoprotecteurs. Une autre erreur est de le mélanger avec la vitamine C en une seule étape sans laisser d'abord la vitamine C pénétrer, réduisant ainsi les effets synergiques. Une utilisation excessive (par exemple, des concentrations supérieures à 2 %) peut laisser un film gras sans bénéfices supplémentaires, car l'absorption cutanée est limitée (SCCS, 2021)."
+    },
+    faq: [
+      {
+        question: {
+          en: "Can vitamin E clog pores or cause acne?",
+          fr: "La vitamine E peut-elle boucher les pores ou provoquer de l'acné ?"
+        },
+        answer: {
+          en: "Pure tocopherol is generally considered non-comedogenic at concentrations up to 2% (CIR, 2002). However, some formulations may include comedogenic carriers like mineral oil or isopropyl myristate. If you have acne-prone skin, opt for lightweight, non-greasy serums or water-based moisturizers. Patch-test new products to avoid breakouts.",
+          fr: "Le tocophérol pur est généralement considéré comme non comédogène à des concentrations allant jusqu'à 2 % (CIR, 2002). Cependant, certaines formulations peuvent contenir des excipients comédogènes comme l'huile minérale ou le myristate d'isopropyle. Si tu as la peau acnéique, privilégie des sérums légers ou des crèmes hydratantes à base d'eau. Fais un test cutané avec les nouveaux produits pour éviter les boutons."
+        }
+      },
+      {
+        question: {
+          en: "Is natural or synthetic vitamin E better for skin?",
+          fr: "La vitamine E naturelle ou synthétique est-elle meilleure pour la peau ?"
+        },
+        answer: {
+          en: "Natural d-alpha-tocopherol has higher bioavailability and antioxidant activity than synthetic dl-alpha-tocopherol (Traber et al., Journal of Lipid Research, 1998). However, both forms are effective in topical formulations. Natural vitamin E is often derived from sunflower or soybean oil, while synthetic versions are chemically identical but may include inactive isomers. For sensitive skin, natural sources may be preferable due to lower irritation potential.",
+          fr: "Le d-alpha-tocophérol naturel a une biodisponibilité et une activité antioxydante supérieures à celles du dl-alpha-tocophérol synthétique (Traber et al., Journal of Lipid Research, 1998). Cependant, les deux formes sont efficaces en application topique. La vitamine E naturelle est souvent extraite de l'huile de tournesol ou de soja, tandis que les versions synthétiques sont chimiquement identiques mais peuvent contenir des isomères inactifs. Pour les peaux sensibles, les sources naturelles peuvent être préférables en raison d'un potentiel d'irritation moindre."
+        }
+      },
+      {
+        question: {
+          en: "Does vitamin E help with scars or stretch marks?",
+          fr: "La vitamine E aide-t-elle à atténuer les cicatrices ou les vergetures ?"
+        },
+        answer: {
+          en: "Current evidence does not support the use of topical vitamin E for improving scar appearance. A 2016 Cochrane review found no significant benefit for scar treatment (O'Brien and Jones, Cochrane Database of Systematic Reviews). For stretch marks, a 2012 study by Ud-Din et al. (Journal of Plastic, Reconstructive & Aesthetic Surgery) showed no difference between tocopherol and placebo. While vitamin E may support skin hydration and elasticity, it is not a proven treatment for scars or stretch marks.",
+          fr: "Les preuves actuelles ne soutiennent pas l'utilisation de la vitamine E topique pour améliorer l'apparence des cicatrices. Une revue Cochrane de 2016 n'a trouvé aucun bénéfice significatif pour le traitement des cicatrices (O'Brien et Jones, Cochrane Database of Systematic Reviews). Pour les vergetures, une étude de 2012 par Ud-Din et al. (Journal of Plastic, Reconstructive & Aesthetic Surgery) n'a montré aucune différence entre le tocophérol et un placebo. Bien que la vitamine E puisse soutenir l'hydratation et l'élasticité de la peau, elle n'est pas un traitement prouvé pour les cicatrices ou les vergetures."
+        }
+      }
+    ],
+    sources: [
+      {
+        label: "Thiele et al. Vitamin E in human skin. Free Radical Biology and Medicine 1999",
+        url: "https://pubmed.ncbi.nlm.nih.gov/10569635/"
+      },
+      {
+        label: "SCCS. Opinion on Tocopherol. SCCS/1634/21 2021",
+        url: "https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/sccs_o_253.pdf"
+      },
+      {
+        label: "Dreher et al. Topical melatonin in combination with vitamins E and C. Dermatology 2003",
+        url: "https://pubmed.ncbi.nlm.nih.gov/12673075/"
+      },
+      {
+        label: "Niki. Role of vitamin E as a lipid-soluble peroxyl radical scavenger. Free Radical Biology and Medicine 2016",
+        url: "https://pubmed.ncbi.nlm.nih.gov/26708060/"
+      },
+      {
+        label: "CIR. Final report on the safety assessment of tocopherol. International Journal of Toxicology 2002",
+        url: "https://journals.sagepub.com/doi/10.1080/10915810290096513"
+      }
+    ]
+  },
 
 ];
 
