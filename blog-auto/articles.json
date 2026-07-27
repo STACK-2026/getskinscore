@@ -9089,7 +9089,10 @@
     "keywords": "eczema routine, atopic dermatitis, ceramides, colloidal oatmeal, barrier",
     "title": "Eczema barrier repair routine: ceramides, oats and what really works",
     "plan_cluster": "routines-by-concern",
-    "intent_bucket": "informational"
+    "intent_bucket": "informational",
+    "published": true,
+    "done": true,
+    "published_at": "2026-07-27"
   },
   {
     "slug": "hyperpigmentation-hq4-cyspera-tranexamic-2026",
