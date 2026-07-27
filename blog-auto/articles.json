@@ -9102,7 +9102,11 @@
     "keywords": "hyperpigmentation, hydroquinone 4 percent, cyspera, tranexamic acid, kojic",
     "title": "Hyperpigmentation 2026: HQ 4% vs cyspera, tranexamic acid, kojic acid",
     "plan_cluster": "routines-by-concern",
-    "intent_bucket": "comparison"
+    "intent_bucket": "comparison",
+    "published": true,
+    "done": true,
+    "published_at": "2026-07-27",
+    "publishedAt": "2026-07-27"
   },
   {
     "slug": "aging-skin-routine-20s-30s-40s-50s-2026",
