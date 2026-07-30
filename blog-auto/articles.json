@@ -9060,7 +9060,10 @@
     "plan_cluster": "routines-by-concern",
     "intent_bucket": "informational",
     "done": true,
-    "published_at": "2026-07-24"
+    "published_at": "2026-07-24",
+    "published": true,
+    "publishedAt": "2026-07-30",
+    "lastReviewed": "2026-07-30"
   },
   {
     "slug": "rosacea-skincare-routine-evidence-2026",
