@@ -9060,7 +9060,8 @@
     "plan_cluster": "routines-by-concern",
     "intent_bucket": "informational",
     "done": true,
-    "published_at": "2026-07-24"
+    "published_at": "2026-07-24",
+    "published": true
   },
   {
     "slug": "rosacea-skincare-routine-evidence-2026",
@@ -9089,7 +9090,10 @@
     "keywords": "eczema routine, atopic dermatitis, ceramides, colloidal oatmeal, barrier",
     "title": "Eczema barrier repair routine: ceramides, oats and what really works",
     "plan_cluster": "routines-by-concern",
-    "intent_bucket": "informational"
+    "intent_bucket": "informational",
+    "published": true,
+    "published_at": "2026-07-31",
+    "done": true
   },
   {
     "slug": "hyperpigmentation-hq4-cyspera-tranexamic-2026",
