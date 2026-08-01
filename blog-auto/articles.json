@@ -9123,7 +9123,8 @@
     "keywords": "aging skin routine, anti-aging by age, retinoid, peptides, decade",
     "title": "Aging skin by decade: routines for 20s, 30s, 40s and 50s in 2026",
     "plan_cluster": "routines-by-concern",
-    "intent_bucket": "informational"
+    "intent_bucket": "informational",
+    "published": true
   },
   {
     "slug": "chemical-vs-mineral-sunscreen-pros-cons-2026",
