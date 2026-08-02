@@ -9137,7 +9137,9 @@
     "keywords": "chemical vs mineral sunscreen, avobenzone, zinc oxide, titanium dioxide",
     "title": "Chemical vs mineral sunscreen 2026: pros, cons and real science",
     "plan_cluster": "sunscreen-deep-dive",
-    "intent_bucket": "informational"
+    "intent_bucket": "informational",
+    "published": true,
+    "published_at": "2026-08-02T07:11:00+02:00"
   },
   {
     "slug": "eu-vs-us-sunscreen-filters-approved-2026",
