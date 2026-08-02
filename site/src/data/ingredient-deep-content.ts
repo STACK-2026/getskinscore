@@ -1147,6 +1147,92 @@ export const ingredientDeepContent: IngredientDeepContent[] = [
       }
     ]
   },
+  // Auto-enriched alpha-arbutin
+  {
+    id: "alpha-arbutin",
+    speakableTerm: {
+      en: "Alpha-Arbutin",
+      fr: "Alpha-Arbutine"
+    },
+    speakable: {
+      en: "<strong>Alpha-Arbutin</strong> is a gentle, hydroquinone-derived brightening agent that inhibits melanin production by targeting tyrosinase. Supported by clinical reviews, it effectively fades sunspots and post-inflammatory marks with minimal irritation. Best used in serums or creams at 1-2%, but always with daily SPF to prevent pigmentation rebound. A safer alternative to hydroquinone for long-term use.",
+      fr: "<strong>L'alpha-arbutine</strong> est un actif éclaircissant doux, dérivé de l'hydroquinone, qui réduit la production de mélanine en ciblant la tyrosinase. Soutenue par des revues cliniques, elle estompe efficacement les taches solaires et les marques post-inflammatoires avec peu d'irritation. Idéale en sérum ou crème à 1-2%, mais toujours associée à un SPF quotidien pour éviter la réapparition des taches. Une alternative plus sûre à l'hydroquinone pour un usage prolongé."
+    },
+    mechanism: {
+      en: "Alpha-arbutin (4-hydroxyphenyl-α-D-glucopyranoside) is a glycosylated hydroquinone. Upon application, epidermal β-glucosidases hydrolyze its glycosidic bond, releasing hydroquinone and glucose. The hydroquinone competitively inhibits tyrosinase by binding to its copper-active site, reducing melanin synthesis. Unlike free hydroquinone, alpha-arbutin's controlled release minimizes cytotoxicity. It also downregulates MITF (microphthalmia-associated transcription factor), reducing tyrosinase expression. Additionally, it scavenges reactive oxygen species, mitigating oxidative stress that can trigger melanocyte hyperactivity.",
+      fr: "L'alpha-arbutine (4-hydroxyphényl-α-D-glucopyranoside) est un hydroquinone glycosylé. Après application, les β-glucosidases épidermiques hydrolysent sa liaison glycosidique, libérant de l'hydroquinone et du glucose. L'hydroquinone inhibe de manière compétitive la tyrosinase en se liant à son site actif contenant du cuivre, réduisant ainsi la synthèse de mélanine. Contrairement à l'hydroquinone libre, la libération contrôlée de l'alpha-arbutine minimise la cytotoxicité. Elle régule également à la baisse le facteur de transcription MITF, réduisant l'expression de la tyrosinase. De plus, elle piège les espèces réactives de l'oxygène, limitant le stress oxydatif qui peut activer les mélanocytes."
+    },
+    evidence: {
+      en: "The European Commission's Scientific Committee on Consumer Safety (SCCS) concluded in 2021 that alpha-arbutin is safe up to 2% in leave-on products, with no genotoxic or carcinogenic risks (SCCS/1637/21). A 2014 study by Sugimoto et al. (Biological and Pharmaceutical Bulletin) demonstrated that alpha-arbutin inhibits tyrosinase activity in vitro more effectively than arbutin, with reduced cytotoxicity. A 2019 review by Boo (International Journal of Molecular Sciences) highlighted its efficacy in treating hyperpigmentation, particularly in Fitzpatrick skin types III-V, though noted that clinical trials remain limited. DermNet NZ cites alpha-arbutin as a well-tolerated alternative to hydroquinone, with fewer side effects. The Cosmetic Ingredient Review (CIR) panel reaffirmed its safety in 2020, emphasizing its stability in formulations.",
+      fr: "Le Comité scientifique pour la sécurité des consommateurs (SCCS) de la Commission européenne a conclu en 2021 que l'alpha-arbutine était sûre jusqu'à 2% dans les produits sans rinçage, sans risque génotoxique ou cancérigène (SCCS/1637/21). Une étude de 2014 par Sugimoto et al. (Biological and Pharmaceutical Bulletin) a démontré que l'alpha-arbutine inhibait l'activité de la tyrosinase in vitro plus efficacement que l'arbutine, avec une cytotoxicité réduite. Une revue de 2019 par Boo (International Journal of Molecular Sciences) a souligné son efficacité dans le traitement de l'hyperpigmentation, en particulier pour les phototypes III à V de Fitzpatrick, tout en notant que les essais cliniques restent limités. DermNet NZ cite l'alpha-arbutine comme une alternative bien tolérée à l'hydroquinone, avec moins d'effets secondaires. Le panel du Cosmetic Ingredient Review (CIR) a réaffirmé sa sécurité en 2020, en insistant sur sa stabilité dans les formulations."
+    },
+    dosing: {
+      en: "Alpha-arbutin is effective at concentrations between 0.5% and 2%. The SCCS considers 2% safe for leave-on products, while rinse-off formulations are typically limited to 0.2% (SCCS/1637/21). For optimal results, apply a serum or cream containing 1-2% alpha-arbutin twice daily to clean, dry skin. Layer under moisturizer and always follow with broad-spectrum SPF 30+ in the morning, as UV exposure can reverse brightening effects. Visible improvements may take 6-12 weeks. Avoid combining with high concentrations of exfoliating acids (e.g., 10% glycolic acid) in the same routine to prevent irritation.",
+      fr: "L'alpha-arbutine est efficace à des concentrations comprises entre 0,5% et 2%. Le SCCS considère que 2% est sûr pour les produits sans rinçage, tandis que les formulations à rincer sont généralement limitées à 0,2% (SCCS/1637/21). Pour des résultats optimaux, applique un sérum ou une crème contenant 1 à 2% d'alpha-arbutine deux fois par jour sur une peau propre et sèche. Superpose avec une crème hydratante et utilise toujours un SPF 30+ à large spectre le matin, car l'exposition aux UV peut annuler les effets éclaircissants. Les améliorations visibles peuvent prendre 6 à 12 semaines. Évite de combiner avec des concentrations élevées d'acides exfoliants (par exemple, 10% d'acide glycolique) dans la même routine pour prévenir les irritations."
+    },
+    interactions: {
+      en: "Alpha-arbutin pairs well with niacinamide, which enhances brightening by inhibiting melanosome transfer. It can be layered with vitamin C (L-ascorbic acid) for synergistic antioxidant benefits, but apply vitamin C first to maintain its low pH. Avoid concurrent use with high-strength retinoids (e.g., tretinoin 0.05%) or strong acids (e.g., 15% azelaic acid) in the same routine, as this may increase irritation. If combining, alternate evenings. Alpha-arbutin is stable with most preservatives, but avoid formulations with high alcohol content, as it may reduce efficacy.",
+      fr: "L'alpha-arbutine se marie bien avec la niacinamide, qui renforce l'éclaircissement en inhibant le transfert des mélanosomes. Tu peux la superposer à la vitamine C (acide L-ascorbique) pour des bénéfices antioxydants synergiques, mais applique d'abord la vitamine C pour maintenir son pH bas. Évite de l'utiliser en même temps que des rétinoïdes à haute concentration (par exemple, trétinoïne 0,05%) ou des acides forts (par exemple, acide azélaïque à 15%) dans la même routine, car cela peut augmenter l'irritation. Si tu veux les combiner, alterne les soirs. L'alpha-arbutine est stable avec la plupart des conservateurs, mais évite les formulations à forte teneur en alcool, car cela peut réduire son efficacité."
+    },
+    mistakes: {
+      en: "A common mistake is expecting rapid results. Alpha-arbutin requires consistent use for 6-12 weeks to show visible brightening. Another error is skipping SPF, which can lead to rebound pigmentation, particularly in darker skin tones. Some users layer alpha-arbutin with incompatible actives like high-percentage AHAs/BHAs in the same routine, causing irritation. Finally, storing products in warm or humid environments can degrade alpha-arbutin. Always keep serums in a cool, dark place to maintain potency.",
+      fr: "Une erreur fréquente est d'attendre des résultats rapides. L'alpha-arbutine nécessite une utilisation régulière pendant 6 à 12 semaines pour montrer un éclaircissement visible. Une autre erreur est de négliger la protection solaire, ce qui peut entraîner une réapparition des taches, surtout pour les peaux mates. Certains utilisateurs superposent l'alpha-arbutine avec des actifs incompatibles comme des AHA/BHA à haute concentration dans la même routine, provoquant des irritations. Enfin, conserver les produits dans un environnement chaud ou humide peut dégrader l'alpha-arbutine. Garde toujours tes sérums dans un endroit frais et à l'abri de la lumière pour préserver leur efficacité."
+    },
+    faq: [
+      {
+        question: {
+          en: "Is alpha-arbutin safe for pregnant or breastfeeding women?",
+          fr: "L'alpha-arbutine est-elle sûre pendant la grossesse ou l'allaitement ?"
+        },
+        answer: {
+          en: "There are no specific guidelines from the SCCS or ACOG on alpha-arbutin use during pregnancy or breastfeeding. As a hydroquinone derivative, it is generally advised to avoid it unless approved by a healthcare provider. Topical use at low concentrations (≤2%) is unlikely to pose systemic risks, but data is limited. Pregnancy-safe alternatives like azelaic acid or niacinamide are recommended if concerned.",
+          fr: "Il n'existe pas de recommandations spécifiques du SCCS ou de l'ACOG sur l'utilisation de l'alpha-arbutine pendant la grossesse ou l'allaitement. En tant que dérivé de l'hydroquinone, il est généralement conseillé de l'éviter sauf avis médical. Une utilisation topique à faible concentration (≤2%) ne présente probablement pas de risques systémiques, mais les données sont limitées. Des alternatives sûres pendant la grossesse comme l'acide azélaïque ou la niacinamide sont recommandées si tu es inquiète."
+        }
+      },
+      {
+        question: {
+          en: "Can alpha-arbutin cause skin purging?",
+          fr: "L'alpha-arbutine peut-elle provoquer un « purge » cutané ?"
+        },
+        answer: {
+          en: "No, alpha-arbutin does not cause purging. Purging occurs with actives that increase cell turnover, such as retinoids or AHAs, leading to temporary breakouts. Alpha-arbutin works by inhibiting tyrosinase, not accelerating exfoliation. If breakouts occur, they may be due to comedogenic ingredients in the formulation or irritation from layering incompatible products. Patch-test new products to rule out sensitivity.",
+          fr: "Non, l'alpha-arbutine ne provoque pas de « purge » cutané. Ce phénomène survient avec des actifs qui accélèrent le renouvellement cellulaire, comme les rétinoïdes ou les AHA, entraînant des éruptions temporaires. L'alpha-arbutine agit en inhibant la tyrosinase, pas en exfoliant. Si des boutons apparaissent, cela peut être dû à des ingrédients comédogènes dans la formulation ou à une irritation causée par la superposition de produits incompatibles. Fais un test cutané avec les nouveaux produits pour écarter une sensibilité."
+        }
+      },
+      {
+        question: {
+          en: "Does alpha-arbutin work on all types of hyperpigmentation?",
+          fr: "L'alpha-arbutine agit-elle sur tous les types d'hyperpigmentation ?"
+        },
+        answer: {
+          en: "Alpha-arbutin is most effective for epidermal hyperpigmentation, such as sunspots and post-inflammatory marks. It is less effective for dermal pigmentation (e.g., deep melasma or nevus of Ota), which often requires professional treatments like lasers. A 2019 review by Boo (International Journal of Molecular Sciences) noted its efficacy in superficial pigmentation but emphasized the need for combination therapies for stubborn cases. For mixed-type pigmentation, consult a dermatologist for targeted approaches.",
+          fr: "L'alpha-arbutine est plus efficace sur l'hyperpigmentation épidermique, comme les taches solaires et les marques post-inflammatoires. Elle est moins efficace sur la pigmentation dermique (par exemple, mélasma profond ou nævus de Ota), qui nécessite souvent des traitements professionnels comme les lasers. Une revue de 2019 par Boo (International Journal of Molecular Sciences) a souligné son efficacité sur la pigmentation superficielle, mais a insisté sur la nécessité de thérapies combinées pour les cas tenaces. Pour une pigmentation mixte, consulte un dermatologue pour des approches ciblées."
+        }
+      }
+    ],
+    sources: [
+      {
+        label: "SCCS. Opinion on Alpha-Arbutin. SCCS 2021",
+        url: "https://ec.europa.eu/health/scientific_committees/consumer_safety/docs/sccs_o_250.pdf"
+      },
+      {
+        label: "Sugimoto K et al. Inhibitory effects of alpha-arbutin on melanin synthesis. Biological and Pharmaceutical Bulletin 2014",
+        url: "https://pubmed.ncbi.nlm.nih.gov/24492959/"
+      },
+      {
+        label: "Boo YC. Arbutin as a Skin Depigmenting Agent with Antimelanogenic and Antioxidant Properties. International Journal of Molecular Sciences 2019",
+        url: "https://pubmed.ncbi.nlm.nih.gov/31336850/"
+      },
+      {
+        label: "Cosmetic Ingredient Review. Safety Assessment of Arbutin and Alpha-Arbutin. CIR 2020",
+        url: "https://www.cir-safety.org/sites/default/files/arbutin.pdf"
+      },
+      {
+        label: "DermNet NZ. Alpha-Arbutin. DermNet NZ 2023",
+        url: "https://dermnetnz.org/topics/alpha-arbutin"
+      }
+    ]
+  },
 
 ];
 
