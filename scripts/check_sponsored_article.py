@@ -27,7 +27,13 @@ def markdown_to_prose(markdown: str) -> str:
     return re.sub(r"[#>*_`~|]", " ", text)
 
 
-def validate(path: Path, target_url: str, minimum_words: int, max_link_word: int) -> list[str]:
+def validate(
+    path: Path,
+    target_url: str,
+    minimum_words: int,
+    max_link_word: int,
+    anchor_text: str | None = None,
+) -> list[str]:
     if not path.is_file():
         return [f"article not found: {path}"]
 
@@ -59,6 +65,28 @@ def validate(path: Path, target_url: str, minimum_words: int, max_link_word: int
             )
         if re.search(r"rel=[\"'][^\"']*nofollow", target_match.group(0), re.IGNORECASE):
             errors.append("target link contains rel=nofollow")
+
+        if anchor_text is not None:
+            markdown_anchor = re.search(
+                rf"\[(?P<label>[^\]]+)\]\({re.escape(target_url)}\)",
+                body,
+            )
+            html_anchor = re.search(
+                rf"<a\s+[^>]*href=[\"']{re.escape(target_url)}[\"'][^>]*>"
+                rf"(?P<label>.*?)</a>",
+                body,
+                flags=re.IGNORECASE | re.DOTALL,
+            )
+            actual_anchor = markdown_anchor or html_anchor
+            actual_text = (
+                re.sub(r"<[^>]+>", "", actual_anchor.group("label")).strip()
+                if actual_anchor
+                else None
+            )
+            if actual_text != anchor_text:
+                errors.append(
+                    f"target link anchor is {actual_text!r}; expected {anchor_text!r}"
+                )
 
     has_frontmatter_image = bool(re.search(r"(?m)^image:\s*[\"']?\S+", frontmatter))
     has_body_image = bool(re.search(r"!\[[^\]]*\]\([^)]+\)", body))
@@ -95,11 +123,18 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("article", type=Path)
     parser.add_argument("--target-url", required=True)
+    parser.add_argument("--anchor-text")
     parser.add_argument("--minimum-words", type=int, default=1000)
     parser.add_argument("--max-link-word", type=int, default=150)
     args = parser.parse_args()
 
-    errors = validate(args.article, args.target_url, args.minimum_words, args.max_link_word)
+    errors = validate(
+        args.article,
+        args.target_url,
+        args.minimum_words,
+        args.max_link_word,
+        args.anchor_text,
+    )
     if errors:
         for error in errors:
             print(f"FAIL: {error}", file=sys.stderr)

@@ -14,7 +14,7 @@ lang: "fr"
 
 *Article sponsorisé. Le contenu a été rédigé librement par la rédaction de SkinScore.*
 
-Choisir une coloration permanente ne consiste pas seulement à préférer le châtain au blond. La bonne teinte doit tenir compte de ta base actuelle, du reflet recherché, de la proportion de cheveux blancs et de l'entretien que tu acceptes. Pour visualiser les familles de nuances et les soins associés, tu peux commencer par consulter [l'univers capillaire KORRES](https://www.korres.fr/), puis revenir à ta propre chevelure : c'est elle qui détermine le résultat possible.
+Choisir une coloration permanente ne consiste pas seulement à préférer le châtain au blond. La bonne teinte doit tenir compte de ta base actuelle, du reflet recherché, de la proportion de cheveux blancs et de l'entretien que tu acceptes. Pour visualiser les familles de nuances et les soins associés, tu peux commencer par consulter [https://www.korres.fr/](https://www.korres.fr/), puis revenir à ta propre chevelure : c'est elle qui détermine le résultat possible.
 
 Le piège le plus fréquent est de choisir d'après la photo du mannequin sur la boîte. Cette image illustre une intention, pas un résultat garanti. Une même formule posée sur un blond foncé naturel, un châtain déjà coloré ou des cheveux blancs ne produit pas exactement la même couleur. Voici une méthode simple et réaliste pour comparer les options sans se laisser guider uniquement par le nom séduisant d'une nuance.
 
