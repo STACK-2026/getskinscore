@@ -9165,7 +9165,11 @@
     "keywords": "tinted SPF, iron oxide, hyperpigmentation, visible light, melasma",
     "title": "Best tinted SPF for hyperpigmentation 2026: iron oxide deep dive",
     "plan_cluster": "sunscreen-deep-dive",
-    "intent_bucket": "commercial"
+    "intent_bucket": "commercial",
+    "done": true,
+    "published": true,
+    "published_at": "2026-08-07",
+    "publishedAt": "2026-08-07"
   },
   {
     "slug": "spf-30-vs-spf-50-real-difference-math-2026",
