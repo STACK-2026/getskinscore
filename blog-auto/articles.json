@@ -9152,7 +9152,9 @@
     "keywords": "EU vs US sunscreen filters, tinosorb, bemotrizinol, FDA, mexoryl",
     "title": "EU vs US sunscreen filters 2026: why Americans are stuck behind",
     "plan_cluster": "sunscreen-deep-dive",
-    "intent_bucket": "informational"
+    "intent_bucket": "informational",
+    "published": true,
+    "published_date": "2026-08-07"
   },
   {
     "slug": "best-tinted-spf-hyperpigmentation-iron-oxide-2026",
